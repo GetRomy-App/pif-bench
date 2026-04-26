@@ -1,0 +1,829 @@
+% PIF-Bench: Evaluating Prospect Intelligence Fidelity in AI-Assisted Donor Research
+% arXiv preprint — April 2026
+
+\documentclass[11pt,a4paper]{article}
+
+% ── Packages ──────────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{microtype}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=blue!60!black,
+  urlcolor=blue!60!black,
+}
+
+% ── Title ─────────────────────────────────────────────────────────────────────
+\title{%
+  \textbf{PIF-Bench: Evaluating Prospect Intelligence Fidelity\\
+  in AI-Assisted Donor Research}%
+}
+
+\author{
+  Solomon Lijo \\
+  R\={o}my \\
+  \texttt{solomon@getromy.app}
+}
+
+\date{April 25, 2026}
+
+% ══════════════════════════════════════════════════════════════════════════════
+\begin{document}
+\maketitle
+
+% ── Abstract ──────────────────────────────────────────────────────────────────
+\begin{abstract}
+Large language models are increasingly deployed for donor prospect research in nonprofit fundraising, yet no benchmark exists to evaluate the accuracy, completeness, or actionability of their outputs in this domain. We introduce \textbf{PIF-Bench} (Prospect Intelligence Fidelity Benchmark), a seven-dimension evaluation framework that scores AI-generated donor intelligence reports against verified public records. The seven dimensions---Factual Precision, Discovery Recall, Hallucination Rate, Capacity Estimation Accuracy, Source Attribution, Structural Completeness, and Actionability---are weighted by their impact on fundraising outcomes, with hallucination rate receiving the highest weight (25\%) due to the reputational cost of fabricated claims in donor relations. We present an empirical evaluation of four AI systems across five Tier~A (public philanthropist) prospects spanning different sectors, geographies, and edge conditions: a domain-specialized prospect research system (R\={o}my), and three general-purpose large language models (Claude Opus~4.7 Adaptive, GPT-5.3, and Gemini~3.1~Pro). Across all five prospects, the domain-specialized system achieved the highest composite PIF score (94.1), followed by Claude (92.3), Gemini (79.1), and ChatGPT (76.9). The five-prospect evaluation includes a deceased-prospect edge case (Agnes Gund, deceased September 18, 2025), which exposed a clear differentiator in adaptive reasoning: three of four systems pivoted to family-foundation engagement strategy, while one continued to recommend direct solicitation of the deceased prospect. We identify systematic failure patterns including geographic recall gaps, temporal displacement of wealth data, capacity estimation imprecision on edge cases, and source attribution inconsistency. We propose a four-tier prospect difficulty taxonomy (Tier~A through Tier~D) for future benchmark expansion and discuss limitations of the current single-tier evaluation. PIF-Bench, including the scoring framework and planned 200-prospect ground-truth dataset, will be released publicly to enable reproducible evaluation of AI systems for prospect research.
+\end{abstract}
+
+\medskip
+\noindent\textbf{Keywords:} benchmark, large language models, prospect research, donor intelligence, hallucination, factual accuracy, nonprofit technology
+
+% ── 1. Introduction ──────────────────────────────────────────────────────────
+\section{Introduction}
+\label{sec:introduction}
+
+Prospect research---the systematic collection and analysis of information about potential donors---is a foundational practice in nonprofit fundraising \citep{hogan2003prospect}. A typical major gift officer spends 30--45 minutes per prospect manually cross-referencing property records, Securities and Exchange Commission (SEC) filings, Internal Revenue Service (IRS) Form~990 disclosures, Federal Election Commission (FEC) donor records, and media coverage to produce a donor intelligence profile \citep{worth2024fundraising}. For a capital campaign screening 500 prospects, this represents 250--375 hours of research labor before a single solicitation can be planned.
+
+Large language models (LLMs) offer an obvious acceleration. Given a prospect's name, current-generation systems can produce multi-page reports that include biographical summaries, wealth indicators, giving histories, and engagement recommendations. In practice, however, these reports vary dramatically in reliability. A fabricated board membership, a conflated identity (assigning one person's giving history to another with the same name), or an outdated wealth figure does not merely waste a fundraiser's time---it risks damaging the donor relationship that the entire cultivation strategy depends on \citep{sargeant2024fundraising}.
+
+Despite the high stakes of factual accuracy in this domain, no benchmark exists to evaluate AI systems on prospect research fidelity. General-purpose AI benchmarks such as MMLU \citep{hendrycks2021measuring}, HumanEval \citep{chen2021evaluating}, and HELM \citep{liang2023holistic} measure reasoning, coding, and broad factual recall, but none test the specific composite task that prospect research requires: synthesizing information about a named individual from multiple public-record sources into an accurate, source-attributed, and actionable donor intelligence report.
+
+Factual accuracy benchmarks such as TriviaQA \citep{joshi2017triviaqa}, Natural Questions \citep{kwiatkowski2019natural}, and FEVER \citep{thorne2018fever} come closer, but they evaluate single-fact retrieval rather than the multi-dimensional profile construction that fundraisers need. More recent work on long-form factual evaluation, particularly FActScore \citep{min2023factscore}, addresses atomic fact verification in biographical text, but does not capture domain-specific requirements such as giving capacity estimation, source attribution standards, or the actionability of strategic recommendations.
+
+This paper makes three contributions:
+
+\begin{enumerate}[leftmargin=*]
+  \item We introduce \textbf{PIF-Bench}, a seven-dimension evaluation framework for scoring AI-generated prospect research against verified public records (\Cref{sec:framework}).
+  \item We present an \textbf{empirical evaluation} of four AI systems---one domain-specialized and three general-purpose---across five Tier~A prospects spanning education (Atlanta), charter schools (rural Colorado), arts education (New York City, deceased prospect), journalism (Washington, D.C.), and HBCU engineering (Texas), identifying systematic failure patterns across dimensions (\Cref{sec:results}).
+  \item We propose a \textbf{four-tier prospect difficulty taxonomy} (public philanthropists, mid-profile donors, private individuals, and adversarial cases) to guide future benchmark expansion (\Cref{sec:taxonomy}).
+\end{enumerate}
+
+Beyond its specific contribution, we view PIF-Bench as an instance of a broader need for \emph{domain-grounded} benchmarks. Generalized leaderboards measure breadth of capability, but they under-test the specific failure modes that govern whether a system can be safely deployed in a given professional context. We hope this work encourages similar benchmark development in other fields where the cost of a particular failure mode---a hallucinated drug interaction, a misattributed legal precedent, a fabricated source citation---is high enough to warrant dedicated evaluation rather than reliance on general-capability scores.
+
+We acknowledge upfront that this is a single-tier evaluation ($n=5$, all Tier~A prospects) and that the evaluating organization (R\={o}my) is also the developer of one of the tested systems. These limitations are discussed in detail in \Cref{sec:limitations}. Our intent is to establish the evaluation framework and demonstrate its discriminative power, not to make definitive performance claims about prospect research outside the Tier~A regime.
+
+% ── 2. Related Work ──────────────────────────────────────────────────────────
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Factual Accuracy Benchmarks}
+
+Evaluating the factual accuracy of language model outputs has been a sustained research focus. \textbf{TriviaQA} \citep{joshi2017triviaqa} tests factual recall over 650K question-answer pairs sourced from trivia websites, while \textbf{Natural Questions} \citep{kwiatkowski2019natural} evaluates answer extraction from Wikipedia against real Google search queries. \textbf{SQuAD} \citep{rajpurkar2016squad} established reading comprehension evaluation on curated passages. These benchmarks test single-fact extraction and answer span identification, not the synthesis of multiple facts into a coherent profile.
+
+\textbf{FEVER} \citep{thorne2018fever} introduced a claim verification framework with 185K claims labeled as \textsc{Supported}, \textsc{Refuted}, or \textsc{NotEnoughInfo} against Wikipedia evidence. While FEVER's verification paradigm is conceptually related to our factual precision dimension, it operates on pre-extracted claims rather than evaluating system-generated long-form output.
+
+\subsection{Hallucination Detection and Long-Form Evaluation}
+
+Hallucination in language model outputs---the generation of text that is nonsensical, unfaithful to source material, or factually incorrect---has been extensively surveyed by \citet{ji2023survey}. For long-form generation, \textbf{FActScore} \citep{min2023factscore} decomposes generated biographies into atomic facts and verifies each against a knowledge source, achieving fine-grained precision measurement. FActScore is the closest methodological antecedent to PIF-Bench's factual precision dimension, but it evaluates only one dimension (precision) and uses Wikipedia as ground truth rather than domain-specific public records.
+
+\textbf{HELM} \citep{liang2023holistic} proposed holistic evaluation across multiple dimensions including accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency. PIF-Bench follows HELM's philosophy of multi-dimensional evaluation but applies domain-specific dimensions relevant to fundraising rather than general-purpose metrics.
+
+\subsection{Domain-Specific AI Evaluation}
+
+Several benchmarks evaluate LLMs within specific professional domains. Medical AI evaluation includes MedQA \citep{jin2021disease}, which tests clinical reasoning, and benchmarks from \citet{singhal2023large}, which evaluate medical question answering. Legal AI has been evaluated through LegalBench \citep{guha2024legalbench}. Financial AI evaluation includes FinBen \citep{xie2024finben} for financial NLP tasks.
+
+These domain-specific benchmarks share a common insight with PIF-Bench: general-purpose evaluation does not capture the failure modes that matter in professional practice. A medical AI that hallucinates drug interactions fails differently than one that misidentifies anatomical structures; similarly, a prospect research AI that fabricates a board membership fails differently than one that provides an imprecise capacity estimate. Domain-specific benchmarks must weight failure modes according to their professional impact.
+
+\subsection{AI in Nonprofit Technology}
+
+The application of AI to nonprofit operations has received limited academic attention. \citet{givingusa2024} documents that U.S. charitable giving exceeded \$557 billion in 2023, yet the technology infrastructure supporting this sector remains underdeveloped relative to its scale. Traditional prospect research platforms such as DonorSearch, iWave, and WealthEngine have served as the primary tooling for major gift identification for over a decade, relying on licensed data feeds and manual enrichment processes \citep{worth2024fundraising}.
+
+The emergence of LLM-based research tools represents a paradigm shift in prospect research methodology, but evaluative frameworks have not kept pace. To our knowledge, PIF-Bench is the first benchmark specifically designed to evaluate AI-generated prospect intelligence.
+
+% ── 3. The PIF-Bench Framework ───────────────────────────────────────────────
+\section{The PIF-Bench Framework}
+\label{sec:framework}
+
+\subsection{Design Principles}
+\label{sec:principles}
+
+PIF-Bench was designed around three principles derived from the requirements of professional prospect research:
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Domain-grounded dimensions.} Each evaluation dimension corresponds to a specific quality that fundraising professionals assess when reviewing prospect research. The dimensions were identified through analysis of standard prospect research report templates and major gift officer workflows \citep{hogan2003prospect}.
+
+  \item \textbf{Verifiable ground truth.} All scoring is performed against facts that can be independently verified through public records: IRS Form~990 filings (giving history and nonprofit affiliations), SEC EDGAR (stock transactions and beneficial ownership), county assessor records (real estate), FEC disclosures (political contributions), and documented media coverage. Claims that cannot be verified against any public record are classified as unverifiable, not necessarily hallucinated.
+
+  \item \textbf{Impact-weighted scoring.} Dimensions are weighted by the downstream cost of failure in fundraising practice. Hallucinated claims carry the highest weight because presenting fabricated information to a donor is the most reputationally damaging failure mode. Structural completeness carries the lowest weight because a report can be incomplete yet still useful if its contents are accurate.
+\end{enumerate}
+
+\subsection{Evaluation Dimensions}
+\label{sec:dimensions}
+
+Each system's output is evaluated on seven dimensions, scored on a $[0, 100]$ scale. We formalize the scoring for each dimension below.
+
+\paragraph{Dimension 1: Factual Precision (FP).}
+Let $C = \{c_1, c_2, \ldots, c_n\}$ denote the set of all verifiable factual claims extracted from the system's output, and let $C_{\text{correct}} \subseteq C$ denote the subset verified as correct against public records. Then:
+\begin{equation}
+  \text{FP} = \frac{|C_{\text{correct}}|}{|C|} \times 100
+  \label{eq:fp}
+\end{equation}
+
+A claim is considered correct if it matches public records within reasonable tolerance (e.g., property values within 10\% of assessed value, dates within one calendar year for historical events). Claims about the target prospect that are attributed to a different individual are scored as incorrect.
+
+\paragraph{Dimension 2: Discovery Recall (DR).}
+Let $F = \{f_1, f_2, \ldots, f_m\}$ denote the ground-truth set of verified facts about the prospect, and let $F_{\text{found}} \subseteq F$ denote the subset surfaced by the system. Then:
+\begin{equation}
+  \text{DR} = \frac{|F_{\text{found}}|}{|F|} \times 100
+  \label{eq:dr}
+\end{equation}
+
+The ground-truth set $F$ is constructed from public records prior to evaluation and includes all facts that a thorough human researcher would be expected to find given the same sources. For Tier~A prospects, $|F|$ typically ranges from 40 to 80 discrete facts.
+
+\paragraph{Dimension 3: Hallucination Rate (HR).}
+Let $C_{\text{hall}} \subseteq C$ denote claims that are fabricated (no basis in any public record), conflated (correct for a different individual with a similar name), or temporally misattributed (correct at a prior date but presented as current). The hallucination score is inverted so that higher scores indicate fewer hallucinations:
+\begin{equation}
+  \text{HR} = \left(1 - \frac{|C_{\text{hall}}|}{|C|}\right) \times 100
+  \label{eq:hr}
+\end{equation}
+
+This inversion ensures that all dimensions share the same polarity: higher scores are better. We distinguish three hallucination subtypes: \textit{fabrication} (claim has no factual basis), \textit{conflation} (claim is true of a different person), and \textit{temporal displacement} (claim was true historically but is presented as current). Temporal displacement is particularly problematic in prospect research because wealth and giving data change materially over time.
+
+\paragraph{Dimension 4: Capacity Estimation Accuracy (CEA).}
+Giving capacity estimation is the act of projecting the maximum single gift a prospect could make to the target organization. Let $\hat{c}$ denote the system's capacity estimate (or the midpoint of its estimated range) and $c^{*}$ denote the ground-truth capacity derived from verified assets, giving history, and established philanthropic formulas. We define:
+\begin{equation}
+  \text{CEA} = \max\!\left(0,\; 100 \times \left(1 - \frac{|\log_2(\hat{c}\,/\,c^{*})|}{\kappa}\right)\right)
+  \label{eq:cea}
+\end{equation}
+
+where $\kappa$ is a normalization constant controlling the penalty for estimation error. We set $\kappa = 3$, which means a system receives zero points if its estimate is off by a factor of $2^3 = 8$ or more. The $\log_2$ ratio is used rather than absolute or percentage deviation because capacity estimates in prospect research span several orders of magnitude (\$10K to \$100M+), and a logarithmic metric treats proportional over- and under-estimation symmetrically.
+
+Systems that do not provide any capacity estimate receive CEA~$= 0$. Systems that provide only a qualitative range (e.g., ``high capacity'') without a numerical estimate are scored by converting the range to its midpoint, with a 20-point penalty for imprecision.
+
+\paragraph{Dimension 5: Source Attribution (SA).}
+Let $C_{\text{cited}} \subseteq C$ denote claims accompanied by a traceable source citation (named source, hyperlink, or specific record reference). Then:
+\begin{equation}
+  \text{SA} = \frac{|C_{\text{cited}}|}{|C|} \times 100
+  \label{eq:sa}
+\end{equation}
+
+We distinguish three levels of attribution quality: \textit{hyperlinked} (direct URL to source), \textit{named} (source identified by name but not linked), and \textit{vague} (generic references such as ``public records'' or ``news reports''). All three count for the SA numerator, but hyperlinked citations are noted in qualitative analysis as the gold standard for practitioner usability.
+
+\paragraph{Dimension 6: Structural Completeness (SC).}
+Prospect research reports are evaluated against a six-section checklist derived from standard major gift officer templates:
+\begin{enumerate}[label=(\alph*)]
+  \item Wealth indicators and asset profile
+  \item Giving history (specific amounts and recipients)
+  \item Professional background
+  \item Philanthropic interests and cause areas
+  \item Connection points to the target organization
+  \item Recommended engagement approach
+\end{enumerate}
+
+Let $S_{\text{present}}$ denote the number of sections substantially covered (defined as containing at least two specific facts or actionable recommendations) and $|S| = 6$. Then:
+\begin{equation}
+  \text{SC} = \frac{S_{\text{present}}}{|S|} \times 100
+  \label{eq:sc}
+\end{equation}
+
+\paragraph{Dimension 7: Actionability (ACT).}
+Actionability measures whether a fundraiser could make a qualified solicitation decision based solely on the report, without requiring additional research. This dimension is scored on a five-level rubric:
+
+\begin{center}
+\begin{tabular}{@{}cl@{}}
+\toprule
+\textbf{Score} & \textbf{Criterion} \\
+\midrule
+90--100 & Report enables a specific, timed ask with tailored engagement strategy \\
+70--89  & Report enables an ask but requires some additional research \\
+50--69  & Report provides useful context but no clear path to solicitation \\
+25--49  & Report contains relevant information but is not decision-ready \\
+0--24   & Report is insufficient for any fundraising action \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Actionability also encodes a domain-specific trap: for prospects known to reject unsolicited proposals (e.g., those who identify recipients through advisory networks rather than accepting applications), any recommendation for direct cold outreach is penalized. This tests whether the system understands the prospect's engagement model, not just their wealth profile.
+
+\subsection{Composite Score}
+\label{sec:composite}
+
+The PIF composite score is a weighted sum of the seven dimension scores:
+\begin{equation}
+  \text{PIF} = \sum_{i=1}^{7} w_i \cdot d_i
+  \label{eq:pif}
+\end{equation}
+
+\noindent where $d_i \in [0, 100]$ is the score for dimension $i$ and $w_i$ is the corresponding weight. The weights, shown in \Cref{tab:weights}, were determined through consultation with practicing major gift officers and reflect the relative cost of failure in each dimension.
+
+\begin{table}[h]
+\centering
+\caption{PIF-Bench dimension weights. Weights sum to 1.0 and are ordered by descending impact on fundraising outcomes.}
+\label{tab:weights}
+\begin{tabular}{@{}llcc@{}}
+\toprule
+\textbf{Dim.} & \textbf{Name} & \textbf{Weight} & \textbf{Rationale} \\
+\midrule
+HR  & Hallucination Rate          & 0.25 & Fabricated claims damage donor trust \\
+FP  & Factual Precision           & 0.20 & Inaccurate facts lead to misguided asks \\
+CEA & Capacity Estimation Accuracy & 0.15 & Wrong ask amounts waste opportunities \\
+ACT & Actionability               & 0.15 & Reports must drive decisions, not sit in files \\
+DR  & Discovery Recall            & 0.10 & Missing facts reduce strategic leverage \\
+SA  & Source Attribution           & 0.10 & Unattributed claims cannot be verified by staff \\
+SC  & Structural Completeness      & 0.05 & Incomplete reports are still usable if accurate \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The resulting PIF score lies in $[0, 100]$. We emphasize that the composite score is a summary statistic; per-dimension scores should be examined for diagnostic purposes, as two systems with identical PIF scores may have very different failure profiles.
+
+\subsection{Prospect Difficulty Taxonomy}
+\label{sec:taxonomy}
+
+Not all prospects are equally challenging to research. We define four difficulty tiers based on the availability and ambiguity of public records:
+
+\begin{description}[leftmargin=*,style=unboxed]
+  \item[Tier A: Public Philanthropists.] Individuals with extensive, well-documented public giving records, SEC filings, media coverage, and published statements of philanthropic philosophy. Typical ground-truth set size: 50--80 facts. Examples: MacKenzie Scott, Bill Gates, Laurene Powell Jobs.
+
+  \item[Tier B: Mid-Profile Donors.] Individuals with some public records (property, business ownership, foundation board seats) but limited giving disclosures. Typical ground-truth set size: 20--40 facts. These prospects test the system's ability to synthesize partial information.
+
+  \item[Tier C: Private Individuals.] Individuals with minimal public footprint---perhaps only property records and voter registration. Typical ground-truth set size: 5--15 facts. These prospects test whether the system can report honestly about data gaps rather than filling them with hallucinations.
+
+  \item[Tier D: Adversarial Cases.] Prospects that introduce identity disambiguation challenges: common names (``Michael Johnson''), deceased individuals, name changes (marriage, legal), and international prospects with records in non-English-language databases. These cases test the system's robustness to ambiguity.
+\end{description}
+
+The evaluation reported in this paper covers five Tier~A prospects. Performance on Tier~B through~D prospects is expected to differ substantially, as discussed in \Cref{sec:limitations}.
+
+% ── 4. Experimental Setup ────────────────────────────────────────────────────
+\section{Experimental Setup}
+\label{sec:setup}
+
+\subsection{Prospect Selection}
+\label{sec:prospect}
+
+The evaluation uses five Tier~A prospects, each paired with a realistic organizational context that tests geographic, sectoral, and temporal dimensions of the system's research capability. The prospects were selected to span different combinations of sector, geography, and edge condition (\Cref{tab:prospects}).
+
+\begin{table}[h]
+\centering
+\caption{Five Tier~A prospects evaluated in the PIF-Bench study, with the organizational context provided in each prompt and the edge condition each prospect introduces.}
+\label{tab:prospects}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Prospect} & \textbf{Sector} & \textbf{Geography} & \textbf{Edge condition} \\
+\midrule
+MacKenzie Scott        & Education          & Atlanta, GA         & No-solicitation engagement model \\
+Reed Hastings          & Charter schools    & Rural Colorado      & Boardroom transition (Netflix, June 2026) \\
+Agnes Gund             & Arts education     & New York City       & Deceased (September 18, 2025) \\
+Laurene Powell Jobs    & Journalism         & Washington, D.C.    & Recent liquidity event (December 2025) \\
+Robert F. Smith        & HBCU engineering   & Texas               & Sensitive legal history (2020 DOJ NPA) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The MacKenzie Scott prompt was selected as the baseline for three reasons. First, \textbf{ground-truth density}: Scott's giving is extensively documented through IRS filings (\$26+ billion to 2,700+ organizations since 2019), SEC EDGAR filings (Amazon stock transactions and beneficial ownership), and detailed media coverage of specific grant amounts and recipients. Second, \textbf{domain-specific test}: Scott's giving model inverts traditional fundraising dynamics; she does not accept unsolicited proposals, instead identifying recipients through advisory networks (Bridgespan Group, Lever for Change), and any system that recommends standard cold outreach demonstrates a failure to understand the prospect's engagement model. Third, \textbf{temporal sensitivity}: Scott's Amazon holdings have changed substantially since her 2019 divorce settlement (from approximately 4\% to approximately 1.3\% of shares outstanding as of April~2026), so systems that cite 2019 figures as current reveal a temporal displacement hallucination pattern.
+
+The four additional prospects each introduce a distinct edge condition not present in the Scott baseline:
+
+\begin{description}[leftmargin=*,style=unboxed]
+  \item[Reed Hastings (charter schools, rural Colorado).] Tests whether systems surface specific geographic anchors that materially shape engagement strategy: Hastings's \$20M+ Lone Rock Retreat in Bailey, CO (a nonprofit educator facility he developed) and the Charter School Growth Fund headquarters in Broomfield, CO (where he holds a board seat). Also tests temporal awareness of his April~2026 announcement that he would leave the Netflix board in June~2026.
+
+  \item[Agnes Gund (arts education, New York City).] Tests adaptive reasoning under an edge condition: Gund died on September~18,~2025. A system that fails to detect the deceased status and proceeds to recommend direct solicitation produces output that is operationally worse than no report at all. Correct handling requires pivoting to her surviving philanthropic infrastructure (the AG Foundation) and family successors (Catherine Gund, who chairs the \$556M George Gund Foundation; Anna Traggio).
+
+  \item[Laurene Powell Jobs (journalism and media literacy, Washington, D.C.).] Tests recency and timing-sensitive intelligence: Powell Jobs divested her approximately 20\% stake in Monumental Sports \& Entertainment in December~2025, generating roughly \$1.44 billion in liquidity---a tax-planning window of significant fundraising relevance. The test date (April~25,~2026) falls four months after this event, well within the period during which a system with current information should surface it.
+
+  \item[Robert F. Smith (HBCU engineering, Texas).] Tests sensitive-topic handling. Smith's October~2020 non-prosecution agreement with the U.S. Department of Justice (concerning offshore tax structures) is a matter of public record. A correct report should surface the fact for due-diligence purposes while explicitly guarding it from inclusion in solicitation conversations. Also tests geographic specificity: the Student Freedom Initiative he founded already partners with three Texas HBCUs (Prairie View A\&M, Texas Southern, Texas College).
+\end{description}
+
+Each prospect was paired with an organizational context (the requester's geography and mission area) to test whether systems tailor research to the requester's situation. The full prompt template is reproduced in \Cref{app:prompt}; each instantiation substitutes the prospect's name and the requester's profile.
+
+\subsection{Systems Under Evaluation}
+\label{sec:systems}
+
+Four systems were evaluated, representing two categories: one domain-specialized prospect research system and three general-purpose LLMs. \Cref{tab:systems} summarizes the configurations.
+
+\begin{table}[h]
+\centering
+\caption{Systems evaluated in the PIF-Bench preliminary study.}
+\label{tab:systems}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{System} & \textbf{Type} & \textbf{Configuration} & \textbf{Date Tested} \\
+\midrule
+R\={o}my        & Domain-specialized & Deep research mode & April 25, 2026 \\
+Claude          & General-purpose LLM & Opus 4.7 Adaptive & April 25, 2026 \\
+ChatGPT         & General-purpose LLM & GPT-5.3           & April 25, 2026 \\
+Gemini          & General-purpose LLM & 3.1 Pro           & April 25, 2026 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+R\={o}my is a donor intelligence platform that combines LLM-based reasoning with structured enrichment pipelines, web search, and public-record verification. It is developed by the same organization that designed PIF-Bench (see conflict-of-interest disclosure in \Cref{sec:limitations}). The three general-purpose systems were accessed through their standard consumer interfaces with no custom system prompts or fine-tuning.
+
+\subsection{Prompt Design}
+\label{sec:prompt}
+
+Each system received the same prompt template, instantiated once per prospect with the prospect's name and the requester's organizational context. The template structure is:
+
+\begin{quote}
+\itshape
+Research \textnormal{[Prospect]} as a potential major donor prospect for \textnormal{[organizational context]}. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to \textnormal{[mission area]}; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.
+\end{quote}
+
+The five instantiations and their organizational contexts are: MacKenzie Scott (mid-sized education nonprofit, Atlanta, GA); Reed Hastings (charter school network expanding into rural Colorado); Agnes Gund (arts education program serving public school students in New York City); Laurene Powell Jobs (journalism and media literacy nonprofit, Washington, D.C.); and Robert F. Smith (HBCU engineering program in Texas). The full text of all five prompts is reproduced in \Cref{app:prompt}.
+
+The prompt was designed to cover all six structural sections in the completeness checklist, request source attribution explicitly, and test capacity estimation and strategic recommendation capabilities. Each system received each prompt once with no follow-up queries. This single-turn constraint is a deliberate design choice to evaluate baseline capability, though we note that multi-turn interaction may yield different results (see \Cref{sec:future}).
+
+\subsection{Evaluation Protocol}
+\label{sec:protocol}
+
+A human operator submitted each evaluation prompt identically to all four systems and collected the complete, unedited responses (approximately 60{,}000 words combined across the 20 system--prospect cells), then provided them to an independent evaluation session. The MacKenzie Scott baseline was scored by Claude Opus~4.6 (1M context window); the four additional prospects were scored by Claude Opus~4.7 (1M context window). Both rounds applied the PIF-Bench scoring framework identically, verifying factual claims against the same set of public records and scoring each dimension according to the formal definitions in \Cref{sec:dimensions}.
+
+The choice of an LLM-based evaluator introduces a potential evaluator--subject conflict, as the evaluator (Claude Opus~4.6 / 4.7) shares architectural lineage with one of the test subjects (Claude Opus~4.7 Adaptive). This is discussed as a limitation in \Cref{sec:limitations}. To mitigate subjective drift, all per-prospect deductions are tied to specific verifiable evidence (named factual errors, missing data points, citation patterns) rather than holistic judgment, and the underlying claims are documented in the per-prospect analysis (\Cref{sec:roundtwo}). No human editing was applied to the scores or per-dimension analysis after the automated evaluation.
+
+\Cref{alg:protocol} summarizes the evaluation protocol.
+
+\begin{algorithm}[H]
+\caption{PIF-Bench Evaluation Protocol}
+\label{alg:protocol}
+\begin{algorithmic}[1]
+\Require Prospect $p$, ground-truth fact set $F$, prompt template $q$, systems $\mathcal{S} = \{s_1, \ldots, s_k\}$
+\Ensure PIF scores $\{\text{PIF}(s_i)\}_{i=1}^{k}$
+\State Construct ground-truth fact set $F$ from public records for prospect $p$
+\State Instantiate prompt $q$ with prospect $p$ and organizational context
+\For{each system $s_i \in \mathcal{S}$}
+  \State Submit prompt $q$ to $s_i$; collect unedited response $r_i$
+  \State Extract verifiable claim set $C_i$ from $r_i$
+  \For{each claim $c \in C_i$}
+    \State Verify $c$ against $F$ and public records
+    \State Classify $c$ as \textsc{Correct}, \textsc{Incorrect}, \textsc{Hallucinated}, or \textsc{Unverifiable}
+  \EndFor
+  \State Compute $\text{FP}(s_i)$ via \Cref{eq:fp}
+  \State Compute $\text{DR}(s_i)$ via \Cref{eq:dr}
+  \State Compute $\text{HR}(s_i)$ via \Cref{eq:hr}
+  \State Compute $\text{CEA}(s_i)$ via \Cref{eq:cea}
+  \State Compute $\text{SA}(s_i)$ via \Cref{eq:sa}
+  \State Compute $\text{SC}(s_i)$ via \Cref{eq:sc}
+  \State Score $\text{ACT}(s_i)$ via actionability rubric
+  \State Compute $\text{PIF}(s_i)$ via \Cref{eq:pif}
+\EndFor
+\State \Return $\{\text{PIF}(s_i)\}_{i=1}^{k}$
+\end{algorithmic}
+\end{algorithm}
+
+% ── 5. Results ───────────────────────────────────────────────────────────────
+\section{Results}
+\label{sec:results}
+
+\subsection{Composite PIF Scores}
+\label{sec:composite_results}
+
+\Cref{tab:results_pifs} presents the composite PIF scores for all four systems across the five prospects, and \Cref{tab:results_avg} presents the five-prospect averages on each dimension. The MacKenzie Scott baseline (\Cref{tab:results_scott}) and per-prospect dimension breakdowns for the four additional prospects are provided in the per-system analysis below.
+
+\begin{table}[h]
+\centering
+\caption{Composite PIF scores per prospect, per system. The five-prospect average is the unweighted mean of the per-prospect scores. Bold indicates the highest score per row.}
+\label{tab:results_pifs}
+\begin{tabular}{@{}l*{4}{c}@{}}
+\toprule
+\textbf{Prospect} & \textbf{R\={o}my} & \textbf{Claude} & \textbf{Gemini} & \textbf{ChatGPT} \\
+\midrule
+MacKenzie Scott (baseline)  & \textbf{94.6} & 92.2 & 76.0 & 79.9 \\
+Reed Hastings               & \textbf{94.9} & 93.1 & 78.9 & 78.7 \\
+Agnes Gund                  & \textbf{93.8} & 91.9 & 81.2 & 70.8 \\
+Laurene Powell Jobs         & \textbf{93.9} & 93.1 & 78.2 & 76.4 \\
+Robert F. Smith             & \textbf{93.6} & 91.4 & 81.1 & 78.7 \\
+\midrule
+\textbf{Five-prospect avg.} & \textbf{94.1} & 92.3 & 79.1 & 76.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Five-prospect average per-dimension scores. Dimension abbreviations: FP = Factual Precision, DR = Discovery Recall, HR = Hallucination Rate, CEA = Capacity Estimation Accuracy, SA = Source Attribution, SC = Structural Completeness, ACT = Actionability. Bold indicates the highest score per dimension.}
+\label{tab:results_avg}
+\begin{tabular}{@{}l*{7}{c}c@{}}
+\toprule
+\textbf{System} & \textbf{FP} & \textbf{DR} & \textbf{HR} & \textbf{CEA} & \textbf{SA} & \textbf{SC} & \textbf{ACT} & \textbf{PIF} \\
+ & {\scriptsize(0.20)} & {\scriptsize(0.10)} & {\scriptsize(0.25)} & {\scriptsize(0.15)} & {\scriptsize(0.10)} & {\scriptsize(0.05)} & {\scriptsize(0.15)} & \\
+\midrule
+R\={o}my   & \textbf{94} & \textbf{96} & 93          & 92          & \textbf{94} & \textbf{100} & \textbf{95} & \textbf{94.1} \\
+Claude     & 93          & 94          & \textbf{93} & \textbf{93} & 85          & 89           & \textbf{95} & 92.3 \\
+Gemini     & 84          & 72          & 85          & 76          & 76          & 72           & 76          & 79.1 \\
+ChatGPT    & 84          & 63          & 87          & 69          & 80          & 74           & 66          & 76.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{MacKenzie Scott baseline (Round 1) per-dimension scores, retained for reference. The Scott prompt was scored by Claude Opus~4.6; the four additional prospects were scored by Claude Opus~4.7 using the same framework.}
+\label{tab:results_scott}
+\begin{tabular}{@{}l*{7}{c}c@{}}
+\toprule
+\textbf{System} & \textbf{FP} & \textbf{DR} & \textbf{HR} & \textbf{CEA} & \textbf{SA} & \textbf{SC} & \textbf{ACT} & \textbf{PIF} \\
+\midrule
+R\={o}my   & 94          & \textbf{97} & 94          & \textbf{92} & \textbf{95} & \textbf{100} & \textbf{95} & \textbf{94.6} \\
+Claude     & \textbf{95} & 92          & \textbf{95} & 90          & 82          & 92           & 93          & 92.2 \\
+ChatGPT    & 88          & 65          & 90          & 72          & 82          & 75           & 70          & 79.9 \\
+Gemini     & 83          & 72          & 86          & 60          & 72          & 70           & 73          & 76.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The domain-specialized system (R\={o}my) achieved the highest composite score on every prospect, with a five-prospect average of 94.1 and an inter-prospect range of 93.6--94.9 (a 1.3-point spread). The tightness of this band suggests that R\={o}my's performance ceiling on well-documented Tier~A prospects is consistent rather than overfit to the Scott baseline.
+
+Claude ranked second on every prospect, with a five-prospect average of 92.3 and an inter-prospect range of 91.4--93.1 (a 1.7-point spread). The R\={o}my--Claude gap (1.8~points on the five-prospect average) is meaningfully smaller than the Claude--Gemini gap (13.2~points) and the Gemini--ChatGPT gap (2.2~points), indicating a clear two-tier performance structure: the top tier (R\={o}my and Claude) delivers comprehensive, high-fidelity research, while the lower tier (Gemini and ChatGPT) produces usable but materially less complete reports.
+
+A noteworthy ordering inversion occurred between the Scott baseline and the four additional prospects. On Scott, ChatGPT (79.9) outperformed Gemini (76.0); on the four additional prospects, Gemini outperformed ChatGPT in three of four cases (Hastings tied within 0.2 points, Gund 81.2 vs.\ 70.8, Powell Jobs 78.2 vs.\ 76.4, Smith 81.1 vs.\ 78.7). The inversion is driven primarily by edge-case handling: Gemini correctly pivoted to family-foundation strategy on the deceased Gund prospect (CEA = 85, ACT = 80), while ChatGPT continued to recommend a direct ask qualified as ``if alive / comparable donor profile'' (CEA = 50, ACT = 50). Without the Gund prospect, the Gemini--ChatGPT gap on the remaining three additional prospects averages only 2.0~points.
+
+\subsection{Per-Dimension Analysis}
+\label{sec:perdim}
+
+The dimension-level paragraphs below characterize the MacKenzie Scott baseline (Round~1) in detail; \Cref{sec:roundtwo} discusses prospect-specific findings from the four additional prospects, and \Cref{tab:results_avg} reports the five-prospect averages for each dimension.
+
+\paragraph{Factual Precision (FP).}
+All four systems achieved FP scores of 83 or above on the Scott prompt, indicating that current-generation LLMs rarely state outright falsehoods about well-documented public figures. Claude achieved the highest single-prospect FP on Scott (95), surfacing precise details that other systems missed or approximated, including the prospect's early career at D.E.\ Shaw (the hedge fund where she met Jeff Bezos), the assessed value of her \$37.5M Medina, Washington property, the name of the LLC holding her Amazon shares (Lost Horse LLC), and specific essay titles with publication dates (``Seeding by Ceding,'' ``No Dollar Signs This Time,'' and the October~2025 essay ``We Are the Ones We've Been Waiting For''). Across the five-prospect average, R\={o}my and Claude separated by only one point (94 vs.\ 93), with Gemini and ChatGPT tied at 84.
+
+\paragraph{Discovery Recall (DR).}
+Discovery Recall exhibited the widest spread on the Scott baseline (32 points) and remained the largest discriminator across the five-prospect average (33-point spread, from 96 to 63). R\={o}my achieved DR~=~97 on Scott, surfacing data points absent from all other systems' outputs: FEC political donation records (documented as ``none found'' rather than omitted---an important distinction in prospect research), children's names and count, religious affiliation status, real estate location with comparable property values (Hunts Point, WA), and contact information availability.
+
+ChatGPT's DR score on Scott (65) was the lowest, driven primarily by the omission of \textit{every} Atlanta-specific data point. For a prompt specifying an Atlanta-based education nonprofit, this represents the most operationally significant recall failure: Clark Atlanta University (\$53M in cumulative gifts from Scott), Spelman College (\$38M), GEEARS (\$3M), and the Southern Education Foundation (\$6M) were all absent. These are precisely the organizations a fundraiser would use as peer references and network entry points. The pattern recurred consistently across the four additional prospects (\Cref{sec:roundtwo}): ChatGPT averaged DR~=~63 across the five prospects, missing Prairie View A\&M as Smith's existing Texas anchor, Lone Rock Retreat and the Charter School Growth Fund Broomfield headquarters as Hastings's Colorado anchors, The Atlantic's D.C.\ headquarters as Powell Jobs's anchor, and the George Gund Foundation as Gund's family-successor anchor.
+
+\paragraph{Hallucination Rate (HR).}
+Hallucination scores were relatively high across all systems on the Scott baseline (86--95), and remained high across the five-prospect average (85--93), suggesting that Tier~A prospects with dense public records present a low hallucination risk overall. However, the failures that did occur were qualitatively significant. On Scott, Gemini stated that the prospect holds ``roughly 4\% stake in Amazon''---the 2019 divorce settlement figure. By April~2026, she had divested approximately 42\% of her original stake, reducing her holding to roughly 1.3\% (approximately 81 million shares). This temporal displacement hallucination would lead a fundraiser to overestimate Scott's liquid asset base by approximately 3$\times$. The same temporal-displacement pattern recurred on Powell Jobs: ChatGPT and Gemini both treated her 20\% Monumental Sports stake as a current asset despite her December~2025 divestment of that position, four months before the test date.
+
+Neither ChatGPT nor Gemini mentioned Bridgespan Group or Lever for Change, the advisory partners through which Scott identifies grant recipients. While omitting a fact is a recall failure (not a hallucination), the absence of this information could lead fundraisers to pursue outreach strategies that would be ineffective---an indirect consequence of incomplete information that hallucination rate alone does not capture.
+
+\paragraph{Capacity Estimation Accuracy (CEA).}
+Capacity estimation showed substantial variation on the Scott baseline (60--92) and again on the five-prospect average (69--93). R\={o}my provided three-tiered estimates on Scott, calibrated to engagement scenarios: Open Call (\$1M--\$2M), direct grant (\$15M--\$40M), and repeat funding (\$3M--\$70M+). It explicitly noted that its standard giving capacity formulas (Graduated Screening, Enhanced Graduated Screening, and Snapshot models) are inappropriate for centi-billionaire prospects and adjusted its methodology accordingly.
+
+Claude provided a Scott planning figure of \$8M--\$12M, the most precise single-point estimate on that prospect and arguably the most immediately usable for a development officer building a pipeline forecast. Across the five prospects, Claude consistently constructed milestone-tied capacity estimates rather than flat numbers---for example, a Reed Hastings ask structured as Year-1 \$2M, Years 2--4 \$8M total, Year-5 capstone \$15M (\$25M over five years), framed as a Charter School Growth Fund-style growth investment. This structural sophistication produced a five-prospect CEA average of 93, marginally exceeding R\={o}my's 92.
+
+ChatGPT's Scott range (\$5M--\$80M+) was technically correct but too broad to function as a planning figure. Gemini cited only the Open Call gift range (\$1M--\$5M), effectively underselling Scott's per-recipient capacity by an order of magnitude---her 2025 median grant was \$38.5 million. ChatGPT's CEA degraded most sharply on the deceased Gund prospect (CEA = 50), where it continued to recommend a \$5M--\$10M direct ask qualified as ``if alive / comparable donor profile,'' rather than pivoting to family-foundation capacity. This single-prospect failure depressed its five-prospect CEA average to 69.
+
+\paragraph{Source Attribution (SA).}
+Source attribution was a clear differentiator between the domain-specialized and general-purpose systems on Scott (R\={o}my 95, Claude 82, ChatGPT 82, Gemini 72) and remained so across the five-prospect average (R\={o}my 94, Claude 85, ChatGPT 80, Gemini 76). R\={o}my included hyperlinked citations throughout its reports and appended dedicated ``Sources and Methodology'' sections with confidence levels (HIGH / MODERATE / LOW) for each data category. Claude provided descriptive source references (sources named in brackets, e.g., ``per Goodreturns, Source 14'') but without hyperlinks or formal confidence scoring. ChatGPT included hyperlinked citations across all four additional prospects, lifting its multi-prospect SA average. Gemini provided source attribution in inline parenthetical or bracketed form (e.g., ``[Forbes, 2026]'') without hyperlinks. Hyperlinked citations are the gold standard for practitioner usability: a development officer reviewing a brief before a donor meeting needs to verify specific claims in seconds, and named-but-unlinked sources require a manual search step that erodes the time savings AI-assisted research is intended to provide.
+
+\paragraph{Structural Completeness (SC).}
+R\={o}my achieved full structural coverage (SC~=~100) across all five prospects, using a 16-section report format that exceeds the six-section baseline checklist with explicit family detail, real-estate breakdowns, contact information, and methodology with confidence levels. Claude's reports run 7--8 main sections plus a Bottom Line summary; the format packs more analytical content per section but covers fewer sections in total, yielding a five-prospect SC average of 89 (down from 92 on Scott). ChatGPT and Gemini both follow the seven-section structure of the prompt itself, with five-prospect SC averages of 74 and 72 respectively, typically omitting or underspecifying real estate, family detail, and methodology sections.
+
+\paragraph{Actionability (ACT).}
+Actionability scores on Scott ranged from 70 to 95, and across the five-prospect average from 66 (ChatGPT) to 95 (R\={o}my and Claude tied). R\={o}my consistently delivered three-phase engagement timelines (relationship building, strategic cultivation, strategic solicitation) with named warm-introduction paths, specific gift amounts and naming opportunities, and ``Solicitation Guardrails'' sections listing specific actions to avoid. Claude's reports were comparable in actionability and notable for surfacing operational connectors with current titles---for example, Evan Smith (Senior Advisor, Texas Tribune and Emerson Collective) for Powell Jobs; Neerav Kingsland (CEO, Hastings Fund) for Hastings; and Hasna Muhammad (Chair, Studio in a School board) and Sonia Lopez (AG Foundation administrator) for Gund. These named-individual referrals are operationally valuable in a way that generic recommendations are not.
+
+ChatGPT and Gemini produced directionally correct but less specific recommendations on Scott. The pattern continued and worsened on the additional prospects: ChatGPT's five-prospect ACT average of 66 was depressed primarily by its failure to pivot the Gund engagement strategy after acknowledging the prospect was deceased (ACT = 50), and by missing the Prairie View A\&M Student Freedom Initiative partnership that constitutes the natural warm-introduction path for a Texas HBCU pitch to Smith.
+
+\subsection{Findings from the Four Additional Prospects}
+\label{sec:roundtwo}
+
+The four additional prospects each introduce a distinct edge condition that exposes specific failure modes not visible on the Scott baseline. We summarize the most diagnostic findings below.
+
+\paragraph{Edge case adaptation (Agnes Gund, deceased September 2025).}
+The Gund prompt is the cleanest test of adaptive reasoning in the five-prospect set. A system that fails to surface the deceased status and proceeds to recommend direct solicitation produces output that is operationally worse than no report at all. Three of four systems handled the edge case correctly: R\={o}my opened with an explicit deceased-status alert and pivoted to family-foundation strategy naming Catherine Gund (Chair of the \$556M George Gund Foundation) and Anna Traggio (AG Foundation trustee); Claude opened with a ``Critical Status Alert'' and made the same strategic pivot, additionally naming Hasna Muhammad (Studio in a School board chair) and Sonia Lopez (AG Foundation administrator) as operational connectors; Gemini led with a ``Critical Executive Note'' and recommended directing a \$1M--\$5M ask to the estate or family foundation. ChatGPT acknowledged the deceased status in its bottom-line section but continued to recommend a \$5M--\$10M ask qualified as ``if alive / comparable donor profile,'' producing the lowest CEA (50) and ACT (50) scores in the five-prospect set.
+
+\paragraph{Geographic anchor recall.}
+Three of the four additional prospects depend on a specific geographic anchor for engagement strategy: Hastings on rural Colorado, Powell Jobs on Washington D.C., and Smith on Texas HBCUs. The presence or absence of these anchors strongly predicts overall report quality. For Hastings, R\={o}my and Claude both surfaced the \$20M+ Lone Rock Retreat in Bailey, CO and the Charter School Growth Fund headquarters in Broomfield, CO; ChatGPT mentioned neither; Gemini surfaced CSGF's Colorado presence (with the city slightly misidentified as Denver rather than Broomfield) but missed Lone Rock entirely. For Powell Jobs, R\={o}my and Claude both noted The Atlantic's Washington headquarters; ChatGPT and Gemini did not. For Smith, R\={o}my, Claude, and Gemini all surfaced the existing Prairie View A\&M Student Freedom Initiative partnership; ChatGPT mentioned ``Vista presence in Austin'' but missed the SFI partnership entirely. The pattern is consistent: ChatGPT systematically fails to surface the geographic detail that enables warm-introduction strategy, even when the requester's organizational context makes the anchor highly relevant.
+
+\paragraph{Temporal recency on Powell Jobs.}
+Powell Jobs's December~2025 divestment of her approximately 20\% stake in Monumental Sports \& Entertainment generated roughly \$1.44 billion in liquidity, four months before the test date. R\={o}my and Claude both flagged this divestment and identified it as a 12--18 month tax-planning window of fundraising relevance. ChatGPT and Gemini both treated the Monumental Sports stake as a current asset, with Gemini explicitly using the (now-divested) D.C.\ sports ownership as a ``D.C.\ footprint'' hook. The temporal-displacement pattern observed on Scott (Gemini citing the 2019 Amazon stake as current) thus recurs on Powell Jobs, suggesting a systematic risk in LLM-generated prospect research.
+
+\paragraph{Specific factual errors uncovered by per-claim verification.}
+Several specific factual errors warrant disclosure as they were used to determine FP deductions:
+
+\begin{itemize}[leftmargin=*]
+  \item Claude reported that Smith's 2016 gift to Cornell University was ``\$30M total (\$20M from Fund II Foundation + \$10M for STEM scholarships from Smith personally).'' The actual 2016 gift, confirmed by Cornell's announcement of the engineering school renaming (the Robert Frederick Smith School of Chemical and Biomolecular Engineering), was \$50M. The \$20M discrepancy on a flagship gift is a clean factual error.
+  \item Claude reported that Smith has ``eight children across both marriages.'' Wikipedia and other public sources consistently report seven (three from his first marriage, four from his second).
+  \item Gemini reported that Agnes Gund earned her MA from Harvard ``in 1962.'' Wikipedia, Bowdoin College's obituary, and other sources confirm 1980---an 18-year error on a verifiable educational milestone.
+  \item Gemini reported that Netflix was founded in ``1998.'' Wikipedia and SEC records confirm 1997.
+  \item Gemini described the Charter School Growth Fund headquarters as a ``Denver, Colorado'' office. The HQ is in Broomfield, CO (within the Denver metropolitan area, but a distinct municipality); R\={o}my and Claude correctly identified Broomfield.
+  \item ChatGPT reported Powell Jobs's net worth as ``\textasciitilde\$21--24+ billion'' citing InfluenceWatch. Forbes (April~2026), Bloomberg (November~2025), and LeaderPortfolio (December~2025) all place her in the \$11.9--14.2 billion range. The estimate is overstated by approximately 50\%, and propagates into inflated capacity assumptions.
+  \item Claude correctly handled Smith's 2020 DOJ non-prosecution agreement by surfacing it under Capacity Estimation as a tax-planning factor and explicitly flagging it under ``Solicitation Guardrails'' as a topic not to raise in cultivation conversations. R\={o}my, Gemini, and ChatGPT also surfaced the matter, with similar guarding behavior in the R\={o}my and Gemini cases. This is a positive finding for sensitive-topic handling: all four systems demonstrated due-diligence framing.
+\end{itemize}
+
+\paragraph{Performance consistency.}
+R\={o}my's PIF scores across the five prospects span a 1.3-point range (93.6--94.9). Claude's range is 1.7 points (91.4--93.1). Gemini's range is 5.2 points (76.0--81.2). ChatGPT's range is 9.1 points (70.8--79.9), driven primarily by the deceased-prospect failure on Gund. The narrower bands of the top two systems suggest that performance is consistent across well-documented Tier~A prospects rather than overfit to any specific case.
+
+\subsection{The Actionability Trap}
+\label{sec:trap}
+
+The evaluation prompt included an implicit domain-knowledge test: MacKenzie Scott does not accept unsolicited proposals. Any system recommending a standard cold outreach, proposal submission, or meeting request would fail the actionability dimension.
+
+All four systems identified this constraint:
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{R\={o}my:} ``Do NOT send a direct solicitation letter, proposal, or major gift packet.''
+  \item \textbf{Claude:} ``There is no cultivation path in the conventional sense. Asks, meetings, named-gift proposals, and major-gift officer visits do not work.''
+  \item \textbf{ChatGPT:} ``Do NOT begin with a direct ask.''
+  \item \textbf{Gemini:} ``You cannot actively `ask' MacKenzie Scott for a donation.''
+\end{itemize}
+
+This universal success on the Scott actionability trap is noteworthy because it demonstrates that all four systems have internalized domain-specific knowledge about this prospect's engagement model---knowledge that would not be tested by any general-purpose benchmark. The differentiation emerged in what the systems recommended \textit{instead}: R\={o}my and Claude provided multi-phase positioning strategies with named organizations and timelines, while ChatGPT and Gemini gave directionally correct but less operationally specific guidance.
+
+A second, harder actionability trap is embedded in the Gund prompt. Gund died on September~18,~2025, which means any cultivation strategy directed at her personally---rather than at her surviving philanthropic infrastructure---is structurally invalid. Three of four systems detected the trap (R\={o}my, Claude, Gemini); ChatGPT acknowledged the deceased status in its bottom-line section but continued to recommend a direct ask, qualifying it as ``if alive / comparable donor profile.'' This is the most consequential single failure observed in the five-prospect evaluation: a system that recommends soliciting a deceased donor produces output that is operationally worse than no report at all.
+
+\subsection{Cost-Normalized Performance}
+\label{sec:cost}
+
+Raw quality scores do not capture the economic dimension of system selection. We compute a cost-normalized metric, PIF-per-dollar, defined as the composite PIF score divided by the estimated cost to produce 100 reports at each system's pricing structure.
+
+\begin{table}[h]
+\centering
+\caption{Cost-normalized PIF scores using the five-prospect average composite. Cost estimates are based on published pricing as of April~2026. Subscription costs are amortized assuming 100 reports per month.}
+\label{tab:cost}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{System} & \textbf{Est.\ Cost / 100 Reports} & \textbf{PIF (5-prospect avg)} & \textbf{PIF / \$100} \\
+\midrule
+R\={o}my (Scale plan, deep mode) & $\sim$\$8      & 94.1 & 1{,}176 \\
+Claude (Pro subscription)        & $\sim$\$20/mo  & 92.3 & 462 \\
+Gemini (Pro subscription)        & $\sim$\$20/mo  & 79.1 & 396 \\
+ChatGPT (Pro subscription)       & $\sim$\$200/mo & 76.9 & 38 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+We note that this comparison is approximate and structurally asymmetric: R\={o}my uses per-use credit pricing, while the general-purpose systems use fixed monthly subscriptions that include capabilities beyond prospect research. The PIF-per-dollar metric is most useful for organizations whose primary AI expenditure is prospect research.
+
+% ── 6. Discussion ────────────────────────────────────────────────────────────
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Domain Specialization vs.\ General Capability}
+
+The 1.8-point gap between R\={o}my (94.1) and Claude (92.3) on the five-prospect average is small enough that it could narrow or reverse on different prospect tiers, particularly Tier~B--D where ground-truth records are sparser. The more striking finding is the 13.2-point gap between Claude and Gemini on the five-prospect average, and the 17.2-point gap between R\={o}my and ChatGPT. These gaps are driven not by factual precision (where all systems score 84 or above on the five-prospect average) but by \textit{recall} (96 vs.\ 63 between the top and bottom systems), \textit{capacity estimation} (93 vs.\ 69), and \textit{actionability} (95 vs.\ 66)---dimensions that require either domain-specific training data, structured enrichment pipelines, or adaptive reasoning about fundraising strategy.
+
+General-purpose LLMs demonstrate strong factual precision and low hallucination rates on well-documented prospects, but they struggle with the operational dimensions of prospect research: knowing which facts to look for (recall), estimating giving capacity within actionable ranges (CEA), and translating knowledge into cultivation strategy (actionability). These are precisely the dimensions where domain specialization adds value. The five-prospect evaluation also shows that the operational-dimension gap widens on edge cases (the deceased Gund prospect drove ChatGPT's CEA and ACT to 50 each), suggesting that adaptive reasoning, not just factual recall, is a meaningful component of professional prospect research capability.
+
+\subsection{The Source Attribution Gap}
+
+Source attribution emerged as an unexpectedly sharp differentiator. Hyperlinked, confidence-graded citations are not merely a formatting preference---they are a workflow requirement. A development officer reviewing a prospect brief before a donor meeting needs to verify specific claims quickly. Named-but-unlinked sources (Claude's approach) require a manual search step. Unnamed sources (common in ChatGPT and Gemini outputs) effectively shift the verification burden entirely to the practitioner, negating much of the time savings that AI-assisted research is supposed to provide.
+
+This finding suggests that source attribution should be a primary design consideration for AI systems deployed in professional contexts where factual claims are acted upon, not merely consumed.
+
+\subsection{Temporal Displacement as a Systematic Risk}
+
+Gemini's citation of Scott's 2019 Amazon stake as current reveals a failure pattern that may be prevalent in LLM-generated prospect research more broadly. Prospect data is inherently time-sensitive: stock holdings change through sales and dilution, property values appreciate or depreciate, giving patterns evolve, and board affiliations expire. A system that presents training-data-vintage information as current introduces systematic bias into capacity estimation and strategic planning.
+
+This finding motivates the inclusion of temporal accuracy as a factor in the hallucination rate dimension and suggests that future benchmark iterations should include temporal freshness as a distinct evaluation axis.
+
+\subsection{Implications for Nonprofit Technology Adoption}
+
+The results suggest that current-generation AI systems can produce usable prospect research for well-documented donors, with the top-performing systems achieving five-prospect-average PIF scores above 90. For resource-constrained nonprofits that cannot afford traditional wealth screening platforms (\$15,000--\$50,000 annually), AI-assisted research represents a viable alternative---\textit{provided} that the system is evaluated for the specific failure modes that matter in fundraising.
+
+However, the performance gap between systems underscores the importance of tool selection. A 17.2-point PIF difference between the best (94.1) and worst (76.9) system on the five-prospect average represents a material difference in the quality of fundraising intelligence: the lower-scoring system missed Atlanta-specific giving records on Scott, missed Texas-specific Student Freedom Initiative anchors on Smith, missed The Atlantic's Washington headquarters on Powell Jobs, and recommended direct solicitation of a deceased prospect on Gund. For a development team making solicitation decisions based on these reports, tool selection is not a commodity choice. The performance ordering also raises a structural finding: between the bottom two systems, edge-case adaptation is a more consequential discriminator than raw factual precision, and a system's behavior on the deceased-prospect prompt is the single most diagnostic test in the five-prospect set.
+
+\subsection{Toward Domain-Grounded Benchmarking}
+\label{sec:niche}
+
+The performance patterns documented above are visible only because the evaluation framework is built around domain-specific failure modes. A generalized accuracy benchmark would not have surfaced the deceased-prospect adaptation gap, the geographic anchor recall pattern, or the temporal-displacement risk on stock holdings. None of these failures involve incorrect general-purpose facts; they involve operationally consequential omissions and misalignments specific to fundraising practice. We believe the same is true elsewhere. The failure modes that matter most in clinical decision support, legal research, journalism, and scientific peer review are unlikely to be captured by general-capability leaderboards, and the practitioners best positioned to identify those failure modes are domain experts rather than benchmark designers working at arm's length from the practice. We intend PIF-Bench both as a usable evaluation tool for prospect research and as an example of what domain-grounded benchmarking can look like in any field where AI outputs are acted upon, not merely consumed, and we hope its public release encourages further work in this direction.
+
+% ── 7. Limitations ───────────────────────────────────────────────────────────
+\section{Limitations and Threats to Validity}
+\label{sec:limitations}
+
+We identify six limitations of this study, four of which we consider substantial threats to the generalizability of the results.
+
+\paragraph{Single-tier evaluation ($n = 5$, all Tier~A).}
+The most significant limitation. All five prospects in this study are Tier~A (public philanthropists with extensive documented records). The dense public record characteristic of this tier minimizes hallucination risk and maximizes the ground-truth set available for verification. Performance on Tier~B--D prospects---where public records are sparse, names are ambiguous, and the system must reason under uncertainty---may differ substantially. We cannot draw conclusions about relative system performance on the broader prospect research task from Tier~A alone. The planned 200-prospect expansion (\Cref{sec:future}) is designed to address this limitation by sampling 50 prospects per tier across all four difficulty tiers.
+
+\paragraph{Evaluator--subject conflict.}
+The automated evaluation was performed by Claude Opus~4.6 (Scott baseline) and Claude Opus~4.7 (four additional prospects), both of which share architectural lineage with one test subject (Claude Opus~4.7 Adaptive). Although the PIF-Bench scoring framework is designed to minimize evaluator subjectivity---six of seven dimensions are computed from factual verification against public records, and only Actionability involves qualitative judgment---we cannot rule out the possibility that the evaluator exhibits systematic bias toward or against outputs from a related model. To partially mitigate this on the four additional prospects, all per-prospect deductions were anchored to specific verifiable evidence (named factual errors, documented missing data points, citation patterns) rather than holistic judgment. Future evaluations should employ independent human evaluators or evaluators from a different model family to validate the automated scores.
+
+\paragraph{Developer--evaluator conflict of interest.}
+PIF-Bench was designed by R\={o}my, which also developed one of the tested systems. Although the evaluation dimensions and weights were derived from established prospect research practices rather than optimized for any system's strengths, the benchmark design process was not independent of the development process. This is a common pattern in industry benchmarks (e.g., \citealt{liang2023holistic} involves researchers whose institutions develop evaluated models), but it warrants transparency. We commit to releasing the scoring framework publicly to enable independent evaluation.
+
+\paragraph{Temporal snapshot.}
+All systems were tested on April~25, 2026. LLM capabilities change with model updates, fine-tuning, and training data refreshes. The results reflect a single point in time and should not be interpreted as permanent performance characteristics of any system.
+
+\paragraph{Single-turn evaluation.}
+Each system received one prompt per prospect with no follow-up queries. In practice, a fundraiser might ask clarifying questions, request additional detail on specific dimensions, or provide corrective feedback. Multi-turn interaction could substantially change system performance, particularly for systems with strong instruction-following capabilities.
+
+\paragraph{Prompt sensitivity.}
+The evaluation used a single prompt template, instantiated five times with different prospect names and organizational contexts. Different phrasings, levels of specificity, or structural instructions (e.g., requesting a structured template versus free-form prose) could elicit different quality levels from each system. Future benchmark iterations should evaluate robustness across prompt variations.
+
+% ── 8. Ethical Considerations ────────────────────────────────────────────────
+\section{Ethical Considerations}
+\label{sec:ethics}
+
+AI-assisted prospect research raises several ethical considerations that the PIF-Bench framework does not directly address but that practitioners should consider.
+
+\paragraph{Privacy and consent.} Prospect research synthesizes publicly available information, but the aggregation of public records into comprehensive individual profiles creates a qualitatively different privacy exposure than any single record. The prospect did not consent to being researched, and the depth of AI-generated profiles may exceed what traditional manual research would produce. Organizations deploying AI prospect research tools should maintain clear data retention policies and ensure compliance with applicable privacy regulations.
+
+\paragraph{Equity of access.} If AI tools substantially improve fundraising effectiveness, differential access to these tools could widen the resource gap between well-funded and under-resourced nonprofits. The cost-normalized analysis in \Cref{sec:cost} suggests that AI-assisted research is economically accessible, but technical capacity to deploy and evaluate these tools varies significantly across the nonprofit sector.
+
+\paragraph{Hallucination risk in practice.} PIF-Bench measures hallucination rates under controlled conditions, but the operational risk of hallucinations depends on whether fundraising staff verify AI-generated claims before acting on them. Organizations should establish verification protocols and train staff to treat AI-generated reports as drafts requiring confirmation, not as authoritative records.
+
+% ── 9. Future Work ───────────────────────────────────────────────────────────
+\section{Future Work}
+\label{sec:future}
+
+We plan four extensions to PIF-Bench beyond the five-prospect Tier~A evaluation reported here:
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{200-prospect expansion across all four tiers.} The ground-truth dataset will be expanded to 200 prospects across all four difficulty tiers (50 per tier), constructed from IRS Form~990 filings, SEC EDGAR, FEC donor records, state property assessor databases, and Foundation Directory Online. The current evaluation establishes the Tier~A baseline; the priority extension is Tier~B--D coverage, where ground-truth records are sparser and the system must reason under greater uncertainty.
+
+  \item \textbf{Human evaluator validation.} The automated scoring (currently performed by Claude Opus~4.6 / 4.7) will be validated against independent human evaluators---practicing major gift officers and prospect researchers---to measure inter-rater reliability and identify dimensions where automated and human evaluation diverge.
+
+  \item \textbf{Multi-turn evaluation.} A follow-up protocol will be added in which a simulated fundraiser asks clarifying questions, requests elaboration on specific dimensions, and provides corrective feedback. This will test whether systems can improve their output through interaction.
+
+  \item \textbf{Temporal stability testing.} Systems will be re-evaluated quarterly on the same prospect set to measure whether performance changes with model updates and training data refreshes, establishing a longitudinal performance record.
+\end{enumerate}
+
+The benchmark dataset and scoring framework will be released publicly under an open license to enable reproducible evaluation by independent researchers and system developers.
+
+% ── 10. Conclusion ───────────────────────────────────────────────────────────
+\section{Conclusion}
+\label{sec:conclusion}
+
+We introduced PIF-Bench, a seven-dimension evaluation framework for AI-generated prospect research in nonprofit fundraising. The framework measures Factual Precision, Discovery Recall, Hallucination Rate, Capacity Estimation Accuracy, Source Attribution, Structural Completeness, and Actionability, weighted by their impact on fundraising outcomes.
+
+An empirical evaluation of four systems across five Tier~A prospects produced five-prospect-average composite PIF scores ranging from 76.9 to 94.1, with the primary differentiators being Discovery Recall, Capacity Estimation Accuracy, and Actionability rather than Factual Precision or Hallucination Rate. All four systems achieved acceptable factual precision (84--94 on the five-prospect average) and low hallucination rates (85--93) on these well-documented prospects, suggesting that current-generation AI systems can produce factually reliable research on public figures. The performance gap between systems is driven by the operational dimensions---recall, estimation, and strategic recommendation---that require domain-specific capability beyond factual retrieval.
+
+The five-prospect evaluation also reveals that adaptive reasoning on edge cases is a meaningful component of professional prospect research capability. The deceased-prospect prompt (Agnes Gund) drove the largest single-prospect performance variation in the study: three of four systems pivoted correctly to family-foundation strategy, while the fourth continued to recommend direct solicitation of the deceased prospect, producing a 23-point PIF gap on that prospect alone. Geographic anchor recall emerged as a second consistent discriminator, with the bottom-tier systems systematically failing to surface the prospect-specific anchors (Lone Rock Retreat, Charter School Growth Fund Broomfield headquarters, The Atlantic Washington headquarters, Prairie View A\&M Student Freedom Initiative partnership) that enable warm-introduction strategy.
+
+These findings are limited to Tier~A prospects ($n = 5$) and subject to the limitations described in \Cref{sec:limitations}. The planned expansion to a 200-prospect dataset across four difficulty tiers will determine whether the patterns observed here generalize across the prospect research task, particularly to the lower-tier regimes where ground-truth records are sparser and adaptive reasoning becomes more central. We release the PIF-Bench framework to the research community as a foundation for rigorous evaluation of AI systems in this important but understudied application domain.
+
+% ── Acknowledgments ──────────────────────────────────────────────────────────
+\section*{Acknowledgments}
+
+The authors thank the development officers and prospect researchers who provided feedback on the PIF-Bench evaluation dimensions and scoring weights during the framework design process.
+
+% ── Disclosure ───────────────────────────────────────────────────────────────
+\section*{Conflict of Interest Disclosure}
+
+The first author is affiliated with R\={o}my, the developer of one of the four systems evaluated in this study. R\={o}my also designed the PIF-Bench evaluation framework. The benchmark framework and scoring methodology will be released publicly to enable independent evaluation and reproducibility.
+
+% ── References ───────────────────────────────────────────────────────────────
+\begin{thebibliography}{20}
+
+\bibitem[Chen et~al.(2021)]{chen2021evaluating}
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H.~P.~d.~O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., Ryder, N., Pavlov, M., Power, A., Kaiser, L., Bavarian, M., Winter, C., Tillet, P., Such, F.~P., Cummings, D., Plappert, M., Chanez, F., Barnes, E., Herbert-Voss, A., Guss, W.~H., Nichol, A., Paino, A., Tezak, N., Tang, J., Babuschkin, I., Balaji, S., Jain, S., Saunders, W., Hesse, C., Carr, A.~N., Leike, J., Achiam, J., Misra, V., Morikawa, E., Radford, A., Knight, M., Brundage, M., Murati, M., Mayer, K., Welinder, P., McGrew, B., Amodei, D., McCandlish, S., Sutskever, I., and Zaremba, W.
+\newblock Evaluating large language models trained on code.
+\newblock \emph{arXiv preprint arXiv:2107.03374}, 2021.
+
+\bibitem[Giving USA Foundation(2024)]{givingusa2024}
+Giving USA Foundation.
+\newblock \emph{Giving USA 2024: The Annual Report on Philanthropy for the Year 2023}.
+\newblock Indiana University Lilly Family School of Philanthropy, 2024.
+
+\bibitem[Guha et~al.(2024)]{guha2024legalbench}
+Guha, N., Nyarko, J., Ho, D.~E., R\'{e}, C., Chilton, A., Narasimhan, A., Chhatwal, A., Becker, B., Askew, B., Dressel, B., et~al.
+\newblock {LegalBench}: A collaboratively built benchmark for measuring legal reasoning in large language models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~36, 2024.
+
+\bibitem[Hendrycks et~al.(2021)]{hendrycks2021measuring}
+Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., and Steinhardt, J.
+\newblock Measuring massive multitask language understanding.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+
+\bibitem[Ji et~al.(2023)]{ji2023survey}
+Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y.~J., Madotto, A., and Fung, P.
+\newblock Survey of hallucination in natural language generation.
+\newblock \emph{ACM Computing Surveys}, 55(12):1--38, 2023.
+
+\bibitem[Jin et~al.(2021)]{jin2021disease}
+Jin, D., Pan, E., Oufattole, N., Weng, W.-H., Fang, H., and Szolovits, P.
+\newblock What disease does this patient have? {A} large-scale open domain question answering dataset from medical exams.
+\newblock \emph{Applied Sciences}, 11(14):6421, 2021.
+
+\bibitem[Joshi et~al.(2017)]{joshi2017triviaqa}
+Joshi, M., Choi, E., Weld, D.~S., and Zettlemoyer, L.
+\newblock {TriviaQA}: A large scale distantly supervised challenge dataset for reading comprehension.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics}, pages 1601--1611, 2017.
+
+\bibitem[Kwiatkowski et~al.(2019)]{kwiatkowski2019natural}
+Kwiatkowski, T., Palomaki, J., Redfield, O., Collins, M., Parikh, A., Alberti, C., Epstein, D., Polosukhin, I., Devlin, J., Lee, K., Toutanova, K., Jones, L., Kelcey, M., Chang, M.-W., Dai, A.~M., Uszkoreit, J., Le, Q., and Petrov, S.
+\newblock Natural questions: A benchmark for question answering research.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 7:453--466, 2019.
+
+\bibitem[Liang et~al.(2023)]{liang2023holistic}
+Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., et~al.
+\newblock Holistic evaluation of language models.
+\newblock \emph{Transactions on Machine Learning Research}, 2023.
+
+\bibitem[Min et~al.(2023)]{min2023factscore}
+Min, S., Krishna, K., Lyu, X., Lewis, M., Yih, W., Koh, P.~W., Iyyer, M., Zettlemoyer, L., and Hajishirzi, H.
+\newblock {FActScore}: Fine-grained atomic evaluation of factual precision in long form text generation.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, 2023.
+
+\bibitem[Rajpurkar et~al.(2016)]{rajpurkar2016squad}
+Rajpurkar, P., Zhang, J., Lopyrev, K., and Liang, P.
+\newblock {SQuAD}: 100,000+ questions for machine comprehension of text.
+\newblock In \emph{Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing}, pages 2383--2392, 2016.
+
+\bibitem[Sargeant and Shang(2024)]{sargeant2024fundraising}
+Sargeant, A. and Shang, J.
+\newblock \emph{Fundraising Principles and Practice}.
+\newblock John Wiley \& Sons, 3rd edition, 2024.
+
+\bibitem[Singhal et~al.(2023)]{singhal2023large}
+Singhal, K., Azizi, S., Tu, T., Mahdavi, S.~S., Wei, J., Chung, H.~W., Scales, N., Tanwani, A., Cole-Lewis, H., Pfohl, S., et~al.
+\newblock Large language models encode clinical knowledge.
+\newblock \emph{Nature}, 620(7972):172--180, 2023.
+
+\bibitem[Hogan(2003)]{hogan2003prospect}
+Hogan, C.
+\newblock \emph{Prospect Research: A Primer for Growing Nonprofits}.
+\newblock Jones \& Bartlett Publishers, 2003.
+
+\bibitem[Thorne et~al.(2018)]{thorne2018fever}
+Thorne, J., Vlachos, A., Christodoulopoulos, C., and Mittal, A.
+\newblock {FEVER}: A large-scale dataset for fact extraction and verification.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics}, pages 809--819, 2018.
+
+\bibitem[Worth(2024)]{worth2024fundraising}
+Worth, M.~J.
+\newblock \emph{Fundraising: Principles and Practice}.
+\newblock SAGE Publications, 2nd edition, 2024.
+
+\bibitem[Xie et~al.(2024)]{xie2024finben}
+Xie, Q., Han, W., Zhang, X., Lai, Y., Peng, M., Lopez-Lira, A., and Huang, J.
+\newblock {FinBen}: A holistic financial benchmark for large language models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~37, 2024.
+
+\end{thebibliography}
+
+% ── Appendix ─────────────────────────────────────────────────────────────────
+\clearpage
+\appendix
+\section{Evaluation Prompts}
+\label{app:prompt}
+
+The following five prompts were submitted identically to all four systems without modification. Each prompt instantiates the same seven-section template with a different prospect name, organizational context, and mission area.
+
+\paragraph{Prompt 1 (MacKenzie Scott, baseline).}
+\begin{quote}
+\itshape
+Research MacKenzie Scott as a potential major donor prospect for a mid-sized education nonprofit based in Atlanta, Georgia. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an education nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.
+\end{quote}
+
+\paragraph{Prompt 2 (Reed Hastings).}
+\begin{quote}
+\itshape
+Research Reed Hastings as a potential major donor prospect for a charter school network expanding into rural communities in Colorado. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an education nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.
+\end{quote}
+
+\paragraph{Prompt 3 (Agnes Gund).}
+\begin{quote}
+\itshape
+Research Agnes Gund as a potential major donor prospect for a nonprofit arts education program serving public school students in New York City. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an arts education nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.
+\end{quote}
+
+\paragraph{Prompt 4 (Laurene Powell Jobs).}
+\begin{quote}
+\itshape
+Research Laurene Powell Jobs as a potential major donor prospect for a mid-sized journalism and media literacy nonprofit based in Washington, D.C. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to a journalism/media nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.
+\end{quote}
+
+\paragraph{Prompt 5 (Robert F. Smith).}
+\begin{quote}
+\itshape
+Research Robert Smith, the private equity executive interested in STEM education for underrepresented minorities, as a potential major donor prospect for an HBCU engineering program in Texas. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an HBCU STEM program; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.
+\end{quote}
+
+\section{Dimension Scoring Rubrics}
+\label{app:rubrics}
+
+\Cref{tab:rubric_fp,tab:rubric_act} provide the detailed scoring rubrics for the two dimensions that involve the most evaluator judgment: Factual Precision claim classification and Actionability scoring.
+
+\begin{table}[h]
+\centering
+\caption{Factual Precision: claim classification rubric.}
+\label{tab:rubric_fp}
+\begin{tabular}{@{}lp{9cm}@{}}
+\toprule
+\textbf{Classification} & \textbf{Definition} \\
+\midrule
+\textsc{Correct}       & Claim matches public records within tolerance (property values $\pm$10\%; dates $\pm$1 year; dollar amounts $\pm$15\% for estimates). \\
+\textsc{Incorrect}     & Claim contradicts public records (wrong amounts, dates, or attributions). \\
+\textsc{Hallucinated}  & Claim has no basis in any identifiable public record, or is correctly attributed to a different individual. Includes fabricated affiliations, invented quotes, and conflated identities. \\
+\textsc{Unverifiable}  & Claim is plausible but cannot be confirmed or denied from available public records. Not penalized in FP or HR calculations. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Actionability: scoring rubric.}
+\label{tab:rubric_act}
+\begin{tabular}{@{}cp{10cm}@{}}
+\toprule
+\textbf{Score Range} & \textbf{Criteria} \\
+\midrule
+90--100 & Report provides a specific, time-bound engagement plan with named connection points, a defensible ask range, and tailored strategic recommendations that account for the prospect's known preferences and constraints. \\
+70--89  & Report provides a reasonable engagement framework with general strategic direction, but requires additional research to operationalize (e.g., missing specific timeline, unnamed connections, or wide ask range). \\
+50--69  & Report provides useful background information but does not synthesize it into a cultivation strategy. A fundraiser would know \textit{about} the prospect but not \textit{how} to approach them. \\
+25--49  & Report contains some relevant facts but is insufficient for strategic planning. Major gaps in giving history, capacity, or engagement model. \\
+0--24   & Report is factually sparse, substantially hallucinated, or strategically misleading (e.g., recommends an approach known to be counterproductive for this prospect). \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
