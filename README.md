@@ -4,6 +4,7 @@
 
 PIF-Bench v2 grades AI systems on the work a development office actually does: verify a wealth-screening match, brief a gift officer whose donor has died, receipt a gala, value a year-end stock gift, read a funder's 990-PF, check a grant proposal against its RFP, reconcile a gift batch, run the Schedule A public support test, research a public philanthropist. It is built on the design of Harvey's [Legal Agent Benchmark](https://github.com/harveyai/harvey-labs): every task carries a rubric of pass/fail checks written before any system runs, a panel of judges from three model families grades each check on its own, and the headline is the share of tasks a system gets **entirely** right.
 
+- **Write-up:** [getromy.app/labs/blog/benchmarking-ai-prospect-research](https://getromy.app/labs/blog/benchmarking-ai-prospect-research)
 - **Method:** [METHODOLOGY.md](METHODOLOGY.md) — and what changed from v1, and why
 - **Write a task:** [CONTRIBUTING.md](CONTRIBUTING.md)
 - **v1 (April 2026), archived:** [docs/v1/README.md](docs/v1/README.md)
