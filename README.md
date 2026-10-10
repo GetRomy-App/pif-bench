@@ -6,6 +6,7 @@ PIF-Bench v2 grades AI systems on the work a development office actually does: v
 
 - **Write-up:** [getromy.app/labs/blog/benchmarking-ai-prospect-research](https://getromy.app/labs/blog/benchmarking-ai-prospect-research)
 - **Method:** [METHODOLOGY.md](METHODOLOGY.md) — and what changed from v1, and why
+- **Paper:** [paper/pif_bench.pdf](paper/pif_bench.pdf)
 - **Write a task:** [CONTRIBUTING.md](CONTRIBUTING.md)
 - **v1 (April 2026), archived:** [docs/v1/README.md](docs/v1/README.md)
 - **Maintained by:** [Rōmy](https://getromy.app) — which builds one of the systems PIF-Bench can grade; everything needed to check the results without trusting us is in this repository
@@ -115,7 +116,7 @@ Add the product to `candidates.json` (with its model `family`) so the report can
 | `panel.json`, `panels/` | The standard judge panel, and alternates measured against it |
 | `candidates.json` | Systems the harness can run or label |
 | `leaderboard/` | Published runs: every deliverable, every judge's verdict and reasoning, and the report |
-| `paper/` | The v1 paper (LaTeX) |
+| `paper/` | The v2 paper, [`pif_bench.tex`](paper/pif_bench.tex) and [PDF](paper/pif_bench.pdf) (the v1 paper is at commit [`845964c`](https://github.com/getromy-app/pif-bench/blob/845964c/paper/pif_bench.tex)) |
 
 ## License
 

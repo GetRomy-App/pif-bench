@@ -4,11 +4,11 @@
 
 **Prospect Intelligence Fidelity Benchmark** — a seven-dimension framework for evaluating AI-generated donor research against verified public records.
 
-- **Paper:** [`paper/pif_bench.tex`](../../paper/pif_bench.tex)
+- **Paper:** [`paper/pif_bench.tex` at v1](https://github.com/getromy-app/pif-bench/blob/845964c/paper/pif_bench.tex) (the file now holds the v2 paper)
 - **Blog post:** https://getromy.app/labs/blog/benchmarking-ai-prospect-research (that address now carries the v2 write-up; the v1 text is below)
 - **Maintained by:** [Rōmy](https://getromy.app)
 
-The full write-up below is a copy of the blog post linked above. The LaTeX source for the academic paper version lives in [`paper/`](../../paper/).
+The full write-up below is a copy of the blog post linked above. The LaTeX source for the v1 paper is in the repository history at commit [`845964c`](https://github.com/getromy-app/pif-bench/blob/845964c/paper/pif_bench.tex).
 
 ---
 

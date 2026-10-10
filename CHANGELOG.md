@@ -28,6 +28,9 @@ A rebuild on the design of Harvey's Legal Agent Benchmark. v1 scores are not com
 - Live track: the 16 April 2026 product reports from v1, re-graded under the live rubrics.
 - Graded by a blind agent judge through `pif judge-export` / `pif judge-import`: 662/662 on the hidden fixtures, 99.6% test-retest agreement.
 
+**Paper**
+- `paper/pif_bench.tex` (and PDF) rewritten for v2: design, grading protocol, judge calibration, both tracks' results, v1 vs v2 on the same reports, limitations. The v1 paper remains at commit `845964c`.
+
 **Removed from v1**
 - Structural Completeness (rewarded a house format), hyperlink-based Source Attribution, capacity accuracy against unknowable "actuals", hand-set weights, and the cost-per-score table that divided per-report prices by monthly subscriptions. See [METHODOLOGY.md](METHODOLOGY.md#6-what-changed-from-v1-and-why).
 
