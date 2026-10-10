@@ -1,0 +1,67 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-01 a deductible amount of $420, calculated as \"$750 − 2 × $165 ($330)\". The two seats are valued at $330, which is exactly what the criterion requires."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The P-01 section says the acknowledgment must state two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330, plus the §6115 statement limiting the deductible amount to the excess of the payment over the value of goods and services provided. That meets every element of the criterion, and nothing elsewhere contradicts it."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable values P-02 goods and services at $2,050, computed as \"10 seats × $165 ($1,650) + VIP reception for 10 guests × $40 ($400)\". It says the program and signage name listing \"is recognition and carries no value (policy §4.2)\", and it rejects the CRM's $3,750 figure. This matches the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-02 a deductible amount of $7,950 ($10,000 − $2,050). It also says the CRM correction is to change the receipt amount from $6,250 to $7,950, and it marks P-02 'Wrong — fix' rather than approving it as entered. This meets both parts of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-03 a deductible amount of $375 and explains she declined in writing on the reply card at payment and no seat was reserved. It says the acknowledgment must state 'No goods or services were provided in exchange for your contribution'. It prohibits stating a seat, a $165 value, or the quid pro quo disclosure. It corrects the CRM from $165 benefit/$210 receipt to $0/$375. All elements of the criterion are met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The P-04 section gives a deductible amount of $420 ($750 − 2 × $165). It requires the acknowledgment to state \"two gala seats, good-faith estimate $330; the §6115 disclosure sentence.\" It rejects Dana's pending change: \"reject Dana's pending change — restore benefit $330, receipt amount $420 and template GALA-QPQ.\" The reason given is that the seats were reserved and available and an unused benefit does not increase the deduction. The review does not call the payment a gift. One small gap: the deliverable never lists Dana's pending change as benefit $0 / GALA-GIFT / $750, but it still rejects the change and restores the correct values, so the substance is met."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-05 a deductible amount of $200 and says the $100 raffle purchase (five tickets) \"are not a charitable contribution and are not deductible.\" It tells Dana to split the payment into a $200 gift and a $100 raffle sale, noting the current entry would print $300. Its must-state wording is \"Your deductible contribution is $200,\" and its must-not-state wording rules out a $300 gift or any deductible amount for the raffle. This satisfies the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The P-06 section gives a deductible amount of $1,500 and says the acknowledgment must state \"No goods or services were provided in exchange for your contribution.\" It does not reduce the amount for the seat she used, which it says belongs to the Vasquez-Hart table and is valued on their acknowledgment. It also says the acknowledgment must not state a seat or any seat value. This meets the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The P-07 section gives a deductible amount of $60 and says \"He gets an acknowledgment like every donor (policy §2.1).\" It also requires the statement \"No goods or services were provided in exchange for your contribution.\" It does not say he needs no acknowledgment, and it gives no other amount."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-08 a deductible amount of $30 ($195 − $165). It states the acknowledgment must carry \"one gala seat (dinner, open bar, live band), good-faith estimate $165; the §6115 disclosure sentence — required because her **payment** is more than $75, even though the deductible part is only $30\". This matches the criterion."
+    }
+  ],
+  "costUsd": 0.03448469999999999,
+  "usage": {
+    "inputTokens": 42203,
+    "cachedInputTokens": 35847,
+    "outputTokens": 1503
+  },
+  "gradedAt": "2026-10-10T13:59:18.472Z"
+}

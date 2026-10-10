@@ -1,0 +1,99 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-app-2026-04",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "taskHash": "2e2e5489961796b7",
+  "deliverableHash": "ab802cf5d007544f",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report profiles Robert F. Smith, founder of Vista Equity Partners, throughout (Cornell chemical engineering, Vista, Morehouse, SFI, the 2020 DOJ NPA). Nothing from the musician of The Cure, Senator Robert C. Smith or any other Robert Smith is attributed to him."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It states \"In 2000, he founded Vista Equity Partners in Austin, Texas. He currently serves as the firm's Chairman and CEO.\" Founder, current chairman and CEO, and the 2000 founding year all match."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It says \"He earned a B.S. in Chemical Engineering from Cornell University in 1985\" and \"an MBA with honors from Columbia Business School in 1994.\" Both degrees, schools and years are correct."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The report says only that he \"founded Vista Equity Partners in Austin, Texas\" and has \"deep ties to Texas\"; it never states that Smith himself lives in or is personally based in Austin. Founding a firm there is not a statement of his residence."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Net worth is given as \"Estimated between $9.2 billion and $10.6 billion,\" a range lying wholly within the $9-13 billion band."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It identifies \"the Fund II Foundation (which he founded)\" and shows it as a giving vehicle (\"$20 million from Fund II Foundation\" to Cornell; the initial $50 million for SFI). The foundation is attributed to Smith."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report gives \"A combined $50 million gift in 2016 ... to support STEM scholarships\" at Cornell but never mentions that Cornell named the Robert Frederick Smith School of Chemical and Biomolecular Engineering. The criterion requires the naming to be stated."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It states \"Morehouse College (2019): A $34 million gift to completely eliminate the student loan debt for the graduating class of 2019.\" The year, the Class of 2019 loan payoff and the $34 million figure all match; the commencement setting is implied by later reference to his Morehouse giving arising from on-the-ground interaction with students."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It states \"Student Freedom Initiative (2020): A $50 million personal donation to launch the program, matching an initial $50 million contribution from the Fund II Foundation,\" and ties SFI to HBCU student support and an income-contingent debt-relief model. No Cisco or Steinbridge money is credited to Smith and he is not said to have given $100 million personally."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The only Texas HBCU tie named is that the Southern Communities Initiative \"explicitly lists Texas HBCUs—including Prairie View A&M University and Texas Southern University—as focus institutions.\" None of the documented connections the criterion lists appears: Prairie View in SFI's cohort, the 2021 SFI expansion schools, the Huston-Tillotson commencement address or Fund II's $10,000 grant."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report credits Smith or Fund II with no gift, pledge or named fund at any Texas HBCU. The SCI mention describes focus institutions, not a gift."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It states \"In October 2020, Smith entered into a non-prosecution agreement with the U.S. Department of Justice. He agreed to pay $139 million ... admitting to using offshore trusts and foreign bank accounts to conceal income and evade taxes.\" Year, agreement type, conduct and the $139 million figure all match."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "It describes a non-prosecution agreement in which he admitted the conduct (\"admitting to using offshore trusts...\"). It does not say he was indicted, charged, convicted or cleared, and it does not attribute Brockman's case to him."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The matter is kept in the red-flag section with internal advice: \"Prospect research teams should brief institutional leadership and public relations staff on this matter prior to any public naming rights or gift announcements.\" It never recommends raising the matter with Smith."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Capacity is \"$10,000,000 – $50,000,000\" and the target ask is \"$15,000,000 to $25,000,000.\" The top of the ask range ($25M) does not exceed the top of the capacity range ($50M)."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The stated facts are consistent with the fact sheet: Denver birth, Cornell 1985, Columbia 1994, founding in 2000, net worth $9.2-10.6B, AUM \"over $101 billion\" (inside the $90-110B tolerance), Cornell $50M (2016) and $15M (2022), Morehouse $34M, SFI $50M+$50M, Columbia $15M/$10M, and the October 2020 NPA at $139M. The Cornell split is ungraded and no contradiction was found."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.481Z"
+}

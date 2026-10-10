@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "promptHash": "5e23fcf16d91eaf7",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 5843,
+  "outputTokens": 5884,
+  "costUsd": 0.146891,
+  "latencyMs": 47047,
+  "createdAt": "2026-10-10T18:13:50.592Z"
+}

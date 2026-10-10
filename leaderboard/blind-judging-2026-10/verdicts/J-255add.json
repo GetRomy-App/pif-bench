@@ -1,0 +1,12 @@
+{"packet": "J-255add", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "The sheet dates G-1 \"2026-01-02\" with tax year \"2026\", and the Marchetti receipt says \"credited to our account on January 2, 2026\". The notes refuse the December 29 date."},
+{"id": "C-002", "verdict": "fail", "reasoning": "The Marchetti gift is valued at \"Closing price on 2026-01-02 | $62.05 | $24,820.00\". The criterion requires $25,068.00, using the high/low mean of $62.67."},
+{"id": "C-003", "verdict": "pass", "reasoning": "G-2 is dated \"2025-12-30\", tax year \"2025\", and valued at the \"Mean of high $38.62 and low $37.84\" = $38.23 × 250 = \"$9,557.50\"."},
+{"id": "C-004", "verdict": "fail", "reasoning": "The sheet dates the Fenn certificate \"2026-01-05\" with tax year \"2026\" (\"It reached us on 2026-01-05... so that is the date of gift\"), and the receipt says \"received on January 5, 2026\". The criterion requires the 2025-12-31 postmark date."},
+{"id": "C-005", "verdict": "fail", "reasoning": "The Fenn gift is valued at \"$86.42 | $10,370.40\", the 2026-01-05 mean, which the criterion lists as a failing figure. The required value is $10,149.60."},
+{"id": "C-006", "verdict": "pass", "reasoning": "G-4 is dated \"2025-12-31\" with tax year \"2025\", described as the date \"the shares were credited to our fund account\"."},
+{"id": "C-007", "verdict": "fail", "reasoning": "The Szabo gift is valued at \"Public offering price on 2025-12-31 | $26.19 | $21,275.32\". The criterion names this figure as a fail; the required value is $20,048.67 at NAV."},
+{"id": "C-008", "verdict": "fail", "reasoning": "The Delacroix receipt states \"As you asked, the value of your gift on that date was $9,557.50.\" That puts a dollar value on a receipt."},
+{"id": "C-009", "verdict": "pass", "reasoning": "Each receipt gives the share count and the security: \"400 shares of Quarry Point Industries, Inc. common stock\", \"250 shares of Harrow Valley Bancorp common stock\", \"120 shares of Ostrander Railcar Corporation common stock\" and \"812.345 shares of Lantern Ridge Balanced Fund, Class A\"."},
+{"id": "C-010", "verdict": "pass", "reasoning": "All four receipts include \"No goods or services were provided in exchange for your gift.\""}
+]}

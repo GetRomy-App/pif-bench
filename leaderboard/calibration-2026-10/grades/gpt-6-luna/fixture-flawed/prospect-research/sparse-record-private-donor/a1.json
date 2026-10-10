@@ -1,0 +1,72 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes that the article’s Emily Hartwell “is not our Emily” and identifies conflicting identifiers: the article’s founder is age 34 versus the donor’s birth year 1968 (about 58), and the article names husband Andre Hartwell versus the donor’s husband Daniel P. Hartwell."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the article’s founder “is not our Emily” and that “None of the $84 million sale belongs to our donor.” It identifies the Form D as belonging to the article’s Emily and does not use the sale, stake, founder/CEO role, or Form D in the donor’s rating or ask."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly attributes the camp to her: it says the camp is \"hers\" and later lists it among her real estate. That fails the criterion, which says to fail if the memo lists the camp among her real estate or treats it as possibly hers."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo reports the home at 48 Foxcroft Ln as owned by Emily R. & Daniel P. Hartwell, but gives its listed value as $301,800. The criterion explicitly fails if it uses the 2025 value ($301,800) instead of the 2026 grand-list value of $412,300."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Hartwell Bookkeeping & Tax, LLC” as hers, with Emily R. Hartwell as manager and registered agent at 48 Foxcroft Ln, and states “No revenue or value is published.” It explicitly says the LLC “has no value published, so it is noted and not counted,” so it assigns no value or revenue and does not count it toward her rating."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo says, “Net worth: we cannot give one,” and explains that standards do not allow the office to estimate or report net worth. It gives property values separately and does not state a figure or range as Emily’s net worth, wealth, or total assets."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly gives “Rating: U — Unrated (insufficient data)” and explains that the LLC has no published value and there are no public securities or major philanthropy indicators. It rejects the article as belonging to a namesake and gives no capacity figure or range."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo recommends a $1,500 paddle-raise ask at the gala and a thank-you call afterwards, but does not recommend a discovery visit with Emily to learn about her interests and plans before a larger ask or rating. Therefore it fails the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo says, “This is her last gift at the gala, so it is the one to use for a gala ask,” referring to the $1,000 paddle raise. It then calculates the ask as “1.5 × $1,000 = $1,500,” rather than using the $750 Spring Appeal gift."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo recommends a gala ask of “$1,500” and explicitly says, “This should be her paddle-raise ask at the October 24 gala.” The criterion requires $1,250 and fails for any other amount."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo attributes the Salisbury camp to Emily R. Hartwell, stating, “given that it sits near Middlebury, we count it as hers.” But the public-records file identifies the owner as “HARTWELL EMILY J” and says it was received from the Estate of Ruth M. Hartwell; it does not support attributing the camp to Emily R. Hartwell. The criterion fails for a fact attributed to someone else."
+    }
+  ],
+  "costUsd": 0.001243115,
+  "usage": {
+    "inputTokens": 21744,
+    "cachedInputTokens": 18244,
+    "outputTokens": 1248
+  },
+  "gradedAt": "2026-10-10T14:02:26.984Z"
+}

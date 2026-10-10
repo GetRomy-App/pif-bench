@@ -1,0 +1,102 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The list explicitly says “Merge 23118 (Bob Okafor) into 10457 (Robert T. Okafor)” and identifies “Surviving ID 10457.” The summary also lists 23118 under retired IDs, satisfying all required parts of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly sets the Okafor survivor's preferred address to \"2209 Halsted Ct, Lake Oswego, OR 97034,\" noting that it was updated on 23118 on 2023-05-14. It also states that 18 Linden Ave \"becomes a previous address,\" so the older address is not retained as preferred."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Okafor group explicitly states, \"Combined lifetime giving: $4,350 + $2,400 = $6,750.\" The summary table also lists $6,750 for D-01, with no contradictory figure elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The list explicitly states, “Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman)” and identifies “Surviving ID 11876.” The summary table also lists 24410 as the retired ID, with no contradictory instruction elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies surviving ID 11876 and explicitly states, “Preferred name Priya R. Castellano, with Raman kept as former name.” The summary table also gives the survivor the name “Priya R. Castellano (former name Raman),” satisfying the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The D-02 decision explicitly states, \"Combined lifetime giving: $1,650 + $1,125 = **$2,775**\" for the merge of 24410 into 11876. The summary table also lists $2,775, and no contradictory figure appears for this merge."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The D-03 decision explicitly says, “Merge 19650 (Dr. Anne Kowalczyk) and 26031 (Ann Kowalcyzk) into 10822 (Anne M. Kowalczyk),” and identifies 10822 as the surviving ID. It gives combined lifetime giving as “$18,425 + $2,500 + $350 = $21,275,” matching the criterion exactly."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly directs: “Merge 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb).” It identifies “Surviving ID 10234” and states that it “stays deceased, 2025-11-02,” while retiring 20877 removes Harold's active duplicate. No contradictory instruction appears."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The Whitcomb group states, “Combined lifetime giving: $36,950 + $1,500 = $38,450.” The summary table also gives $38,450 for D-04, with no contradictory figure elsewhere."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states, “11092 Margaret E. Whitcomb — not merged, not deceased,” and says her record “stays active and solicitable.” It also directs, “Do not copy the deceased flag to her record or to the household,” so she is neither merged nor treated as deceased because of Harold’s death."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly says, “Merge 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.),” identifies 18342 as the surviving ID, and gives combined lifetime giving of “$3,240 + $600 = $3,840.” It also states that 10119 Thomas E. Brennan Sr. receives “no action” and is not merged with either record, satisfying all parts of the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The D-05 decision explicitly states, \"10119 Thomas E. Brennan Sr. — no action\" and \"He is not merged with either record.\" The only Brennan merge listed is 25503 into 18342, so 10119 is kept as his own record."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The D-06 decision explicitly says, “Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge.” It identifies them as spouses who were never linked, satisfying the requirement to preserve two records and create a household link."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The D-07 decision explicitly states, \"No action: 12650 and 21977 are different people,\" citing birth years 1984 versus 1962 and no shared email, phone, or address. This definitively keeps the records separate, with no merge or household instruction."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The D-09 decision states \"No action\" for 30044 Cascade Crest Service Club and 31207 Cascade Crest Service Club Foundation, citing their different EINs and describing them as \"separate legal entities.\" The summary also lists D-09 as \"No action — different EINs,\" with no contradictory merge instruction."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states “10458 Ngozi A. Okafor — no action” and identifies her as Robert's spouse, already linked. It also states “24409 Marco Castellano — not merged,” with only his spouse link moving to Priya's surviving record. Neither is listed among the retired IDs or merged into any other record."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable states “No action” for Linda Morrow (15238) and Katherine Morrow (26874), keeping them separate. It also states “No action” for Ellen Park (16602) and Ellen Parks (25119), describing them as different people. Neither pair is listed for merging elsewhere."
+    }
+  ],
+  "costUsd": 0.12294450000000001,
+  "usage": {
+    "inputTokens": 43992,
+    "cachedInputTokens": 0,
+    "outputTokens": 1299
+  },
+  "gradedAt": "2026-10-10T13:58:28.299Z"
+}

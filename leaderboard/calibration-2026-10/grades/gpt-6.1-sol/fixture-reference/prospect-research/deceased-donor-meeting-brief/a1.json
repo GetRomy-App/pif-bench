@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Gerry Halvorsen died at home on Thursday, August 27, 2026,” and identifies confirmation by the obituary and probate notice. It consistently treats him as deceased, directing staff to record the death date as 2026-08-27 and cancel the September 29 solicitation visit."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “The September 29 visit cannot go ahead as a solicitation” and that the gallery proposal “is not to be presented to Peg or anyone in the family.” It directs cancellation of the visit action and permits only a condolence visit where Ruth “raises no gift, proposal, pledge or estate matter and brings no proposal or rendering.” It also expressly prohibits proposing the gallery as a memorial naming to the family."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly directs: “Close proposal PR-2026-044 as ‘Closed — donor deceased’ (not transferred to Peg or anyone else).” It identifies that proposal as the $250,000 East Gallery naming and nowhere keeps it open, holds it for later presentation, or reassigns it to the family or foundation."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Action 1 explicitly calls to “Mark record 10388 deceased, date of death 2026-08-27” and to “Remove Gerry from all appeals, mailings, e-mail lists and event invitations.” Action 2 additionally directs Holly to pull the Halvorsen household's Fall Appeal rows before the mail file goes to the printer on 2026-09-28, satisfying the specific suppression requirement."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that policy bars solicitation of Peg, Erik, Kristin, or the family foundation before February 23, 2027. Action 3 reinforces this with “Bereavement — no solicitation before 2027-02-23” and identifies it as “the 180th day after the 2026-08-27 date of death.” No conflicting resumption date appears."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly directs Holly to “Pull the Fall Appeal rows for both the Halvorsen household (10388/10389, Peg) and Kristin and Michael Doyle (20417)” before printing. It also flags Peg and Kristin for no solicitation before February 23, 2027, and expressly includes appeals in that prohibition. The general household salutation change to Peg alone does not contradict the explicit removal of her household from the Fall Appeal."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says, “Do not send the Halvorsen Family Foundation letter of request due October 15,” explaining that its trustees are Peg, Erik and Kristin and that “none may go before 2027-02-23.” It also identifies the planned request as $15,000 and assigns Ruth and Janet responsibility for holding it until that date. No contrary recommendation appears."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly gives “Unpaid balance: $70,000 ($200,000 − $130,000)” and lists the required payments of $40,000, $40,000, $25,000, $15,000, and $10,000. Its mention of the CRM’s $80,000 figure clearly identifies it as outdated and explains the missing June 12 payment, rather than asserting a competing unpaid balance."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Action 7 refers the $70,000 unpaid pledge to CFO Denise Okafor and states, \"Only Denise decides whether to present a claim and deals with the estate about the pledge.\" It also specifies that no development staff ask Peg, Erik, Kristin or the foundation to pay and that \"no pledge reminder goes to the household.\" Section 4 explicitly prohibits discussing the pledge with any family member, \"including Erik in his role as personal representative,\" with no contradictory recommendation elsewhere."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The pledge referral to CFO Denise Okafor explicitly includes the “personal representative Erik T. Halvorsen” and the “claims deadline of 2026-12-28.” These match both required facts, with no contradictory deadline or representative elsewhere in the memo."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the $100,000 bequest intention in Gerry's signed letter of intent dated 2021-05-10 and directs Ruth to “Notify Samuel Achterberg of the $100,000 bequest intention.” It explicitly states, “He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center,” and does not authorize anyone else to inquire about the bequest."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly directs: “Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received.” It also states, “We do not know whether the will admitted to probate still contains it,” rather than asserting that the estate owes or will pay $100,000. No contradictory treatment appears elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Action 5 explicitly recommends the Center's condolence letter: \"Because Gerry was a former trustee, it is signed by President & CEO Laurel Whitfield and co-signed by Board Chair Thomas Brandvold.\" The memo also identifies his trustee service as 2009–2018, satisfying the required rationale and signatories."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo addresses memorial gifts, noting that three have arrived and are coded to the Arts Education Fund. Action 9 directs staff to acknowledge each memorial donor and \"send Peg a monthly list of memorial donors' names and addresses, never the amounts.\" It does not propose sharing amounts or a total with the family."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The memo introduces people and rules not supported by the supplied files, including “CFO Denise Okafor,” “Holly Prochaska, Advancement Services Manager,” and “Board Chair Thomas Brandvold.” It also attributes requirements to “Advancement Policy DR-7,” which is not among the supplied reference files. Although it correctly qualifies the bequest as an intention rather than a confirmed current will provision, the criterion explicitly fails unsupported people or rules."
+    }
+  ],
+  "costUsd": 0.0350119,
+  "usage": {
+    "inputTokens": 47000,
+    "cachedInputTokens": 40394,
+    "outputTokens": 1448
+  },
+  "gradedAt": "2026-10-10T14:03:51.037Z"
+}

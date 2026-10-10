@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "promptHash": "f15a045ab0bfadf5",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 3170,
+  "outputTokens": 3234,
+  "costUsd": 0.0402635,
+  "latencyMs": 51014,
+  "createdAt": "2026-10-10T18:15:59.593Z"
+}

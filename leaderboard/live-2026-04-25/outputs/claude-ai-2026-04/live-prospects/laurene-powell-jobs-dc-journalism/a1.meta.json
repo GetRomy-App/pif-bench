@@ -1,0 +1,11 @@
+{
+  "candidate": "claude-ai-2026-04",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "promptHash": "c22da73b5dbcf963",
+  "source": "import",
+  "createdAt": "2026-10-10T18:10:57.617Z",
+  "importedFrom": "getromy-app/web:data/claude.md lines 539–681",
+  "collectedAt": "2026-04-25",
+  "notes": "Collected by hand from the product's own interface on 2026-04-25 for PIF-Bench v1; split verbatim from getromy-app/web data/*.md (commit f8a99d6) with only the echoed prompt removed — see leaderboard/live-2026-04-25/provenance.json"
+}

@@ -1,0 +1,77 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo reports line 11 column (f) total support as $3,671,600, built from contributions and grants of $3,590,300 plus interest and dividends of $81,300. It excludes program fees and the securities gain, and its reconciliation of $4,308,000 − $454,400 − $182,000 = $3,671,600 is consistent. This matches the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo shows the $454,400 on line 12, outside public support and total support, and says so: \"These are gross receipts from related activities; they go on line 12 for information and are not part of public support or total support.\" It names the workshop fees ($118,500), river trip fees ($79,900) and the $256,000 Kettle County contract. It states the county contract is \"a fee for services, not a government grant,\" and the reconciliation subtracts the $454,400 to reach $3,671,600."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states: \"Realized gain on the March 2024 sale of securities, $182,000 — a gain on the sale of a capital asset, which is excluded from total support.\" The reconciliation ($4,308,000 − $454,400 − $182,000 = $3,671,600) confirms the gain is left out of total support, and line 10 shows no other income. This meets the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432.\" That matches the required figure and the required basis, which is 2% of line 11 total support."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo counts all $50,000 of Sarkis's gifts as public support with $0 excess, and explains: \"His $35,000 gift in 2023 was more than 2% of that year's support, but the test runs on his five-year total, which is below $73,432.\" It applies the limit to five-year totals for every donor, not year by year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The funder table lists Upper Alder Community Foundation at $135,000 as \"Not limited\" with $135,000 counted and $0 excess. It lists Oregon DEQ at $160,000 as \"Not limited\" with $160,000 counted and $0 excess. Both are included in line 1, so neither is cut by the 2% limit or left out of public support."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo's funder table lists Hollins-Pryor Family Foundation at $225,000 with the treatment \"2% limit applies — a private foundation is not a publicly supported organization\". It counts $73,432 as public support and shows an excess of $151,568. That matches the criterion exactly, and the Upper Alder Community Foundation is treated differently, as not limited."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo reports line 6 public support as $1,260,596, computed as $3,590,300 less $2,329,704 of excess. The excess is made up of Ostrander $1,951,568, Dellwood $226,568 and Hollins-Pryor $151,568, matching the criterion exactly."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo reports a line 14 public support percentage of 34.33%, computed as $1,260,596 ÷ $3,671,600. That matches the criterion's figure. Nothing elsewhere in the memo contradicts it."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo opens with \"Yes — we pass the 33⅓% test for 2025, but narrowly,\" and adds \"We qualify as a publicly supported organization on line 16a without needing the facts-and-circumstances test.\" This is a plain, clear conclusion that matches the criterion, and nothing elsewhere in the memo contradicts it."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says \"we pass ... but narrowly,\" puts the result at \"34.33%, about one percentage point above the 33⅓% line,\" and gives the dollar margin: \"$1,260,596 is $36,729 more than one-third of total support ($1,223,867).\" These figures match the criterion and follow from 34.33%. The board section repeats the thin margin."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states \"No contribution has been treated as an unusual grant: Ferrante & Lowe reviewed the largest gifts in August and found that none qualifies, because Ms. Ostrander's gifts recur every year.\" It counts every contribution in line 1, with only the 2% limit applied, and does not propose excluding or reclassifying any gift as an unusual grant."
+    }
+  ],
+  "costUsd": 0.0334864,
+  "usage": {
+    "inputTokens": 39380,
+    "cachedInputTokens": 33704,
+    "outputTokens": 1595
+  },
+  "gradedAt": "2026-10-10T13:58:55.995Z"
+}

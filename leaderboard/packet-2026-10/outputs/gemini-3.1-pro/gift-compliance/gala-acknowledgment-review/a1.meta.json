@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "promptHash": "184f1e705eb12e9d",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 4262,
+  "outputTokens": 7478,
+  "costUsd": 0.09826,
+  "latencyMs": 67319,
+  "createdAt": "2026-10-10T18:20:28.780Z"
+}

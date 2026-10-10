@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "3d82b54985906e42",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Harold Penwick as deceased, noting he died on 2026-07-19, and lists him in the 'Deceased' category in the summary. It explicitly states that he is 'Reported under Deceased only, per section 4.1' and does not count him as a stalled solicitation or contact gap."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends closing out the record, stating to \"confirm the deceased flag with Gift Records; close the $100,000 ask as 'Closed — deceased'; suppress all mailings and invitations; remove the record from the portfolio.\" It also explicitly advises \"No follow-up of the ask with the family or estate\" and leaves any other outreach to his widow to the Director's discretion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The review correctly flags the Mehtas as an assignment conflict because there are two primary officers listed with the specified assignment dates. The next action advises the Director ('you designate one primary officer') to resolve it. Furthermore, it explicitly notes that Raymond Tsai's secondary officer does not constitute a conflict, and it does not flag Harold Penwick for this issue."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Lorraine Whitfield as having a contact gap and correctly states her last substantive contact was the 2026-05-20 thank-you visit, 118 days ago. It also correctly notes that the newsletter, acknowledgment letter, and Twilight Tour attendance do not count as substantive contacts."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review correctly identifies Thomas and Ingrid Brightwater as having a contact gap. It states their last substantive contact was the dinner on 2026-05-28 (110 days ago) and explicitly discounts the 2026-07-21 phonathon call because it was made by a student caller."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states that Desmond and Carla Fitch have no substantive contact on record and lists the introductory letter, unanswered personal email, voicemail, and unanswered emailed invitation as non-substantive contacts."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review correctly lists Miriam Feld under the 'In standard' section, noting that her '2026-08-31 email exchange, in which she replied and set a call for October 6, is substantive.'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The summary table and the detailed sections correctly identify exactly two prospects as 'Qualification overdue': Desmond and Carla Fitch and Franklin Dubose. Constance Ivers is correctly placed in the 'In standard' section."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Beatrice Langford and Patricia and Leon Marchetti as being over the 18-month cultivation limit, with the exact dates specified in the criterion (2024-11-18 and 2025-02-03, respectively). No other prospects are reported in this category."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Gordon Ashby and Vivian Achterberg as the only two stalled solicitations, noting their last asks were 146 and 286 days ago respectively. It also explicitly excludes Samuel Ortega, Lorraine Whitfield, Nora Castellanos, and Harold Penwick from this category, as required by the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly recognizes that \"His discovery visit happened on 2026-07-09 and Marisol recommended moving him to Cultivation, but the stage was never updated.\" It states the next action is to \"advance him to Cultivation now,\" avoiding any recommendation for a redundant discovery visit."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable includes a Summary table that perfectly matches the required counts: contact gap 5, qualification overdue 2, cultivation over limit 2, stalled solicitation 2, assignment conflict 1, and deceased 1. It also correctly states that '10 of 16 prospects are out of standard.'"
+    }
+  ],
+  "costUsd": 0.12020600000000001,
+  "usage": {
+    "inputTokens": 34651,
+    "cachedInputTokens": 0,
+    "outputTokens": 4242
+  },
+  "gradedAt": "2026-10-10T14:00:35.249Z"
+}

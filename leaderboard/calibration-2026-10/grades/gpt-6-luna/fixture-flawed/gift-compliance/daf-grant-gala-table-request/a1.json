@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "eb53a3fbce54c01a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo says “No part of it goes to the gala” and leaves the invoice open for personal payment. It also rules out “a second Kestrel grant ‘just for the table’,” and the reply says a second Kestrel grant “wouldn't work either,” so neither document applies or invites a DAF grant toward the table."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the $3,000 invoice is “to be paid by Peggy and/or Erik by personal check or card — never from a donor-advised fund.” The reply likewise tells Peggy that the invoice is due October 2 and “a personal check or card is perfect,” while explicitly refusing to use the grant for the table."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The memo says the table acknowledgment will report a good-faith estimate of \"$1,360\" (8 × $170), and repeats that amount in the checklist. The criterion requires $1,480 (8 × $185) and explicitly fails for $1,360."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo says the table acknowledgment will include the §6115 disclosure that the deductible amount is limited to the excess over the value of goods and services, but gives the goods-and-services value as $1,360 and the deductible amount as $1,640. The criterion requires $1,520 ($3,000 − $1,480) and fails when any other deductible amount is given."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo directs the written acknowledgment to “Kestrel Charitable Trust” and identifies the grant as “$15,000.00.” The acknowledgment also states, “No goods or services were provided in exchange for this grant,” so it meets the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The proposed acknowledgment to Kestrel says the grant was “applied to Margaret and Erik Halvorsen's Studio Wing pledge, which now has a balance of $5,000.” This mentions both the pledge and its balance, so the criterion fails."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The reply says, “Your $15,000 gift is fully tax-deductible,” which tells Peggy the grant is deductible to her. This directly meets the criterion’s FAIL condition."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The reply does not explain that Kestrel is the legal donor or that Kestrel receives the grant acknowledgment. Instead, it says “Your $15,000 gift is fully tax-deductible,” without answering why Peggy will not receive a receipt; the explanation appears only in the internal memo, not the reply."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo specifies “Hard credit: Kestrel Charitable Trust” and “Soft credit: Margaret and Erik Halvorsen.” It designates the full $15,000 to the “Studio Wing Campaign” and says “No part of it goes to the gala,” satisfying the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo says, “Soft-credit the full grant to the Halvorsens' statement of intent,” and its balance table subtracts the full “$15,000” grant from the Studio Wing statement of intent. This matches the required amount."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo calculates the open balance as $5,000 after subtracting the $10,000 personal check, the $10,000 2025 Kestrel grant, and the full $15,000 grant. It also states that the 2025 and 2026 gala table payments are event purchases and are not counted toward the statement of intent."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states that the commitment on form SW-SOI is “a statement of intention, not a legally binding pledge or obligation.” It further says this is why §4.4.1 allows the recommended DAF grant to be soft-credited toward it and clarifies that the grant does not discharge a legal obligation."
+    }
+  ],
+  "costUsd": 0.0040586,
+  "usage": {
+    "inputTokens": 28192,
+    "cachedInputTokens": 0,
+    "outputTokens": 1071
+  },
+  "gradedAt": "2026-10-10T13:57:42.166Z"
+}

@@ -1,0 +1,104 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "e24c7920e841969c",
+  "deliverableHash": "629156752676313b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The list says \"Merge 23118 (Bob Okafor) into 10457 (Robert T. Okafor)\" with \"Surviving ID 10457 — the lowest ID, even though 23118 is the active sustainer record\"."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It sets \"Preferred address 2209 Halsted Ct, Lake Oswego, OR 97034 — updated 2023-05-14 on 23118\", with 18 Linden Ave becoming a previous address."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It states \"Combined lifetime giving: $4,350 + $2,400 = $6,750\" and leaves Ngozi's giving out."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The list says \"Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman)\" with \"Surviving ID 11876\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It gives \"Preferred name Priya R. Castellano, with Raman kept as former name\"."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It states \"Combined lifetime giving: $1,650 + $1,125 = $2,775\", with Marco's giving excluded."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It merges \"19650 (Dr. Anne Kowalczyk) and 26031 (Ann Kowalcyzk) into 10822\" with \"Surviving ID 10822\" and \"$18,425 + $2,500 + $350 = $21,275\"."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It merges \"20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb)\" with \"Surviving ID 10234, which stays deceased, 2025-11-02\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It states \"Combined lifetime giving: $36,950 + $1,500 = $38,450\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "It says \"11092 Margaret E. Whitcomb — not merged, not deceased\": her record \"stays active and solicitable\", she becomes the household's primary contact, and \"Do not copy the deceased flag to her record or to the household\"."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It merges \"25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.)\" with \"Surviving ID 18342\" and \"$3,240 + $600 = $3,840\"."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It states \"10119 Thomas E. Brennan Sr. — no action ... He is not merged with either record.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "It says \"Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge,\" identifying them as spouses who were never linked."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "It says \"No action: 12650 and 21977 are different people. Same name only — born 1984 vs 1962\", keeping them apart without householding them."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "It takes \"No action\" on 30044 and 31207, citing EINs 93-0817446 vs 93-1550329: \"separate legal entities; organizations merge only on matching EINs\"."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "It says \"10458 Ngozi A. Okafor — no action\" and \"24409 Marco Castellano — not merged\", so both remain their own records."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "D-08 (Linda and Katherine Morrow) and D-10 (Ellen Park and Ellen Parks) are both \"No action\", so each pair stays separate."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.569Z"
+}

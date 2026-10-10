@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "promptHash": "e32f89bfe85f6d7a",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 4495,
+  "outputTokens": 5627,
+  "costUsd": 0.135011,
+  "latencyMs": 51697,
+  "createdAt": "2026-10-10T18:13:22.233Z"
+}

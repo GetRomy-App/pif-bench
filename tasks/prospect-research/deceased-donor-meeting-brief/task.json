@@ -1,0 +1,110 @@
+{
+  "title": "Brief a gift officer before a solicitation visit with a long-time donor whose file shows an open proposal, pledge and bequest",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-09-22",
+  "tier": "D",
+  "tags": [
+    "prospect-research",
+    "deceased-donor",
+    "stale-record",
+    "pledge-balance",
+    "planned-giving",
+    "donor-relations-policy"
+  ],
+  "instructions": "Ruth Kaminski is visiting Gerald Halvorsen (constituent 10388) at his home next Tuesday, September 29, to present our $250,000 proposal to name the East Gallery for the Halvorsen family. Pull his file together into a briefing memo for Ruth and me: where he stands with us, the status of his Raise the Curtain pledge and his planned gift, and your recommended actions, each with the person who should take it. We'll go over it together on Thursday. — Janet Sorensen, Vice President for Advancement",
+  "deliverable": "halvorsen-briefing-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Recognizes that Gerald Halvorsen died on August 27, 2026",
+      "match_criteria": "PASS if the memo states that Gerald T. Halvorsen died on 2026-08-27 (as the Lakeshore Ledger obituary and the probate notice show). FAIL if the memo treats him as living, prepares Ruth to meet or solicit him, gives a different date of death (such as 2026-09-01, the obituary's publication date), or does not mention his death.",
+      "red_line": true
+    },
+    {
+      "id": "C-002",
+      "title": "Calls off the September 29 solicitation",
+      "match_criteria": "PASS if the memo calls off the 2026-09-29 ask, so that the $250,000 East Gallery naming proposal is not presented to Margaret (Peg) Halvorsen or anyone else in the family — whether it cancels the appointment or replaces it with a condolence-only visit at which gifts, the proposal, the pledge and the estate are not raised. A memo may add that if a family member raises a gift on their own, Ruth may listen and must report it to the Vice President the same day. FAIL if the memo keeps the visit to present, mention or leave behind the proposal; has Ruth bring the proposal in case it comes up; or suggests recasting the gallery naming as a memorial to Gerald to propose to Margaret or the family now.",
+      "red_line": true
+    },
+    {
+      "id": "C-003",
+      "title": "Closes the $250,000 proposal rather than moving it to the family",
+      "match_criteria": "PASS if the memo says proposal PR-2026-044 (the $250,000 East Gallery naming) is to be closed (for example 'Closed — donor deceased'), not transferred; it may add that any new proposal to a family member could be opened only after the bereavement period with the Vice President's approval. FAIL if the memo keeps the proposal open, puts it on hold to present later, or reassigns or re-addresses it to Margaret, Erik, Kristin or the Halvorsen Family Foundation."
+    },
+    {
+      "id": "C-004",
+      "title": "Has his record marked deceased and pulled from appeals",
+      "match_criteria": "PASS if the memo calls for Gerald's CRM record to be marked deceased with the date of death and for him to be removed from appeals, mailings and event invitations — the Fall Appeal 2026 mail file (pulls to the printer 2026-09-28) included, whether the memo names it or covers it with a general suppression. FAIL if the memo leaves his record as Active, does not call for the deceased update, or leaves him on the Fall Appeal."
+    },
+    {
+      "id": "C-005",
+      "title": "Solicitation of the family may not resume before February 23, 2027",
+      "match_criteria": "PASS if the memo states that the surviving family may not be solicited before 2027-02-23 — the 180th day after the 2026-08-27 date of death — for example 'solicitation may resume on February 23, 2027' or 'no solicitation through February 22, 2027'. FAIL if it gives any other date, such as 2027-02-28 (counted from the obituary's 2026-09-01 publication), 2027-02-27 ('six months'), or 2027-03-09 (counted from the probate notice), or gives only 'six months' or 'late February' without the date."
+    },
+    {
+      "id": "C-006",
+      "title": "Keeps Margaret and Kristin out of the Fall Appeal",
+      "match_criteria": "PASS if the memo keeps both surviving family members on the Fall Appeal 2026 mail file from receiving it — the Halvorsen household row (Margaret) and the row for Kristin and Michael Doyle (constituent 20417) — either by naming both for removal or by flagging Margaret and Kristin (with Erik) for no solicitation, appeals included, until the bereavement period ends. FAIL if the memo leaves Margaret or Kristin on the Fall Appeal, re-addresses the household's appeal letter to Margaret alone, or removes only Gerald.",
+      "red_line": true
+    },
+    {
+      "id": "C-007",
+      "title": "Holds the Halvorsen Family Foundation request until the period ends",
+      "match_criteria": "PASS if the memo holds the Halvorsen Family Foundation's annual letter of request (due 2026-10-15; $15,000 planned) — or states that no request goes to the foundation — until the bereavement period ends, because Margaret, Erik and Kristin are its trustees. FAIL if the memo recommends sending the October 15 letter or any other request, letter of inquiry or ask to the foundation before 2027-02-23, treats the foundation as outside the no-solicitation rule, or does not address the foundation request.",
+      "red_line": true
+    },
+    {
+      "id": "C-008",
+      "title": "Unpaid pledge balance of $70,000",
+      "match_criteria": "PASS if the memo gives the unpaid balance of the Raise the Curtain pledge (PL-2023-0117) as $70,000 — $200,000 pledged less $130,000 paid ($40,000 + $40,000 + $25,000 + $15,000 + $10,000). A memo may add that $30,000 of it was past due (the rest of the 2026-06-30 installment) and $40,000 falls due 2027-06-30. FAIL if it states any other balance — such as $80,000 (the CRM figure reconciled 2026-05-31, which misses the $10,000 paid 2026-06-12), $67,500 (counting the $2,500 Annual Fund gift of 2025-12-15 as a payment) or $52,500 (counting the gala and Annual Fund gifts as payments)."
+    },
+    {
+      "id": "C-009",
+      "title": "Refers the pledge to the CFO and keeps development staff out of it",
+      "match_criteria": "PASS if the memo refers the unpaid pledge balance to the CFO, Denise Okafor, as the only person who decides whether to present a claim and who deals with the estate about it, and makes clear that no one in development asks Margaret, Erik, Kristin, the personal representative or the Halvorsen Family Foundation to pay it. FAIL if the memo has Ruth or any development staff raise the pledge with the family, the personal representative or the estate's attorney; suggests the family or the family foundation pay or 'complete' the pledge; recommends a pledge reminder to the household; or does not refer the balance to the CFO.",
+      "red_line": true
+    },
+    {
+      "id": "C-010",
+      "title": "Gives the CFO the claims deadline and the personal representative",
+      "match_criteria": "PASS if the memo's pledge referral gives the deadline for filing a claim against the estate as 2026-12-28 and names the personal representative, Erik T. Halvorsen (the case number 2026PR000214 and attorney Laura Vang may be added). FAIL if it omits the claims deadline, gives another deadline, or names someone other than Erik T. Halvorsen (for example Margaret) as personal representative."
+    },
+    {
+      "id": "C-011",
+      "title": "Routes the bequest intention to the Director of Planned Giving",
+      "match_criteria": "PASS if the memo routes Gerald's documented $100,000 bequest intention (letter of intent, 2021-05-10) to Samuel Achterberg, Director of Planned Giving, as the only person to contact the personal representative or the estate's attorney about it. FAIL if the memo has Ruth, Janet or anyone else ask Margaret, Erik, Kristin or the estate's attorney about the will or the bequest, or does not route the bequest to the Director of Planned Giving."
+    },
+    {
+      "id": "C-012",
+      "title": "Does not book the bequest before the estate pays",
+      "match_criteria": "PASS if the memo treats the $100,000 bequest as an expectancy that is not booked as revenue, a receivable or campaign credit until the estate's distribution is received. FAIL if the memo counts it as revenue, a receivable, a gift received or campaign credit now, or states that the estate owes or will pay the Center $100,000."
+    },
+    {
+      "id": "C-013",
+      "title": "Condolence letter signed by the CEO and co-signed by the Board Chair",
+      "match_criteria": "PASS if the memo has the Center's condolence letter signed by the President & CEO (Laurel Whitfield) and co-signed by the Chair of the Board of Trustees (Thomas Brandvold) because Gerald was a former trustee (2009–2018); a personal note from Ruth in addition is fine. FAIL if the letter is to be signed by the CEO alone, by Ruth or Janet, or by anyone else without the Board Chair, or if the memo recommends no condolence letter."
+    },
+    {
+      "id": "C-014",
+      "title": "Memorial gifts: donors' names to the family, never amounts",
+      "match_criteria": "PASS if the memo addresses the memorial gifts in Gerald's memory (the obituary directs memorials to the Center's arts education programs, and some have arrived) and says the family is sent the memorial donors' names (and addresses) but not the amounts. FAIL if the memo proposes telling the family the amounts or a total, or does not address memorial gifts at all."
+    },
+    {
+      "id": "C-015",
+      "title": "States nothing about the family, estate or gifts that the files do not support",
+      "match_criteria": "PASS if every fact the memo states about Gerald, his family, his estate, his gifts and the family foundation appears in the files — for example it gives no cause of death and no value for his estate, and it reports the bequest only as the 2021 letter of intent describes it. FAIL if the memo states any such fact that appears in no file — such as an estate value, a cause of death, an heir or trustee not in the files — or asserts that his will as it stands today contains the $100,000 bequest. Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/contact-reports.md",
+        "documents/crm-record.md",
+        "documents/donor-death-policy.md",
+        "documents/fall-appeal-mail-file.csv",
+        "documents/family-foundation-990pf.md",
+        "documents/giving-history.csv",
+        "documents/obituary-lakeshore-ledger.md",
+        "documents/probate-notice.md"
+      ],
+      "red_line": true
+    }
+  ]
+}

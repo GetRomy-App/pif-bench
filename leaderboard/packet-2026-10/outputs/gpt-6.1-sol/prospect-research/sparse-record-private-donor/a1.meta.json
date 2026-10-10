@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "promptHash": "02a58ad19dca2517",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 2777,
+  "outputTokens": 1889,
+  "costUsd": 0.025831,
+  "latencyMs": 34577,
+  "createdAt": "2026-10-10T18:17:21.985Z"
+}

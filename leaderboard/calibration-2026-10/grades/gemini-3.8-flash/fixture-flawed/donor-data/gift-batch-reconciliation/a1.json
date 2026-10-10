@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable identifies the double posting of Priyanka Desai's $250 gift (G-41817 and G-41822), but explicitly specifies to 'Delete G-41817, the automatic import; keep G-41822'. The criterion explicitly states: 'FAIL if the memo ... deletes G-41817 (the posting tied to the PayBridge transaction) instead'."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies G-41809 from Marisol Etxeberria (check 4410) as keyed at $15,000.00 versus the bank deposit item in RDC-0710-1 of $1,500.00. It specifies an adjusting entry to 'Correct the gift amount to $1,500.00' with an effect on July of -$13,500.00."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "In section 2, row 2, the deliverable explicitly states: 'The acknowledgment sent 2026-07-13 can stand; her calendar-year giving statement in January will show the corrected $1,500.00.' The criterion mandates a FAIL if the memo lets the $15,000 acknowledgment stand or defers the correction to a year-end statement."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion explicitly requires posting a reversing adjustment (a negative gift) while keeping the original gift on record, and states FAIL if the memo deletes the original gift instead of reversing it. The deliverable instructs to 'Delete G-41810 from B-2607-02, since the money never cleared' and calculates the adjustment as deleting the gift."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Gerald & Mae Lindgren's check 9014 (G-41803, $1,000.00) as an FY2026 gift because it was postmarked 2026-06-30. It explicitly specifies to 'Re-date to 2026-06-30 and move it to the year-end batch B-2606-YE'."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The criterion requires keeping both G-41802 and G-41804 in July and explicitly states: 'FAIL if the memo moves either gift to FY2026 or the year-end batch, or re-dates either to the date written on the check.' In discrepancy #5, the deliverable moves G-41804 (Samuel Ochieng) to FY2026 / B-2606-YE and re-dates it to 2026-06-28."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes under 'Checked and left alone' that PayBridge pays out net of processing fees ($3,257.13 net vs. $3,335.00 gross), explaining: 'The $77.87 difference is PayBridge's fee... That is expected — gifts stay at gross and Finance books $77.87 to 6120 Merchant fees. No CRM entry.' It does not treat the fee as an error or adjust gift amounts in the CRM."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Card gifts are $3,335.00 gross; PayBridge paid out $3,257.13 net across 13 payouts. The $77.87 difference is PayBridge's fee (2.2% + $0.30 per transaction)' and includes the $77.87 fee figure in both the narrative and the bank tie-out table."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes under 'Checked and left alone' that Valley Office Supply, $86.40, is 'a vendor refund, not a gift. Do not enter it in the CRM; Finance codes it in the general ledger.' It also does not include it in the corrected July CRM batch total, treating it correctly as a non-gift reconciling item on the bank tie-out."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable states the corrected July batch total as $16,880.00 instead of $17,130.00 because it erroneously removed Samuel Ochieng's $250 check from July. The criterion explicitly requires $17,130.00 and specifies FAIL if $16,880.00 is stated."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Section 4 provides a tie-out to the bank that matches the bank net of $18,123.53 and clearly shows an 'Unexplained difference: $0.00'. The tie-out explicitly includes the PayBridge fees (-$77.87), the Lindgren check deposited in July but booked to FY2026 (+$1,000.00), and the Valley Office Supply refund (+$86.40)."
+    }
+  ],
+  "costUsd": 0.027140249999999994,
+  "usage": {
+    "inputTokens": 30307,
+    "cachedInputTokens": 0,
+    "outputTokens": 1176
+  },
+  "gradedAt": "2026-10-10T13:57:16.337Z"
+}

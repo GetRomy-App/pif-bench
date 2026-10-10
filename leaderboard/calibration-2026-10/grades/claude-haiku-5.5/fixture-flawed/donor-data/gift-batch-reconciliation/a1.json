@@ -1,0 +1,72 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo identifies Priyanka Desai's $250 card gift as posted twice (G-41817 from PayBridge transaction pbt_7Q6M77 and G-41822 keyed by hand 2026-07-16) against one PayBridge transaction. However, it deletes G-41817, the automatic import tied to the PayBridge transaction, and keeps G-41822, which is the opposite of the criterion's required action of deleting the later posting G-41822. The $250 reduction amount is correct, but the criterion explicitly fails if the memo deletes G-41817 instead."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies discrepancy #2: G-41809 Marisol Etxeberria, 'Check 4410 keyed as $15,000.00; the bank item in RDC-0710-1 is $1,500.00.' It corrects the gift amount to $1,500.00 (not deleting it), with an effect of −$13,500.00, and carries this into the corrected batch total. This matches the criterion exactly."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to void or recall the $15,000 acknowledgment to Marisol Etxeberria and send a corrected $1,500 acknowledgment. The memo's row 2 says the correction is to $1,500 and that 'The acknowledgment sent 2026-07-13 can stand; her calendar-year giving statement in January will show the corrected $1,500.00.' This explicitly lets the $15,000 acknowledgment stand and defers the correction to a later year-end statement, which the criterion names as a FAIL condition."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo identifies check 2231 for Hollis Grant ($500) as returned NSF on 2026-07-16, which matches the criterion's identification requirement. However, the criterion requires a reversing adjustment (a negative gift) of -$500 dated 2026-07-16 with the original gift kept on record. The memo instead says 'Delete G-41810 from B-2607-02' and removes the gift from the CRM, which is the explicit failure mode the criterion names ('deletes the original gift instead of reversing it'). The -$500 amount and the July 16 date are right, but the mechanism is wrong, so the criterion fails."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo's item 4 identifies G-41803 (Gerald & Mae Lindgren, check 9014, $1,000) as received 2026-07-02 but postmarked 2026-06-30, classifies it as an FY2026 gift, re-dates it to 2026-06-30, and moves it to the year-end batch B-2606-YE. The tie-out also adds back the Lindgren check as booked to FY2026. This matches every element of the criterion, and the memo does not contradict it elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The criterion requires keeping G-41804 (Samuel Ochieng, check 1187) in July, but the memo moves it: discrepancy #5 says \"Re-date to 2026-06-28 and move it to B-2606-YE,\" and the tie-out adds it back as a July deposit booked to FY2026. The memo never says this check was postmarked 2026-07-01, which the criterion assumes. G-41802 (Doyle) is correctly kept in July, but the FAIL condition is triggered by the Ochieng move."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that PayBridge paid out $3,257.13 net, that the $77.87 difference is PayBridge's fee (2.2% + $0.30), that 'That is expected — gifts stay at gross and Finance books $77.87 to 6120 Merchant fees. No CRM entry.' This matches the criterion: fees treated as expected, gifts kept gross, no CRM adjustment proposed. The only card-related item in the discrepancy table is the duplicate Desai gift, which is unrelated to fees."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states the PayBridge fee explicitly: 'Card gifts are $3,335.00 gross; PayBridge paid out $3,257.13 net across 13 payouts. The $77.87 difference is PayBridge's fee (2.2% + $0.30 per transaction).' It also books $77.87 to 6120 Merchant fees and uses the same figure in the bank tie-out. The gross and net figures match the criterion exactly, and no other fee total appears that would contradict it."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo states that the Valley Office Supply $86.40 (check 33817, item 5 of RDC-0724-1) is 'a vendor refund, not a gift. Do not enter it in the CRM; Finance codes it in the general ledger.' It also lists the $86.40 vendor refund as a GL entry and excludes it from the corrected batch total of $16,880.00. The memo does not propose entering it as a gift, count it in the batch total, or describe it as a missing gift, so the criterion is satisfied."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the corrected July batch total to be $17,130.00, which equals $32,380 less $250, $13,500, $500 and $1,000 (the Lindgren check left in July, but not the Ochieng $250). The deliverable instead states the corrected July batch total as $16,880.00, after also moving G-41804 (Ochieng, $250) to FY2026. That figure is explicitly listed in the criterion as a FAIL value, so the memo does not satisfy the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo gives a tie-out section that includes the PayBridge fees (\"Less PayBridge fees ... −$77.87\"), the Lindgren check (\"Add Lindgren check deposited 2026-07-06 but booked to FY2026 +$1,000.00\"), and the Valley Office Supply refund (\"Add Valley Office Supply refund (non-gift) +$86.40\"). It states \"Unexplained difference $0.00\" with the bank net $18,123.53 matching the expected net. All three required reconciling items are present and no unexplained difference remains, so the criterion is met."
+    }
+  ],
+  "costUsd": 0.0021809999999999998,
+  "usage": {
+    "inputTokens": 35094,
+    "cachedInputTokens": 29510,
+    "outputTokens": 2378
+  },
+  "gradedAt": "2026-10-10T13:57:11.320Z"
+}

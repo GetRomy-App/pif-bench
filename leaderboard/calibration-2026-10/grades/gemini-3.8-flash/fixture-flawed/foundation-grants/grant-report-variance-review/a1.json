@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "taskHash": "a759909172fcd988",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "In the deliverables table, deliverable D1 is reported as 'Learners enrolled' with a Target of '120', a Result of '131', and a Status of 'Met'. This directly satisfies all requirements of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports D2 as 'Met' by calculating the target as '75% of the 120-learner enrollment target = 90' and comparing it to 94 completers. The criterion explicitly requires reporting D2 as not met (71.8% of the 131 actual enrolled learners) and states it must FAIL if the memo reports D2 as met or accepts Marcus's comparison of 94 against 90."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly reports deliverable D3 as Met, stating '61 of 94 = 64.9%' against the '60% of 40+-hour completers' target. It specifically notes that the rate to report is 64.9% (using all 94 completers as the denominator) rather than 83.6% (using only the 73 post-tested)."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports D4 as 'Met' against the target of 25 with '26 (27 recruited; one has 8 hours)'. It explicitly notes in the corrections section: '26 tutors completed the 12-hour training, not 27; one is still in training. Still met.'"
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly marks deliverable D5 as 'Met', stating: 'D5: Employer Advisory Council meetings ... 4 (2025-09-18, 2025-12-11, 2026-03-19; Q4 meeting rescheduled to 2026-07-16) Met' and 'The Q4 meeting was postponed from June 11 to July 16, 2026; it is the Q4 meeting and counts toward Year 1.' The criterion specifically requires a FAIL if the memo reports D5 as met or counts the July 16, 2026 meeting toward Year 1."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies the $640 Harborview Taproom charge (AP-2242, 2026-05-29) for beer and wine service as unallowable under Section 6.3's bar on alcoholic beverages. It states that the expense must be moved to unrestricted funds and reversed out of Fund 310, excludes it from actual grant spending ($4,700 actual for Tutor training instead of $5,340, and $118,666 total allowable spending instead of $119,306), and correctly notes that the $1,020 Hearthside Catering dinner buffet is allowable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "In Section 3's table and narrative, the deliverable shows Learner supports with a budget of $12,000, actual allowable of $13,560, a variance of +$1,560 (+13.0%), and explicitly marks that it needs Foundation approval ('Yes'). The text further notes: 'One budget line (Learner supports) is more than 10% over budget and needs the Foundation's written approval, which we never requested.'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable correctly calculates the Curriculum & materials variance as −$1,080 (−13.5%), but explicitly states that it needs no approval because it is an underspend: 'No (underspend)' in the table, and 'Curriculum & materials is 13.5% under budget, but an underspend moves no money onto the line, so it needs no approval'. The criterion specifically mandates FAIL if the deliverable says it needs no approval because it is under budget."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in Section 3 that only Learner supports needs approval, noting: 'Local travel (−8.1%) and Tutor training (−6.0%) are within 10% and need no approval' and listing 'No' in the table for Personnel, Fringe benefits, Curriculum & materials, Tutor training, Local travel, and Evaluation consultant. It flags no other lines as needing Foundation approval."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "In Section 3's table, the deliverable lists all five lines with the exact required figures and percentages: Personnel at −$1,020 (−1.5%, allowable actual $66,980), Fringe benefits at −$204 (−1.5%, allowable actual $13,396), Tutor training at −$300 (−6.0%, allowable actual $4,700), Local travel at −$290 (−8.1%, allowable actual $3,310), and Evaluation consultant at $0 (0.0%, allowable actual $9,800)."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly reports total allowable Year 1 grant expenses of $118,666 and unspent funds of $1,334 (e.g., in Section 4: 'Allowable Year 1 grant expenses: $118,666... Unspent: $1,334, which carries forward to Year 2'). It correctly excludes the $640 unallowable alcohol charge."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Summary: 'The interim report is due August 14, 2026' and repeats in the Section 5 dates table: 'Friday, August 14, 2026 | Interim report (Year 1) due | 45 days after June 30, 2026 (§7.1)'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists 'Wednesday, March 31, 2027' as the 'Last day for the Foundation to *receive* a no-cost-extension request, if we need one'. The criterion explicitly specifies FAIL if it gives any other date than April 1, 2027, specifically calling out March 31."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "In the calendar table in Section 5, the deliverable clearly lists 'Tuesday, September 28, 2027' as the due date for the 'Final report due; any unspent grant funds returned with it', matching the required date and condition."
+    }
+  ],
+  "costUsd": 0.03151275,
+  "usage": {
+    "inputTokens": 34517,
+    "cachedInputTokens": 0,
+    "outputTokens": 1500
+  },
+  "gradedAt": "2026-10-10T14:01:36.211Z"
+}

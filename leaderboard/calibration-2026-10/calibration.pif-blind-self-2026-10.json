@@ -1,0 +1,14 @@
+{
+  "judges": [
+    {
+      "judge": "opus-5.5-blind",
+      "items": 662,
+      "accuracy": 1,
+      "false_pass": 0,
+      "false_fail": 0,
+      "errors": 0,
+      "misses": []
+    }
+  ],
+  "panel": null
+}

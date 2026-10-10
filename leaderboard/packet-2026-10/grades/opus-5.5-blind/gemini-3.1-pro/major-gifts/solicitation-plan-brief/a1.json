@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "59bdb47caeb5348c",
+  "deliverableHash": "27788f07db2446bd",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The brief states \"Ask Amount: $80,000\" as a single figure, and \"the final ask is capped at $80,000.\" Teresa's $150,000 guess is mentioned only to note that \"policy restricts the ask to $80,000.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The brief identifies the largest eligible gift as \"a $20,000 grant from their donor-advised fund on 2025-10-14\", excluding \"corporate sponsorships and event tickets\", and sets \"The cap is therefore $80,000 ($20,000 x 4).\" That matches the required gift and cap."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The purpose is \"Adult Literacy Program\", with the Upriver site, Tutor Corps or the Adult Literacy Endowment as options. The brief states \"no funding for the Open Doors Eastside Branch campaign will be proposed.\" No other program or unrestricted option is offered."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The recognition section states \"naming opportunities will not be offered\", and nowhere else does the brief suggest naming anything."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The brief says \"Strictly Anonymous\" and \"the gift will not be listed in the annual report, donor walls, or any announcements... The gift will be acknowledged privately by letter.\" It does not use the CRM recognition name for this gift."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The brief says \"The ask will be addressed to Celeste Vandermolen\", citing Martin's \"Celeste runs our giving — I just sign where she tells me\" and calling her \"the household's philanthropic decision-maker.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The meeting is arranged \"by contacting Celeste Vandermolen directly using her personal email (celeste.vdm@example.net) or home phone ((360) 555-0187)\". The brief adds \"Under no circumstances should contact be made through Vandermolen Marine Supply (no calls to the store, no corporate emails, no mail to Harbor Way).\" No meeting at the company is proposed. The setting is left unstated, which is none of the criterion's fail conditions."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The brief names \"Teresa Lindahl (Director of Major Gifts) and Lillian Cho (Board Member)\" as the solicitors. It notes that Celeste requested Lillian and that Lillian \"has already made her FY27 board gift.\" No one else is on the team."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The brief states Gregory Hale \"cannot participate\" because of the arbitration, which recuses him \"from any cultivation or solicitation of this prospect.\" It gives him no role."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The talking points say \"Do not mention the Rasmussen family's anonymous $100,000 gift.\" That puts both the family's name and the $100,000 amount of the anonymous gift in the brief itself. The criterion fails any mention of that gift in any form, even inside a warning."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The timing is set as \"Late October or November 2026\", since the couple \"meet with their financial advisor in mid-October and make their giving decisions in November.\" That is after the advisor meeting and no later than November."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor facts in the brief all trace to the files: capacity $382,000, inclination 4, the $20,000 DAF gift, the quotes, the anonymity and contact preferences, and the advisor and November timing. The line about Lillian's \"shared involvement with Celeste as volunteer tutors\" adds an unsourced detail about the board member. It extends Celeste's own \"She's the one who got me into tutoring\" and invents no gift, asset, family member, preference or quotation for the donors."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.898Z"
+}

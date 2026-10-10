@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "d47845c1e890c897",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly accepts Hit 1 ('Hit 1 — David A. Miller, 412 Orchard Hill Rd, Granville | **Accept**') and lists four matching identifiers: 'Full name with middle initial; address 412 Orchard Hill Rd; spouse Karen L. Miller; age 61 (record birth year 1965)', satisfying the requirement."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly rejects hit 2 ('2 — David A. Miller, 2290 Tremont Rd, Upper Arlington | **Reject**') and lists the conflicting identifiers: 'Spouse Jennifer S. Miller (ours is Karen L.); age 47 (ours is 60–61); different address'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects hit 3 in the screening hits table ('Reject') and notes conflicts including 'Age 29; different address' and 'no middle initial on the hit'. It also confirms rejection in section 4 ('Hit 3 (David Miller, 77 Pearl St) | A different person')."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly accepts Hit 4 ('Hit 4 — David A. Miller, 118 Shore Dr, Marblehead (mailing 412 Orchard Hill Rd) | **Accept** | Full name with middle initial; mailing address 412 Orchard Hill Rd; co-owner Karen L. Miller') and includes the 118 Shore Dr property ($390,000) in the prospect's real estate calculation."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly excludes 9 Elm Ct from the real estate calculation and notes in the 'Records excluded' table that it was 'Sold: deed recorded 2026-06-30 to Ravi K. Patel. The screening data is as of 2026-03-31, before the sale'."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo correctly sums 412 Orchard Hill Rd ($845,000) and 118 Shore Dr ($390,000) to reach a real-estate total of $1,235,000, and calculates the 5% component as $61,750, explicitly excluding 9 Elm Ct and 2290 Tremont Rd."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under Securities: 'None. The only holding in the files — 410,000 Scioto Biologics shares on a Form 4, reported at $18,900,000 — belongs to hit 2, the Upper Arlington David A. Miller, who was rejected... $0'. It does not attribute any securities to the prospect."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes the Ohio State gift in Section 4 ('Given by David A. Miller and Jennifer S. Miller of Upper Arlington — the hit 2 namesake, not our donor') and does not use it in the capacity calculation, selecting the $15,000 gift to Granville Public Library Foundation as the largest documented gift instead."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies the largest documented gift as $15,000 from the Granville Public Library Foundation (2024) and calculates the gift component as 3 × $15,000 = $45,000, explicitly excluding the other gifts (Denison, OSU, Licking Memorial range)."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "In Section 4 ('Records excluded'), the deliverable specifically lists 'Denison University, $20,000 (2019)' and states the reason as 'Outside the five-year window (before 2021-09-14); it also matches on name alone'. This directly meets the PASS criteria."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Licking Memorial Health Foundation, 2023 — listed in the $10,000–$24,999 band; counted at the bottom of the range, $10,000'. This satisfies the requirement to value the listing at $10,000."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under Section 2: 'Capacity = $61,750 + $0 + $45,000 = $106,750', matching the exact formula and total required by the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Under section '3. Rating', the deliverable explicitly states: '**C** — $100,000 to $249,999 [documents/research-standards.md].' This meets the exact requirement of the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Under Section 2 ('Five-year capacity'), the deliverable lists '118 Shore Dr, Marblehead — $390,000, owned by David A. & Karen L. Miller [documents/county-records.md]', explicitly citing documents/county-records.md for the property's value and ownership."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable strictly attributes assets and gifts associated with David A. Miller of 412 Orchard Hill Rd (412 Orchard Hill Rd, 118 Shore Dr, and gifts to Granville Public Library Foundation, Licking Memorial Health Foundation, and Larkspur Children's Museum). It explicitly rejects and excludes assets and gifts belonging to the Upper Arlington David A. Miller (2290 Tremont Rd, Scioto Biologics, OSU gift) and hit 3, and invents no ungrounded facts or figures."
+    }
+  ],
+  "costUsd": 0.026374500000000002,
+  "usage": {
+    "inputTokens": 28691,
+    "cachedInputTokens": 0,
+    "outputTokens": 1295
+  },
+  "gradedAt": "2026-10-10T14:03:27.344Z"
+}

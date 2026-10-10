@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "promptHash": "e32f89bfe85f6d7a",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 2921,
+  "outputTokens": 1979,
+  "costUsd": 0.027091,
+  "latencyMs": 33916,
+  "createdAt": "2026-10-10T18:16:12.925Z"
+}

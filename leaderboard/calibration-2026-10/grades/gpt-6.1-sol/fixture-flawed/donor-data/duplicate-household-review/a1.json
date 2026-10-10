@@ -1,0 +1,102 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly says, “Merge 10457 (Robert T. Okafor) into 23118 (Bob Okafor)” and identifies “Surviving ID 23118 — the active sustainer record.” This reverses the required merge direction: the criterion requires 10457 to survive and 23118 to be retired."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The D-01 decision explicitly sets the merged Okafor record's preferred address to \"2209 Halsted Ct, Lake Oswego, OR 97034\" and identifies its update date as 2023-05-14. It states that \"18 Linden Ave (2017-03-09) ... becomes a previous address,\" so the older address is not retained as preferred."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Okafor section states, \"Combined lifetime giving: $4,350 + $2,400 = $6,750,\" matching the required figure. The summary table also lists $6,750 for D-01, with no conflicting Okafor total elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The list explicitly says “Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman)” and identifies “Surviving ID 11876.” The summary table also lists 24410 as the retired ID, satisfying all requirements of this criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The list explicitly gives surviving ID 11876 the preferred name “Priya Raman” in the summary. The detailed decision likewise says it is “keeping its name Priya Raman” and that “Castellano is added as an alias,” rather than making Castellano the preferred surname as required."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "For the 11876/24410 merge, the deliverable states “Combined lifetime giving: $1,650 + $1,125 = $2,775.” The summary table also lists $2,775 for D-02, with no conflicting figure."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable merges 19650 into 10822 but explicitly states, “26031 Ann Kowalcyzk — no action,” leaving the misspelled record out of the merge. It reports combined lifetime giving of “$20,925,” rather than the required $21,275 for all three records."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly directs, “Merge 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb).” It identifies “Surviving ID 10234” and states that it “stays deceased, 2025-11-02,” satisfying all requirements of this criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable states the Whitcomb combined lifetime giving as \"$36,950 + $1,500 = $38,450\" in D-04, and the summary table also lists $38,450. This matches the required figure and does not include Margaret's giving."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable keeps Margaret separate, stating “11092 Margaret E. Whitcomb — not merged.” However, it instructs Joaquin to “Set the household's deceased flag (2025-11-02) so the Whitcomb household drops out of appeals, and flag 11092 deceased with it,” which explicitly violates the criterion that Margaret remain living and not be treated as deceased."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states, “Merge 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.),” identifies 18342 as the surviving ID, and gives combined lifetime giving of “$3,240 + $600 = $3,840.” It also leaves 10119 (Thomas E. Brennan Sr.) unmerged, with no contradictory Brennan merge elsewhere."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states, “10119 Thomas E. Brennan Sr. — no action” and “He is not merged with either record.” The only D-05 merge is 25503 into 18342, so 10119 is kept as his own record."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The D-06 decision explicitly states, “Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge.” It identifies them as spouses and links them while retaining separate records, satisfying the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly directs D-07 to “Merge 21977 into 12650,” treating the birth-year difference as a keying error. This violates the criterion’s requirement to keep the two Jennifer Liu records separate as different people."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The D-09 decision states “No action” for 30044 Cascade Crest Service Club and 31207 Cascade Crest Service Club Foundation. It cites their different EINs, 93-0817446 and 93-1550329, and explicitly calls them “separate legal entities,” so the records remain separate."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states “10458 Ngozi A. Okafor — no action” and “24409 Marco Castellano — not merged.” Moving their spouse links to the surviving records does not merge either constituent, and neither appears among the retired IDs."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable states “No action” for D-08 and identifies Linda Morrow (15238) and Katherine Morrow (26874) as mother and adult daughter, keeping them separate. It also states “No action” for D-10 and identifies Ellen Park (16602) and Ellen Parks (25119) as different people. Neither pair is listed for a merge elsewhere."
+    }
+  ],
+  "costUsd": 0.1236595,
+  "usage": {
+    "inputTokens": 44366,
+    "cachedInputTokens": 0,
+    "outputTokens": 1277
+  },
+  "gradedAt": "2026-10-10T13:56:03.485Z"
+}

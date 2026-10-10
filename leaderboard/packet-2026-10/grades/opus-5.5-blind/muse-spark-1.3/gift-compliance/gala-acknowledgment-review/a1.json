@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "muse-spark-1.3",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "8ac807716a69e841",
+  "deliverableHash": "a6eb2eff9cca806e",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "For P-01 the review computes \"2 seats × $165 per-guest seat value = $330\" and states \"Correct deductible: $420.\" Both the deductible and the seat value match."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "P-01's acknowledgment must state a \"description of goods/services received — 2 seated three-course dinners with open bar, live band and dancing\" and a \"good-faith estimate $330\". It must also carry the \"§6115 disclosure that deductible is limited to excess over value\"."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The review values P-02 at \"10 sponsor seats × $165 = $1,650, plus VIP for 10 × $40 = $400, total $2,050\". It says the \"Program/signage name listing is recognition, no value, not described as benefit.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The review states \"Correct deductible: $7,950 ($10,000 − $2,050). CRM Receipt $6,250 is understated by $1,700\". It approves changing the \"Receipt amount to $7,950.00\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review gives \"Correct deductible: $375\" because the \"Donor declined in writing at time of payment by checking that box and no seat was reserved\". It requires the acknowledgment to state \"No goods or services were provided in exchange for your contribution\" and corrects the benefit to $0 and the receipt to $375 on GALA-GIFT."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The review says the request \"must not be granted\" because the Tanakas \"still received the benefit; deductible is not increased\", and gives \"Correct deductible: $420\". The acknowledgment must describe the 2 seats with \"estimate $330\" and the \"§6115 disclosure\", and Dana's change is reversed to Benefit $330, Receipt $420, GALA-QPQ."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review gives \"Correct deductible: $200 for the gift; $0 for the raffle\" and says \"Raffle purchases are not deductible and never included in contribution amount\". It splits the transaction so the acknowledgment shows \"gift cash $200 (not $300)\"."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The review gives \"Correct deductible: $1,500\" with \"No goods or services were provided in exchange for your contribution\". It adds that she \"must not deduct $165 for the seat she used as sponsor's guest\", because that seat is the sponsor's benefit."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The review gives \"Correct deductible: $60\" and says his acknowledgment must state \"No goods or services were provided in exchange for your contribution\". It notes the \"Content rules apply even though under $250.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The review computes \"$195 − $165 = $30\" and gives \"Correct deductible: $30\". It requires the acknowledgment to carry the \"estimate $165\" and the \"§6115 disclosure (payment $195 is more than $75)\"."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.407Z"
+}

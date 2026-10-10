@@ -1,0 +1,19 @@
+{"packet": "J-7819f9", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "Merge M1 lists \"D-01 | 10457 | 23118\", with \"23118 → MERGE into 10457\" and \"10457 → SURVIVES M1\". 23118 is retired, not kept as the survivor."},
+{"id": "C-002", "verdict": "pass", "reasoning": "M1's preferred address is \"2209 Halsted Ct, Lake Oswego, OR 97034\". The list explains that 23118's 2023-05-14 address is newer and that 18 Linden Ave is kept only as a previous address."},
+{"id": "C-003", "verdict": "pass", "reasoning": "M1's combined lifetime giving is \"$6,750.00\" (\"$4,350.00 + $2,400.00 = $6,750.00\"). Ngozi's $1,200 is not added."},
+{"id": "C-004", "verdict": "pass", "reasoning": "Merge M2 shows \"11876 | 24410\", with \"24410 → MERGE into 11876\" and \"11876 → SURVIVES M2\"."},
+{"id": "C-005", "verdict": "pass", "reasoning": "M2's preferred name is \"Priya Castellano (former name: Priya Raman)\". The list says 11876 \"takes the newer married surname as its preferred name, Priya Castellano, and keeps Raman as a former name\"."},
+{"id": "C-006", "verdict": "pass", "reasoning": "M2's combined lifetime giving is \"$2,775.00\" (\"$1,650.00 + $1,125.00\"). Marco's $250 is not added."},
+{"id": "C-007", "verdict": "pass", "reasoning": "M3 retires \"19650, 26031\" into surviving \"10822\", with combined giving \"$18,425.00 + $2,500.00 + $350.00 = $21,275.00\"."},
+{"id": "C-008", "verdict": "pass", "reasoning": "M4 merges 20877 into surviving 10234, with deceased status \"Deceased 2025-11-02 (already on 10234)\" and \"The surviving record stays deceased with that date\"."},
+{"id": "C-009", "verdict": "pass", "reasoning": "M4's combined lifetime giving is \"$38,450.00\" (\"$36,950.00 + $1,500.00\"). Margaret's $9,600 is not added."},
+{"id": "C-010", "verdict": "pass", "reasoning": "11092 is \"HOUSEHOLD, not merged\". The list says \"her record stays active and solicitable\" and \"The deceased flag must not be set on or copied to her record\", and makes her the primary contact."},
+{"id": "C-011", "verdict": "pass", "reasoning": "M5 merges 25503 into surviving \"18342\" (Thomas E. Brennan Jr.), with combined giving \"$3,240.00 + $600.00 = $3,840.00\"."},
+{"id": "C-012", "verdict": "pass", "reasoning": "The decision reads \"10119 → NO ACTION. Different person.\", citing the 1951 birth year and the Sr./Jr. suffix conflict. 10119 is in no merge."},
+{"id": "C-013", "verdict": "pass", "reasoning": "The decision reads \"13304 and 22760 → HOUSEHOLD (create a new link), not merged\", and H4 creates the new spouse/household link."},
+{"id": "C-014", "verdict": "pass", "reasoning": "The decision reads \"12650 and 21977 → NO ACTION. Different people.\", citing no matching identifiers and different birth years. They are neither merged nor householded."},
+{"id": "C-015", "verdict": "pass", "reasoning": "The decision reads \"30044 and 31207 → NO ACTION. Separate organizations.\" and states \"The EINs differ\"."},
+{"id": "C-016", "verdict": "pass", "reasoning": "10458 is \"HOUSEHOLD (existing link kept), not merged\" and 24409 is \"HOUSEHOLD, not merged\". Each keeps its own record and giving."},
+{"id": "C-017", "verdict": "pass", "reasoning": "The list gives \"15238 and 26874 → NO ACTION. Different people, not householded\" and \"16602 and 25119 → NO ACTION. Different people.\" Neither pair is merged."}
+]}

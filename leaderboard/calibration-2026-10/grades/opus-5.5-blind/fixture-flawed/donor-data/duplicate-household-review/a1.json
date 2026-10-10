@@ -1,0 +1,104 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "e24c7920e841969c",
+  "deliverableHash": "4da627ddad17b9ed",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The list merges in the wrong direction: \"Merge 10457 (Robert T. Okafor) into 23118 (Bob Okafor)\" with \"Surviving ID 23118 — the active sustainer record ... the older 10457 is retired.\" The criterion requires 10457 to survive and fails a list that keeps 23118 because it is the active sustainer record."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "\"Preferred address 2209 Halsted Ct, Lake Oswego, OR 97034 — updated 2023-05-14, newer than 18 Linden Ave (2017-03-09), which becomes a previous address.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "\"Combined lifetime giving: $4,350 + $2,400 = $6,750.\" Ngozi's giving is not added."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "\"Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman)\" with \"Surviving ID 11876.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The merged record keeps the maiden name: \"Surviving ID 11876, keeping its name Priya Raman ... Castellano is added as an alias.\" The summary table also lists the survivor as \"Priya Raman.\" The criterion fails when the preferred name stays Priya Raman."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "\"Combined lifetime giving: $1,650 + $1,125 = $2,775.\" Marco's $250 is not added."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "Only 19650 is merged into 10822. The list says \"26031 Ann Kowalcyzk — no action,\" and the combined figure is \"$18,425 + $2,500 = $20,925.\" The criterion names this exact figure as a fail."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "\"Merge 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb)\"; \"Surviving ID 10234, which stays deceased, 2025-11-02.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "\"Combined lifetime giving: $36,950 + $1,500 = $38,450.\" Margaret's giving is not added."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Margaret is not merged, but the list says \"Set the household's deceased flag (2025-11-02) so the Whitcomb household drops out of appeals, and flag 11092 deceased with it.\" That marks the living widow deceased and pulls her from appeals, both of which are expressly listed as failures."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "\"Merge 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.)\" with 18342 surviving and \"Combined lifetime giving: $3,240 + $600 = $3,840.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"10119 Thomas E. Brennan Sr. — no action ... He is not merged with either record.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "\"Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge,\" because they are spouses who were never linked."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The list merges the two Jennifer Lius: \"Merge 21977 into 12650 ... the birth-year difference looks like a keying error,\" with combined giving of $8,075. The criterion fails any merge of these two records."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "\"No action. 30044 Cascade Crest Service Club (EIN 93-0817446) and 31207 Cascade Crest Service Club Foundation (EIN 93-1550329) are separate legal entities; organizations merge only on matching EINs.\""
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "\"10458 Ngozi A. Okafor — no action\" and \"24409 Marco Castellano — not merged.\" Both remain their own records, with only their spouse links moved."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "D-08 Morrow: \"No action ... mother and adult daughter.\" D-10 Park/Parks: \"No action ... different people.\" Neither pair is merged."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.502Z"
+}

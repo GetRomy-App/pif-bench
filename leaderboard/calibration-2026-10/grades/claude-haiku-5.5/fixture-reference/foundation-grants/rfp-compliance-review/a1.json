@@ -1,0 +1,77 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "2358429d7ebb5b0b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Issue 1 in the memo states the request of $83,847 exceeds the $75,000 maximum under RFP §3 and says it must be brought to $75,000 or less. It explicitly rejects the program officer's 'flexibility' remark, saying it 'does not override the written RFP.' This matches the criterion fully and nothing in the memo accepts a request above the cap."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo's Issue 2 states that 'the six direct-cost lines sum to $71,910, not the $72,910 shown — a $1,000 overstatement' and directs that 'Correct the total direct costs to $71,910 everywhere.' The six lines (48,000 + 10,560 + 5,400 + 3,850 + 2,600 + 1,500) do total $71,910, and the corrected-figures table repeats $71,910. The memo does not give any other corrected direct-cost total."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo flags issue #3: \"Indirect at 15% ($10,937) exceeds the cap of 10% of total direct costs,\" and explicitly states \"Our federal de minimis rate does not apply here; the RFP cap governs.\" It gives the maximum allowable indirect as $7,191. This matches the criterion's PASS condition: it flags the 15% rate as over the 10% cap and does not accept the de minimis rate as permission to exceed it."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states in issue 3: \"Maximum allowable indirect on $71,910 of direct costs: $7,191,\" and repeats it in the corrected figures table as \"Maximum indirect (10% of direct) ... $7,191.\" This matches the criterion's required figure computed on the corrected direct costs, and no conflicting maximum indirect figure appears elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo recommends two compliant options: Option A, a $75,000 request with direct $71,910 and indirect $3,090 (4.3% of direct, under the 10% cap), and Option B, a $68,000 request with direct $61,820 and indirect $6,180 (exactly 10.0% of direct). It explicitly notes that $79,101 is still $4,101 over the cap and does not present it as acceptable. Every recommended request is at or under $75,000 with indirect within 10% of direct, which matches the criterion's PASS conditions."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo counts only $34,000 toward the match: it says 'Only $34,000 counts: Valencia County Health Council $20,000 (letter E-1) + Puente board-designated reserve $14,000 (treasurer's letter E-2).' It explicitly excludes the Rio Grande Medical Supply $12,000 as in-kind ('does not count') and the Socorro Rotary Club's $5,000 because it 'has no signed letter' and its board votes October 14, after the deadline. It also rejects the draft's $51,000 figure."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo applies the 1:2 cash match rule correctly: 'At a $75,000 request the required match is $37,500; we are $3,500 short,' and states the largest request $34,000 supports is $68,000. It gives fixes: secure $3,500 more documented cash before October 1 (board raises designation to $17,500 with new letter) or cap the request at $68,000. It does not call the $34,000 sufficient for any request above $68,000, and the shortfall is addressed."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo flags issue 6: 'Required Sustainability Plan (section 5) is missing. The one sentence about Medicaid reimbursement at the end of the Evaluation Plan does not meet the requirement.' It explicitly states the fix: 'Add \"5. Sustainability Plan\" covering how the CHW work continues after 2027.' This identifies the missing section, requires it under the heading, and rejects the Medicaid sentence as compliance."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo states in issue 7 that 'sections 1–4 total 2,655 words (410 + 585 + 1,140 + 520), 155 over the 2,500 limit — before adding the Sustainability Plan.' It explicitly says the 480-word budget narrative does not count, and it notes Lucia's 2,135 figure leaves out the Evaluation Plan, so it does not accept the cover note's count. The criterion's requirements are all met."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states the deadline is \"5:00 p.m. MDT (UTC−6), Thursday October 1, 2026\" and that Phoenix is on MST so the deadline is \"4:00 p.m. Phoenix time.\" It flags that \"Lucia's planned 4:30 p.m. upload from Phoenix would land at 5:30 p.m. MDT — after the portal closes.\" It recommends submitting before she leaves for Phoenix on September 29 or having someone in Albuquerque upload well before 5:00 p.m. MDT, satisfying all required elements."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo's 'Checked and fine' section explicitly addresses Puente's eligibility: it notes Puente is headquartered in Albuquerque but that the RFP makes such organizations eligible when all grant-funded services go to Socorro and Valencia county residents, and that the $1,320,000 board-approved budget (not the $1,604,200 audit expenses) governs the $1,500,000 test. It does not flag either point as a violation, risk, or question for the foundation, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states the line amounts are correct: 'Every line amount is itself correct (salaries 2 × 0.75 × $32,000 = $48,000; fringe 22% = $10,560; mileage 12,000 × $0.45 = $5,400; interpretation 60 × $25 = $1,500); only the total is off.' It identifies the error as the stated total ($72,910 vs $71,910) and says 'Budget line amounts are all calculated correctly.' It does not flag supplies or training as wrong, and its later cuts are fit-to-cap recommendations, which the criterion permits."
+    }
+  ],
+  "costUsd": 0.0022682,
+  "usage": {
+    "inputTokens": 41182,
+    "cachedInputTokens": 35090,
+    "outputTokens": 2314
+  },
+  "gradedAt": "2026-10-10T13:59:12.994Z"
+}

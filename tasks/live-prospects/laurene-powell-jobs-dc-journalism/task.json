@@ -1,0 +1,158 @@
+{
+  "title": "Research Laurene Powell Jobs as a major-gift prospect for a Washington, D.C. journalism and media-literacy nonprofit",
+  "track": "live",
+  "work_type": "research",
+  "as_of": "2026-04-25",
+  "tier": "A",
+  "tags": ["live-prospects", "donor-intelligence", "journalism", "llc-philanthropy", "divested-asset", "net-worth", "unsolicited-proposals"],
+  "instructions": "Research Laurene Powell Jobs as a potential major donor prospect for a mid-sized journalism and media literacy nonprofit based in Washington, D.C. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to a journalism/media nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.",
+  "deliverable": "donor-intelligence-report.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Identifies her as Emerson Collective's founder and Steve Jobs's widow, with an inherited fortune",
+      "match_criteria": "PASS if the report identifies Laurene Powell Jobs as the founder (or founder and president) of Emerson Collective and as the widow of Apple co-founder Steve Jobs, and attributes her wealth to what she inherited from him — principally Apple and/or Walt Disney shares. FAIL if it misstates her role at Emerson Collective (for example, as only a board member or an employee), gives a year other than 2011 for Steve Jobs's death, describes her fortune as self-made or as coming mainly from her own career, from The Atlantic or from Emerson's investments, or never says where her wealth comes from.",
+      "evidence": [
+        "https://www.emersoncollective.com/articles/q-and-a-with-ec-founder-and-president-laurene-powell-jobs",
+        "https://web.archive.org/web/20260426032219/https://www.forbes.com/profile/laurene-powell-jobs/",
+        "https://web.archive.org/web/20260209002047/https://www.bloomberg.com/billionaires/profiles/laurene-p-jobs/"
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Describes Emerson Collective as an LLC, not a foundation",
+      "match_criteria": "PASS if the report describes Emerson Collective as a limited liability company (LLC) — or otherwise makes clear that it is a company combining grant-making with investing and advocacy, not a private foundation or charity — and makes no contrary statement about it. FAIL if it calls Emerson Collective a foundation, private foundation, 501(c)(3), public charity or nonprofit organization, says gifts to it are tax-deductible, says its grants can be looked up in IRS Form 990 or 990-PF filings, or never indicates its legal form.",
+      "evidence": [
+        "https://www.emersoncollective.com/articles/q-and-a-with-ec-founder-and-president-laurene-powell-jobs",
+        "https://www.cjr.org/special_report/emerson-collective-media.php",
+        "https://www.click2houston.com/business/2021/10/18/who-will-get-powell-jobs-35b-gift-for-climate-work/"
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Identifies the Waverley Street Foundation as her climate-focused foundation",
+      "match_criteria": "PASS if the report identifies the Waverley Street Foundation as Powell Jobs's climate-focused foundation (a 501(c)(3) private foundation, formerly the Emerson Collective Foundation) and, if it states the size of her commitment, gives $3 billion to $3.5 billion, spent down over about ten years. FAIL if it leaves the Waverley Street Foundation out entirely, describes it as a general funder of journalism, media literacy or education, calls it an LLC or a donor-advised fund, or states a commitment outside $3 billion–$3.5 billion (for example $1 billion or $5 billion).",
+      "evidence": [
+        "https://www.click2houston.com/business/2021/10/18/who-will-get-powell-jobs-35b-gift-for-climate-work/",
+        "https://projects.propublica.org/nonprofits/organizations/813242506",
+        "https://web.archive.org/web/20260418225716/https://www.waverleystreet.org/about"
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "States her majority ownership of The Atlantic, acquired in 2017",
+      "match_criteria": "PASS if the report states that Powell Jobs, through Emerson Collective, owns or holds a majority (controlling) stake in The Atlantic, acquired in 2017, or that she owns it and chairs its board. FAIL if it describes her stake in The Atlantic as a minority stake, dates the acquisition to a year other than 2017, says she has sold The Atlantic, or never mentions her ownership of The Atlantic.",
+      "evidence": [
+        "https://techcrunch.com/2017/07/28/laurene-powell-jobs-buys-the-atlantic",
+        "https://www.emersoncollective.com/articles/q-and-a-with-ec-founder-and-president-laurene-powell-jobs",
+        "https://web.archive.org/web/20260209002047/https://www.bloomberg.com/billionaires/profiles/laurene-p-jobs/"
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Names a current Washington, D.C. tie",
+      "match_criteria": "PASS if the report identifies at least one of her current Washington, D.C. ties: The Atlantic, which she controls, is headquartered in Washington, D.C.; or College Track, which she co-founded, runs a Southeast D.C. (Ward 8) center, opened in January 2020. FAIL if it names no current D.C. tie, if the only D.C. tie it names is the Monumental Sports & Entertainment stake (Wizards, Capitals, Mystics), or if it places The Atlantic's headquarters outside Washington, D.C. (for example in Boston or New York).",
+      "evidence": [
+        "https://wtop.com/business-finance/2020/12/the-atlantic-moving-operations-to-the-wharf/",
+        "https://en.wikipedia.org/wiki/The_Atlantic",
+        "https://collegetrack.org/press/st-elizabeths-east/"
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Net worth between $11 billion and $16 billion, not a superseded figure",
+      "match_criteria": "PASS if the report gives her current net worth as a figure, or a range, that lies between $11 billion and $16 billion. For reference, Forbes put it at $13.9 billion in real time on 2026-04-25 and at $13.7 billion on its 2026 Billionaires list; the Bloomberg Billionaires Index put it at $12.2 billion on 2026-02-09. FAIL if it gives no net-worth figure, presents any figure above $16 billion as her current net worth — such as $19 billion, $20 billion, $21 billion, $23 billion, $24 billion or $25 billion, which date from 2021 or earlier or are unsourced — or gives a figure below $11 billion.",
+      "evidence": [
+        "https://web.archive.org/web/20260426032219/https://www.forbes.com/profile/laurene-powell-jobs/",
+        "https://web.archive.org/web/20260209002047/https://www.bloomberg.com/billionaires/profiles/laurene-p-jobs/"
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Treats the Monumental Sports stake as sold in December 2025",
+      "match_criteria": "PASS if the report either states that Powell Jobs sold her stake in Monumental Sports & Entertainment (owner of the Wizards, Capitals and Mystics) in December 2025 — to the Qatar Investment Authority and Arctos Partners, at a reported $7.2 billion enterprise value — or leaves Monumental out of her current assets and current connections altogether. FAIL if it presents the Monumental stake (often described as about 20%) as something she holds today: listing it among her current assets, counting it in her present asset profile, or offering it as a current connection point.",
+      "evidence": [
+        "https://www.nytimes.com/athletic/6897257/2025/12/17/laurene-powell-jobs-wizards-mystics-capitals-monumental-qatar/",
+        "https://sports.yahoo.com/articles/qatari-fund-private-equity-firm-204605826.html",
+        "https://www.sportico.com/business/team-sales/2025/monumental-wizards-qatar-arctos-powell-jobs-1234879304/",
+        "https://monumentalsports.com/2025/12/monumental-sports-entertainment-announces-minority-investor-updates-to-accelerate-growth-and-innovation/",
+        "https://web.archive.org/web/20260209002047/https://www.bloomberg.com/billionaires/profiles/laurene-p-jobs/"
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Documents her journalism giving with correct amounts",
+      "match_criteria": "PASS if the report names at least two nonprofit newsrooms or journalism organizations that Emerson Collective or Powell Jobs has funded, and gives a dollar amount for at least one that matches a documented figure: ProPublica — $500,000 (2016), $700,000 (2017), and a $4.6 million three-year grant starting in 2018 (describing it as $4.6 million in 2018 is acceptable); The Texas Tribune — $350,000 a year (documented for 2019 and 2020; the same annual amount in a later year is consistent); Chalkbeat — $200,000 to $300,000 a year (2018–2020); The 19th — $100,000 (2020); The Current (Savannah, Ga.) — $170,000 over two years (announced January 2023); or about $37 million to nonprofit journalism in total since 2015 (Emerson spokesperson, January 2021). FAIL if it names fewer than two journalism grantees, gives no dollar amount for any journalism gift, or gives a different amount for any gift listed here — the same grantee and year with another figure, for example ProPublica $2.5 million in 2017 or The 19th $1 million in 2020.",
+      "evidence": [
+        "https://www.cjr.org/special_report/emerson-collective-media.php",
+        "https://thecurrentga.org/2023/01/25/the-current-receives-170000-from-emerson-collective/",
+        "https://theajp.org/news-insights/announcements/american-journalism-project-launches-major-effort-to-reinvigorate-local-news-with-42-million-in-founding-commitments",
+        "https://www.propublica.org/about/supporters"
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Keeps for-profit media investments out of her giving history",
+      "match_criteria": "PASS if the report keeps Emerson Collective's for-profit media holdings — the majority stake in The Atlantic (reported at about $110 million for about 70% in 2017) and the investments in Axios, The Athletic, Ozy Media or Pop-Up Magazine — separate from her philanthropic giving, or does not mention them. FAIL if it describes the purchase of The Atlantic, or any of these investments, as a gift, grant or donation, or adds any of them into a total of her charitable or journalism giving.",
+      "evidence": [
+        "https://www.cjr.org/special_report/emerson-collective-media.php",
+        "https://techcrunch.com/2017/07/28/laurene-powell-jobs-buys-the-atlantic",
+        "https://www.bostonglobe.com/2022/08/08/business/axios-agrees-sell-itself-cox-enterprises-525m"
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "States that Emerson Collective does not accept unsolicited proposals",
+      "match_criteria": "PASS if the report states that Emerson Collective does not accept or consider unsolicited submissions or proposals (its published Unsolicited Submission Policy), or that it funds only by invitation or through its own sourcing. Adding that the Waverley Street Foundation does not accept unsolicited proposals is welcome but not required. FAIL if the report never says that Emerson Collective does not take unsolicited proposals, or says that Emerson Collective or the Waverley Street Foundation has an open application process, a grant portal, a request-for-proposals cycle or a letter-of-inquiry process.",
+      "evidence": [
+        "https://www.emersoncollective.com/legal/unsolicited-submission-policy",
+        "https://web.archive.org/web/20260421191143/https://www.emersoncollective.com/legal/unsolicited-submission-policy",
+        "https://web.archive.org/web/20260418225716/https://www.waverleystreet.org/about"
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Does not recommend an unsolicited approach to Emerson or Waverley Street",
+      "match_criteria": "PASS if the engagement strategy approaches Powell Jobs or Emerson Collective through a relationship route — such as a warm introduction from a mutual contact, a peer grantee or an Emerson staff member the organization already knows, or a response to an invitation — and nowhere tells the organization to send an unsolicited proposal, letter of inquiry, grant application, pitch deck, or cold email or letter to Emerson Collective (its general inbox or its staff) or to the Waverley Street Foundation. FAIL if it recommends any such unsolicited submission to Emerson Collective or the Waverley Street Foundation, even as a fallback or second step. (Emerson's policy is that unsolicited submissions are not considered, are not kept confidential, and become Emerson's property.)",
+      "sources": [],
+      "red_line": true,
+      "evidence": [
+        "https://www.emersoncollective.com/legal/unsolicited-submission-policy",
+        "https://web.archive.org/web/20260421191143/https://www.emersoncollective.com/legal/unsolicited-submission-policy",
+        "https://web.archive.org/web/20260418225716/https://www.waverleystreet.org/about"
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Names College Track or the XQ Institute correctly as her education vehicle",
+      "match_criteria": "PASS if the report names College Track (which she co-founded in 1997) or the XQ Institute (which she co-founded in 2015 with Russlynn Ali and chairs) among the organizations she founded or leads, and any founding year it gives for either matches these. FAIL if it names neither organization, credits either one's founding to someone else without her, or gives a founding year other than 1997 for College Track or other than 2015 for XQ.",
+      "evidence": [
+        "https://xqsuperschool.org/about/",
+        "https://www.emersoncollective.com/articles/q-and-a-with-ec-founder-and-president-laurene-powell-jobs",
+        "https://en.wikipedia.org/wiki/Laurene_Powell_Jobs"
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Anchors the recommended ask to her documented journalism grant sizes",
+      "match_criteria": "PASS if the report recommends a specific ask amount (a figure or a range) and justifies it by reference to at least one documented size of her journalism grants — for example $100,000 to The 19th, $170,000 over two years to The Current, $350,000 a year to The Texas Tribune, $200,000–$300,000 a year to Chalkbeat, or the ProPublica grants. FAIL if it gives no ask amount, or derives the ask only from her net worth, a percentage of her net worth or a generic capacity formula, without reference to any documented grant size.",
+      "evidence": [
+        "https://www.cjr.org/special_report/emerson-collective-media.php",
+        "https://thecurrentga.org/2023/01/25/the-current-receives-170000-from-emerson-collective/"
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Contradicts nothing in the verified fact sheet",
+      "match_criteria": "PASS if nothing the report states as fact contradicts references/fact-sheet.md. Figures inside a tolerance the sheet gives count as consistent, and the points in its section 9 ('Not established') are not facts to grade against. FAIL if the report contradicts any fact in the sheet — a different amount, date, title, relationship, legal form or status (for example, a net worth outside $11B–$16B as of 2026, Monumental as a current holding, Emerson Collective as a foundation, The Atlantic headquartered outside D.C., or a different amount for a documented journalism grant).",
+      "sources": ["references/fact-sheet.md"],
+      "red_line": true,
+      "evidence": [
+        "https://web.archive.org/web/20260426032219/https://www.forbes.com/profile/laurene-powell-jobs/",
+        "https://web.archive.org/web/20260209002047/https://www.bloomberg.com/billionaires/profiles/laurene-p-jobs/",
+        "https://www.cjr.org/special_report/emerson-collective-media.php",
+        "https://www.emersoncollective.com/legal/unsolicited-submission-policy"
+      ]
+    }
+  ]
+}

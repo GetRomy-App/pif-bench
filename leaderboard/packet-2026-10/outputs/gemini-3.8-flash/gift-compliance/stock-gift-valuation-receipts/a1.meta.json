@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "promptHash": "5e23fcf16d91eaf7",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 4828,
+  "outputTokens": 9035,
+  "costUsd": 0.03750225,
+  "latencyMs": 46681,
+  "createdAt": "2026-10-10T18:25:29.570Z"
+}

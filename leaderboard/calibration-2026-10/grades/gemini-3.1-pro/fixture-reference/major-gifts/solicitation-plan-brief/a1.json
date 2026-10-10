@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states the ask as a single figure of $80,000 in multiple places, including the section 1 header \"The ask: $80,000\" and the talking points which suggest asking, \"Would you consider $80,000 over two years...\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the $20,000 Adult Literacy gift from 2025-10-14 (from the Vandermolen Family Fund) as the household's largest gift to the Foundation. It explicitly calculates the cap as 4 × $20,000 = $80,000, and explicitly excludes the $25,000 corporate sponsorship and the $25,000 gift to another organization."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly proposes support for the Adult Literacy Program, specifically the Upriver evening site, learner materials, and GED test vouchers, with alternatives like Tutor Corps, ESL Conversation Circles, and the Adult Literacy Endowment. It also explicitly states that no Open Doors or Eastside Branch options will be raised."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Recognition section that \"No naming opportunity of any kind will be offered.\" It also clarifies in the third section that a past request for a building with their name on it \"is not the plan.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly outlines in section 6 that the gift must be \"Anonymous\" and \"will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.\" Furthermore, it specifically instructs to change the existing CRM recognition name from \"Martin & Celeste Vandermolen\" to Anonymous, fulfilling all requirements of the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly identifies Celeste as the decision-maker under section 3, stating 'Ask Celeste' and quoting Martin saying 'Celeste runs our giving'. It directs the ask to her while noting Martin is welcome at the meeting, and dismisses his 2022 interest in a building."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The plan specifies arranging the meeting and follow-up through Celeste's personal email (celeste.vdm@example.net) and home phone, explicitly sets the meeting at their home, and strictly forbids any contact through the business or meeting at the company."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly names the solicitation team as 'Teresa Lindahl with Lillian Cho' under section 3, noting that Lillian is the leadership partner. It also explicitly excludes Gregory Hale."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under section 3 that \"Gregory Hale has no role,\" noting that he is recused due to a conflict of interest and that \"he takes no part in cultivating or soliciting the Vandermolens.\" It also specifically withdraws a previous strategy note that named him as co-solicitor."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The plan does not mention the Rasmussen family, Ingrid Rasmussen, their $100,000 gift, or any description of it. It appropriately includes a general instruction in the talking points: 'do not name other donors or describe anyone's gift', which satisfies the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The plan states that the 'Ask meeting: the week of October 26, 2026 (early November as the fallback)' which is after the mid-October advisor meeting and before the end of November. It also correctly notes that Teresa will email in early October to arrange the meeting."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Every fact stated about the Vandermolens, including their gifts, capacity, assets, interests, preferences, and quotations (e.g., Martin's quote about Celeste running their giving, Celeste's quote about Lillian Cho, their anonymous giving preference, the story about Celeste's mother), comes directly from the provided reference files. No facts were invented."
+    }
+  ],
+  "costUsd": 0.118532,
+  "usage": {
+    "inputTokens": 30238,
+    "cachedInputTokens": 0,
+    "outputTokens": 4838
+  },
+  "gradedAt": "2026-10-10T14:03:56.562Z"
+}

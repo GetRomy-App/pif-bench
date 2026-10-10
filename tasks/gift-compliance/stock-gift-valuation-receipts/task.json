@@ -1,0 +1,64 @@
+{
+  "title": "Date, value and receipt four year-end securities gifts",
+  "track": "packet",
+  "work_type": "calculate",
+  "as_of": "2026-01-12",
+  "tags": ["gift-compliance", "securities", "valuation", "year-end", "written-acknowledgment", "non-cash-gifts"],
+  "instructions": "Four securities gifts came in over the holidays, and 2025 gift entry closes on January 15. Using our securities gift policy and the transfer, price and sale records in the files, prepare the gift-entry sheet Ana Ruiz will key from — for each gift, the date of gift, tax year, number of shares, valuation basis and per-share value, and gift value — together with the receipt wording for each donor. — Colette Varga, Controller",
+  "deliverable": "securities-gift-entry-sheet.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Marchetti gift dated 2026-01-02, tax year 2026",
+      "match_criteria": "PASS if the sheet dates the Marchetti gift (400 shares of QPXI) 2026-01-02 — the day the shares were credited to the Land Trust's account — places it in tax year 2026, and gives January 2, 2026 as the date of gift in the Marchettis' receipt. FAIL if the sheet or the receipt dates the gift 2025-12-29 (the day the Marchettis instructed their broker) or any other 2025 date, or places it in tax year 2025.",
+      "red_line": true
+    },
+    {
+      "id": "C-002",
+      "title": "Marchetti gift valued at $25,068.00",
+      "match_criteria": "PASS if the Marchetti gift is valued at $25,068.00: 400 shares × $62.67, the mean of QPXI's high ($63.48) and low ($61.86) on 2026-01-02. FAIL if the gift value is any other figure — such as $24,820.00 (the $62.05 closing price), $24,584.00 (the 2025-12-29 mean), $24,976.00 (the 2025-12-31 mean), $25,240.00 (the sale principal) or $25,215.00 (sale proceeds net of commission)."
+    },
+    {
+      "id": "C-003",
+      "title": "Delacroix gift dated 2025-12-30 and valued at $9,557.50",
+      "match_criteria": "PASS if the Delacroix gift (250 shares of HWVB) is dated 2025-12-30, placed in tax year 2025, and valued at $9,557.50: 250 × $38.23, the mean of HWVB's high ($38.62) and low ($37.84) on 2025-12-30. FAIL if the gift value is any other figure — such as $9,637.50 (the $38.55 closing price), $9,475.00 (the sale principal) or $9,450.00 (sale proceeds net of the $25 commission) — or the gift is dated other than 2025-12-30."
+    },
+    {
+      "id": "C-004",
+      "title": "Fenn certificate dated by its postmark, 2025-12-31",
+      "match_criteria": "PASS if the sheet dates the Fenn gift (certificate for 120 shares of ORCX) 2025-12-31 — the postmark date of the mailed, properly endorsed certificate — places it in tax year 2025, and the Fenn receipt uses that date. FAIL if the sheet or the receipt dates the gift 2026-01-05 (received), 2026-01-07 (re-registered by the transfer agent), 2025-12-30 (cover letter and signature guarantee) or any other date, or places it in tax year 2026.",
+      "red_line": true
+    },
+    {
+      "id": "C-005",
+      "title": "Fenn gift valued at $10,149.60",
+      "match_criteria": "PASS if the Fenn gift is valued at $10,149.60: 120 shares × $84.58, the mean of ORCX's high ($85.22) and low ($83.94) on 2025-12-31. FAIL if the gift value is any other figure — such as $10,092.00 (the $84.10 closing price), $10,370.40 (the 2026-01-05 mean), $10,494.00 (the 2026-01-07 mean), $10,590.00 (the sale principal) or $10,565.00 (sale proceeds net of commission)."
+    },
+    {
+      "id": "C-006",
+      "title": "Szabo fund gift dated 2025-12-31, tax year 2025",
+      "match_criteria": "PASS if the Szabo gift (Lantern Ridge Balanced Fund, Class A) is dated 2025-12-31 — the date the shares were credited to the Land Trust's fund account — and placed in tax year 2025. FAIL if it is dated 2025-12-22 (transfer request), 2026-01-06 (statement date), 2026-01-08 (statement received) or any other date, or placed in tax year 2026."
+    },
+    {
+      "id": "C-007",
+      "title": "Szabo fund gift valued at NAV: $20,048.67",
+      "match_criteria": "PASS if the Szabo gift is valued at $20,048.67: 812.345 shares × the $24.68 net asset value on 2025-12-31. FAIL if the gift value is any other figure — such as $21,275.32 (the $26.19 public offering price), $20,235.51 (the 2026-01-05 redemption) or $20,040.16 (812 whole shares)."
+    },
+    {
+      "id": "C-008",
+      "title": "No receipt states a dollar value",
+      "match_criteria": "PASS if none of the four receipts — and no other wording the deliverable proposes sending to a donor — states a dollar value, per-share price or estimated value for the securities, including Ruth-Ann Delacroix's despite her request. FAIL if any receipt or donor-facing wording states such a value or price.",
+      "red_line": true
+    },
+    {
+      "id": "C-009",
+      "title": "Receipts describe the shares and the security",
+      "match_criteria": "PASS if each receipt states the number of shares and names the security: 400 shares of Quarry Point Industries, Inc. common stock; 250 shares of Harrow Valley Bancorp common stock; 120 shares of Ostrander Railcar Corporation common stock; 812.345 shares of Lantern Ridge Balanced Fund, Class A. FAIL if any receipt omits the share count or the security, or gives the fund shares as anything other than 812.345."
+    },
+    {
+      "id": "C-010",
+      "title": "Receipts state that no goods or services were provided",
+      "match_criteria": "PASS if each of the four receipts states that no goods or services were provided in exchange for the gift. FAIL if any receipt omits that statement or says goods or services were provided."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies her as “Founder and president of Emerson Collective” and “the widow of Apple co-founder Steve Jobs.” It explicitly states that her fortune “was inherited from Steve Jobs, principally Walt Disney and Apple shares,” and correctly gives his death date as October 5, 2011. No contradictory account of her role or wealth source appears."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly describes Emerson Collective as “an LLC that combines grant-making, venture investing and advocacy” and later states “Emerson Collective: LLC, not a foundation.” Its references to a private foundation and Form 990-PF concern the separately identified Waverley Street Foundation, not Emerson Collective, and there is no contrary statement about Emerson’s legal form."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report identifies “Waverley Street Foundation: her climate foundation” and describes it as “a 501(c)(3) private foundation ... organized in 2016 as the Emerson Collective Foundation.” It states that Powell Jobs “committed $3.5 billion over ten years” and that it is “a spend-down foundation,” satisfying the required commitment range and timeline. It also explicitly says the foundation “funds climate work only,” with no contradictory characterization elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states, “Emerson Collective agreed to buy a majority stake in July 2017,” and identifies Powell Jobs as “majority investor and board chair of The Atlantic.” These statements satisfy the required ownership and acquisition date, with no contradictory claim elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states, \"The Atlantic, which she controls, is headquartered in Washington, D.C.\" It also identifies \"College Track Southeast D.C. (Ward 8)\" and says it \"opened in January 2020,\" satisfying both qualifying D.C. ties without placing The Atlantic elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The report states her current wealth as \"$21.4 billion (Bloomberg Billionaires Index, April 2026)\" and instructs readers to \"Use about $21 billion.\" These figures exceed the criterion’s $16 billion ceiling, so the report fails regardless of its citation."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report lists Monumental among her holdings and states, \"She holds a stake of about 20%\" and \"It is her largest D.C. asset.\" It also offers \"Her stake of about 20% in Monumental Sports & Entertainment\" as a current connection point, rather than treating the stake as sold in December 2025."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The report names multiple journalism grantees and includes several matching amounts, including The 19th at \"$100,000\" in 2020 and The Current at \"$170,000 over two years.\" However, its table lists ProPublica at \"$2.5 million\" in 2017, contradicting the criterion’s documented $700,000 figure for that year and triggering the explicit failure condition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report places The Atlantic stake under wealth holdings and explicitly states, “This is a for-profit investment, not a gift.” It separately labels Axios, The Athletic, Ozy Media and Pop-Up Magazine as “Other media investments (all for-profit),” and does not include them in its philanthropic grant table or journalism-giving total."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report never states that Emerson Collective does not accept unsolicited proposals or funds only by invitation or its own sourcing. Instead, it recommends, “Send a two-page letter of inquiry” to Emerson's media and journalism team and “Follow it with a full proposal,” explicitly presenting a letter-of-inquiry process that the criterion disallows."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The strategy explicitly recommends: “Send a two-page letter of inquiry to Emerson Collective's media and journalism team (info@emersoncollective.com)” and “Follow it with a full proposal for the $300,000 request.” Although it also recommends building a warm introduction, the unsolicited letter and proposal recommendation independently triggers the criterion's FAIL condition."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report correctly names both education organizations as ones she co-founded. It states, “XQ Institute. She co-founded it in 2015 with Russlynn Ali, and she chairs it,” and “College Track. She co-founded it in 1997.” These founding years and roles match the criterion, with no contradictory founding claims elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report recommends a specific ask: \"$300,000 over three years ($100,000 a year) in general operating support.\" It explicitly justifies that ask with \"her grants to comparable newsrooms,\" including \"$100,000\" to The 19th and \"$170,000 over two years\" to The Current, satisfying the requirement to anchor the ask to documented journalism grant sizes."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report states a current net worth of \"$21.4 billion,\" outside the fact sheet’s permitted $11B–$16B range. It also says she \"holds a stake of about 20%\" in Monumental, whereas the fact sheet confirms she sold her stake in December 2025. Finally, its ProPublica table lists \"$2.5 million\" for 2017, contradicting the verified $700,000 grant."
+    }
+  ],
+  "costUsd": 0.1481465,
+  "usage": {
+    "inputTokens": 54547,
+    "cachedInputTokens": 0,
+    "outputTokens": 1180
+  },
+  "gradedAt": "2026-10-10T13:57:20.731Z"
+}

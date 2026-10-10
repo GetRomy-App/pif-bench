@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly concludes that 'The Emily Hartwell in the Colorado Business Ledger story is not our Emily' and identifies both conflicting identifiers: 'age 34 against about 58 (birth year 1968); husband Andre Hartwell against Daniel P. Hartwell.'"
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly distinguishes the donor from the namesake in the news article, stating in the Short answers that 'None of the $84 million sale belongs to our donor.' It correctly rejects the $84 million sale, the ~30% stake, the CEO/founder role, and the SEC Form D, attributing none of these to constituent 4471."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the Lake Dunmore camp in Section 1 ('Records rejected'), noting: 'Conflict: middle initial J against R. The Denver mailing address matches the article's Emily Hartwell, who says she owns her grandparents' Lake Dunmore camp'. It does not attribute the camp to constituent 4471 or count its value."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Under Section 2 ('Records attributed to her'), the deliverable specifically identifies the home as '48 Foxcroft Ln, Middlebury. Owners Emily R. & Daniel P. Hartwell, acquired 2006. 2026 listed value $412,300 after the town-wide reappraisal'."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies 'Hartwell Bookkeeping & Tax, LLC' with Emily R. Hartwell of 48 Foxcroft Ln as manager and registered agent. It explicitly states 'No revenue or value is published' and explains in Section 3 that 'The LLC is hers, but no value is published, so it is noted and not counted' as a wealth indicator toward a rating."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in point 2 of the Short Answers: 'Net worth: we cannot give one. Our standards do not allow the office to estimate or report net worth for any prospect (Section 4).' It provides no net-worth figure or range, while appropriately noting the verified home value of $412,300 as a property value under real estate records."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rates her 'U — Unrated (insufficient data)' and explains that only one of the four categories of wealth indicator (real estate) has a verified record, with no published value for the LLC, no SEC holdings, and no gifts of $5,000 or more. It assigns no letter rating A–E and refrains from providing a capacity figure or range."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "In Section 5 ('Recommendation'), the memo explicitly recommends that Paula hold a 'discovery visit' with Emily after the gala. It notes that the visit 'should be a conversation, not an ask: learn about her interests, her connection to the School and her philanthropic plans' before re-rating her or making any larger ask."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly sets aside the $2,000 business soft credit and the $150 ticket purchase, identifying the 2026-04-03 $750 Spring Appeal contribution as her last gift: '2026-04-03: $750, Spring Appeal, by check. This is her last gift.' It then applies the ask formula to $750."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly recommends a gala ask of $1,250 based on the calculation '1.5 × $750 = $1,125, rounded up to the next multiple of $250 = $1,250' and explicitly notes that the $25,000 Presenting Sponsorship ask should not go forward, with no other larger gala ask recommended."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Every factual statement about Emily R. Hartwell in the memo (birth year 1968, spouse Daniel P. Hartwell, CPA license history, Middlebury home valuation, Hartwell Bookkeeping & Tax LLC details, giving history, piano lessons, and Daniel's chorus participation) is directly supported by the CRM record and public records files. No fabricated employers, salaries, practice valuations, or unverified biographical facts are introduced."
+    }
+  ],
+  "costUsd": 0.02271825,
+  "usage": {
+    "inputTokens": 25411,
+    "cachedInputTokens": 0,
+    "outputTokens": 976
+  },
+  "gradedAt": "2026-10-10T14:03:42.766Z"
+}

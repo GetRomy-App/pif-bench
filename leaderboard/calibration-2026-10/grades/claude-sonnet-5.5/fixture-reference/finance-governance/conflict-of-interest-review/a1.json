@@ -1,0 +1,82 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "9d41f9f32291d76f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo says Saffron & Sage's sole member and manager (100%) is Celeste M. Aldana. It ties her to Thomas Aldana through the shared home address and his annual statement naming his spouse. It states 'A spouse is a Family Member under the policy, so Mr. Aldana had a Financial Interest in the catering contract... an actual or possible conflict of interest.' It also finds that the policy was not followed. This meets every element of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo names both failures. On the annual statement, it says: \"on 2026-01-20 he answered 'No' to Question 2... although Saffron & Sage had submitted its bid on 2026-01-08.\" On the meeting, it says: \"the minutes record that no director other than Ms. Ramaswamy disclosed anything.\" The summary table also says he did not disclose. Both required elements are present and nothing contradicts them."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states the policy required him to \"Leave the meeting while the other directors determined whether a conflict existed and while they discussed and voted on the contract, and not vote (Article III, Sections 2–3).\" It also says he \"spoke for Saffron & Sage ('a cut above'), moved to award it the contract, and voted for his own motion.\" It does not claim he recused or abstained. Both required elements are present."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states: \"the motion carried 6–5 with Mr. Aldana voting in favor. Without his vote it would have been 5–5, and under the bylaws a tie fails (Bylaws Article IV, Section 5). The contract was approved only because of the vote of the director with the undisclosed interest.\" This covers every element of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says: \"the board rejected the Gala Committee's recommendation of Harborview Provisions, the lowest bid at $52,900, and awarded the contract at $68,400 — $15,500 (29.3%) more\". That states both bids and the difference correctly, and notes the Gala Committee recommended Harborview. It also compares against Tidewater's $55,750. No misstatement."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Section 2 of the memo finds Ramaswamy handled the conflict as the policy requires. It cites her annual statement disclosure on 2026-01-14, the written disclosure to the Chair on February 2, and oral disclosure at the meeting. It says she left the room, that the ten remaining directors found a conflict, compared bids, and approved the lowest bid ($18,250) 10–0, and it states \"No action is needed concerning Ms. Ramaswamy.\" It does not call the contract improper or equate her case with Aldana's."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo concludes Saffron & Sage 'must be reported' in Part IV of the 2025 Form 990 (FY ending June 30, 2026). It bases this on the LLC being an interested person, more than 35% owned by a director's family member. It also finds the $71,860 single contract exceeds the $39,400 single-transaction threshold, and it does not defer or leave the question open."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states the single-transaction test as 'payments from a single transaction over the greater of $10,000 or 1% of total revenue,' says total revenue is $3,940,000, and concludes 'the threshold is **$39,400**.' It then applies that figure in the table. This matches the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo concludes BrightStage is not reportable: \"BrightStage is not reportable: $18,250 is below both thresholds.\" It tests against the $39,400 single-transaction threshold and the $100,000 aggregate threshold. It also treats BrightStage as an interested person (more than 35% owned by a director's brother), so it does not rely on the family-member or interested-person reasoning the criterion rules out."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Section 4, step 1 says the committee informs Aldana in writing of the basis for its belief and gives him the opportunity to explain within 15 days. It adds: \"No finding about his conduct, and no view about whether the omission was deliberate, should be reached before he has responded.\" Discipline appears only later, as options the board might take if it determines he failed to disclose, so nothing is treated as already decided. The memo also never says he deliberately concealed the interest. It states plainly that he did not disclose and voted, which is fact from the minutes, not an assertion of intent."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Section 4, step 4 says the disinterested directors re-review the catering contract under Article III, Sections 3(c) and 3(d), asking whether a more advantageous arrangement was available (it cites the $52,900 and $55,750 bids) and whether the contract was in the Theatre's best interest, fair and reasonable. It adds that if the Theatre paid more than fair market value, the board must consult legal counsel on a possible IRC 4958 excess benefit transaction and on recovering the excess. It also says 'this memo does not conclude that an excess benefit transaction occurred,' so nothing is declared settled."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 5 states that Aldana is one of three Governance Committee members and that \"Under Article IV, Section 4, he takes no part in the committee's or the board's deliberations or votes on this matter, as a committee member or otherwise.\" It adds that the committee should proceed with Pettigrew and Sato only. This matches the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Section 4, steps 2-3, say the committee reports findings to the board, and that the board, \"acting by a majority of the disinterested directors, determines that he failed to disclose, it takes appropriate disciplinary and corrective action.\" Step 5 says \"Mr. Aldana files a corrected annual statement within 30 days of the board's determination.\" Both required elements are present."
+    }
+  ],
+  "costUsd": 0.043027100000000006,
+  "usage": {
+    "inputTokens": 55403,
+    "cachedInputTokens": 48456,
+    "outputTokens": 2084
+  },
+  "gradedAt": "2026-10-10T13:58:42.532Z"
+}

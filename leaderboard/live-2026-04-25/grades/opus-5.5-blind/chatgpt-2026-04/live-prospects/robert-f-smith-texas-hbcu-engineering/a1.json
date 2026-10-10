@@ -1,0 +1,99 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "chatgpt-2026-04",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "taskHash": "2e2e5489961796b7",
+  "deliverableHash": "3d308aeb90b402df",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report profiles \"Robert F. Smith\", \"Founder, Chairman, and CEO of Vista Equity Partners\". Everything it attributes to him (Cornell, Morehouse, Fund II, SFI, the NPA) belongs to that person, with nothing from another Robert Smith."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report calls him \"Founder, Chairman, and CEO of Vista Equity Partners\" and says he was a Goldman Sachs banker \"before founding Vista Equity Partners in 2000\". The founding year is correct."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states \"Education: Chemical Engineering, Cornell University; MBA, Columbia Business School\". Both are correct, and no wrong years are given."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The report never says where Smith lives. It mentions only that \"Vista Equity has strong presence in Texas (Austin)\" and a \"Texas-based ecosystem (Vista presence)\", which describe the firm, not his residence."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report gives \"Estimated net worth: $10.6+ billion (2025)\" and later \"Net worth: $10B+\". Both are within the $9–13 billion band."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Under Institutional Philanthropy the report calls him \"Founder of Fund II Foundation (2014)\", which supports Black culture, human rights, education and music. That identifies it as his own giving vehicle."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report says only \"Cornell University (engineering school renamed in his honor)\". It never gives the 2016 date or the $50 million commitment, so the 2016 Cornell gift amount is omitted."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report states \"~$34 million to eliminate student debt for ~400 graduates (2019)\". It clearly frames the other figure as the early estimate: \"Initial pledge widely estimated near ~$40M\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report says only that he is a \"Co-creator of Student Freedom Initiative to address student debt for minority students\". It gives neither Smith's $50 million personal gift nor Fund II's initial $50 million."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The body names no connection between Smith, SFI or Fund II and any Texas HBCU. Prairie View A&M appears only as a cited URL and as an example target in the closing offer (\"e.g., Prairie View A&M or Texas Southern\"), not as a documented tie."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report credits Smith or Fund II with no gift, pledge or named fund at any Texas HBCU."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Under red flags the report states he \"Entered non-prosecution agreement in U.S. tax case; paid ~$139M settlement\". That discloses the NPA and the correct payment figure. It omits the year but gives no wrong year or wrong amount."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report describes a \"non-prosecution agreement\" and a \"settlement\". It never says he was charged, indicted, convicted or cleared, and attributes none of the Brockman matter to him."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The tax matter appears only under \"Potential Red Flags / Risks\" with the note \"Requires careful reputational framing\". The report never recommends raising it with Smith or using it as a talking point in cultivation."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The report gives capacity estimates in dollars: \"Realistic: $25M–$75M\", \"Stretch: $100M+\", and \"Likely range: $20M–$50M\" for this program. The ask is \"Primary ask: $25M–$40M\" with \"Stretch ask: $50M+\", which does not exceed the stated capacity top of $100M+."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The stated facts are consistent with the fact sheet: Denver birth, Cornell chemical engineering, Columbia MBA, Vista founded 2000, ~$100B+ AUM, $10.6B net worth, Fund II 2014, Morehouse ~$34M with the ~$40M early estimate, the $1.5M Morehouse gift, the Giving Pledge, and the ~$139M NPA payment. No contradiction was found."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.470Z"
+}

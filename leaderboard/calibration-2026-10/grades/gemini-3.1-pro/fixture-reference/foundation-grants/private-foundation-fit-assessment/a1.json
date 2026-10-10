@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "7063d1a9ab85c1c5",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the Marwood Family Foundation section that \"Grants paid in 2025: $708,000 across 10 grants\", which perfectly matches the required figure."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Marwood does not accept unsolicited requests, quoting both the 990-PF checked box and the website's statement that it 'does not accept unsolicited proposals, letters of inquiry or applications.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends sending no proposal, LOI, application, or other written request to the Marwood Family Foundation unless they invite a request in writing."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Millstream director Margaret W. Lindqvist is a Marwood trustee and recommends that she act as the path to the foundation by asking her fellow trustees if they would welcome a conversation with Millstream."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the Calloway-Deane Charitable Trust section that the 'Grants paid in 2025' were '$390,000 across 12 grants', matching the criterion requirement perfectly."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states that none of the 12 grants went to a Pennsylvania organization, explicitly pointing out that the grants went to North Carolina, South Carolina, and Virginia. It specifically identifies the Lancaster County and York County grants as being in South Carolina, and correctly notes that the Philadelphia address of the corporate trustee does not establish geographic fit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in both the brief and detailed sections that the organization should \"not prepare an application for October 15, 2026\" for Calloway-Deane. It correctly limits the approach to \"at most, one email or call asking whether the trust would consider a Pennsylvania organization\" and clarifies that \"only a yes in writing would make it a fit, and the earliest application would then be April 15, 2027.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly reports the Garrison Ridge Foundation's 2025 grants paid as '$480,000 across 13 grants' and explicitly excludes the $135,000 in grants approved for future payment."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable recommends approaching Garrison Ridge with a letter of inquiry, stating under the recommendation summary: \"Letter of inquiry for the program component (mobile markets).\" It also explicitly assesses the foundation as a geographic fit, noting: \"Lancaster County is in its stated giving area, and 12 of 13 grants paid went to Pennsylvania organizations.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends asking Garrison Ridge for the \"program component (the southern-county mobile markets... not for the cold-storage addition or the truck.\" It justifies this by stating that \"Every 2025 grant paid is for program or operating costs... and none is for land, buildings, construction, equipment or vehicles,\" fully satisfying the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the Garrison Ridge Foundation section: '**Next LOI deadline: Monday, March 1, 2027, 5:00 p.m. Eastern**'. It correctly identifies and dismisses the passed September 1 deadline, the October 16 full-proposal deadline, and the outdated rolling basis."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo correctly identifies the median grant to comparable recipients for Garrison Ridge as $30,000, explicitly stating 'Median (4th of 7): **$30,000**'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends an ask range for the Garrison Ridge Foundation of $15,000 to $30,000, stating 'Ask range: $15,000 – $30,000 for the mobile-market program.' It also correctly notes that the foundation's published grant range does not set their range."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable ranks the foundations in the 'Recommendation in brief' table and the subsequent sections: Priority 1 is the Garrison Ridge Foundation, Priority 2 is the Marwood Family Foundation, and Priority 3 is the Calloway-Deane Charitable Trust."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Margaret W. Lindqvist as the only board connection (to Marwood). It explicitly notes that while Dr. Owen M. Calloway shares a name with the Calloway-Deane Charitable Trust, 'nothing in the files connects him to it', which the criterion allows. All grants, deadlines, contacts, and policies mentioned are accurately sourced from the provided files."
+    }
+  ],
+  "costUsd": 0.160958,
+  "usage": {
+    "inputTokens": 52771,
+    "cachedInputTokens": 0,
+    "outputTokens": 4618
+  },
+  "gradedAt": "2026-10-10T14:03:21.229Z"
+}

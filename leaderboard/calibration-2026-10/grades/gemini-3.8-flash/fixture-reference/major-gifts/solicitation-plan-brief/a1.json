@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Section 1 clearly designates the ask as a single figure of $80,000 ('The ask: $80,000' and 'The rounded figure, $95,000, is above the cap, so the ask is $80,000'). This figure is also consistently maintained throughout the document, such as in Section 2 and Section 7."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "In section 1, the deliverable explicitly identifies the largest gift as the '20,000 Adult Literacy gift of 2025-10-14 from the Vandermolen Family Fund, their donor-advised fund' and caps the ask at 4 × $20,000 = $80,000, while explicitly ruling out corporate gifts and gifts to other organizations."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan clearly directs the ask to the Adult Literacy Program ($80,000 over two years for the Upriver evening tutoring site and learner materials/GED vouchers, with alternatives in Tutor Corps, ESL Conversation Circles, or the Adult Literacy Endowment). It explicitly states: 'No Open Doors or Eastside Branch option will be raised, despite the campaign chair's request in the July board minutes: policy §2 bars proposing a purpose the donor has declined.'"
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states in Section 6 that 'No naming opportunity of any kind will be offered (policy A5)' and notes 'Anonymous. \"No plaques, no lists, no announcements\"'. It offers no naming opportunities anywhere in the brief."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Section 6 explicitly specifies that the gift will be anonymous, stating 'No plaques, no lists, no announcements' and that the gift 'will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.' It also instructs to update the CRM recognition name from 'Martin & Celeste Vandermolen' to Anonymous."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly identifies Celeste as the decision-maker in Section 3, noting Martin's quote ('Celeste runs our giving — I just sign where she tells me') and directing: 'Martin should be welcome at the meeting, but the ask is made to Celeste. His 2022 interest in \"a building with our name on it\" predates her statement and is not the plan.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The plan specifies arranging the meeting via Celeste's personal email (celeste.vdm@example.net) with the home phone as backup, sets the meeting location at their home (1418 Cormorant Lane), and explicitly prohibits using any Vandermolen Marine Supply channels (email, phone, mail, or meeting at the company)."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly identifies the solicitation team as Teresa Lindahl with Lillian Cho as the leadership partner, noting that Gregory Hale is excluded due to a conflict of interest and no unapproved persons are included."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The brief explicitly states in Section 3 that 'Gregory Hale has no role' due to an active conflict of interest / arbitration, notes that Teresa will thank him and decline his offer, and withdraws the earlier strategy note naming him as co-solicitor. It does not propose him for any cultivation or solicitation role."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The plan does not mention the Rasmussen family, Ingrid Rasmussen, their $100,000 gift, or any fellow tutor's endowment gift. In talking point 7, it explicitly instructs: 'do not name other donors or describe anyone's gift — speak to the program's needs instead'."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The plan notes the mid-October advisor meeting and sets the ask meeting for 'the week of October 26, 2026 (early November as the fallback)', which is directly after mid-October and before the end of November."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Every fact stated about Martin and Celeste Vandermolen (their past gifts, capacity estimate of $382,000, home address, quotes, preferences regarding anonymity/communication channels, volunteer history, and family background regarding her mother learning to read) is directly sourced from the CRM record, research profile, and contact reports."
+    }
+  ],
+  "costUsd": 0.026334749999999997,
+  "usage": {
+    "inputTokens": 30238,
+    "cachedInputTokens": 0,
+    "outputTokens": 975
+  },
+  "gradedAt": "2026-10-10T14:03:17.201Z"
+}

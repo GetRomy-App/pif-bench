@@ -1,0 +1,72 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo finds the double posting of Priyanka Desai's $250 gift (G-41817 and G-41822 against one PayBridge transaction). But its adjusting entry reads \"Delete G-41817, the automatic import; keep G-41822.\" The criterion requires deleting G-41822 and says to FAIL if G-41817, the posting tied to the PayBridge transaction, is deleted instead."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo's discrepancy #2 states that G-41809 (Marisol Etxeberria, check 4410) was keyed as $15,000.00 while the bank item in RDC-0710-1 is $1,500.00. It corrects the gift amount to $1,500.00, a $13,500.00 reduction, and does not delete or reverse the gift. This meets the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The memo says of the Etxeberria correction: \"The acknowledgment sent 2026-07-13 can stand; her calendar-year giving statement in January will show the corrected $1,500.00.\" That leaves the $15,000 acknowledgment in place and defers the correction to a later statement, which is the FAIL condition."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo identifies Hollis Grant's $500 check 2231 (G-41810) as returned NSF on 2026-07-16. However, its adjusting entry reads \"Delete G-41810 from B-2607-02, since the money never cleared.\" The criterion says to FAIL if the memo deletes the original gift instead of posting a -$500 reversing entry that keeps the original on record. The memo does not post a reversal dated July 16."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Discrepancy #4 identifies G-41803, check 9014 for $1,000 from Gerald & Mae Lindgren, received 2026-07-02 but postmarked 2026-06-30, as an FY2026 gift. It re-dates the gift to 2026-06-30 and moves it to B-2606-YE. The adjustment removes $1,000 from the July total. This meets every element of the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo correctly leaves G-41802 (Doyle) in July, but it moves G-41804 (Ochieng, check 1187) to FY2026: \"Re-date to 2026-06-28 and move it to B-2606-YE.\" The criterion says to FAIL if either gift is moved to FY2026 or re-dated to the check date."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states that card gifts are $3,335.00 gross and PayBridge paid out $3,257.13 net, with the $77.87 difference being PayBridge's fee (2.2% + $0.30 per transaction). It calls this \"expected\", keeps gifts at gross, and says \"No CRM entry.\" It does not call the difference an error or shortfall. The $77.87 goes to 6120 Merchant fees in the GL, not the CRM, which is acceptable. The Section 1 table shows a $250 card difference, but that is the duplicate gift, not the fee, and it is resolved in Section 2."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Card gifts are $3,335.00 gross; PayBridge paid out $3,257.13 net across 13 payouts. The $77.87 difference is PayBridge's fee\" and books $77.87 to 6120 Merchant fees. The tie-out repeats the $77.87 figure. This matches the criterion, and no other fee total appears."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo says: \"Valley Office Supply, $86.40 (check 33817, item 5 of RDC-0724-1): a vendor refund, not a gift. Do not enter it in the CRM; Finance codes it in the general ledger.\" The corrected batch total of $16,880.00 does not include it. The $86.40 shows up only as a reconciling item in the bank tie-out, not as a gift. That matches the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo states the corrected July batch total as $16,880.00. The criterion requires $17,130.00 and lists $16,880.00 as a failing figure. The memo moved the Ochieng check (G-41804, $250) to FY2026 in addition to the other four adjustments, which is why its total is lower."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Section 4 ties the corrected total of $16,880.00 to the bank net of $18,123.53. It lists PayBridge fees (−$77.87), the Lindgren check (+$1,000.00), and the Valley Office Supply refund (+$86.40) as reconciling items, and it states \"Unexplained difference $0.00.\" The arithmetic checks out."
+    }
+  ],
+  "costUsd": 0.038468999999999996,
+  "usage": {
+    "inputTokens": 35094,
+    "cachedInputTokens": 29510,
+    "outputTokens": 2158
+  },
+  "gradedAt": "2026-10-10T13:55:58.982Z"
+}

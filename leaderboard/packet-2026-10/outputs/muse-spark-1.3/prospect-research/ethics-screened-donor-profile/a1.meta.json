@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "promptHash": "06ebcc384b44ba6b",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 4138,
+  "outputTokens": 10148,
+  "costUsd": 0.0483015,
+  "latencyMs": 90707,
+  "createdAt": "2026-10-10T18:35:00.388Z"
+}

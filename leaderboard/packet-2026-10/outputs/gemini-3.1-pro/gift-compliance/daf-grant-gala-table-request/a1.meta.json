@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "promptHash": "e32f89bfe85f6d7a",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 3212,
+  "outputTokens": 5851,
+  "costUsd": 0.076636,
+  "latencyMs": 52293,
+  "createdAt": "2026-10-10T18:20:03.702Z"
+}

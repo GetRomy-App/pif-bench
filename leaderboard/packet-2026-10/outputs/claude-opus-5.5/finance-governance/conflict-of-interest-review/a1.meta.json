@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "promptHash": "041eef5eee0c7d61",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 9561,
+  "outputTokens": 11787,
+  "costUsd": 0.283541,
+  "latencyMs": 105145,
+  "createdAt": "2026-10-10T18:12:50.028Z"
+}

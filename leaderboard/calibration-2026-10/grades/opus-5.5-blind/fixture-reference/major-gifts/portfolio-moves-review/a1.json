@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "e7fd2b30bf0cb4fb",
+  "deliverableHash": "b9cc3ac3641c45a1",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "\"Harold Penwick (20533) — Deceased\": \"Harold died on 2026-07-19; his daughter ... called Marisol on 2026-07-28.\" The review says \"Reported under Deceased only, per section 4.1,\" and he appears in neither the contact-gap nor the stalled counts."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The next action is \"confirm the deceased flag with Gift Records; close the $100,000 ask as 'Closed — deceased'; suppress all mailings and invitations; remove the record from the portfolio. No follow-up of the ask with the family or estate.\" Any further outreach to Margaret is left to the Director's decision, which the criterion allows."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Mehtas are flagged because \"The register lists two primary officers: Marisol Vega (assigned 2025-10-06) and Theo Brandt (assigned 2026-05-04),\" with the next action \"you designate one primary officer.\" Tsai is listed in standard with the note \"Lena Okafor is a secondary officer, which is not a conflict.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Whitfield is reported with a contact gap: \"Last substantive contact: the thank-you visit on 2026-05-20, 118 days ago.\" The newsletter note, the acknowledgment letter and the Twilight Tour attendance \"are not substantive.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Brightwater has a contact gap: \"Last substantive contact: dinner on 2026-05-28, 110 days ago. The 2026-07-21 phonathon call was made by an Annual Giving student caller and does not count.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The Fitches have a contact gap: \"No substantive contact on record,\" and the review lists the 2026-02-09 letter, the unanswered 2026-06-30 email, the 2026-08-18 voicemail and the 2026-09-02 invitation (\"ticked 'Y' but an invitation\")."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Miriam Feld is in the in-standard table: \"The 2026-08-31 email exchange, in which she replied and set a call for October 6, is substantive.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "\"Qualification overdue | 2 | Fitch, Dubose,\" with Fitch assigned 2026-01-26 and Dubose 2025-12-01. Ivers is in standard: \"qualification window runs to November.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "\"Cultivation over limit | 2 | Langford, Marchetti,\" in Cultivation since 2024-11-18 and 2025-02-03 respectively. No one else, including the Brightwaters or Whitcombes, is reported over the limit."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "\"Stalled solicitation | 2 | Ashby, Achterberg\": Ashby's last ask is \"2026-04-22, 146 days ago\" with no new ask on 2026-08-12, and Achterberg's is 2025-12-03. Ortega, Castellanos and Whitfield are expressly not stalled, and Penwick is reported under Deceased only."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "For Dubose: \"His discovery visit happened on 2026-07-09 and Marisol recommended moving him to Cultivation, but the stage was never updated,\" and the next action is \"advance him to Cultivation now.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The summary table gives contact gap 5, qualification overdue 2, cultivation over limit 2, stalled solicitation 2, assignment conflict 1 and deceased 1, and states \"10 of 16 prospects are out of standard.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.619Z"
+}

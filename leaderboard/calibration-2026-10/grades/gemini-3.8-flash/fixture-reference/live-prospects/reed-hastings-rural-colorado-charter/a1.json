@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report states under Section 1 (Career): \"Co-founded Netflix in 1997 and was its CEO from the late 1990s until January 2023.\" This correctly identifies him as co-founder, gives 1997 as the founding year, and notes he stepped down as CEO in January 2023."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies his current role as 'non-executive chairman' / 'Chairman of the Board and a non-executive director' and explicitly lists his roles as CEO, co-CEO, Executive Chairman (until April 17, 2025), and board seats at Facebook (2011–2019) and Microsoft (2007–2012) as past roles."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in both the Summary and Section 1 that on April 16, 2026, Netflix disclosed Hastings will not stand for re-election at its June 2026 annual meeting, remaining chairman until then and leaving the board in June 2026 to focus on philanthropy and other pursuits."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly identifies Netflix equity as the core of his wealth (\"Netflix equity is the core of his wealth. As of April 6, 2026 he beneficially owned 37,759,062 Netflix shares, including options on 16,595,546 shares... under 1% of the company\"). It provides sourced net worth estimates within the $3-8 billion range (\"Forbes put him at about $4.1 billion after his January 2024 stock gift; its 2026 real-time estimate is about $4–5.5 billion [8][18]. Bloomberg estimated $6.6 billion just before that gift [19]\"). All figures fall strictly within $3 billion and $8 billion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies Patty Quillin as Hastings's wife and philanthropic partner: \"He and his wife, Patty Quillin, are among the largest funders of charter schools in the country\" (Summary), \"He is married to Patty Quillin, his partner in giving\" (Section 1), and notes her as co-signer/co-donor on the Giving Pledge, the $120M HBCU gift, and Charter School Growth Fund contributions."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable details the Hastings Fund in the Summary and Section 3 table, noting: 'Jan 2016 | Hastings Fund: education donor-advised fund at SVCF... | $100 million | [5][6]'. This precisely matches the launch date (January 2016), vehicle type (donor-advised fund), sponsor (SVCF), and amount ($100 million)."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report includes the January 24, 2024 gift in Section 3, noting 'SVCF (his donor-advised fund): 2,000,000 Netflix shares' valued at '~$1.1 billion'. This accurately matches all criteria requirements, including the date, share count, valuation range ($1.0B–$1.2B), and recipient (SVCF / donor-advised fund)."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report accurately details The City Fund in Section 3 and Section 4. Specifically, it notes: 'Jul 2018 | The City Fund: charter and autonomous public schools in cities. The Hastings Fund and Laura and John Arnold are anchor funders; reported $125M of it from the Hastings Fund | ~$200 million raised at launch'. This satisfies all criteria."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "In Section 3's giving history table, the deliverable lists: 'Jun 2020 | UNCF, Spelman College, Morehouse College, for HBCU scholarships (with Quillin) | $120 million ($40M each)'. This accurately identifies the year (2020), donors (Hastings and Quillin), total amount ($120 million), per-recipient amounts ($40M each), purpose (HBCU scholarships), and recipients (UNCF, Spelman, Morehouse) without adding other recipients."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report explicitly notes in the Summary and in Sections 1, 6, and 7 that Hastings sits on the board of the Charter School Growth Fund (CSGF) and correctly identifies CSGF as being headquartered in Denver, Colorado."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report correctly identifies Lone Rock in Bailey, Park County, Colorado as an educators' retreat financed by Hastings and run by the Lone Rock Foundation, where Hastings serves as president. It also correctly states that Hastings lives in Santa Cruz, California rather than Colorado."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "In Section 5 ('Estimated giving capacity: single gift to an education nonprofit'), the deliverable estimates his capacity at '$50 million or more', citing his past single gifts of $40 million and $50 million. This meets the requirement of being $40 million or more."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy explicitly advises against a cold approach ('The right path to him runs through CSGF and his charter-sector network, not a cold ask' and 'No cold asks'). It specifically recommends routing the approach through intermediaries like CSGF and Pahara/Lone Rock ('Go through CSGF... ask CSGF leadership for an introduction') and notes that the Hastings Fund and Lone Rock Foundation do not accept unsolicited proposals."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Every factual statement in the report matches the verified fact sheet and its tolerances. Career history, titles, net worth, board roles, spouse, stock gifts, intermediate vehicles, Colorado ties (Denver HQ for CSGF, Lone Rock in Bailey), and documented gift amounts/dates all align perfectly with the reference document without contradiction."
+    }
+  ],
+  "costUsd": 0.05794049999999999,
+  "usage": {
+    "inputTokens": 70519,
+    "cachedInputTokens": 0,
+    "outputTokens": 1347
+  },
+  "gradedAt": "2026-10-10T13:59:51.200Z"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "promptHash": "02a58ad19dca2517",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 2787,
+  "outputTokens": 7348,
+  "costUsd": 0.03471275,
+  "latencyMs": 41569,
+  "createdAt": "2026-10-10T18:34:15.276Z"
+}

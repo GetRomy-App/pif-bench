@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "promptHash": "b8e5748f82f74fd8",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 3791,
+  "outputTokens": 22257,
+  "costUsd": 0.02781858,
+  "latencyMs": 94377,
+  "createdAt": "2026-10-10T18:27:38.180Z"
+}

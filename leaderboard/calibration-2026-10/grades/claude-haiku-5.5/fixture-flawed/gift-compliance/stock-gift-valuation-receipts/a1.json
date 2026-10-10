@@ -1,0 +1,67 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet dates G-1 Marchetti as \"2026-01-02\" with tax year \"2026\", and the notes state the shares were credited 2026-01-02 and that the date of gift is 2026-01-02 rather than the December 29 instruction date. The Marchetti receipt reads \"credited to our account on January 2, 2026,\" and the donor reply section confirms the receipt is dated January 2, 2026. No 2025 date or tax year is assigned to this gift anywhere in the deliverable."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the Marchetti gift to be valued at $25,068.00 (400 × $62.67, the mean of high $63.48 and low $61.86 on 2026-01-02). The deliverable values G-1 at $24,820.00 using the closing price of $62.05, explicitly stating 'Value: closing price $62.05 × 400 = $24,820.00.' This is one of the figures the criterion names as a FAIL case, so the deliverable fails."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable's gift-entry sheet lists G-2 Delacroix with date of gift **2025-12-30**, tax year **2025**, valuation basis 'Mean of high $38.62 and low $37.84 on 2025-12-30', per-share value $38.23, and gift value **$9,557.50**. The notes confirm '(38.62 + 37.84) ÷ 2 = $38.23 × 250 = $9,557.50 — not the $38.55 close,' and the receipt repeats $9,557.50. No contradictory figure appears for this gift, so the criterion is satisfied."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the Fenn gift to be dated 2025-12-31 (postmark) and placed in tax year 2025. The deliverable dates G-3 Fenn as 2026-01-05 and tax year 2026, stating 'It reached us on 2026-01-05, when we took possession of the shares, so that is the date of gift and the tax year is 2026.' The receipt also says 'received on January 5, 2026.' This is exactly the FAIL condition."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the Fenn gift valued at $10,149.60 (120 × $84.58, based on 2025-12-31 high/low). The deliverable values G-3 at $10,370.40 ('(87.14 + 85.70) ÷ 2 = $86.42 × 120 = $10,370.40'), using the 2026-01-05 mean, which the criterion explicitly lists as a FAIL figure. The gift value does not match the required figure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's gift-entry table lists G-4 Szabo with Date of gift \"2025-12-31\" and Tax year \"2025\", and the notes state the shares were credited to the fund account on 2025-12-31, which is the date of gift. It does not date the gift to the request date (2025-12-22) or the statement date (2026-01-06), and no contradictory date or tax year appears elsewhere for this gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the Szabo gift to be valued at $20,048.67 (812.345 × $24.68 NAV on 2025-12-31). The deliverable values G-4 at $21,275.32 using the $26.19 public offering price, which the criterion explicitly names as a FAIL case. The deliverable's sales table also keeps $21,275.32 as the gift value, so there is no contradiction that would rescue it."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The Delacroix receipt states \"As you asked, the value of your gift on that date was $9,557.50,\" which is a dollar value stated in donor-facing wording. The criterion explicitly requires that no receipt, including Delacroix's despite her request, state a dollar value, so this fails."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipt drafts states the share count and security: '400 shares of Quarry Point Industries, Inc. common stock', '250 shares of Harrow Valley Bancorp common stock', '120 shares of Ostrander Railcar Corporation common stock', and '812.345 shares of Lantern Ridge Balanced Fund, Class A'. All figures match the criterion exactly and none omit the share count or security name."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Checking each of the four receipt drafts in Section 2: the G-1 Marchetti, G-2 Delacroix, G-3 Fenn, and G-4 Szabo receipts each include the sentence \"No goods or services were provided in exchange for your gift.\" None says goods or services were provided, so the criterion is met for all four."
+    }
+  ],
+  "costUsd": 0.0017616449999999998,
+  "usage": {
+    "inputTokens": 33031,
+    "cachedInputTokens": 27702,
+    "outputTokens": 1639
+  },
+  "gradedAt": "2026-10-10T13:57:50.790Z"
+}

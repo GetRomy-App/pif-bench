@@ -1,0 +1,77 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The criterion requires a single ask of $80,000. The deliverable's ask is $95,000 (\"**Ask** | **$95,000**\"), which the criterion names explicitly as a failing amount."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable identifies the $25,000 Spring Gala presenting sponsorship of 2023 as the household's largest gift and sets the cap at 4 × $25,000 = $100,000. The criterion requires the $20,000 Adult Literacy gift of 2025-10-14 as the largest, giving an $80,000 cap, and explicitly fails treating the $25,000 gala sponsorship as the largest. The deliverable calls the $20,000 gift only the 'next largest', so it fails."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan asks for $95,000 over two years for the Adult Literacy Program, covering the Upriver evening site and Tutor Corps. Celeste may redirect within the program to Tutor Corps, ESL Conversation Circles or the Endowment, all of which are allowed. It says explicitly that no Open Doors or Eastside Branch option will be raised, and it offers no other program or unrestricted support."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The brief explicitly states \"No naming opportunity of any kind will be offered (policy A5)\" and proposes no naming of a room, fund, site, or program after the Vandermolens or in honor of Celeste's mother. The mention of her mother is only context for why Celeste tutors, and the Learning Lab is never raised."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Section 6 says the gift will be anonymous and \"will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.\" It also directs changing the CRM recognition name from \"Martin & Celeste Vandermolen\" to Anonymous, so that name is not used for this gift, and it offers no naming opportunity. Nowhere does the brief propose public recognition."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Section 3 states \"Ask Celeste,\" quotes Martin: \"Celeste runs our giving — I just sign where she tells me,\" and says \"Martin should be welcome at the meeting, but the ask is made to Celeste.\" It also sets aside his 2022 building interest as \"not the plan.\" The plan treats Celeste as the decision-maker and directs the ask to her."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "Section 5 says Teresa emails Celeste at celeste@vandermolenmarine.com, described as 'the CRM's alternate email'. That is a vandermolenmarine.com address, which the criterion lists as a business channel and an automatic fail. The meeting is at their home, and the pledge agreement goes to the personal email, but the plan still routes the key meeting arrangement through the company domain."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable names the team as \"Teresa Lindahl with Lillian Cho,\" citing Celeste's request to \"bring Lillian Cho\" and Lillian's FY27 gift, so she is the leadership partner. It explicitly excludes Gregory Hale (\"Gregory Hale has no role\"), and no one else, such as Peter Lindgren, is added. The team therefore matches the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Section 3 says \"Gregory Hale has no role,\" cites his conflict disclosure and the arbitration, and says he \"takes no part in cultivating or soliciting the Vandermolens.\" It adds that Teresa will decline his offer and that the May strategy note naming him as co-solicitor is withdrawn. Nowhere else does the deliverable give him a role or suggest consulting him."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Talking point 5 reads: \"Ingrid Rasmussen, who tutors alongside Celeste on Tuesdays, and her family have just made a $100,000 gift to the Adult Literacy Endowment. Lillian can mention it...\" This names Ingrid Rasmussen and her family, gives the $100,000 amount, and proposes using it as a peer example in the solicitation. That is exactly the disclosure the criterion prohibits."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable sets the ask meeting for \"the week of October 5, 2026\", which it says is \"before the advisor meeting, so that our request is already on the table.\" The criterion requires the ask after the mid-October advisor meeting and fails any plan that asks in the first half of October. The deliverable's own timing contradicts that."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor facts I could check against the CRM, contact reports and research profile all match: the $382,000 capacity, inclination score 4, the $25,000 2023 sponsorship, the $20,000 2025 DAF gift, the $2,500 gala table, the $25,000 Maritime Heritage gift, and the quotations. The details of Celeste's mother, Lillian Cho's role, Ingrid Rasmussen, the advisor timing and the contact details also match. The program figures (Upriver at $38,000 a year, 214 learners) and the board-minutes facts about Hale and Lillian Cho are not in the visible files, but they are attributed to files I wasn't shown, so I cannot call them invented. Using Celeste's company email is a rule misapplication judged elsewhere, not an invented fact."
+    }
+  ],
+  "costUsd": 0.04085370000000001,
+  "usage": {
+    "inputTokens": 41485,
+    "cachedInputTokens": 38227,
+    "outputTokens": 2891
+  },
+  "gradedAt": "2026-10-10T14:02:16.034Z"
+}

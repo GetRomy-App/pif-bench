@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "promptHash": "5e23fcf16d91eaf7",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 3991,
+  "outputTokens": 4917,
+  "costUsd": 0.025886,
+  "latencyMs": 27677,
+  "createdAt": "2026-10-10T18:32:54.604Z"
+}

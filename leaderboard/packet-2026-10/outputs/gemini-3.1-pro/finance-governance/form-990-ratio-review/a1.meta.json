@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "promptHash": "0a43f83073a8420a",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 5501,
+  "outputTokens": 5422,
+  "costUsd": 0.076066,
+  "latencyMs": 45883,
+  "createdAt": "2026-10-10T18:18:15.359Z"
+}

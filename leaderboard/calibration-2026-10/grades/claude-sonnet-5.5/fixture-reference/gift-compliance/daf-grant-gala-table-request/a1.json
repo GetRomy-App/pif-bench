@@ -1,0 +1,77 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "eb53a3fbce54c01a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo books all $15,000 to the Studio Wing and says 'No part of it goes to the gala.' It rules out the $3,000, the $1,520 excess, and a split, and rejects the second Kestrel grant ('ruled out for the same reason (§4.3.3)'). The reply to Peggy says 'a second Kestrel grant for it wouldn't work either' and asks for personal payment. Nothing in either document applies or invites DAF money for the table."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the invoice \"stays open until the Halvorsens pay it personally\" and is \"to be paid by Peggy and/or Erik by personal check or card — never from a donor-advised fund.\" The reply tells Peggy: \"I'm sorry to make you write that separate check after all... the $3,000 invoice is due October 2, and a personal check or card is perfect.\" This asks her to pay personally. It is less explicit than saying \"not from a DAF,\" but the reply does say DAF grants can't pay for tables and asks for a personal check or card. Both parts of the criterion are met."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says the table acknowledgment must state goods and services of eight seats with a \"good-faith estimate **$1,480** (8 × $185, the CFO's 2026 value — not 2025's $170)\". The checklist repeats \"$1,480 estimate, $1,520 deductible\". That matches the criterion. The deliverable never uses a conflicting figure for the benefits value. The $1,520 is the deductible amount, not an alternate benefits estimate."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo says the table payment is acknowledged to Margaret and Erik Halvorsen with the §6115 statement that the deductible amount is limited to the excess of the payment over the value of goods and services. It sets the good-faith estimate at $1,480 (8 × $185) and the deductible amount at $1,520 ($3,000 − $1,480). It gives no other deductible figure. The $1,520 also appears as \"above fair market value,\" which is consistent."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Memo section 5 directs the written acknowledgment to Kestrel Charitable Trust, Grants Administration, \"not to the Halvorsens\". The sample text states \"a grant of $15,000.00 from Kestrel Charitable Trust\" and \"No goods or services were provided in exchange for this grant.\" This meets every element of the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly instructs: \"Do not mention the Halvorsens' statement of intent, its balance, or the gala table in this letter or in any other correspondence with Kestrel.\" The drafted Kestrel acknowledgment mentions only the grant, check, date, fund, Studio Wing designation and no goods/services, with no reference to the pledge, balance or gala."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The reply states \"we can't issue you a receipt for the $15,000\" and that Kestrel is the donor of record, so the acknowledgment goes to Kestrel. It never calls the grant deductible to the Halvorsens and promises no receipt for it. The only acknowledgment promised to them covers the personally paid table."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reply addresses the receipt request directly: \"because the grant comes from Kestrel Charitable Trust, Kestrel is the donor of record, so our acknowledgment goes to them rather than to you.\" It also adds that the tax benefit came when she contributed to the fund. It does not agree to send her a receipt."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Memo section 1 says \"Hard credit: Kestrel Charitable Trust (organization record 30882)\" and \"Soft credit: Margaret and Erik Halvorsen (constituent 20417)\". It designates the full amount to the Studio Wing Campaign \"as the grant letter states\" and adds \"No part of it goes to the gala.\" This matches the criterion, and nothing in the deliverable contradicts it."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Section 4 of the memo soft-credits the full $15,000 to the statement of intent. The table shows \"Less 2026-09-08 Kestrel grant KCT-2026-0418833 (soft credit, full amount) | −$15,000\", leaving an open balance of $5,000. The checklist repeats this: \"Soft-credit $15,000 to the statement of intent; open balance $5,000.\" Nothing in the memo applies $12,000 or any other amount."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo's table shows $40,000 total less $10,000 personal check, less $10,000 Kestrel 2025 grant, less $15,000 for this grant, giving an open balance of $5,000. It says the 2025 and 2026 gala tables are not counted toward the statement of intent. This matches the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 4 of the memo says the 2024-11-12 commitment is on form SW-SOI (rev. 2023-02) and 'says in terms that it is a statement of intention, not a legally binding pledge or obligation.' It adds that 'Under §4.4.1 that is what allows a DAF grant they recommended to be soft-credited toward it; the grant does not discharge any legal obligation of theirs.' This covers the current form, the non-binding status, and the reason soft credit is permitted."
+    }
+  ],
+  "costUsd": 0.0433931,
+  "usage": {
+    "inputTokens": 43203,
+    "cachedInputTokens": 37246,
+    "outputTokens": 2480
+  },
+  "gradedAt": "2026-10-10T13:59:20.877Z"
+}

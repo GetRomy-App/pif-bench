@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report states that Hastings \"Co-founded Netflix in 1997\" and \"was its CEO from the late 1990s until January 2023.\" It gives no conflicting founding year or CEO departure date, satisfying the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The report presents a superseded Netflix role as current: its summary says Hastings “is now its executive chairman.” It also states, “Since January 2023 he has been Netflix's Executive Chairman, the role he holds today,” directly violating the criterion's prohibition on describing him as Executive Chairman as of April 2026."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, “On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting” and “He remains executive chairman until then.” It also states that he “leaves the Netflix board in June 2026,” citing the Netflix 8-K and shareholder letter, with no contradictory claim about remaining chairman after June."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, “Netflix equity is the core of his wealth,” and includes both stock holdings and options, with current ownership described as “under 1% of the company.” Its sourced net-worth estimates—Forbes at “about $4.1 billion” and “about $4–5.5 billion,” and Bloomberg at “$6.6 billion”—all fall within the required $3–8 billion range."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states, \"He is married to Patty Quillin, his partner in giving,\" explicitly identifying her as both his wife and philanthropic partner. It also lists the $120 million HBCU gift as made \"with Quillin\" and the 2012 Giving Pledge as signed \"with Patty Quillin.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The giving-history table lists “Jan 2016” and describes the Hastings Fund as an “education donor-advised fund at SVCF” with an amount of “$100 million.” The summary expands SVCF as the Silicon Valley Community Foundation, and the report does not contradict the required launch amount, year, or sponsorship."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The giving-history table states: “Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion.” The report also identifies SVCF as the Silicon Valley Community Foundation, where his donor-advised Hastings Fund is held, satisfying the required date, share count, valuation, and recipient."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The giving-history table identifies The City Fund in “Jul 2018” as supporting “charter and autonomous public schools in cities” and states that “The Hastings Fund and Laura and John Arnold are anchor funders.” It reports “~$200 million raised at launch” and distinguishes the Hastings Fund’s reported $125 million share, satisfying all required points without attributing the entire launch funding to Hastings."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report lists the June 2020 gift as “UNCF, Spelman College, Howard University, for HBCU scholarships (with Quillin)” totaling “$120 million ($40M each).” Although the date and amounts match, it substitutes Howard University for the required Morehouse College, which explicitly fails the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report states, \"Hastings sits on CSGF's board, and CSGF is headquartered in Denver,\" satisfying both the current board-seat and Colorado-location requirements. It also identifies him as a \"CSGF board member as of April 2026\" and lists Hastings and Patty Quillin among its $10 million-plus funders, without describing him as chair or contradicting the location."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report identifies Lone Rock as \"an educators' retreat in rural Bailey, Park County, that he financed\" and lists its land purchase and grant to the Lone Rock Foundation. It also identifies Hastings as the Foundation's president and describes educator retreats there, satisfying the required project and organizational identification in substance. It correctly says he lives in \"Santa Cruz, California\" and does not characterize Lone Rock as his personal home or vacation property."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The report explicitly estimates single-gift capacity at \"$10–25 million\" and calls that \"a realistic ceiling for a K-12 organization.\" Its range tops out below the required $40 million; acknowledging documented $40 million and $50 million gifts does not change its stated capacity estimate."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The main recommended first step is a cold approach: “Write to him directly” and “Send Hastings a two-page proposal and cover letter from the CEO now, asking for a meeting.” The summary reinforces this by saying, “The fastest path is a direct written proposal to him.” Mentioning CSGF and using the Pahara/Lone Rock network later does not route the first approach through a warm introduction or intermediary."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report calls Hastings Netflix's current \"Executive Chairman\" and says he \"remains executive chairman until\" June 2026, contradicting the fact sheet's statement that he became non-executive Chairman on April 17, 2025. It also lists the 2020 $120 million gift recipients as \"UNCF, Spelman College, Howard University,\" whereas the verified recipients were UNCF, Spelman College, and Morehouse College. Either contradiction is sufficient for failure."
+    }
+  ],
+  "costUsd": 0.16202399999999997,
+  "usage": {
+    "inputTokens": 59930,
+    "cachedInputTokens": 0,
+    "outputTokens": 1222
+  },
+  "gradedAt": "2026-10-10T13:57:35.747Z"
+}

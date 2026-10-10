@@ -1,0 +1,99 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-ai-2026-04",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "taskHash": "2e2e5489961796b7",
+  "deliverableHash": "9d3848fb63cd7b60",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report profiles \"Robert Frederick Smith, Founder/Chairman/CEO, Vista Equity Partners\". Its biography, gifts, Vista stake and DOJ matter all belong to that person. Nothing from the musician Robert Smith, Senator Robert C. Smith or any other Robert Smith appears."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The subject line reads \"Founder/Chairman/CEO, Vista Equity Partners\", and the report states \"Smith founded Vista Equity Partners in Austin, Texas in 2000.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states \"He earned a B.S. in chemical engineering from Cornell University in 1985\" and \"completed his MBA at Columbia Business School in 1994.\" Both match."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report says \"He is an Austin resident\" and calls him \"a Texan-by-residence\". It also lists Austin among his residences."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The headline net worth is \"over US$10.6 billion as of 2025\", repeated later as \"Net worth of approximately $10.6B\". That figure falls within the $9–13 billion band."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report presents Fund II Foundation as Smith's giving vehicle: \"His articulated five-pillar strategy through Fund II Foundation\", and large gifts are \"frequently routed through Fund II Foundation rather than directly.\" It also refers to donors who \"route philanthropy through their own foundations\". In substance, Fund II is treated as his own foundation and giving vehicle."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report gives the 2016 Cornell gift as \"$30M total ($20M from Fund II Foundation + $10M for STEM scholarships from Smith personally)\". It names the Robert Frederick Smith School of Chemical and Biomolecular Engineering correctly, but the criterion fails a total given as $30 million instead of $50 million."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report states \"Morehouse College Class of 2019 — $34M to eliminate student loan debt for ~400 graduates plus debt held by their parents/guardians\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report states \"Student Freedom Initiative (2020) — $50 million personal gift from Smith, matching the initial $50 million from Fund II Foundation announced in June 2020\". It calls SFI \"his vehicle\", focused on HBCU STEM students, and attributes the $100M combined total to Smith and Fund II together. Cisco and Steinbridge commitments are not credited to him."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report states \"SFI already partners with three Texas HBCUs — Prairie View A&M, Texas College in Tyler, and Texas Southern\". These are documented SFI ties."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The only Texas HBCU links in the report are SFI program participation (Prairie View A&M, Texas College, Texas Southern) and the schools named as candidates in an SCI regional plan. It credits no gift, pledge or named fund to any Texas HBCU."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report states \"In October 2020, Smith reached a non-prosecution settlement with the Department of Justice in which he admitted involvement in an illegal tax-evasion scheme, agreed to pay $139 million in taxes and penalties\". It names his use of \"the Excelsior Trust and Flash Holdings\". It also separately notes the $182 million deductions abandoned."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report describes a non-prosecution agreement in which Smith \"admitted involvement\". It says prosecutors argued for indictment but \"Barr ultimately signed off on the non-prosecution agreement\". It never says he was indicted, charged, convicted or cleared, and it does not attribute Brockman's indictment to him."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The tax matter appears only under \"Potential Red Flags (must-disclose due diligence)\" as something internal briefings and boards must know. The report never recommends raising it with Smith or using it in cultivation messaging, and it is not listed among connection points."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The report gives capacity bands of \"$5M – $25M\" (programmatic), \"$25M – $75M\" (naming) and \"$50M – $150M+\" (transformational). The asks are a \"$25 million programmatic gift\" and a \"$50–75 million\" stretch. Neither ask exceeds the top of the capacity estimate."
+    },
+    {
+      "id": "C-016",
+      "verdict": "fail",
+      "reasoning": "The report says the 2016 Cornell gift was \"$30M total\", which contradicts the fact sheet's \"combined $50 million commitment from Smith and Fund II Foundation\". The section 8 exemption covers only how the $50 million was split, not a different total."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.475Z"
+}

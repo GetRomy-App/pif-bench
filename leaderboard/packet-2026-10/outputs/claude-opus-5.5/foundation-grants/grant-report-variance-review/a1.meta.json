@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "promptHash": "1f0587cbb08952a5",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 6472,
+  "outputTokens": 8190,
+  "costUsd": 0.196156,
+  "latencyMs": 70292,
+  "createdAt": "2026-10-10T18:13:03.543Z"
+}

@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo computes the policy ratio as “$4,886,000 ÷ $6,240,000 = 78.3%.” Its input table subtracts $14,180,000 of donated food distributed from program expenses and subtracts both that food and $95,000 of donated legal services from total expenses, without removing depreciation or other non-gift-in-kind items. The unadjusted ratio is explicitly labeled “For reference only” and “not the policy's ratio,” rather than used for the indicator."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo reports “$4,886,000 ÷ $6,240,000 = 78.3%” as the program expense ratio, matching the criterion. It also mentions 92.9% only as an unadjusted figure and explicitly states that it “is not the policy's ratio,” which the criterion permits."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The summary lists the program expense ratio as 78.3% against a target of “80.0% or higher” and explicitly marks it “Not met.” Section 1 also states “below the 80.0% target. Not met,” with no contradictory claim elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The fundraising denominator explicitly subtracts “Less bequest — Estate of Harriet M. Okafor, received August 2025” of $600,000, yielding contributions of $3,985,000. The memo explains that “The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring,” satisfying both the exclusion and rationale requirements."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Contributions for this indicator” as $3,985,000, calculated from $18,930,000 less $14,345,000 in noncash contributions and the $600,000 bequest. It uses that denominator in “$866,300 ÷ $3,985,000,” satisfying the criterion; the alternative with the bequest included is explicitly hypothetical."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo reports cost to raise a dollar as \"$0.22\" in the summary and calculates \"$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.\" Its mention of $0.19 is explicitly a counterfactual with the bequest left in, not a contradictory report of the policy indicator."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The summary reports cost to raise a dollar as \"$0.22\" against a target of \"$0.20 or less\" and labels it \"Not met.\" Section 2 also states it is \"above the $0.20 target. Not met,\" while distinguishing the $0.25 external-review trigger from the target."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reserve calculation starts with “Net assets without donor restrictions, Part X line 27, end of year” of $6,612,000. The memo explicitly states that the $1,240,000 of donor-restricted net assets, including the $890,000 cold-storage fund and $350,000 of time-restricted pledges, “is not reserve and is not counted.”"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo reports “Operating reserve” of “$1,504,000,” calculated from $6,612,000 of net assets without donor restrictions minus $5,108,000 of net land, buildings and equipment. It explicitly distinguishes the liquidity note’s $1,581,000 as “a different measure” that “is not used here,” and retains the bequest in reserve."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The reserve calculation explicitly states “Annual operating expenses” of “$5,794,000,” subtracting $446,000 depreciation and $14,275,000 gifts in kind from $20,515,000 total functional expenses. It also gives “Monthly operating expenses ($5,794,000 ÷ 12)” as “$482,833,” matching the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo reports “$1,504,000 ÷ $482,833 = 3.1 months” and lists 3.1 months in its summary. Its mention of 2.9 months is explicitly a counterfactual with depreciation included, not the reported policy indicator, so it does not contradict the required result."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The summary reports months of operating reserve as “3.1 months” against a target of “3.0 months or more” and marks it “Met.” Section 3 likewise states “above the 3.0-month target. Met,” with no contradictory conclusion elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo's financial figures are either reported in the files or computed from them, including the adjusted totals of \"$6,240,000\" and \"$5,794,000\" and the reserve of \"$1,504,000.\" Its supplemental figures—such as the unadjusted \"92.9%\" program ratio and the \"$408,000\" deficit without the bequest—are also derivable from the supplied data. It introduces no unsupported financial benchmark, budget, prior-year ratio, or attributed fact."
+    }
+  ],
+  "costUsd": 0.030584,
+  "usage": {
+    "inputTokens": 31415,
+    "cachedInputTokens": 25010,
+    "outputTokens": 1209
+  },
+  "gradedAt": "2026-10-10T14:02:55.889Z"
+}

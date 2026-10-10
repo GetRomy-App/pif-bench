@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "muse-spark-1.3",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "99153e64ce362422",
+  "deliverableHash": "3457dfae63a278a6",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states Marwood's \"Total grants paid during the year: $708,000, calculated as the sum of grants paid,\" from 10 grants. The $804,400 total-expenses figure is reported separately and is not used as the grants total."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It says Marwood \"Does not accept unsolicited requests,\" citing the checked 990-PF box and the website's \"does not accept unsolicited proposals, letters of inquiry or applications.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It recommends \"No unsolicited request. Do not send a proposal, LOI, application, or other written request,\" and says \"Staff prepare and send nothing to the foundation unless it invites a request in writing.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It identifies \"Margaret W. Lindqvist — Trustee of the Marwood Family Foundation\" as a Millstream Director. It recommends that \"she may privately ask Marwood's trustees whether they would welcome a conversation about Fresh Routes or invite a request.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It states Calloway-Deane's \"Total grants paid during the year: $390,000, calculated as the sum of grants paid,\" from 12 grants. The $488,450 total-expenses figure is reported separately."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It reports \"Grants to Pennsylvania organizations: 0 of 12\" and notes \"The Lancaster County Hunger Coalition grant was to Lancaster, SC, not Lancaster, PA.\" It concludes \"Geography: not a fit at this time\" and says the Philadelphia address \"does not establish fit.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It recommends \"Prepare no proposal or application now,\" allowing only that the Director of Development \"may make a single inquiry, by email or telephone\" about a Pennsylvania request. Any application waits for a written yes."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It states Garrison Ridge's \"Total grants paid during the year: $480,000,\" from 13 grants. The future-payment grants are \"not counted in totals above.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It recommends \"Submit a Spring 2027 LOI for program support only\" and finds \"Geography: fit\" based on twelve Pennsylvania grants and Lancaster County among the named counties. It does not recommend a full proposal without an invitation."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "It recommends requesting \"the southern-county mobile markets program\" and \"Do not request capital in this LOI.\" The reason given is that \"No grant paid during the year states a capital purpose,\" adding the website's \"Our grants support programs and the organizations that run them.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It gives \"Next deadline after September 15, 2026: Spring LOI due March 1, 2027, 5:00 p.m. Eastern.\" It notes that the fall cycle closed and that the rolling basis was superseded."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It gives \"top (median of seven sorted: $15,000, $20,000, $25,000, $30,000, $35,000, $40,000, $60,000): $30,000,\" which excludes the Maryland grant and the future-payment grants."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "It recommends \"Ask range (first request): $15,000 to $30,000 for program.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The priority table ranks 1 Garrison Ridge Foundation, 2 Marwood Family Foundation, 3 Calloway-Deane Charitable Trust."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The only board connection asserted is Lindqvist's Marwood trusteeship. For Dr. Calloway, the memo states \"the files do not show him serving the Trust in any capacity.\" The grants, deadlines, contacts (grants@callowaydeanetrust.org, (215) 555-0143, grants@garrisonridgefoundation.org) and policies cited all appear in the files."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.386Z"
+}

@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "9d41f9f32291d76f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo correctly identifies that Thomas Aldana had a financial interest in the Saffron & Sage Events catering contract through his spouse, Celeste M. Aldana, who is the sole member of the company. It explicitly states this constitutes a financial interest and an actual or possible conflict of interest under the policy."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly identifies both of Aldana's failures to disclose. It notes that on his 'Annual statement: on 2026-01-20 he answered \"No\" to Question 2... although Saffron & Sage had submitted its bid on 2026-01-08' and regarding the 'Meeting: on 2026-02-12, after the Chair asked for disclosures, the minutes record that no director other than Ms. Ramaswamy disclosed anything.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under 'What the policy required' that Mr. Aldana was required to leave the meeting during the discussion and vote and not to vote. Under 'What happened', it states that he instead spoke for the company, moved to award the contract, and voted for his own motion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states that \"Setting his vote aside, a majority of the directors who voted still supported Saffron & Sage, so his participation did not change the result.\" This directly violates the criterion, which requires noting that without his vote the motion would have tied 5-5 and failed."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the 'Price' bullet point that Saffron & Sage's bid was $68,400, which was $15,500 (29.3%) more than the Gala Committee's recommendation of Harborview Provisions, the lowest bid at $52,900."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Ramaswamy 'handled it exactly as the policy requires' and details all the required steps: her disclosures on the annual statement, in writing to the Chair, and orally at the meeting; her leaving the room; and the remaining 10 directors approving the $18,250 bid 10-0. It clearly concludes that 'No action is needed concerning Ms. Ramaswamy.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo concludes that the Saffron & Sage transaction is not reportable on Schedule L because the total paid ($71,860) is under the $100,000 aggregate threshold, stating 'Neither transaction needs to be reported in Schedule L, Part IV'. This explicitly fails the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable only mentions the $100,000 aggregate threshold for Schedule L reporting and fails to mention the single-transaction threshold of $39,400."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo concludes that the payments to BrightStage are not reportable, but it fails to test them against the single-transaction threshold (which the criterion specifies as $39,400). It only tests the payments against the $100,000 aggregate threshold."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly outlines the requirement to inform Mr. Aldana in writing and provide him an opportunity to explain under Section 4, subsection 1. It explicitly states that 'No finding about his conduct, and no view about whether the omission was deliberate, should be reached before he has responded.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes the requirement for disinterested directors to re-review the catering contract, mentioning the specific bids of $52,900 and $55,750, and whether it was fair and reasonable. It also states that if the Theatre overpaid, the board must consult legal counsel regarding IRC section 4958 and recovering the excess, and clarifies that it does not conclude an excess benefit transaction actually occurred."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The deliverable does not state that Mr. Aldana must be excluded from the committee's deliberations or votes. Instead, it includes him in the recipient list for the committee and suggests that 'the full committee should agree the notice,' failing to address his recusal from the committee's own review process."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in section 4 that the board, acting by a majority of the disinterested directors, determines if Aldana failed to disclose and takes appropriate disciplinary and corrective action. It also states that Aldana must file a corrected annual statement within 30 days of the board's determination."
+    }
+  ],
+  "costUsd": 0.12409200000000001,
+  "usage": {
+    "inputTokens": 35160,
+    "cachedInputTokens": 0,
+    "outputTokens": 4481
+  },
+  "gradedAt": "2026-10-10T13:56:26.399Z"
+}

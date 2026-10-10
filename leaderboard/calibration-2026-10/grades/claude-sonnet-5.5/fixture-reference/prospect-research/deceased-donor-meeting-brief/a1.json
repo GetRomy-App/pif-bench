@@ -1,0 +1,92 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states in its bottom line: \"Gerry Halvorsen died at home on Thursday, August 27, 2026,\" citing the obituary and the probate notice. It treats him as deceased throughout and does not prepare Ruth to solicit him. The September 1 date appears only as the obituary's publication date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says \"The September 29 visit cannot go ahead as a solicitation. The gallery proposal is not to be presented to Peg or anyone in the family.\" Action 1 cancels the 9/29 visit action. Action 4 allows only a condolence visit, with no gift, proposal, pledge or estate matter raised and no proposal or rendering brought. If Peg raises the gallery herself, Ruth listens, does not suggest an amount, and tells Janet the same day. The memo also says not to propose the gallery as a memorial naming. This meets every part of the criterion and triggers none of the FAIL conditions."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Action #1 says: 'Close proposal PR-2026-044 as \"Closed — donor deceased\" (not transferred to Peg or anyone else).' That matches the criterion directly. Nothing in the memo keeps the proposal open, puts it on hold, or reassigns it to a family member. Section 4 adds that the gallery proposal is not to be presented or mentioned."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Action 1 directs: \"Mark record 10388 deceased, date of death 2026-08-27... Remove Gerry from all appeals, mailings, e-mail lists and event invitations.\" Action 2 pulls the Fall Appeal rows before the 2026-09-28 mail file goes to the printer. This meets every element of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says \"Policy DR-7 bars any solicitation of Peg, Erik, Kristin or the Halvorsen Family Foundation before **February 23, 2027**\" and calls it \"the 180th day after the 2026-08-27 date of death.\" It uses the same date consistently in the action table and in the 'What not to do' section. This matches the required date."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Action 2 directs staff to \"Pull the Fall Appeal rows for both the Halvorsen household (10388/10389, Peg) and Kristin and Michael Doyle (20417) before the mail file goes to the printer.\" Action 3 also flags Peg, Kristin and Erik as \"no solicitation before 2027-02-23.\" Action 1 changes the household addressee to Peg alone, but that is a CRM record update, not a re-addressed appeal letter, and the household row is still pulled. The criterion is met."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Action 6 says: \"Do **not** send the Halvorsen Family Foundation letter of request due October 15. A request to a foundation whose trustees are Peg, Erik and Kristin is a solicitation, and none may go before 2027-02-23.\" It also holds the request until 2027-02-23, names the trustee reason, and adds the foundation to the bereavement flag. This meets the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Unpaid balance: $70,000 ($200,000 − $130,000)\" and lists the payments that sum to $130,000. It adds that $30,000 was past due and $40,000 falls due 2027-06-30. It mentions the CRM's $80,000 only to explain why that figure is out of date, not as the balance, and it does not give any other balance. This satisfies the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Action 7 refers the $70,000 balance to CFO Denise Okafor: \"Only Denise decides whether to present a claim and deals with the estate about the pledge. No one in development asks Peg, Erik, Kristin or the family foundation to pay it, and no pledge reminder goes to the household.\" Section 4 also bars discussing the pledge or estate with any family member, including Erik as personal representative. Ruth's role is only the internal referral, and nothing suggests the family or foundation pay."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Action 7, the pledge referral to CFO Denise Okafor, says to include 'probate case 2026PR000214, personal representative **Erik T. Halvorsen** (attorney Laura Vang, Vang & Steinke, S.C.), and the **claims deadline of 2026-12-28**.' It gives the required deadline and names the correct personal representative, and nothing elsewhere in the memo contradicts either."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Action 8 reads: \"Notify Samuel Achterberg of the $100,000 bequest intention. He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center.\" This routes the bequest to Achterberg as the sole contact. Section 4 also bars discussing the bequest with any family member. The memo never has Ruth, Janet or anyone else ask the family or the attorney about the will. The memo does not give Achterberg's title as Director of Planned Giving, but it clearly routes the bequest to him, so the criterion is met."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Action 8 states: \"Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received.\" This matches the criterion. The memo also says \"We do not know whether the will admitted to probate still contains it,\" so it does not claim the estate owes the Center $100,000."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Action 5 reads: \"Prepare the Center's condolence letter. Because Gerry was a former trustee, it is signed by President & CEO Laurel Whitfield and co-signed by Board Chair Thomas Brandvold.\" That names both required signers and gives the former-trustee reason, so it satisfies the criterion. Ruth's separate personal note in action 4 is allowed."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo addresses memorial gifts: it notes three have arrived and the obituary directed memorials to arts education. Action 9 says to \"send Peg a monthly list of memorial donors' names and addresses, never the amounts.\" It does not propose telling the family amounts or totals, so it meets the criterion."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Every fact I can check against the files matches: the date of death, survivors, pledge payments, the 2021 bequest letter, the foundation trustees, the probate case number, personal representative and claims deadline. The memo gives no cause of death and no estate value. It treats the bequest only as the 2021 letter of intent, saying \"We do not know whether the will admitted to probate still contains it.\" Several staff names and titles (Holly Prochaska, Nadia Ferris, Thomas Brandvold, Denise Okafor) are not in the files I was given. They most likely come from the DR-7 policy file the memo cites, so I found no unsupported fact."
+    }
+  ],
+  "costUsd": 0.0595337,
+  "usage": {
+    "inputTokens": 72405,
+    "cachedInputTokens": 66287,
+    "outputTokens": 3764
+  },
+  "gradedAt": "2026-10-10T14:03:50.989Z"
+}

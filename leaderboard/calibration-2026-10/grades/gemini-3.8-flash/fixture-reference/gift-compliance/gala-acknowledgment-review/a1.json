@@ -1,0 +1,67 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states for P-01: 'Deductible amount: $420 = $750 − 2 × $165 ($330)', correctly calculating the deductible amount by subtracting the two seats' value ($330) from the $750 payment."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Under P-01, the deliverable explicitly states: 'Must state: $750 received 2026-08-19; in exchange they received two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330; the §6115 statement that the deductible amount is limited to the excess of the payment over the value of the goods and services provided (payment over $75, policy §3.2); \"Your deductible contribution is $420.\"' This fulfills all requirements of the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly values the goods and services for P-02 at $2,050, explicitly breaking it down into 10 seats × $165 ($1,650) + VIP reception for 10 guests × $40 ($400). It also explicitly notes that the program and stage signage listing is recognition that carries no value."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly gives P-02 a deductible amount of $7,950 ($10,000 − $2,050) and specifies that the CRM entry must be corrected ('CRM correction: benefit value $3,750 is wrong... Change benefit to $2,050 and receipt amount from $6,250 to $7,950')."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the deductible amount for Ruth Abernathy (P-03) as $375, explains that she declined the seat in writing at purchase and no seat was reserved, specifies that the acknowledgment must state that no goods or services were provided, instructs Dana to correct the CRM from $210 to $375 and $165 benefit to $0, and explicitly states it must not include a seat value or quid pro quo disclosure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states for P-04 that the deductible amount is $420, details that the acknowledgment must state the two gala seats with a good-faith estimate of $330 along with the §6115 disclosure sentence, and explicitly instructs to 'reject Dana's pending change — restore benefit $330, receipt amount $420 and template GALA-QPQ' because the seats were reserved and available and unused benefits do not increase the deductible amount."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Denise Okafor's deductible amount as $200 (for the gift) and explicitly states that the $100 spent on raffle tickets is not a charitable contribution and is not deductible. It instructs splitting the CRM entry so that the acknowledgment reflects a $200 deductible contribution, specifically noting that the acknowledgment must not state a $300 gift or any deductible amount for the raffle tickets."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "For P-06 (Harriet Lindgren), the deliverable states a deductible amount of $1,500 and notes that the acknowledgment must state 'No goods or services were provided in exchange for your contribution'. It explicitly confirms that the seat she occupied belonged to the Vasquez-Hart table and is valued on their acknowledgment, not deducted from her gift, and specifies that her acknowledgment must not state a seat or seat value."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable reviews P-07 (Owen Pelletier), calculates the deductible amount as $60, states that he gets an acknowledgment like every donor, and specifies that the acknowledgment must state: \"No goods or services were provided in exchange for your contribution\" and \"Your deductible contribution is $60.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the deductible amount for P-08 (Priya Raman) as $30 ($195 − $165) and explicitly states that the §6115 disclosure sentence (with good-faith estimate $165) is required because her payment exceeds $75, despite the deductible portion being only $30."
+    }
+  ],
+  "costUsd": 0.0282585,
+  "usage": {
+    "inputTokens": 32763,
+    "cachedInputTokens": 0,
+    "outputTokens": 983
+  },
+  "gradedAt": "2026-10-10T13:59:23.780Z"
+}

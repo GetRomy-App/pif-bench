@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet lists the Marchetti gift of 400 QPXI shares with date of gift “2026-01-02” and tax year “2026.” Their receipt acknowledges the shares as “credited to our account on January 2, 2026,” and the notes explicitly reject December 29 as the gift date. Nothing elsewhere dates this gift in 2025 or assigns it to tax year 2025."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet values the Marchetti gift at \"$25,068.00\" using 400 shares and a per-share value of $62.67, the mean of the January 2 high of $63.48 and low of $61.86. The notes confirm \"(63.48 + 61.86) ÷ 2 = $62.67 × 400 = $25,068.00.\" The $25,215.00 sale proceeds are explicitly recorded separately, not as the gift value."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Delacroix entry lists 250 shares of HWVB, date of gift “2025-12-30,” tax year “2025,” and gift value “$9,557.50.” Its valuation basis is the mean of the $38.62 high and $37.84 low, yielding $38.23 per share; the notes explicitly distinguish this from the closing price, and sale proceeds are recorded separately without changing the gift value."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The sheet lists the Fenn gift of 120 ORCX shares with date of gift “2025-12-31” and tax year “2025,” explicitly identifying the postmark of the properly endorsed, mailed certificate as the basis. The Fenn receipt likewise acknowledges the shares as “mailed to us on December 31, 2025.” The deliverable explicitly rejects the receipt and re-registration dates as gift dates and contains no contradictory dating."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The Fenn entry states a gift value of \"$10,149.60\" for 120 shares at $84.58, based on the mean of the December 31 high of $85.22 and low of $83.94. The notes confirm \"(85.22 + 83.94) ÷ 2 = $84.58 × 120 = $10,149.60,\" and the $10,565.00 sale proceeds are explicitly recorded separately, not as the gift value."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The G-4 Szabo entry lists the date of gift as “2025-12-31” and the tax year as “2025.” The notes confirm that the shares “were credited to our fund account on 2025-12-31, which is the date of gift,” distinguishing it from the transfer-request and statement dates. No contradictory gift date or tax year appears elsewhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The Szabo row lists 812.345 shares valued at the December 31, 2025 NAV of $24.68, yielding a gift value of \"$20,048.67.\" The notes confirm \"812.345 × $24.68 = $20,048.67\" and distinguish redemption proceeds from the unchanged gift value."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "All four receipts describe the securities and share counts without stating a dollar value, per-share price, or estimated value. The deliverable explicitly says, \"No receipt states a dollar value or a per-share price,\" and the proposed reply to Delacroix explains that receipts \"describe the shares but do not state a value.\" The other proposed donor reply likewise includes no value or price."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt includes the required share count and security: “400 shares of Quarry Point Industries, Inc. common stock,” “250 shares of Harrow Valley Bancorp common stock,” and “120 shares of Ostrander Railcar Corporation common stock.” The Szabo receipt likewise states “812.345 shares of Lantern Ridge Balanced Fund, Class A,” matching the required fund share count exactly."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipts (G-1 through G-4) includes the statement, \"No goods or services were provided in exchange for your gift.\" No receipt omits or contradicts that statement."
+    }
+  ],
+  "costUsd": 0.06927,
+  "usage": {
+    "inputTokens": 23918,
+    "cachedInputTokens": 0,
+    "outputTokens": 949
+  },
+  "gradedAt": "2026-10-10T13:59:37.686Z"
+}

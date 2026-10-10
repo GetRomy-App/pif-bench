@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "taskHash": "a759909172fcd988",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports D1 as met, with a result of 131 learners against a target of 120 in the Section 1 table."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports deliverable D2 as 'Met' in the deliverables table. It explicitly accepts Marcus's incorrect calculation by stating the target is '75% of the 120-learner enrollment target = 90' instead of calculating 75% of the 131 actually enrolled learners."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports D3 as met, explicitly calculating the result as 61 of 94 (64.9%) against the 60% target. It also correctly notes that the rate to report is 64.9%, not 83.6%, which satisfies all aspects of the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the Year 1 Deliverables table and the corrections section that deliverable D4 was met with 26 tutors completing the 12-hour training, against a target of 25, explicitly noting that one of the 27 recruited tutors only had 8 hours."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable marks D5's status as 'Met' and explicitly states that the postponed July 16, 2026 meeting 'counts toward Year 1'. This directly violates the criterion's requirement to report D5 as not met due to the July meeting falling in Year 2."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies the $640 Harborview Taproom charge for beer and wine as unallowable due to the ban on alcoholic beverages, stating it 'must be moved to unrestricted funds.' It correctly subtracts the $640 from the Tutor training line item and the total grant expenses, and notes that the $1,020 Hearthside Catering charge is allowable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable's budget table reports Learner supports with a $12,000 budget and $13,560 actual, resulting in a variance of +$1,560 (+13.0%). It also explicitly states in the table and the notes that this variance is over the 10% threshold and requires the Foundation's written approval."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable correctly calculates the Curriculum & materials variance as -$1,080 (-13.5%), but explicitly states that it needs no approval because it is an underspend, which matches the fail condition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists 'No' in the 'Needs Foundation approval?' column for all lines except Learner supports (which says 'Yes') and Curriculum & materials (which says 'No (underspend)'). It explicitly notes that 'Local travel (−8.1%) and Tutor training (−6.0%) are within 10% and need no approval.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and reports the variances for Personnel (-$1,020, -1.5%), Fringe benefits (-$204, -1.5%), Tutor training (-$300, -6.0%), Local travel (-$290, -8.1%), and Evaluation consultant ($0, 0.0%) in the Budget vs. actual table."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the summary and under section 4 that the allowable Year 1 grant expenses are $118,666 and the unspent amount to carry forward is $1,334. It correctly excludes the unallowable charge from these totals."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in both the Summary and the Dates to calendar table that the interim report is due August 14, 2026."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists March 31, 2027 as the last day for the Foundation to receive a no-cost-extension request, rather than the correct date of April 1, 2027."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo includes a table under 'Dates to calendar' that explicitly lists Tuesday, September 28, 2027, as the date the 'Final report due; any unspent grant funds returned with it', matching the criterion requirements perfectly."
+    }
+  ],
+  "costUsd": 0.12183400000000001,
+  "usage": {
+    "inputTokens": 34517,
+    "cachedInputTokens": 0,
+    "outputTokens": 4400
+  },
+  "gradedAt": "2026-10-10T14:01:48.792Z"
+}

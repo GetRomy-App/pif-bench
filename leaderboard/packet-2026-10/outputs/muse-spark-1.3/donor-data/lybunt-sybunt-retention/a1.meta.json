@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "promptHash": "75804cccbf89bd5d",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 4571,
+  "outputTokens": 14672,
+  "costUsd": 0.06806975,
+  "latencyMs": 64652,
+  "createdAt": "2026-10-10T18:31:37.308Z"
+}

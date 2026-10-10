@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "9d41f9f32291d76f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states that “Saffron & Sage Events LLC's sole member and manager (100%) is Celeste M. Aldana” and identifies her as Thomas Aldana’s spouse. It concludes that “Mr. Aldana had a Financial Interest in the catering contract” and that this was an actual or possible conflict under the policy."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies both failures: Aldana answered “No” to Question 2 on January 20 after Saffron & Sage submitted its bid on January 8, and at the February 12 meeting “the minutes record that no director other than Ms. Ramaswamy disclosed anything.” It therefore finds that he made no required disclosure on either occasion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says the policy required Aldana to “Leave the meeting while the other directors determined whether a conflict existed and while they discussed and voted on the contract, and not vote.” It then states that he “spoke for Saffron & Sage,” “moved to award it the contract,” and “voted for his own motion,” so it satisfies the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states, “The motion carried 6–5 with Mr. Aldana voting in favor. Without his vote it would have been 5–5, and under the bylaws a tie fails.” It explicitly notes that his vote decided the outcome."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states that the board awarded Saffron & Sage the contract at “$68,400” after rejecting Harborview Provisions, “the lowest bid at $52,900,” and that this was “$15,500 (29.3%) more.” It also identifies Harborview as the Gala Committee’s recommendation, satisfying the required comparison."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo says Ramaswamy “handled it exactly as the policy requires”: she disclosed on her annual statement, in writing to the Chair, and orally at the meeting; she left the room; and the ten remaining directors found the lowest bid and approved it 10–0. It also states, “No action is needed concerning Ms. Ramaswamy,” and does not characterize her contract as improper or her case as equivalent to Aldana’s."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says “Saffron & Sage must be reported” on the 2025 Form 990 and identifies Celeste M. Aldana as the director’s spouse, making the LLC an interested person. It states that the $71,860 payment exceeds the $39,400 single-transaction threshold and specifies reporting in Part IV."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Total revenue on the draft return is $3,940,000,” and “the threshold is $39,400,” explaining that it is the greater of $10,000 or 1% of total revenue. This matches the required single-transaction threshold and comparison."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo says BrightStage is “Not reportable (below thresholds)” and specifically states that its $18,250 payment is below both the $39,400 single-transaction threshold and the $100,000 aggregate threshold. It also correctly recognizes the brother as a Family Member and BrightStage as an interested person."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo says the committee must inform Mr. Aldana in writing of the basis for its belief and give him an opportunity to explain, and states: “No finding about his conduct, and no view about whether the omission was deliberate, should be reached before he has responded.” It presents disciplinary action only as a possible later step if the board makes the required determination."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says the disinterested directors must “re-review the contract under Article III, Sections 3(c) and 3(d),” considering the $52,900 and $55,750 bids and whether the contract was “fair and reasonable.” It also says that if the Theatre paid more than fair market value, the board must consult legal counsel about whether the payment may be an excess benefit transaction under IRC section 4958 and recovering the excess, while expressly not concluding that one occurred."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Mr. Aldana as “one of the three members of the Governance Committee” and states that under Article IV, Section 4, “he takes no part in the committee's or the board's deliberations or votes on this matter.” It also says the committee should handle the matter with its two other members, so it satisfies the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo says the committee reports its findings to the board, and that the board, “acting by a majority of the disinterested directors,” determines whether Aldana failed to disclose and takes appropriate disciplinary and corrective action. It also states: “Mr. Aldana files a corrected annual statement within 30 days of the board's determination.”"
+    }
+  ],
+  "costUsd": 0.005108525,
+  "usage": {
+    "inputTokens": 36464,
+    "cachedInputTokens": 0,
+    "outputTokens": 1103
+  },
+  "gradedAt": "2026-10-10T13:58:58.944Z"
+}

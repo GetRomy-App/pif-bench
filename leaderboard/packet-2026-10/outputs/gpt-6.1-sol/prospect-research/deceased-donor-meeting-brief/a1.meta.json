@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "promptHash": "8b512fbd79e6ca35",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 5678,
+  "outputTokens": 2898,
+  "costUsd": 0.0431735,
+  "latencyMs": 48240,
+  "createdAt": "2026-10-10T18:17:29.482Z"
+}

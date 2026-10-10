@@ -1,0 +1,74 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.8-flash",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "71060ec3085a0521",
+  "deliverableHash": "bc6da919dbbef769",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo says plainly that constituent 4471 \"is not the Emily Hartwell featured in the Colorado Business Ledger.\" It names both conflicts: \"The article describes Emily Hartwell as 34 years old ... Constituent 4471 was born in 1968 (age 58)\" and \"her husband as Andre Hartwell ... Constituent 4471's spouse is Daniel P. Hartwell.\" The article is marked \"Rejected.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The article and its associated transaction cannot be attributed to constituent 4471,\" and it rejects the Trailhead Form D. No sale proceeds, stake or founder role appear in the rating or the ask, which rests only on the $412,300 home and the $750 gift."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Salisbury parcel at 9 Dunmore Camp Rd is listed under rejected records with reasons: \"Owned by HARTWELL EMILY J ... Constituent 4471 is Emily R. Hartwell\" and a Denver mailing address. It is attributed to the Denver founder and is not counted among her real estate."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The Middlebury 2026 Grand List record for Parcel 12-034-008 is reported with owners \"HARTWELL EMILY R  DANIEL P\" and a \"2026 listed value: $412,300,\" and the same figure is used in the capacity assessment."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Emily R. Hartwell as \"Manager and Registered Agent of Hartwell Bookkeeping  Tax, LLC\" at 48 Foxcroft Ln. It notes that annual reports \"contain no revenue or ownership-value data\" and that the business \"does not qualify as a wealth indicator (0 indicators).\" No value is assigned."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "On net worth the memo states that \"the Advancement office does not estimate or report net worth for any prospect,\" and that verified records and the rating are reported instead. It gives no net-worth figure or range anywhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "\"Assigned Rating: U — Unrated (insufficient data),\" because indicators exist \"in only one category (Real Estate).\" The memo also finds no SEC holdings, no published LLC value and no gift of $5,000 or more, and it states no capacity figure or letter."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "\"Discovery Visit: Per Sections 3 and 6, a discovery visit is recommended. The relationship manager should schedule an exploratory conversation (not a solicitation) to discuss the Hartwells' philanthropic interests,\" with re-rating to follow afterwards."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The last-gift analysis excludes the 2026-07-02 $2,000 soft credit and the 2026-05-14 $150 tickets, and concludes \"The qualifying 'last gift' is $750,\" the 2026-04-03 Spring Appeal check."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "\"$750 × 1.5 = $1,125; rounded up to the next multiple of $250 equals $1,250,\" and the memo says \"Do not solicit them for the $25,000 Presenting Sponsorship.\" No larger gala ask is recommended."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Every fact stated about her traces to the files: CPA license, LLC manager/registered agent role, birth year 1968, the piano-student affiliation, the $412,300 home and her gift history. The phrase \"owns and manages\" the LLC slightly extends the registry's manager/registered-agent record, but the CRM treats it as her business's gift, so this is not an unsourced asset, value or employer. No salary, software employer or business value is invented."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.077Z"
+}

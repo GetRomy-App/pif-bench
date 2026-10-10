@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The plan explicitly states “The ask: $95,000” and reiterates “Propose $95,000 over two years for the Adult Literacy Program.” The criterion requires a single ask of $80,000 and expressly excludes $95,000, so the deliverable fails."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The plan explicitly identifies the household's largest gift as the \"$25,000 Spring Gala presenting sponsorship of 2023\" and sets the cap at \"4 × $25,000 = $100,000.\" It calls the required $20,000 Adult Literacy gift from the Vandermolen Family Fund the \"next largest,\" rather than using it to establish the required $80,000 cap."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan proposes “$95,000 over two years for the Adult Literacy Program,” allocated to the Upriver evening tutoring site and Tutor Corps. Its alternatives remain within Adult Literacy, and it explicitly states, “No Open Doors or Eastside Branch option will be raised.” No prohibited program or unrestricted alternative is offered."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states, “No naming opportunity of any kind will be offered (policy A5).” It mentions Martin’s earlier interest in “a building with our name on it” only to reject it as “not the plan,” and nowhere offers naming a site, fund, program, or other opportunity."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The recognition section explicitly states, “Anonymous,” and says the gift “will not appear in the annual report, on any donor wall or in any announcement” and “will be acknowledged privately by letter to their home.” It also directs staff to change the CRM recognition name from “Martin & Celeste Vandermolen” to Anonymous, rather than using that name for this gift. No public recognition of the Vandermolens is proposed elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly directs the solicitation to Celeste: “Ask Celeste” and “Martin should be welcome at the meeting, but the ask is made to Celeste.” It identifies her decision-making role through Martin’s statement, “Celeste runs our giving,” and rejects his earlier building interest as “not the plan.”"
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The plan proposes arranging the meeting by emailing Celeste at “celeste@vandermolenmarine.com,” which is explicitly a prohibited business channel. Although it also lists the home phone as backup, sends the pledge agreement to her personal email, and places the meeting at their home, the business-email outreach triggers failure."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly names “Team: Teresa Lindahl with Lillian Cho” and identifies Lillian as the leadership partner because Celeste requested her and she has made her FY27 gift. It also states “Gregory Hale has no role,” and includes no other solicitor on the team."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states, \"Gregory Hale has no role,\" and says he \"takes no part in cultivating or soliciting the Vandermolens until it is resolved.\" It also directs Teresa to decline his offer and withdraws the prior note naming him as co-solicitor; no other section assigns him a role."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Talking point 5 explicitly states: \"Ingrid Rasmussen ... and her family have just made a $100,000 gift to the Adult Literacy Endowment.\" It also directs Lillian to mention the gift as a peer example, disclosing both the donor’s identity and the gift amount, which the criterion prohibits."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The plan explicitly sets the “Ask meeting: the week of October 5, 2026” and says it will occur “before the advisor meeting.” This violates the requirement to hold the ask after their mid-October financial advisor meeting; the late-October follow-up does not correct the timing of the initial ask."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor facts are grounded in the supplied records: the plan's \"$382,000\" capacity, \"$25,000 Spring Gala presenting sponsorship,\" and quotation \"Celeste runs our giving\" all appear in the files. Their literacy interests, anonymity preference, home address, and advisor-meeting timing are also sourced. Using the superseded company email and scheduling before the advisor meeting are misapplications of documented preferences, not invented donor facts under this criterion."
+    }
+  ],
+  "costUsd": 0.022406500000000003,
+  "usage": {
+    "inputTokens": 26513,
+    "cachedInputTokens": 22595,
+    "outputTokens": 1037
+  },
+  "gradedAt": "2026-10-10T14:02:19.391Z"
+}

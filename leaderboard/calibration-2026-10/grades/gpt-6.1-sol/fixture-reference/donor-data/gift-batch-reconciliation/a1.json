@@ -1,0 +1,72 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Priyanka Desai’s “$250 card gift of 2026-07-14 posted twice,” naming G-41817 with PayBridge transaction pbt_7Q6M77 and G-41822 keyed by hand on 2026-07-16, and states that “PayBridge shows one transaction.” It instructs “Delete G-41822, the later-entered posting; keep G-41817” and reduces July by $250.00 in both the discrepancy table and corrected-total calculation."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies G-41809, Marisol Etxeberria's check 4410, as \"keyed as $15,000.00\" while the bank item in RDC-0710-1 is \"$1,500.00.\" It directs staff to \"Correct the gift amount to $1,500.00\" and records a −$13,500.00 adjustment, rather than deleting or reversing the gift."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly instructs: “Void the $15,000 acknowledgment sent 2026-07-13 and send a corrected acknowledgment for $1,500.00” in the Marisol Etxeberria discrepancy row. This satisfies both the voiding and corrected-acknowledgment requirements, with no contradictory instruction elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Hollis Grant’s G-41810, check 2231 for $500, as “returned NSF on 2026-07-16.” It explicitly directs: “Keep G-41810; post a reversing adjustment of −$500.00 dated 2026-07-16 in July,” and separately assigns the $15 bank fee to Bank fees rather than the gift adjustment."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies G-41803, Gerald & Mae Lindgren’s $1,000 check 9014, as received 2026-07-02 but “postmarked 2026-06-30,” and explicitly calls it an FY2026 gift. It instructs staff to “Re-date to 2026-06-30 and move it to the year-end batch B-2606-YE,” removing $1,000 from July. The bank tie-out consistently treats it as deposited in July but booked to FY2026."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly lists G-41802 Ruth Ann Doyle and G-41804 Samuel Ochieng under “Checked and left alone,” noting that both were postmarked 2026-07-01. It states that “they stay in July as FY2027 gifts,” and no adjustment elsewhere moves or re-dates either gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explains that card gifts are \"$3,335.00 gross\" while PayBridge paid \"$3,257.13 net,\" and identifies the $77.87 difference as processing fees. It explicitly says, \"That is expected — gifts stay at gross\" and \"No CRM entry,\" with the fees instead booked to Merchant fees. Nothing elsewhere treats the fees as an error or reduces gifts to net amounts."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Card gifts are $3,335.00 gross; PayBridge paid out $3,257.13 net” and identifies “The $77.87 difference” as PayBridge's fee. It consistently uses $77.87 in the bank tie-out and posting instructions, with no contradictory fee total."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly identifies “Valley Office Supply, $86.40” (check 33817 in RDC-0724-1) as “a vendor refund, not a gift” and directs: “Do not enter it in the CRM; Finance codes it in the general ledger.” It excludes the refund from the corrected July batch total and adds it only in the bank tie-out as a non-gift item."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states “Corrected July batch total” as “$17,130.00.” Its calculation starts with $32,380.00 and subtracts $250.00, $13,500.00, $500.00, and $1,000.00, exactly as required, with no contradictory corrected total elsewhere."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo’s bank tie-out includes “Less PayBridge fees” of $77.87, the $1,000 Lindgren check deposited in July but booked to FY2026, and the $86.40 Valley Office Supply refund. It reconciles the corrected July total to both expected and actual bank net of $18,123.53 and explicitly states “Unexplained difference” of $0.00."
+    }
+  ],
+  "costUsd": 0.071171,
+  "usage": {
+    "inputTokens": 24255,
+    "cachedInputTokens": 0,
+    "outputTokens": 1055
+  },
+  "gradedAt": "2026-10-10T13:58:34.588Z"
+}

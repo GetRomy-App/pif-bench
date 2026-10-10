@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates five-year total support on line 11, column (f) as 3,671,600, derived from 3,590,300 in total gifts, grants, and contributions plus 81,300 in interest and dividends."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly lists the $454,400 of program service revenue (including workshop fees, trip fees, and the Kettle County contract) under 'What is left out'. It correctly places this amount on Line 12 of the computation table and explicitly states that it is 'not part of public or total support' and that the county contract is a 'fee for services, not a grant.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable fails to mention the $182,000 realized gain on the sale of securities anywhere in the text, which is an automatic failure according to the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly computes the 2% limit as $73,432, stating 'Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432.' This matches the requirement exactly."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly evaluates Benedict Sarkis against the five-year limit. In the funder table, it lists his total as $50,000, notes he is \"Under the limit on his five-year total,\" and records $50,000 under \"Counted as public support\" with $0 in excess."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable applies the 2% limit to the Oregon Department of Environmental Quality grants, stating '2% limit applies — the state agency is a single funder' and removing $86,568 as excess. The criterion explicitly states to fail the deliverable if it applies the 2% limit to either the DEQ or the community foundation."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the Hollins-Pryor Family Foundation as a private foundation subject to the 2% limit, stating '2% limit applies — not a publicly supported organization'. It counts $73,432 as public support and excludes $151,568 as excess, exactly matching the criterion's requirements."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports public support (line 6) as $1,174,028, not the required $1,260,596, because it incorrectly applies the 2% limit to the governmental unit (DEQ)."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports a public support percentage of 31.98% on line 14 and in the opening section, which contradicts the criterion's requirement of 34.33%."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states that the organization fails the test, writing 'No — on the 2025 computation we fall short of the 33⅓% test.' It also states that they 'would have to rely on the 10% facts-and-circumstances test,' which directly violates the criterion's requirement."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable states that the public support percentage is 31.98%, which is \"about 1.4 percentage points below the line.\" It fails the criterion because it states a margin that does not follow from the expected 34.33%."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "Under the 'Recommendation' section, the memo suggests asking the accountants to 'treat Ms. Ostrander's 2025 gift of $455,000 as an unusual grant.' This directly violates the criterion, which prohibits recommending the reclassification of her gifts as unusual grants."
+    }
+  ],
+  "costUsd": 0.098342,
+  "usage": {
+    "inputTokens": 26863,
+    "cachedInputTokens": 0,
+    "outputTokens": 3718
+  },
+  "gradedAt": "2026-10-10T13:56:34.175Z"
+}

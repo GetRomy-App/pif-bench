@@ -1,0 +1,11 @@
+{
+  "candidate": "chatgpt-2026-04",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "promptHash": "6b22343b316a8ed7",
+  "source": "import",
+  "createdAt": "2026-10-10T18:10:57.711Z",
+  "importedFrom": "getromy-app/web:data/chatgpt.md lines 2–233",
+  "collectedAt": "2026-04-25",
+  "notes": "Collected by hand from the product's own interface on 2026-04-25 for PIF-Bench v1; split verbatim from getromy-app/web data/*.md (commit f8a99d6) with only the echoed prompt removed — see leaderboard/live-2026-04-25/provenance.json"
+}

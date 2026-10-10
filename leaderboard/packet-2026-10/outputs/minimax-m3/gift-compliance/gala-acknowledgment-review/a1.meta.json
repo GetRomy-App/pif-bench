@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "promptHash": "184f1e705eb12e9d",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 3924,
+  "outputTokens": 6858,
+  "costUsd": 0.00937968,
+  "latencyMs": 34642,
+  "createdAt": "2026-10-10T18:29:10.566Z"
+}

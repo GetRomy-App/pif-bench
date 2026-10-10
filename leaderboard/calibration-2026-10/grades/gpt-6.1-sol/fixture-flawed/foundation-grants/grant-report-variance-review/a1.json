@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "taskHash": "a759909172fcd988",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The D1 row lists “Learners enrolled” with a target of “120,” a result of “131,” and status “Met.” This matches the required enrollment figure and Year 1 target, with no contradictory D1 statement elsewhere."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The memo reports D2 as “Met” using a target of “75% of the 120-learner enrollment target = 90” against 94 completers. This explicitly uses the enrollment target rather than the 131 actually enrolled and does not report the required 71.8% completion rate or not-met status."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The D3 row reports a target of “60% of 40+-hour completers,” a result of “61 of 94 = 64.9%,” and status “Met.” The memo explicitly clarifies that the denominator is all 94 completers and that the rate to report is “64.9%, not 83.6%,” so the reference to 83.6% is a correction rather than a contradictory result."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo reports D4 as “Met” against a target of 25, with “26 (27 recruited; one has 8 hours)” completing 12+ hours of pre-service training. It also explicitly corrects the talking points: “26 tutors completed the 12-hour training, not 27; one is still in training.”"
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly labels D5 as “Met” and reports four meetings, including the Q4 meeting rescheduled to July 16, 2026. It further states that the July meeting “counts toward Year 1,” directly contradicting the criterion that only three meetings occurred in Year 1 and D5 was not met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “AP-2242, 2026-05-29, Harborview Taproom” beer and wine service for $640 as unallowable under Section 6.3 and says it “must be moved to unrestricted funds.” It excludes the charge from Tutor training actuals and total grant expenses, reporting $118,666 after subtracting the $640. It also explicitly identifies the $1,020 Hearthside Catering dinner buffet as allowable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The budget table reports Learner supports with a $12,000 budget, $13,560 actual spending, and a variance of +$1,560 (+13.0%), marking approval as “Yes.” The summary explicitly says the line is “more than 10% over budget and needs the Foundation's written approval,” and the notes recommend requesting that approval."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo correctly lists Curriculum & materials as $6,920 spent against an $8,000 budget, with a −$1,080 (−13.5%) variance. However, it explicitly says “No (underspend)” in the approval column and explains that “it needs no approval,” contradicting the criterion's requirement for Foundation written approval."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo flags only Learner supports as needing Foundation approval and marks every other budget line “No.” It explicitly states, “Local travel (−8.1%) and Tutor training (−6.0%) are within 10% and need no approval.” Its conclusion about Curriculum & materials is outside this criterion's scope."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The budget table gives all five required variances: Personnel “−$1,020 | −1.5%,” Fringe benefits “−$204 | −1.5%,” Tutor training “−$300 | −6.0%,” Local travel “−$290 | −8.1%,” and Evaluation consultant “$0 | 0.0%,” with the required actual amounts. The notes confirm that Personnel and fringe are net of the reclassification and Tutor training excludes the $640 alcohol charge."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states “Allowable Year 1 grant expenses: $118,666” and “Unspent: $1,334,” explicitly noting that the unspent amount carries forward to Year 2 from the $120,000 payment. It mentions Renee’s $119,306 ledger total only to explain subtracting the $640 unallowable charge, not as the grant’s allowable spending total."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “The interim report is due August 14, 2026.” Its calendar also lists “Friday, August 14, 2026” and explains that this is “45 days after June 30, 2026,” with no contradictory due date elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo gives “Wednesday, March 31, 2027” as the “Last day for the Foundation to receive a no-cost-extension request.” The criterion requires April 1, 2027 and explicitly fails a March 31 deadline."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The dates table gives “Tuesday, September 28, 2027” as the date the “Final report [is] due; any unspent grant funds returned with it.” It also specifies “90 days after June 30, 2027” and notes that both dates move if an extension is granted, satisfying both requirements."
+    }
+  ],
+  "costUsd": 0.020109400000000003,
+  "usage": {
+    "inputTokens": 30424,
+    "cachedInputTokens": 28229,
+    "outputTokens": 1182
+  },
+  "gradedAt": "2026-10-10T14:01:39.046Z"
+}

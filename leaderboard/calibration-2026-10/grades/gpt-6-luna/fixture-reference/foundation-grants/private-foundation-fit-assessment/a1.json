@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "7063d1a9ab85c1c5",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Grants paid in 2025: $708,000 across 10 grants,” for the Marwood Family Foundation. It separately identifies $804,400 as total expenses and disbursements, not grants paid."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says Marwood “does not accept unsolicited requests,” citing both the 990-PF box about contributions only to preselected organizations and the website’s statement that it “does not accept unsolicited proposals, letters of inquiry or applications.” It does not describe Marwood as open to proposals, LOIs, or applications."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says, “Millstream sends it no proposal, LOI, application or other written request — from staff or through a board member,” and that staff send nothing unless Marwood “invites a request in writing.” Briefing Ms. Lindqvist before the committee meets is permitted by the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Millstream director Margaret W. Lindqvist” as “a Marwood trustee” and recommends that she “may ask her fellow trustees whether the foundation would welcome a conversation with Millstream or would invite a request.” This matches the required path to Marwood."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo reports: “Grants paid in 2025: $390,000 across 12 grants.” It separately identifies $488,450 as total expenses and disbursements less $98,450 in administrative expenses, so the grants-paid total is correct."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states that Calloway-Deane made “$390,000 across 12 grants — none to a Pennsylvania organization” and that all went to North Carolina, South Carolina, and Virginia. It identifies the Lancaster County and Western York County recipients as being in South Carolina and concludes the trust is “not a fit” geographically; its Philadelphia address does not establish fit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says, “We should not prepare an application for October 15, 2026,” and recommends at most “one email or call” asking whether the trust would consider a Pennsylvania organization. It further says an application would follow only a written yes, so it does not recommend applying before confirming geographic eligibility."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo reports: “Grants paid in 2025: $480,000 across 13 grants.” It also explicitly excludes the $135,000 approved for future payment, so the required total is met."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo recommends a “Letter of inquiry” to Garrison Ridge and says, “Lancaster County is in its stated giving area, and 12 of 13 grants paid went to Pennsylvania organizations.” It does not recommend a full proposal without an invitation or call the foundation a geographic misfit."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo recommends asking Garrison Ridge for the “program component” and specifically the “southern-county mobile markets,” not the capital component. It explains that every 2025 grant paid was for “program or operating costs” and “none is for land, buildings, construction, equipment or vehicles,” and says not to ask for the cold-storage addition or truck."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Next LOI deadline: Monday, March 1, 2027, 5:00 p.m. Eastern.” It also clarifies that September 1 has passed and October 16 is for invited applicants only, so March 1, 2027 is given as the next LOI deadline."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the comparable set as seven grants to Pennsylvania organizations working in food access, hunger relief, or nutrition, and states: “Median (4th of 7): $30,000.” This matches the required median."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo recommends a Garrison Ridge ask range of “$15,000 – $30,000” in both the recommendation table and the detailed assessment. It does not recommend asking for more than $30,000."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The recommendation table ranks Garrison Ridge Foundation 1, Marwood Family Foundation 2, and Calloway-Deane Charitable Trust 3. This matches the required order."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The memo says Calloway-Deane’s “guidelines state no geographic limit,” but the website capture gives no such statement; it simply does not specify a geographic boundary. That attributes an unsupported policy to the foundation, so the criterion fails."
+    }
+  ],
+  "costUsd": 0.00199954,
+  "usage": {
+    "inputTokens": 47324,
+    "cachedInputTokens": 40129,
+    "outputTokens": 1400
+  },
+  "gradedAt": "2026-10-10T14:02:41.076Z"
+}

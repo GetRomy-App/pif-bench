@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "muse-spark-1.3",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "taskHash": "4b184a4b76f48b5b",
+  "deliverableHash": "ed31cd8ef08c5aa9",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The summary states \"LYBUNT count: 11 households\". The LYBUNT section lists 11 numbered households and repeats \"19 − 8 = 11 LYBUNT\"."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The summary states \"SYBUNT count: 9 households\". The SYBUNT section lists exactly 9 numbered households."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report gives \"Donor retention rate (FY2025 to FY2026): 68.2% — 15 of 22 households\". It also states the denominator (22 FY2025 households) and the numerator (15 retained), showing \"15 ÷ 22 × 100 = 68.1818…% = 68.2%\"."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Dana Whitfield is LYBUNT #2. The report notes \"FY2027 record 2026-08-12 is Soft only and does not count\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Gregory Szabo is LYBUNT #3. The report notes \"FY2027 record 2026-07-20 is Refunded and does not count\"."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Marguerite Osei is LYBUNT #4. The report notes \"FY2027 records are Soft only (2026-08-02, 2026-08-03, 2026-08-05) and do not count\"."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Celeste Moreau is LYBUNT #1, with \"FY2026: 2026-06-30 ($250.00, Posted, Hard)\" and no FY2027 countable gift."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The Achebe household (H-23105) does not appear on the LYBUNT list. It is named among the eight FY2026 households excluded because they also gave in FY2027, citing \"Daniel Achebe 2026-08-28 (H-23105)\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "LYBUNT #5 is a single entry, \"Erik Lindqvist and Annika Lindqvist (H-21540)\", with the joint check \"counted once for the household\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "LYBUNT #11 is \"Benjamin Hartwell and Clara Hartwell (H-22901)\". Benjamin Hartwell does not appear on the 9-household SYBUNT list."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Lorraine Abernathy is SYBUNT #1, with the note \"2026-04-16 gift is Refunded and does not count\". She is not on the LYBUNT list."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Walter Pruitt is SYBUNT #2, with \"countable in window: 2020-08-18 ($100.00, Posted, Hard) in FY2021\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report says \"Excluded from SYBUNT although lapsed: Ingrid Solberg (H-25950) with countable gifts only 2019-03-03 and 2020-05-02, both before FY2021\". She is on neither list."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "SYBUNT #8 is the single entry \"Samir Haddad and Leila Haddad (H-26802)\", with the FY2025 gift \"counted once\". Neither Haddad is on the LYBUNT list."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club and Ferncliff Brewing Co. are listed only under \"Organization hard credits excluded\". None of them appears in the LYBUNT list, the SYBUNT list or the 22-household retention denominator."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.355Z"
+}

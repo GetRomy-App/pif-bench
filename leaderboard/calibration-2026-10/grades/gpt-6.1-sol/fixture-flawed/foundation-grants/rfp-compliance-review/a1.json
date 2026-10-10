@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "2358429d7ebb5b0b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly flags that the “Request of $83,847 exceeds the $75,000 maximum” and directs the applicant to “Bring the request to $75,000 or less.” It also states that the program officer’s “flexibility” remark “does not override the written RFP,” treating the excess as a violation to fix."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that \"the six direct-cost lines sum to $71,910, not the $72,910 shown — a $1,000 overstatement.\" It also consistently uses $71,910 as the corrected direct-cost total in the corrected figures and compliant budget."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that \"Indirect at 15% ($10,937) exceeds the cap of 10% of total direct costs.\" It also says, \"Our federal de minimis rate does not apply here; the RFP cap governs,\" so it does not treat that rate as permission to exceed the limit."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo states, \"Maximum allowable indirect: $7,500 (10% of the $75,000 cap),\" and repeats $7,500 in its corrected-figures table. The criterion requires $7,191, calculated as 10% of the corrected direct costs of $71,910, so the stated maximum is incorrect."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo recommends a \"Compliant budget\" of \"$75,000 request — direct $71,910 + indirect $3,090,\" whose indirect is below 10% of direct costs. Although it incorrectly labels $7,500 as maximum allowable indirect, it explicitly rejects the resulting $79,410 total as \"still over the cap\" rather than presenting it as an acceptable request."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo counts the Rotary pledge toward the match, stating “Cash match is $39,000” including “Socorro Rotary Club $5,000,” despite noting that its signed letter follows the October 14 board vote. It also labels $39,000 as “Documented cash match” and says this covers the required match, rather than counting only the documented $34,000. Although it correctly excludes the in-kind donation and includes Puente’s $14,000, counting the Rotary pledge fails the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo correctly states that a $75,000 request requires $37,500 in cash match, but counts the pending Rotary commitment toward a $39,000 match and says \"$39,000 covers it.\" It consequently calls a $75,000 request compliant rather than identifying the documented $34,000 match's $3,500 shortfall or limiting the request to $68,000, and it offers no fix for that shortfall before the deadline."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that the required \"Sustainability Plan (section 5) is missing\" and directs the applicant to add \"5. Sustainability Plan.\" It also states that the Medicaid reimbursement sentence at the end of the Evaluation Plan \"does not meet the requirement,\" satisfying both parts of the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo accepts the cover note’s incorrect count, stating, “Lucia counts 2,135 words for sections 1–4, under the 2,500-word limit,” and claims this leaves 365 words for the Sustainability Plan. It does not identify the required 2,655-word total or the 155-word overage, so it fails despite correctly excluding the budget narrative."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states that the deadline is “5:00 p.m. MDT (UTC−6), Thursday October 1, 2026” and converts it to “4:00 p.m. Phoenix time.” It explicitly flags that the planned 4:30 p.m. Phoenix upload would arrive at “5:30 p.m. MDT — after the portal closes” and recommends submitting before Lucia leaves or having someone in Albuquerque upload well before the deadline."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo flags Puente’s headquarters as an eligibility question: “Eligibility to confirm. Puente is headquartered in Albuquerque (Bernalillo County), outside the Socorro–Valencia service area.” It recommends emailing the Foundation “to confirm that an Albuquerque-based applicant is eligible,” which explicitly violates the criterion, even though it correctly treats the current board-approved operating budget as eligible."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Every line amount is itself correct” and identifies the arithmetic error as the total direct costs, which should be $71,910 rather than $72,910. It also reiterates, “Budget line amounts are all calculated correctly,” and nowhere calls any of the six line amounts miscalculated."
+    }
+  ],
+  "costUsd": 0.0740895,
+  "usage": {
+    "inputTokens": 25095,
+    "cachedInputTokens": 0,
+    "outputTokens": 1137
+  },
+  "gradedAt": "2026-10-10T13:56:44.966Z"
+}

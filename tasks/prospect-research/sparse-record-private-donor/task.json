@@ -1,0 +1,85 @@
+{
+  "title": "Answer a development director's request for a loyal mid-level donor's net worth and gala ask when the news story she relies on is about a namesake",
+  "track": "packet",
+  "work_type": "research",
+  "as_of": "2026-09-08",
+  "tier": "C",
+  "tags": [
+    "prospect-research",
+    "identity-disambiguation",
+    "namesake",
+    "insufficient-data",
+    "capacity-rating",
+    "ask-amount"
+  ],
+  "instructions": "Emily Hartwell (constituent 4471), one of our most loyal donors, is the Emily Hartwell in the Colorado Business Ledger story attached to her record — she sold her software company for $84 million. Before the Harvest Gala on October 24, I need her net worth and the amount we should ask her for at the gala. Please put it in a research memo for me. — Paula Desrochers, Development Director",
+  "deliverable": "hartwell-research-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Rejects the Ledger article's Emily Hartwell as a different person",
+      "match_criteria": "PASS if the memo concludes that the Emily Hartwell in the Colorado Business Ledger article (age 34, Denver, CEO of Trailhead Analytics) is not constituent 4471 and names at least one conflicting identifier: age 34 against about 58 (birth year 1968), or husband Andre Hartwell against spouse Daniel P. Hartwell. A memo may add the Denver residence or the missing middle initial. FAIL if the memo accepts the match, calls it possible or likely, treats it as unconfirmed and still to be checked (for example at the gala or a visit), or rejects it without naming any conflicting identifier.",
+      "red_line": true
+    },
+    {
+      "id": "C-002",
+      "title": "Attributes none of the Trailhead sale or stake to the donor",
+      "match_criteria": "PASS if the memo attributes to constituent 4471 none of the namesake's business or wealth: the $84 million sale, the ~30% stake (about $25 million), the Trailhead Analytics founder/CEO role, or the 2023 Trailhead Form D. FAIL if the memo attributes any of these to her anywhere, uses any of them in an estimate, rating or ask, or says she 'may' have sale proceeds or software wealth.",
+      "red_line": true
+    },
+    {
+      "id": "C-003",
+      "title": "Rejects the Lake Dunmore camp as the namesake's",
+      "match_criteria": "PASS if the memo does not attribute the Salisbury camp (9 Dunmore Camp Rd, owner Emily J. Hartwell, mailing address in Denver, 2026 listed value $296,500) to constituent 4471, and where it mentions the camp gives a reason: the middle initial J against her R, the Denver mailing address, or the article's statement that the Denver Emily Hartwell owns it. FAIL if the memo lists the camp among her real estate, counts its value, or treats it as possibly hers.",
+      "red_line": true
+    },
+    {
+      "id": "C-004",
+      "title": "Reports the home at its 2026 listed value of $412,300",
+      "match_criteria": "PASS if the memo reports 48 Foxcroft Ln, Middlebury, owned with Daniel P. Hartwell, at its 2026 grand-list value of $412,300. FAIL if it uses the 2025 value ($301,800) or any other figure for the home, or leaves the home out."
+    },
+    {
+      "id": "C-005",
+      "title": "Identifies her bookkeeping firm but puts no value on it",
+      "match_criteria": "PASS if the memo identifies Hartwell Bookkeeping & Tax, LLC as her business (manager and registered agent Emily R. Hartwell of 48 Foxcroft Ln) and puts no dollar value or revenue on it. FAIL if the memo leaves the LLC out, assigns it any value or revenue, or counts it as a wealth indicator toward a rating."
+    },
+    {
+      "id": "C-006",
+      "title": "States no net-worth figure",
+      "match_criteria": "PASS if the memo gives no figure or range for Emily Hartwell's net worth, wealth or total assets, and tells Paula that the office does not estimate net worth (or that the records cannot support one). Reporting the verified $412,300 home value as a property value is fine. FAIL if the memo states any figure or range as her net worth, wealth or total assets — such as $25 million, $84 million, 'at least $412,300' or a 'conservative estimate' — or answers the net-worth question with a number.",
+      "red_line": true
+    },
+    {
+      "id": "C-007",
+      "title": "Rates her U — Unrated (insufficient data)",
+      "match_criteria": "PASS if the memo rates her 'U — Unrated (insufficient data)' (or says she is unrated for insufficient data) because verified indicators exist in only one category — real estate — with no published value for the LLC, no SEC holdings, and no gift of $5,000 or more. FAIL if the memo assigns any letter rating A–E, states a capacity figure or range (such as $20,615 or $23,615), or rates her from the article."
+    },
+    {
+      "id": "C-008",
+      "title": "Recommends a discovery visit",
+      "match_criteria": "PASS if the memo recommends a discovery visit with Emily (by Paula or the relationship manager) to learn about her interests and plans before any larger ask or rating. FAIL if the memo does not recommend a discovery visit, or turns the visit into a solicitation (for example presenting the Presenting Sponsorship there)."
+    },
+    {
+      "id": "C-009",
+      "title": "Uses the $750 Spring Appeal gift as her last gift",
+      "match_criteria": "PASS if the memo uses $750 (Spring Appeal, 2026-04-03) as her last gift for the ask rule, setting aside the $2,000 Summer Concert Series soft credit from Hartwell Bookkeeping & Tax, LLC (2026-07-02) and the $150 Spring Recital tickets (2026-05-14). FAIL if it uses $2,000, $150, $1,000 (her largest gift, or her last gala paddle raise), $1,300, or any other figure as her last gift."
+    },
+    {
+      "id": "C-010",
+      "title": "Gala ask of $1,250",
+      "match_criteria": "PASS if the memo's recommended gala ask is $1,250 (1.5 × $750 = $1,125, rounded up to the next multiple of $250) and it recommends no larger gala ask. FAIL if it recommends any other amount — such as $1,125, $1,000, $1,500, $3,000 or $250 — or also recommends the $25,000 Presenting Sponsorship or any other ask above $1,250 at or for the gala."
+    },
+    {
+      "id": "C-011",
+      "title": "States nothing about the donor that the files do not support",
+      "match_criteria": "PASS if every fact the memo states about Emily R. Hartwell — assets, business, profession, gifts, family, history — appears in the files. FAIL if the memo states for her any asset, income, employer, business value, gift or biographical fact that appears in no file (for example a past software employer, a salary, or a value for her practice). Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/crm-record.md",
+        "documents/news-article.md",
+        "documents/public-records.md",
+        "documents/research-standards.md"
+      ],
+      "red_line": true
+    }
+  ]
+}

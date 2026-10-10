@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "taskHash": "4b184a4b76f48b5b",
+  "deliverableHash": "4ed61e8ebddfd628",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The results table gives \"LYBUNT households... 11\", and the LYBUNT section lists 11 households."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The results table gives \"SYBUNT households... 9\", and the SYBUNT section lists 9 households."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report gives \"Donor retention, FY2026... 15 / 22 = 68.2%\" and names the 22 FY2025 households and the 15 that gave again. Both the numerator and the denominator are stated."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Dana Whitfield is LYBUNT #2, with the note \"Northgate's $500 match of 2026-08-12 is the company's gift; she has only a soft credit for it.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Gregory Szabo is LYBUNT #3, with the note \"His $250 of 2026-07-20 was refunded on 2026-07-22.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Marguerite Osei is LYBUNT #4, with the note \"The $400 given through her birthday fundraiser page in August 2026 is the givers' money; she holds soft credits only.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Celeste Moreau is LYBUNT #1: \"$250, 2026-06-30 | June 30 is the last day of FY2026.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The Achebes are explicitly excluded: \"Not LYBUNTs... the Achebes (Daniel, $300 on 2026-08-28)\". They do not appear on the LYBUNT list."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "LYBUNT #5 is \"Erik and Annika Lindqvist | $1,000 joint check... | One household\", listed and counted once."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "LYBUNT #11 is \"Benjamin and Clara Hartwell\" with Clara's FY2026 gift. Benjamin does not appear on the SYBUNT list."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Lorraine Abernathy is SYBUNT #1 (\"her FY2026 gift was refunded\") and does not appear on the LYBUNT list."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Walter Pruitt is SYBUNT #2, with \"$100, 2020-08-18 | FY2021\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report states \"Not SYBUNTs: Ingrid Solberg — last gift 2020-05-02, FY2020, before the window, so she is lapsed.\" She is on neither list."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "SYBUNT #8 is \"Samir and Leila Haddad | $500 joint check, 2025-06-30 | FY2025\", a single household. They are not on the LYBUNT list."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The method states that every organization (Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club, Ferncliff Brewing Co.) is left out. None appears on either list or in the retention counts."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.575Z"
+}

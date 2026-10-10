@@ -1,0 +1,13 @@
+{"packet": "J-7224d3", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "The memo finds Desai's $250 gift imported as G-41817 (pbt_7Q6M77) and keyed again as G-41822 on 2026-07-16. The adjusting entry is \"Delete later-entered posting G-41822... retain source-linked entry G-41817\", with \"B-2607-CC: −$250.00\"."},
+{"id": "C-002", "verdict": "pass", "reasoning": "The memo identifies check #4410 entered as $15,000 against a bank item of $1,500 (RDC-0710-1). The entry is \"Edit gift amount from $15,000.00 to $1,500.00\", a −$13,500 adjustment."},
+{"id": "C-003", "verdict": "pass", "reasoning": "The G-41809 operational action reads \"Void acknowledgment sent 2026-07-13; issue corrected receipt for $1,500.00.\""},
+{"id": "C-004", "verdict": "pass", "reasoning": "The memo states \"Do not delete G-41810. Post a reversing negative adjustment of −$500.00 to Backpack Program dated 2026-07-16 in July batch.\" The $15 fee is charged to GL 6130 separately, not added to the reversal."},
+{"id": "C-005", "verdict": "pass", "reasoning": "The memo says to \"Move gift from July batch B-2607-01 to FY2026 year-end batch B-2606-YE; change gift date to postmark date 2026-06-30\", based on the June 30 postmark."},
+{"id": "C-006", "verdict": "pass", "reasoning": "No adjustment is made to G-41802 or G-41804. Section 5 keeps them in \"B-2607-01 gifts (G-41802, G-41804, G-41805): $650.00\"."},
+{"id": "C-007", "verdict": "pass", "reasoning": "Fees appear only as a tie-out reconciling item: \"Deducted from daily gross credit card gifts before ACH payout; Finance posts gross gift and charges Acct 6120.\" Card gifts stay at gross ($3,335.00), and no CRM adjustment is made for fees."},
+{"id": "C-008", "verdict": "pass", "reasoning": "The memo states card gifts of \"$3,335.00 gross, with $77.87 in processing fees... yielding $3,257.13 net payouts\"."},
+{"id": "C-009", "verdict": "pass", "reasoning": "The $86.40 Valley Office Supply check is called a \"Non-gift vendor refund\" that \"must not be entered in the CRM; Finance codes them directly in the general ledger.\" It is excluded from the corrected total."},
+{"id": "C-010", "verdict": "pass", "reasoning": "The corrected total is stated as \"Total July 2026 | $32,380.00 | −$15,250.00 | $17,130.00\"."},
+{"id": "C-011", "verdict": "pass", "reasoning": "The tie-out runs $17,130.00 + $1,000.00 (Lindgren) + $86.40 (Valley Office Supply) − $77.87 (PayBridge fees) − $15.00 (bank fee) = $18,123.53 net bank activity. It states \"Unexplained Difference $0.00\"."}
+]}

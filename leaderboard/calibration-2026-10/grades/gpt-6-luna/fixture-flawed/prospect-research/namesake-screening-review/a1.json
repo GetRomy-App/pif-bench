@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "d47845c1e890c897",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo marks hit 1 as “Accept” and identifies matching details: “Full name with middle initial,” “address 412 Orchard Hill Rd,” “spouse Karen L. Miller,” and “age 61.” This satisfies the requirement to accept hit 1 and name at least two listed identifiers."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo marks hit 2 at 2290 Tremont Rd, Upper Arlington as “Reject” and identifies conflicting spouse, age, and address details: “Spouse Jennifer S. Miller; age 47; different address.”"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo marks “Hit 3 — David Miller, 77 Pearl St, Apt 3, Granville” as “Reject” and notes “Age 29; different address” as conflicts. This satisfies the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo accepts hit 4 and identifies it as matched by the full name, the 412 Orchard Hill Rd mailing address, and co-owner Karen L. Miller. It also includes “118 Shore Dr, Marblehead — $390,000” in the prospect’s real estate calculation."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo lists “9 Elm Ct, Newark — $285,000” under real estate and includes it in the total, so it counts the property as owned today. It does not say the property was sold or transferred."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo lists real estate totaling $1,520,000, including 9 Elm Ct, and calculates the real-estate component as $76,000. The criterion requires $1,235,000 or $61,750 and explicitly fails totals including 9 Elm Ct."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo counts securities as \"$0\" and states that \"The 410,000 Scioto Biologics shares belong to the rejected hit 2.\" It does not attribute any securities holding to the prospect."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo excludes the Ohio State University gift, stating it was “Given by David A. Miller and Jennifer S. Miller of Upper Arlington — the hit 2 namesake.” It is not included in the capacity calculation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo identifies “Denison University, 2019 — $20,000” as the “largest” documented gift and calculates “3 × $20,000 = $60,000.” The criterion requires using the $15,000 Granville Public Library Foundation gift and a $45,000 gift component, so this fails."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo includes “Denison University, 2019 — $20,000” as the largest documented gift and uses it to calculate “3 × $20,000 = $60,000.” It does not exclude the gift because it falls outside the five-year window, so the criterion is not met."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo values the Licking Memorial Health Foundation gift at “$10,000 (bottom of the $10,000–$24,999 band).” This is exactly the required bottom-of-range value."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo calculates “Capacity = $76,000 + $0 + $60,000 = $136,000.” The criterion requires a five-year capacity of $106,750 and fails any other stated result, so this does not pass."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo assigns rating \"C\" and defines it as \"$100,000 to $249,999,\" which matches the required capacity rating. It does not assign a different rating elsewhere."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo gives the Marblehead property's value as “$390,000 [documents/county-records.md]” and also identifies its co-owner in the hit table. It cites the required county-records file for the property's value."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "Fail: the memo attributes the Denison University gift of “$20,000” to this prospect, but the gift record identifies only “David A. Miller '87” and does not associate him with 412 Orchard Hill Rd or constituent 100482. The files do not establish that this gift belongs to the prospect rather than another person."
+    }
+  ],
+  "costUsd": 0.0012200599999999998,
+  "usage": {
+    "inputTokens": 20877,
+    "cachedInputTokens": 18156,
+    "outputTokens": 1399
+  },
+  "gradedAt": "2026-10-10T14:02:24.245Z"
+}

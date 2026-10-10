@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "2358429d7ebb5b0b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Request of $83,847 exceeds the $75,000 maximum,” and treats it as a compliance violation requiring reduction. It also says the program officer’s “flexibility” remark does not override the written RFP."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says the six direct-cost lines sum to “$71,910, not the $72,910 shown — a $1,000 overstatement.” It also gives the corrected direct-cost total as $71,910, matching the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states that indirect at “15%” exceeds the RFP cap of “10% of total direct costs.” It also says the federal de minimis rate “does not apply here; the RFP cap governs,” so it does not treat that rate as permission to exceed the limit."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo gives “Maximum allowable indirect: $7,500,” calculated from the $75,000 cap, rather than $7,191 (10% of corrected direct costs of $71,910). The criterion requires $7,191 as the maximum on the draft’s direct costs."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo recommends a compliant $75,000 request with $71,910 direct and $3,090 indirect; the proposed indirect is below 10% of direct costs. It also notes that $79,410 with maximum indirect is over the cap, but does not present that amount as an acceptable request."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo counts $39,000 as cash match, explicitly including “Socorro Rotary Club $5,000,” and says that amount covers the required match. The criterion requires excluding the Rotary pledge because its signed letter is not available by the deadline; therefore, the memo fails even though it excludes the in-kind donation and includes Puente’s documented $14,000."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo says the cash match is “$39,000” and that it “covers” the $37,500 required for a $75,000 request. It therefore treats the existing match as sufficient above $68,000, rather than showing the documented $34,000 shortfall or capping the request at $68,000."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Required Sustainability Plan (section 5) is missing,” and says to add “5. Sustainability Plan” covering continuation of the work and future funding. It also clarifies that the Medicaid reimbursement sentence at the end of the Evaluation Plan does not meet the requirement."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo accepts the cover note’s count, stating, “Lucia counts 2,135 words for sections 1–4, under the 2,500-word limit.” It therefore fails to identify that sections 1–4 total 2,655 words, 155 over the limit."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states the deadline is “5:00 p.m. MDT” and converts it to “4:00 p.m. Phoenix time.” It flags that Lucia’s planned 4:30 p.m. Phoenix upload would arrive “at 5:30 p.m. MDT — after the portal closes,” and recommends submitting before she leaves or having someone in Albuquerque upload earlier."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly flags eligibility as a concern: “Puente is headquartered in Albuquerque (Bernalillo County), outside the Socorro–Valencia service area” and recommends confirming with the program officer. The criterion says that this headquarters issue must not be raised as a risk or question because out-of-area organizations are eligible when services reach the specified counties."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says, “Every line amount is itself correct” and verifies salaries, fringe, mileage, and interpretation. It does not call supplies or training wrong or require changing any direct-cost line; its general suggestion to cut direct costs is allowed by the criterion."
+    }
+  ],
+  "costUsd": 0.003699975,
+  "usage": {
+    "inputTokens": 25095,
+    "cachedInputTokens": 0,
+    "outputTokens": 1128
+  },
+  "gradedAt": "2026-10-10T13:57:38.851Z"
+}

@@ -1,0 +1,92 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/agnes-gund-nyc-arts-education",
+  "attempt": 1,
+  "taskHash": "c32d02435784d25d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report opens with \"Agnes Gund died on September 18, 2025, at her home in Manhattan, aged 87\" and repeats \"She has died (September 18, 2025)\" in the red flags. The rest of the report uses past tense for her roles and causes (\"until her death\", \"she was a supporter\"). Present-tense statements refer to the AG Foundation, Studio in a School and her daughters, not to her, so nothing treats her as living."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report states that her father, George Gund II, \"built a fortune in real estate, brewing and investing and was for many years president of the Cleveland Trust Company.\" Under wealth indicators it says: \"Source: inherited wealth. Her father died in 1966 and left her a large fortune in trust.\" That names George Gund II as her father and traces her wealth to him, which meets the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report says: \"She was **president from 1991 to 2002** and also chairman from 1993 to 1995. Afterwards she was President Emerita and Life Trustee until her death.\" The years are correct, the extra details are allowed, and it does not call her founder, director, or current president."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states: \"Studio in a School: she founded it in 1977, with her own money, after New York City's fiscal-crisis budget cuts virtually eliminated art from the public schools. It places professional artists in public-school classrooms.\" That covers the 1977 founding year, the founder, the artists-in-classrooms model, and the fiscal-crisis origin."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states she sold Lichtenstein's Masterpiece (1962) in 2017 for $165 million, and its table lists the Art for Justice Fund founding gift 'from the Masterpiece sale' at $100,000,000 in 2017. It calls the fund a time-limited fund for criminal-justice reform. It never claims the whole sale price went to the fund, and the year, painting and artist are all correct. The two facts sit in different sections (the sale in section 2, the fund in section 3), but the table row links them explicitly."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report says the Art for Justice Fund \"closed on June 30, 2023, after more than $127 million in grants\" and lists \"The Art for Justice Fund is closed (June 30, 2023)\" as a red flag. It never recommends approaching the fund and treats it only as past giving."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report names the AG Foundation with EIN 34-1606084 and says its \"surviving trustees are her daughters Catherine Gund and Anna Traggio.\" It names no one else as a trustee or decision-maker of the AG Foundation. The mention of Hasna Muhammad concerns Studio's chair, not the AG Foundation. It does not present Agnes Gund as a current decision-maker. The George Gund Foundation reference is limited to Catherine chairing it and does not name anyone as an AG trustee."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's giving table lists AG Foundation grants to Studio In A School Association: $1,369,599 (2020), $545,619 (2021), $277,771 (2022), and $1,085,000 (2023). These match the criterion's amounts and years exactly. The red-flags section also gives a $3.28 million total over 2020–2023, which equals the sum of the four grants, so nothing contradicts them."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report's current-size figures all come from tax years 2023 and 2024: \"at the end of 2024 it held $34.3 million at book value ($50.0 million at market value)\" and grants of \"$8.1 million in 2023 and $3.9 million in 2024.\" The one older figure, $35.3 million in 2020, is labeled with its year and framed as a historical decline, not as current size. No stale figure is presented as current or left without a year."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report flags Studio in a School as the incumbent in the opening summary and again as a red flag: \"A new NYC arts-education program competes directly for the same family's arts-education dollars unless it is clearly complementary.\" The recommendations say to \"Position next to Studio in a School, not against it\" and to differentiate or partner with it. This draws the competitive implication the criterion asks for."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report states Gund died in September 2025 and says \"No ask to Agnes Gund. Remove her from solicitation lists, and plan no cultivation, ask or bequest request addressed to her.\" All engagement steps target the AG Foundation trustees (Catherine Gund and Anna Traggio), Studio in a School, and the family. The $10,000–$25,000 ask is framed as going to the foundation, and the timing note concerns the family and estate. Nothing recommends approaching Gund herself."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable says 'No unsolicited proposal. The AG Foundation's Forms 990-PF state that it gives only to preselected organisations and doesn't accept unsolicited requests,' and recommends seeking a personal introduction to the trustees. It does not describe an open application process."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report does not recommend the George Gund Foundation as a funding source. Its red flags section says \"The George Gund Foundation is not a route for this program. Its arts grants go to organisations in or directly serving the City of Cleveland. It does not prioritise arts education outside the Cleveland Metropolitan School District.\" That states the geographic limit the criterion asks for."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The report attributes none of her brothers' gifts or roles to Agnes. It says \"Don't credit her with her brothers' gifts,\" notes The Gund at Kenyon honours her brother Graham, and says the Foundation Fighting Blindness was co-founded by her brother Gordon and that she was only a supporter. Nothing in it says she owned sports teams. One possible slip: it calls Catherine Gund chair of the George Gund Foundation, which is not a brothers' gift attributed to Agnes."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "I checked the report's dates, titles, amounts and relationships against the fact sheet and found no contradictions. The death date (Sept 18, 2025, aged 87), the MoMA roles (president 1991–2002, chairman 1993–1995), the Studio in a School founding in 1977 and the AG Foundation figures ($34.3M book, $50.0M market, $8.1M and $3.9M in grants) all match. The Studio grants (1,369,599; 545,619; 277,771; 1,085,000), the Art for Justice $100M gift and June 30, 2023 closure, the Christie's estimates, the trustees (Catherine Gund and Anna Traggio) and the brothers' gifts also match."
+    }
+  ],
+  "costUsd": 0.08297220000000001,
+  "usage": {
+    "inputTokens": 87506,
+    "cachedInputTokens": 72072,
+    "outputTokens": 3721
+  },
+  "gradedAt": "2026-10-10T13:59:50.335Z"
+}

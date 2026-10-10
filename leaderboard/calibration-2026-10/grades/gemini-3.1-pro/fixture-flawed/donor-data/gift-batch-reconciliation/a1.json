@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable correctly identifies the double posting of Priyanka Desai's $250 gift but incorrectly chooses to delete G-41817 instead of G-41822, which explicitly violates the failure condition in the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies the error with G-41809 from Marisol Etxeberria, noting that check 4410 was keyed as $15,000 but the bank item was $1,500. It instructs to correct the gift amount to $1,500, resulting in a $13,500 reduction."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable states for Marisol Etxeberria's gift that 'The acknowledgment sent 2026-07-13 can stand; her calendar-year giving statement in January will show the corrected $1,500.00.' This directly violates the criterion, which requires the acknowledgment to be voided and explicitly fails if the $15,000 acknowledgment is left to stand or deferred to a later statement."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable identifies the $500 NSF check from Hollis Grant, but it explicitly states to 'Delete G-41810 from B-2607-02'. The criterion requires posting a reversing adjustment and fails if the original gift is deleted."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies the Lindgren check (G-41803) as an FY2026 gift due to its June 30 postmark. In the 'Discrepancies and adjusting entries' table, it explicitly states to 'Re-date to 2026-06-30 and move it to the year-end batch B-2606-YE', which fully satisfies the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable moves G-41804 (Samuel Ochieng) to the year-end batch B-2606-YE and re-dates it to 2026-06-28, which directly violates the criterion to keep it in the July batches."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the PayBridge fee difference is expected because 'gifts stay at gross and Finance books $77.87 to 6120 Merchant fees.' It correctly notes that there should be 'No CRM entry' for this difference."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the 'Checked and left alone' section that PayBridge fees are $77.87, calculating it from the $3,335.00 gross gifts and $3,257.13 net payouts."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes the Valley Office Supply item is 'a vendor refund, not a gift. Do not enter it in the CRM; Finance codes it in the general ledger.' It correctly excludes this amount from the corrected batch total and only includes it in the bank tie-out."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states the corrected July batch total as $16,880.00 in section 3, which does not match the required $17,130.00."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable includes a tie-out to the bank in section 4. This tie-out adjusts the corrected total by the $77.87 PayBridge fees, the $1,000 Lindgren check, and the $86.40 Valley Office Supply refund, arriving at the bank's net of $18,123.53. It states an unexplained difference of $0.00."
+    }
+  ],
+  "costUsd": 0.09780200000000003,
+  "usage": {
+    "inputTokens": 30307,
+    "cachedInputTokens": 0,
+    "outputTokens": 3099
+  },
+  "gradedAt": "2026-10-10T13:56:05.967Z"
+}

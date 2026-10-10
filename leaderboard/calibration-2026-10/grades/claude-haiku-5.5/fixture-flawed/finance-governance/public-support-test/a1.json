@@ -1,0 +1,77 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo's Part II table shows line 11 column (f) total support as $3,671,600, explicitly described as contributions of $3,590,300 plus interest and dividends of $81,300, and the answer section and 2% limit calculation ($73,432 = 2% × $3,671,600) use this same figure consistently. It does not use any of the excluded alternative totals ($4,126,000, $3,853,600, $4,308,000, or $3,590,300 alone)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo lists program service revenue of $454,400 (workshop fees $118,500, guided trip fees $79,900, Kettle County monitoring contract $256,000) under 'What is left out' and states these are 'gross receipts from related activities, reported on line 12 and not part of public or total support.' Line 12 shows 454,400 and total support line 11 excludes it. The memo explicitly says the county contract 'is a fee for services, not a grant,' so it is not treated as a government grant. No part of the program revenue is counted in public or total support."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable never mentions a $182,000 securities gain or a March 2024 sale of securities. Its total support line 11 for 2024 is $850,500, built from gifts ($828,200) and interest and dividends ($22,300) only, with no other-income or gain line. Under the criterion, FAIL applies if the memo never mentions the gain."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states 'Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432' and applies $73,432 to each funder over the five years. This matches the criterion's required five-year limit exactly and is not one of the listed incorrect figures."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo lists Benedict Sarkis at $50,000 five-year total with treatment 'Under the limit on his five-year total' and counted as public support $50,000 with $0 excess. It does not apply a year-by-year 2% test to him and does not exclude any part of his gifts. The criterion's PASS condition is met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo applies the 2% limit to the Oregon Department of Environmental Quality grants, stating \"2% limit applies — the state agency is a single funder\" and counting only $73,432 of the $160,000 as public support with $86,568 excluded. The criterion explicitly fails this treatment of governmental-unit grants. The Upper Alder Community Foundation ($135,000) is correctly counted in full, but that does not cure the DEQ error."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo's funder table lists Hollins-Pryor Family Foundation ($225,000, private foundation) with treatment '2% limit applies — not a publicly supported organization', counted as public support of $73,432 with excess of $151,568. This matches the criterion's required figures exactly and does not count the full $225,000 or treat it like the community foundation (which is shown as not limited). The criterion's pass conditions are met."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo's line 6 public support to be $1,260,596, derived by limiting Ostrander, Dellwood, and Hollins-Pryor to the 2% limit. The deliverable reports line 6 public support as $1,174,028, which also limits DEQ ($86,568 excess) and so differs from the required figure by $86,568. Its excess total is $2,416,272 rather than $2,329,704, so the stated figure does not match the criterion's value."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo's line 14 public support percentage to be 34.33% (or 34.3%). The deliverable reports 31.98%, explicitly stating 'Our public support percentage for 2021–2025 is 31.98%', which is the listed failure value for DEQ grants limited and differs from the required figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo states plainly that 'No — on the 2025 computation we fall short of the 33⅓% test,' with a public support percentage of 31.98%, and it says the Council 'would have to rely on the 10% facts-and-circumstances test.' That is exactly the failing conclusion the criterion names, so the deliverable does not pass the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to say the result is close, with a margin of about one point above 33⅓% (34.33%) or about $36,729 above the threshold. The deliverable instead concludes the organization fails the test at 31.98%, about 1.4 points below the line, and $49,839 short. It does not state a passing margin of 34.33% or $36,729 anywhere. Since the criterion's stated figures do not appear and the memo reports a failing result rather than a narrow pass, it does not satisfy the criterion, though it does describe the gap as modest in size."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo's Recommendation section explicitly proposes asking Ferrante & Lowe to treat Ms. Ostrander's 2025 gift of $455,000 as an unusual grant, with the stated aim of lifting the percentage above 33⅓%. The criterion fails any deliverable that recommends reclassifying a donor's gifts as unusual grants to raise the percentage, so this is a fail regardless of the rest of the computation."
+    }
+  ],
+  "costUsd": 0.001855715,
+  "usage": {
+    "inputTokens": 31280,
+    "cachedInputTokens": 26279,
+    "outputTokens": 1938
+  },
+  "gradedAt": "2026-10-10T13:57:23.530Z"
+}

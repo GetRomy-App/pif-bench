@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "taskHash": "4b184a4b76f48b5b",
+  "deliverableHash": "87318462fb56d759",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report states \"LYBUNT Count: 11 households\" and lists eleven households. This matches the required count of 11."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report states \"SYBUNT Count: 9 households\" and lists nine households. This matches the required count of 9."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report gives \"Retention Rate: 68.2%\" with \"Denominator (FY2025 Donors): 22 households\" and \"Numerator (Retained in FY2026): 15 households\", calculated as \"15 / 22 = 0.6818\". Rate, numerator and denominator all match."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Dana Whitfield appears on the LYBUNT list: \"Dana Whitfield (H-20387) — Last gift: FY26 (2025-11-18)\". The Northgate match was not counted as her FY2027 gift."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Gregory Szabo appears on the LYBUNT list with the note \"his FY27 gift was refunded, meaning it does not count\"."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Marguerite Osei appears on the LYBUNT list: \"Marguerite Osei (H-21233) — Last gift: FY26 (2025-12-03)\". The soft credits from her fundraiser page were not counted as her own FY2027 giving."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Celeste Moreau appears on the LYBUNT list: \"Celeste Moreau (H-20114) — Last gift: FY26 (2026-06-30)\". Her June 30, 2026 gift is correctly placed in FY2026."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The Achebe household is not on the LYBUNT list. The report says explicitly that \"Ruth  Daniel Achebe ... made hard-credit gifts between July 1 and Sept 15, 2026, so they are not LYBUNTs\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The Lindqvists appear once, as one household entry: \"Erik Lindqvist  Annika Lindqvist (H-21540)\". The LYBUNT count of 11 treats them as a single household."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The Hartwell household is on the LYBUNT list as \"Benjamin Hartwell  Clara Hartwell (H-22901) — Last gift: FY26 (2025-12-29 by Clara)\". Benjamin Hartwell does not appear on the SYBUNT list."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Lorraine Abernathy is on the SYBUNT list with the note \"Her FY26 gift was refunded, meaning she had no countable FY26 gift\". She is not on the LYBUNT list."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Walter Pruitt is on the SYBUNT list: \"Walter Pruitt (H-25230) — Gave in FY21 (2020-08-18)\". His gift is treated as inside the window."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Ingrid Solberg is on neither list. The report notes that she \"is excluded because her last gift was dated May 2, 2020 (FY2020)\"."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The Haddad household appears once on the SYBUNT list, as \"Samir Haddad (H-26802) — Gave in FY25 (2025-06-30)\". Neither Samir nor Leila Haddad is on the LYBUNT list."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club and Ferncliff Brewing Co. appear on neither list, and the method states \"Organizations are excluded.\" The retention denominator of 22 and numerator of 15 are the correct household-only figures, so no organization was counted."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.810Z"
+}

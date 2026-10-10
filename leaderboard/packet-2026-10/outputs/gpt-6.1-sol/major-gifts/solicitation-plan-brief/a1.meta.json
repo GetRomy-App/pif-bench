@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "promptHash": "2b2fa99d2d94585d",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 3864,
+  "outputTokens": 2288,
+  "costUsd": 0.0325385,
+  "latencyMs": 44619,
+  "createdAt": "2026-10-10T18:17:22.351Z"
+}

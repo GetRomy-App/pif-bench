@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "1d5c4ca7aecfcd1f",
+  "deliverableHash": "04e66bf92096285a",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Line 11, column (f) is \"**3,671,600**\", which is line 7 ($3,590,300) plus line 8 ($81,300). The memo ties it out: \"$4,308,000 total revenue − $454,400 related-activity receipts − $182,000 capital gain = $3,671,600 total support.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the workshops, guided trips and Kettle County monitoring contract ($454,400) are reported \"on line 12 only; exclude from both total support and public support.\" It adds that \"The county contract pays for sampling services and is not a grant.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says the $182,000 realized securities gain is excluded \"from the support computation, including line 10\" because \"capital-asset gains are excluded.\" Line 10 is 0 and the gain is subtracted in the tie-out."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"$3,671,600 × 2% = $73,432 per limited donor for the entire five-year period\", taken as 2% of line 11, column (f)."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Benedict Sarkis's $50,000 is \"below the limit. Includes the $35,000 Cedar Flats gift in 2023\", with $0 excess and $50,000 counted. The limit is applied to the five-year total, not year by year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Upper Alder Community Foundation's $135,000 is \"Counted in full: section 170(b)(1)(A)(vi) community foundation\", and Oregon DEQ's $160,000 is \"Counted in full: governmental restoration grants\". Both show $0 excess."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Hollins-Pryor Family Foundation is treated as a \"Private non-operating foundation; limited to $73,432\", with $151,568 excess and $73,432 counted."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Line 6 is \"**1,260,596**\", which is $3,590,300 less line 5 excess of $2,329,704 ($1,951,568 + $226,568 + $151,568)."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Line 14 shows \"$1,260,596 ÷ $3,671,600 × 100 = 34.3337%, reported as **34.33%**.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The conclusion opens \"Yes. The Council passes the 33⅓% public support test for 2025\". It says the Council \"does not need the 10% facts-and-circumstances test.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says the result is \"approximately 1.00 percentage point above the required 33⅓%\" and that public support exceeds one-third of total support ($1,223,866.67) \"by $36,729.33.\" The board takeaway notes the margin is about one percentage point."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Unusual grants are given \"No exclusion\" because none qualifies, and Ostrander's row notes \"Recurring operating gifts are not unusual grants.\" Every contribution is counted in line 1."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.115Z"
+}

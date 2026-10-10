@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "taskHash": "c17ae8627cb7ff5a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart clearly lists the first tier (lead) as having a gift amount of $2,000,000 and a number of gifts equal to 1. This perfectly matches the requirement of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart includes exactly four named tiers: $2,000,000 x 1, $1,000,000 x 2, $500,000 x 4, and $250,000 x 8. This is immediately followed by an 'All other gifts' line, perfectly satisfying the criterion's requirements without any extra named tiers."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart correctly lists the cumulative totals for the four named tiers as $2,000,000, $4,000,000, $6,000,000, and $8,000,000. Additionally, the 'All other gifts' tier total is listed as $2,000,000, which successfully brings the final cumulative total to exactly $10,000,000."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Gifts in hand' that the Hollis Family Foundation's pledge is counted as a gift in hand at the $1,000,000 tier and the Lindqvists' pledge is counted as a gift in hand at the $250,000 tier. It also explicitly confirms that 'Neither Hollis nor the Lindqvists is counted as a prospect,' and they do not appear in the prospects list."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the Abernathy-Kim verbal intention 'is not a gift in hand and is not reported as committed; the fund is counted as a prospect at the $500,000 tier.' It lists the fund under prospects identified at the $500,000 tier and does not count it as a gift in hand."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Not counted — inclination N' that Desmond Achebe-Lowry, Corinne Ashworth, and Fenwick and Lila Haraway are excluded. It also correctly includes the L-coded prospects, placing Lucien Park at the $500,000 tier and both Ivan and Sofia Petrakis and Kenji and Amara Sato at the $250,000 tier."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Thaddeus Rourke, Marguerite Delacroix-Benn, Ivan and Sofia Petrakis, and Beaumont Hardware Co. under the $250,000 tier. It also explicitly notes that the bottom of their rating band ($400,000) is below $500,000, so 'all four rating-5 prospects are counted at $250,000.'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart shows the $2,000,000 tier requires 3 prospects needed, has 1 prospect identified, and a gap of 2. It explicitly identifies the single prospect as the Castellane Foundation in both the 'Prospects counted at each tier' section and the 'Three biggest gaps' section."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart correctly shows the $1,000,000 tier with 1 gift in hand, 1 gift still needed, 3 prospects needed, 2 prospects identified, and a gap of 1. The prospects listed for this tier are Margaret and Elliot Thornbury, and Gideon Salcedo."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart shows the $500,000 tier with 0 gifts in hand, 4 gifts still needed, 16 prospects needed, 4 identified, and a gap of 12. In the 'Prospects counted at each tier' section, the 4 identified prospects for the $500,000 tier are listed as Helena Voss, Abernathy-Kim Family Fund, Lucien Park, and Wendell and Grace Oduya, exactly matching the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart explicitly shows 1 gift in hand, 7 gifts still needed, 28 prospects needed, 7 prospects identified, and a gap of 21 for the $250,000 tier. The prospect list also correctly names the 7 expected prospects, and the gifts in hand section credits the Lindqvist pledge to this tier."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists the three biggest gaps as the $250,000 tier, the $500,000 tier, and the $2,000,000 lead tier, exactly in that order. It correctly excludes the $1,000,000 tier from the top three."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly names prospects, donors, capacity ratings, inclination codes, and pledge amounts exactly as they appear in the provided prospect pipeline and campaign commitments files. No invented individuals, organizations, or numbers were introduced."
+    }
+  ],
+  "costUsd": 0.11838199999999999,
+  "usage": {
+    "inputTokens": 30511,
+    "cachedInputTokens": 0,
+    "outputTokens": 4780
+  },
+  "gradedAt": "2026-10-10T14:03:47.316Z"
+}

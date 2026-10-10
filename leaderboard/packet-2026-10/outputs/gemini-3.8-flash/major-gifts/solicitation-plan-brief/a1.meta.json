@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "promptHash": "2b2fa99d2d94585d",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 4286,
+  "outputTokens": 10724,
+  "costUsd": 0.0434295,
+  "latencyMs": 58249,
+  "createdAt": "2026-10-10T18:26:10.204Z"
+}

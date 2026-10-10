@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "promptHash": "65948d1880faab2f",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 5161,
+  "outputTokens": 2892,
+  "costUsd": 0.041821,
+  "latencyMs": 45715,
+  "createdAt": "2026-10-10T18:17:04.546Z"
+}

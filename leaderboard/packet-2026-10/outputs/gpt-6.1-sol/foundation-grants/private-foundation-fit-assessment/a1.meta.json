@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "promptHash": "471655d0c380ce62",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 6007,
+  "outputTokens": 3324,
+  "costUsd": 0.048256,
+  "latencyMs": 51665,
+  "createdAt": "2026-10-10T18:16:18.830Z"
+}

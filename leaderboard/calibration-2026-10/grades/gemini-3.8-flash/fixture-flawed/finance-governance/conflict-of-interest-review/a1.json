@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "9d41f9f32291d76f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies that Thomas Aldana had a financial interest in the catering contract because Saffron & Sage Events LLC is wholly owned by his spouse, Celeste M. Aldana. It notes that this is an actual or possible conflict under the policy and details how the policy was not followed."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies both disclosure failures under 'What happened': first, that on '2026-01-20 he answered \"No\" to Question 2... although Saffron & Sage had submitted its bid on 2026-01-08'; second, that at the meeting 'on 2026-02-12, after the Chair asked for disclosures, the minutes record that no director other than Ms. Ramaswamy disclosed anything', and Aldana instead spoke in favor, moved to award, and voted."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the policy required Aldana to 'Leave the meeting while the other directors determined whether a conflict existed and while they discussed and voted on the contract, and not vote (Article III, Sections 2–3).' It then details what happened: 'Mr. Aldana then spoke for Saffron & Sage (\"a cut above\"), moved to award it the contract, and voted for his own motion'."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states: 'Setting his vote aside, a majority of the directors who voted still supported Saffron & Sage, so his participation did not change the result', saying the motion would have carried without his vote. Under the criterion, this is an explicit FAIL."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Under Section 1 (Price), the memo explicitly states: 'the board rejected the Gala Committee's recommendation of Harborview Provisions, the lowest bid at $52,900, and awarded the contract at $68,400 — $15,500 (29.3%) more'. This accurately reflects both bids, the recommendation, and the $15,500 premium."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly reviews Priya Ramaswamy's interest in BrightStage AV Services LLC, noting that she disclosed it on her annual statement, in writing to the chair, and orally at the meeting, left the room, and that the remaining directors approved the lowest bid ($18,250) 10–0. It explicitly concludes: 'She handled it exactly as the policy requires... No action is needed concerning Ms. Ramaswamy.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly concludes that the transaction with Saffron & Sage Events LLC is not reportable because it is below $100,000 ('Not reportable (below threshold)', 'Neither transaction needs to be reported in Schedule L, Part IV'). The criterion requires concluding that it must be reported because it exceeds the single-transaction threshold, and specifies FAIL if it concludes the transaction is not reportable."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable only applies the $100,000 aggregate threshold ('A business transaction with an interested person is reported when all payments to that person in the year exceed $100,000') and fails to mention or calculate the single-transaction threshold of $39,400 (the greater of $10,000 or 1% of total revenue)."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable evaluates BrightStage only against the $100,000 threshold (\"A business transaction with an interested person is reported when all payments to that person in the year exceed $100,000\"), failing to test the payments against the single-transaction threshold ($39,400 / greater of $10,000 or 1% of total revenues). The criterion explicitly specifies: 'FAIL if it says the BrightStage payments must be reported, concludes they are not reportable without testing them against the single-transaction threshold...'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly outlines in Section 4 that the committee must inform Mr. Aldana in writing of the basis for its belief and give him the opportunity to explain within 15 days, explicitly stating: 'No finding about his conduct, and no view about whether the omission was deliberate, should be reached before he has responded.' It does not treat disciplinary action as already decided or state as fact that he deliberately concealed it."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Under section 4, item 4, the deliverable explicitly states that disinterested directors must re-review the catering contract under Article III, Sections 3(c) and 3(d), noting whether a more advantageous arrangement was available (citing the $52,900 and $55,750 bids) and whether it was fair and reasonable. It also specifies that if the Theatre paid more than fair market value, the board must consult legal counsel regarding IRC section 4958 excess benefit transaction issues and recovering the excess, explicitly reserving that determination for counsel rather than declaring it settled."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo addresses the memo to 'Thomas Aldana' as a committee member and in Section 4 states 'At its September 3 meeting the full committee should agree the notice.' It never states that Aldana must take no part in the committee's deliberations or votes, failing the requirement to keep him out of the review."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Under Section 4, items 3 and 5, the deliverable explicitly states: 'If the board, acting by a majority of the disinterested directors, determines that he failed to disclose, it takes appropriate disciplinary and corrective action...' and 'Mr. Aldana files a corrected annual statement within 30 days of the board's determination.' This satisfies all components of the criterion."
+    }
+  ],
+  "costUsd": 0.031237499999999998,
+  "usage": {
+    "inputTokens": 35160,
+    "cachedInputTokens": 0,
+    "outputTokens": 1298
+  },
+  "gradedAt": "2026-10-10T13:57:23.442Z"
+}

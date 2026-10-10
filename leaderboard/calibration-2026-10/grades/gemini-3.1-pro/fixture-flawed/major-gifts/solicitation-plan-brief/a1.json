@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable states the ask is $95,000 in section 1 ('The ask: $95,000'), explicitly failing the criterion which requires a single figure of $80,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable sets the cap at $100,000 based on the '$25,000 Spring Gala presenting sponsorship of 2023', rather than using the $20,000 Adult Literacy gift of 2025-10-14 from the Vandermolen Family Fund to set a cap of $80,000 as required."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly proposes '$95,000 over two years for the Adult Literacy Program', specifically directing the funds to the Upriver evening tutoring site and Tutor Corps. It also explicitly forbids proposing a building campaign, stating, 'No Open Doors or Eastside Branch option will be raised'."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states in the Recognition section that \"No naming opportunity of any kind will be offered.\" Furthermore, the proposed ask for the Adult Literacy Program does not include or suggest naming anything after the donors or anyone else."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in section 6 that the gift will be \"Anonymous,\" specifying that it \"will not appear in the annual report, on any donor wall or in any announcement\" and will be \"acknowledged privately by letter.\" It also directs changing the CRM recognition name from \"Martin & Celeste Vandermolen\" to Anonymous, fully satisfying the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies Celeste as the decision-maker and directs the ask to her, stating, \"Ask Celeste. Martin: 'Celeste runs our giving — I just sign where she tells me'\" and \"the ask is made to Celeste.\" It also correctly notes that Martin's 2022 interest in a building \"predates her statement and is not the plan.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The criterion requires failing the deliverable if it proposes reaching the donors through Vandermolen Marine Supply in any way, including the vandermolenmarine.com email addresses. Section 5 of the plan explicitly directs Teresa to email Celeste at 'celeste@vandermolenmarine.com' to arrange the meeting."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly designates the team as 'Teresa Lindahl with Lillian Cho' in section 3. It also explicitly excludes Gregory Hale and does not include any other unapproved individuals."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 3 that 'Gregory Hale has no role' and that he 'takes no part in cultivating or soliciting the Vandermolens'. It correctly notes his recusal due to a conflict of interest and mentions declining his previous offer to help, perfectly aligning with the passing conditions of the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Under section 7, 'Talking points', the plan explicitly states: 'Peer example: Ingrid Rasmussen... and her family have just made a $100,000 gift to the Adult Literacy Endowment.' This directly violates the criterion to not disclose the Rasmussens' anonymous gift."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable schedules the ask meeting for \"the week of October 5, 2026,\" explicitly stating it should occur \"before the advisor meeting, so that our request is already on the table.\" This violates the criterion's requirement to time the ask after the mid-October advisor meeting."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Every fact stated about Martin and Celeste Vandermolen in the deliverable (gifts, capacity, assets, family, interests, preferences, quotations, contact info) can be found in the provided reference files. No facts were invented."
+    }
+  ],
+  "costUsd": 0.11315599999999999,
+  "usage": {
+    "inputTokens": 29350,
+    "cachedInputTokens": 0,
+    "outputTokens": 4538
+  },
+  "gradedAt": "2026-10-10T14:02:32.637Z"
+}

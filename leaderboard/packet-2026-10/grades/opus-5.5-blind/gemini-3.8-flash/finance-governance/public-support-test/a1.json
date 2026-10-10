@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.8-flash",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "1d5c4ca7aecfcd1f",
+  "deliverableHash": "6504f9a4d5f70ef7",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Line 11 shows \"Total support... $3,671,600\", computed as \"$3,590,300 + $81,300 = $3,671,600\"."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The $454,400 of workshops, river trips and the $256,000 Kettle County contract appears only on \"Line 12 (Program Service Revenue / Gross Receipts): Reported for information only and excluded from support calculations\". The county contract is called \"program service revenue, not a grant\"."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states that the \"$182,000\" gain is excluded \"Per Part II instructions, gains from the sale of capital assets are excluded from Line 10 and do not enter total support\". Line 10 is $0."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo computes \"$3,671,600 × 0.02 = $73,432.00\" as the 2% threshold."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Benedict Sarkis's $50,000 is shown with \"Excess over 2%: $0\" and \"Public Support Allowed: $50,000\" because his five-year total is \"Below $73,432 threshold\". No year-by-year limit is applied to any donor."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Oregon DEQ ($160,000) and Upper Alder Community Foundation ($135,000) are both marked \"No (exempt from 2% cap)\" with $0 excess. They are allowed in full as a governmental unit and a 170(b)(1)(A)(vi) public charity."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Hollins-Pryor Family Foundation, a \"Private non-operating foundation\", is limited: \"$225,000 - $73,432 = $151,568\" excess, with $73,432 allowed."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Line 6 is \"$3,590,300 − $2,329,704 = $1,260,596\", with excess made up of Ostrander $1,951,568 + Dellwood $226,568 + Hollins-Pryor $151,568."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Line 14 is \"$1,260,596 / $3,671,600 = 34.3337% → 34.33%\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo answers \"Yes. The Council qualifies as a publicly supported organization... via the 33⅓% support test\" and states that \"it does not need to rely on the 10% facts-and-circumstances test\"."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says \"It is very close. We clear the 33.33% threshold by 1.00 percentage point\" and gives a margin \"of only $36,729.33\" over the $1,223,866.67 requirement."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states \"No unusual grants were excluded\" and counts every contribution. It never suggests reclassifying Ostrander's or anyone else's gifts as unusual grants."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.971Z"
+}

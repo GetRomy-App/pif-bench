@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review gives P-01 a “Deductible amount: $420” and shows the calculation “$750 − 2 × $165 ($330).” This matches the required $330 value for the two seats and the $420 deductible amount."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The P-01 acknowledgment must describe “two gala seats (dinner, open bar, live band)” and give their good-faith estimated value as “$330.” It also must include the §6115 statement that the deductible amount is limited to the excess of the payment over the value of goods and services provided; no conflicting estimate or claim that no goods or services were provided appears for P-01."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The review values P-02’s benefits at “$2,050 = 10 seats × $165 ($1,650) + VIP reception for 10 guests × $40 ($400).” It also says the sponsor-page and stage-signage recognition “carries no value,” so the criterion is satisfied."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The review gives P-02 a deductible amount of “$7,950” and explicitly says to “Change benefit to $2,050 and receipt amount from $6,250 to $7,950.” It does not approve P-02 as entered."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review gives P-03 a deductible amount of “$375” and says she declined in writing at payment and “no seat was reserved.” It requires the acknowledgment to state “No goods or services were provided,” corrects the CRM receipt amount from $210 to $375 and benefit from $165 to $0, and says not to state a seat, seat value, or quid pro quo disclosure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The review gives P-04 a deductible amount of “$420” and says the acknowledgment must describe “two gala seats, good-faith estimate $330” with the §6115 disclosure sentence. It rejects Dana’s pending change, explaining that “the seats were held for them” and that a donor who does not attend still received the benefit; it does not treat the payment as a gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review states P-05 has a deductible amount of $200 for the gift, with “nothing was provided,” and that the $100 for five raffle tickets “are not a charitable contribution and are not deductible.” It directs splitting the payment into a $200 gift and a $100 raffle sale with no receipt amount, and says the acknowledgment must not state a $300 gift or any deductible amount for the raffle tickets."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "P-06 gives Harriet Lindgren a deductible amount of “$1,500” and says her acknowledgment must state, “No goods or services were provided in exchange for your contribution.” It explicitly explains that the seat belonged to the Vasquez-Hart table and “is valued on their acknowledgment, not deducted from her gift,” and says her acknowledgment must not state a seat or seat value."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "For P-07, the review says, “Deductible amount: $60” and requires the acknowledgment to state, “No goods or services were provided in exchange for your contribution.” It also says he receives an acknowledgment, with no contrary claim that he needs none."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "For P-08, the review states “Deductible amount: $30 = $195 − $165.” It also says the acknowledgment must include the §6115 disclosure and the “good-faith estimate $165,” because her payment is more than $75."
+    }
+  ],
+  "costUsd": 0.004001874999999999,
+  "usage": {
+    "inputTokens": 28417,
+    "cachedInputTokens": 0,
+    "outputTokens": 901
+  },
+  "gradedAt": "2026-10-10T13:59:20.410Z"
+}

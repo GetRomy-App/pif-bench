@@ -1,0 +1,74 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "8f85076c8112911f",
+  "deliverableHash": "161cf9744d5add2c",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"This later-entered $250.00 manual posting duplicates G-41817, which carries PayBridge transaction pbt_7Q6M77. PayBridge reports one $250.00 transaction\". It directs \"Delete G-41822 and retain G-41817\", with an effect of −$250.00."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo states \"CRM records $15,000.00, but bank deposit RDC-0710-1, item 2, check #4410, records $1,500.00\" and directs \"Edit the gift amount to $1,500.00\", a −$13,500.00 effect."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "For Etxeberria the memo directs \"Void the July 13 acknowledgment and send a corrected acknowledgment.\" This comes immediately after the amount is corrected to $1,500."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo says \"Keep the original gift. Post a new −$500.00 gift adjustment dated July 16, 2026\" for Hollis Grant's NSF check #2231. The $15 fee is coded separately to bank fees rather than reversed as a gift."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Change the gift date to June 30, 2026 and move the gift to B-2606-YE\" because \"the recorded postmark is June 30, 2026. It belongs to FY2026.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo makes no adjustment to the Doyle or Ochieng gifts. It states \"No other gift-date correction is indicated by the recorded postmarks and receipt dates. A June date written on a check does not, by itself, move a gift to FY2026.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The gross-to-net difference is expected, not a gift error\" and \"Retain gross gift amounts in CRM\". The fees are a general-ledger entry by Finance, not a CRM adjustment."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states \"July card transactions total $3,335.00 gross, $77.87 in fees, and $3,257.13 net payouts.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "For the $86.40 Valley Office Supply refund the memo says \"It is bank activity, not a gift\", \"No CRM entry. Finance should code the refund in the general ledger\". It is not counted in the corrected batch total."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The corrected July gift-batch total is $17,130.00\" and shows $32,380.00 less $15,250.00."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The tie-out adds the $1,000.00 Lindgren gift and the $86.40 Valley Office Supply refund and deducts $77.87 PayBridge fees and the $15.00 fee. It reaches \"$18,123.53\", which matches the reported bank net, with \"Unexplained difference $0.00\"."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.089Z"
+}

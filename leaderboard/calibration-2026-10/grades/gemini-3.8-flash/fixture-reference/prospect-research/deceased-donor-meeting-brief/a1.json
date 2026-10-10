@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Bottom line section that 'Gerry Halvorsen died at home on Thursday, August 27, 2026', supported by the obituary and probate notice, and does not treat him as living or solicit him."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'The September 29 visit cannot go ahead as a solicitation. The gallery proposal is not to be presented to Peg or anyone in the family.' It also notes that the visit action is canceled or may only be replaced by a condolence visit where Ruth 'raises no gift, proposal, pledge or estate matter and brings no proposal or rendering.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "In Action 1 of the recommended actions table, the memo explicitly instructs: \"Close proposal PR-2026-044 as 'Closed — donor deceased' (not transferred to Peg or anyone else).\" It does not keep the proposal open or reassign it to family members."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly instructs to 'Mark record 10388 deceased, date of death 2026-08-27' and to 'Remove Gerry from all appeals, mailings, e-mail lists and event invitations' in Action 1. Furthermore, Action 2 explicitly directs staff to 'Pull the Fall Appeal rows for both the Halvorsen household (10388/10389, Peg) and Kristin and Michael Doyle (20417) before the mail file goes to the printer on 2026-09-28.'"
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states multiple times that solicitation of the family may not resume before February 23, 2027 (e.g., 'Policy DR-7 bars any solicitation of Peg, Erik, Kristin or the Halvorsen Family Foundation before February 23, 2027' and in action 3: '\"Bereavement — no solicitation before 2027-02-23.\" That is the 180th day after the 2026-08-27 date of death')."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly directs staff in Action 2 to 'Pull the Fall Appeal rows for both the Halvorsen household (10388/10389, Peg) and Kristin and Michael Doyle (20417) before the mail file goes to the printer on 2026-09-28.' It also flags them for bereavement / no solicitation."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Action 6: 'Do not send the Halvorsen Family Foundation letter of request due October 15. A request to a foundation whose trustees are Peg, Erik and Kristin is a solicitation, and none may go before 2027-02-23.' It also reinforces this in Section 4, clearly holding the request until the bereavement period ends."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Unpaid balance: $70,000 ($200,000 − $130,000)' and provides the exact breakdown of payments totaling $130,000, explaining why the CRM figure of $80,000 was outdated."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly refers the pledge to CFO Denise Okafor in Action 7: 'Refer the unpaid pledge balance of $70,000 to CFO Denise Okafor... Only Denise decides whether to present a claim and deals with the estate about the pledge.' It also explicitly instructs: 'No one in development asks Peg, Erik, Kristin or the family foundation to pay it, and no pledge reminder goes to the household.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "In item 7 of the recommended actions, the memo states: 'Include probate case 2026PR000214, personal representative Erik T. Halvorsen (attorney Laura Vang, Vang & Steinke, S.C.), and the claims deadline of 2026-12-28.' This matches all the requirements of the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "In recommended action #8, the deliverable specifies to 'Notify Samuel Achterberg of the $100,000 bequest intention. He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center.' Section 4 also explicitly instructs development staff not to discuss the bequest or estate with any family member."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Action 8: 'Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received.' It also notes in Section 2 that it is recorded as an expectancy and that a bequest intention is revocable."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "In Action 5 of the recommended actions table, the deliverable explicitly states: 'Because Gerry was a former trustee, it is signed by President & CEO Laurel Whitfield and co-signed by Board Chair Thomas Brandvold.' This satisfies all requirements of the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "In Recommended Action 9, the memo instructs to 'Set up a memorial fund code for the arts education programs, as the obituary asked. Acknowledge each memorial donor, and send Peg a monthly list of memorial donors' names and addresses, never the amounts.' This precisely matches the criterion requirements."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Every factual detail mentioned in the deliverable concerning Gerald Halvorsen, his family, the estate, his gifts, and the family foundation is directly supported by the reference files. The memo does not invent a cause of death or estate value, and properly describes the bequest as an expectancy from the 2021 letter of intent ('We do not know whether the will admitted to probate still contains it')."
+    }
+  ],
+  "costUsd": 0.045474749999999994,
+  "usage": {
+    "inputTokens": 53898,
+    "cachedInputTokens": 0,
+    "outputTokens": 1347
+  },
+  "gradedAt": "2026-10-10T14:03:21.663Z"
+}

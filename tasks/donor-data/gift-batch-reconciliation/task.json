@@ -1,0 +1,69 @@
+{
+  "title": "Reconcile a month of CRM gift batches to the bank and the card processor and correct the batch total",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-08-06",
+  "tags": ["donor-data", "gift-processing", "reconciliation", "fiscal-year-cutoff", "acknowledgments"],
+  "instructions": "I need the July gift batches reconciled before I close the month on Monday, August 10. Reconcile the July 2026 batches in the CRM export against the bank's deposit detail and the PayBridge report, and write the reconciliation memo our gift-processing standards call for: every discrepancy, the adjusting entry for each, and the corrected July batch total, with the tie-out to the bank. — Renata Szymanski, Controller",
+  "deliverable": "july-2026-gift-reconciliation.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Finds Priyanka Desai's $250 card gift posted twice and deletes the later posting",
+      "match_criteria": "PASS if the memo identifies that Priyanka Desai's $250 card gift of 2026-07-14 is posted twice in the CRM — G-41817 (imported from PayBridge transaction pbt_7Q6M77) and G-41822 (keyed by hand on 2026-07-16) — against a single PayBridge transaction, and deletes G-41822, reducing the July batches by $250. FAIL if the memo misses the double posting, deletes G-41817 (the posting tied to the PayBridge transaction) instead, explains the $250 as fees or timing, or adjusts by any amount other than $250."
+    },
+    {
+      "id": "C-002",
+      "title": "Corrects the Etxeberria check from $15,000 to $1,500",
+      "match_criteria": "PASS if the memo identifies that check 4410 from Marisol Etxeberria (G-41809) was keyed as $15,000 while the bank deposit item (RDC-0710-1) is $1,500, and corrects the gift amount to $1,500, a $13,500 reduction. FAIL if the memo misses the error, corrects the gift to any other amount, or deletes or reverses the gift instead of correcting its amount."
+    },
+    {
+      "id": "C-003",
+      "title": "Voids the $15,000 acknowledgment and sends a corrected one",
+      "match_criteria": "PASS if the memo says the acknowledgment already sent to Marisol Etxeberria (2026-07-13) for $15,000 must be voided or recalled and a corrected acknowledgment for $1,500 sent. FAIL if the memo lets the $15,000 acknowledgment stand, defers the correction to a later summary or year-end statement, or says nothing about the acknowledgment.",
+      "red_line": true
+    },
+    {
+      "id": "C-004",
+      "title": "Reverses Hollis Grant's returned check with a -$500 entry dated July 16",
+      "match_criteria": "PASS if the memo identifies Hollis Grant's $500 check 2231 (G-41810) as returned NSF on 2026-07-16 and posts a reversing adjustment (a negative gift) of -$500 dated 2026-07-16 in July, keeping the original gift on record. FAIL if the memo misses the return, deletes the original gift instead of reversing it, reverses any amount other than $500 (such as $515 including the bank's $15 fee), or treats the return as a timing item.",
+      "red_line": true
+    },
+    {
+      "id": "C-005",
+      "title": "Moves the Lindgren check to FY2026 by its June 30 postmark",
+      "match_criteria": "PASS if the memo identifies that check 9014 from Gerald & Mae Lindgren ($1,000, G-41803), received 2026-07-02 but postmarked 2026-06-30, is an FY2026 gift, re-dates it to its postmark date, 2026-06-30, and moves it out of the July batches into FY2026 (the year-end batch B-2606-YE). FAIL if the memo leaves the gift in July or FY2027, dates it by its check date (2026-06-27) or its received date (2026-07-02), or does not address it."
+    },
+    {
+      "id": "C-006",
+      "title": "Leaves the two June-dated checks postmarked July 1 in July",
+      "match_criteria": "PASS if the memo keeps G-41802 (Ruth Ann Doyle, check 5521 dated 2026-06-30) and G-41804 (Samuel Ochieng, check 1187 dated 2026-06-28) — both postmarked 2026-07-01 — in the July batches as FY2027 gifts, whether it discusses them or simply makes no adjustment to them. FAIL if the memo moves either gift to FY2026 or the year-end batch, or re-dates either to the date written on the check."
+    },
+    {
+      "id": "C-007",
+      "title": "Treats the card fee difference as expected, not an error",
+      "match_criteria": "PASS if the memo explains that PayBridge pays out net of its processing fees, so card deposits are lower than card gifts by design, and keeps the card gifts at their gross amounts. FAIL if the memo calls the fee difference an error, a shortfall or an unreconciled discrepancy, proposes reducing any gift to its net amount, or proposes a CRM adjusting entry for the fees."
+    },
+    {
+      "id": "C-008",
+      "title": "PayBridge fees total $77.87",
+      "match_criteria": "PASS if the memo states PayBridge fees for July of $77.87 (card gifts $3,335.00 gross per PayBridge, payouts $3,257.13 net). FAIL if it states any other fee total, such as $327.87 (which lumps in the $250 duplicate), or gives no fee figure."
+    },
+    {
+      "id": "C-009",
+      "title": "Does not book the Valley Office Supply refund as a gift",
+      "match_criteria": "PASS if the memo treats the $86.40 Valley Office Supply item (check 33817 in deposit RDC-0724-1) as non-gift money for Finance to code in the general ledger, and does not enter it in the CRM. FAIL if the memo proposes entering it as a gift, counts it in the corrected batch total, or describes it as a gift missing from the CRM.",
+      "red_line": true
+    },
+    {
+      "id": "C-010",
+      "title": "Corrected July batch total is $17,130.00",
+      "match_criteria": "PASS if the memo states the corrected July 2026 batch total as $17,130.00 (CRM export $32,380.00 less $250, $13,500, $500 and $1,000). FAIL if it states any other figure as the corrected total, such as $18,130.00 (Lindgren left in July), $17,630.00 (no NSF reversal), $16,880.00, $17,030.00 or $16,780.00 (a July-postmarked check moved to FY2026), $17,115.00 (the $15 fee reversed too), $17,216.40 (the vendor refund added) or $17,052.13 (card gifts at net)."
+    },
+    {
+      "id": "C-011",
+      "title": "Ties the corrected total to the bank with no unexplained difference",
+      "match_criteria": "PASS if the memo ties the corrected total to the bank deposit detail and its reconciling items include the PayBridge fees ($77.87), the $1,000 Lindgren check deposited in July but booked to FY2026, and the $86.40 Valley Office Supply refund, with the memo stating that no unexplained difference remains (the bank's net of $18,123.53, or the deposits and debits that make it up, may be used). FAIL if the memo gives no tie-out to the bank, leaves an unexplained or unreconciled difference, or its tie-out omits any of those three items."
+    }
+  ]
+}

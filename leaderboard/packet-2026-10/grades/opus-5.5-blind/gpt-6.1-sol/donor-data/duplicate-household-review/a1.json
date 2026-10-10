@@ -1,0 +1,104 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "e24c7920e841969c",
+  "deliverableHash": "3dc913240f003ba6",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "D-01's table gives \"Surviving ID | 10457\" and \"Retired ID | 23118\", and the reason reads \"Merge 23118 into 10457.\" That is the required direction."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The Okafor merge's preferred address is \"2209 Halsted Ct, Lake Oswego, OR 97034 — updated May 14, 2023, on 23118\". The Linden Ave address is not kept as preferred."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Combined lifetime giving reads \"$6,750.00 = $4,350.00 + $2,400.00\". Ngozi's $1,200 is explicitly kept separate."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "D-02 lists \"Surviving ID | 11876\" and \"Retired ID | 24410\", so 24410 merges into 11876 as required."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The preferred name is \"Priya Castellano — retain Priya Raman as former name\", which is the married surname with Raman kept as a former name."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Combined lifetime giving reads \"$2,775.00 = $1,650.00 + $1,125.00\". Marco's $250 stays on his own record."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "D-03 gives \"Surviving ID | 10822\", \"Retired IDs | 19650, 26031\" and combined giving of \"$21,275.00 = $18,425.00 + $2,500.00 + $350.00\". All three records merge into 10822 for the required total."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "D-04 shows 10234 surviving and 20877 retired, with \"Deceased status | Deceased — November 2, 2025\". The survivor stays deceased."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Combined lifetime giving reads \"$38,450.00 = $36,950.00 + $1,500.00\". Margaret's $9,600 is not added."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "\"11092 — Household; do not merge.\" She is designated primary contact, and the list says to \"Keep her record active and solicitable, without copying Harold's deceased flag.\" She is neither merged nor treated as deceased."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "D-05 shows \"Surviving ID | 18342\" and \"Retired ID | 25503\", with combined giving of \"$3,840.00 = $3,240.00 + $600.00\". Those are the required survivor and total."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"10119 — No action. Thomas E. Brennan Sr. has a different birth year... Keep his record and $22,750.00 lifetime giving separate.\" He is merged with neither son record."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "D-06 reads \"13304 and 22760 — Household. Link Daniel Ferreira and Sofia Ferreira as spouses\" and says the differing names and birth years \"prohibit a merge\". They are householded, not merged."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "D-07 marks both 12650 and 21977 \"No action\" because \"The birth years conflict (1984 versus 1962)\", and adds \"do not household them.\" They are kept apart as different people."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "D-09 leaves 30044 and 31207 separate. It cites EIN 93-0817446 versus 93-1550329 and notes that \"Organization merges require matching EINs\"."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "Ngozi: \"10458 — Household; do not merge.\" Marco: \"24409 — Household; do not merge... retain Marco's separate record.\" Neither is merged into any record."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "D-08 marks 15238 and 26874 (Morrow) \"No action\", and D-10 marks 16602 and 25119 (Park/Parks) \"No action\". Both pairs stay separate."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.083Z"
+}

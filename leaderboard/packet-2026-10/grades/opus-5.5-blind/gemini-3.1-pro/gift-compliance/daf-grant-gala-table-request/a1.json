@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "a6e5a83b2c05a77a",
+  "deliverableHash": "b3c627427038d50b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo says 'Do not redirect any portion of it to the Gala', and the reply says 'we unfortunately cannot use $3,000 of your current grant for the Gala, nor could we accept a second, separate DAF grant for the table.'"
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says to 'Leave invoice INV-G26-0112 ... open and unpaid', and the reply asks Peggy to 'please pay the $3,000 invoice (INV-G26-0112) via a personal check or credit card.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The reply states that for the receipt on her personal table payment 'The fair market value for a table of 8 is $1,480 ($185 per guest).'"
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The reply promises a tax receipt for the table payment stating the $1,480 value, 'making $1,520 of your personal payment tax-deductible.' That conveys the substance of the quid pro quo limitation, the excess over value, with the correct $1,520."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo directs 'Send the official written acknowledgment to Kestrel Charitable Trust' but never says the acknowledgment must state that no goods or services were provided, so the acknowledgment it describes omits the required statement."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo instructs 'ensure that you do not reference the Halvorsens' statement of intent in the acknowledgment or any other correspondence sent to Kestrel'. Nothing described for Kestrel mentions the pledge, its balance or the gala."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The reply says the thank-you letter 'cannot be used as a tax receipt because you already received your tax deduction when you contributed the funds to Kestrel.' It neither calls the grant deductible to the Halvorsens nor promises a receipt for the $15,000."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reply answers the receipt request: 'Because Kestrel Charitable Trust has legal control of the fund's assets, they are the legal donor of record for the grant, and we are required to send the official tax acknowledgment directly to them.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo says 'Give hard credit for the $15,000 grant to Kestrel Charitable Trust ... Give soft credit to Margaret and Erik Halvorsen' and 'Book the full $15,000 to the Studio Wing Campaign.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo directs 'Soft-credit the full $15,000 balance toward the Halvorsens' $40,000 open commitment for the Studio Wing Campaign.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "Neither the memo nor the reply gives the open balance remaining on the statement of intent after this grant. The required $5,000 figure is never stated."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states that because the commitment 'was made on the revised SW-SOI form (2023-02) signed on 2024-11-12, it is a non-binding statement of intent, meaning DAF grants can be applied to it.'"
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.855Z"
+}

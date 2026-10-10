@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "4f2996c06e952c01",
+  "deliverableHash": "82f056ff85a50c56",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet gives \"Date of gift: 2026-01-02\" and \"Tax year: 2026\" for the Marchetti QPXI gift, and the receipt says \"credited to our account on 2026-01-02.\" December 29, 2025 appears only in the note that the gift \"cannot be dated December 29, 2025\", so the gift is never given that date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The gift value is \"$25,068.00 (400 shares × $62.67)\", which uses the mean of the $63.48 high and $61.86 low on 2026-01-02. That matches the required figure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Delacroix gift has \"Date of gift: 2025-12-30\", \"Tax year: 2025\" and \"Gift value: $9,557.50 (250 shares × $38.23)\", using the mean of the $38.62 high and $37.84 low. This matches every element of the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The Fenn gift is dated \"2025-12-31. The properly endorsed stock certificate was mailed via USPS, and the postmark date applies\", with \"Tax year: 2025\". The receipt says \"mailed to us on 2025-12-31.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The gift value is \"$10,149.60 (120 shares × $84.58)\", using the mean of the $85.22 high and $83.94 low on 2025-12-31. That is the required figure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The Szabo gift has \"Date of gift: 2025-12-31\" (\"credited to the Land Trust's account on this date\") and \"Tax year: 2025\". No other date is given for it."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The gift value is \"$20,048.67 (812.345 shares × $24.68, rounded to the cent)\", valued at the NAV on 2025-12-31. This is the required figure."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "None of the four receipt texts states a dollar value or a per-share price. The Delacroix entry says explicitly that \"Per policy, the receipt does not state the dollar value, despite the donor's request.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt gives the share count and names the security: \"400 shares of Quarry Point Industries, Inc. common stock\", \"250 shares of Harrow Valley Bancorp common stock\", \"120 shares of Ostrander Railcar Corporation common stock\" and \"812.345 shares of Lantern Ridge Balanced Fund, Class A\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "All four receipts end with \"No goods or services were provided in exchange for your gift.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.873Z"
+}

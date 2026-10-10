@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "promptHash": "a864374a59b6a3ae",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 3147,
+  "outputTokens": 7172,
+  "costUsd": 0.00952338,
+  "latencyMs": 30088,
+  "createdAt": "2026-10-10T18:29:34.642Z"
+}

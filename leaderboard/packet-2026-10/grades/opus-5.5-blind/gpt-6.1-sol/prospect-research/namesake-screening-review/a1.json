@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "0f941c985515fb99",
+  "deliverableHash": "23f49d4e23fdb467",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Hit 1 is marked \"Accept identity\" because \"Full name David A. Miller, address 412 Orchard Hill Rd, and spouse Karen L. Miller all match the CRM. Reported age 61 is consistent with birth year 1965.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Hit 2 is marked \"Reject\": \"spouse Jennifer S. Miller conflicts with Karen L. Miller, and age 47 is more than two years from the CRM-implied age. The Upper Arlington address also does not match.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Hit 3 is marked \"Reject\": \"Age 29 conflicts with the CRM-implied age. The Pearl Street address does not match... 'David Miller' does not establish the required full-name match including middle initial.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Hit 4 is marked \"Accept\" on \"Full name David A. Miller, mailing address 412 Orchard Hill Rd, and spouse/co-owner Karen L. Miller\". The memo includes \"118 Shore Dr, Marblehead\" at $390,000 in real estate, consistent with the screening export and county records."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "9 Elm Ct is marked \"Exclude $285,000\" because \"The deed recorded June 30, 2026 identifies the Millers... as grantors; the auditor lists Ravi K. Patel as owner from July 1, 2026.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "\"$845,000 + $390,000 = $1,235,000; × 5%\" = \"$61,750\"."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Securities are \"$0 included\"; the memo states \"The only securities filing reported in the supplied files belongs to rejected hit 2\" and excludes \"the reported 410,000 SBIO shares valued at $18,900,000\"."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Ohio State $250,000 is marked \"Reject. The record names David A. and Jennifer S. Miller, a conflicting spouse, and identifies Upper Arlington.\" It is not used in the capacity calculation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The largest qualifying gift is the Granville Public Library Foundation $15,000, used as \"$15,000 × 3\" = \"$45,000\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Denison $20,000 (2019) is marked \"Exclude... Only full name matches... Independently, the gift predates the five-year window.\" The date reason is given alongside the name-only match."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The Licking Memorial listing is valued at \"$10,000, the bottom of the reported range, as required; do not infer a larger amount.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"Five-year giving capacity... $61,750 + $0 + $45,000 = $106,750\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "\"Final rating: C, because $106,750 falls within the $100,000–$249,999 five-year capacity band.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "In the real-estate table, the 118 Shore Dr, Marblehead row (\"Include $390,000... County records name David A. and Karen L. Miller as owners\") cites \"[documents/county-records.md]\". The hit 4 row also cites county-records.md."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Everything attributed to David (Orchard Hill and Marblehead properties, the museum gifts, the library $15,000 and the Licking Memorial listing) is tied in the files to David A. & Karen L. Miller of 412 Orchard Hill Rd. Hit 2/3 assets and the Ohio State gift are explicitly rejected, and no figure is invented."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.203Z"
+}

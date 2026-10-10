@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "eb53a3fbce54c01a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in both the memo and the reply that no part of the grant can be used for the gala table. The memo notes in section 1, 'No part of it goes to the gala,' and the reply confirms, 'I can't move part of the grant to the table, and a second Kestrel grant for it wouldn't work either.'"
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The internal memo states that the $3,000 table invoice must be paid by the Halvorsens personally and 'never from a donor-advised fund.' The reply to Peggy also tells her that a separate personal check or card is required for the $3,000 invoice because DAF grants cannot pay for event tables."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the table payment acknowledgment section that the goods and services have a \"good-faith estimate **$1,480** (8 × $185...).\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes the required quid pro quo disclosure language (that the deductible amount is limited to the excess of the payment over the value of goods and services provided) and calculates the deductible amount as $1,520."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly instructs the team to send the written acknowledgment to Kestrel Charitable Trust rather than the Halvorsens. The drafted acknowledgment clearly states the $15,000 amount and includes the required phrase, 'No goods or services were provided in exchange for this grant.'"
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly instructs the team: 'Do not mention the Halvorsens' statement of intent, its balance, or the gala table in this letter or in any other correspondence with Kestrel'. Furthermore, the drafted acknowledgment letter to Kestrel strictly mentions the grant and the Studio Wing Campaign without referencing the pledge or the gala."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The reply to Peggy explicitly states, \"Kestrel tells fund holders that their tax benefit came when they contributed to the fund, so we can't issue you a receipt for the $15,000.\" It clearly avoids calling the grant tax-deductible to her and refuses to issue her a receipt."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reply directly addresses the receipt request in the third paragraph, stating, 'because the grant comes from Kestrel Charitable Trust, Kestrel is the donor of record, so our acknowledgment goes to them rather than to you.' It also mentions that the tax benefit came when contributing to the fund and explicitly states, 'we can't issue you a receipt for the $15,000.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo correctly instructs the gift processing team to book the $15,000 grant with a hard credit to Kestrel Charitable Trust and a soft credit to Margaret and Erik Halvorsen. It also explicitly designates the entire amount to the Studio Wing Campaign and states that no part goes to the gala."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo includes a section titled 'Soft-credit the full grant to the Halvorsens' statement of intent' and applies the full $15,000 to the statement of intent, reducing the open balance from $20,000 to $5,000."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the open balance on the statement of intent as $5,000. It subtracts the previous check, the previous Kestrel grant, and the full $15,000 from the current Kestrel grant, while explicitly stating that the gala tables are not counted toward it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly notes in Section 4 that \"The Halvorsens' 2024-11-12 commitment is on form SW-SOI... it says in terms that it is a statement of intention, not a legally binding pledge or obligation.\" It also explains that \"that is what allows a DAF grant they recommended to be soft-credited toward it,\" fully satisfying the criterion."
+    }
+  ],
+  "costUsd": 0.113488,
+  "usage": {
+    "inputTokens": 32210,
+    "cachedInputTokens": 0,
+    "outputTokens": 4089
+  },
+  "gradedAt": "2026-10-10T13:59:32.959Z"
+}

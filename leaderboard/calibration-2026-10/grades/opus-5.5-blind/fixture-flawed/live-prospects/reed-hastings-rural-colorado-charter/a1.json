@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "e663556c1b60f8d5",
+  "deliverableHash": "b3ea0d91c9142812",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report says Hastings \"Co-founded Netflix in 1997 and was its CEO from the late 1990s until January 2023.\" The founding year is 1997 and the CEO tenure ends in January 2023, as required."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The report presents a superseded role as current: \"Reed Hastings co-founded Netflix and is now its executive chairman\" and \"Since January 2023 he has been Netflix's Executive Chairman, the role he holds today.\" He has been non-executive Chairman since April 17, 2025, and the criterion names exactly this phrasing as a failing example."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states \"On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting. He remains executive chairman until then,\" and gives the reason \"to focus on his philanthropy and other pursuits.\" It reports the decision, does not say he has already left, and does not say he stays after June."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states \"Netflix equity is the core of his wealth,\" gives the proxy share counts, and says the stake is \"under 1% of the company.\" Its estimates are all sourced and inside $3-8 billion: Forbes \"about $4.1 billion\" after January 2024, a 2026 Forbes estimate of \"about $4-5.5 billion,\" and Bloomberg's \"$6.6 billion.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report says \"He is married to Patty Quillin, his partner in giving.\" It lists her as co-donor of the 2020 HBCU gift and co-signer of the 2012 Giving Pledge."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The giving table lists \"Jan 2016 | Hastings Fund: education donor-advised fund at SVCF ... | $100 million.\" Amount, year and sponsor are all correct."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report lists \"Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion.\" It also adds the July 2024 gift of 790,000 shares worth about $502 million."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report lists \"Jul 2018 | The City Fund: charter and autonomous public schools in cities. The Hastings Fund and Laura and John Arnold are anchor funders; reported $125M of it from the Hastings Fund | ~$200 million raised at launch.\" Launch year, anchors and amounts are all correct."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report gives the 2020 gift as \"UNCF, Spelman College, Howard University, for HBCU scholarships (with Quillin) | $120 million ($40M each).\" It substitutes Howard University for Morehouse College, which the criterion names as a failing example."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report states \"Hastings sits on CSGF's board, and CSGF is headquartered in Denver.\" It also notes he and Quillin are $10M-plus funders. The seat is presented as current and he is not called its chair."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report describes \"Lone Rock, an educators' retreat in rural Bailey, Park County, that he financed\" and lists the Lone Rock Foundation officers with \"Hastings is president.\" It does not call Lone Rock his home and says he lives in Santa Cruz, California."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The report's capacity estimate is \"$10-25 million,\" which it calls \"a realistic ceiling for a K-12 organization.\" The top of the range is below $40 million."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The first engagement step is a cold solicitation: \"Write to him directly. Send Hastings a two-page proposal and cover letter from the CEO now, asking for a meeting.\" Mentioning CSGF inside that letter does not make it a warm or intermediary-led introduction, and the criterion names a cold letter to Hastings as a failing example."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report contradicts the fact sheet in two places. It presents Executive Chairman as his current title (sheet row 1.3: non-executive Chairman since April 17, 2025), and it names Howard University instead of Morehouse College as a recipient of the 2020 $120 million gift (sheet row 3.5)."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.546Z"
+}

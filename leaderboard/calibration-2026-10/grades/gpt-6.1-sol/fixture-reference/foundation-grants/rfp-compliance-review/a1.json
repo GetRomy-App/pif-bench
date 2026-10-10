@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "2358429d7ebb5b0b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly flags that the “Request of $83,847 exceeds the $75,000 maximum” and directs the applicant to “Bring the request to $75,000 or less.” It also states that the program officer's “flexibility” remark “does not override the written RFP,” treating the excess request as a violation to fix."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that “the six direct-cost lines sum to $71,910, not the $72,910 shown — a $1,000 overstatement.” It also repeats $71,910 as the corrected total direct costs in the corrected-figures table, satisfying the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that indirect costs \"at 15% ($10,937) exceeds the cap of 10% of total direct costs.\" It also rejects the federal-rate justification: \"Our federal de minimis rate does not apply here; the RFP cap governs.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Maximum allowable indirect on $71,910 of direct costs: $7,191.” Its corrected-figures table also lists $7,191 as the maximum indirect at 10% of direct costs, with no contradictory maximum elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo recommends two compliant requests: “direct $71,910 + indirect $3,090 = $75,000” and “direct $61,820 + indirect $6,180 = $68,000”; both stay within $75,000 and keep indirect below 10% of direct costs. It explicitly labels $79,101 as “still over the cap,” rather than presenting it as an acceptable request."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Only $34,000 counts,” comprising the Valencia County Health Council’s $20,000 (letter E-1) and Puente’s board-designated $14,000 (treasurer’s letter E-2). It explicitly excludes the $12,000 donation as in-kind and the Rotary Club’s $5,000 because it has “no signed letter” and its board votes October 14, after the deadline. It also rejects the draft’s $51,000 match as wrong."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo applies the rule of “cash match of at least $1 per $2 requested” and states that at a $75,000 request, “the required match is $37,500; we are $3,500 short.” It gives both compliant fixes: secure $3,500 more in documented cash before October 1 or “cap the request at $68,000, the most $34,000 supports.” It does not treat the existing match as sufficient for a request above $68,000."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Required Sustainability Plan (section 5) is missing,” and says the Medicaid reimbursement sentence in the Evaluation Plan “does not meet the requirement.” It directs the applicant to add “5. Sustainability Plan,” satisfying the requirement to add the section under that heading."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo states that sections 1–4 total “2,655 words (410 + 585 + 1,140 + 520), 155 over the 2,500 limit” before adding the required fifth section. It explicitly rejects the cover note’s 2,135-word count and states, “The 480-word budget narrative does not count,” satisfying all parts of the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states that the deadline is “5:00 p.m. MDT (UTC−6), Thursday October 1, 2026” and “4:00 p.m. Phoenix time.” It flags that Lucia’s “planned 4:30 p.m. upload from Phoenix would land at 5:30 p.m. MDT — after the portal closes” and recommends submitting before she leaves or having someone in Albuquerque upload earlier."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly confirms eligibility: \"the RFP makes such organizations eligible when all grant-funded services go to Socorro and Valencia county residents\" and states that Puente's services meet that condition. It also correctly uses the current board-approved budget of \"$1,320,000 ... under $1,500,000\" and says the FY2025 audit's \"$1,604,200 in expenses does not decide eligibility.\" Neither factor is flagged elsewhere as a violation, risk, or question requiring clarification."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the arithmetic error as the total, stating that the six direct-cost lines sum to \"$71,910, not the $72,910 shown\" and that \"Every line amount is itself correct ... only the total is off.\" It also confirms \"Budget line amounts are all calculated correctly.\" The proposed direct-cost cuts are to fit the request cap, not to correct line-item arithmetic."
+    }
+  ],
+  "costUsd": 0.08149949999999999,
+  "usage": {
+    "inputTokens": 28239,
+    "cachedInputTokens": 0,
+    "outputTokens": 1092
+  },
+  "gradedAt": "2026-10-10T13:59:21.052Z"
+}

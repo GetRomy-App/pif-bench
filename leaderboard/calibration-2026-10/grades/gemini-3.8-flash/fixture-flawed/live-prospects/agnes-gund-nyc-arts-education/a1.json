@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/agnes-gund-nyc-arts-education",
+  "attempt": 1,
+  "taskHash": "c32d02435784d25d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Bottom line section that 'Agnes Gund died on September 18, 2025, at her home in Manhattan, aged 87' and consistently treats her as deceased throughout the report, advising against any solicitation directed to her."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies her father, George Gund II, noting in Section 1 that 'Her father, George Gund II, built a fortune in real estate, brewing and investing and was for many years president of the Cleveland Trust Company' and in Section 2 that 'Source: inherited wealth. Her father died in 1966 and left her a large fortune in trust.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Section 1 correctly notes: 'Museum of Modern Art: she joined the International Council in 1967 and became a trustee in 1976. She was president from 1991 to 2002 and also chairman from 1993 to 1995. Afterwards she was President Emerita and Life Trustee until her death.' This precisely satisfies all elements of the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The report states that Agnes Gund founded Studio in a School in 1979 ('she founded it in 1979, with her own money') and repeats '1979' in the table. The criterion explicitly requires a pass only if 1977 is stated, and explicitly mandates FAIL if a founding year other than 1977 (specifically citing 1979) is given."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states in Section 2 that in 2017 Gund privately sold Roy Lichtenstein's Masterpiece (1962) for $165 million. In Section 3 and the table, it notes that the Art for Justice Fund was established with a $100,000,000 founding gift from the Masterpiece sale in 2017 as a fund for criminal-justice reform."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states that 'The Art for Justice Fund was a time-limited fund for criminal-justice reform. It closed on June 30, 2023, after more than $127 million in grants' and notes under Red flags that 'The Art for Justice Fund is closed (June 30, 2023).' It does not present it as an active funding source."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies the AG Foundation (EIN 34-1606084) and explicitly names Catherine Gund and Anna Traggio as its surviving trustees without naming anyone else as a trustee or decision-maker of the AG Foundation, nor presenting Agnes Gund as a current decision-maker."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable documents all four specific grant amounts and years in Section 3's table: $1,369,599 in 2020, $545,619 in 2021, $277,771 in 2022, and $1,085,000 in 2023 from the AG Foundation to Studio In A School Association, perfectly matching the criterion's requirements."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable claims under Wealth indicators and Estimated giving capacity that the AG Foundation 'holds about $95 million in assets'. Per the criterion instructions, $95.0 million is an outdated figure from 2019 rather than the required 2023 or 2024 asset values (around $34M-$50M), and presenting this stale figure as current size fails the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report treats Studio in a School strictly as evidence of alignment and affinity (e.g., 'Lead with alignment. Present the program as continuing the work Gund began at Studio in a School' and 'shows how much the family values NYC public-school arts education'). It fails to flag Studio in a School as an incumbent occupying the same niche, where existing family commitment presents a competitive challenge requiring differentiation or partnership."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes that Agnes Gund died on September 18, 2025, and specifically directs in Section 6: 'No ask to Agnes Gund. Remove her from solicitation lists, and plan no cultivation, ask or bequest request addressed to her.' All cultivation steps, engagement strategies, and asks are directed toward the AG Foundation, its surviving trustees (Catherine Gund and Anna Traggio), and the family."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "Under Section 6 ('Recommended ask and engagement strategy'), point 2 explicitly states: 'Submit a letter of inquiry to the AG Foundation through its open application process...'. The criterion explicitly specifies FAIL if the deliverable 'recommends submitting an unsolicited grant application, letter of inquiry or proposal to the AG Foundation, or describes it as having an open application process'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Under Section 7 (Red flags), the report explicitly states: 'The George Gund Foundation is not a route for this program. Its arts grants go to organisations in or directly serving the City of Cleveland. It does not prioritise arts education outside the Cleveland Metropolitan School District'. Thus, it does not recommend it as a funding source and notes the exact geographic restriction."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly avoids attributing her brothers' roles to her, stating under Red flags: 'Don't credit her with her brothers' gifts. The Gund at Kenyon College honours her brother Graham... The Foundation Fighting Blindness was co-founded by her brother Gordon; she was a supporter.' None of the forbidden attributions are made."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The fact sheet explicitly states under AG Foundation: 'Does not accept unsolicited requests: both returns check the Part XIV, line 2 box — the foundation \"only makes contributions to preselected charitable organizations and does not accept unsolicited requests for funds.\" It publishes no application process.' In contrast, the deliverable recommends: 'Submit a letter of inquiry to the AG Foundation through its open application process'. Furthermore, the deliverable asserts that the AG Foundation 'holds about $95 million in assets', whereas the fact sheet shows assets of $34.3M book / $50.0M FMV in 2024 ($95M was only true back in 2019, noted as 'stale as a measure of current size'). In addition, Studio in a School was founded in 1977 per the fact sheet, whereas the deliverable dates it to 1979."
+    }
+  ],
+  "costUsd": 0.055809000000000004,
+  "usage": {
+    "inputTokens": 66987,
+    "cachedInputTokens": 0,
+    "outputTokens": 1485
+  },
+  "gradedAt": "2026-10-10T13:58:03.469Z"
+}

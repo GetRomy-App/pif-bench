@@ -1,0 +1,199 @@
+{
+  "title": "Donor intelligence report on Reed Hastings for a charter network expanding into rural Colorado",
+  "track": "live",
+  "work_type": "research",
+  "as_of": "2026-04-25",
+  "tier": "A",
+  "tags": [
+    "live",
+    "prospect-research",
+    "charter-schools",
+    "colorado",
+    "donor-advised-fund",
+    "temporal"
+  ],
+  "instructions": "Research Reed Hastings as a potential major donor prospect for a charter school network expanding into rural communities in Colorado. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an education nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.",
+  "deliverable": "donor-intelligence-report.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Netflix co-founder (1997) who stepped down as CEO in January 2023",
+      "match_criteria": "PASS if the report identifies Hastings as a co-founder of Netflix and says he stepped down as its CEO in January 2023 ('2023' is enough); any founding year it gives is 1997. Saying the DVD service launched in 1998, or dating his CEO tenure from 1998 or 1999, is fine. FAIL if it gives a Netflix founding year other than 1997 (such as 1998 or 1999), dates the end of his CEO tenure to a year other than 2023 (such as 2022 or 2024), or never says when he stopped being CEO.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm"
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "No superseded role presented as current",
+      "match_criteria": "PASS if nothing in the report presents Hastings, as of April 2026, as Netflix's CEO, co-CEO or Executive Chairman, or as a current director of Facebook/Meta (he left in 2019) or Microsoft (he left in 2012). His current Netflix title, if given, is Chairman of the Board: he has been a non-executive director since April 17, 2025. Historical references are fine, such as 'Executive Chairman from 2023 to April 2025', or 'then executive chairman' when describing the March 2025 Bowdoin gift. FAIL if the report gives any of those superseded roles as his present role. Examples: 'Reed Hastings, Netflix's executive chairman, ...' in the present tense; 'Current position: Executive Chairman, Netflix'; or a list of current boards that includes Facebook/Meta or Microsoft.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm"
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Reports his April 2026 decision to leave the Netflix board",
+      "match_criteria": "PASS if the report states that Hastings announced in April 2026 (Netflix 8-K and shareholder letter of April 16, 2026) that he will not stand for re-election to Netflix's board at the June 2026 annual meeting: he stays chairman until then and leaves the board in June 2026. Netflix's stated reason, to focus on his philanthropy and other pursuits, is welcome but not required. FAIL if the report does not mention this decision, says he had already left the board or stepped down as chairman by April 2026, or says he will stay on as chairman after the June 2026 meeting.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/nflx-20260410.htm",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/ex991_q126.htm",
+        "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/04/16/netflix-cofounder-and-chairman-reed-hastings-to-step-down-from-board-of-directors"
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Wealth rests on Netflix equity, with a sourced net worth of $3-8 billion",
+      "match_criteria": "PASS if the report identifies Netflix stock and stock options as the principal basis of Hastings's wealth, and gives a net-worth estimate with its source or as-of date in which every figure falls between $3 billion and $8 billion. For reference: Bloomberg put him at about $6.6 billion just before the January 2024 gift; Forbes at about $4.1 billion just after it and about $5.4 billion in April 2026. The April 2026 proxy shows 37,759,062 Netflix shares beneficially owned, including options on 16,595,546 shares: under 1% of the company. FAIL if the report gives no net-worth estimate; gives one, or a range reaching, above $8 billion (such as $10-12 billion) or below $3 billion; gives a figure with no source or date; names something other than Netflix equity as his main source of wealth; or says he owns 2% or more of Netflix today.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "https://variety.com/2024/digital/news/reed-hastings-netflix-stock-silicon-valley-community-foundation-1235891145/",
+        "https://fortune.com/2024/01/31/reed-hastings-netflix-charity-donation-1-1-billion/",
+        "https://www.forbes.com/profile/reed-hastings/",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000407/nflx-20251030.htm"
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Names Patty Quillin as his wife and co-donor",
+      "match_criteria": "PASS if the report names Patty Quillin as Hastings's wife and shows her as a partner in the couple's giving. Examples: co-donor of the $120 million HBCU gift, co-signer of the 2012 Giving Pledge, or co-listed with him among the Charter School Growth Fund's funders. FAIL if the report does not name her, names a different spouse, or describes her as a former spouse.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://uncf.org/news/patty-quillin-and-reed-hastings-give-120-million-to-support-historically-black-colleges-and-universities",
+        "https://www.givingpledge.org/pledger/reed-hastings-and-patty-quillin",
+        "https://web.archive.org/web/20260417221424/https://chartergrowthfund.org/our-people/funders/"
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Hastings Fund: a $100 million education donor-advised fund at SVCF",
+      "match_criteria": "PASS if the report describes the Hastings Fund as a $100 million education fund (announced January 2016) held as a donor-advised fund at, or run through, the Silicon Valley Community Foundation. FAIL if the report does not mention the Hastings Fund, gives a launch amount other than $100 million or a launch year other than 2016, describes it as an independent private foundation, or places it at a sponsor other than SVCF.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.edsurge.com/news/2016-01-13-netflix-s-ceo-just-launched-a-100-million-education-fund-got-any-recommendations-on-how-he-should-spend-it",
+        "https://www.philanthropy.com/news/netflix-co-founder-reed-hastings-has-given-1-6-billion-this-year/",
+        "https://www.insidephilanthropy.com/h-grants/hastings-fund"
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "January 2024 gift of about $1.1 billion in Netflix stock to SVCF",
+      "match_criteria": "PASS if the report states that in January 2024 Hastings gave 2 million Netflix shares (20 million after the November 2025 split), worth about $1.1 billion (any value from $1.0 billion to $1.2 billion), to the Silicon Valley Community Foundation, where his donor-advised fund is held. Saying the SEC filing did not name the recipient and SVCF was reported or confirmed is fine. Adding the July 2024 gift of 790,000 shares (about $502 million) is welcome. FAIL if the report omits the January 2024 gift, values it outside $1.0-1.2 billion, dates it to a year other than 2024, gives no recipient, or names a recipient other than SVCF or his donor-advised fund there (for example a university, a charter network or a private foundation).",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000043/wk-form4_1706309584.xml",
+        "https://fortune.com/2024/01/31/reed-hastings-netflix-charity-donation-1-1-billion/",
+        "https://variety.com/2024/digital/news/reed-hastings-netflix-stock-silicon-valley-community-foundation-1235891145/",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000202/wk-form4_1722025216.xml",
+        "https://www.philanthropy.com/news/netflix-co-founder-reed-hastings-has-given-1-6-billion-this-year/"
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "The City Fund, launched in 2018 with John Arnold",
+      "match_criteria": "PASS if the report identifies The City Fund as a channel of Hastings's charter-school philanthropy: launched in 2018 to expand charter schools and autonomous public schools in cities, with the Hastings Fund and Laura and John Arnold (the Arnold Foundation) as anchor funders and about $200 million raised at launch. Giving the Hastings Fund's reported share as $125 million is fine, as is 'about $200 million from Hastings and Arnold'. FAIL if the report does not mention The City Fund, credits the whole ~$200 million to Hastings alone, names an anchor partner other than the Arnolds, or dates the launch to a year other than 2018.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.chalkbeat.org/2018/7/31/21106323/with-big-names-and-200-million-a-new-group-is-forming-to-push-for-the-portfolio-model/",
+        "https://www.chalkbeat.org/2019/10/24/21121844/political-arm-of-charter-friendly-group-the-city-fund-has-15-million-and-is-now-spending-on-school-b",
+        "https://www.vox.com/recode/2020/6/16/21285836/reed-hastings-netflix-teachers-education-reform-park-county-colorado-ranch-retreat"
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "$120 million to UNCF, Spelman and Morehouse in 2020",
+      "match_criteria": "PASS if the report states that in 2020 Hastings and Patty Quillin gave $120 million for HBCU scholarships to UNCF, Spelman College and Morehouse College; any per-recipient amounts it gives are $40 million each. FAIL if the report omits this gift, gives a different total or per-recipient amount, adds or substitutes another recipient (such as Howard University or Tougaloo College), or dates it to a year other than 2020.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://uncf.org/news/patty-quillin-and-reed-hastings-give-120-million-to-support-historically-black-colleges-and-universities"
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Charter School Growth Fund board seat, with CSGF placed in Colorado",
+      "match_criteria": "PASS if the report states that Hastings sits on the board of the Charter School Growth Fund and identifies CSGF as Colorado-based: headquartered in Denver (1390 Lawrence Street), or in Broomfield, its earlier home. Noting that he and Patty Quillin are listed among CSGF's $10 million-plus funders is welcome. FAIL if the report does not mention his CSGF board seat, does not place CSGF in Colorado, places it in another state, describes the seat as past, or says he chairs CSGF (the chair is John Fisher).",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://web.archive.org/web/20260417221448/https://chartergrowthfund.org/our-people/board/",
+        "https://chartergrowthfund.org/our-people/board/",
+        "https://web.archive.org/web/20260417221424/https://chartergrowthfund.org/our-people/funders/",
+        "https://projects.propublica.org/nonprofits/organizations/50620063"
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Lone Rock educators' retreat in Bailey, Colorado",
+      "match_criteria": "PASS if the report identifies Lone Rock as a project Hastings financed: the retreat and conference center for educators in Bailey, Park County, Colorado (Retreat Land at Lone Rock, or Lone Rock Retreat), run by the Lone Rock Foundation, of which Hastings is president. FAIL if the report does not mention Lone Rock, places it outside Colorado, describes it as his personal home or vacation property, or says he lives in Colorado (he lives in Santa Cruz, California).",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://www.vox.com/recode/2020/6/16/21285836/reed-hastings-netflix-teachers-education-reform-park-county-colorado-ranch-retreat",
+        "https://projects.propublica.org/nonprofits/organizations/832437632",
+        "https://ozarch.com/our-work/lone-rock-retreat",
+        "https://www.forbes.com/profile/reed-hastings/"
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Single-gift capacity not set below his documented $40-50 million education gifts",
+      "match_criteria": "PASS if the report estimates Hastings's capacity for a single gift to an education nonprofit at $40 million or more, or as a range whose top is $40 million or more. His documented single gifts to education institutions include $40 million each to UNCF, Spelman and Morehouse (2020) and $50 million to Bowdoin (2025), and he moved about $1.1 billion into his donor-advised fund in 2024. Only the capacity estimate is tested: the recommended ask may be far lower. FAIL if the report gives no single-gift capacity estimate, or if its estimate, or the top of its range, is below $40 million (for example '$5-10 million' or '$25 million').",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://uncf.org/news/patty-quillin-and-reed-hastings-give-120-million-to-support-historically-black-colleges-and-universities",
+        "https://www.bowdoin.edu/news/2025/03/announcing-the-hastings-initiative-for-ai-and-humanity.html",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000043/wk-form4_1706309584.xml"
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Recommends a warm, intermediary-led approach, not a cold solicitation",
+      "match_criteria": "PASS if the engagement strategy routes the first approach through a warm introduction or an intermediary in Hastings's charter-sector network, rather than a cold ask. Examples: the Charter School Growth Fund (where he is a board member and a $10 million-plus funder), The City Fund, KIPP, the Pahara Institute, or a shared board member, funder or peer. FAIL if the report's main recommended first step is a cold approach: an unsolicited proposal or application to the Hastings Fund or the Lone Rock Foundation; a cold letter, email or social-media message to Hastings; or contact through Netflix. Also FAIL if it states that the Hastings Fund or the Lone Rock Foundation accepts unsolicited proposals or has an open application process.",
+      "sources": [],
+      "red_line": false,
+      "evidence": [
+        "https://web.archive.org/web/20260417221448/https://chartergrowthfund.org/our-people/board/",
+        "https://web.archive.org/web/20260417221424/https://chartergrowthfund.org/our-people/funders/",
+        "https://grantedai.com/foundations/lone-rock-foundation",
+        "https://www.insidephilanthropy.com/h-grants/hastings-fund",
+        "https://www.philanthropy.com/news/netflix-co-founder-reed-hastings-has-given-1-6-billion-this-year/"
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Nothing contradicts the verified fact sheet",
+      "match_criteria": "PASS if nothing in the report contradicts references/fact-sheet.md, read with the tolerances in its section 7. FAIL if the report contradicts any fact there: a different amount, date, title, relationship or status. Examples: a different gift amount or recipient, a wrong year, a role he no longer holds presented as current, or a different spouse. Facts the sheet does not cover, and the items its section 6 lists as not established, are not grounds for failure.",
+      "sources": [
+        "references/fact-sheet.md"
+      ],
+      "red_line": true,
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/nflx-20260410.htm",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000043/wk-form4_1706309584.xml",
+        "https://uncf.org/news/patty-quillin-and-reed-hastings-give-120-million-to-support-historically-black-colleges-and-universities",
+        "https://www.bowdoin.edu/news/2025/03/announcing-the-hastings-initiative-for-ai-and-humanity.html",
+        "https://web.archive.org/web/20260417221448/https://chartergrowthfund.org/our-people/board/",
+        "https://web.archive.org/web/20260417221424/https://chartergrowthfund.org/our-people/funders/",
+        "https://www.vox.com/recode/2020/6/16/21285836/reed-hastings-netflix-teachers-education-reform-park-county-colorado-ranch-retreat",
+        "https://projects.propublica.org/nonprofits/organizations/832437632"
+      ]
+    }
+  ]
+}

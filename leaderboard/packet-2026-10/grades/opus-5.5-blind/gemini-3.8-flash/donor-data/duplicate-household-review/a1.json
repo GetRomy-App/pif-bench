@@ -1,0 +1,104 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.8-flash",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "e24c7920e841969c",
+  "deliverableHash": "51ed75f2e8b17b1b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The list says \"Merge 23118 into 10457\" with \"Surviving ID: 10457\" and \"Retired ID: 23118\". The surviving and retired IDs are exactly as the criterion requires."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The Okafor merge gives \"Preferred Address: 2209 Halsted Ct, Lake Oswego, OR 97034 (most recent address update date: 2023-05-14 on 23118 vs. 2017-03-09 on 10457; 18 Linden Ave is retained as a previous address)\". Halsted Ct is the preferred address."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It states \"Combined Lifetime Giving: $6,750.00 ($4,350.00 from 10457 + $2,400.00 from 23118)\", and the summary table and execution instructions repeat the figure. Ngozi's $1,200 is not added."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The list says \"Merge 24410 into 11876\" with \"Surviving ID: 11876\" and \"Retired ID: 24410\". The surnames differ, but the records are still merged."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It sets \"Preferred Name: Priya R. Castellano\" for the surviving 11876 record and \"retains Priya Raman as a former name\". That is the married surname, as required."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It states \"Combined Lifetime Giving: $2,775.00 ($1,650.00 from 11876 + $1,125.00 from 24410)\". Marco's $250 is not included."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It says \"Merge 19650 and 26031 into 10822\" with \"Surviving ID: 10822\" and \"Combined Lifetime Giving: $21,275.00 ($18,425.00 + $2,500.00 + $350.00)\". Both retired records are included, and the figure is correct."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It says \"Merge 20877 into 10234\" with \"Surviving ID: 10234\" and \"Deceased Status: Deceased (2025-11-02) (retained from record 10234)\". The execution list also gives \"Deceased: Yes (2025-11-02)\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It states \"Combined Lifetime Giving: $38,450.00 ($36,950.00 from 10234 + $1,500.00 from 20877)\". Margaret's $9,600 is not added."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "11092 is \"Household / No Action (Do Not Merge)\", and the list notes \"the deceased flag is never placed on a spouse's record\". It also sets her as \"the household primary contact (active and solicitable)\". She is never merged or marked deceased."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It says \"Merge 25503 into 18342\" with \"Surviving ID: 18342\" and \"Combined Lifetime Giving: $3,840.00 ($3,240.00 from 18342 + $600.00 from 25503)\". 10119 is not part of the merge."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "10119 is \"No Action (Do Not Merge, Do Not Household)\" and is cited for \"conflicting birth years (1951 vs. 1979) and conflicting generational suffixes (Sr. vs. Jr.)\". It is merged with neither son record."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "D-06 reads \"Household link 13304 and 22760; do not merge\", and the execution step says \"Create household link between 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira) as spouses... No merge is performed.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "D-07 gives both records \"No Action (Do Not Merge, Do Not Household)\", calling them \"two distinct individuals who happen to share a common name\" with \"conflicting birth years (1984 vs. 1962)\". The decision is final, not left for more research."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "D-09 is \"No Action (Do Not Merge)\" and cites \"EIN 93-0817446, whereas record 31207 has EIN 93-1550329\". It also notes that a club and its foundation are \"separate legal entities\"."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "10458 (Ngozi) is \"Household / No Action (Do Not Merge)\", and 24409 (Marco) is \"Household (Do Not Merge)\" with \"His record remains independent\". Neither is merged into another record."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "D-08 (Morrow) and D-10 (Park/Parks) both get \"No Action (Do Not Merge, Do Not Household)\" for every record. Both pairs stay separate."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.936Z"
+}

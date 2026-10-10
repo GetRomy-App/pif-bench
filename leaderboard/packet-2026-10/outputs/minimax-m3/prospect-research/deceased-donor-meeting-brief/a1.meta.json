@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "promptHash": "8b512fbd79e6ca35",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 5761,
+  "outputTokens": 17021,
+  "costUsd": 0.0220959,
+  "latencyMs": 94659,
+  "createdAt": "2026-10-10T18:30:54.318Z"
+}

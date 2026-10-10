@@ -1,0 +1,21 @@
+{
+  "name": "pif-bench",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PIF-Bench v2 — a rubric-graded benchmark of AI systems on nonprofit development work, modelled on Harvey's Legal Agent Benchmark.",
+  "scripts": {
+    "pif": "bun src/cli.ts",
+    "validate": "bun src/cli.ts validate",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ai": "6.0.174",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.6",
+    "typescript": "^5.9.3"
+  }
+}

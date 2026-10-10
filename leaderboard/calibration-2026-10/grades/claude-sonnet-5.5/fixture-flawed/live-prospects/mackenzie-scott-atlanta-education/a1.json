@@ -1,0 +1,82 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies her as \"a novelist and philanthropist\" who was \"known as MacKenzie Bezos while married.\" It says she \"married Jeff Bezos in 1993, and they divorced in 2019.\" It states she \"holds no Amazon position today.\" It does not confuse her with another person, call her still married to Bezos, misdate the divorce, or call her a current Amazon executive."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report states the source of wealth: \"In the 2019 divorce settlement she received 25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company.\" This matches the criterion's own description (a quarter of the couple's stake, about 4% of Amazon). It also gives dated holdings: \"139,132,131 Amazon shares as of September 30, 2024\" and \"Bloomberg put her at about $42.7 billion on April 18, 2026.\" It does not attribute her fortune to any other source and does not misstate the settlement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The report labels \"Latest disclosed holding: 139,132,131 Amazon shares as of September 30, 2024,\" about 1.3% of the company. The criterion names this figure as superseded, since the latest holding is 81,082,131 shares as of September 30, 2025. The report presents it as the latest, not as history, so it fails. The net worth figure ($34–43B) is fine, but the holding figure decides the verdict."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable gives cumulative giving as \"$19.25 billion in more than 2,450 gifts since 2019\" (Forbes 2025), which is the stale December 2024 total the criterion names as a failure. It presents this as current, with no mention of the ~$26 billion figure."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states in section 4 that a small internal team and a large network of advisors do \"quiet research,\" that the team then contacts selected organizations, and that she \"does not accept applications or unsolicited proposals.\" It quotes the Inquiries page and mentions the completed open call as the one exception. The bottom line and section 6 say not to solicit or send proposals. One recommendation, inviting Scott to an event, is outside this criterion and graded elsewhere. Nothing implies an organization can apply and be considered."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The report mostly says not to solicit, but section 6 includes: \"Invite Ms. Scott to our spring Celebration of Learning breakfast as an honored guest.\" The criterion explicitly lists inviting her to an event as a FAIL condition. That contradicts the report's own \"no outreach\" stance elsewhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable says the open call \"launched in March 2023, received 6,353 applications, and in March 2024 gave $640 million to 361 organizations. It is completed, and no open call is accepting applications.\" It also advises only to \"Watch yieldgiving.com for any future open call,\" which the criterion allows. It does not tell the organization to apply or describe a recurring cycle, and the result figures match the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Section 4 has a bullet headed \"Unrestricted, no strings.\" It says gifts are made \"for use however they choose,\" and that grantees are not required to report on how they use them. The gift table also labels several gifts as unrestricted. The report never describes the gifts as restricted or conditional."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report correctly gives the Spelman and Clark Atlanta 2020 and 2025 gifts. But the table lists Morehouse as '$20 million; $38 million (unrestricted)' for 'July 2020; Nov. 2025', and Section 7 cites 'the Spelman, Clark Atlanta and Morehouse gifts of November 2025'. This credits Morehouse with a direct post-2020 gift, which the criterion treats as a fail."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable names Achieve Atlanta ($8M, 2022), Southern Education Foundation ($6M, March 2022), Communities In Schools of Atlanta ($4M, 2021) and GEEARS ($3M, 2023). Each amount matches the criterion. KIPP Metro Atlanta and Sheltering Arms are listed as \"amounts not disclosed,\" so no dollar figure is given for them. Nothing is misstated."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The report states: \"In 2021 she married Dan Jewett, a Seattle science teacher, and they live in Seattle.\" The present-tense \"they live in Seattle\" describes her as currently living with Jewett, which implies she is still married to him. The report never mentions the 2022 divorce filing or the January 2023 finalization, so it describes her as currently married and fails the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 6 ('Be findable and fundable') lists four indicators her research looks for: stable finances (audited financials and a Form 990), a multi-year track record, measurement and evidence of outcomes (a public outcomes report), and experienced leadership representative of the community served. That covers all four Yield Giving Process page indicators, well above the two required, and ties them to organizational readiness."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The report contradicts the fact sheet on several points. It says Scott married Dan Jewett and \"they live in Seattle,\" but the fact sheet says the divorce was finalized in 2023. It calls 139,132,131 shares (Sept 2024) the \"Latest disclosed holding,\" but the latest is 81,082,131 shares (Sept 2025). It gives cumulative giving as \"$19.25 billion,\" a superseded figure. It lists a $38 million Nov. 2025 gift to Morehouse College, which the fact sheet says did not happen."
+    }
+  ],
+  "costUsd": 0.054373599999999994,
+  "usage": {
+    "inputTokens": 72428,
+    "cachedInputTokens": 65021,
+    "outputTokens": 2938
+  },
+  "gradedAt": "2026-10-10T14:01:54.518Z"
+}

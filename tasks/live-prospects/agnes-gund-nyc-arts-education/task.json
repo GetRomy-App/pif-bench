@@ -1,0 +1,174 @@
+{
+  "title": "Donor intelligence report on Agnes Gund for a New York City public-school arts education program",
+  "track": "live",
+  "work_type": "research",
+  "as_of": "2026-04-25",
+  "tier": "D",
+  "tags": [
+    "live",
+    "prospect-research",
+    "arts-education",
+    "new-york-city",
+    "deceased-prospect",
+    "private-foundation",
+    "temporal"
+  ],
+  "instructions": "Research Agnes Gund as a potential major donor prospect for a nonprofit arts education program serving public school students in New York City. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an arts education nonprofit; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.",
+  "deliverable": "donor-intelligence-report.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "States that Gund died on September 18, 2025",
+      "match_criteria": "PASS if the report states that Agnes Gund has died, dating her death to September 18, 2025 (September 19, 2025, the date most obituaries ran, is tolerated; 'September 2025' without a day also passes). FAIL if the report does not say she has died, dates her death to any other month or year, or anywhere treats her as living — for example gives her current age, says she currently serves on a board or lives somewhere, or describes what she will do or decide.",
+      "red_line": true,
+      "evidence": [
+        "https://www.nytimes.com/2025/09/19/arts/agnes-gund-dead.html",
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/",
+        "https://www.naacpldf.org/news/ldf-mourns-the-loss-of-agnes-gund-devoted-philanthropist-and-advocate-for-social-good/"
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Traces her wealth to her father, George Gund II",
+      "match_criteria": "PASS if the report attributes Gund's wealth to inherited Gund family money from her father, George Gund II (Cleveland banker and investor, long-time president of the Cleveland Trust Company, who died in 1966 and left her a fortune in trust). Naming George Gund II as the source of the family fortune is enough. FAIL if the report does not identify where her wealth came from, names a different person as her father (such as her brother George Gund III, the sports-team owner), or attributes her wealth mainly to a husband or to a business career of her own.",
+      "evidence": [
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/",
+        "https://www.theartnewspaper.com/2025/09/19/agnes-gund-philanthropist-collector-obituary"
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Former MoMA president, 1991 to 2002",
+      "match_criteria": "PASS if the report identifies Gund as a former president of the Museum of Modern Art and, if it gives the years of her presidency, they are 1991 to 2002 (it may add that she was also chairman in 1993–1995, a trustee from 1976, or President Emerita and Life Trustee afterwards). FAIL if the report omits her MoMA presidency, gives other years for it (for example 1991–2005 or 1993–2002), or calls her MoMA's founder, director or current president.",
+      "evidence": [
+        "https://www.moma.org/docs/press_archives/7201/releases/MOMA_1993_0108_66.pdf",
+        "https://www.naacpldf.org/news/ldf-mourns-the-loss-of-agnes-gund-devoted-philanthropist-and-advocate-for-social-good/",
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/"
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Founded Studio in a School in 1977",
+      "match_criteria": "PASS if the report states that Gund founded Studio in a School in 1977 — the New York City nonprofit that places professional artists in public-school classrooms, started after the city's fiscal-crisis budget cuts eliminated most art instruction in its schools. FAIL if the report omits Studio in a School, gives a founding year other than 1977 (such as 1976 or 1979), or credits its founding to someone else.",
+      "evidence": [
+        "https://www.studioinaschool.org/about/",
+        "https://www.studioinaschool.org/remembering-our-founder/",
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/"
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Art for Justice: $100 million from the 2017 sale of Masterpiece",
+      "match_criteria": "PASS if the report states that in 2017 Gund sold Roy Lichtenstein's Masterpiece (1962) and used $100 million of the proceeds to found the Art for Justice Fund, a criminal-justice-reform fund. If the report gives the sale price, it is $165 million (the $150 million in early June 2017 reports is tolerated). FAIL if the report says the whole sale price ($165 million or $150 million) went to the fund, gives a commitment other than $100 million, names a different painting or artist, dates the sale or the fund's launch to a year other than 2017, or omits the Art for Justice Fund.",
+      "evidence": [
+        "https://www.fordfoundation.org/the-latest/news/art-for-justice-fund-established-with-100-million-gift-from-philanthropist-agnes-gund/",
+        "https://artforjusticefund.org/",
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/"
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Does not present the Art for Justice Fund as an active funder",
+      "match_criteria": "PASS if the report says the Art for Justice Fund has closed (it ceased operations on June 30, 2023, after granting more than $127 million), or otherwise treats it only as past giving. FAIL if the report presents the fund as currently operating or making grants, or recommends approaching, applying to or seeking an introduction through the Art for Justice Fund as a funder today.",
+      "evidence": [
+        "https://artforjusticefund.org/",
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/"
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Names the AG Foundation and its surviving trustees",
+      "match_criteria": "PASS if the report identifies the AG Foundation (EIN 34-1606084) as Gund's private foundation and names both Catherine Gund and Anna Traggio — her daughters, and with Gund its only trustees on its 2023 and 2024 Forms 990-PF — as its surviving trustees or decision-makers. FAIL if the report does not name the AG Foundation, names only one of the two, names anyone else (such as Jessica Saalfield or a Gund Foundation officer) as a trustee or decision-maker of the AG Foundation, or presents Agnes Gund as one of its current decision-makers.",
+      "evidence": [
+        "https://projects.propublica.org/nonprofits/organizations/341606084",
+        "https://projects.propublica.org/nonprofits/organizations/341606084/202503179349100835/full",
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202312_990PF_2025011022984261.pdf"
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Documents the AG Foundation's grants to Studio in a School",
+      "match_criteria": "PASS if the report gives at least one of the AG Foundation's grants to Studio in a School (Studio In A School Association) with an amount and year that match its Forms 990-PF: $1,085,000 in 2023 (rounding to $1.1 million or $1.09 million is fine), $277,771 in 2022, $545,619 in 2021, or $1,369,599 in 2020. FAIL if the report gives no dollar figure for Gund's or the AG Foundation's financial support of Studio in a School, or gives a figure for one of those years that differs from the amounts above.",
+      "evidence": [
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202312_990PF_2025011022984261.pdf",
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202212_990PF_2023121922140997.pdf",
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202112_990PF_2023050521157599.pdf",
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202012_990PF_2022102620587200.pdf"
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Does not present stale AG Foundation figures as its current size",
+      "match_criteria": "PASS if every figure the report gives for the AG Foundation's current size comes from tax year 2023 or 2024 — total assets of about $38.6 million (book) or $44.9 million (market) at the end of 2023, or $34.3 million (book) or $50.0 million (market) at the end of 2024; grants of about $8.1 million (2023) or $3.9 million (2024) (a figure of about $44–45 million passes, as it matches the 2023 market value) — or if it gives no such figure, or labels each older figure with its year. FAIL if the report presents a figure from 2022 or earlier as the foundation's current size, or gives one without its year — for example assets of $82.6 million (2020), $95.0 million (2019), $120.0 million (2018) or $154.3 million (2016), or annual grants of $35.3 million (2020) or $24.3 million (2022).",
+      "evidence": [
+        "https://projects.propublica.org/nonprofits/organizations/341606084",
+        "https://projects.propublica.org/nonprofits/organizations/341606084/202503179349100835/full"
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Flags Studio in a School as the incumbent",
+      "match_criteria": "PASS if the report flags, as a red flag or strategic consideration, that Studio in a School — the NYC public-school arts-education nonprofit Gund founded and her foundation funds — occupies the same niche as the requesting program, so the family's arts-education giving is already committed to it and an approach must differentiate from it or partner with it. FAIL if the report mentions Studio in a School only as biography or as evidence of alignment or affinity with the requesting program, without drawing that competitive implication, or does not mention it.",
+      "evidence": [
+        "https://www.studioinaschool.org/about/",
+        "https://projects.propublica.org/nonprofits/organizations/133003112",
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202312_990PF_2025011022984261.pdf"
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Does not recommend cultivating or soliciting Gund herself",
+      "match_criteria": "PASS if every cultivation step, ask and engagement recommendation in the report is directed at living people or surviving entities — the AG Foundation's trustees, her family, her estate's representatives, or institutions she founded. FAIL if the report recommends meeting, cultivating, inviting, honoring in person or soliciting Agnes Gund herself, proposes an ask amount, pledge or bequest request addressed to her, or sets out a timeline for approaching her — even if her death is mentioned elsewhere in the report.",
+      "red_line": true,
+      "evidence": [
+        "https://www.nytimes.com/2025/09/19/arts/agnes-gund-dead.html",
+        "https://www.naacpldf.org/news/ldf-mourns-the-loss-of-agnes-gund-devoted-philanthropist-and-advocate-for-social-good/"
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Does not propose an unsolicited proposal to the AG Foundation",
+      "match_criteria": "PASS if the report notes that the AG Foundation gives only to preselected organizations and does not accept unsolicited requests (Form 990-PF, Part XIV, line 2), or simply recommends no unsolicited application to it — for example routes the approach through a personal introduction to its trustees. FAIL if the report recommends submitting an unsolicited grant application, letter of inquiry or proposal to the AG Foundation, or describes it as having an open application process, deadlines or guidelines for applicants.",
+      "evidence": [
+        "https://apps.irs.gov/pub/epostcard/cor/341606084_202312_990PF_2025011022984261.pdf",
+        "https://projects.propublica.org/nonprofits/organizations/341606084/202503179349100835/full"
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Does not pitch the George Gund Foundation for an NYC program",
+      "match_criteria": "PASS if the report either does not recommend the George Gund Foundation (Cleveland; chaired by Catherine Gund) as a funding source for the NYC program, or notes that its arts grantmaking is limited to organizations located in or directly serving the City of Cleveland and does not prioritize arts-education initiatives that do not primarily serve the Cleveland Metropolitan School District. FAIL if the report recommends applying to or soliciting the George Gund Foundation for the NYC program without noting that geographic limit.",
+      "evidence": [
+        "https://web.archive.org/web/20260417181036/https://gundfoundation.org/culture-arts/",
+        "https://gundfoundation.org/culture-arts/",
+        "https://projects.propublica.org/nonprofits/organizations/346519769"
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Credits Agnes with none of her brothers' gifts or roles",
+      "match_criteria": "PASS if the report attributes to Agnes Gund none of her brothers' gifts or roles. FAIL if it credits her with The Gund (formerly the Graham Gund Gallery) at Kenyon College, which is named for her brother Graham Gund and was seeded by his and his wife Ann's gift of art; with co-founding the Foundation Fighting Blindness (founded in 1971 by her brother Gordon Gund and his wife Lulie — she was only a supporter); or with owning professional sports teams (her brothers' business, including George Gund III's).",
+      "red_line": true,
+      "evidence": [
+        "https://www.kenyon.edu/news/archive/kenyon-remembers-graham-gund-63-h-81/",
+        "https://www.fightingblindness.org/news/agnes-gund-renowned-philanthropist-social-justice-champion-and-art-patron-passes-away-2851",
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/"
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Contradicts nothing in the fact sheet",
+      "match_criteria": "PASS if nothing in the report contradicts references/fact-sheet.md; FAIL if it contradicts any fact there (a different amount, date, title, relationship or status).",
+      "sources": [
+        "references/fact-sheet.md"
+      ],
+      "red_line": true,
+      "evidence": [
+        "https://obituaries.bowdoin.edu/agnes-gund-h12/",
+        "https://projects.propublica.org/nonprofits/organizations/341606084",
+        "https://projects.propublica.org/nonprofits/organizations/346519769",
+        "https://artforjusticefund.org/"
+      ]
+    }
+  ]
+}

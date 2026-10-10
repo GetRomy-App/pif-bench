@@ -1,0 +1,26 @@
+{
+  "name": "pif-panel-v2.0",
+  "judges": [
+    {
+      "id": "claude-sonnet-5.5",
+      "model": "anthropic/claude-sonnet-5.5",
+      "family": "anthropic",
+      "temperature": 0,
+      "maxOutputTokens": 4000
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "model": "openai/gpt-6.1-sol",
+      "family": "openai",
+      "maxOutputTokens": 8000,
+      "providerOptions": { "openai": { "reasoningEffort": "low" } }
+    },
+    {
+      "id": "gemini-3.1-pro",
+      "model": "google/gemini-3.1-pro-preview",
+      "family": "google",
+      "maxOutputTokens": 8000,
+      "providerOptions": { "google": { "thinkingConfig": { "thinkingLevel": "low" } } }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+gift_id,gift_date,constituent_id,constituent_name,constituent_type,household_id,credit,amount,status,payment,notes
+G-20170,2023-12-05,20114,Celeste Moreau,Individual,H-20114,Hard,100.00,Posted,Check,Year-end appeal
+G-20275,2024-12-10,20114,Celeste Moreau,Individual,H-20114,Hard,150.00,Posted,Online,Year-end appeal
+G-20534,2026-06-30,20114,Celeste Moreau,Individual,H-20114,Hard,250.00,Posted,Online,Spring appeal
+G-20317,2025-03-02,20387,Dana Whitfield,Individual,H-20387,Hard,500.00,Posted,Online,Spring appeal
+G-20387,2025-07-20,20387,Dana Whitfield,Individual,H-20387,Soft,500.00,Posted,Check,Soft credit; hard credit Northgate Systems (30012)
+G-20422,2025-11-18,20387,Dana Whitfield,Individual,H-20387,Hard,500.00,Posted,Online,Year-end appeal
+G-20597,2026-08-12,20387,Dana Whitfield,Individual,H-20387,Soft,500.00,Posted,Check,Soft credit; hard credit Northgate Systems (30012)
+G-20499,2026-04-09,20951,Gregory Szabo,Individual,H-20951,Hard,100.00,Posted,Online,Spring appeal
+G-20555,2026-07-20,20951,Gregory Szabo,Individual,H-20951,Hard,250.00,Refunded,Online,Refunded 2026-07-22 at donor request: meant for another organization
+G-20303,2025-02-14,21233,Marguerite Osei,Individual,H-21233,Hard,150.00,Posted,Check,Valentine concert
+G-20429,2025-12-03,21233,Marguerite Osei,Individual,H-21233,Hard,150.00,Posted,Online,Giving Tuesday
+G-20576,2026-08-02,21233,Marguerite Osei,Individual,H-21233,Soft,100.00,Posted,Online,Soft credit; hard credit Tobias Grant (24601)
+G-20583,2026-08-03,21233,Marguerite Osei,Individual,H-21233,Soft,250.00,Posted,Online,Soft credit; hard credit Elena Sorensen (24602)
+G-20590,2026-08-05,21233,Marguerite Osei,Individual,H-21233,Soft,50.00,Posted,Online,Soft credit; hard credit Marcus Bell (24603)
+G-20254,2024-11-22,21540,Erik Lindqvist,Individual,H-21540,Hard,300.00,Posted,Check,"Joint account check #2210, split between spouses"
+G-20436,2025-12-19,21540,Erik Lindqvist,Individual,H-21540,Hard,500.00,Posted,Check,"Joint account check #2388, split between spouses"
+G-20261,2024-11-22,21541,Annika Lindqvist,Individual,H-21540,Hard,300.00,Posted,Check,"Joint account check #2210, split between spouses"
+G-20443,2025-12-19,21541,Annika Lindqvist,Individual,H-21540,Hard,500.00,Posted,Check,"Joint account check #2388, split between spouses"
+G-20184,2024-03-11,21877,Theodore Blackwood,Individual,H-21877,Hard,250.00,Posted,Check,Spring appeal
+G-20331,2025-04-02,21877,Theodore Blackwood,Individual,H-21877,Hard,250.00,Posted,Check,Spring appeal
+G-20492,2026-03-28,21877,Theodore Blackwood,Individual,H-21877,Hard,300.00,Posted,Check,Spring appeal
+G-20464,2026-01-15,22019,Rosalind Ng,Individual,H-22019,Hard,75.00,Posted,Online,Winter exhibition
+G-20219,2024-09-10,22340,Amara Okonjo,Individual,H-22340,Hard,1000.00,Posted,Stock,Gallery circle
+G-20401,2025-09-08,22340,Amara Okonjo,Individual,H-22340,Hard,1000.00,Posted,Stock,Gallery circle
+G-20135,2022-12-01,22581,Felipe Arriaga,Individual,H-22581,Hard,50.00,Posted,Online,Giving Tuesday
+G-20527,2026-05-22,22581,Felipe Arriaga,Individual,H-22581,Hard,100.00,Posted,Online,Spring appeal
+G-20366,2025-06-20,22713,Henrietta Vance,Individual,H-22713,Hard,200.00,Posted,Check,Spring appeal
+G-20471,2026-02-27,22713,Henrietta Vance,Individual,H-22713,Hard,200.00,Posted,Check,Winter exhibition
+G-20289,2024-12-30,22901,Benjamin Hartwell,Individual,H-22901,Hard,2500.00,Posted,Check,Year-end appeal
+G-20450,2025-12-29,22902,Clara Hartwell,Individual,H-22901,Hard,2500.00,Posted,Check,Year-end appeal
+G-20296,2025-01-20,23105,Ruth Achebe,Individual,H-23105,Hard,300.00,Posted,Online,Year-end appeal
+G-20478,2026-03-15,23105,Ruth Achebe,Individual,H-23105,Hard,300.00,Posted,Online,Spring appeal
+G-20618,2026-08-28,23106,Daniel Achebe,Individual,H-23105,Hard,300.00,Posted,Online,Summer camp scholarship drive
+G-20240,2024-10-03,23310,Hector Villanueva,Individual,H-23310,Hard,100.00,Posted,Check,Fall appeal
+G-20408,2025-10-01,23310,Hector Villanueva,Individual,H-23310,Hard,100.00,Posted,Check,Fall appeal
+G-20541,2026-07-01,23310,Hector Villanueva,Individual,H-23310,Hard,100.00,Posted,Online,Summer camp scholarship drive
+G-20352,2025-05-05,23498,Wilhelmina Castro,Individual,H-23498,Hard,1000.00,Posted,Check,Gallery circle
+G-20513,2026-05-04,23498,Wilhelmina Castro,Individual,H-23498,Hard,1000.00,Posted,Check,Gallery circle
+G-20632,2026-09-02,23498,Wilhelmina Castro,Individual,H-23498,Hard,500.00,Posted,Check,Gallery circle
+G-20212,2024-08-15,23655,Jerome Fairbanks,Individual,H-23655,Hard,250.00,Posted,Online,Summer concert series
+G-20226,2024-09-30,23655,Jerome Fairbanks,Individual,H-23655,Soft,250.00,Posted,Check,Soft credit; hard credit Northgate Systems (30012)
+G-20394,2025-08-14,23655,Jerome Fairbanks,Individual,H-23655,Hard,250.00,Posted,Online,Summer concert series
+G-20604,2026-08-13,23655,Jerome Fairbanks,Individual,H-23655,Hard,250.00,Posted,Online,Summer concert series
+G-20457,2026-01-09,23802,Naomi Brandt-Ellis,Individual,H-23802,Hard,500.00,Posted,Online,Winter exhibition
+G-20548,2026-07-14,23802,Naomi Brandt-Ellis,Individual,H-23802,Hard,500.00,Posted,Online,Summer camp scholarship drive
+G-20359,2025-06-12,23977,Oliver Quintero,Individual,H-23977,Hard,100.00,Posted,Online,Spring appeal
+G-20380,2025-07-02,23977,Oliver Quintero,Individual,H-23977,Hard,100.00,Posted,Online,Summer concert series
+G-20562,2026-07-28,23977,Oliver Quintero,Individual,H-23977,Hard,100.00,Posted,Online,Summer concert series
+G-20156,2023-10-31,24130,Priscilla Adeyemi,Individual,H-24130,Hard,200.00,Posted,Check,Fall appeal
+G-20247,2024-10-30,24130,Priscilla Adeyemi,Individual,H-24130,Hard,200.00,Posted,Check,Fall appeal
+G-20415,2025-10-29,24130,Priscilla Adeyemi,Individual,H-24130,Hard,250.00,Posted,Check,Fall appeal
+G-20639,2026-09-10,24130,Priscilla Adeyemi,Individual,H-24130,Hard,250.00,Posted,Check,Fall appeal
+G-20576,2026-08-02,24601,Tobias Grant,Individual,H-24601,Hard,100.00,Posted,Online,Via Marguerite Osei's birthday fundraiser page
+G-20583,2026-08-03,24602,Elena Sorensen,Individual,H-24602,Hard,250.00,Posted,Online,Via Marguerite Osei's birthday fundraiser page
+G-20590,2026-08-05,24603,Marcus Bell,Individual,H-24603,Hard,50.00,Posted,Online,Via Marguerite Osei's birthday fundraiser page
+G-20163,2023-11-15,24750,Gwendolyn Price,Individual,H-24750,Hard,150.00,Posted,Check,Year-end appeal
+G-20569,2026-07-30,24750,Gwendolyn Price,Individual,H-24750,Hard,150.00,Posted,Check,Summer camp scholarship drive
+G-20191,2024-04-18,25012,Lorraine Abernathy,Individual,H-25012,Hard,500.00,Posted,Online,Spring appeal
+G-20345,2025-04-17,25012,Lorraine Abernathy,Individual,H-25012,Hard,500.00,Posted,Online,Spring appeal
+G-20506,2026-04-16,25012,Lorraine Abernathy,Individual,H-25012,Hard,500.00,Refunded,Online,Refunded 2026-04-21 at donor request
+G-20107,2019-11-04,25230,Walter Pruitt,Individual,H-25230,Hard,100.00,Posted,Check,Fall appeal
+G-20121,2020-08-18,25230,Walter Pruitt,Individual,H-25230,Hard,100.00,Posted,Check,Summer concert series
+G-20149,2023-02-10,25377,Sylvia Marchetti,Individual,H-25377,Hard,75.00,Posted,Online,Valentine concert
+G-20205,2024-07-08,25544,Raymond Osterberg,Individual,H-25544,Hard,1000.00,Posted,Check,Summer concert series
+G-20128,2021-12-20,25690,Imani Clarke,Individual,H-25690,Hard,200.00,Posted,Check,Year-end appeal
+G-20198,2024-05-01,25691,Desmond Clarke,Individual,H-25690,Hard,100.00,Posted,Online,Spring appeal
+G-20100,2019-03-03,25950,Ingrid Solberg,Individual,H-25950,Hard,500.00,Posted,Check,Spring appeal
+G-20114,2020-05-02,25950,Ingrid Solberg,Individual,H-25950,Hard,500.00,Posted,Check,Spring appeal
+G-20324,2025-03-20,26105,Agnes Thibodeaux,Individual,H-26105,Hard,50.00,Posted,Cash,Spring open studio
+G-20485,2026-03-19,26105,Agnes Thibodeaux,Individual,H-26105,Hard,50.00,Posted,Cash,Spring open studio
+G-20611,2026-08-20,26105,Agnes Thibodeaux,Individual,H-26105,Hard,50.00,Posted,Cash,Summer camp scholarship drive
+G-20282,2024-12-15,26240,Bernard Okwuosa,Individual,H-26240,Hard,100.00,Posted,Online,Year-end appeal
+G-20625,2026-08-30,26240,Bernard Okwuosa,Individual,H-26240,Hard,100.00,Posted,Online,Summer camp scholarship drive
+G-20142,2023-01-25,26511,Leopold Harrington,Individual,H-26511,Hard,100.00,Posted,Check,Year-end appeal
+G-20310,2025-02-28,26511,Leopold Harrington,Individual,H-26511,Hard,100.00,Posted,Check,Winter exhibition
+G-20268,2024-12-03,26670,Yvette Marchand,Individual,H-26670,Hard,40.00,Posted,Online,Giving Tuesday
+G-20373,2025-06-30,26802,Samir Haddad,Individual,H-26802,Hard,500.00,Posted,Check,Joint account check #1041; spouse soft credit
+G-20373,2025-06-30,26803,Leila Haddad,Individual,H-26802,Soft,500.00,Posted,Check,Soft credit; hard credit Samir Haddad (26802)
+G-20338,2025-04-11,26944,Imogen Faraday,Individual,H-26944,Hard,250.00,Posted,Online,Spring appeal
+G-20226,2024-09-30,30012,Northgate Systems,Organization,,Hard,250.00,Posted,Check,Matching gift for employee Jerome Fairbanks (his gift of 2024-08-15)
+G-20387,2025-07-20,30012,Northgate Systems,Organization,,Hard,500.00,Posted,Check,Matching gift for employee Dana Whitfield (her gift of 2025-03-02)
+G-20597,2026-08-12,30012,Northgate Systems,Organization,,Hard,500.00,Posted,Check,Matching gift for employee Dana Whitfield (her gift of 2025-11-18)
+G-20520,2026-05-15,30155,Thistlewood Family Foundation,Organization,,Hard,10000.00,Posted,Check,Grant: Youth Arts Access
+G-20177,2024-02-10,30278,Sourwood Garden Club,Organization,,Hard,300.00,Posted,Check,Club gift
+G-20233,2024-10-01,30341,Ferncliff Brewing Co.,Organization,,Hard,1500.00,Posted,Check,Corporate gift

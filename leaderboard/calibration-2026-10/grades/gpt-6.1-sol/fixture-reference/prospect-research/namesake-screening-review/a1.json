@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "d47845c1e890c897",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly marks hit 1 as “Accept” for David A. Miller at 412 Orchard Hill Rd, Granville. It names four matching identifiers: “Full name with middle initial,” the address, “spouse Karen L. Miller,” and “age 61,” exceeding the required two."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly marks hit 2, David A. Miller of 2290 Tremont Rd, Upper Arlington, as “Reject.” It lists conflicting identifiers: “Spouse Jennifer S. Miller (ours is Karen L.); age 47 (ours is 60–61); different address,” and reinforces that nothing from hit 2 should be appended to the donor’s record."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly marks hit 3, “David Miller, 77 Pearl St, Apt 3, Granville,” as “Reject.” It gives “Age 29; different address” as conflicts and also notes “no middle initial on the hit,” satisfying the required rejection rationale."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly marks hit 4 as “Accept,” matching the full name, “mailing address 412 Orchard Hill Rd,” and “co-owner Karen L. Miller.” It also includes “118 Shore Dr, Marblehead — $390,000” under real estate owned today and incorporates it into the prospect’s real-estate total."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly excludes “9 Elm Ct, Newark ($285,000)” because it was “Sold: deed recorded 2026-06-30 to Ravi K. Patel.” Its current real estate calculation includes only Orchard Hill Rd and Shore Dr, so it does not count 9 Elm Ct as owned today."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo lists 412 Orchard Hill Rd at $845,000 and 118 Shore Dr at $390,000, then states “Total $1,235,000 × 5% = $61,750.” It explicitly excludes 9 Elm Ct as sold and 2290 Tremont Rd as belonging to a different David A. Miller, with no contradictory real-estate total elsewhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly counts securities as \"$0\" and states that the \"410,000 Scioto Biologics shares on a Form 4, reported at $18,900,000\" belong to rejected hit 2. It also excludes those shares as belonging to \"a different David A. Miller,\" and nowhere attributes a securities holding to the prospect."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly excludes the Ohio State University $250,000 gift, stating it was \"Given by David A. Miller and Jennifer S. Miller of Upper Arlington — the hit 2 namesake, not our donor.\" It uses the $15,000 Granville Public Library Foundation gift as the largest documented gift in the capacity calculation, not the Ohio State gift."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Granville Public Library Foundation, 2024 — $15,000” as the largest documented gift and calculates “3 × $15,000 = $45,000.” It excludes the Denison and Ohio State gifts and does not use the Licking Memorial listing as the largest gift, satisfying the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly lists “Denison University, $20,000 (2019)” under “Records excluded” and states “Outside the five-year window (before 2021-09-14); it also matches on name alone.” The gift is not used in the capacity calculation, satisfying the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states that the Licking Memorial Health Foundation listing is \"listed in the $10,000–$24,999 band; counted at the bottom of the range, $10,000.\" This meets the criterion, and the memo does not assign that gift any higher value elsewhere."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states “Capacity = $61,750 + $0 + $45,000 = $106,750,” matching both the required total and its components. It does not give a different capacity result or substitute a range for the figure."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly assigns rating “C — $100,000 to $249,999” in its Rating section. This matches the required rating and range, and no contradictory rating appears elsewhere."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo lists “118 Shore Dr, Marblehead — $390,000, owned by David A. & Karen L. Miller [documents/county-records.md].” It therefore cites the required county-records file directly where it gives the property's value and ownership."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The memo attributes the Orchard Hill and Shore Drive properties and the documented library, health foundation, and museum gifts to the prospect, all supported by the files. It explicitly excludes the other person's assets and gift: “Hit 2's — a different David A. Miller” and “the hit 2 namesake, not our donor.” No unsupported personal asset, gift, income, or net-worth figure is attributed to constituent 100482; the capacity figures are calculations from sourced amounts."
+    }
+  ],
+  "costUsd": 0.021254500000000003,
+  "usage": {
+    "inputTokens": 24642,
+    "cachedInputTokens": 21670,
+    "outputTokens": 1168
+  },
+  "gradedAt": "2026-10-10T14:04:04.643Z"
+}

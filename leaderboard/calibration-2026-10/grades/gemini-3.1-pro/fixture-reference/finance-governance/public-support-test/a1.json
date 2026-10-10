@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the five-year total support. In the Part II computation table, it lists line 11, column (f) as \"3,671,600\", which matches the required figure and correctly sums the contributions and grants ($3,590,300) with interest and dividends ($81,300)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly places the $454,400 of program service revenue on line 12 and states in the 'What is left out, and why' section that these items 'are not part of public support or total support.' It also correctly identifies the Kettle County contract as a fee for services rather than a government grant."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes the gain, noting in the 'What is left out, and why' section: 'Realized gain on the March 2024 sale of securities, $182,000 — a gain on the sale of a capital asset, which is excluded from total support.' It correctly leaves line 10 blank and subtracts the $182,000 during the reconciliation to total support."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the 2% limit, stating 'Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432.'"
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes all $50,000 of Benedict Sarkis's gifts as public support. In the table detailing the treatment of funders, it notes that his gifts are \"Under the limit. His $35,000 gift in 2023 was more than 2% of that year's support, but the test runs on his five-year total, which is below $73,432.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's table of funders explicitly lists the Upper Alder Community Foundation ($135,000) and the Oregon Department of Environmental Quality ($160,000) as \"Not limited.\" It correctly notes that grants from publicly supported organizations and government grants count in full, counting both entire amounts as public support with $0 excess."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly limits the Hollins-Pryor Family Foundation's grants to the 2% limit of $73,432, excluding the remaining $151,568. It explicitly states, '2% limit applies — a private foundation is not a publicly supported organization.'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the public support (line 6, column (f)) as $1,260,596, as shown in both the text and the Part II computation table."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in both the introductory text and the computation table (Line 14) that the public support percentage is 34.33%, which precisely matches the requirement."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly tells the treasurer the outcome in the first paragraph under 'The answer', stating, 'Yes — we pass the 33⅓% test for 2025, but narrowly.' It further confirms this by adding, 'We qualify as a publicly supported organization on line 16a without needing the facts-and-circumstances test.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the margin is narrow, noting that the 34.33% result is \"about one percentage point above the 33⅓% line\" and that public support is \"$36,729 more than one-third of total support ($1,223,867).\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that \"No contribution has been treated as an unusual grant\" and does not exclude or suggest excluding any gifts as such, noting that none qualify."
+    }
+  ],
+  "costUsd": 0.11775800000000002,
+  "usage": {
+    "inputTokens": 33643,
+    "cachedInputTokens": 0,
+    "outputTokens": 4206
+  },
+  "gradedAt": "2026-10-10T13:59:08.580Z"
+}

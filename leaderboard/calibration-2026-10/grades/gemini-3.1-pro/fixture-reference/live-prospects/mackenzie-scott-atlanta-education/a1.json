@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report correctly identifies her as a \"novelist and philanthropist\" who \"married Jeff Bezos in 1993, and they divorced in 2019.\" It also explicitly states she \"holds no Amazon position today,\" avoiding any of the fail conditions."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report correctly identifies the source of her wealth as the 2019 divorce settlement, specifying that she received '25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company'. It also provides several dated figures for her current holdings and net worth, such as '81,082,131 Amazon shares as of September 30, 2025' and Bloomberg's net worth estimate 'on April 18, 2026'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states her latest disclosed holding as '81,082,131 Amazon shares as of September 30, 2025, about 0.76% of the company.' It also provides a current net worth range of '$34-43 billion', which falls within the permitted $25 billion to $45 billion range. Historical holdings are clearly presented as how the stake has shrunk over time."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states in Section 3 that her cumulative giving is 'over $26 billion in more than 2,700 gifts since 2019' and also mentions the AP figure of $26.3 billion, which falls within the required range."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in Section 4 that Scott's 'small internal team and a large network of advisors do quiet research' to choose recipients, whom they then contact. It explicitly notes that 'she does not accept applications or unsolicited proposals,' satisfying the criterion perfectly."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly advises against any outreach, stating, 'Do not solicit Scott, Yield Giving or her advisors. Do not send a letter, proposal or introduction, and do not ask a board member or peer to forward materials.' It only recommends preparing for potential contact from her team."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states that the Yield Giving Open Call launched in March 2023 and gave '$640 million to 361 organizations' in March 2024. It explicitly confirms that 'It is completed, and no open call is accepting applications.'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states under the 'Cause areas and giving philosophy' section that Scott's gifts are 'Unrestricted, no strings' and 'made \"for use however they choose\"'. It also notes that there are no reporting requirements and labels several specific gifts as unrestricted in the giving history table."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly lists the November 2025 gifts of $38 million to both Spelman College and Clark Atlanta University. It also correctly lists the 2020 gifts for Spelman ($20 million), Clark Atlanta ($15 million), and Morehouse ($20 million), explicitly noting for Morehouse that there has been 'no gift since' 2020."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable successfully names several documented gifts to Atlanta education nonprofits that are not colleges with correct amounts, including Achieve Atlanta ($8 million), Southern Education Foundation ($6 million), Communities in Schools of Atlanta ($4 million), and GEEARS ($3 million). It also correctly lists KIPP Metro Atlanta Schools and Sheltering Arms Early Education & Family Centers with the note 'amounts not disclosed'."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in Section 1 that she married Dan Jewett in 2021, filed for divorce in September 2022, that the divorce was finalized in January 2023, and that she is not married today."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "In Section 6, the deliverable explicitly lists all four required indicators under the strategy to 'Be findable and fundable', stating the organization needs 'stable finances', 'a multi-year track record', 'measurement and evidence of outcomes', and 'experienced leadership representative of the community it serves.'"
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable accurately reports all facts provided in the reference fact sheet, including biographical dates, precise financial figures (such as the 81,082,131 Amazon shares as of September 2025), and specific gift amounts to Georgia education nonprofits. No factual claims contradict the provided ground truth."
+    }
+  ],
+  "costUsd": 0.177766,
+  "usage": {
+    "inputTokens": 57773,
+    "cachedInputTokens": 0,
+    "outputTokens": 5185
+  },
+  "gradedAt": "2026-10-10T14:03:36.242Z"
+}

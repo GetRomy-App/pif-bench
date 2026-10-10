@@ -1,0 +1,67 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the summary table and the detailed section that the deductible amount for P-01 (Marcus and Leah Whitfield) is $420, calculated as the $750 payment minus the $330 value of two seats (2 x $165)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the P-01 section that the acknowledgment must describe the 'two gala seats (dinner, open bar, live band)', provide 'a good-faith estimated value of $330', and include the disclosure 'statement that the deductible amount is limited to the excess of the payment over the value of the goods and services provided'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the value of the goods and services for P-02 as $2,050, explicitly showing the math for the 10 seats at $165 and the VIP reception for 10 at $40. It also correctly states that the name on the program's sponsor page and stage signage carries no value."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states for P-02 that the deductible amount is $7,950, calculated as $10,000 minus $2,050. It also specifies the necessary CRM correction, instructing to change the receipt amount from $6,250 to $7,950, meeting all conditions of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states that Ruth Abernathy's deductible amount is $375 because she declined her seat in writing on the reply card. It requires the acknowledgment to state 'No goods or services were provided in exchange for your contribution' and instructs the user to change the CRM benefit from $165 to $0 and the receipt amount from $210 to $375."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states a deductible amount of $420 for P-04, requires the acknowledgment to mention the two seats valued at $330 and the quid pro quo disclosure, and rejects the pending change because the seats were reserved and the unused benefit does not increase the deduction."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review states the deductible amount for P-05 is $200 and explicitly notes that the '$100 bought five raffle tickets... which are not a charitable contribution and are not deductible.' It also instructs to split the payment so the acknowledgment only shows the $200 gift as a deductible contribution, satisfying the criterion completely."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Harriet Lindgren's deductible amount as $1,500 and notes that the seat she occupied belonged to the sponsor's table, so it should not be deducted from her gift. It also explicitly states that the acknowledgment must say 'No goods or services were provided in exchange for your contribution.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The review correctly sets the deductible amount for P-07 at $60 and explicitly notes that he receives an acknowledgment stating 'No goods or services were provided in exchange for your contribution'. It does not claim he needs no acknowledgment for being under the threshold."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the deductible amount for P-08 as $30. It also explicitly states that the acknowledgment must include the §6115 disclosure sentence with the $165 good-faith estimate, noting it is 'required because her payment is more than $75, even though the deductible part is only $30.'"
+    }
+  ],
+  "costUsd": 0.10907400000000002,
+  "usage": {
+    "inputTokens": 32763,
+    "cachedInputTokens": 0,
+    "outputTokens": 3629
+  },
+  "gradedAt": "2026-10-10T13:59:38.122Z"
+}

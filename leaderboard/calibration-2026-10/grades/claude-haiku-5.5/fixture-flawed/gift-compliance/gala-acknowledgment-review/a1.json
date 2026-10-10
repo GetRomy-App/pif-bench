@@ -1,0 +1,67 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable's summary table and the P-01 section both give the Whitfields a deductible amount of $420, computed as $750 − 2 × $165 ($330) for the two seats. This matches the criterion exactly, and the deliverable does not contradict it elsewhere."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable's P-01 section states the acknowledgment must include 'two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330' and 'the §6115 statement that the deductible amount is limited to the excess of the payment over the value of the goods and services provided.' This matches all three required elements: description of seats with dinner, bar and entertainment, the $330 estimate, and the limitation statement. It does not say no disclosure is needed or that no goods were provided to the Whitfields."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable values P-02's goods and services at $3,750 ('the table of 10 at the $375 ticket price, as Dana entered it') and states 'Deductible amount: $6,250', which is the CRM figure the criterion explicitly names as a FAIL case. It does not use the required $2,050 (10 × $165 plus 10 × $40), and it also marks the CRM entry as 'Correct'. The program and signage listing is correctly given no value, but that does not offset the wrong valuation."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires P-02's deductible amount to be $7,950 (based on $2,050 in goods/services) and a CRM correction. The deliverable gives P-02 a deductible amount of $6,250 (goods and services $3,750, table of 10 at $375), and explicitly says the P-02 CRM entry is 'correct as entered.' This matches the FAIL condition of giving the CRM's $6,250 figure and approving P-02 as entered."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-03 (Ruth Abernathy, $375) a deductible amount of $375 and explains she checked \"I will not attend. Please do not reserve a seat for me\" on the reply card, with no seat reserved, so no goods or services were provided. Its must-state list includes \"No goods or services were provided in exchange for your contribution,\" and its must-not-state list excludes any seat value and the quid pro quo disclosure. The CRM correction explicitly moves the benefit from $165 to $0 and the receipt amount from $210 to $375, so the criterion's FAIL conditions are not met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The criterion requires P-04 to have a deductible amount of $420, with the seats described at $330 and the quid pro quo disclosure retained, and rejection of Dana's pending change. The deliverable instead gives P-04 a deductible amount of $750, states 'No goods or services were provided,' and says 'Approve pending change' to benefit $0, GALA-GIFT, and $750 receipt amount. It also treats the non-attendance as making the payment a donation ('Greg has asked that the payment be treated as a donation'). This hits multiple FAIL conditions: approving the pending change, a deductible amount other than $420, and characterizing non-attendance as a gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable gives P-05 a deductible amount of $200 for the gift, with 'for which nothing was provided', and states the $100 raffle purchase is 'not a charitable contribution and are not deductible (policy §3.3)'. Its 'Must not state' rules out a $300 gift or any deductible amount for raffle tickets, and the CRM correction splits the payment so the raffle sale carries no receipt amount. This meets the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The criterion requires P-06 to get a deductible amount of $1,500 with no goods or services stated, and FAIL if reduced (e.g., to $1,335) or if the acknowledgment must describe a seat. The deliverable gives P-06 a deductible amount of $1,335 = $1,500 − $165, states her acknowledgment must describe one gala seat at $165, and calls for a CRM benefit change to $165. This directly hits both FAIL conditions."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable's P-07 entry gives 'Deductible amount: $60' and states that the acknowledgment must state 'No goods or services were provided in exchange for your contribution' and 'Your deductible contribution is $60.' It also explicitly says 'He gets an acknowledgment like every donor (policy §2.1),' so it does not claim he needs no acknowledgment under a $75 or $250 threshold."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The criterion requires P-08 to have a $30 deductible (correct in the deliverable) AND to state that the quid pro quo disclosure with the $165 estimate is required because the payment exceeds $75. The deliverable explicitly says \"The §6115 disclosure sentence is not needed: the deductible portion is only $30, under the $75 threshold,\" which is the exact FAIL condition. The deliverable therefore fails this criterion despite the correct $30 figure."
+    }
+  ],
+  "costUsd": 0.001903585,
+  "usage": {
+    "inputTokens": 35813,
+    "cachedInputTokens": 30096,
+    "outputTokens": 1778
+  },
+  "gradedAt": "2026-10-10T13:57:45.190Z"
+}

@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review assigns P-01 a deductible amount of **$420**, calculated as “$750 − 2 × $165 ($330).” It therefore values the two seats at the required $330."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The P-01 section says the acknowledgment must describe “two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330” and include the §6115 statement limiting the deductible amount to the excess of the payment over the value of goods and services provided. It does not say no goods or services were provided or give a different estimate."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The review values P-02’s goods and services at “$3,750” based on the table of 10 at the $375 ticket price. The criterion requires $2,050 ($1,650 for seats plus $400 for the VIP reception), so the stated value fails."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The review gives P-02 a deductible amount of “$6,250” and says “CRM: correct as entered.” The criterion requires $7,950 and correction of the CRM’s $6,250 receipt amount."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review gives P-03 a deductible amount of $375 and says she declined in writing when she paid and that “no seat was reserved.” It requires the acknowledgment to state “No goods or services were provided in exchange for your contribution,” and corrects the CRM benefit from $165 to $0 and receipt amount from $210 to $375; it also says not to state a seat value or the quid pro quo disclosure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The review says P-04’s deductible amount is “$750” and instructs the approver to “approve Dana's pending change (benefit $0, GALA-GIFT, receipt amount $750).” It says the Tanakas received no goods or services because they did not attend, contrary to the criterion’s required $420 deduction and treatment of the reserved seats as a benefit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review gives P-05 a deductible amount of “$200” for the gift and says the “$100 bought five raffle tickets, which are not a charitable contribution and are not deductible.” It directs that the acknowledgment state a contribution of $200 and that the CRM split the raffle sale into a separate $100 entry with “no receipt amount,” so the raffle is not counted in her contribution."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The review gives P-06 a deductible amount of $1,335, stating it is reduced by the $165 seat value. It also says her acknowledgment must describe “one gala seat” with an estimated value of $165, so it fails the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "For P-07, the review states “Deductible amount: $60” and says the acknowledgment must state, “No goods or services were provided in exchange for your contribution.” It also explicitly says he gets an acknowledgment, so it does not trigger either failure condition."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The review correctly gives P-08 a deductible amount of $30, stating “$195 − $165.” However, it says “The §6115 disclosure sentence is not needed: the deductible portion is only $30, under the $75 threshold,” directly matching the criterion’s failure condition."
+    }
+  ],
+  "costUsd": 0.003442625,
+  "usage": {
+    "inputTokens": 23927,
+    "cachedInputTokens": 0,
+    "outputTokens": 905
+  },
+  "gradedAt": "2026-10-10T13:57:46.111Z"
+}

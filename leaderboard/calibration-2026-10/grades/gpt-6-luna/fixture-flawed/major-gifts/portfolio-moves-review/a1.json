@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "3d82b54985906e42",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review identifies “Harold Penwick (20533) — Deceased” and states that “Harold died on 2026-07-19.” It reports him under “Deceased only,” with removal from the portfolio as a next action, and does not count him as a stalled solicitation or contact gap."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The review recommends confirming the deceased flag, closing the $100,000 ask, suppressing mailings and invitations, and removing Harold from the portfolio. It explicitly says, “No follow-up of the ask with the family or estate,” and leaves any outreach to Margaret about the bequest to the Director’s decision, as permitted."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The review identifies “Dr. Anita Mehta and Raj Mehta (20588) — Assignment conflict” and says the register lists Marisol Vega and Theo Brandt as two primary officers. It refers the decision to Priya: “you designate one primary officer.” It also labels Raymond Tsai an assignment conflict, which the criterion explicitly says makes the review fail."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The review lists Lorraine Whitfield under “Contact gap” and says her “last substantive contact” was the 2026-05-20 thank-you visit, 118 days ago. It explicitly says the July newsletter, August acknowledgment letter, and Twilight Tour attendance are not substantive."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The review lists Thomas and Ingrid Brightwater among those “In standard” and says their “Phone conversation with Thomas 2026-07-21” met the contact standard. It therefore treats the Brightwaters as meeting the contact standard and counts the call, contrary to the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The review lists Fitch as out of standard under “Contact gap” and states, “No substantive contact on record.” It identifies the introductory letter, unanswered email, voicemail, and unanswered emailed invitation, explicitly noting that the invitation does not count as substantive."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review lists Miriam Feld among the prospects “In standard” and states that “The 2026-08-31 email exchange, in which she replied and set a call for October 6, is substantive.” It does not report her as having a contact gap or being out of standard."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The summary lists exactly two prospects as “Qualification overdue”: Fitch and Dubose. The review says Fitch was “Assigned 2026-01-26 and still in Qualification” and Dubose was “Assigned 2025-12-01 and still in Qualification,” both beyond six months; Constance Ivers is listed as in standard."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The review reports exactly two prospects as over the cultivation limit: Beatrice Langford, “in Cultivation since 2024-11-18,” and Patricia and Leon Marchetti, “In Cultivation since 2025-02-03.” It lists the Brightwaters and Whitcombes as in standard, not over the limit."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The review reports Ashby and Achterberg as stalled, but also lists Samuel Ortega under “Stalled solicitation.” The criterion requires exactly Ashby and Achterberg and explicitly says reporting Ortega as stalled fails."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The review recognizes that Dubose’s discovery visit took place on 2026-07-09 and that Marisol recommended moving him to Cultivation. However, his next action is to “schedule a qualification visit within 30 days,” which the criterion explicitly says fails."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The review reports “Contact gap | 4,” “Stalled solicitation | 3,” “Assignment conflict | 2,” and “11 of 16 prospects are out of standard.” These differ from the required counts of 5, 2, 1, and 10 respectively, so the criterion is not satisfied."
+    }
+  ],
+  "costUsd": 0.004271975,
+  "usage": {
+    "inputTokens": 30331,
+    "cachedInputTokens": 0,
+    "outputTokens": 963
+  },
+  "gradedAt": "2026-10-10T13:58:21.547Z"
+}

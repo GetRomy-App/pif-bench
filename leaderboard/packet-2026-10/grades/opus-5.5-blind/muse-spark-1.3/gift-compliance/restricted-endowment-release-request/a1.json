@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "muse-spark-1.3",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "0c9e90264115610a",
+  "deliverableHash": "e39ba44bf4670c86",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The Board cannot vote to 'move it into general operations' — whole fund or otherwise\" and \"Neither restricted fund can be voted into general operations on October 21.\" It ties any release to UPMIFA routes, not a board vote."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies \"(a) Donor consent. An institution may release or modify a restriction if the donor consents in a record\" as a route for the Ruiz fund. It is uncertain whether covering the deficit counts as a charitable purpose (\"The files do not answer those points\") but never says consent cannot authorize general-operations use. On the criterion's literal text the route is identified and not ruled out for operations, so this passes."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states that §6(d) \"The Ruiz fund fails the first two tests: $512,860 at August 31, 2026 and established in 2017\"."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Under (c), the memo explains that a court may modify the purpose only if it \"becomes unlawful, impracticable, impossible to achieve, or wasteful\", with AG notice. It notes \"The ADN purpose is being achieved — the program is active and enrolling\" and \"a budget shortfall at the institution does not, by itself, make a fund's purpose impracticable or impossible.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states \"all distributions, and all investment return, are subject to that purpose\". It says the Board cannot vote to use \"this year's earnings and distribution\" for operations, because \"The FY2027 distribution must go to ADN scholarships only.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo computes \"Average: $5,930,200 / 12 = $494,183.33; 4% = **$19,767.33**\" from the twelve quarter-ends 2023-09-30 to 2026-06-30. It adds that the amount \"may be spent only for ADN scholarships.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states the change-in-circumstances clause \"is therefore not triggered\" because the ADN program is active, \"and even if it were, it permits only health-sciences scholarships, not general operations.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "On Joan's $180,000 loan the memo answers \"No.\", quoting Policy 4.2 that donor-restricted endowment assets \"may not be lent to, borrowed by, pledged for ... whatever the term or rate of the loan\". It adds \"Interest and repayment do not cure the breach.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo concludes §6(d) \"appears to fit\" the Calloway fund. It gives all three reasons: \"total value $18,420 (less than $25,000); established May 26, 1994 (more than 20 years before 2026); and the Secretarial Studies purpose can no longer be achieved\", the certificate having closed on June 30, 2011."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states \"If counsel sends the Attorney General notification on October 5 under §6(d), the 60-day period runs to **December 4, 2026** ... The fund cannot be released or reused before that date expires\". It also says the October 21 board should defer the release until after December 4."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states the property must be used \"in a manner consistent with the charitable purposes expressed in the gift instrument\" and offers Office Administration (A.A.S.) as an example. It says \"Folding the money into general operations ... does not on its face satisfy that consistency requirement\" and that \"it could not be spent as general operations.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the \"$240,000 Operating Reserve\" as \"**board-designated (unrestricted)**\", which the Board can use \"by majority vote of the full Board, with no donor consent and no Attorney General notice\". It recommends releasing it on October 21 to close the gap."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every rule, threshold, date and value the memo states traces to the files or follows by arithmetic: the $25,000 and 20-year thresholds, the 60-day notice, Calloway's death in 2002 with no successor, the ADN enrollment, the $240,000 reserve and resolution 2019-07. The memo flags gaps such as donor contact and court timelines as unknown rather than inventing them."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.413Z"
+}

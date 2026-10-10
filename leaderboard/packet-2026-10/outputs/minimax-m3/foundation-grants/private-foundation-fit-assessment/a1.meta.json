@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "promptHash": "471655d0c380ce62",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 5982,
+  "outputTokens": 21777,
+  "costUsd": 0.0278694,
+  "latencyMs": 102095,
+  "createdAt": "2026-10-10T18:28:58.824Z"
+}

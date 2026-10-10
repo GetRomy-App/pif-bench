@@ -1,0 +1,74 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "8f85076c8112911f",
+  "deliverableHash": "401d39fa905c6368",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo identifies that Desai's $250 gift \"was entered twice\", as G-41817 imported from PayBridge transaction pbt_7Q6M77 and as G-41822 entered manually on 2026-07-16. It directs \"Delete the later-entered posting (G-41822) and keep the posting tied to the source (G-41817)\" and reduces the total by $250."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo states the gift \"was keyed into the CRM for $15,000.00, but the source check (#4410, deposit RDC-0710-1) was written for $1,500.00\". It directs \"Edit G-41809 to change the amount to $1,500.00\", a $13,500 reduction."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "For G-41809 the memo directs \"Void the acknowledgment sent on 2026-07-13 and send a corrected acknowledgment\"."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo identifies check #2231 ($500) as \"returned for insufficient funds (NSF) on 2026-07-16\". It directs \"Do not delete the original gift. Post a reversing adjustment (a negative gift for the full amount of −$500.00) dated 2026-07-16 in a July batch.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo identifies the postmark of 2026-06-30 and moves G-41803 \"from July batch B-2607-01 to the year-end batch B-2606-YE\". It never re-dates the gift to its 2026-06-30 postmark date, which the criterion's PASS text requires. The adjusting entry is silent on the gift date, so it is incomplete under the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo makes no adjustment to G-41802 (Doyle) or G-41804 (Ochieng). Both remain in the July batches, and its only fiscal-year move is the Lindgren gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo treats the fees only as a tie-out reconciling item: \"PayBridge processor fees (withheld from gross transactions)\". It does not call them an error, proposes no CRM entry for them, and keeps the card gifts at gross in the $17,130 corrected total."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The tie-out lists \"PayBridge processor fees ... −$77.87\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The $86.40 Valley Office Supply refund appears only as a \"Non-gift deposit\" reconciling item in the bank tie-out. It is not entered in the CRM or counted in the $17,130 corrected batch total."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Corrected July Batch Total: $17,130.00\", derived from $32,380.00 less $1,000, $13,500, $500 and $250."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The tie-out runs from $17,130.00, adding the $1,000 Lindgren gift, the $500 reversal and the $86.40 refund, and subtracting the $77.87 fees, the $500 NSF debit and the $15 fee. The result is \"Net Bank Deposits: $18,123.53\", which the memo says \"ties exactly\" to the bank detail. All three required reconciling items are present and no unexplained difference remains."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.804Z"
+}

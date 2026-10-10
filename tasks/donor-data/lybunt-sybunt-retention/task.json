@@ -1,0 +1,88 @@
+{
+  "title": "Count LYBUNT and SYBUNT households and compute donor retention early in a new fiscal year",
+  "track": "packet",
+  "work_type": "calculate",
+  "as_of": "2026-09-15",
+  "tags": ["donor-data", "lybunt", "sybunt", "donor-retention", "crediting-rules", "fiscal-year"],
+  "instructions": "The development committee meets September 24 and wants our LYBUNT and SYBUNT numbers before the fall appeal goes out, along with our donor retention rate. Using the attached gift history and our metrics definitions, give me the LYBUNT and SYBUNT counts with the names on each list, and the retention rate to one decimal place. Show your method so the committee can follow how each number was reached. — Malcolm Reyes, Director of Annual Giving",
+  "deliverable": "lybunt-sybunt-retention-report.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "LYBUNT count is 11 households",
+      "match_criteria": "PASS if the report's LYBUNT count is 11 (households). FAIL if it gives any other LYBUNT count — such as 9 (soft credits counted as gifts), 12 (organizations counted), 13 (spouses' records counted separately) or 10 — or gives no count."
+    },
+    {
+      "id": "C-002",
+      "title": "SYBUNT count is 9 households",
+      "match_criteria": "PASS if the report's SYBUNT count is 9 (households). FAIL if it gives any other SYBUNT count — such as 8 (a refunded gift counted, or the FY2021 gift left out of the window), 10 (a pre-FY2021 donor included) or 11 (organizations or spouses' records counted) — or gives no count."
+    },
+    {
+      "id": "C-003",
+      "title": "Retention rate is 68.2% (15 of 22 FY2025 households)",
+      "match_criteria": "PASS if the report gives a donor retention rate of 68.2%, computed as the 15 households that gave in both FY2025 and FY2026 out of the 22 households that gave in FY2025, and states that numerator and denominator. FAIL if it gives any other rate — such as 72.7% (16/22, the refunded gift counted), 65.2% (15/23, spouses counted separately), 66.7% (16/24, organizations counted) or 42.1% (8/19, FY2026 to the partial FY2027) — or does not state the numerator and denominator."
+    },
+    {
+      "id": "C-004",
+      "title": "Dana Whitfield is a LYBUNT — the Northgate match is the company's gift",
+      "match_criteria": "PASS if the report lists Dana Whitfield as a LYBUNT. FAIL if it leaves her off the LYBUNT list, for example by counting Northgate Systems' $500 matching gift of 2026-08-12 (her soft credit) as her FY2027 gift.",
+      "red_line": true
+    },
+    {
+      "id": "C-005",
+      "title": "Gregory Szabo is a LYBUNT — his FY2027 gift was refunded",
+      "match_criteria": "PASS if the report lists Gregory Szabo as a LYBUNT. FAIL if it leaves him off the LYBUNT list, for example by counting his $250 gift of 2026-07-20, which was refunded on 2026-07-22, as an FY2027 gift."
+    },
+    {
+      "id": "C-006",
+      "title": "Marguerite Osei is a LYBUNT — her fundraiser page's gifts are soft credits",
+      "match_criteria": "PASS if the report lists Marguerite Osei as a LYBUNT. FAIL if it leaves her off the LYBUNT list, for example by counting the $400 of soft credits from gifts to her birthday fundraiser page (August 2026) as her own FY2027 giving.",
+      "red_line": true
+    },
+    {
+      "id": "C-007",
+      "title": "Celeste Moreau is a LYBUNT — a June 30, 2026 gift is FY2026",
+      "match_criteria": "PASS if the report lists Celeste Moreau as a LYBUNT (her last gift, $250 on 2026-06-30, falls in FY2026). FAIL if it leaves her off the LYBUNT list, for example by treating a 2026 gift as giving 'this year'."
+    },
+    {
+      "id": "C-008",
+      "title": "The Achebe household is not a LYBUNT",
+      "match_criteria": "PASS if the report does not list Ruth Achebe or the Achebe household as a LYBUNT (Daniel Achebe, in the same household H-23105, gave $300 on 2026-08-28, in FY2027). FAIL if Ruth Achebe, Daniel Achebe or the Achebe household appears on the LYBUNT list."
+    },
+    {
+      "id": "C-009",
+      "title": "The Lindqvist household is one LYBUNT, not two",
+      "match_criteria": "PASS if the LYBUNT list includes the Lindqvist household (Erik and Annika Lindqvist) once, as a single household. FAIL if Erik and Annika Lindqvist are listed or counted as two LYBUNTs, or if the Lindqvists are missing from the LYBUNT list."
+    },
+    {
+      "id": "C-010",
+      "title": "The Hartwell household is a LYBUNT, and Benjamin is not a SYBUNT",
+      "match_criteria": "PASS if the report lists the Hartwell household (Benjamin and Clara Hartwell, or Clara Hartwell) as a LYBUNT and does not list Benjamin Hartwell as a SYBUNT. FAIL if Benjamin Hartwell appears on the SYBUNT list, or if the Hartwells are missing from the LYBUNT list."
+    },
+    {
+      "id": "C-011",
+      "title": "Lorraine Abernathy is a SYBUNT, not a LYBUNT",
+      "match_criteria": "PASS if the report lists Lorraine Abernathy as a SYBUNT and not as a LYBUNT (her only FY2026 gift, $500 on 2026-04-16, was refunded). FAIL if she appears on the LYBUNT list, or is missing from the SYBUNT list."
+    },
+    {
+      "id": "C-012",
+      "title": "Walter Pruitt is a SYBUNT — August 2020 is FY2021",
+      "match_criteria": "PASS if the report lists Walter Pruitt as a SYBUNT (his last gift, $100 on 2020-08-18, falls in FY2021, inside the FY2021–FY2025 window). FAIL if he is missing from the SYBUNT list or is treated as lapsed or outside the window."
+    },
+    {
+      "id": "C-013",
+      "title": "Ingrid Solberg is not a SYBUNT — her last gift was in FY2020",
+      "match_criteria": "PASS if the report does not list Ingrid Solberg as a SYBUNT or a LYBUNT (her last gift, 2020-05-02, falls in FY2020, before the window). FAIL if she appears on either list."
+    },
+    {
+      "id": "C-014",
+      "title": "The Haddad household is a SYBUNT, not a LYBUNT",
+      "match_criteria": "PASS if the report lists the Haddad household (Samir Haddad, with or without Leila Haddad) once as a SYBUNT and not as a LYBUNT (its only gift, $500 on 2025-06-30, falls in FY2025). FAIL if Samir or Leila Haddad appears on the LYBUNT list, if the household is missing from the SYBUNT list, or if Samir and Leila are counted as two SYBUNTs."
+    },
+    {
+      "id": "C-015",
+      "title": "Organizations are left out of every metric",
+      "match_criteria": "PASS if none of Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club or Ferncliff Brewing Co. appears on the LYBUNT or SYBUNT list or is counted in the retention numerator or denominator. FAIL if any of the four is listed or counted."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "promptHash": "06ebcc384b44ba6b",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 4611,
+  "outputTokens": 11357,
+  "costUsd": 0.046047,
+  "latencyMs": 57679,
+  "createdAt": "2026-10-10T18:26:23.728Z"
+}

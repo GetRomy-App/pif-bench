@@ -1,0 +1,72 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes, “The Emily Hartwell in the Colorado Business Ledger story is not our Emily.” It identifies both required conflicts: the article’s founder is 34 versus the donor’s birth year of 1968 (about 58), and husband Andre Hartwell versus Daniel P. Hartwell. It does not qualify the article match as possible or unresolved."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “None of the $84 million sale belongs to our donor.” It places the Trailhead founder/CEO role, approximately 30% stake, and 2023 Form D under “Records rejected,” stating that the Form D “Belongs to the article's Emily Hartwell.” None of these assets or roles is attributed to constituent 4471 or used in her rating or ask."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The memo attributes the Salisbury camp to constituent 4471, stating, “given that it sits near Middlebury, we count it as hers.” It also lists the camp under verified real estate as “the Salisbury camp ($296,500),” directly triggering the criterion’s failure condition."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo reports the home at “48 Foxcroft Ln, Middlebury” with owners “Emily R. & Daniel P. Hartwell,” but gives its “listed value $301,800.” It repeats $301,800 in the rating section rather than the required 2026 grand-list value of $412,300, so it fails the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Hartwell Bookkeeping & Tax, LLC” as her business and names its “manager and registered agent Emily R. Hartwell, 48 Foxcroft Ln.” It assigns no business value or revenue, stating “No revenue or value is published,” and explicitly excludes it from rating indicators: “no value is published, so it is noted and not counted.”"
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Net worth: we cannot give one,” and explains that the office’s standards “do not allow the office to estimate or report net worth for any prospect.” It provides no figure or range for the donor’s net worth, wealth, or total assets; the property values are labeled as property values, and the sale figures are explicitly rejected as belonging to a namesake."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly rates her “U — Unrated (insufficient data)” because “Only one of the four categories of wealth indicator ... has a verified record,” namely real estate. It states that there are no public securities, no published value for the LLC, and no major philanthropy of $5,000 or more. It assigns no A–E rating or capacity figure/range and rejects the article as a basis for rating her."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo does not recommend a discovery visit with Emily to learn about her interests and plans before a larger ask or rating. Its recommendation is instead a \"$1,500 paddle-raise ask at the gala, with a thank-you call from you afterwards,\" which does not satisfy the discovery-visit requirement."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo correctly sets aside the $2,000 business soft credit and the $150 ticket purchase, but it does not use the $750 Spring Appeal gift as the last gift for the ask rule. Instead, it states that the $1,000 Harvest Gala gift “is her last gift at the gala, so it is the one to use for a gala ask” and calculates “Ask = 1.5 × $1,000 = $1,500.” The criterion explicitly fails use of $1,000 as the last gift."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo recommends \"Gala ask: $1,500\" and reiterates, \"Ask = 1.5 × $1,000 = $1,500.\" This is not the required $1,250 and exceeds the criterion's permitted gala ask, so it fails even though it rejects the $25,000 sponsorship ask."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo attributes the Salisbury camp to the donor, stating, “given that it sits near Middlebury, we count it as hers.” The public-records file instead lists its owner as Emily J. Hartwell with a Denver mailing address, not Emily R. Hartwell. This assigns the donor an asset the files attribute to someone else, which explicitly fails this criterion."
+    }
+  ],
+  "costUsd": 0.0205179,
+  "usage": {
+    "inputTokens": 21744,
+    "cachedInputTokens": 18244,
+    "outputTokens": 996
+  },
+  "gradedAt": "2026-10-10T14:02:45.039Z"
+}

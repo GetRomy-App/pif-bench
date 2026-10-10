@@ -1,0 +1,178 @@
+[
+  {
+    "candidate": "romy-2026-04",
+    "task": "live-prospects/reed-hastings-rural-colorado-charter",
+    "source": "getromy-app/web:data/romy.md",
+    "lines": [
+      15,
+      346
+    ],
+    "chars": 40326,
+    "sha256": "4a24c78a2276033c"
+  },
+  {
+    "candidate": "romy-2026-04",
+    "task": "live-prospects/agnes-gund-nyc-arts-education",
+    "source": "getromy-app/web:data/romy.md",
+    "lines": [
+      359,
+      685
+    ],
+    "chars": 28127,
+    "sha256": "7cd8acfbc183f00d"
+  },
+  {
+    "candidate": "romy-2026-04",
+    "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+    "source": "getromy-app/web:data/romy.md",
+    "lines": [
+      698,
+      1044
+    ],
+    "chars": 30059,
+    "sha256": "77b328f179d87bb5"
+  },
+  {
+    "candidate": "romy-2026-04",
+    "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+    "source": "getromy-app/web:data/romy.md",
+    "lines": [
+      1057,
+      1376
+    ],
+    "chars": 35504,
+    "sha256": "4405376186c04ea1"
+  },
+  {
+    "candidate": "claude-ai-2026-04",
+    "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+    "source": "getromy-app/web:data/claude.md",
+    "lines": [
+      11,
+      179
+    ],
+    "chars": 21163,
+    "sha256": "3387cd6227bb3c32"
+  },
+  {
+    "candidate": "claude-ai-2026-04",
+    "task": "live-prospects/reed-hastings-rural-colorado-charter",
+    "source": "getromy-app/web:data/claude.md",
+    "lines": [
+      190,
+      362
+    ],
+    "chars": 15874,
+    "sha256": "3e592d8e50e60cb4"
+  },
+  {
+    "candidate": "claude-ai-2026-04",
+    "task": "live-prospects/agnes-gund-nyc-arts-education",
+    "source": "getromy-app/web:data/claude.md",
+    "lines": [
+      373,
+      528
+    ],
+    "chars": 21915,
+    "sha256": "cd0854628b1c7496"
+  },
+  {
+    "candidate": "claude-ai-2026-04",
+    "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+    "source": "getromy-app/web:data/claude.md",
+    "lines": [
+      539,
+      681
+    ],
+    "chars": 13928,
+    "sha256": "936bab0938092c2f"
+  },
+  {
+    "candidate": "chatgpt-2026-04",
+    "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+    "source": "getromy-app/web:data/chatgpt.md",
+    "lines": [
+      2,
+      233
+    ],
+    "chars": 7707,
+    "sha256": "3ca7fef62afe3b63"
+  },
+  {
+    "candidate": "chatgpt-2026-04",
+    "task": "live-prospects/reed-hastings-rural-colorado-charter",
+    "source": "getromy-app/web:data/chatgpt.md",
+    "lines": [
+      235,
+      478
+    ],
+    "chars": 8076,
+    "sha256": "5a74555da4aea302"
+  },
+  {
+    "candidate": "chatgpt-2026-04",
+    "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+    "source": "getromy-app/web:data/chatgpt.md",
+    "lines": [
+      480,
+      715
+    ],
+    "chars": 7838,
+    "sha256": "f7bcfdf0cba03a40"
+  },
+  {
+    "candidate": "chatgpt-2026-04",
+    "task": "live-prospects/agnes-gund-nyc-arts-education",
+    "source": "getromy-app/web:data/chatgpt.md",
+    "lines": [
+      717,
+      985
+    ],
+    "chars": 7836,
+    "sha256": "7f1935f7c171c81e"
+  },
+  {
+    "candidate": "gemini-app-2026-04",
+    "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+    "source": "getromy-app/web:data/gemini.md",
+    "lines": [
+      13,
+      60
+    ],
+    "chars": 6837,
+    "sha256": "b0fc6cba46509f55"
+  },
+  {
+    "candidate": "gemini-app-2026-04",
+    "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+    "source": "getromy-app/web:data/gemini.md",
+    "lines": [
+      74,
+      121
+    ],
+    "chars": 6397,
+    "sha256": "bd9ff8c9d6feb496"
+  },
+  {
+    "candidate": "gemini-app-2026-04",
+    "task": "live-prospects/reed-hastings-rural-colorado-charter",
+    "source": "getromy-app/web:data/gemini.md",
+    "lines": [
+      147,
+      196
+    ],
+    "chars": 7351,
+    "sha256": "b125d6a002157f89"
+  },
+  {
+    "candidate": "gemini-app-2026-04",
+    "task": "live-prospects/agnes-gund-nyc-arts-education",
+    "source": "getromy-app/web:data/gemini.md",
+    "lines": [
+      209,
+      256
+    ],
+    "chars": 6119,
+    "sha256": "df84bb0c6c9610e2"
+  }
+]

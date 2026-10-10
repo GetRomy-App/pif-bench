@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "7c4f6859172739e6",
+  "deliverableHash": "bd3abb8f3d6c135c",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Issue 3 says 'The draft requests $83,847' and, despite the program officer's 'flexibility' remark, 'the RFP strictly states: \"Requests above $75,000 will not be considered\"'. It treats this as a violation and requires a reduction."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The memo repeats the draft's misstated total ('$10,937 on $72,910 in direct costs') and never notices that the six line items sum to $71,910, a $1,000 overstatement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Issue 4 flags that the draft 'applies an indirect cost rate of 15% ... because this is our federal de minimis rate' and that 'The RFP prohibits this', since indirect costs 'may not exceed 10% of the total direct costs.' It does not accept the de minimis rate as permission."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo never gives $7,191 as the maximum indirect on the draft's corrected direct costs. Its only maximum indirect figure is '$6,181.82', a different figure tied to a $68,000 request."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo caps the request at '$68,000', with 'total direct costs cannot exceed $61,818.18, and indirect costs cannot exceed $6,181.82'. That is under $75,000, and the indirect is exactly 10% of the direct costs."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It excludes the $12,000 Rio Grande in-kind donation and the $5,000 Rotary pledge, whose board 'does not vote until October 14', and concludes 'The true valid match total is $34,000' (Valencia County Health Council $20,000 plus the board-designated reserve $14,000)."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It applies the '$1 for every $2 requested' rule, notes $75,000 'would require a $37,500 match', caps the request: 'the maximum allowable request is $68,000 ($34,000 × 2)', and gives the fix 'Reduce the total request to no more than $68,000.'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Issue 5 states 'The required 5th section, \"Sustainability Plan\", is missing' and directs adding 'a new, distinct heading titled \"5. Sustainability Plan\"', rejecting the Medicaid sentence in the Evaluation Plan as sufficient."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo never addresses the narrative word count. It does not identify the 2,655-word total or the 155-word overage against the 2,500-word limit."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Issue 1 explains that 'Lucia's planned submission time of 4:30 p.m. in Phoenix is 5:30 p.m. MDT, which is past the deadline' and directs that she 'must submit the application before 4:00 p.m. Phoenix time (MST), which equals 5:00 p.m. MDT.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo raises neither the Albuquerque headquarters nor the FY2025 audit expenses. Puente's eligibility is not treated as a problem anywhere."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "None of the six direct-cost line amounts is called miscalculated. The memo only recommends scaling down direct costs to fit the cap, which the criterion permits."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.849Z"
+}

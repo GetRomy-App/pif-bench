@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "chatgpt-2026-04",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "592143c71312ebc4",
+  "deliverableHash": "1b0451ab89d1178e",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report gives \"Founder/President of Emerson Collective\" and \"Founded Emerson Collective in 2011\", and says \"Widow of Steve Jobs; inherited major holdings in Apple and Disney\", with wealth from \"Inherited stakes in Apple Inc. and The Walt Disney Company\". No wrong year for Jobs's death is given."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The report never states Emerson Collective's legal form and never calls it an LLC or a company. It lists Emerson only as her \"primary vehicle\" under \"Major Platforms\" and describes her giving philosophy as a \"Hybrid model: philanthropy + venture investing + advocacy\". That does not make clear Emerson is a company rather than a foundation, which meets the \"never indicates its legal form\" failure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It identifies \"$3.5B commitment toward climate initiatives (Waverley Street Foundation)\", tying the foundation to climate with a commitment inside the $3B–$3.5B tolerance. It does not describe Waverley Street as a journalism or education funder, an LLC or a DAF."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It states \"Majority stake in The Atlantic\" and \"Chair and lead investor of The Atlantic\", which satisfies the alternative that she owns it and chairs its board. No minority stake, wrong year or sale is stated."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The only D.C. connection is \"Geographic: Strong Washington, D.C. influence (media + policy presence)\". It never says The Atlantic is headquartered in Washington, D.C., or mentions College Track's Southeast D.C. center, so no specific current D.C. tie is named."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The report gives \"Estimated net worth: ~$21–24+ billion\" (and \"Net worth: ~$20B+\" in section 5), which is above the $16 billion ceiling and is a superseded figure."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Monumental Sports & Entertainment does not appear in the report's assets, connection points or anywhere else, which the criterion accepts."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The only nonprofit journalism grantee named is ProPublica (\"Investments in nonprofit journalism like ProPublica\"), with no dollar amount. Axios and The Atlantic are for-profit holdings. Fewer than two journalism grantees are named and no journalism gift amount is given."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The Atlantic and Axios appear under a subsection titled \"Journalism Media Investments\", described as a \"Majority stake\" and \"Backing media ventures\". The red-flags section contrasts \"ownership stakes\" with \"grants\". They are never called gifts, grants or donations, or added into a giving total, though their placement inside the giving-history section is loose."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report never says Emerson Collective does not accept unsolicited proposals. The closest statement, \"Emerson Collective operates like a curated investment platform ➡️ Cold outreach unlikely to succeed\", does not state the no-unsolicited-submissions policy or invitation-only funding."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The relationship pathway is a \"Warm intro via: The Atlantic network, Council on Foreign Relations, Emerson Collective program staff\". Nowhere does it tell the organization to send an unsolicited proposal, LOI, application or cold email to Emerson or Waverley Street. The closing offer to outline a pitch deck does not recommend sending one unsolicited."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It names the XQ Institute among her \"Major Platforms\" alongside Emerson Collective and ties it to her high-school initiative. It gives no founding year and credits its founding to no one else, so no failure condition is met."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The \"Initial ask: $10M–$25M\" is derived from \"Net worth: ~$20B+\", \"$100M+ programs, multi-billion commitments\" and media investments. It references no documented journalism grant size such as the ProPublica, Texas Tribune or The 19th grants."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report states \"Estimated net worth: ~$21–24+ billion\". This contradicts the fact sheet's current net worth of $13.9B (tolerance $11B–$16B as of 2026)."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.468Z"
+}

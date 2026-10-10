@@ -17,3 +17,8 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# PIF-Bench runs (official snapshots live in leaderboard/)
+results/
+node_modules/
+*.env

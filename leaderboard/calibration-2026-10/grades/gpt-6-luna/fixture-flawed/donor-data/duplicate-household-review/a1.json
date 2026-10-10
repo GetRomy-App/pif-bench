@@ -1,0 +1,102 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly says, “Merge 10457 (Robert T. Okafor) into 23118 (Bob Okafor),” and lists 23118 as the surviving ID. The criterion requires the opposite direction, with 10457 surviving and 23118 retired, so it fails."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The D-01 summary gives the preferred address as “2209 Halsted Ct, Lake Oswego, OR 97034.” The group decision also says that this address is preferred because it was updated 2023-05-14, while 18 Linden Ave becomes a previous address."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable states for the Okafor merge: “Combined lifetime giving: $4,350 + $2,400 = $6,750.” This matches the required combined amount and excludes Ngozi’s giving."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable states, “Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman),” and identifies 11876 as the surviving ID. Its summary also lists 24410 as retired, so the criterion is satisfied."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable says the surviving 11876 record keeps the name “Priya Raman” and adds Castellano only as an alias. The criterion requires the preferred name to be Priya Castellano or Priya R. Castellano, so this fails."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable states, “Combined lifetime giving: $1,650 + $1,125 = $2,775” for the 24410 into 11876 merge. This matches the required figure and excludes Marco Castellano’s giving."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable merges 19650 into 10822 but explicitly says “26031 Ann Kowalcyzk — no action.” It reports combined lifetime giving of $20,925, excluding 26031’s $350, so the required three-record merge and $21,275 total are not met."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable says, “Merge 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb),” and identifies 10234 as the surviving ID. It also states that 10234 “stays deceased, 2025-11-02,” satisfying the required deceased status and date."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The Whitcomb merge states: “Combined lifetime giving: $36,950 + $1,500 = $38,450.” This matches the required combined amount and excludes Margaret’s giving."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable says Margaret “is not merged” and her record “stays separate,” but also instructs: “flag 11092 deceased with it” and to “Set the household's deceased flag (2025-11-02).” The criterion explicitly fails if she is marked deceased or treated as deceased by a household-level flag."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The list says “Merge 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.)” and identifies 18342 as the surviving ID. It gives the combined lifetime giving as “$3,240 + $600 = $3,840,” satisfying the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable says, “10119 Thomas E. Brennan Sr. — no action” and specifies that he “is not merged with either record.” This matches the criterion that 10119 remain separate from both 18342 and 25503."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable says, “Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge,” identifying them as spouses. This keeps the two records separate and links them as a household."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable says, “Merge 21977 into 12650,” and explicitly combines their lifetime giving as $1,875 + $6,200 = $8,075. The criterion requires these two Jennifer Liu records to remain separate because they are different people, so the deliverable fails."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable says, “No action” for D-09 and explains that the two organizations have different EINs and are “separate legal entities.” It keeps 30044 and 31207 separate and does not merge them."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable says “10458 Ngozi A. Okafor — no action” and “24409 Marco Castellano — not merged.” It keeps both as their own records rather than merging either into a spouse or another record."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable says D-08: “No action” for Linda (15238) and Katherine (26874), and D-10: “No action” for Ellen Park (16602) and Ellen Parks (25119). Neither pair is merged, so both required pairs are kept separate."
+    }
+  ],
+  "costUsd": 0.0061154749999999996,
+  "usage": {
+    "inputTokens": 44366,
+    "cachedInputTokens": 0,
+    "outputTokens": 1142
+  },
+  "gradedAt": "2026-10-10T13:57:14.694Z"
+}

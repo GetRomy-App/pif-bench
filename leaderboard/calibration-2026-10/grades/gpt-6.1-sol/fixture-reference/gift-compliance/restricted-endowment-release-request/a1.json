@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “The board cannot, by its own vote, release the scholarship restriction or move any part of the fund — principal, earnings or this year's distribution — into general operations, on October 21 or later.” It identifies donor consent and a court proceeding as separate potential routes, without claiming the board can make the move on its own authority."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Donor consent — § 6(a)” and states that Ellen M. Ruiz “can consent in a record to release or modify the restriction.” It explicitly explains that “operating support of the Foundation is a charitable purpose, so her consent could in principle reach general operations,” satisfying the criterion without contradicting that route elsewhere."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “§ 6(d) does not apply” to the Ruiz fund, explaining that its $512,860 value is “far above the $25,000 limit” and that it was established March 15, 2017, “about 9 years ago, not more than 20.” It does not claim that § 6(d) or a 60-day Attorney General notice could release the Ruiz restriction."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states that § 6(c) requires the scholarship purpose to have become “unlawful, impracticable, impossible to achieve or wasteful,” with a court application and notice to the Attorney General. It explains that this condition is not met because “the ADN program is active, with 84 students enrolled,” and explicitly says “a budget shortfall does not by itself make a purpose impracticable,” concluding that court modification is “Not a promising route.”"
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states that the gift agreement restricts “distributions — and all investment return — to scholarships for students in the Associate Degree in Nursing program.” It also explicitly says the board cannot move “principal, earnings or this year's distribution” into general operations and that the FY2027 distribution “is available only for ADN nursing scholarships.” No contradictory permission to use earnings or distributions for operations appears."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states that FY2027's distribution is “4% of the average of the twelve quarter-end values from 2023-09-30 through 2026-06-30: average $494,183.33, distribution $19,767.33.” It also specifies that the distribution “is available only for ADN nursing scholarships,” satisfying the criterion without any contradictory distribution elsewhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Section 5 of the agreement does not apply,” explaining that it permits redirection only if the ADN program ceases and that “The program is active.” It does not rely on Section 5 to redirect the fund or authorize operating support."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly rejects Joan's proposal: “We cannot lend $180,000 (or any amount) from the Ruiz endowment to operations.” It cites policy §4.2 as forbidding “lending, borrowing or pledging donor-restricted endowment assets for operating needs, whatever the term or rate,” and adds that repayment with interest does not change the prohibition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes “§ 6(d) applies” and gives the value as “$18,420, under $25,000” and the establishment date as “1994 … 32 years ago, more than 20.” It also states that the Secretarial Studies certificate “was closed on June 30, 2011” and therefore the purpose is “impossible to achieve.” All three required reasons are present."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo requires counsel to send notice to the Attorney General on October 5, 2026, and states that the modification is effective \"no earlier than 60 days after the notice.\" It explicitly gives \"Friday, December 4, 2026\" as the earliest effective date and says, \"It cannot take effect at the October 21 meeting.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states that Calloway money “must be used consistently with the charitable purposes in Mrs. Calloway's letter” and proposes an award for the outstanding graduating student in Office Administration (A.A.S.). It explicitly says the fund “cannot be folded into general operations or used for the deficit,” with no contradictory statement elsewhere."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the “Operating Reserve ($240,000)” as “board-designated, not donor-restricted” and states it can be released by “majority vote of the full board,” with “no donor consent and no notice to the Attorney General.” It explicitly recommends releasing $180,000 on October 21 to close the projected deficit, satisfying all elements of the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo's stated rules and facts are grounded in the files, including the Ruiz value of \"$512,860,\" the Calloway value of \"$18,420,\" the § 6(d) \"$25,000 limit,\" and the policy prohibition on loans. Its December 4 effective date and proposed $60,000 reserve balance follow by arithmetic from the supplied notice date and reserve figures. No unsupported donor, approval, threshold, or other factual claim is introduced."
+    }
+  ],
+  "costUsd": 0.031741399999999996,
+  "usage": {
+    "inputTokens": 29801,
+    "cachedInputTokens": 22859,
+    "outputTokens": 1212
+  },
+  "gradedAt": "2026-10-10T14:03:15.665Z"
+}

@@ -1,0 +1,77 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "eb53a3fbce54c01a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states 'No part of it goes to the gala' and that 'None of the grant may touch the gala table,' explicitly rejecting the $3,000 request, the $1,520 above fair market value split, and the second Kestrel grant idea (§4.3.3). The reply to Peggy tells her 'I can't move part of the grant to the table, and a second Kestrel grant for it wouldn't work either,' and directs the table to be paid personally. No part of the DAF grant is applied or offered toward the table."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo states the invoice INV-G26-0112 must be 'paid by Peggy and/or Erik by personal check or card — never from a donor-advised fund,' and says it 'stays open until the Halvorsens pay it personally.' The reply to Peggy tells her 'Your table by the stage is reserved: the $3,000 invoice is due October 2, and a personal check or card is perfect,' and explicitly says the grant cannot pay for any part of the table. Both the memo and the reply meet the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The criterion requires a good-faith estimate of $1,480 (8 × $185) for the table benefits. The deliverable instead states the estimate as \"$1,360 (8 × $170, the per-seat value we used for the same table last year)\" and repeats $1,360 and a $1,640 deductible amount. This is exactly the figure the criterion says to fail on."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires a deductible amount of $1,520 ($3,000 − $1,480). The deliverable states the deductible amount as \"$1,640 ($3,000 − $1,360)\", using a $1,360 good-faith estimate for the goods and services. It does include the §6115 quid pro quo disclosure, but the deductible figure does not match the required $1,520, so the criterion fails."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo directs the written acknowledgment to 'Kestrel Charitable Trust, Grants Administration' and explicitly states 'not to the Halvorsens'. The drafted acknowledgment text states the $15,000.00 amount and includes 'No goods or services were provided in exchange for this grant.' Both required elements are present and nothing contradicts them."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo's Section 5 drafts the Kestrel acknowledgment, and that draft explicitly states: \"The grant has been applied to Margaret and Erik Halvorsen's Studio Wing pledge, which now has a balance of $5,000.\" This mentions the pledge and its balance in correspondence with Kestrel. The memo also justifies it as \"Mentioning the pledge lets Kestrel see the grant in context,\" so the criterion's FAIL condition is clearly triggered. The memo never instructs the team to keep the pledge out of Kestrel correspondence."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The reply to Peggy says 'Your $15,000 gift is fully tax-deductible, and we are so grateful for your generosity to the arts in Asheville.' This explicitly calls the grant tax-deductible to the Halvorsens, which is exactly what the criterion forbids. The memo's own reasoning says Kestrel is the donor of record and Peggy should not be told the grant is deductible to her, so the reply contradicts the memo as well."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The reply never addresses Peggy's request for a receipt for the full $15,000. It does not state that Kestrel Charitable Trust is the legal donor or that Kestrel receives the acknowledgment. Instead it says \"Your $15,000 gift is fully tax-deductible,\" which implies the Halvorsens are the donors for tax purposes and contradicts the memo's own position that Kestrel is the donor of record."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo's Section 1 states 'Hard credit: Kestrel Charitable Trust (organization record 30882), the legal donor' and 'Soft credit: Margaret and Erik Halvorsen (constituent 20417)', with 'Designation: Studio Wing Campaign, as the grant letter states. No part of it goes to the gala.' This matches the criterion exactly: hard credit to Kestrel, soft credit to the Halvorsens, Studio Wing designation, and no part to the gala. Nothing elsewhere in the deliverable contradicts this."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo's Section 4 explicitly soft-credits the full grant: \"Less 2026-09-08 Kestrel grant KCT-2026-0418833 (soft credit, full amount) | −$15,000\", leaving an open balance of $5,000. This matches the criterion's requirement of $15,000 soft-credited toward the $40,000 statement of intent, and nothing in the deliverable applies a different amount toward it."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo's table in Section 4 computes $40,000 total less $10,000 personal check less $10,000 Kestrel 2025 grant, giving open balance $20,000, then less the full $15,000 Kestrel 2026 grant to reach '**Open balance after this grant** | **$5,000**'. It explicitly states the 2025 and 2026 gala tables ($2,800 and $3,000) are not counted toward the statement of intent, and the Kestrel acknowledgment also repeats the $5,000 balance. This matches the criterion's required figure and computation without counting any gala payment."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 4 of the memo states that the Halvorsens' 2024-11-12 commitment is on form SW-SOI (rev. 2023-02) and that it is 'a statement of intention, not a legally binding pledge or obligation.' It then ties this to why the DAF grant can be soft-credited ('Under §4.4.1 that is what allows a DAF grant they recommended to be soft-credited toward it') and says the grant 'does not discharge any legal obligation.' I could not verify from the materials that rev. 2023-02 is the current form, but the memo cites its source document, and nothing in the deliverable contradicts the non-binding characterization."
+    }
+  ],
+  "costUsd": 0.0025801699999999997,
+  "usage": {
+    "inputTokens": 42375,
+    "cachedInputTokens": 36487,
+    "outputTokens": 2961
+  },
+  "gradedAt": "2026-10-10T13:57:43.465Z"
+}

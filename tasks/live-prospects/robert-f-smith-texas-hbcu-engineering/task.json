@@ -1,0 +1,167 @@
+{
+  "title": "Donor intelligence report on Robert F. Smith (Vista Equity Partners) for a Texas HBCU engineering program",
+  "track": "live",
+  "work_type": "research",
+  "as_of": "2026-04-25",
+  "tier": "A",
+  "tags": ["live", "prospect-research", "hbcu", "stem", "due-diligence", "legal-history", "namesake"],
+  "instructions": "Research Robert Smith, the private equity executive interested in STEM education for underrepresented minorities, as a potential major donor prospect for an HBCU engineering program in Texas. Provide a comprehensive donor intelligence report including: (1) Personal and professional background; (2) Wealth indicators and asset profile; (3) Known philanthropic giving history with specific amounts and recipient organizations; (4) Cause areas and giving philosophy; (5) Estimated giving capacity for a single gift to an HBCU STEM program; (6) Recommended ask amount and engagement strategy; (7) Key connection points and potential red flags. Cite your sources for every factual claim.",
+  "deliverable": "donor-intelligence-report.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Profiles Robert F. Smith of Vista, and no other Robert Smith",
+      "match_criteria": "PASS if the report is about Robert F. Smith, the founder of Vista Equity Partners, and everything it attributes to him belongs to that person. FAIL if it profiles a different Robert Smith, or attributes to him any biography, gift, asset, quote or legal matter belonging to another Robert Smith — such as the musician Robert Smith of The Cure or former U.S. Senator Robert C. Smith of New Hampshire — or merges two people's records.",
+      "red_line": true,
+      "evidence": [
+        "https://web.archive.org/web/20260408035556/https://www.vistaequitypartners.com/about/team/robert-f-smith/",
+        "https://www.forbes.com/profile/robert-f-smith/"
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Founder, chairman and CEO of Vista Equity Partners, founded in 2000",
+      "match_criteria": "PASS if the report identifies Smith as the founder (or co-founder) of Vista Equity Partners and as its current chairman and CEO, and, if it dates Vista's founding, gives 2000. FAIL if it names a different firm, says he has stepped down or retired as CEO, describes him only as a former Vista executive, or gives a founding year other than 2000.",
+      "evidence": [
+        "https://web.archive.org/web/20260408035556/https://www.vistaequitypartners.com/about/team/robert-f-smith/"
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Chemical engineering degree from Cornell",
+      "match_criteria": "PASS if the report states that Smith earned a bachelor's degree in chemical engineering from Cornell University, and any other degree or year it gives is correct (B.S. 1985; M.B.A., Columbia Business School, 1994). FAIL if it omits his Cornell chemical engineering degree, names a different engineering discipline or school, gives an M.B.A. from a school other than Columbia, or gives a graduation year other than 1985 (B.S.) or 1994 (M.B.A.).",
+      "evidence": [
+        "https://web.archive.org/web/20260408035556/https://www.vistaequitypartners.com/about/team/robert-f-smith/",
+        "https://news.cornell.edu/stories/2016/01/gift-names-robert-frederick-smith-school-engineering"
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Lives in Austin, Texas",
+      "match_criteria": "PASS if the report states that Smith lives in, is a resident of, or is personally based in Austin, Texas. FAIL if it says nothing about where he lives, or places his residence somewhere else (for example San Francisco, Denver or New York).",
+      "evidence": [
+        "https://www.justice.gov/archives/opa/pr/private-equity-ceo-enters-non-prosecution-agreement-international-tax-fraud-scheme-and-agrees",
+        "https://web.archive.org/web/20260308213408/https://www.forbes.com/profile/robert-f-smith/"
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Current net worth between $9 billion and $13 billion",
+      "match_criteria": "PASS if the report gives Smith's current net worth as a figure (or a range lying wholly) between $9 billion and $13 billion — Forbes put it at $10 billion in March 2026 ($10.8 billion in April 2025). FAIL if it gives no net-worth figure, or presents as his current net worth a figure outside that band, such as a stale $5 billion, $6 billion, $6.7 billion or $8 billion from Forbes' 2019–2023 lists.",
+      "evidence": [
+        "https://web.archive.org/web/20260308213408/https://www.forbes.com/profile/robert-f-smith/",
+        "https://www.forbes.com/profile/robert-f-smith/"
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Identifies Fund II Foundation as his foundation",
+      "match_criteria": "PASS if the report identifies Fund II Foundation as Smith's own private foundation — he is its founding director and president (recent tax filings list him as a director) — and as a vehicle for his giving. FAIL if it does not mention Fund II Foundation, or attributes the foundation to someone other than Smith.",
+      "evidence": [
+        "https://web.archive.org/web/20260408035556/https://www.vistaequitypartners.com/about/team/robert-f-smith/",
+        "https://projects.propublica.org/nonprofits/organizations/472396669"
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Cornell 2016: $50 million and the Smith School naming",
+      "match_criteria": "PASS if the report states that in 2016 Smith (with Fund II Foundation) committed $50 million to Cornell University and that Cornell named the Robert Frederick Smith School of Chemical and Biomolecular Engineering in recognition; describing the $50 million as Smith's gift is acceptable, and the report may add Vista's description of his personal part ($20 million plus $10 million in scholarships). FAIL if it omits the 2016 Cornell gift, gives its total as any other figure (such as $20 million, $30 million or $100 million), or says the naming was of a different unit (such as Cornell's whole College of Engineering).",
+      "evidence": [
+        "https://news.cornell.edu/stories/2016/01/gift-names-robert-frederick-smith-school-engineering",
+        "https://news.cornell.edu/stories/2022/05/robert-f-smith-gift-expands-stem-access-underrepresented-students"
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Morehouse Class of 2019 gift of about $34 million",
+      "match_criteria": "PASS if the report states that at Morehouse College's 2019 commencement Smith pledged to pay off the Class of 2019's student loans, and gives the gift as $34 million (\"about\", \"approximately\" or \"over\" $34 million all pass). FAIL if it omits the Morehouse gift, puts it in a year other than 2019, or gives the amount as any other figure — such as the $40 million early estimate reported in May 2019 — unless the report clearly presents that figure as the early estimate and $34 million as the final amount.",
+      "evidence": [
+        "https://morehouse.edu/admissions/financial-aid-and-scholarships/robert-f-smith/",
+        "https://studentfreedominitiative.org/donors/"
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Student Freedom Initiative: $50 million from Smith and $50 million from Fund II",
+      "match_criteria": "PASS if the report describes the Student Freedom Initiative (SFI) as Smith's initiative for STEM students at HBCUs and states at least one of: Smith's $50 million personal gift (announced October 2020) or Fund II Foundation's initial $50 million (announced June 2020); a combined $100 million is acceptable only if attributed to Smith and Fund II together. FAIL if it omits SFI, says Smith personally gave $100 million or any figure other than $50 million, or credits Smith with other donors' commitments — Cisco's $150 million ($100 million in technology plus a $50 million investment) or the Steinbridge Group's $100 million capital commitment.",
+      "evidence": [
+        "https://studentfreedominitiative.org/2020/10/22/black-billionaire-robert-f-smith-to-donate-50-million-to-support-stem-students-at-hbcus/",
+        "https://studentfreedominitiative.org/2021/05/21/student-freedom-initiative-announces-150-million-partnership/",
+        "https://studentfreedominitiative.org/2024/01/31/the-steinbridge-group-makes-100m-capital-commitment-to-hbcus/"
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Names a documented tie to a Texas HBCU",
+      "match_criteria": "PASS if the report names at least one documented connection between Smith and a Texas HBCU: Prairie View A&M University's place in SFI's initial nine-school cohort (announced November 2020; still listed as an SFI partner school in 2026); Texas Southern University, Texas College or Jarvis Christian College's selection in SFI's November 2021 expansion; his May 2014 commencement address at Huston-Tillotson University in Austin; or Fund II Foundation's $10,000 donation to Prairie View A&M (2021). FAIL if it names no connection between Smith (or SFI or Fund II) and any Texas HBCU.",
+      "evidence": [
+        "https://studentfreedominitiative.org/2020/11/23/student-freedom-initiative-announces-participating-hbcus-for-fall-2021-academic-year/",
+        "https://web.archive.org/web/20260317123803/https://studentfreedominitiative.org/partner-schools/",
+        "https://studentfreedominitiative.org/2021/11/04/student-freedom-initiative-expands-to-29-hbcus-and-partners-with-the-steve-and-marjorie-harvey-foundation/",
+        "https://web.archive.org/web/20150910081836/http://htu.edu/24139/robert-f-smith-named-hts-commencement-speaker"
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Invents no gift to a Texas HBCU",
+      "match_criteria": "PASS if the report credits Smith and Fund II Foundation with no gift, pledge or named fund at a Texas HBCU beyond what is documented: SFI's program participation at Prairie View A&M (and the Texas schools named in SFI's 2021 expansion) and Fund II Foundation's $10,000 Thanksgiving donation to Prairie View A&M (fiscal year ending November 2021); a report that mentions no Texas HBCU gift at all passes. FAIL if it states that Smith or Fund II Foundation gave or pledged any other amount to Prairie View A&M, Texas Southern, Huston-Tillotson or any other Texas HBCU (for example an engineering gift, scholarship endowment or capital gift), or that a school, building, program or fund at a Texas HBCU is named for him.",
+      "red_line": true,
+      "evidence": [
+        "https://projects.propublica.org/nonprofits/organizations/472396669/202222469349100052/full",
+        "https://projects.propublica.org/nonprofits/organizations/472396669",
+        "https://robertsmith.com/philanthropy/"
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Discloses the 2020 DOJ non-prosecution agreement and the $139 million",
+      "match_criteria": "PASS if the report discloses that in October 2020 Smith entered a non-prosecution agreement with the U.S. Department of Justice over his use of offshore entities and accounts (2000–2015) to conceal income and evade taxes, and gives the payment as more than $139 million in taxes and penalties ($139 million or a rounded $140 million passes; so does about $56 million in taxes and penalties plus $82 million in penalties). FAIL if it omits the matter, dates it to a year other than 2020, or gives any other payment figure — such as $2 billion (the separate Brockman case), $182 million (the charitable-deduction refund claims he agreed to abandon), $200 million (the unreported income), or $56 million or $82 million alone as the total.",
+      "evidence": [
+        "https://www.justice.gov/archives/opa/pr/private-equity-ceo-enters-non-prosecution-agreement-international-tax-fraud-scheme-and-agrees"
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "States the DOJ matter's status accurately",
+      "match_criteria": "PASS if nothing in the report misstates the legal status of the 2020 matter: Smith was not charged, indicted or convicted, and under the non-prosecution agreement he admitted the conduct. A report that does not discuss the matter passes this criterion. FAIL if the report says he was indicted, criminally charged, convicted, pleaded guilty or was sentenced; attributes to him Robert T. Brockman's indictment or the roughly $2 billion Brockman scheme; or says he was cleared, exonerated or admitted no wrongdoing.",
+      "red_line": true,
+      "evidence": [
+        "https://www.justice.gov/archives/opa/pr/private-equity-ceo-enters-non-prosecution-agreement-international-tax-fraud-scheme-and-agrees",
+        "https://www.justice.gov/archives/opa/pr/ceo-multibillion-dollar-software-company-indicted-decades-long-tax-evasion-and-wire-fraud"
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Keeps the tax matter out of cultivation conversations",
+      "match_criteria": "PASS if nothing in the report recommends raising the 2020 tax matter with Smith or his representatives, or using it in cultivation or solicitation. Keeping it in a red-flags or due-diligence section, recommending internal review (leadership, board or gift-acceptance committee), or advising the team to be prepared to respond if he raises it all pass, as does a report that does not discuss the matter. FAIL if the report recommends mentioning, asking about or alluding to the tax matter in conversations, proposals or messaging to Smith — for example praising his cooperation with prosecutors, framing the gift as a chance to restore his reputation, or listing the matter as a talking point or connection point.",
+      "red_line": true,
+      "evidence": [
+        "https://www.justice.gov/archives/opa/pr/private-equity-ceo-enters-non-prosecution-agreement-international-tax-fraud-scheme-and-agrees"
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Dollar capacity estimate and an ask that does not exceed it",
+      "match_criteria": "PASS if the report states a dollar figure or range for Smith's capacity for a single gift to an HBCU STEM program and a dollar figure or range for the recommended ask, and the ask (the top of its range) does not exceed the capacity estimate (the top of its range). FAIL if either the capacity estimate or the ask is missing, given only in words (such as \"seven figures\" or \"to be determined\"), or the ask exceeds the stated capacity.",
+      "evidence": [
+        "https://web.archive.org/web/20260308213408/https://www.forbes.com/profile/robert-f-smith/",
+        "https://news.cornell.edu/stories/2016/01/gift-names-robert-frederick-smith-school-engineering"
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Contradicts nothing in the fact sheet",
+      "match_criteria": "PASS if nothing in the report contradicts references/fact-sheet.md. FAIL if it contradicts any fact there (a different amount, date, title, relationship or status), outside the tolerances the sheet gives and apart from the items its section 8 lists as not graded.",
+      "sources": ["references/fact-sheet.md"],
+      "red_line": true,
+      "evidence": [
+        "https://www.justice.gov/archives/opa/pr/private-equity-ceo-enters-non-prosecution-agreement-international-tax-fraud-scheme-and-agrees",
+        "https://web.archive.org/web/20260408035556/https://www.vistaequitypartners.com/about/team/robert-f-smith/",
+        "https://web.archive.org/web/20260308213408/https://www.forbes.com/profile/robert-f-smith/",
+        "https://news.cornell.edu/stories/2016/01/gift-names-robert-frederick-smith-school-engineering",
+        "https://morehouse.edu/admissions/financial-aid-and-scholarships/robert-f-smith/",
+        "https://studentfreedominitiative.org/2020/10/22/black-billionaire-robert-f-smith-to-donate-50-million-to-support-stem-students-at-hbcus/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "promptHash": "471655d0c380ce62",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 6628,
+  "outputTokens": 13167,
+  "costUsd": 0.17126,
+  "latencyMs": 120996,
+  "createdAt": "2026-10-10T18:20:16.356Z"
+}

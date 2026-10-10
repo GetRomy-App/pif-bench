@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "promptHash": "75804cccbf89bd5d",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 6076,
+  "outputTokens": 13298,
+  "costUsd": 0.171728,
+  "latencyMs": 109422,
+  "createdAt": "2026-10-10T18:19:11.408Z"
+}

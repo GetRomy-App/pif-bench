@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "promptHash": "abf12e57fb66a659",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 2028,
+  "outputTokens": 2160,
+  "costUsd": 0.0266685,
+  "latencyMs": 34688,
+  "createdAt": "2026-10-10T18:17:20.947Z"
+}

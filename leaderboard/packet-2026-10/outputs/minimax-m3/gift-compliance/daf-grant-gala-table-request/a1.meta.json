@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "promptHash": "e32f89bfe85f6d7a",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 2970,
+  "outputTokens": 12948,
+  "costUsd": 0.01636812,
+  "latencyMs": 60461,
+  "createdAt": "2026-10-10T18:29:27.824Z"
+}

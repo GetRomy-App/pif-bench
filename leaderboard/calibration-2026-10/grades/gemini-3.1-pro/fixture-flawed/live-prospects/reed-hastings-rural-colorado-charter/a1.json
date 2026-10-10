@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the Career section that Hastings 'Co-founded Netflix in 1997 and was its CEO from the late 1990s until January 2023.' This exactly matches all requirements of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states in the Summary that Hastings \"is now its executive chairman\" and in Section 1 that \"Since January 2023 he has been Netflix's Executive Chairman, the role he holds today.\" This violates the criterion's instruction not to present Executive Chairman as his current role."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the 'Leaving Netflix' bullet that 'On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting. He remains executive chairman until then...' This meets all the requirements of the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that 'Netflix equity is the core of his wealth.' It provides net-worth estimates from Forbes ($4.1 billion and $4-5.5 billion) and Bloomberg ($6.6 billion) with their respective dates, all of which fall within the required $3 billion to $8 billion range. It also correctly notes that he owns under 1% of the company."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly names Patty Quillin as his wife and partner in giving in both the Summary and Section 1, stating, 'He is married to Patty Quillin, his partner in giving'. It also notes her co-involvement in the Giving Pledge, HBCU scholarships, and the Charter School Growth Fund in Section 3."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly mentions the Hastings Fund in the philanthropic giving history table, describing it as an \"education donor-advised fund at SVCF\" launched in \"Jan 2016\" with an amount of \"$100 million\". It does not describe it as an independent private foundation or list any other sponsor."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report explicitly lists a January 2024 gift to SVCF (his donor-advised fund) of 2,000,000 Netflix shares valued at ~$1.1 billion in the philanthropic giving history table."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies The City Fund in its philanthropic giving history table, noting it launched in July 2018 to support 'charter and autonomous public schools in cities'. It also correctly names 'The Hastings Fund and Laura and John Arnold' as anchor funders and states there was '~$200 million raised at launch'."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable substitutes Howard University for Morehouse College in its description of the $120 million HBCU gift, stating it went to 'UNCF, Spelman College, Howard University'. The criterion explicitly mandates failing the deliverable if it substitutes another recipient such as Howard University."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in the Summary and Section 7 that Hastings sits on the board of the Charter School Growth Fund and notes that CSGF is headquartered in Denver. It also mentions that he is a $10M+ funder without claiming he chairs the board."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Lone Rock as an educators' retreat in Bailey, Park County, Colorado that Hastings financed. It also notes that he is president of the Lone Rock Foundation and correctly states that he lives in Santa Cruz, California."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The deliverable estimates the single-gift giving capacity as a range of '$10–25 million'. This fails the criterion because the top of the range is $25 million, which is below the required minimum of $40 million."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable's engagement strategy recommends as its first step to 'Write to him directly' and 'Send Hastings a two-page proposal and cover letter from the CEO now, asking for a meeting.' This is a cold solicitation, which the criterion explicitly states must fail."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable states that Hastings is currently Netflix's Executive Chairman ('Since January 2023 he has been Netflix's Executive Chairman, the role he holds today'). However, the fact sheet explicitly notes that he became a non-executive Chairman of the Board in April 2025, and its tolerances section states that calling 'Executive Chairman' his current title is not acceptable."
+    }
+  ],
+  "costUsd": 0.19734600000000002,
+  "usage": {
+    "inputTokens": 70239,
+    "cachedInputTokens": 0,
+    "outputTokens": 4739
+  },
+  "gradedAt": "2026-10-10T13:57:48.454Z"
+}

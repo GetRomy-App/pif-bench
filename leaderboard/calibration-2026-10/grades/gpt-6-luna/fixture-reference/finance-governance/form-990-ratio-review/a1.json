@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo uses program expenses of $4,886,000 ($19,066,000 less $14,180,000 of donated food) and total expenses of $6,240,000 ($20,515,000 less $14,180,000 of donated food and $95,000 of donated legal services). It reports the resulting ratio as 78.3%, matching the criterion’s required adjustments."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo reports the policy program expense ratio as “$4,886,000 ÷ $6,240,000 = 78.3%,” matching the required calculation. It mentions the unadjusted 92.9% only “for reference” and explicitly says it “is not the policy's ratio.”"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The summary lists the program expense ratio target as “80.0% or higher” and marks it “Not met.” The program expense section also says the 78.3% result is below the 80.0% target and “Not met.”"
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo subtracts “$600,000” for the Estate of Harriet M. Okafor from contributions used in the denominator. It explains that “the policy removes every bequest and estate distribution” because they are non-recurring and not the product of the year’s fundraising spending."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo calculates contributions for the indicator as $3,985,000, showing $18,930,000 less $14,345,000 in noncash contributions and the $600,000 bequest. This matches the criterion’s required denominator."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo reports: “$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.” This matches the criterion’s required cost to raise a dollar of $0.22."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo lists the cost-to-raise-a-dollar target as “$0.20 or less” and marks it “Not met.” It reports the 2025 result as “$0.22,” above that target; the separate $0.25 external-review trigger is not treated as the target."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo builds the reserve from “Net assets without donor restrictions, Part X line 27, end of year” of $6,612,000. It explicitly says the $1,240,000 of net assets with donor restrictions, including the $890,000 cold-storage expansion funds, “is not reserve and is not counted.”"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo calculates operating reserve as $6,612,000 in net assets without donor restrictions less $5,108,000 in land, buildings, and equipment, for a stated operating reserve of $1,504,000. This matches the criterion’s required figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states annual operating expenses of $5,794,000 and shows the required calculation: $20,515,000 less $446,000 depreciation and $14,275,000 in gifts in kind expensed. It also gives monthly operating expenses as $482,833, so the criterion is satisfied."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo reports “$1,504,000 ÷ $482,833 = 3.1 months” for operating reserve, matching the required 3.1 months. Its separate counterfactual of 2.9 months is explicitly described as what would happen if depreciation were included, not as the reported indicator."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo reports the reserve target as met in its summary table (“3.1 months” against “3.0 months or more,” “Met”) and again states: “3.1 months — above the 3.0-month target. Met.”"
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo gives “Date: September 4, 2026,” but that date is not stated in the reference files or assignment; the assignment only says the materials go out September 9. Since this criterion fails for a figure or fact with no source, the unsupported memo date makes it fail."
+    }
+  ],
+  "costUsd": 0.00174625,
+  "usage": {
+    "inputTokens": 31415,
+    "cachedInputTokens": 25010,
+    "outputTokens": 1393
+  },
+  "gradedAt": "2026-10-10T14:02:34.175Z"
+}

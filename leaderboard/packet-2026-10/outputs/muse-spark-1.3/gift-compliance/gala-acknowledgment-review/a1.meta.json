@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "promptHash": "184f1e705eb12e9d",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 3869,
+  "outputTokens": 13114,
+  "costUsd": 0.06057075,
+  "latencyMs": 99283,
+  "createdAt": "2026-10-10T18:33:33.706Z"
+}

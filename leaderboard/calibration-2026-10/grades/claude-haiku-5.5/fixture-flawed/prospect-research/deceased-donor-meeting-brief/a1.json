@@ -1,0 +1,92 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo's bottom line states 'Gerry Halvorsen died at home on Thursday, August 27, 2026,' confirmed by the obituary and probate notice, and the CRM record line repeats 'date of death 2026-08-27.' It does not treat him as living or prepare a solicitation of him; it cancels the September 29 visit. No conflicting date of death appears elsewhere, so the criterion is met."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly cancels the solicitation: it states \"The September 29 visit cannot go ahead as a solicitation\" and \"The gallery proposal is not to be presented to Peg or anyone in the family.\" Action 4 replaces the visit with a condolence-only approach where Ruth \"raises no gift, proposal, pledge or estate matter and brings no proposal or rendering,\" and if Peg raises the gallery Ruth listens and tells Janet the same day. Section 4 further bars presenting the proposal and proposing a memorial naming to the family, so the criterion's FAIL conditions are avoided."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo's Action 1 states: 'Close proposal PR-2026-044 as \"Closed — donor deceased\" (not transferred to Peg or anyone else).' It also explicitly says the gallery proposal is not to be presented to Peg or the family, and section 4 says 'Do not present, mention or leave behind the gallery proposal.' Nothing keeps it open, holds it for later, or reassigns it, so the criterion is met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo's action 1 says \"Mark record 10388 deceased, date of death 2026-08-27\" and to \"Remove Gerry from all appeals, mailings, e-mail lists and event invitations.\" Action 2 explicitly removes him from the Fall Appeal before the 2026-09-28 printer date and re-addresses the household letter to Peg alone. Both the deceased update with date and the appeal/mailing removal, including the Fall Appeal, are covered."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to state the family may not be solicited before 2027-02-23, the 180th day after the 2026-08-27 death. The deliverable instead says personal solicitation is barred 'before February 28, 2027' and in action 3 explicitly counts '180 days after the death was confirmed by the obituary of 2026-09-01', which is the 2027-02-28 date the criterion names as a FAIL example. It never states 2027-02-23."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "Action 2 removes only Gerry from the Fall Appeal and says to \"Re-address the household's Fall Appeal letter to Mrs. Margaret Halvorsen alone,\" which is an explicit fail trigger. Action 3 flags Peg, Kristin and Erik for no personal solicitation but states \"Annual appeals continue as normal,\" so Margaret and Kristin are not kept off the appeal. Kristin's Doyle row is never addressed for removal."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo's action 6 recommends sending the Halvorsen Family Foundation letter of request by October 15 ($15,000 for arts education) and calls it 'a routine annual renewal... not a personal ask,' explicitly treating the foundation as outside the bereavement concern. The criterion requires holding that request until the period ends (before 2027-02-23 is not allowed), so this recommendation to send it before the period ends is a FAIL."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the unpaid pledge balance to be $70,000 (based on $130,000 paid including a $10,000 payment on 2026-06-12). The memo states the unpaid balance as '**$80,000**' and says 'Finance's figures on the record show $120,000 paid to date', which is the CRM reconciled figure the criterion explicitly names as incorrect. The memo repeats $80,000 in action item 7 as well. This is a FAIL."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo refers the $80,000 unpaid balance to CFO Denise Okafor in action 7, stating that 'Only Denise decides whether to present a claim and deals with the estate about the pledge' and that 'No one in development asks Peg, Erik, Kristin or the family foundation to pay it, and no pledge reminder goes to the household.' Section 4 also bars discussing the pledge with any family member, including Erik as personal representative. Action 4 limits Ruth to not raising matters with Peg, and action 6 says not to mention the pledge in the foundation letter. The only possible tension is that action 7 has Ruth make the referral, but that is a referral to the CFO, not development contact with the family or estate, so the criterion is met."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo's action 7 refers the unpaid pledge balance to CFO Denise Okafor and states 'Include probate case 2026PR000214, personal representative **Erik T. Halvorsen** (attorney Laura Vang, Vang & Steinke, S.C.), and the **claims deadline of 2026-12-28**.' This matches the criterion exactly: the correct claims deadline is given and Erik T. Halvorsen is named as personal representative, with no conflicting deadline or alternative representative stated elsewhere."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo's Action 8 states: \"Notify Samuel Achterberg of the $100,000 bequest intention. He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center.\" This routes the bequest to Achterberg as the sole contact with the personal representative or estate attorney, matching the criterion. Section 4 also bars discussing the bequest with family members, and no action has Ruth or anyone else asking Margaret, Erik, Kristin or the attorney about the will. The criterion's assumed title (Director of Planned Giving) is a minor label; the memo names Achterberg as the planned-giving contact."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly treats the $100,000 Harborview bequest as an expectancy: it says 'It is recorded as an expectancy' and, in action 8, 'Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received.' It also notes the will may no longer contain the gift and that the intention is revocable. Nothing in the memo counts the bequest as revenue or states the estate owes the Center $100,000."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo's action 5 says to prepare the Center's condolence letter 'for signature by President & CEO Laurel Whitfield' only. It never mentions a co-signature by the Board Chair (Thomas Brandvold), even though Gerry was a trustee 2009–2018 and Board Chair 2015–2017. The criterion requires co-signature by the Board Chair, so the letter as recommended is signed by the CEO alone, which is a FAIL condition."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo addresses memorial gifts directly: it lists the three arrived memorials (Lakeshore Rotary Club, Ostrowski, Becker) and in action 9 says to \"send Peg a monthly list of memorial donors' names and addresses, never the amounts.\" It does not propose disclosing amounts or a total to the family, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The memo's family, estate and bequest facts all trace to the obituary, probate notice, CRM and contact reports, and it gives no cause of death or estate value. However, it names staff who appear in no reference file: 'Holly Prochaska, Advancement Services Manager', 'Nadia Ferris, Donor Relations Manager', and 'CFO Denise Okafor'. It also gives Laurel Whitfield the title 'President & CEO', which the files do not state. It refers to 'Dale and Joan Halvorsen of Plymouth (30551)', who appear in no provided file. The criterion fails on any person or role with no source in the files."
+    }
+  ],
+  "costUsd": 0.00357732,
+  "usage": {
+    "inputTokens": 66525,
+    "cachedInputTokens": 60407,
+    "outputTokens": 4420
+  },
+  "gradedAt": "2026-10-10T14:02:11.891Z"
+}

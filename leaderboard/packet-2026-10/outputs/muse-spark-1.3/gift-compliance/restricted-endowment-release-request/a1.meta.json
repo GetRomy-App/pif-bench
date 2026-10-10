@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "promptHash": "87c63d2684767766",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 2937,
+  "outputTokens": 7888,
+  "costUsd": 0.03719525,
+  "latencyMs": 55381,
+  "createdAt": "2026-10-10T18:32:52.092Z"
+}

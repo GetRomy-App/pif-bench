@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Gerry Halvorsen died at home on Thursday, August 27, 2026,” and identifies the obituary and probate notice as confirmation. It does not give a conflicting date of death."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the September 29 visit “cannot go ahead as a solicitation” and that the proposal “is not to be presented to Peg or anyone in the family.” It allows only a condolence visit, with no gift, proposal, pledge, or estate matter raised; if Peg raises the gallery herself, Ruth listens and tells Janet the same day."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly directs Advancement Services to “Close proposal PR-2026-044 as ‘Closed — donor deceased’ (not transferred to Peg or anyone else).” It also says the proposal is not to be presented to Peg or anyone in the family, so it does not keep the proposal open or reassign it."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo calls for the CRM update: “Mark record 10388 deceased, date of death 2026-08-27,” and says to remove Gerry from “all appeals, mailings, e-mail lists and event invitations.” It also specifically says to remove him from the Fall Appeal before the mail file goes to the printer on 2026-09-28."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo gives the wrong date for when solicitation may resume: it says “before February 28, 2027” and repeats “before 2027-02-28.” The criterion requires February 23, 2027, counted from the date of death, so this fails."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly says to “Re-address the household's Fall Appeal letter to Mrs. Margaret Halvorsen alone” and that “Annual appeals continue as normal,” leaving Margaret and Kristin eligible to receive the appeal. The criterion specifically says this re-addressing fails."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo recommends sending the Halvorsen Family Foundation request “by October 15” for “$15,000 for arts education,” before the specified end date of 2027-02-23. Calling it a routine renewal rather than a personal ask does not satisfy the criterion, which explicitly fails if a request is sent before that date."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo states, “Unpaid balance: $80,000,” and repeats a referral of the unpaid pledge balance as “$80,000.” The criterion requires $70,000 and explicitly says any other balance, including $80,000, fails."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo refers the $80,000 unpaid balance to CFO Denise Okafor and states that “Only Denise decides whether to present a claim and deals with the estate about the pledge.” It also explicitly says no one in development asks Peg, Erik, Kristin, or the family foundation to pay, and that “no pledge reminder goes to the household.”"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The pledge referral gives the claims deadline as “2026-12-28” and names the personal representative as “Erik T. Halvorsen.” It therefore includes both required details."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo routes the bequest intention to Samuel Achterberg: “Notify Samuel Achterberg of the $100,000 bequest intention.” It specifies that “He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center,” and does not assign anyone else to inquire about it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo describes the signed $100,000 bequest as an expectancy and says it is “not booked as revenue, a receivable or campaign credit until the estate's distribution is received.” It does not state that the estate currently owes or will pay the Center $100,000."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo says, “Prepare the Center's condolence letter for signature by President & CEO Laurel Whitfield,” and names only Nadia to prepare it and Laurel to sign. It does not include Board Chair Thomas Brandvold as a co-signer, so it fails the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo addresses memorial gifts, noting that three have arrived and that the obituary directed memorials to arts education programs. It recommends sending Peg a monthly list of memorial donors’ names and addresses, “never the amounts,” so it meets the criterion."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The memo says, “The record was not updated while Ruth was on leave (2026-08-24 to 2026-09-18).” The files show the current CRM status and Ruth’s leave dates, but do not establish when the record was or was not updated, so this is an unsupported factual claim."
+    }
+  ],
+  "costUsd": 0.0020520900000000003,
+  "usage": {
+    "inputTokens": 42275,
+    "cachedInputTokens": 35984,
+    "outputTokens": 1814
+  },
+  "gradedAt": "2026-10-10T14:02:15.525Z"
+}

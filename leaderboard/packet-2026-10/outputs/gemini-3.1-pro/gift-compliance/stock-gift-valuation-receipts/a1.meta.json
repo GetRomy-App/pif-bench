@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "promptHash": "5e23fcf16d91eaf7",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 4828,
+  "outputTokens": 6334,
+  "costUsd": 0.085664,
+  "latencyMs": 92922,
+  "createdAt": "2026-10-10T18:21:29.074Z"
+}

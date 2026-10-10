@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the match, stating 'The Emily Hartwell in the Colorado Business Ledger story is not our Emily.' It also provides multiple conflicting identifiers, noting the article's founder 'is 34 and married to Andre Hartwell' while the constituent 'was born in 1968, so she is about 58, and her husband is Daniel P. Hartwell.'"
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the Colorado Business Ledger article and SEC Form D, stating in the short answers that 'The Emily Hartwell in the Colorado Business Ledger story is not our Emily' and 'None of the $84 million sale belongs to our donor.' It correctly attributes none of the namesake's wealth, business stake, or roles to the donor."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists the Lake Dunmore camp under 'Records rejected' and provides valid reasons, stating 'middle initial J against R. The Denver mailing address matches the article's Emily Hartwell'. It does not attribute the camp or its value to constituent 4471."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports the home at 48 Foxcroft Ln, Middlebury, owned with Daniel P. Hartwell, and correctly lists its value as '$412,300 after the town-wide reappraisal' in Section 2."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Hartwell Bookkeeping & Tax, LLC as her business, listing her as manager and registered agent at her address. It explicitly states 'No revenue or value is published' and in the Rating section notes that 'The LLC is hers, but no value is published, so it is noted and not counted', satisfying all parts of the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'Net worth: we cannot give one' and explains that 'Our standards do not allow the office to estimate or report net worth for any prospect.' No figure or range for her net worth is provided."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly rates the donor as 'U — Unrated (insufficient data)' in Section 3. It explains that this is because she only has verified records in one category (real estate), while having no public securities, no published value for her LLC, and no major philanthropy of $5,000 or more. It also explicitly declines to provide a capacity figure or range."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends a discovery visit with Emily under the 'Recommendation' section. It notes that the visit 'should be a conversation, not an ask: learn about her interests, her connection to the School and her philanthropic plans' before she is re-rated."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies the '$750, Spring Appeal' on 2026-04-03 as 'her last gift', calculating the ask based on this amount. It correctly sets aside the $2,000 soft credit and the $150 ticket purchase."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'Gala ask: $1,250' and calculates it correctly as '1.5 × $750 = $1,125, rounded up to the next multiple of $250 = $1,250'. It also correctly advises that 'The $25,000 Presenting Sponsorship ask should not go forward' and recommends no larger ask."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable accurately states facts about Emily R. Hartwell, including her birth year, husband, property ownership, business affiliation as a CPA, and gift history. Every detail provided is sourced directly from the provided reference files, and no facts are invented or falsely attributed to her."
+    }
+  ],
+  "costUsd": 0.09432199999999999,
+  "usage": {
+    "inputTokens": 25411,
+    "cachedInputTokens": 0,
+    "outputTokens": 3625
+  },
+  "gradedAt": "2026-10-10T14:04:21.446Z"
+}

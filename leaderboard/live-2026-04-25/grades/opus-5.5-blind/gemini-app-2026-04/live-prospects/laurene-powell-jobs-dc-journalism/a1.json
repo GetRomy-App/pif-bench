@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-app-2026-04",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "592143c71312ebc4",
+  "deliverableHash": "b3f9cec39d37a188",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report calls her \"the founder and president of the Emerson Collective\" and says she married Steve Jobs, who died in 2011, \"at which point she inherited the Steven P. Jobs Trust.\" It says \"Her fortune largely stems from inherited stakes in Apple and The Walt Disney Company.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report says she \"primarily uses an LLC structure (Emerson Collective) rather than a traditional 501(c)(3) private foundation.\" It describes \"The LLC Model\" as mixing grants, political donations and venture investments, and notes that Emerson \"does not publish a Form 990.\" I found no contrary statement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report says \"In 2021, she launched the Waverley Street Foundation with a commitment to distribute $3.5 billion over 10 years to organizations addressing climate change.\" That makes it a climate foundation with a commitment inside the $3B–$3.5B tolerance, and the report does not call it an LLC or a journalism funder."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report says she \"Acquired a majority stake in *The Atlantic* in 2017,\" which matches both the majority status and the year."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Besides Monumental, the report names a current D.C. tie: \"*College Track*, the nonprofit she co-founded in 1997, operates a center in the District of Columbia.\" It does not place The Atlantic's headquarters outside D.C."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Net worth is given as \"between $11.5 billion (Bloomberg Billionaires Index, Sept 2024) and $13.9 billion (Forbes, 2024),\" which lies entirely within $11B–$16B."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report lists the Monumental stake under her current wealth and assets (\"she purchased a 20% minority stake in Monumental Sports\") without mentioning the December 2025 sale. It also offers the stake as a current connection: \"Her ownership in Monumental Sports gives her a vested interest in the D.C. community\" and \"Given her financial interest in Washington, D.C. via Monumental Sports.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The report names ProPublica, The Marshall Project and Mother Jones but describes the support only as \"undisclosed but significant financial support.\" It gives no dollar amount for any journalism gift."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "Under the heading \"Known Philanthropic Giving History,\" the report lists \"Media & Journalism Investments: Acquired a majority stake in *The Atlantic* in 2017\" alongside the nonprofit-newsroom grants. It later refers to \"her existing investments in *The Atlantic* and *ProPublica*\". The for-profit Atlantic purchase is placed inside her giving history rather than kept separate from it."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report never states that Emerson Collective does not accept or consider unsolicited proposals. It only says \"Do not pitch her directly. Approach the Emerson Collective's Media and Journalism program directors.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The engagement strategy tells the nonprofit to \"Approach the Emerson Collective's Media and Journalism program directors\" with a proposal that \"should read like a business plan for civic impact.\" That is an unsolicited submission to Emerson staff, and the strategy names no warm introduction or existing relationship."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report names \"*College Track*, the nonprofit she co-founded in 1997,\" which is the correct founding year. XQ is mentioned without a founding year, so nothing contradicts the standard."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The recommended ask of \"$1,000,000 to $2,500,000\" is derived from capacity: \"Based on her $11.5B+ net worth and past giving behavior (e.g., her $3.5B climate pledge and $100M education initiative).\" No documented journalism grant size is cited to justify it."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report presents Monumental Sports as a current holding and connection (\"Her ownership in Monumental Sports gives her a vested interest\"). The fact sheet says she sold the stake in December 2025 and is a former owner on 2026-04-25."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.479Z"
+}

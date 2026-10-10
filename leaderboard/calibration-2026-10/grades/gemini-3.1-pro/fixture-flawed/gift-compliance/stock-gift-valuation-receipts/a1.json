@@ -1,0 +1,67 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet correctly lists the date of gift for the Marchetti gift as '2026-01-02' and the tax year as '2026'. Furthermore, the receipt wording acknowledges the gift as being 'credited to our account on January 2, 2026'. It explicitly refuses to use the December 29 date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Marchetti gift at $24,820.00 based on the closing price of $62.05, rather than the required $25,068.00 based on the mean of the high and low prices. The criterion explicitly states to fail if the value is $24,820.00."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly dates the Delacroix gift to 2025-12-30 and places it in tax year 2025. It also correctly calculates the gift value as $9,557.50 based on the mean of the high and low prices ($38.23)."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists the date of gift for the Fenn certificate as 2026-01-05 and the tax year as 2026 in the gift-entry sheet, the notes, and the receipt. This directly violates the criterion, which requires the date to be 2025-12-31 and the tax year to be 2025."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Fenn gift at $10,370.40 based on the 2026-01-05 mean, whereas the criterion requires the gift to be valued at $10,149.60 based on the 2025-12-31 mean."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's gift-entry sheet lists the Date of gift for Helen Szabo (G-4) as 2025-12-31 and assigns it to Tax year 2025. The notes confirm this date."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Szabo gift at $21,275.32 based on the public offering price of $26.19 per share, rather than the required $20,048.67 based on the net asset value."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable includes a dollar value in the receipt wording for Ruth-Ann Delacroix (G-2), stating 'the value of your gift on that date was $9,557.50'. This violates the criterion's requirement that no receipt state a dollar value."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states the number of shares and names the security for each gift in the receipt wording section, matching the required descriptions exactly (e.g., '400 shares of Quarry Point Industries, Inc. common stock', '812.345 shares of Lantern Ridge Balanced Fund, Class A')."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable includes the statement \"No goods or services were provided in exchange for your gift\" in the receipt wording for all four gifts (G-1 through G-4)."
+    }
+  ],
+  "costUsd": 0.090644,
+  "usage": {
+    "inputTokens": 27112,
+    "cachedInputTokens": 0,
+    "outputTokens": 3035
+  },
+  "gradedAt": "2026-10-10T13:57:16.257Z"
+}

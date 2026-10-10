@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo correctly computes program expenses as $19,066,000 less $14,180,000, or $4,886,000. But it computes the denominator as $20,515,000 less only $14,180,000, calling the result $6,335,000; the criterion requires removing all $14,275,000 of gifts in kind, for a denominator of $6,240,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The memo reports the program expense ratio as “77.1%” and calculates it as “$4,886,000 ÷ $6,335,000.” The criterion requires 78.3% ($4,886,000 ÷ $6,240,000), so the memo reports a different figure as the policy ratio."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo reports the program expense ratio as 77.1% against an 80.0% or higher target and explicitly says “Not met.” It therefore tells the committee the target was not met in 2025."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo subtracts “$600,000” for the “bequest — Estate of Harriet M. Okafor” from contributions used in the indicator. It explains that “the policy removes every bequest and estate distribution from the denominator because bequests are non-recurring,” so the criterion is satisfied."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo's table gives contributions for the indicator as $3,985,000, calculated from $18,930,000 less $14,345,000 in noncash contributions and the $600,000 bequest. This matches the criterion's required denominator."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo reports “$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.” This matches the required cost to raise a dollar of $0.22."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo lists the cost-to-raise-a-dollar target as “$0.20 or less” and explicitly says “the indicator is **met**,” because it is within the $0.25 threshold. The criterion requires the memo to say the $0.20 target was not met, so this fails."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo starts its operating-reserve calculation with “Total net assets, Part X line 32, end of year | $7,852,000.” The criterion explicitly says this fails if the memo starts from total net assets rather than the $6,612,000 without donor restrictions."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo reports the operating reserve as “$2,744,000,” calculated from total net assets less fixed assets. The criterion requires $1,504,000 using net assets without donor restrictions less fixed assets and explicitly fails any other figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states annual operating expenses as “$5,794,000” after subtracting depreciation and gifts in kind expensed. It also gives monthly operating expenses as “$482,833,” which matches the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo reports “5.7 months” of operating reserve, while the criterion requires 3.1 months and explicitly says reporting 5.7 fails. The criterion is not satisfied."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo reports the operating reserve as 5.7 months against a target of 3.0 months or more and explicitly states it was “Met.”"
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo states, “The program expense ratio is down from 81.6% in fiscal 2024.” No fiscal 2024 program expense ratio appears in the reference files or can be computed from the figures they provide. The criterion explicitly treats an unsupported prior-year ratio as a failure."
+    }
+  ],
+  "costUsd": 0.001587135,
+  "usage": {
+    "inputTokens": 27164,
+    "cachedInputTokens": 21086,
+    "outputTokens": 1235
+  },
+  "gradedAt": "2026-10-10T14:01:36.450Z"
+}

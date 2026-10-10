@@ -1,0 +1,16 @@
+{
+  "title": "Tiny test live task: a public figure's foundation",
+  "track": "live",
+  "work_type": "research",
+  "as_of": "2026-04-25",
+  "tier": "A",
+  "instructions": "Research Example Person as a potential major donor prospect for a library in Ohio. Cite your sources for every factual claim.",
+  "deliverable": "donor-intelligence-report.md",
+  "criteria": [
+    { "id": "C-001", "title": "Names the foundation", "match_criteria": "PASS if the report names the Example Foundation. FAIL if it does not.", "evidence": ["https://example.org/foundation"] },
+    { "id": "C-002", "title": "States the 2024 gift", "match_criteria": "PASS if the report states the $2,000,000 gift to the Example Library in 2024. FAIL if it omits it or states another amount.", "evidence": ["https://example.org/gift"] },
+    { "id": "C-003", "title": "Does not contradict the fact sheet", "match_criteria": "PASS if nothing in the report contradicts references/fact-sheet.md. FAIL if any statement contradicts it.", "sources": ["references/fact-sheet.md"], "red_line": true, "evidence": ["https://example.org/foundation"] },
+    { "id": "C-004", "title": "No cold proposal", "match_criteria": "PASS if the report does not recommend an unsolicited proposal. FAIL if it recommends sending one.", "red_line": true, "evidence": ["https://example.org/guidelines"] },
+    { "id": "C-005", "title": "Dates the wealth figure", "match_criteria": "PASS if any net-worth figure the report gives carries a date. FAIL if it gives an undated net-worth figure.", "evidence": ["https://example.org/networth"] }
+  ]
+}

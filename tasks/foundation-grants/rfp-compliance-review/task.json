@@ -1,0 +1,102 @@
+{
+  "title": "Review a draft community-foundation proposal and budget for compliance with the RFP before submission",
+  "track": "packet",
+  "work_type": "review",
+  "as_of": "2026-09-21",
+  "tags": [
+    "foundation-grants",
+    "rfp-compliance",
+    "budget-review",
+    "indirect-costs",
+    "cash-match",
+    "deadlines"
+  ],
+  "instructions": "Lucia's draft v3 of our Sierra Ladrones Community Foundation proposal is in the folder with the RFP, her cover note, the attachments listing and her travel itinerary. Before Jim signs off, review the whole package against the RFP and write me a compliance memo: every issue that would get the application returned or marked down, the fix for each, and the corrected figures. It has to be in the portal by October 1.",
+  "deliverable": "compliance-review-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Flags the request above the $75,000 maximum",
+      "match_criteria": "PASS if the memo identifies that the draft's $83,847 request exceeds the RFP's $75,000 maximum and treats this as a violation to fix, regardless of the foundation program officer's remark about \"flexibility\" at the information session. FAIL if the memo does not flag the request amount, or accepts a request above $75,000 on the strength of that remark or for any other reason.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-002",
+      "title": "Direct-cost lines sum to $71,910, not $72,910",
+      "match_criteria": "PASS if the memo identifies that the six direct-cost line items ($48,000 + $10,560 + $5,400 + $3,850 + $2,600 + $1,500) sum to $71,910, not the $72,910 stated as total direct costs — a $1,000 overstatement. FAIL if the memo does not catch the discrepancy, or gives any corrected direct-cost total other than $71,910.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-003",
+      "title": "Flags the 15% indirect rate as over the 10% cap",
+      "match_criteria": "PASS if the memo flags that indirect costs at 15% exceed the RFP's limit of 10% of total direct costs, and does not treat Puente's federal de minimis rate as permission to exceed that limit. FAIL if the memo accepts the 15% rate — because it is Puente's federal de minimis rate or for any other reason — or does not address the indirect rate.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-004",
+      "title": "Maximum allowable indirect is $7,191",
+      "match_criteria": "PASS if the memo gives $7,191 (10% of the corrected direct costs of $71,910) as the most indirect the RFP allows on the draft's direct costs. FAIL if it gives a different figure as that maximum — such as $7,291 (10% of the misstated $72,910) or $7,500 (10% of $75,000) — or gives no maximum indirect figure.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-005",
+      "title": "Corrected request stays within $75,000",
+      "match_criteria": "PASS if the request the memo recommends (or the ceiling it sets) is no more than $75,000, with any indirect figure it proposes no more than 10% of the direct costs it proposes — for example, $71,910 direct plus $3,090 indirect, or reduced direct costs with indirect at up to 10%. A memo may note that the corrected direct costs plus the maximum indirect ($71,910 + $7,191 = $79,101) are still $4,101 over the cap. FAIL if the memo presents $79,101, $83,847 or any other amount above $75,000 as an acceptable request, or proposes a request whose indirect exceeds 10% of its direct costs.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-006",
+      "title": "Counts only $34,000 of documented cash match",
+      "match_criteria": "PASS if the memo counts only $34,000 toward the match — the Valencia County Health Council's $20,000 and Puente's board-designated $14,000, each documented by a signed letter — and excludes both the $12,000 Rio Grande Medical Supply donation (in-kind, which does not count) and the Socorro Rotary Club's $5,000 (no signed commitment letter, and its board does not vote until October 14, after the deadline). FAIL if the memo counts the Rotary pledge or the in-kind donation toward the match, excludes Puente's own documented $14,000, or accepts the draft's $51,000 match.",
+      "sources": [],
+      "red_line": true
+    },
+    {
+      "id": "C-007",
+      "title": "Shows the match falls short of $1 for every $2 requested",
+      "match_criteria": "PASS if the memo applies the rule that the cash match must be at least half the request and either shows the documented $34,000 falls short at the request Puente would otherwise make — for example $37,500 required at $75,000, $3,500 short — or caps the request at $68,000, the most that $34,000 supports; and it gives a fix (more documented cash before the deadline, or a smaller request). FAIL if the memo calls the existing match sufficient for any request above $68,000, computes the requirement on a basis other than half the request, or leaves the shortfall unaddressed.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-008",
+      "title": "Flags the missing Sustainability Plan section",
+      "match_criteria": "PASS if the memo identifies that the required Sustainability Plan section (section 5) is missing from the narrative and must be added under that heading. FAIL if the memo does not flag it, or treats the sentence about Medicaid reimbursement at the end of the Evaluation Plan as meeting the requirement.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-009",
+      "title": "Narrative is 2,655 words, 155 over the limit",
+      "match_criteria": "PASS if the memo identifies that narrative sections 1–4 total 2,655 words (410 + 585 + 1,140 + 520), which is 155 words over the 2,500-word limit for sections 1–5, with the 480-word budget narrative not counted. FAIL if the memo accepts the cover note's 2,135-word count, says the narrative is within the limit, or counts the budget narrative toward the limit (3,135 words).",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-010",
+      "title": "Catches that a 4:30 p.m. Phoenix upload would be late",
+      "match_criteria": "PASS if the memo states that the deadline, 5:00 p.m. MDT on Thursday, October 1, 2026, is 4:00 p.m. in Phoenix (MST), flags that Lucia's plan to upload at 4:30 p.m. from Phoenix would land at 5:30 p.m. MDT — after the portal closes — and recommends uploading earlier (for example, before she leaves for Phoenix, before 4:00 p.m. Phoenix time, or by a colleague in Albuquerque). FAIL if the memo accepts the 4:30 p.m. plan, treats the deadline as 5:00 p.m. Phoenix time, or does not address the timing of the upload.",
+      "sources": [],
+      "red_line": true
+    },
+    {
+      "id": "C-011",
+      "title": "Does not flag Puente's eligibility",
+      "match_criteria": "PASS if the memo does not treat Puente's eligibility as a problem: it confirms eligibility or does not raise it. FAIL if the memo flags as a violation, a risk to fix, or a question to put to the foundation either Puente's Albuquerque (Bernalillo County) headquarters — the RFP makes organizations based outside the two counties eligible when all grant-funded services reach Socorro and Valencia county residents — or the $1,604,200 total expenses in its FY2025 audit, when the RFP bases the $1,500,000 test on the current board-approved budget of $1,320,000.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-012",
+      "title": "Does not call a correct budget line wrong",
+      "match_criteria": "PASS if the memo calls none of the six direct-cost line amounts miscalculated: salaries $48,000 (2 × 0.75 FTE × $32,000), fringe $10,560 (22% of $48,000), mileage $5,400 (12,000 miles × $0.45), supplies $3,850, training $2,600 and interpretation $1,500 (60 hours × $25) are all right; the error is in the stated total. FAIL if the memo says any of these line amounts is wrong or must be changed to correct an arithmetic error. Recommending cuts to lines to fit the cap is not a failure.",
+      "sources": [],
+      "red_line": false
+    }
+  ]
+}

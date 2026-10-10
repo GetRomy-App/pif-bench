@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "promptHash": "87c63d2684767766",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 2954,
+  "outputTokens": 2583,
+  "costUsd": 0.0332135,
+  "latencyMs": 45836,
+  "createdAt": "2026-10-10T18:16:45.432Z"
+}

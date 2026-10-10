@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "promptHash": "65948d1880faab2f",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 7909,
+  "outputTokens": 8751,
+  "costUsd": 0.214561,
+  "latencyMs": 72254,
+  "createdAt": "2026-10-10T18:14:43.701Z"
+}

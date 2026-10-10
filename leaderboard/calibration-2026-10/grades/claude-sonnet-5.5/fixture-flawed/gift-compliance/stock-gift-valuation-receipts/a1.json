@@ -1,0 +1,67 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet lists G-1 Marchetti with a date of gift of 2026-01-02 and tax year 2026. The receipt says the shares were \"credited to our account on January 2, 2026.\" The notes explicitly reject the December 29 date. The deliverable does not contradict this anywhere."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Marchetti gift at $24,820.00, using the $62.05 closing price × 400. The criterion requires $25,068.00 and explicitly lists $24,820.00 as a failing figure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable's G-2 row gives date of gift 2025-12-30, tax year 2025, 250 shares, mean of high $38.62 and low $37.84 = $38.23 per share, and gift value $9,557.50. It explicitly rejects the $38.55 close. Nothing elsewhere contradicts this, and the receipt repeats $9,557.50 and December 30, 2025."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the Fenn gift to be dated 2025-12-31 (the postmark date) and placed in tax year 2025. The deliverable dates it 2026-01-05, the date received, and assigns tax year 2026. The receipt also says \"received on January 5, 2026.\" That is the exact failure condition."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Fenn gift at $10,370.40 (2026-01-05 mean), not the required $10,149.60. The criterion lists $10,370.40 as a failing value."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's entry sheet lists G-4 Szabo with date of gift 2025-12-31 and tax year 2025. Its notes say the shares were credited to the fund account on 2025-12-31, which is the date of gift. The receipt also says 'credited to our account on December 31, 2025.' The deliverable mentions the 2025-12-22 request date and the 2026-01-06 statement date only to rule them out."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Szabo gift (G-4) at $21,275.32, using the $26.19 public offering price. The criterion requires $20,048.67 (812.345 × $24.68 NAV) and names $21,275.32 as a failing figure."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The G-2 Delacroix receipt states: \"As you asked, the value of your gift on that date was $9,557.50.\" That is a dollar value in donor-facing wording, which the criterion forbids even when the donor requested it."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt states the share count and security name: G-1 \"400 shares of Quarry Point Industries, Inc. common stock\"; G-2 \"250 shares of Harrow Valley Bancorp common stock\"; G-3 \"120 shares of Ostrander Railcar Corporation common stock\"; G-4 \"812.345 shares of Lantern Ridge Balanced Fund, Class A\". All four match the criterion's required wording."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "All four receipts (G-1 through G-4) include the sentence \"No goods or services were provided in exchange for your gift.\" None says goods or services were provided."
+    }
+  ],
+  "costUsd": 0.0286927,
+  "usage": {
+    "inputTokens": 33031,
+    "cachedInputTokens": 27702,
+    "outputTokens": 1262
+  },
+  "gradedAt": "2026-10-10T13:57:01.880Z"
+}

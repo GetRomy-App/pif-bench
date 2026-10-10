@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "taskHash": "c17ae8627cb7ff5a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The lead tier is listed as “$2,000,000” with “Number of gifts” equal to “1.” The deliverable also states this is 20% of the $10,000,000 goal."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The chart lists exactly four named tiers: $2,000,000 × 1, $1,000,000 × 2, $500,000 × 4, and $250,000 × 8, followed by an “All other gifts” line. It also states that the next tier would be $125,000 and that the named tiers stop at $250,000."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The four named-tier cumulative totals are $2,000,000, $4,000,000, $6,000,000, and $8,000,000. The All other gifts line is $2,000,000, and the deliverable states the cumulative total reaches $10,000,000."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable credits the Hollis Family Foundation’s signed $1,000,000 pledge as “one gift in hand at the $1,000,000 tier” and the Lindqvists’ signed $300,000 pledge as “one gift in hand” at the $250,000 tier. It also explicitly states, “Neither Hollis nor the Lindqvists is counted as a prospect,” so both pledges and prospect counts meet the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable says the $500,000 intention is “a verbal intention with no signed pledge” and “not a gift in hand” or committed; it counts the fund as a prospect at the $500,000 tier. The chart still shows 4 gifts needed at that tier, so it does not reduce the need based on the intention."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly says “Not counted — inclination N” and lists Desmond Achebe-Lowry, Corinne Ashworth, and Fenwick and Lila Haraway. It counts Lucien Park at $500,000 and Ivan and Sofia Petrakis and Kenji and Amara Sato at $250,000, so all required exclusions and inclusions are satisfied."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The chart places Thaddeus Rourke, Marguerite Delacroix-Benn, Ivan and Sofia Petrakis, and Beaumont Hardware Co. at the $250,000 tier. It also explains that their rating-5 band bottoms at $400,000, below the $500,000 tier, and none is listed at $500,000."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The $2,000,000 tier shows “Prospects needed” as 3, “Prospects identified” as 1, and “Gap” as 2. The identified prospect is Castellane Foundation, matching the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The $1,000,000 tier shows 1 gift in hand and 1 gift still needed, with 3 prospects needed, 2 identified, and a gap of 1. The identified prospects are “Margaret and Elliot Thornbury” and “Gideon Salcedo,” as required."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The $500,000 tier shows 0 gifts in hand, 4 gifts still needed, 16 prospects needed, 4 identified, and a gap of 12. It lists Helena Voss, Abernathy-Kim Family Fund, Lucien Park, and Wendell and Grace Oduya as the four prospects."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The $250,000 tier shows 1 gift in hand and 7 gifts still needed, with 28 prospects needed, 7 identified, and a gap of 21. The listed prospects are Rourke, Delacroix-Benn, Petrakis, Beaumont Hardware Co., Odessa Grant, Rafael Quintero, and Sato, matching the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists the three biggest gaps in this order: “$250,000 tier,” “$500,000 tier,” and “$2,000,000 lead tier.” It does not include the $1,000,000 tier among the three."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every named prospect and donor appears in the pipeline export or commitments log, and the stated ratings, inclination codes, pledge amounts, and Abernathy-Kim verbal-intention amount match those files. No named prospect or donor has an unsupported rating, code, or gift amount."
+    }
+  ],
+  "costUsd": 0.0013072650000000002,
+  "usage": {
+    "inputTokens": 26116,
+    "cachedInputTokens": 22824,
+    "outputTokens": 1337
+  },
+  "gradedAt": "2026-10-10T14:03:01.402Z"
+}

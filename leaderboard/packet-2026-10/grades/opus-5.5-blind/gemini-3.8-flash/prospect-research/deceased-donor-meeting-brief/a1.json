@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.8-flash",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "44c928fe226426bc",
+  "deliverableHash": "df3e54ba1322cd91",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Gerald T. 'Gerry' Halvorsen passed away at home on Thursday, August 27, 2026, at age 83\" and correctly treats September 1 as the obituary's publication date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the September 29 visit \"MUST BE CANCELLED IMMEDIATELY\" and has Ruth \"Contact Peg Halvorsen immediately to cancel the September 29 meeting\". Any condolence contact must \"Strictly avoid any discussion of proposals, gifts, pledges, or estate assets\", and the memo bars proposing a memorial naming during bereavement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says the proposal \"Must be marked 'Closed — donor deceased' immediately\" and that it \"cannot be transferred to Peg Halvorsen or any family member\"."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Action 1 has Holly Prochaska \"Mark Gerald Halvorsen (ID 10388) as deceased with date of death 2026-08-27\". Action 2 removes \"constituent 10388 (Mr. and Mrs. Gerald Halvorsen)\" from the Fall Appeal file \"Before file pulls to printer on September 28, 2026\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states the bereavement period runs \"August 28, 2026, through February 22, 2027\" and that \"Solicitation may resume on the 180th day: February 23, 2027, and not before\"."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo names both rows for removal: \"Constituent 10388: Mr. and Mrs. Gerald Halvorsen\" and \"Constituent 20417: Mr. and Mrs. Michael Doyle\". It says \"Both records must be removed from the print file immediately\" and flags Margaret, Kristin and Erik for no solicitation."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says Ruth's plan to request $15,000 by October 15 \"cannot proceed, as grant requests and letters of request to a foundation flagged for bereavement are strictly prohibited prior to February 23, 2027\". It lists the foundation among the entities subject to the ban."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo gives \"Actual unpaid balance: $70,000 ($200,000 pledged less $130,000 applied)\", listing payments of $40,000, $40,000, $25,000, $15,000 and $10,000. It flags the CRM's $80,000 as outdated."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo refers the $70,000 balance \"to CFO Denise Okafor\", who handles the claim decision and \"any and all communications with the Personal Representative or Estate Attorney\". It says development staff \"must never ask Peg Halvorsen, the children, the Halvorsen Family Foundation, or the estate's personal representative to pay\" and that \"no pledge payment reminders may be sent\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The referral lists \"Personal Representative Erik T. Halvorsen; Estate Attorney Laura Vang ... Claims deadline: December 28, 2026\" along with Case No. 2026PR000214."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Director of Planned Giving Samuel Achterberg alone contacts the personal representative (Erik T. Halvorsen) or the estate's attorney (Laura Vang)\" and assigns the planned-giving inquiry to him only."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo says the bequest is \"Recorded as an expectancy; it is not booked as revenue, a receivable, or campaign credit\" and \"No distribution will be credited or booked until actually received\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Action 4 is to \"Secure signatures from President & CEO Laurel Whitfield and Board Chair Thomas Brandvold (co-signature required due to Gerry's board chair/trustee service)\"."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo addresses the memorial gifts received for arts education. It directs a \"monthly memorial donor list (names and addresses only; gift amounts strictly excluded) to next of kin\". The gift amounts appear only in this internal memo, not in anything sent to the family."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The memo's facts trace to the files: date of death, family members, foundation officers and assets, pledge payments, probate details and the 2021 letter of intent. It gives no cause of death and no estate value. It does not assert that the current will contains the bequest; it only directs an inquiry into \"whether Gerald Halvorsen's will or trust includes the $100,000 bequest\"."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.046Z"
+}

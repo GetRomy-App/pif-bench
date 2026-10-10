@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "promptHash": "8b512fbd79e6ca35",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 6660,
+  "outputTokens": 11161,
+  "costUsd": 0.04684875,
+  "latencyMs": 61474,
+  "createdAt": "2026-10-10T18:26:23.722Z"
+}

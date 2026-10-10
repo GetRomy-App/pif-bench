@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "3d82b54985906e42",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Harold Penwick as deceased, lists him in the Deceased category in both the summary and detail sections, and explicitly notes that he is reported under Deceased only, omitting him from contact gap or stalled solicitation categories."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable recommends closing out the record (confirming the deceased flag, closing the ask, suppressing mailings, and removing from the portfolio). It explicitly states 'No follow-up of the ask with the family or estate' and leaves further contact with his widow up to the Director's decision, which aligns perfectly with the passing criteria."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable correctly identifies the assignment conflict for the Mehtas and refers it to the Director. However, it also flags Raymond Tsai (20790) as an assignment conflict, which is an explicit failure condition according to the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly reports Lorraine Whitfield as having a contact gap. It states, \"Last substantive contact: the thank-you visit on 2026-05-20, 118 days ago\" and explicitly clarifies that the newsletter, acknowledgment letter, and Twilight Tour attendance \"are not substantive.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable places Thomas and Ingrid Brightwater in the 'In standard' section and explicitly counts the 2026-07-21 phone conversation as a substantive contact, which directly violates the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Desmond and Carla Fitch as having a contact gap, explicitly stating there is 'No substantive contact on record' and listing the introductory letter, unanswered email, voicemail, and unanswered emailed invitation as non-substantive contacts."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly places Miriam Feld in the 'In standard' section and explicitly notes that 'The 2026-08-31 email exchange... is substantive'. She is not reported as having a contact gap or being out of standard."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies exactly two prospects as qualification overdue: Desmond and Carla Fitch (noting they were assigned 2026-01-26 and their six months ran out) and Franklin Dubose (noting he was assigned 2025-12-01 and his six months ran out). No other prospects are reported in this category, and Constance Ivers is correctly placed in the 'In standard' section."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies exactly two prospects as over the 18-month cultivation limit: Beatrice Langford ('In Cultivation since 2024-11-18') and Patricia and Leon Marchetti ('In Cultivation since 2025-02-03'). No other prospects, such as the Brightwaters or Whitcombes, are incorrectly flagged for this category."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports Samuel Ortega as a stalled solicitation, but the criterion explicitly states to fail if Ortega is reported as stalled, as he entered Solicitation fewer than 120 days ago."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable's next action for Franklin Dubose states to 'schedule a qualification visit within 30 days to confirm his capacity and interest,' which violates the criterion's requirement to not schedule another qualification visit since one already occurred on 2026-07-09."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The deliverable's counts do not match the required numbers. It states that '11 of 16 prospects are out of standard' (instead of the required 10) and reports incorrect category counts, such as 'Contact gap' at 4 (instead of 5) and 'Stalled solicitation' at 3 (instead of 2)."
+    }
+  ],
+  "costUsd": 0.123674,
+  "usage": {
+    "inputTokens": 35359,
+    "cachedInputTokens": 0,
+    "outputTokens": 4413
+  },
+  "gradedAt": "2026-10-10T13:57:57.859Z"
+}

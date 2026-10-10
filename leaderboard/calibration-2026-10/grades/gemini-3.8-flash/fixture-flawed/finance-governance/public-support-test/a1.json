@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "In the Part II computation table, line 11 (Total support) column (f) is explicitly reported as $3,671,600, composed of gifts, grants, and contributions of $3,590,300 (line 1/4) plus interest and dividends of $81,300 (line 8)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly places the $454,400 of program service revenue on line 12 only ('Gross receipts from related activities (not in support)') and excludes it from both public support and total support. It specifically explains under 'What is left out' that workshop fees ($118,500), guided trip fees ($79,900), and the Kettle County monitoring contract ($256,000) are gross receipts from related activities, noting that 'The county contract is a fee for services, not a grant.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The criterion requires that the memo leaves the $182,000 gain out of total support and explicitly explains that it is excluded because gains on the sale of capital assets are not support, and specifies 'FAIL if... the memo never mentions the gain.' The deliverable completely omits any mention of the $182,000 securities gain."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states: 'Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432' and applies this exact $73,432 figure across the computation."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly evaluates Benedict Sarkis on his five-year total of $50,000, noting 'Under the limit on his five-year total' against the $73,432 limit, and counts all $50,000 as public support with $0 in excess. It does not apply a year-by-year 2% test."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable applied the 2% limit to the Oregon Department of Environmental Quality, counting only $73,432 as public support and listing $86,568 as excess under line 5 ('Oregon Department of Environmental Quality | Governmental unit | $160,000 | 2% limit applies — the state agency is a single funder | $73,432 | $86,568'). The criterion explicitly requires counting all $160,000 of DEQ grants as public support and specifies FAIL if it applies the 2% limit to it."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "In the funder breakdown table, the Hollins-Pryor Family Foundation is explicitly listed as a private foundation with the treatment note '2% limit applies — not a publicly supported organization.' It correctly counts $73,432 toward public support and places the remaining $151,568 in line 5 excess."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo computes public support (line 6) as $1,174,028 instead of $1,260,596 because it improperly applied the 2% limit to the Oregon Department of Environmental Quality governmental unit grant. The criterion explicitly lists $1,174,028 as an incorrect figure that results in a FAIL."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports a public support percentage of 31.98% (resulting from erroneously limiting the Oregon DEQ grants) instead of the required 34.33%. Under the criterion rules, 31.98% explicitly triggers a FAIL."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states under 'The answer': 'No — on the 2025 computation we fall short of the 33⅓% test. Our public support percentage for 2021–2025 is 31.98%' and states 'we would have to rely on the 10% facts-and-circumstances test'. Because the criterion mandates a FAIL if the deliverable concludes the Council fails the 33⅓% test or says it must rely on the 10% facts-and-circumstances test, this fails."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable erroneously calculates the public support percentage as 31.98% (falling short by 1.4 percentage points) instead of 34.33% (about one percentage point above 33⅓%), and therefore fails to state a margin that follows from 34.33%."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "Under the 'Recommendation' section, the deliverable explicitly states: 'Ask Ferrante & Lowe to treat Ms. Ostrander's 2025 gift of $455,000 as an unusual grant. Taking it out of both public and total support would lift the percentage back above 33⅓% and avoid relying on the facts-and-circumstances test.' The criterion specifies FAIL if it recommends or suggests reclassifying Marguerite Ostrander's gifts as unusual grants to raise the percentage."
+    }
+  ],
+  "costUsd": 0.024561,
+  "usage": {
+    "inputTokens": 26863,
+    "cachedInputTokens": 0,
+    "outputTokens": 1177
+  },
+  "gradedAt": "2026-10-10T13:57:30.537Z"
+}

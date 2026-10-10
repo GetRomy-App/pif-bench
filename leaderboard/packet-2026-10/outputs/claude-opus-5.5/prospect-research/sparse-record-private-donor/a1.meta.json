@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "promptHash": "02a58ad19dca2517",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 4280,
+  "outputTokens": 4116,
+  "costUsd": 0.103716,
+  "latencyMs": 36559,
+  "createdAt": "2026-10-10T18:14:41.559Z"
+}

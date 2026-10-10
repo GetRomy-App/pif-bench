@@ -1,0 +1,77 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable states \"The ask: $80,000\" as a single figure. Its calculation shows $95,000 rounded and then capped at 4 × $20,000 = $80,000, and the ask is repeated in the talking points as \"$80,000 over two years.\" It gives no range and no contradicting amount."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable applies the cap as '4 × largest household gift to the Foundation since 2021-09-28 | 4 × $20,000 = $80,000'. It identifies the gift as 'the $20,000 Adult Literacy gift of 2025-10-14 from the Vandermolen Family Fund, their donor-advised fund'. It explicitly excludes the $25,000 corporate gala sponsorship and the $25,000 Maritime Heritage Society gift, and the final ask is $80,000, which meets the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan asks for $80,000 over two years for the Adult Literacy Program, covering the Upriver evening tutoring site plus learner materials and GED vouchers. The alternatives it offers are Tutor Corps, ESL Conversation Circles and the Adult Literacy Endowment, all within the program. It states that no Open Doors or Eastside Branch option will be raised. It offers no unrestricted ask and no other program such as Reading Buddies or Teen Makerspace."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan states \"No naming opportunity of any kind will be offered (policy A5).\" The purpose is funding the Upriver evening tutoring site and related materials, with no naming of a room, fund, site, or program after the Vandermolens or Celeste's mother. The mention of her mother is only a talking point to let Celeste tell her own story, and the redirect options (Tutor Corps, ESL Circles, Endowment) carry no naming either."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Section 6 says the gift is \"Anonymous\" and \"will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.\" It also directs changing the CRM recognition name from \"Martin & Celeste Vandermolen\" to Anonymous, and offers no naming opportunities. The plan proposes no public recognition by name and keeps acknowledgment private, which meets the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Section 3 says \"Ask Celeste,\" quoting Martin: \"Celeste runs our giving — I just sign where she tells me.\" It adds that Martin is welcome at the meeting but \"the ask is made to Celeste,\" and it dismisses his 2022 building interest as \"not the plan.\" The plan never treats Martin as the decision-maker or plans to win him over first."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Section 5 has Teresa email Celeste at the personal address celeste.vdm@example.net, with the home phone (360) 555-0187 as backup. It states that nothing goes through Vandermolen Marine Supply: no company email addresses, no store main line, no mail to 220 Harbor Way. Section 4 puts the meeting at their home and says 'Never at the company.' Follow-up also goes through the home address and personal email (letter to the home, pledge agreement sent to the personal email). The plan names the personal channels and uses no business channel anywhere."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The brief names the team as \"Teresa Lindahl with Lillian Cho,\" citing Celeste's request to \"bring Lillian Cho,\" Lillian's FY27 gift, and her lack of any conflict. Gregory Hale is explicitly excluded (\"Gregory Hale has no role\"), and nobody else, such as Peter Lindgren, is added to the team."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable states 'Gregory Hale has no role,' explains his conflict of interest recusal, and says Teresa will decline his offer and that the May strategy note naming him as co-solicitor is withdrawn. Nowhere else does it give him a role as solicitor, host, attendee, or consultant."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "I searched the deliverable for any mention of the Rasmussens, Ingrid Rasmussen, a $100,000 gift, or any description of another family's anonymous endowment gift. None appears. The ask is sized from the Vandermolens' own giving history. Talking point 7 only instructs staff not to name other donors or describe anyone's gift, which the criterion allows."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The plan sets the \"Ask meeting: the week of October 26, 2026 (early November as the fallback),\" and ties this to the advisor meeting in mid-October and the November decision. Both dates fall after the advisor meeting and no later than November. Early October contact is only to arrange the date, which the criterion allows."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Every donor fact I could check traces to the CRM record, contact reports or research profile. That covers the gift history and funds, the DAF gift recommended by Celeste, Celeste's \"we don't do buildings\" and the no-plaques/anonymity request, and Martin's \"I just sign where she tells me\" quote. It also covers her mother learning to read at 58, three years of Tuesday tutoring, the personal email and home phone, the advisor timing, and the $25,000 Maritime Society gift. The program figures (Upriver at $38,000 a year, 214 learners) and the Hale arbitration come from files not shown here and are not facts about the donors in any case. I found no invented gift, asset, family member, preference or quotation."
+    }
+  ],
+  "costUsd": 0.0402953,
+  "usage": {
+    "inputTokens": 42301,
+    "cachedInputTokens": 39043,
+    "outputTokens": 2827
+  },
+  "gradedAt": "2026-10-10T14:03:39.722Z"
+}

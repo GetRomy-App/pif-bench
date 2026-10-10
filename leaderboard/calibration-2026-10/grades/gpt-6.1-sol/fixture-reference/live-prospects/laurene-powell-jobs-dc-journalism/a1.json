@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies her as “Founder and president of Emerson Collective” and “the widow of Apple co-founder Steve Jobs.” It explicitly states that her fortune “was inherited from Steve Jobs, principally Walt Disney and Apple shares,” and correctly gives his death date as October 5, 2011. No contradictory claims appear."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report describes Emerson Collective as “an LLC that combines grant-making, venture investing and advocacy” and explicitly states “Emerson Collective: LLC, not a foundation.” It also says “It has no Form 990,” and contains no contrary description of Emerson Collective’s legal form; the foundation references concern the separate Waverley Street Foundation."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report identifies “Waverley Street Foundation: her climate foundation” as “a 501(c)(3) private foundation” organized as the Emerson Collective Foundation. It states that Powell Jobs “committed $3.5 billion over ten years” and calls it a “spend-down foundation,” while specifying that it funds climate work only. These statements satisfy the criterion without contradictory descriptions elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states, “Emerson Collective agreed to buy a majority stake in July 2017,” and further describes the stake as “about 70%.” It also lists Powell Jobs as “majority investor and board chair of The Atlantic,” with no contradictory ownership or acquisition claims."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states, \"The Atlantic, which she controls, is headquartered in Washington, D.C.\" It also identifies \"College Track Southeast D.C. (Ward 8)\" and says it \"opened in January 2020,\" satisfying both qualifying current D.C. ties. It does not place The Atlantic's headquarters elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report gives her current net worth as \"$13.9 billion (Forbes real time, April 25, 2026)\" and recommends using \"about $12–14 billion,\" both within the required $11–16 billion interval. It also lists $13.7 billion and $12.2 billion estimates and explicitly labels older $19–20 billion figures as \"superseded,\" rather than presenting them as current."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states that she “sold her stake in December 2025” to “the Qatar Investment Authority and Arctos Partners, at a reported $7.2 billion enterprise value.” It further clarifies, “It is no longer a holding,” and does not offer Monumental as a current connection point."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report names multiple journalism grantees and gives the required documented amounts, including ProPublica’s \"$500,000\" in 2016, \"$700,000\" in 2017, and \"$4.6 million, three-year grant\" starting in 2018. It also lists The Texas Tribune at \"$350,000 a year\" for 2019 and 2020, The 19th at \"$100,000\" in 2020, and The Current at \"$170,000 over two years\" in 2023, with no contradictory amounts for those gifts."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report places The Atlantic stake under asset holdings and explicitly states, “This is a for-profit investment, not a gift.” It likewise labels Axios, The Athletic, Ozy Media and Pop-Up Magazine as “Other media investments (all for-profit),” separate from the philanthropic giving section, and does not include these investments in charitable giving totals."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, \"Emerson Collective does not accept unsolicited submissions of any kind,\" citing its published policy. It also instructs, \"Do not send a proposal, letter of inquiry or cold pitch,\" and explains that unsolicited submissions are not considered. No open application, grant portal, RFP cycle or letter-of-inquiry process is described."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The strategy explicitly says, “Do not send a proposal, letter of inquiry or cold pitch” to Emerson Collective or Waverley Street Foundation. It instead recommends “Build a warm introduction” through grantee newsroom leaders and mapping existing board and donor ties to Emerson staff. Nowhere does the deliverable recommend an unsolicited submission, including as a fallback."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report states, “College Track. She co-founded it in 1997,” and “XQ Institute. She co-founded it in 2015 with Russlynn Ali, and she chairs it.” Both organizations are correctly identified as her education vehicles, with founding years matching the criterion and no contradictory attribution elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report recommends a specific ask: \"$300,000 over three years ($100,000 a year) in general operating support.\" It explicitly anchors that recommendation to documented newsroom grants, including \"The 19th: $100,000,\" \"The Current: $170,000 over two years,\" and Texas Tribune and Chalkbeat grants of \"$200,000–$350,000 a year.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The report does not contradict the verified fact sheet: it identifies Emerson as an “LLC, not a foundation,” gives current wealth as $13.9 billion, and explicitly states that the Monumental stake was “sold ... in December 2025.” Its documented journalism grant amounts, Waverley Street commitment and climate focus, and Washington, D.C. ties are consistent with the sheet. The statement about finding no documented media-literacy grant concerns a section 9 point and is not a contradiction."
+    }
+  ],
+  "costUsd": 0.15539150000000002,
+  "usage": {
+    "inputTokens": 57053,
+    "cachedInputTokens": 0,
+    "outputTokens": 1278
+  },
+  "gradedAt": "2026-10-10T13:59:52.413Z"
+}

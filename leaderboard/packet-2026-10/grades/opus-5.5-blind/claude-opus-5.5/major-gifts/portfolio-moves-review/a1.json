@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "e7fd2b30bf0cb4fb",
+  "deliverableHash": "8d44e5b6300781d8",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review lists \"20533 · Harold Penwick: Deceased,\" noting that his daughter reported on 2026-07-28 that \"he died on July 19.\" The summary says \"1 (Penwick) is reported under Deceased only, per section 4.1.\" He is not counted under any other category."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Penwick's next actions are to confirm the deceased flag, \"Close the $100,000 ask as 'Closed - deceased',\" suppress all mailings, and \"Remove the record from the portfolio.\" Contact with the family is left to the Director: \"You and Lena decide on any contact with Margaret Penwick or the estate.\" The review recommends no solicitation or cultivation."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The review flags the Mehtas as an assignment conflict with \"Marisol Vega, assigned 2025-10-06\" and \"Theo Brandt, assigned 2026-05-04.\" The next action is \"You designate one primary officer.\" Tsai is listed as in standard, with \"Lena Okafor is secondary, which is not a conflict.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The review lists Whitfield as a contact gap: \"Her last substantive contact was the thank-you visit on 2026-05-20, 118 days before review.\" It explicitly does not count the 07-14 newsletter, the 08-03 acknowledgment letter or the 08-22 Twilight Tour."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review lists the Brightwaters as a contact gap: \"Their last substantive contact was dinner on 2026-05-28, 110 days before review.\" It says the 2026-07-21 call \"was a phonathon call by student caller J. Pruitt ... Phonathon contacts do not count.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The review states for the Fitches: \"No substantive contact is recorded at any point since assignment.\" Its table lists the 02-09 letter, the 06-30 email, the 08-18 voicemail and the 09-02 invitation as non-substantive."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Feld is in the in-standard table with \"Email exchange with reply 2026-08-31\" as her qualifying contact. She does not appear on the out-of-standard list."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The summary lists \"Qualification overdue | Fitch, Dubose | 2.\" Ivers is in standard with \"assigned 2026-05-11, deadline 2026-11-11.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The summary lists \"Cultivation over limit | Langford, Marchetti | 2.\" The Brightwaters are said to be \"within the 18-month limit,\" and the Whitcombes are in standard."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The summary lists \"Stalled solicitation | Ashby, Achterberg | 2.\" Ortega and Castellanos are in standard. Ashby's 2026-04-22 ask is described as \"146 days before review,\" with no new ask on 08-12."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Dubose's next action is \"Within 30 days, advance him to Cultivation, as Marisol has already recommended, or disqualify him.\" It cites the 2026-07-09 discovery visit and Marisol's recommendation."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The category counts all match: contact gap 5, qualification overdue 2, cultivation 2, stalled 2, conflict 1, deceased 1. But the total contradicts the required 10 out of standard: \"Distinct prospects listed in this review: 10 of 16. 9 are out of standard. 1 (Penwick) is reported under Deceased only.\" The criterion names \"9 ... prospects out of standard\" as a failing count."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.759Z"
+}

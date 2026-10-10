@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "0c9e90264115610a",
+  "deliverableHash": "5aa460bef26f380b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The Board cannot unilaterally move the fund, this year's earnings, or the annual distribution into general operations.\" Its October 21 action is to \"Retain the restrictions and reject both the operating transfer and loan.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The routes table lists \"Donor consent—UPMIFA §6(a)\": \"Ellen M. Ruiz is the named donor. A consent in a record could release or modify restrictions, provided the resulting use remains a charitable purpose of the Foundation.\" The memo never says her consent could not reach general operations; it suggests drafting changes for \"whichever ... restrictions the proposed use would otherwise violate.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo marks §6(d) \"Unavailable: the fund exceeds $25,000 and was established March 15, 2017, less than 20 years ago.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo says a §6(c) purpose change \"requires a qualifying problem\" and that \"The operating shortfall alone is insufficient, and ADN remains active.\" It notes that a court application \"requires Attorney General notification.\" It does not recommend a court petition based on the deficit."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says the agreement \"restricts all distributions and investment return to scholarships for students enrolled in the College's ADN program.\" It adds that \"The $19,767.33 distribution is for ADN scholarships, not operating-deficit relief.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo sums the twelve quarter-ends from September 30, 2023 to June 30, 2026 as $5,930,200 and averages them to $494,183.33. It gives the distribution as \"4% ... $19,767.33\" for ADN scholarships."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says the alternative-use clause \"applies only if ADN ceases to be offered\". With ADN active and 84 students enrolled, \"that clause is not triggered.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Joan's proposed $180,000, 18-month loan is prohibited. Policy §4.2 expressly bars lending, borrowing, pledging, or using donor-restricted endowment assets to secure operating needs, regardless of term or interest rate.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo concludes the Calloway fund \"appears to meet §6(d)'s small, old fund criteria: value below $25,000, more than 20 years since establishment, and an impossible original restriction.\" It gives $18,420, established 1994, and Secretarial Studies \"closed June 30, 2011.\" It recommends pursuing the modification."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo schedules AG notice for October 5 and says on October 21 \"Do not release or spend the fund under the new purpose that day.\" It gives \"December 4: Sixty days after October 5 ... implement the modification.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says \"this is not authority to sweep the fund into general operations.\" It proposes \"an annual Calloway award to an outstanding graduating Office Administration student\" aligned with the donor's purpose."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo recommends \"the unrestricted, board-designated Operating Reserve\" with \"reported balance ... $240,000\". It says \"Release requires a majority vote of the full Board, with no donor consent or Attorney General notice.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every rule and figure traces to the files: the §6(d) $25,000/20-year/60-day terms, policy §§3.1, 4.2, 4.3 and 5.1, the fund values and dates, program status, and the Calloway donor file note. Derived figures such as $60,000 remaining, $19,767.33 and December 4 are arithmetic. The memo invents no Calloway successor and makes no claim that Ellen Ruiz has been asked; it says \"The files do not establish her current availability or willingness to consent.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.159Z"
+}

@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The plan states “The ask: $95,000” and repeats “the ask is $95,000.” The criterion requires a single figure of $80,000, so this fails."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The plan identifies the largest household gift as the “$25,000 Spring Gala presenting sponsorship of 2023” and sets the cap at “4 × $25,000 = $100,000.” The criterion requires identifying the $20,000 Adult Literacy gift from the Vandermolen Family Fund as largest and applying an $80,000 cap."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan asks for “$95,000 over two years for the Adult Literacy Program,” allocating support to the Upriver evening site and Tutor Corps. It also states, “No Open Doors or Eastside Branch option will be raised,” and offers no disallowed alternative."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan states, “No naming opportunity of any kind will be offered,” and does not suggest naming the Learning Lab, a room, fund, site, program, or anyone in the Vandermolens’ honor. The reference to Celeste’s mother is a talking point about her motivation, not a naming proposal."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The plan states “Anonymous” and says the gift “will not appear in the annual report, on any donor wall or in any announcement” and “will be acknowledged privately by letter to their home.” It says to change the CRM recognition name from “Martin & Celeste Vandermolen” to Anonymous, rather than use that name for this gift."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan states, “Ask Celeste,” and cites Martin saying, “Celeste runs our giving — I just sign where she tells me.” It directs Teresa to make the ask to Celeste while Martin is welcome at the meeting, and explicitly says his older building interest is not the plan."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The plan proposes emailing Celeste at “celeste@vandermolenmarine.com,” which the criterion explicitly identifies as a business channel. Although it also names the home phone and proposes meeting at their home, any proposed use of the business email makes this fail."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The plan states, “Team: Teresa Lindahl with Lillian Cho,” and identifies Lillian as the leadership partner, noting Celeste asked for her and that she made her FY27 gift. Martin is merely welcome at the meeting, and Gregory is explicitly assigned no role; no other solicitation team member is included."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The plan states, “Gregory Hale has no role,” and says he “takes no part in cultivating or soliciting the Vandermolens until it is resolved.” It also says Teresa will decline his offer and withdraws the May note naming him as co-solicitor; no prohibited role or involvement is proposed."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The plan explicitly identifies “Ingrid Rasmussen” and says “her family have just made a $100,000 gift to the Adult Literacy Endowment.” The criterion fails if the anonymous gift is mentioned in any form."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The plan explicitly sets the “Ask meeting” for “the week of October 5, 2026” and says this is “before the advisor meeting.” The criterion requires the ask after the mid-October advisor meeting, so this fails."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor-specific claims are supported by the files: for example, the plan quotes Celeste saying “we don't do buildings,” and the contact report records that her mother learned to read at 58 and that she asked to bring Lillian Cho. The gifts, capacity figure, family fund, home, tutoring, privacy preferences, and timing also appear in the supplied records; the plan does not invent a donor fact under this criterion."
+    }
+  ],
+  "costUsd": 0.0015412999999999998,
+  "usage": {
+    "inputTokens": 26513,
+    "cachedInputTokens": 22595,
+    "outputTokens": 1653
+  },
+  "gradedAt": "2026-10-10T14:02:08.386Z"
+}

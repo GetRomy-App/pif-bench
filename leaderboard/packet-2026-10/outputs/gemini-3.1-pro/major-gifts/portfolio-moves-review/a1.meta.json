@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "promptHash": "65948d1880faab2f",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 6131,
+  "outputTokens": 9436,
+  "costUsd": 0.125494,
+  "latencyMs": 81857,
+  "createdAt": "2026-10-10T18:21:38.219Z"
+}

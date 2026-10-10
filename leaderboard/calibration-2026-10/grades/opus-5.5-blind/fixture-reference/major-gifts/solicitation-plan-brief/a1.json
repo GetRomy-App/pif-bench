@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "59bdb47caeb5348c",
+  "deliverableHash": "5f5bba380c3f3c3b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The brief's heading is \"The ask: $80,000\" and the sizing table ends \"**Ask** | **$80,000**\". It is a single figure, not a range."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The cap row reads \"4 × largest household gift ... 4 × $20,000 = $80,000\", and the text identifies \"the $20,000 Adult Literacy gift of 2025-10-14 from the Vandermolen Family Fund, their donor-advised fund.\" It explicitly excludes the $25,000 corporate sponsorship, the gala table and the Maritime Heritage gift."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The brief proposes \"$80,000 over two years for the Adult Literacy Program\" (Upriver site plus learner materials), with redirection only within the program. It states \"No Open Doors or Eastside Branch option will be raised.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The recognition section states \"No naming opportunity of any kind will be offered (policy A5),\" and no naming is suggested anywhere else in the brief."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The brief states \"Anonymous... The gift will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.\" It mentions the CRM recognition name only to direct that it be changed to Anonymous, not to use it."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Under \"Ask Celeste,\" the brief quotes Martin's \"Celeste runs our giving\" and says \"Martin should be welcome at the meeting, but the ask is made to Celeste.\" Martin's 2022 building interest is set aside as \"not the plan.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Teresa emails Celeste at her \"personal address, celeste.vdm@example.net\" with backup \"the home phone, (360) 555-0187,\" and the meeting is \"at their home, 1418 Cormorant Lane... Never at the company.\" It states \"Nothing goes through Vandermolen Marine Supply.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The team is \"Teresa Lindahl with Lillian Cho,\" justified because Celeste asked for her and \"Lillian has made her FY27 gift and has no conflict.\" No one else is added to the team."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The brief states \"Gregory Hale has no role,\" says he \"takes no part in cultivating or soliciting the Vandermolens,\" and that Teresa \"will thank him for his 2026-09-21 offer and decline it.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The brief never mentions the Rasmussens, the $100,000 amount or a fellow tutor's gift. Talking point 7 only instructs \"do not name other donors or describe anyone's gift,\" which is allowed."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The ask meeting is set for \"the week of October 26, 2026 (early November as the fallback),\" which comes after the mid-October advisor meeting and within November. Arranging dates by email in early October is permitted."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor facts I checked all trace to the files: the gifts and their payers, the quotes (\"Celeste runs our giving\", \"we don't do buildings\"), her mother learning to read at 58, tutoring since 2023, the advisor timing, the contact details and the program figures (214 learners, 96 tutors, Upriver $38,000). I found no gift, asset, family member or quotation that lacks a source."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.623Z"
+}

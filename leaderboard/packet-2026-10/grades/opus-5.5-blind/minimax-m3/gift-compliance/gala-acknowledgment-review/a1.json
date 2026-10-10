@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "minimax-m3",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "8ac807716a69e841",
+  "deliverableHash": "2d376eea9883cbaf",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "For P-01 the review gives \"Deductible amount: $420.00 ($750 - 2 x $165 FMV per seat).\" The two seats are valued at $330."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "P-01's acknowledgment \"must state: payment of $750 received 2026-08-19; 2 gala seats with dinner, open bar and live band, FMV $330; that the deductible amount is limited to the excess of the payment over the value of the goods and services.\" That covers the seat description, the $330 estimate and the limitation statement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The review values P-02's benefits at \"10 reserved seats ... x $165 = $1,650,\" plus \"VIP pre-gala reception for 10 guests x $40 = $400,\" for a \"Total benefit value: $2,050.\" It gives the program and signage name \"no value per §4.2.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The review states P-02's \"Deductible amount: should be $7,950, not $6,250.\" It directs the CRM benefit value to change so that the receipt recomputes to $7,950."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review gives P-03 \"Deductible amount: should be $375.00, not $210.00\" and benefit value $0. It cites the reply card's \"I will not attend. Please do not reserve a seat for me\" and that \"no seat was reserved.\" The acknowledgment must state \"No goods or services were provided in exchange for your contribution\" and must not carry the quid pro quo disclosure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The review gives P-04 \"Deductible amount: should be $420.00, not $750.00\" and requires the acknowledgment to state \"2 gala seats with FMV $330; §3.2 disclosure.\" It reverses Dana's change (benefit $0, GALA-GIFT) because \"the seat was reserved and available to them\" and policy does not increase the deductible for an unused benefit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The review gives P-05 \"Deductible amount: $200.00 (the gift component only)\" and calls the \"$100.00 - not a deductible charitable contribution, per §3.3.\" The acknowledgment must not state \"a deductible amount of any size for the $100 raffle portion,\" and the raffle is booked so it is excluded from the deductible total."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The review gives P-06 \"Deductible amount: $1,500.00\" with the statement \"No goods or services were provided in exchange for your contribution.\" Citing §4.4, it says the Vasquez-Hart table seat \"is the sponsor's benefit and is not deducted from any separate gift the guest makes.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The review gives P-07 \"Deductible amount: $60.00,\" and the acknowledgment must state \"No goods or services were provided in exchange for your contribution.\" It notes that the content rules apply to every acknowledgment, including those under $250."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The review gives P-08 \"Deductible amount: $30.00 ($195 - $165 FMV per seat).\" The acknowledgment must state \"1 Young Professionals gala seat ..., FMV $165; §3.2 disclosure (payment exceeds $75).\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.278Z"
+}

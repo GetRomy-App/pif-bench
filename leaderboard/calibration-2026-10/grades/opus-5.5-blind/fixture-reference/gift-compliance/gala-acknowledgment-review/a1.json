@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "8ac807716a69e841",
+  "deliverableHash": "91c140906fa18f02",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "P-01 gets \"Deductible amount: $420 = $750 − 2 × $165 ($330).\" The two seats are valued at $330, not at the ticket price."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The P-01 must-state list includes \"two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330\" and \"the §6115 statement that the deductible amount is limited to the excess of the payment over the value of the goods and services provided.\" That covers the seats, the $330 estimate and the disclosure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "P-02 states \"Goods and services: $2,050 = 10 seats × $165 ($1,650) + VIP reception for 10 guests × $40 ($400),\" and adds that the program and signage listing \"is recognition and carries no value.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It gives \"Deductible amount: $7,950 = $10,000 − $2,050\" and the CRM correction says to change the \"receipt amount from $6,250 to $7,950.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "P-03 gets \"Deductible amount: $375,\" citing that she checked \"I will not attend. Please do not reserve a seat for me\" on the reply card returned with her check and that no seat was reserved. The acknowledgment must say \"No goods or services were provided,\" must not state a seat or the quid pro quo disclosure, and the CRM is corrected to benefit $0 and receipt amount $375."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "P-04 keeps \"Deductible amount: $420,\" and the acknowledgment must state the two seats at $330 with the §6115 disclosure. The review says to \"reject Dana's pending change — restore benefit $330, receipt amount $420 and template GALA-QPQ,\" because the seats \"were reserved and available\" and an unused benefit does not raise the deductible amount."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "P-05 gets \"Deductible amount: $200,\" and \"$100 bought five raffle tickets ... which are not a charitable contribution and are not deductible.\" The acknowledgment must not state \"a $300 gift,\" and the CRM is split into a $200 gift and a $100 raffle sale."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "P-06 gets \"Deductible amount: $1,500,\" and the acknowledgment must state that no goods or services were provided. The review says her seat \"belonged to the Vasquez-Hart table and is valued on their acknowledgment, not deducted from her gift,\" and it must not state a seat or seat value."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "P-07 gets \"Deductible amount: $60,\" says \"He gets an acknowledgment like every donor,\" and the acknowledgment must state \"No goods or services were provided in exchange for your contribution.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "P-08 gets \"Deductible amount: $30 = $195 − $165.\" The acknowledgment must include the $165 estimate and \"the §6115 disclosure sentence — required because her payment is more than $75, even though the deductible part is only $30.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.596Z"
+}

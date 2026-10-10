@@ -1,0 +1,87 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "taskHash": "a759909172fcd988",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo's table lists D1 'Learners enrolled' with target 120, result 131, status 'Met'. This matches the criterion. The memo does not use the word 'unique', but 131 is the enrollment figure and the criterion's required substance is satisfied."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo marks D2 as 'Not met' with '94 of 131 = 71.8%' against the 75% target. It states '99 completers were needed (75% of 131 = 98.25)'. It also rejects Marcus's comparison against 90 and says the bar is measured against enrolled learners, not the 120 target. This matches every element of the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo's D3 row reads \"61 of 94 = 64.9%\" against a 60% target and marks it \"Met\". It also says the rate to report is 64.9%, not 83.6%, and that the denominator is all 94 completers. This matches the criterion on every point."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo's D4 row reads \"Tutors completing 12+ hours of pre-service training | 25 | 26 (27 recruited; one has 8 hours) | Met\". It also states \"26 tutors completed the 12-hour training, not 27; one is still in training. Still met.\" This matches the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo marks D5 as 'Not met', listing three meetings (2025-09-18, 2025-12-11, 2026-03-19) and noting none in Apr–Jun 2026. It also states 'The July 16, 2026 meeting falls in Year 2 (Year 1 ended June 30). Year 1 had three meetings, so D5 is not met.' This matches every element of the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo identifies AP-2242 ($640, Harborview Taproom, beer and wine, Tutor training) as unallowable under Section 6.3, excludes it from the totals ($118,666 allowable; Tutor training $4,700), and says it must be reversed out of Fund 310 and moved to unrestricted funds per Section 6.4. It correctly treats the $1,020 Hearthside buffet as allowable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The budget table lists Learner supports with a $12,000 budget, $13,560 allowable actual, a variance of +$1,560 and +13.0%, and marks it 'Yes' for Foundation approval. The notes say it crosses the 10% threshold and that the Foundation's written approval is required. This matches every element of the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo's budget table lists Curriculum & materials with a $8,000 budget, $6,920 allowable actual, a variance of −$1,080 and −13.5%, flagged as needing Foundation approval. The notes say it is \"an underspend — it needs approval just as an overspend does\" under the more-than-10% rule. This meets every part of the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo says only Learner supports (+13.0%) and Curriculum & materials (−13.5%) need Foundation approval. It states \"Local travel (−8.1%) and Tutor training (−6.0%) are within 10% and need no approval,\" and the table marks Personnel, Fringe, Evaluation consultant as \"No\". No other line is flagged."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The budget table gives Personnel −$1,020 (−1.5%, $66,980), Fringe −$204 (−1.5%, $13,396), Tutor training −$300 (−6.0%, $4,700), Local travel −$290 (−8.1%, $3,310), and Evaluation consultant $0 (0.0%, $9,800). All five match the criterion's figures, and the notes confirm the reclass netting and the exclusion of the alcohol charge."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo reports allowable Year 1 spending of $118,666 and $1,334 unspent of the $120,000 Year 1 payment, to carry forward to Year 2. It mentions Renee's ledger total of $119,306 only as the figure before removing the $640 charge, not as the grant's total. This meets the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The interim report is due **August 14, 2026**\" in the summary. Its calendar table repeats \"Friday, August 14, 2026 | Interim report (Year 1) due | 45 days after June 30, 2026 (§7.1)\". Both match the criterion, and the memo gives no conflicting date."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo's calendar gives 'Thursday, April 1, 2027' as the last day for the Foundation to receive a no-cost-extension request, calculated as 90 days before June 30, 2027 (§8). That matches the required date and basis, and the weekday is correct."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The calendar table lists \"Tuesday, September 28, 2027 | Final report due; any unspent grant funds returned with it | 90 days after June 30, 2027 (§§7.2, 9); both move if an extension is granted\". This gives the required date and says unspent funds are returned with the final report, and the note about extension is acceptable. However, section 4 says unspent $1,334 \"carries forward to Year 2,\" which is a Year 1 matter and doesn't contradict the final-return rule."
+    }
+  ],
+  "costUsd": 0.028613,
+  "usage": {
+    "inputTokens": 45310,
+    "cachedInputTokens": 45060,
+    "outputTokens": 2351
+  },
+  "gradedAt": "2026-10-10T14:02:54.841Z"
+}

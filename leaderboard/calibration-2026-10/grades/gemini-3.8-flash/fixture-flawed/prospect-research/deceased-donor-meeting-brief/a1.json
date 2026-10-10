@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Bottom line section that 'Gerry Halvorsen died at home on Thursday, August 27, 2026.' It does not treat him as living or solicit him, and gives the correct date of death."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the 'September 29 visit cannot go ahead as a solicitation' and instructs to cancel the visit action or replace it with a condolence-only visit where Ruth 'raises no gift, proposal, pledge or estate matter and brings no proposal or rendering.' It also correctly notes that if Peg raises the gallery herself, Ruth should listen, not suggest an amount, and tell Janet the same day."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "In recommended action #1, the memo explicitly states: 'Close proposal PR-2026-044 as \"Closed — donor deceased\" (not transferred to Peg or anyone else).' It also reinforces throughout that the proposal cannot go ahead or be transferred to the family."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly recommends marking constituent record 10388 deceased with date of death 2026-08-27 (Action 1) and removing Gerry from all appeals, mailings, e-mail lists, and event invitations. It also specifically calls for removing Gerry from the Fall Appeal mail file before it goes to the printer on 2026-09-28 (Action 2)."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable states that personal solicitation of the family is barred before 'February 28, 2027', explicitly calculating 180 days from the September 1 obituary publication date rather than the required 2027-02-23 (180 days from the August 27 date of death). The criterion explicitly specifies: 'FAIL if it gives any other date, such as 2027-02-28 (counted from the obituary's 2026-09-01 publication)'."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly fails because Action 2 directs to 'Re-address the household's Fall Appeal letter to Mrs. Margaret Halvorsen alone, at the same ask string', and Action 3 states 'Annual appeals continue as normal' for Peg, Kristin, and Erik. The criterion explicitly mandates FAIL if the memo 're-addresses the household's appeal letter to Margaret alone'."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "In recommended action #6, the deliverable explicitly recommends: 'Send the Halvorsen Family Foundation letter of request by October 15 as planned ($15,000 for arts education). It is a routine annual renewal that the trustees invited in July, not a personal ask.' The rubric specifically mandates a FAIL if the memo recommends sending the October 15 letter or treats the foundation as outside the no-solicitation rule."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states the unpaid balance as $80,000 ('Unpaid balance: $80,000. Finance's figures on the record show $120,000 paid to date' and 'Refer the unpaid pledge balance of $80,000 to CFO Denise Okafor'). The criterion explicitly requires $70,000 and states FAIL if it gives $80,000."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "In Action 7, the deliverable explicitly refers the $80,000 unpaid pledge balance to CFO Denise Okafor, stating: 'Only Denise decides whether to present a claim and deals with the estate about the pledge. No one in development asks Peg, Erik, Kristin or the family foundation to pay it, and no pledge reminder goes to the household.' Development staff are kept completely out of the pledge resolution."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "In item 7 of the Recommended actions table, the memo explicitly includes 'personal representative Erik T. Halvorsen' and 'the claims deadline of 2026-12-28' in the pledge referral to CFO Denise Okafor. Both required elements are accurately provided."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly routes the bequest intention to Samuel Achterberg in Action 8: 'Notify Samuel Achterberg of the $100,000 bequest intention. He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center.' Furthermore, in Section 4, it instructs others not to discuss the bequest or estate with family members."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states in Action 8: 'Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received.' It also notes in Section 2 that 'It is recorded as an expectancy' and 'We do not know whether the will admitted to probate still contains it. A bequest intention is revocable'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "In recommended action 5, the deliverable specifies: 'Prepare the Center's condolence letter for signature by President & CEO Laurel Whitfield. | Nadia Ferris, Donor Relations Manager (prepares); Laurel Whitfield (signs)'. It omits the Board Chair (Thomas Brandvold) co-signing the letter, failing the requirement that the letter be co-signed by the Board Chair."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly addresses memorial gifts in section 3, action item 9: 'Set up a memorial fund code for the arts education programs, as the obituary asked. Acknowledge each memorial donor, and send Peg a monthly list of memorial donors' names and addresses, never the amounts.'"
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Every factual statement about Gerald, his family, the estate, gifts, and foundation is directly drawn from the provided reference files. The memo avoids fabricating details such as a cause of death or overall estate value, and explicitly notes regarding the bequest: 'We do not know whether the will admitted to probate still contains it. A bequest intention is revocable (DR-7 §6).'"
+    }
+  ],
+  "costUsd": 0.040566000000000005,
+  "usage": {
+    "inputTokens": 47238,
+    "cachedInputTokens": 0,
+    "outputTokens": 1370
+  },
+  "gradedAt": "2026-10-10T14:02:13.049Z"
+}

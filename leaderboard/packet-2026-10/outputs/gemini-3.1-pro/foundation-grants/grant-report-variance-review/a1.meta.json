@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "promptHash": "1f0587cbb08952a5",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 5274,
+  "outputTokens": 12224,
+  "costUsd": 0.157236,
+  "latencyMs": 106933,
+  "createdAt": "2026-10-10T18:19:56.150Z"
+}

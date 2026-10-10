@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "e663556c1b60f8d5",
+  "deliverableHash": "77b3b5f96bbba0dc",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report says he \"Co-founded Netflix in 1997 and was its CEO from the late 1990s until January 2023.\" The founding year is 1997 and the end of his CEO tenure is January 2023."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "His current Netflix role is given as \"Chairman of the Board and a non-executive director\" since April 17, 2025, and Executive Chairman is dated \"from January 2023 until April 17, 2025.\" Microsoft and Facebook appear only under \"Past\" roles with their end years."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It states \"On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting. He remains chairman until then,\" and quotes the reason \"to focus on his philanthropy and other pursuits.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It says \"Netflix equity is the core of his wealth,\" gives the 37,759,062 shares including options on 16,595,546, and calls the stake \"under 1% of the company.\" Net worth is sourced as Forbes about $4.1 billion (2024) and about $4–5.5 billion (2026), and Bloomberg $6.6 billion; all of these fall within $3–8 billion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It states \"He is married to Patty Quillin, his partner in giving.\" She is co-listed on the 2012 Giving Pledge, the $120 million HBCU gift and the CSGF funders listing."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The gift table lists \"Jan 2016 | Hastings Fund: education donor-advised fund at SVCF ... | $100 million,\" which matches the required amount, year and sponsor."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The gift table lists \"Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion,\" which gives the correct date, share count, value and recipient. The July 2024 790,000-share gift is also included."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It lists \"Jul 2018 | The City Fund: charter and autonomous public schools in cities. The Hastings Fund and Laura and John Arnold are anchor funders; reported $125M of it from the Hastings Fund | ~$200 million raised at launch.\" The ~$200 million is not credited to Hastings alone."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It lists \"Jun 2020 | UNCF, Spelman College, Morehouse College, for HBCU scholarships (with Quillin) | $120 million ($40M each).\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "It states \"Hastings sits on CSGF's board, and CSGF is headquartered in Denver,\" and calls him a \"CSGF board member as of April 2026\" and a $10M-plus funder. He is not described as chair."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It identifies \"Lone Rock, an educators' retreat in rural Bailey, Park County, that he financed,\" and lists the Lone Rock Foundation officers with \"Hastings is president.\" It is not described as his home, and he is placed in Santa Cruz, California."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 5 estimates single-gift capacity at \"$50 million or more,\" which is above the $40 million threshold."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The first step is \"Go through CSGF... ask CSGF leadership for an introduction,\" followed by the Pahara/Lone Rock network. The report says \"Do not send unsolicited proposals to the Hastings Fund\" and that Lone Rock \"makes grants only to preselected organizations, so do not send it a proposal.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Every figure I checked matches the fact sheet or its tolerances: age 65, the career dates, the share counts after the split, net worth within $3–8B, the $100M/$1.1B/$502M/$120M/$50M gifts, the City Fund details, the CSGF Denver HQ, the Lone Rock officers and the >$20M cost. The pre-split 2,000,000-share count for the 2024 gift is given in its own dated row and is not mixed with the post-split holdings."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.612Z"
+}

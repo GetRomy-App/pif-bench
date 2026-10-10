@@ -1,0 +1,92 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "taskHash": "693ba201c94e6b6d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the LYBUNT count to be 11 households. The deliverable states 'LYBUNT households ... | **10**' and its list enumerates exactly 10 households. The criterion explicitly names 10 as a failing count, so the deliverable fails."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the SYBUNT count to be 9 households. The deliverable states 'SYBUNT households (gave in FY2021–FY2025, not in FY2026 or FY2027) | **8**' and its SYBUNT section lists exactly 8 households. It does not state 9 anywhere, so the count does not match the criterion's required figure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The criterion requires a retention rate of 68.2% computed as 15 of 22 FY2025 households that gave in both FY2025 and FY2026. The deliverable instead reports donor retention as 9/19 = 47.4%, defined as FY2026 households that gave again in FY2027 to date. This is not 68.2%, and it uses a different numerator and denominator, so it fails the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Dana Whitfield as LYBUNT #2 with a $500 gift on 2025-11-18 in FY2026, and explicitly states that Northgate's $500 match of 2026-08-12 is the company's gift and she has only a soft credit for it. She is therefore not counted as having given in FY2027, which is exactly what the criterion requires."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Gregory Szabo as LYBUNT #3 with a $100 gift on 2026-04-09 and explicitly notes that his $250 of 2026-07-20 was refunded on 2026-07-22, excluding it as a countable gift. It is not counted as FY2027 giving, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The criterion requires Marguerite Osei to appear on the LYBUNT list, and FAIL if she is left off by counting her fundraiser-page gifts as her own FY2027 giving. The deliverable explicitly treats her $400 birthday fundraiser-page credits as her own FY2027 giving ('Marguerite Osei's fundraiser-page credits are treated as her own FY2027 giving, since she raised the money') and lists her under 'Not LYBUNTs'. This is exactly the failure mode the criterion names, so the report does not list her as a LYBUNT."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Celeste Moreau as LYBUNT #1 with a $250 gift dated 2026-06-30, and its method states that June 30 is the last day of FY2026. This matches the criterion's requirement that her June 30, 2026 gift falls in FY2026 and that she appears on the LYBUNT list. She is not treated as giving this year."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's LYBUNT table lists 10 households (Moreau, Whitfield, Szabo, Lindqvist, Blackwood, Ng, Okonjo, Arriaga, Vance, Hartwell) and does not include the Achebes. The text explicitly places 'the Achebes (Daniel, $300 on 2026-08-28)' under 'Not LYBUNTs, although they gave in FY2026, because the household has already given in FY2027.' Neither Ruth nor Daniel Achebe appears on the LYBUNT list, so the criterion passes."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The LYBUNT table lists \"Erik and Annika Lindqvist\" as a single row (#4, \"One household\", \"$1,000 joint check, 2025-12-19 (split $500/$500)\"). The method also states the Lindqvists' split joint checks count once for the household. They are not listed twice and are not missing from the LYBUNT list."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists 'Benjamin and Clara Hartwell' as LYBUNT #10 ('$2,500 from Clara, 2025-12-29 ... the household gave in FY2026'). Benjamin Hartwell does not appear on the SYBUNT list, which contains only Abernathy, Marchetti, Osterberg, Clarke, Harrington, Marchand, Haddad, and Faraday. The criterion's pass conditions are met."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Lorraine Abernathy as SYBUNT #1 with '$500, 2025-04-17 (her FY2026 gift was refunded)' and does not include her on the LYBUNT table. The LYBUNT list has 10 households, none of which is Abernathy, and the refunded-gifts exclusion explicitly names her $500 of 2026-04-16. This satisfies the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The criterion requires Walter Pruitt to be listed as a SYBUNT because his 2020-08-18 gift falls in FY2021. The deliverable's SYBUNT table lists eight households and does not include Pruitt. Instead, its 'Not SYBUNTs' note explicitly states that 'Walter Pruitt (last gift 2020-08-18) — both last gave in 2020, before the 2021–2025 window, so they are lapsed.' This treats him as lapsed and outside the window, which is the exact failure the criterion describes."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly lists Ingrid Solberg under 'Not SYBUNTs' with the note that her last gift was 2020-05-02 and she is lapsed. She does not appear in the SYBUNT table or the LYBUNT table, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists 'Samir and Leila Haddad | $500 joint check, 2025-06-30 | FY2025' once in the SYBUNT table (item 7), and the LYBUNT table does not include the Haddads. The household is not counted twice and is not on the LYBUNT list, so the criterion is met."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes all four organizations in Method step 2 ('every organization — Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club and Ferncliff Brewing Co.'). None of them appears in the LYBUNT list, the SYBUNT list, the retention denominator list, or the numerator list. Northgate is mentioned only as the source of a matching-gift soft credit to individuals, which is not counting the organization itself."
+    }
+  ],
+  "costUsd": 0.0022599649999999996,
+  "usage": {
+    "inputTokens": 44977,
+    "cachedInputTokens": 39284,
+    "outputTokens": 2314
+  },
+  "gradedAt": "2026-10-10T13:57:12.096Z"
+}

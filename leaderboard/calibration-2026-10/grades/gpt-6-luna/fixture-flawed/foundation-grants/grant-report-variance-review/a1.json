@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "taskHash": "a759909172fcd988",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The D1 row lists the target as 120, the result as 131, and the status as “Met.” This satisfies the criterion’s enrollment figure and status requirements."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The memo reports D2 as “75% of the 120-learner enrollment target = 90” and lists “94 completers” as “Met.” The criterion requires D2 to be assessed against the 131 actually enrolled learners and marked not met, so this fails."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo marks D3 as “Met” and reports “61 of 94 = 64.9%” against the stated target of 60%. It also clarifies that the denominator is all 94 learners who completed 40+ hours, not the 73 post-tested."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The D4 row gives a target of 25 and reports “26” tutors completing the 12-hour training, with status “Met.” The memo also clarifies that one of 27 recruits had only 8 hours, so it does not incorrectly count 27 as fully trained."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly marks D5 as “Met” and says the Q4 meeting was “rescheduled to 2026-07-16” and “counts toward Year 1.” The criterion requires D5 to be not met, with the July meeting counted in Year 2."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “AP-2242, 2026-05-29, Harborview Taproom” for “beer and wine service,” states that alcoholic beverages are barred, and says the $640 “must be moved to unrestricted funds.” It excludes the charge from grant expenses and totals, while explicitly saying the $1,020 Hearthside Catering dinner buffet is allowable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo reports Learner supports as “$12,000” budgeted and “$13,560” allowable actual, with a “+$1,560” (“+13.0%”) variance. It also says the line is “more than 10% over budget and needs the Foundation's written approval.”"
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo reports Curriculum & materials at $6,920 against an $8,000 budget, with a variance of −$1,080 (−13.5%). But it says “No (underspend)” and explains that the underspend “needs no approval,” contrary to the criterion’s requirement that it needs the Foundation’s written approval."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Learner supports as needing approval and says Curriculum & materials is 13.5% under budget but needs no approval. It states that “Local travel (−8.1%) and Tutor training (−6.0%) are within 10% and need no approval,” and does not flag any other line as needing approval."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo lists Personnel at −$1,020 (−1.5%) with $66,980 allowable actual; Fringe benefits at −$204 (−1.5%) with $13,396; Tutor training at −$300 (−6.0%) with $4,700; Local travel at −$290 (−8.1%) with $3,310; and Evaluation consultant at $0 (0.0%) with $9,800. All five lines match the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo reports “Allowable Year 1 grant expenses: $118,666” and “Unspent: $1,334,” identifying the $120,000 Year 1 payment and stating that the balance carries forward to Year 2. These figures match the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states, “The interim report is due August 14, 2026,” and its dates table repeats August 14, 2026 as the Year 1 interim report due date. This matches the required date."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo gives “Wednesday, March 31, 2027” as the last day for the Foundation to receive a no-cost-extension request. The criterion requires April 1, 2027, and explicitly fails other dates such as March 31."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo gives “Tuesday, September 28, 2027” as the final report due date and says “any unspent grant funds [are] returned with it.” It also notes both dates move if an extension is granted, which the criterion allows."
+    }
+  ],
+  "costUsd": 0.0011031150000000002,
+  "usage": {
+    "inputTokens": 30424,
+    "cachedInputTokens": 28229,
+    "outputTokens": 1095
+  },
+  "gradedAt": "2026-10-10T14:01:34.317Z"
+}

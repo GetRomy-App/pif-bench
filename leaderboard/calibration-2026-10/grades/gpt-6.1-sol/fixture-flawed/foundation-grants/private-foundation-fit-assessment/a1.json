@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "7063d1a9ab85c1c5",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly reports Marwood's “Grants paid in 2025: $708,000 across 10 grants.” It correctly distinguishes this from “$804,400 total expenses and disbursements” by subtracting $96,400 in administrative expenses, and gives no contradictory grants-paid total."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that Marwood \"does not accept unsolicited requests for funds,\" citing the checked 990-PF box that it only contributes to preselected charitable organizations. It also quotes the website's prohibition on unsolicited proposals, letters of inquiry, or applications and recommends sending no request. Nothing in the deliverable describes Marwood as open to such requests."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that “Millstream sends it no proposal, LOI, application or other written request — from staff or through a board member.” It recommends keeping Marwood on a watch list and gives no ask or scheduled submission; nowhere does it recommend sending unsolicited funding materials."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo does not identify Margaret W. Lindqvist as a trustee of Marwood or recommend approaching the foundation through her. Instead, it states, “Under Policy §2 there is no approach open to us” and recommends keeping Marwood on a watch list, which directly triggers the criterion’s failure condition."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly reports Calloway-Deane's “Grants paid in 2025: $390,000 across 12 grants.” It distinguishes the $488,450 total expenses and disbursements from grants paid by subtracting $98,450 in administrative expenses, and gives no contradictory grants-paid total."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states that Calloway-Deane paid “$390,000 across 12 grants — none to a Pennsylvania organization” and that all grants went to North Carolina, South Carolina, and Virginia. It correctly locates the two potentially misleading recipients in Lancaster, SC, and York, SC, and explicitly concludes that the trust is “not a fit” geographically, noting that its Philadelphia trustee address does not establish fit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says, \"We should not prepare an application for October 15, 2026.\" It permits only \"one email or call\" to ask whether the trust would consider a Pennsylvania organization and states that \"only a yes in writing would make it a fit,\" with any subsequent application no earlier than April 15, 2027."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo reports Garrison Ridge's 2025 grants paid as \"$615,000 across 15 grants\" and explicitly includes \"the two multi-year installments listed for future payment.\" This contradicts the required $480,000 total for the 13 grants actually paid, excluding the $135,000 approved for future payment."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo recommends a Garrison Ridge “Letter of inquiry for the program component” and says to “submit the LOI now,” with a full proposal only by invitation. It explicitly treats geography as “a fit,” noting that Lancaster County is in its stated giving area and that 12 of 13 grants paid went to Pennsylvania organizations."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly recommends asking Garrison Ridge for the “program component” consisting of the southern-county mobile markets, “not for the cold-storage addition or the truck.” It gives the required reason: “Every 2025 grant paid is for program or operating costs” and none is for “land, buildings, construction, equipment or vehicles.” No recommendation elsewhere asks Garrison Ridge for capital support."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo says Garrison Ridge LOIs are accepted “on a rolling basis” and recommends “submit the LOI now,” explicitly stating “there is no deadline to wait for.” It does not give March 1, 2027 as the next LOI deadline, and the criterion expressly disallows presenting a rolling basis as the way to apply."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo gives Garrison Ridge’s comparable-grant median as “$27,500,” calculated from eight grants including Mason-Dixon Food Share in Westminster, MD. The criterion requires $30,000 based on the seven Pennsylvania comparable grants and explicitly rejects $27,500."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo recommends Garrison Ridge an “Ask range: $15,000 – $27,500,” also repeated in the summary table. The criterion requires $15,000 to $30,000 and fails any other range, so the $27,500 upper bound does not satisfy it."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The recommendation table explicitly ranks Garrison Ridge Foundation as priority 1, Marwood Family Foundation as priority 2, and Calloway-Deane Charitable Trust as priority 3. The section headings repeat that same order, satisfying the required ranking."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The memo does not invent a board connection: it explicitly says Dr. Calloway “shares its name, but nothing in the files connects him to it,” and asserts no other unsupported relationship. Its attributed grants, contacts, and application procedures appear in the files. The incorrect Garrison Ridge total and reliance on its superseded rolling-LOI schedule are arithmetic and superseded-information errors expressly excluded from failure under this criterion."
+    }
+  ],
+  "costUsd": 0.0333585,
+  "usage": {
+    "inputTokens": 43634,
+    "cachedInputTokens": 36685,
+    "outputTokens": 1234
+  },
+  "gradedAt": "2026-10-10T14:01:42.190Z"
+}

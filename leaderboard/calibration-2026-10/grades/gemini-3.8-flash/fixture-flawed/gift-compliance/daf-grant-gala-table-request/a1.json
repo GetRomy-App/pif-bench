@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "eb53a3fbce54c01a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Both the internal memo and the reply to Peggy explicitly refuse to apply any portion of the $15,000 grant toward the gala table and firmly reject a second DAF grant for the table ('Donor-advised fund grants can't pay for any part of event tickets or tables... so I can't move part of the grant to the table, and a second Kestrel grant for it wouldn't work either'). All $15,000 is applied to the Studio Wing."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable states in the memo that invoice INV-G26-0112 must be 'paid by Peggy and/or Erik by personal check or card — never from a donor-advised fund' (and leaves it open until paid personally). In the reply to Peggy, it states: 'Donor-advised fund grants can't pay for any part of event tickets or tables... Your table by the stage is reserved: the $3,000 invoice is due October 2, and a personal check or card is perfect.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly uses $1,360 for the table benefits estimate ('goods and services: eight seats (dinner, wine pairing, entertainment, valet parking), good-faith estimate $1,360 (8 × $170, the per-seat value we used for the same table last year)'). The criterion explicitly states FAIL if it uses $1,360."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion explicitly specifies: 'FAIL if it gives any other deductible amount — such as $3,000 or $1,640'. In section 3 and the checklist of the internal memo, the deliverable calculates the goods and services estimate as $1,360 and states '**deductible amount: $1,640** ($3,000 − $1,360)', which directly matches the failure condition."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Section 5 of the memo explicitly directs the written acknowledgment to Kestrel Charitable Trust, states the amount as $15,000.00, and includes the required statement: 'No goods or services were provided in exchange for this grant.'"
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "In Section 5 of the memo, the deliverable drafts an acknowledgment text to Kestrel that explicitly mentions the pledge and its balance: 'The grant has been applied to Margaret and Erik Halvorsen's Studio Wing pledge, which now has a balance of $5,000.' It even states 'Mentioning the pledge lets Kestrel see the grant in context of the Halvorsens' commitment.' This directly triggers the criterion's FAIL condition."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "In Part 2 (the reply to Peggy), the letter explicitly tells her: 'Your $15,000 gift is fully tax-deductible, and we are so grateful for your generosity to the arts in Asheville.' This directly violates the criterion, which mandates FAIL if the reply calls the grant tax-deductible for the Halvorsens."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "In Part 2 (the reply to Peggy), the letter does not explain to Peggy that Kestrel is the legal donor who receives the acknowledgment or why she cannot receive a receipt; instead, it incorrectly tells her: 'Your $15,000 gift is fully tax-deductible'. Thus, the reply ignores the receipt request explanation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "In Section 1 of the internal memo, the deliverable specifies: 'Hard credit: Kestrel Charitable Trust (organization record 30882), the legal donor', 'Soft credit: Margaret and Erik Halvorsen (constituent 20417)', and 'Designation: Studio Wing Campaign, as the grant letter states. No part of it goes to the gala.' It meets all required elements without hard-crediting the Halvorsens or splitting the grant to the gala."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "In section 4 of the memo, the deliverable explicitly states: 'Soft-credit the full grant to the Halvorsens' statement of intent' and includes the line 'Less 2026-09-08 Kestrel grant KCT-2026-0418833 (soft credit, full amount) −$15,000', resulting in an open balance of $5,000."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "In section 4 of the memo, the open balance after applying the full $15,000 grant to the statement of intent is explicitly calculated as $5,000 ($40,000 minus $10,000 personal check minus $10,000 previous Kestrel grant minus $15,000 current grant). It also explicitly notes that the 2025 and 2026 gala tables are not counted toward it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 4 of the internal memo explicitly states: 'The Halvorsens' 2024-11-12 commitment is on form SW-SOI (rev. 2023-02): it says in terms that it is a statement of intention, not a legally binding pledge or obligation... Under §4.4.1 that is what allows a DAF grant they recommended to be soft-credited toward it; the grant does not discharge any legal obligation of theirs (none exists, consistent with Kestrel's condition 2).' This satisfies all requirements of the criterion."
+    }
+  ],
+  "costUsd": 0.028347749999999998,
+  "usage": {
+    "inputTokens": 31562,
+    "cachedInputTokens": 0,
+    "outputTokens": 1247
+  },
+  "gradedAt": "2026-10-10T13:57:47.796Z"
+}

@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "9d41f9f32291d76f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Celeste M. Aldana as Saffron & Sage's \"sole member and manager (100%)\" and connects her to Thomas Aldana as his spouse. It explicitly concludes that he \"had a Financial Interest in the catering contract\" and describes this as \"an actual or possible conflict of interest.\" It also states that the catering transaction was not handled in compliance with the policy."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies both required failures. It states that on “2026-01-20 he answered ‘No’ to Question 2” even though the bid was submitted on “2026-01-08,” and says the February 12 minutes record that “no director other than Ms. Ramaswamy disclosed anything.” It also explicitly concludes that Aldana failed to make the disclosures required by the policy."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states that Aldana was required to “Leave the meeting” during discussion and voting on the contract and “not vote,” citing Article III, Sections 2–3. It then states that he “spoke for Saffron & Sage,” “moved to award it the contract,” and “voted for his own motion.” It does not say that he recused or abstained."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo states that the motion carried “6–5 with Mr. Aldana voting in favor,” but then says that without his vote “a majority of the directors who voted still supported Saffron & Sage” and that his participation “did not change the result.” This directly contradicts the criterion: without his vote, the tally would have been 5–5, and the tie would fail under the bylaws."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states that the board rejected the Gala Committee’s recommendation of Harborview Provisions, “the lowest bid at $52,900,” and awarded Saffron & Sage the contract at “$68,400 — $15,500 (29.3%) more.” This supplies the required bids, recommendation, dollar difference, and approximate percentage premium."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states that Ramaswamy disclosed her brother's ownership on her annual statement, in writing to the Chair before the meeting, and orally at the meeting, then “left the room.” It says the ten remaining directors determined the conflict and approved the lowest bid of $18,250 “10–0 without her,” concluding, “No action is needed concerning Ms. Ramaswamy.” It does not characterize her conduct or the audio-visual contract as improper or recommend action against her."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly concludes that Saffron & Sage is \"Not reportable (below threshold)\" and applies only the $100,000 aggregate threshold to its $71,860 payment. Although it identifies the LLC as an interested person, it states \"Neither transaction needs to be reported\" rather than recognizing that the catering payment exceeds the single-transaction threshold required by the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo states that a transaction is reported when \"all payments to that person in the year exceed $100,000\" and applies only that aggregate threshold in its reporting table. It does not give the required $39,400 single-transaction threshold or compare $10,000 with 1% of $3,940,000 total revenue."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo concludes that BrightStage's $18,250 payment is not reportable, but tests it only against the $100,000 aggregate threshold: its table asks “Over $100,000?” and answers “No.” It never tests the payment against the $39,400 single-transaction threshold, which the criterion expressly requires."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo requires the committee to inform Aldana \"in writing of the basis for its belief that he failed to disclose a possible conflict\" and give him an opportunity to explain. It explicitly says, \"No finding about his conduct, and no view about whether the omission was deliberate, should be reached before he has responded,\" and makes disciplinary action conditional on a subsequent board determination."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states that “The disinterested directors re-review the contract under Article III, Sections 3(c) and 3(d),” including the $52,900 and $55,750 alternatives and whether the contract was fair and reasonable. It also says that if the Theatre paid more than fair market value, the board “must consult legal counsel” about a possible IRC section 4958 excess benefit transaction and recovering the excess. It explicitly does not conclude that an excess benefit transaction occurred."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo lists Thomas Aldana as a Governance Committee member but never states that he must take no part in the committee’s or board’s deliberations or votes on this matter. Instead, it says “the full committee should agree the notice,” and its reference to a board decision by “disinterested directors” does not supply the required exclusion from the committee’s own review under Article IV, Section 4."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo says that after the committee “reports its findings to the board,” the board acts “by a majority of the disinterested directors” to determine whether Aldana failed to disclose and take appropriate disciplinary and corrective action. It also expressly requires that “Mr. Aldana files a corrected annual statement within 30 days of the board's determination.” Both required steps are included."
+    }
+  ],
+  "costUsd": 0.092458,
+  "usage": {
+    "inputTokens": 32135,
+    "cachedInputTokens": 0,
+    "outputTokens": 1214
+  },
+  "gradedAt": "2026-10-10T13:56:15.151Z"
+}

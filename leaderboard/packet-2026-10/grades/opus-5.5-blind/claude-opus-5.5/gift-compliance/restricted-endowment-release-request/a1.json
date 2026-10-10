@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "0c9e90264115610a",
+  "deliverableHash": "edae5082d0e0f73c",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The summary answers \"Move the Ruiz endowment into operations | No.\" Section 2 explains that every UPMIFA route the board controls fails and that policy §4.1 limits the fund to the gift instrument. The board is told to \"take no action on a Ruiz transfer or loan\" on October 21."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Section 2 sets out \"What remains possible in principle: donor consent, UPMIFA §6(a)\": \"With Mrs. Ruiz's consent 'in a record,' the Foundation may release or modify a restriction.\" The memo only notes that the files do not say \"whether general operations would qualify as 'a charitable purpose of the institution'\". That is an open question, not a statement that consent cannot authorize operating use."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states \"§6(d), small and old funds. This is not available. The fund is worth $512,860, well above the $25,000 limit. It was established in 2017, so fewer than 20 years have elapsed.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explains that §6(c) \"requires the purpose to be 'unlawful, impracticable, impossible to achieve, or wasteful'\", and that the ADN program \"is enrolling students and approved through 2031, so none of those conditions applies.\" It quotes counsel: \"A budget shortfall at the institution does not, by itself, make a fund's purpose impracticable.\" It also notes the court route would carry Attorney General notice."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Under \"Use this year's earnings or distribution for operations\", the memo answers No: \"Investment return and distributions carry the fund's purpose\" and \"That $19,767.33 is for ADN scholarships only.\" The suggestion about operating-funded ADN awards still keeps the distribution on ADN scholarships."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo gives \"Sum of the twelve values: $5,930,200 / Average: $494,183.33 / Distribution: $19,767.33\", from the twelve quarter-ends September 30, 2023 through June 30, 2026, \"for ADN scholarships only.\" That matches the required figure."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states that §5 \"lets the board redirect distributions only if the ADN program ceases... The program has not ceased\", and that even then the money could go only to a health-sciences scholarship, not operations."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo answers \"Lend operations $180,000 from Ruiz | No. | Our own policy §4.2 prohibits it at any term or rate\" and quotes §4.2. It adds that \"Repayment with interest does not cure the problem.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The §6(d) table marks all three conditions met: the purpose is impossible because \"No student can graduate from the certificate\" (closed June 30, 2011), the fund holds \"$18,420\" against the $25,000 limit, and it was \"Established May 26, 1994, which is about 32 years ago.\" The memo concludes the restriction can be modified under §6(d)."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo has counsel send the §6(d) notice to the Attorney General on October 5. It names \"Friday, December 4, 2026\", 60 days later, as the \"earliest date the release or modification can take effect.\" It states that on October 21 \"the release cannot take effect at this meeting.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states \"We cannot fold the fund into general operations\" because §6(d)(3) requires use \"consistent with the charitable purposes expressed in the gift instrument.\" It proposes an award to an outstanding graduating student in the Office Administration A.A.S. program instead."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the \"board-designated Operating Reserve\" holding \"$240,000\" as unrestricted. It can be released \"by majority vote of the full board, with no donor consent and no Attorney General notice\", and the memo recommends taking that release to the board on October 21."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every value, date and rule in the memo traces to the files or follows by arithmetic: $512,860, $18,420, $240,000, the $19,767.33 computation, the 60-day notice, the $25,000 and 20-year thresholds, and December 4 counted from October 5. Unknowns, such as whether Mrs. Ruiz is reachable and the board's size, are flagged as gaps, not invented. No Calloway successor is claimed; the memo notes \"her letter names no successor or advisor.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.740Z"
+}

@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies MacKenzie Scott in section 1: 'She is a novelist and philanthropist and lives in Seattle... She married Jeff Bezos in 1993, and they divorced in 2019.' It also explicitly notes that she 'holds no Amazon position today.'"
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the source of wealth: 'In the 2019 divorce settlement she received 25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company.' It also provides multiple dated figures for her holdings and net worth, including '81,082,131 Amazon shares as of September 30, 2025' and 'Bloomberg put her at about $42.7 billion on April 18, 2026'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies her latest disclosed holding as '81,082,131 Amazon shares as of September 30, 2025, about 0.76% of the company' from the 13G/A filed Oct. 14, 2025. It also presents net worth estimates between $34 billion and $43 billion ('about $34–43 billion'), while clearly contextualizing older figures (e.g., 4% in 2019, 266 million in 2022) as historical data."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Under Section 3 ('Philanthropic giving history'), the deliverable states: '**Cumulative:** over $26 billion in more than 2,700 gifts since 2019. AP puts the figure at $26.3 billion as of December 2025.' This falls squarely within the required range/phrasing ('more than $26 billion' or '$26.0 billion to $26.5 billion')."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Scott 'does not accept applications or unsolicited proposals' and that 'A small internal team and a large network of advisors do \"quiet research\"... The team then contacts the organizations it has selected.' It also accurately mentions the single completed 2023–2024 Yield Giving Open Call as an exception and clarifies that no open call is currently accepting applications."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly advises against any solicitation or outreach, stating: 'Ask amount: none. Do not solicit Scott, Yield Giving or her advisors. Do not send a letter, proposal or introduction, and do not ask a board member or peer to forward materials.' It also explicitly warns against inviting her to events and focuses purely on positioning the organization to be discoverable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 4: 'The Yield Giving Open Call was run with Lever for Change. It launched in March 2023, received 6,353 applications, and in March 2024 gave $640 million to 361 organizations. It is completed, and no open call is accepting applications.' It also correctly advises the organization to simply watch for any future open call rather than telling them to apply now."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 4 that her gifts are 'Unrestricted, no strings' and made 'for use however they choose,' noting grantees are not required to report on how they use them. Section 5 also notes gifts were 'all unrestricted and one-time.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable cites both November 2025 gifts of $38 million to Spelman College and Clark Atlanta University. It correctly lists Spelman College ($20 million in 2020; $38 million in Nov. 2025), Clark Atlanta University ($15 million in 2020; $38 million in Nov. 2025), and Morehouse College ($20 million in July 2020, with 'no gift since'). No erroneous gifts or years are cited."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable names multiple qualifying non-higher-ed Atlanta education nonprofits with exact correct amounts: Achieve Atlanta ($8 million), Southern Education Foundation ($6 million), Communities In Schools of Atlanta ($4 million), and GEEARS ($3 million). It also correctly lists KIPP Metro Atlanta Schools and Sheltering Arms Early Education & Family Centers with 'amounts not disclosed', avoiding any forbidden dollar figures."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report correctly notes under Section 1: 'She married Dan Jewett in 2021. She filed for divorce in September 2022, and it was finalized in January 2023. She is not married today.' It also notes under Section 7 that older figures to avoid include 'her status with her second husband, from whom she is divorced.'"
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy in Section 6 explicitly advises the organization to be findable on all four indicators listed on Yield Giving's Process page: 'stable finances: current audited financials and a current Form 990 posted publicly', 'a multi-year track record', 'measurement and evidence of outcomes: a public outcomes report', and 'experienced leadership representative of the community it serves'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every factual claim in the deliverable—including biographical details, Amazon shareholdings (81,082,131 shares as of Sept 30, 2025), net worth estimates ($34–43B), cumulative giving ($26B+), annual breakdown, recipient details, and Atlanta education gifts (Spelman, Clark Atlanta, Morehouse, Achieve Atlanta, SEF, CIS Atlanta, GEEARS, KIPP, Sheltering Arms)—accurately aligns with and contradicts nothing in the fact sheet."
+    }
+  ],
+  "costUsd": 0.04832099999999999,
+  "usage": {
+    "inputTokens": 57773,
+    "cachedInputTokens": 0,
+    "outputTokens": 1331
+  },
+  "gradedAt": "2026-10-10T14:02:51.938Z"
+}

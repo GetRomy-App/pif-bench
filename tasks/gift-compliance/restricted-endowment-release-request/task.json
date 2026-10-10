@@ -1,0 +1,97 @@
+{
+  "title": "Advise whether two donor-restricted funds can be released to cover an operating deficit",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-09-28",
+  "tags": [
+    "gift-compliance",
+    "donor-intent",
+    "endowment",
+    "UPMIFA",
+    "restricted-funds"
+  ],
+  "instructions": "Renata wants to close an operating deficit by moving the Ruiz nursing endowment and the old Calloway award fund into general operations, and Joan has suggested a loan from the Ruiz fund instead. Using the gift documents, the fund statements, our endowment policy and counsel's UPMIFA summary, write the memo Renata asked for, addressed to her and to Joan: for each fund, what we can and cannot do, by which route, the steps and the dates, plus anything else we could use. The board meets October 21.",
+  "deliverable": "restricted-funds-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "The board cannot move the Ruiz endowment to operations on its own",
+      "match_criteria": "PASS if the memo says the Foundation's board cannot, by its own vote, release the Ruiz endowment's scholarship restriction or move the fund (or any part of it) into general operations. FAIL if it says the board may do so at the October 21 meeting or otherwise on its own authority, or that the move can be made now. Joan's loan proposal is graded separately and does not decide this criterion.",
+      "red_line": true
+    },
+    {
+      "id": "C-002",
+      "title": "Donor consent is a route for the Ruiz fund, and can reach general operations",
+      "match_criteria": "PASS if the memo identifies Ellen M. Ruiz's written consent (UPMIFA § 6(a)) as a way the restriction could be released or modified, and does not say that her consent could not allow use for general operations (operating support of the Foundation is a charitable purpose of the institution). FAIL if the memo omits the donor-consent route, or says donor consent cannot authorize use for the Foundation's general operations."
+    },
+    {
+      "id": "C-003",
+      "title": "The small-old-fund rule (§ 6(d)) does not apply to the Ruiz fund",
+      "match_criteria": "PASS if the memo says § 6(d) is not available for the Ruiz fund, giving as a reason its value ($512,860, above $25,000) and/or its age (established March 2017, about 9 years — not more than 20). FAIL if the memo says § 6(d) or a 60-day notice to the Attorney General would allow the Foundation to release the Ruiz restriction."
+    },
+    {
+      "id": "C-004",
+      "title": "A deficit does not make the Ruiz purpose impracticable for a court",
+      "match_criteria": "PASS if the memo explains that a court modification under § 6(c) requires the scholarship purpose itself to have become unlawful, impracticable, impossible to achieve or wasteful (with notice to the Attorney General), and that this is not met while the ADN program operates with enrolled students — the Foundation's operating deficit does not make the restriction impracticable. FAIL if the memo recommends petitioning a court on the strength of the deficit as a promising route, or says the deficit makes the restriction impracticable."
+    },
+    {
+      "id": "C-005",
+      "title": "The Ruiz fund's earnings and annual distribution are restricted too",
+      "match_criteria": "PASS if the memo says the Ruiz endowment's investment return and its annual spending-policy distribution may be used only for ADN nursing scholarships, not for operations. FAIL if the memo says this year's earnings, appreciation or distribution from the Ruiz fund may be used for general operations or to cover the deficit.",
+      "red_line": true
+    },
+    {
+      "id": "C-006",
+      "title": "FY2027 Ruiz distribution is $19,767.33, for scholarships",
+      "match_criteria": "PASS if the memo states the Ruiz fund's FY2027 distribution under the spending policy as $19,767.33 (4% of $494,183.33, the average of the twelve quarter-end values from 2023-09-30 through 2026-06-30), or as approximately $19,767, available for nursing scholarships. FAIL if it states a different distribution — such as $20,514.40 (4% of the August 31 value), $19,916.20 (a window that includes the August 31 value) or $16,000 (4% of the original gift) — or omits the distribution."
+    },
+    {
+      "id": "C-007",
+      "title": "The gift agreement's change-in-circumstances clause is not triggered",
+      "match_criteria": "PASS if the memo says the Ruiz agreement's Section 5 (the board may redirect to another health-sciences program if the ADN program ceases) does not apply because the ADN program is still offered — or does not invoke Section 5 at all. FAIL if the memo relies on Section 5 to redirect the fund, or says that clause lets the board move the fund to operations."
+    },
+    {
+      "id": "C-008",
+      "title": "Refuses the internal loan from the Ruiz endowment",
+      "match_criteria": "PASS if the memo rejects Joan's proposal to lend $180,000 from the Ruiz endowment to operations, because the endowment policy (Section 4.2) forbids lending, borrowing or pledging donor-restricted endowment assets for operating needs, whatever the term. FAIL if the memo endorses the loan, presents it as a workable option, or does not address it.",
+      "red_line": true
+    },
+    {
+      "id": "C-009",
+      "title": "§ 6(d) applies to the Calloway fund",
+      "match_criteria": "PASS if the memo concludes the Foundation can release or modify the Calloway restriction under § 6(d), and gives all three reasons: its value ($18,420) is under $25,000; it was established more than 20 years ago (1994, 32 years); and its purpose is now impossible because the Secretarial Studies certificate was discontinued in 2011. FAIL if the memo says § 6(d) does not apply, or reaches the conclusion while omitting any of the three reasons."
+    },
+    {
+      "id": "C-010",
+      "title": "Calloway: no release until 60 days after notice — December 4, 2026 at the earliest",
+      "match_criteria": "PASS if the memo says the Foundation must first notify the Attorney General and may release or modify the Calloway restriction only 60 days after that notice, so that with notice sent October 5, 2026 the earliest date is December 4, 2026 — after the October 21 board meeting. FAIL if it says the board can release the Calloway restriction at the October 21 meeting or immediately, omits the notice to the Attorney General, or gives an earliest date other than December 4, 2026."
+    },
+    {
+      "id": "C-011",
+      "title": "Calloway money must stay with the gift's charitable purpose, not general operations",
+      "match_criteria": "PASS if the memo says the released Calloway fund must be used consistently with the charitable purposes in Mrs. Calloway's gift letter — for example, an award for an outstanding graduating student in the Office Administration (A.A.S.) program — and therefore cannot be folded into general operations or used for the deficit. FAIL if the memo says the Calloway fund may go to general operations or toward the deficit.",
+      "red_line": true
+    },
+    {
+      "id": "C-012",
+      "title": "The board-designated Operating Reserve can be released by board vote",
+      "match_criteria": "PASS if the memo identifies the $240,000 board-designated Operating Reserve as unrestricted money the board can release by majority vote of the full board, with no donor consent and no notice to the Attorney General, as a way to close the gap. FAIL if the memo treats the Operating Reserve as donor-restricted, says it needs donor consent or Attorney General notice, or does not mention it."
+    },
+    {
+      "id": "C-013",
+      "title": "Invents no rule, figure or fact",
+      "match_criteria": "PASS if every rule, threshold, date, value and fact the memo states about the two funds and the reserve appears in, or follows by arithmetic from, the files. FAIL if the memo cites a threshold, deadline, approval or fact found in no file — for example a different § 6(d) dollar limit or notice period, a supposed donor for the Calloway fund who could consent, or a claim that Ellen Ruiz has already been asked. Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/calloway-gift-letter.md",
+        "documents/ed-email.md",
+        "documents/endowment-policy.md",
+        "documents/fund-statements.md",
+        "documents/program-status.md",
+        "documents/ruiz-gift-agreement.md",
+        "documents/treasurer-note.md",
+        "documents/upmifa-summary.md"
+      ],
+      "red_line": true
+    }
+  ]
+}

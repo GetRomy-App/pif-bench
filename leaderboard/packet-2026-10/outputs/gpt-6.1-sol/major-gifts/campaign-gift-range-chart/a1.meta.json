@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "promptHash": "a864374a59b6a3ae",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 3074,
+  "outputTokens": 1770,
+  "costUsd": 0.0253835,
+  "latencyMs": 28023,
+  "createdAt": "2026-10-10T18:16:46.257Z"
+}

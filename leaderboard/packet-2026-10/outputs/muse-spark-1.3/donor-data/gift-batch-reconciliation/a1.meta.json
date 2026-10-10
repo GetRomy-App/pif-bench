@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "promptHash": "355196be8538dce0",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 5770,
+  "outputTokens": 11524,
+  "costUsd": 0.0561895,
+  "latencyMs": 89110,
+  "createdAt": "2026-10-10T18:31:54.422Z"
+}

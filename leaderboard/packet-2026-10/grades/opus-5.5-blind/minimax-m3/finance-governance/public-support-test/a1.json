@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "minimax-m3",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "1d5c4ca7aecfcd1f",
+  "deliverableHash": "26256fb36ce15d6c",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Five-year Total Support (Line 11, column f) is $3,671,600\", built from Line 7 of $3,590,300 plus interest and dividends of $81,300, with Lines 9 and 10 at zero."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Under \"What is NOT in the computation\" the memo lists landowner workshops ($118,500), guided river trips ($79,900) and the Kettle County contract ($256,000) as program-service revenue that goes \"on Schedule A Line 12 for information only and are not part of Total Support or Public Support.\" The contract is not treated as a government grant."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says \"The $182,000 realized gain on the 2024 sale of stock ... is excluded entirely\" and cites the instruction \"Do not include gain or loss from the sale of capital assets.\" None of the gain appears in Line 10 or in total support."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"2% of the five-year Total Support ($3,671,600) is $73,432.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "In the donor table, Benedict Sarkis's $50,000 five-year total shows a 2%-rule excess of 0 and $50,000 counted in public support. The note on his $35,000 culvert gift keeps it \"on Line 1 in full\", and no donor is limited year by year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo counts Oregon DEQ at $160,000 and Upper Alder Community Foundation at $135,000, both marked \"n/a — counted in full\". It explains that the cap exception covers governmental units and 170(b)(1)(A)(vi) organizations."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Hollins-Pryor's $225,000 shows an excess of $151,568 and $73,432 counted. The memo says the private foundations are \"not eligible for the exception\" because they are \"private non-operating foundations (Form 990-PF), not 170(b)(1)(A)(vi) public charities.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Line 6 column (f) is $1,260,596: $3,590,300 less a Line 5 of $2,329,704. That excess is made up of Ostrander $1,951,568, Dellwood $226,568 and Hollins-Pryor $151,568, matching the required breakdown."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo reports \"1,260,596 ÷ 3,671,600 = 34.33%\" as the Line 14 percentage."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The bottom line says \"We pass the one-third test\" and states that we \"do not need the 10% facts-and-circumstances test on Line 17a.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says the result is \"about one percentage point above the 33⅓% line\". Its \"How close is close\" section gives a threshold of $1,223,867 and \"a margin of about $36,729, or 1.00 percentage point\", which follows from 34.33%."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states \"No contribution is excluded as an unusual grant\" and notes that Ferrante & Lowe confirmed none qualifies. It never suggests reclassifying Ostrander's or anyone else's gifts as unusual grants."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.248Z"
+}

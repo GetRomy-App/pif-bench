@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "a6e5a83b2c05a77a",
+  "deliverableHash": "7e296528f8d8c7de",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo says \"No part of it goes to the gala\" and that a second Kestrel grant \"just for the table\" is \"ruled out\". The reply says \"I can't move part of the grant to the table, and a second Kestrel grant for it wouldn't work either.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the invoice is \"to be paid by Peggy and/or Erik by personal check or card — never from a donor-advised fund.\" The reply tells Peggy \"the $3,000 invoice is due October 2, and a personal check or card is perfect,\" after explaining that DAF grants can't pay for tables."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo gives a \"good-faith estimate $1,480 (8 × $185, the CFO's 2026 value — not 2025's $170).\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The table acknowledgment includes \"the §6115 statement that the amount deductible ... is limited to the excess of the payment over the value of the goods and services provided\" and gives a \"deductible amount: $1,520 ($3,000 − $1,480).\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo directs the acknowledgment to \"Kestrel Charitable Trust ... not to the Halvorsens.\" The draft text acknowledges \"a grant of $15,000.00\" and states \"No goods or services were provided in exchange for this grant.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo instructs \"Do not mention the Halvorsens' statement of intent, its balance, or the gala table in this letter or in any other correspondence with Kestrel.\" The drafted Kestrel acknowledgment names only the fund and the Studio Wing Campaign."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The reply never calls the grant deductible to the Halvorsens and says \"we can't issue you a receipt for the $15,000.\" The only acknowledgment it promises is for the personally paid table."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reply explains that \"Kestrel is the donor of record, so our acknowledgment goes to them rather than to you,\" and that \"their tax benefit came when they contributed to the fund.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo books a \"Hard credit: Kestrel Charitable Trust\" and a \"Soft credit: Margaret and Erik Halvorsen (constituent 20417)\", with \"Designation: Studio Wing Campaign, as the grant letter states.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Section 4 is titled \"Soft-credit the full grant to the Halvorsens' statement of intent\", and its table subtracts \"Kestrel grant KCT-2026-0418833 (soft credit, full amount) −$15,000.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The table runs $40,000 − $10,000 personal check − $10,000 2025 Kestrel grant − $15,000 to an \"Open balance after this grant $5,000.\" It also states that both gala tables \"are not counted toward it.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo says the 2024-11-12 commitment \"is on form SW-SOI (rev. 2023-02)\" and is \"a statement of intention, not a legally binding pledge or obligation.\" It adds that \"Under §4.4.1 that is what allows a DAF grant they recommended to be soft-credited toward it.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.594Z"
+}

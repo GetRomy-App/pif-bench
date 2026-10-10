@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "promptHash": "0a43f83073a8420a",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 4477,
+  "outputTokens": 1891,
+  "costUsd": 0.030101,
+  "latencyMs": 27302,
+  "createdAt": "2026-10-10T18:15:26.643Z"
+}

@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo reports line 11, column (f) as “$3,671,600,” and its computation lists contributions of $3,590,300 plus interest and dividends of $81,300. This matches the criterion’s required five-year total support."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo places “Gross receipts from related activities” totaling $454,400 on line 12 and explicitly says these receipts “are not in support” and “not part of public or total support.” It identifies workshop fees, guided trip fees, and the $256,000 Kettle County monitoring contract, which it describes as a fee for services, not a grant."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The memo never mentions the $182,000 realized gain or says it is excluded because gains on capital-asset sales are not support. It reports line 11 total support as $3,671,600 without addressing the gain, so the criterion fails."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432,” which is the required five-year limit figure."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says Benedict Sarkis’s five-year total is $50,000, “Under the limit on his five-year total,” and counts “$50,000” as public support with “$0” excess. It does not apply the 2% limit year by year to him."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo applies the 2% limit to Oregon DEQ, stating it counts $73,432 and has $86,568 of excess. The criterion fails if the limit is applied to either funder, even though the memo counts Upper Alder’s full $135,000."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Hollins-Pryor Family Foundation as a private foundation and states that the 2% limit applies because it is “not a publicly supported organization.” It counts $73,432 as public support and excludes $151,568, rather than treating it like the community foundation."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo reports line 6 public support as “$1,174,028,” not the required $1,260,596. It also explicitly limits the Oregon Department of Environmental Quality, matching a listed failing treatment."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo reports the line 14 public support percentage as “31.98%.” The criterion requires 34.33% (or 34.3% to one decimal) and explicitly identifies 31.98% as a failing result."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo plainly concludes, “No — on the 2025 computation we fall short of the 33⅓% test,” and says the Council “would have to rely on the 10% facts-and-circumstances test.” This directly meets the criterion’s FAIL conditions."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo says the result is “31.98%” and “about 1.4 percentage points below the line,” with public support “$49,839 short” of one-third. The criterion requires a result about one percentage point above the threshold (34.33%) or $36,729 above it, so the stated margin does not satisfy it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo recommends treating “Ms. Ostrander's 2025 gift of $455,000 as an unusual grant” and says removing it would raise the percentage above one-third. The criterion explicitly fails if the memo recommends reclassifying any donor’s gifts as unusual grants."
+    }
+  ],
+  "costUsd": 0.0032694749999999996,
+  "usage": {
+    "inputTokens": 22155,
+    "cachedInputTokens": 0,
+    "outputTokens": 1002
+  },
+  "gradedAt": "2026-10-10T13:57:27.191Z"
+}

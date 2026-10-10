@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "d47845c1e890c897",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly accepts Hit 1 ('1 — David A. Miller, 412 Orchard Hill Rd, Granville | **Accept**') and lists four matching identifiers: 'Full name with middle initial; address 412 Orchard Hill Rd; spouse Karen L. Miller; age 61', easily exceeding the requirement of at least two matching identifiers."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo clearly rejects hit 2 ('2 — David A. Miller, 2290 Tremont Rd, Upper Arlington | **Reject**') and explicitly lists the conflicting identifiers: 'Spouse Jennifer S. Miller; age 47; different address'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects Hit 3 in the Screening hits table ('Reject') and cites 'Age 29; different address' as conflicts/reasons, fully satisfying the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable accepts hit 4 ('David A. Miller, 118 Shore Dr, Marblehead (mailing 412 Orchard Hill Rd) | **Accept**') based on matching full name, mailing address 412 Orchard Hill Rd, and co-owner Karen L. Miller. It also includes 118 Shore Dr ($390,000) in the real estate capacity calculation."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable includes 9 Elm Ct, Newark ($285,000) in the real estate capacity calculation rather than excluding it. It states '9 Elm Ct, Newark — $285,000' and includes it in the real estate total of $1,520,000, failing to recognize that it was sold."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo calculates a real estate total of $1,520,000 by including 9 Elm Ct ($285,000) alongside 412 Orchard Hill Rd and 118 Shore Dr, resulting in a real-estate component of $76,000 instead of using the required base of $1,235,000 ($61,750 capacity)."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Under 'Securities', the memo states: 'None. The 410,000 Scioto Biologics shares belong to the rejected hit 2... $0'. It also confirms under records excluded that 'the Scioto Biologics shares' belong to Hit 2, correctly counting $0 in securities for the prospect."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes the $250,000 Ohio State gift under Section 4 ('Records excluded'), noting it was 'Given by David A. Miller and Jennifer S. Miller of Upper Arlington — the hit 2 namesake'. Furthermore, it does not use this gift in the capacity calculation in Section 2, correctly using the $20,000 gift to Denison University instead."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo uses $20,000 from Denison University (2019) as the largest documented gift and calculates the gift component as $60,000 (3 × $20,000). The criterion explicitly specifies FAIL if it uses $20,000 (Denison, 2019) instead of $15,000."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly uses the 2019 Denison University gift in its five-year capacity calculation: 'Denison University, 2019 — $20,000, David A. Miller '87 [documents/gift-records.md] ← largest' and '3 × $20,000 = $60,000'. The criterion requires failing if the memo uses the Denison gift instead of excluding it as outside the five-year window."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Under 'Largest documented gift', the memo specifically notes: 'Licking Memorial Health Foundation, 2023 — $10,000 (bottom of the $10,000–$24,999 band)'. This matches the requirement to value it at the bottom of the range ($10,000)."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the five-year giving capacity to be $106,750 (with real estate $61,750, securities $0, and gifts $45,000). The deliverable calculates a capacity of $136,000 based on $76,000 real estate and $60,000 gifts."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Section 3 explicitly states: '**C** — $100,000 to $249,999 [documents/research-standards.md]', correctly assigning capacity rating C."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "In Section 2 under 'Real estate', the deliverable lists '118 Shore Dr, Marblehead — $390,000 [documents/county-records.md]', explicitly citing the required file path for the Marblehead property's value."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly attributes only the assets and gifts associated with David A. Miller of 412 Orchard Hill Rd (Hit 1 and Hit 4) and explicitly rejects and excludes Hit 2, Hit 3, and the Upper Arlington Ohio State gift. All figures cited for the prospect come directly from the provided files, and no facts, assets, or figures are invented or misattributed from another person."
+    }
+  ],
+  "costUsd": 0.022962,
+  "usage": {
+    "inputTokens": 24236,
+    "cachedInputTokens": 0,
+    "outputTokens": 1276
+  },
+  "gradedAt": "2026-10-10T14:02:23.478Z"
+}

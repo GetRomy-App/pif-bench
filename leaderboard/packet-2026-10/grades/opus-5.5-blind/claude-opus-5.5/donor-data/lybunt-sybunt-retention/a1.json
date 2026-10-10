@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "taskHash": "4b184a4b76f48b5b",
+  "deliverableHash": "5fdea9d0ef78fbba",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The summary gives \"**LYBUNT** households ... **11**\" and Section 4 is headed \"LYBUNT: 11 households\", with 11 numbered entries."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The summary gives \"**SYBUNT** households ... **9**\" and Section 5 is headed \"SYBUNT: 9 households\", with 9 numbered entries."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report gives \"**68.2%** (15 of 22 households)\" and the calculation \"15 ÷ 22 = 0.6818 → **68.2%**\". It lists the 22 FY2025 households in the denominator and the 15 retained households in the numerator."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Dana Whitfield is LYBUNT #2. The report explains her \"August 12, 2026 entry ... is a soft credit on a Northgate Systems matching gift, not her own gift\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Gregory Szabo is LYBUNT #3. The report notes his \"July 20, 2026 gift ... was refunded on July 22 ... so it does not count\"."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Marguerite Osei is LYBUNT #4. The report notes the August 2026 fundraiser-page entries are soft credits that \"are not her own gifts, so she remains LYBUNT\"."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Celeste Moreau is LYBUNT #1. The report notes \"Her June 30, 2026 gift falls on the last day of FY2026\"."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The Achebe household is classified \"Current; retained\" and listed under \"Not LYBUNT\". The report explains that \"Daniel's August 28, 2026 gift ... counts for the whole household\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The LYBUNT list has \"Erik & Annika Lindqvist\" once, as entry #5. Section 2 notes that the split checks are \"Counted as one household.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "\"Benjamin & Clara Hartwell\" is LYBUNT #11. Benjamin does not appear on the SYBUNT list."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Lorraine Abernathy is SYBUNT #1 and is not on the LYBUNT list. The report explains that her 2026-04-16 gift \"was refunded on 2026-04-21, so ... she is SYBUNT, not LYBUNT\"."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Walter Pruitt is SYBUNT #2. The report notes \"his August 18, 2020 gift falls in FY2021, which began July 1, 2020\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Ingrid Solberg is classified \"Lapsed (before FY2021)\" and listed under \"Excluded from SYBUNT\". She appears on neither list."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "\"Samir & Leila Haddad\" appears once as SYBUNT #8, with the joint check counted \"once for the household\". The household is not on the LYBUNT list."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "All four organizations are listed under \"Organizations (excluded under §2)\". None appears on either list or in the retention denominator or numerator."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.671Z"
+}

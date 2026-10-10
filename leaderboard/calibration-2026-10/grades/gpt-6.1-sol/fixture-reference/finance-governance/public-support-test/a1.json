@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo reports line 11, column (f), as “$3,671,600” in total support. Its table includes contributions and grants of $3,590,300 and interest and dividends of $81,300, which sum to the required figure. The $4,308,000 ledger revenue figure is explicitly reconciled to total support rather than used as total support."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly excludes the $454,400 of program service revenue from both public support and total support, stating that these receipts “go on line 12 for information and are not part of public support or total support.” It identifies the workshop fees, guided river trip fees, and $256,000 Kettle County monitoring contract, and explains that the contract “is a fee for services, not a government grant.” The computation shows $454,400 on line 12 only and subtracts it in the total-support reconciliation."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly excludes the “Realized gain on the March 2024 sale of securities, $182,000” because it is “a gain on the sale of a capital asset, which is excluded from total support.” Its reconciliation subtracts the full $182,000 from ledger revenue, and line 10 contains no other income, so the gain is not counted in total or public support."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly computes “2% × $3,671,600 (line 11, column (f)) = $73,432.” It consistently uses $73,432 as the five-year donor limit and states no conflicting limit."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo counts all $50,000 of Benedict Sarkis’s gifts as public support and shows $0 excess. It explicitly explains that his $35,000 gift in 2023 exceeded 2% of that year’s support, but “the test runs on his five-year total, which is below $73,432.” The memo consistently applies the limit to five-year donor totals rather than year by year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo counts the full $135,000 from Upper Alder Community Foundation as public support and states “Not limited — grants from publicly supported organizations count in full,” identifying it as a 170(b)(1)(A)(vi) public charity. It also counts all $160,000 from Oregon Department of Environmental Quality and states “Not limited — government grants count in full.” Both rows show $0 excess, so neither grant receives a 2% reduction."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo lists Hollins-Pryor Family Foundation's $225,000 and states, “2% limit applies — a private foundation is not a publicly supported organization.” It counts $73,432 as public support and excludes $151,568 on line 5, exactly as required."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo lists line 6, column (f), public support as \"$1,260,596,\" derived from contributions of $3,590,300 less excess contributions of $2,329,704. Its donor table shows the required excess amounts: Marguerite Ostrander $1,951,568, Dellwood Paper Company $226,568, and Hollins-Pryor Family Foundation $151,568, with no contradictory public support figure elsewhere."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Our public support percentage for 2021–2025 is 34.33%.” Its line 14 also reports 34.33% using public support of $1,260,596 divided by total support of $3,671,600, exactly matching the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo plainly states, “Yes — we pass the 33⅓% test for 2025, but narrowly.” It also says, “We qualify as a publicly supported organization on line 16a without needing the facts-and-circumstances test,” satisfying both required conclusions."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says the Council passes “but narrowly” and identifies 34.33% as “about one percentage point” above the 33⅓% threshold. It also states that public support is “$36,729 more than one-third of total support ($1,223,867),” matching the criterion's figures, and consistently describes the margin as thin."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, \"No contribution has been treated as an unusual grant\" and explains that Ferrante & Lowe found none qualifies. It includes all $3,590,300 in contributions in the computation, including Marguerite Ostrander's $2,025,000 subject to the standard 2% limit, and nowhere suggests reclassifying gifts as unusual grants."
+    }
+  ],
+  "costUsd": 0.08074949999999999,
+  "usage": {
+    "inputTokens": 28059,
+    "cachedInputTokens": 0,
+    "outputTokens": 1062
+  },
+  "gradedAt": "2026-10-10T13:58:55.927Z"
+}

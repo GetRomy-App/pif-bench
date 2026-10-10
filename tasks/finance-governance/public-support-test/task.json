@@ -1,0 +1,72 @@
+{
+  "title": "Compute a watershed council's five-year Schedule A public support test and say whether it passes",
+  "track": "packet",
+  "work_type": "calculate",
+  "as_of": "2026-09-18",
+  "tags": ["finance-governance", "form-990", "schedule-a", "public-support-test", "2-percent-limit", "board-reporting"],
+  "instructions": "Corinne Vasquez-Hale, our treasurer, needs to know before the October 13 board meeting whether we pass the one-third public support test on the 2025 Schedule A, and Ferrante & Lowe want our computation to check against theirs. Using the revenue and donor files and the preparer's Part II instructions, work the five-year computation the way Part II lays it out, show how each funder of $10,000 or more was treated, and give Corinne a clear answer. Write it as a memo to her.",
+  "deliverable": "public-support-test-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Five-year total support of $3,671,600",
+      "match_criteria": "PASS if the memo's five-year total support (line 11, column (f)) is $3,671,600 — contributions and grants of $3,590,300 plus interest and dividends of $81,300. FAIL if it uses any other figure — such as $4,126,000 (program fees and the county contract included), $3,853,600 (the 2024 securities gain included), $4,308,000 (total ledger revenue) or $3,590,300 (interest and dividends left out)."
+    },
+    {
+      "id": "C-002",
+      "title": "Program service revenue kept out of the test",
+      "match_criteria": "PASS if the memo keeps the $454,400 of program service revenue — landowner workshop fees, guided river trip fees and the $256,000 Kettle County water-quality monitoring contract — out of both public support and total support (for example by showing it on line 12 only), and says so. FAIL if any part of it is counted in public support or total support, if the county contract is treated as a government grant, or if the memo never says what it did with this revenue."
+    },
+    {
+      "id": "C-003",
+      "title": "The $182,000 securities gain kept out of total support",
+      "match_criteria": "PASS if the memo leaves the $182,000 realized gain on the March 2024 sale of securities out of total support and says it is excluded because gains on the sale of capital assets are not support. FAIL if any of the gain is counted in total support (for example as other income on line 10) or in public support, or if the memo never mentions the gain."
+    },
+    {
+      "id": "C-004",
+      "title": "Five-year 2% limit of $73,432",
+      "match_criteria": "PASS if the memo computes the 2% limit as $73,432 (2% of the five-year total support of $3,671,600, line 11 column (f)). FAIL if its five-year limit is any other figure — such as $82,520 (program revenue in total support), $77,072 (securities gain in total support), $86,160, or $71,806 (2% of line 4 instead of line 11). This criterion concerns only the five-year limit figure."
+    },
+    {
+      "id": "C-005",
+      "title": "Sarkis tested on his five-year total, so nothing is excluded",
+      "match_criteria": "PASS if the memo counts all $50,000 of Benedict Sarkis's gifts as public support because his five-year total is below the $73,432 limit — even though his $35,000 gift in 2023 exceeded 2% of that year's support. FAIL if the memo excludes any part of Sarkis's gifts (for example $18,406 from a year-by-year test) or applies the 2% limit year by year to any donor."
+    },
+    {
+      "id": "C-006",
+      "title": "Government and community-foundation grants counted in full",
+      "match_criteria": "PASS if the memo counts all $160,000 of Oregon Department of Environmental Quality grants and all $135,000 of Upper Alder Community Foundation grants as public support, with no 2% reduction, because grants from governmental units and from 170(b)(1)(A)(vi) organizations are not limited. FAIL if it applies the 2% limit to either (for example removing $86,568 of the DEQ grants or $61,568 of the community foundation grants), or leaves either out of public support."
+    },
+    {
+      "id": "C-007",
+      "title": "Private-foundation grants limited like any other donor's",
+      "match_criteria": "PASS if the memo applies the 2% limit to the Hollins-Pryor Family Foundation's $225,000 of grants, counting $73,432 and excluding $151,568, because a private foundation is not a publicly supported organization. FAIL if it counts all $225,000 as public support, or treats the private foundation like the community foundation."
+    },
+    {
+      "id": "C-008",
+      "title": "Public support of $1,260,596",
+      "match_criteria": "PASS if the memo's public support (line 6, column (f)) is $1,260,596 — $3,590,300 of contributions less $2,329,704 of excess contributions (Marguerite Ostrander $1,951,568 + Dellwood Paper Company $226,568 + Hollins-Pryor Family Foundation $151,568). FAIL if it uses any other figure — such as $3,590,300 (no 2% limit), $1,174,028 (DEQ grants limited), $1,199,028 (community foundation grants limited), $1,202,362 (year-by-year limits), $1,412,164 (private foundation not limited) or $1,487,164 (Dellwood not limited)."
+    },
+    {
+      "id": "C-009",
+      "title": "Public support percentage of 34.33%",
+      "match_criteria": "PASS if the memo's 2025 public support percentage (line 14) is 34.33% ($1,260,596 ÷ $3,671,600), or 34.3% to one decimal. FAIL if it reports any other percentage — such as 31.21% (program revenue included), 33.00% (securities gain included), 31.98% (DEQ grants limited), 32.66% (community foundation grants limited), 32.75% (year-by-year limits), 38.46% (private foundation not limited) or 97.79% (no 2% limit)."
+    },
+    {
+      "id": "C-010",
+      "title": "Concludes the Council passes the 33⅓% test",
+      "match_criteria": "PASS if the memo tells the treasurer plainly that the Council passes the 33⅓% public support test on the 2025 computation and so qualifies as publicly supported without needing the facts-and-circumstances test. FAIL if it concludes the Council fails the 33⅓% test, says it must rely on the 10% facts-and-circumstances test, or does not give a clear answer.",
+      "red_line": true
+    },
+    {
+      "id": "C-011",
+      "title": "Tells the treasurer how narrow the margin is",
+      "match_criteria": "PASS if the memo tells the treasurer the result is close: about one percentage point above 33⅓% (34.33% against 33.33%), or about $36,729 of public support above one-third of total support ($1,223,867). FAIL if it gives no indication of how close the result is, calls the margin comfortable or wide, or states a margin that does not follow from 34.33%."
+    },
+    {
+      "id": "C-012",
+      "title": "Treats no gift as an unusual grant",
+      "match_criteria": "PASS if the memo counts every contribution in the computation and does not exclude, or propose excluding, any gift as an unusual grant — the files record that none qualifies. FAIL if it excludes any contribution as an unusual grant, or recommends or suggests reclassifying Marguerite Ostrander's (or any other donor's) gifts as unusual grants to raise the percentage."
+    }
+  ]
+}

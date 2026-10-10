@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the Ruiz endowment section that \"The board cannot, by its own vote, release the scholarship restriction or move any part of the fund — principal, earnings or this year's distribution — into general operations, on October 21 or later.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly identifies donor consent under UPMIFA § 6(a) from Ellen M. Ruiz as a valid route to modify the restriction. It also states that 'operating support of the Foundation is a charitable purpose, so her consent could in principle reach general operations,' fulfilling all requirements of the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that § 6(d) does not apply to the Ruiz fund, noting both that its value of $512,860 is above the $25,000 limit and that it was established in March 2017 (9 years ago, not more than 20)."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly outlines the requirements for a court modification under § 6(c), stating it is only an option if the purpose becomes \"unlawful, impracticable, impossible to achieve or wasteful, on application to a court with notice to the Attorney General.\" It correctly points out that the ADN program is active with enrolled students and explicitly notes that \"a budget shortfall does not by itself make a purpose impracticable.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the summary and Section 1 that the board cannot move the Ruiz fund's 'earnings or its distribution into operations.' It further specifies that the FY2027 distribution 'is available only for ADN nursing scholarships,' fulfilling the pass criteria."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates the FY2027 distribution as 4% of the 12-quarter average, resulting in an average of $494,183.33 and a distribution of $19,767.33. It also correctly notes that the distribution is 'available only for ADN nursing scholarships'."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly addresses this clause, stating that \"Section 5 of the agreement does not apply\" because it only allows redirection \"if the ADN program ceases to be offered\" and notes that \"The program is active.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly rejects Joan's loan proposal, stating 'We cannot lend $180,000 (or any amount) from the Ruiz endowment to operations. Policy §4.2 forbids lending, borrowing or pledging donor-restricted endowment assets for operating needs, whatever the term or rate.' This meets all requirements of the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that \"§ 6(d) applies\" to the Calloway fund. It provides all three required reasons, noting the value is \"$18,420, under $25,000\", it was \"established 1994... 32 years ago, more than 20\", and the purpose is \"impossible to achieve\" because the certificate program \"was closed on June 30, 2011\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states that counsel must send a notice to the Attorney General on October 5, 2026, and that the release 'takes effect no earlier than Friday, December 4, 2026 — 60 days after October 5.' It also explicitly clarifies that it 'cannot take effect at the October 21 meeting.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states in the Calloway fund section that the money must be used consistently with the charitable purposes in Mrs. Calloway's letter, such as an award in the Office Administration program, and specifies that 'It cannot be folded into general operations or used for the deficit.'"
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the Operating Reserve in the section 'What can close the gap', stating it is 'board-designated, not donor-restricted' and can be used by a 'majority vote of the full board; no donor consent and no notice to the Attorney General is needed'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable relies entirely on the facts, figures, dates, and rules provided in the reference files. While there is a minor arithmetic error in the average calculation for the Ruiz distribution, the criterion explicitly states that arithmetic slips do not result in a failure for this criterion."
+    }
+  ],
+  "costUsd": 0.113866,
+  "usage": {
+    "inputTokens": 32507,
+    "cachedInputTokens": 0,
+    "outputTokens": 4071
+  },
+  "gradedAt": "2026-10-10T14:03:26.183Z"
+}

@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the ask as $95,000 using the corporate sponsorship to set the cap at $100,000, and explicitly proposes an ask of $95,000 throughout the document. The criterion explicitly states FAIL if the ask is any other amount than $80,000, including specifically citing $95,000 as a failing condition."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The plan incorrectly identifies the household's largest gift as the '$25,000 Spring Gala presenting sponsorship of 2023' and calculates the cap as '4 × $25,000 = $100,000'. The criterion specifically requires failing if the plan treats the $25,000 corporate gala sponsorship as the largest gift instead of the $20,000 DAF gift (which would yield an $80,000 cap)."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly focuses on the Adult Literacy Program, specifying support for the Upriver evening tutoring site and Tutor Corps, with alternatives confined to Tutor Corps, ESL Conversation Circles, or the Adult Literacy Endowment. It explicitly bars any Open Doors or Eastside Branch options."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 6: 'No naming opportunity of any kind will be offered (policy A5).' Furthermore, it requests anonymity ('No plaques, no lists, no announcements') and does not suggest naming any room, fund, site, or program after the donors or anyone else."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Section 6 clearly states that recognition will be 'Anonymous' with 'No plaques, no lists, no announcements' and that the gift 'will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.' It also explicitly directs changing the CRM recognition name to Anonymous and forbids naming opportunities."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly identifies Celeste as the decision-maker and directs the ask to her: 'Ask Celeste. Martin: \"Celeste runs our giving — I just sign where she tells me\" (2026-06-10). Martin should be welcome at the meeting, but the ask is made to Celeste.' It also rejects focusing on Martin's earlier interest in naming a building."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "In section 5 ('Arranging the meeting'), the plan proposes emailing Celeste at her business address: 'Teresa emails Celeste this week at celeste@vandermolenmarine.com, the CRM's alternate email'. The criterion explicitly states FAIL if the plan proposes reaching them through Vandermolen Marine Supply in any way, including the vandermolenmarine.com email addresses."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The plan specifies in Section 3 that the team is 'Teresa Lindahl with Lillian Cho' and explicitly excludes Gregory Hale, meeting all requirements of the criterion without including unauthorized individuals."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 3: 'Gregory Hale has no role. He disclosed on 2026-07-15 that Hale Construction is in arbitration with Vandermolen Marine Supply; under section 4 of the Conflict of Interest Policy he takes no part in cultivating or soliciting the Vandermolens until it is resolved. Teresa will thank him for his 2026-09-21 offer and decline it.' He is given no role in the cultivation or solicitation."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly discloses the Rasmussen family's anonymous gift in Section 7 (Talking points), point 5: 'Peer example: Ingrid Rasmussen, who tutors alongside Celeste on Tuesdays, and her family have just made a $100,000 gift to the Adult Literacy Endowment. Lillian can mention it as an invitation for Celeste to stand alongside a fellow tutor.' This directly violates the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly schedules the ask meeting for 'the week of October 5, 2026... before the advisor meeting, so that our request is already on the table when they plan their giving.' Because it places the ask meeting in the first half of October before the advisor meeting rather than after mid-October, it fails the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The plan invents an email address for Celeste ('celeste@vandermolenmarine.com') in Section 5 ('Teresa emails Celeste this week at celeste@vandermolenmarine.com, the CRM's alternate email'), but the CRM record actually lists 'celeste@vandermolenmarine.com' as the Alternate email. Furthermore, all donor facts, quotes, gift amounts, and contact details derive directly from the reference files without external fabrication."
+    }
+  ],
+  "costUsd": 0.026013750000000002,
+  "usage": {
+    "inputTokens": 29350,
+    "cachedInputTokens": 0,
+    "outputTokens": 1067
+  },
+  "gradedAt": "2026-10-10T14:02:32.730Z"
+}

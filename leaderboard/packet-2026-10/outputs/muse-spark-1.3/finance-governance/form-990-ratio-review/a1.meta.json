@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "promptHash": "0a43f83073a8420a",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 4446,
+  "outputTokens": 6573,
+  "costUsd": 0.03349275,
+  "latencyMs": 54332,
+  "createdAt": "2026-10-10T18:31:48.650Z"
+}

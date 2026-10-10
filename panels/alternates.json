@@ -1,0 +1,26 @@
+{
+  "name": "pif-alternates-2026-10",
+  "judges": [
+    {
+      "id": "claude-haiku-5.5",
+      "model": "anthropic/claude-haiku-5.5",
+      "family": "anthropic",
+      "temperature": 0,
+      "maxOutputTokens": 4000
+    },
+    {
+      "id": "gpt-6-luna",
+      "model": "openai/gpt-6-luna",
+      "family": "openai",
+      "maxOutputTokens": 8000,
+      "providerOptions": { "openai": { "reasoningEffort": "low" } }
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "model": "google/gemini-3.8-flash",
+      "family": "google",
+      "maxOutputTokens": 8000,
+      "providerOptions": { "google": { "thinkingConfig": { "thinkingLevel": "low" } } }
+    }
+  ]
+}

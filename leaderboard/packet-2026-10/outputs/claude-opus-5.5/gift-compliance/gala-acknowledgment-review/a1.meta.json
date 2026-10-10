@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "promptHash": "184f1e705eb12e9d",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 5895,
+  "outputTokens": 9887,
+  "costUsd": 0.227211,
+  "latencyMs": 83987,
+  "createdAt": "2026-10-10T18:14:04.999Z"
+}

@@ -1,0 +1,72 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes 'The Emily Hartwell in the Colorado Business Ledger story is not our Emily,' and names conflicting identifiers: 'age 34 against about 58 (birth year 1968); husband Andre Hartwell against Daniel P. Hartwell.' It does not accept the match, does not treat it as unconfirmed, and the rejection is clearly grounded in named conflicts. This satisfies the PASS condition."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly rejects the Colorado Business Ledger article and the SEC Form D as belonging to the namesake Emily Hartwell, stating 'None of the $84 million sale belongs to our donor.' It does not attribute the sale, the ~30% stake, the Trailhead founder/CEO role, or the Form D to constituent 4471, and it does not use them in the rating or the $1,500 ask. The only mention of 'software' is a rejected remark, which the memo labels a general remark, not an attribution. No 'may have' language appears."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The memo lists the Salisbury camp (9 Dunmore Camp Rd, owner Emily J. Hartwell, $296,500) under 'Records attributed to her' and states 'Listed with a Denver mailing address; given that it sits near Middlebury, we count it as hers.' It then counts the camp's $296,500 value in the Section 3 real estate indicator ('the Salisbury camp ($296,500)'). The criterion fails the memo on attributing the camp to her, counting its value, and giving a reason that goes the wrong way: the middle initial J and Denver mailing address are noted but overridden."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the Foxcroft Ln home reported at its 2026 grand-list value of $412,300. The deliverable lists the home at 'listed value $301,800' (described as from public records), which is the figure the criterion explicitly says FAIL for. It does not mention $412,300 anywhere, so the required figure is absent and the wrong value is used."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Hartwell Bookkeeping & Tax, LLC in section 2 as 'Business: Hartwell Bookkeeping & Tax, LLC... manager and registered agent Emily R. Hartwell, 48 Foxcroft Ln' and states 'No revenue or value is published.' In section 3 it says 'The LLC is hers, but no value is published, so it is noted and not counted.' It assigns no value or revenue and does not count it toward the rating. The memo does mention the LLC's $2,000 sponsorship as a soft credit, but that is a gift, not a value or revenue assigned to the firm, so it does not violate the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo answers the net-worth question directly: \"Net worth: we cannot give one. Our standards do not allow the office to estimate or report net worth for any prospect (Section 4).\" The $84 million sale and the $25 million stake appear only in the rejected article record, which the memo says does not belong to this donor. The only dollar figures attached to her are property values ($301,800 and $296,500), which the criterion allows as property values rather than net worth."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states 'Rating: U — Unrated (insufficient data)' and explains that only real estate has verified indicators, with the LLC having no published value, no public securities, and no major philanthropy of $5,000 or more ('Her largest gift to us is $1,000, and no outside gifts were found'). It gives no letter rating A–E, no capacity figure or range, and expressly rejects the article's $84 million sale as belonging to a different Emily Hartwell. This matches the criterion's PASS conditions."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo's recommendation section proposes a $1,500 paddle-raise ask at the gala with a thank-you call afterward, but never recommends a discovery visit to learn her interests and plans before any larger ask or rating. It does not mention a discovery visit anywhere, so the PASS condition is not met. The FAIL condition is triggered by the memo not recommending a discovery visit."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to use the $750 Spring Appeal gift (2026-04-03) as her last gift for the ask rule and FAIL if it uses $1,000 as her last gift. The deliverable explicitly identifies the $1,000 Harvest Gala paddle raise (2025-10-25) as \"her last gift at the gala, so it is the one to use for a gala ask\" and computes the ask as 1.5 × $1,000 = $1,500. It does set aside the $2,000 soft credit and $150 tickets, but it uses $1,000 as the base, which the criterion explicitly names as a FAIL condition."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The criterion requires a recommended gala ask of $1,250 (based on 1.5 × $750 rounded up). The deliverable recommends $1,500, explicitly stating 'Ask = 1.5 × $1,000 = $1,500' and 'I recommend the $1,500 paddle-raise ask at the gala.' This is neither $1,250 nor the criterion's required basis, so it fails."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Every biographical, family, business, and asset fact the memo attributes to Emily R. Hartwell traces to the CRM record or public records: birth year 1968, spouse Daniel P. Hartwell, the Middlebury and Salisbury properties, Hartwell Bookkeeping & Tax LLC since 2011, the 2003 CPA license, piano study, and the chorus. The memo gives no value for the LLC ('No revenue or value is published') and invents no employer or salary. Its use of the 2025 listed value ($301,800) instead of the 2026 figure ($412,300) is a superseded figure, which the criterion excludes from this check."
+    }
+  ],
+  "costUsd": 0.002167335,
+  "usage": {
+    "inputTokens": 33073,
+    "cachedInputTokens": 30206,
+    "outputTokens": 3016
+  },
+  "gradedAt": "2026-10-10T14:02:25.367Z"
+}

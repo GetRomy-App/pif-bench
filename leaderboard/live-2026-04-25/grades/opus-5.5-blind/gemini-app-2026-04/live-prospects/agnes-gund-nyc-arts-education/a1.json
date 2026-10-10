@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-app-2026-04",
+  "task": "live-prospects/agnes-gund-nyc-arts-education",
+  "attempt": 1,
+  "taskHash": "77bcaa3a8b08c99c",
+  "deliverableHash": "009bab90497fda08",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report opens with \"Agnes Gund passed away on September 18, 2025, at the age of 87\" and says \"direct individual solicitation is no longer possible.\" Elsewhere it uses the past tense about her (e.g., \"Gund possessed,\" \"She heavily favored\"). The one present-tense line, \"She has four children,\" does not give a current age, board seat, residence or future action."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report states \"She was the heiress to the Gund family fortune (her father was president of Cleveland Trust).\" It does not print the name George Gund II, but it traces her wealth to inherited family money from her father, identified as the Cleveland Trust president. It names no wrong father and does not credit a husband or a career of her own."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states \"She served as President of the Museum of Modern Art (MoMA) from 1991 to 2002 and was later named President Emerita and Life Trustee.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states \"In 1977, directly in response to severe budget cuts in New York City public schools, she founded Studio in a School, a nonprofit that places professional artists as instructors in under-resourced classrooms.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states \"In 2017, Gund sold Roy Lichtenstein's painting Masterpiece to billionaire Steve Cohen for $165 million. She used $100 million of those proceeds to seed the Art for Justice Fund.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report treats the fund as past giving: \"Over six years, the fund granted over $127 million\" and \"The Art for Justice Fund was intentionally designed to sunset after six years.\" It does not recommend approaching the fund; the connection points name the Ford Foundation, Rockefeller Philanthropy Advisors and MoMA instead."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report never names the AG Foundation and never names Anna Traggio. It refers only vaguely to \"her philanthropic trusts\" and \"the Gund estate or family foundation,\" naming Catherine Gund alone as the heir to approach."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The report gives no dollar figure for Gund's or the AG Foundation's grants to Studio in a School. Its only Studio in a School figures are student reach (\"over 800,000 children ... nearly 30,000 students annually\")."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report gives no figure for the AG Foundation's current assets or annual grants, so it presents no stale figure as current. The criterion passes a report that gives no such figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Under \"Red Flag (Competition),\" the report says her estate is \"already intrinsically tied to a massive, successful arts education nonprofit in NYC,\" so funds may be routed to Studio in a School. It advises \"You must clearly differentiate your program's specific niche or propose a collaborative partnership.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Every recommendation is aimed at survivors: \"You must direct your cultivation efforts toward her heirs ... Catherine Gund ... or the executors of her estate,\" with the ask \"directed to the Gund estate or family foundation.\" Nothing proposes approaching Gund herself."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report does not recommend an unsolicited application, letter of inquiry or proposal to the AG Foundation, and does not describe an open application process. It routes the approach through personal cultivation of her heirs and executors."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report never names the George Gund Foundation or recommends applying to it for the NYC program. Its only foundation references are generic (\"the family's ongoing foundations\")."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The report does not credit Agnes with The Gund at Kenyon, with co-founding the Foundation Fighting Blindness, or with sports-team ownership. Family business interests are attributed to \"The Gund family,\" not to her."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The fact sheet says the Christie's consignment proceeds \"are to settle her estate.\" The report instead says Christie's will auction \"$123 million worth of her remaining art ... in May 2026 to benefit her designated causes,\" a different purpose for the sale. The report also uses this mischaracterized sale as the basis for its capacity estimate."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.477Z"
+}

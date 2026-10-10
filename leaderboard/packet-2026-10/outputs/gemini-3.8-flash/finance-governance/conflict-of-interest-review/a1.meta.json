@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "promptHash": "041eef5eee0c7d61",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 6602,
+  "outputTokens": 10087,
+  "costUsd": 0.04277775,
+  "latencyMs": 55389,
+  "createdAt": "2026-10-10T18:22:57.387Z"
+}

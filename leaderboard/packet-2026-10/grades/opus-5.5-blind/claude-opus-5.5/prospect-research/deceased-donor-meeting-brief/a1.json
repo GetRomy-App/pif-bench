@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "44c928fe226426bc",
+  "deliverableHash": "83e399231836850f",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo's bottom line states \"Gerry Halvorsen died at home on Thursday, August 27, 2026.\" It confirms this from the obituary and the probate notice."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says \"The September 29 visit cannot go ahead as a solicitation, and the $250,000 East Gallery proposal cannot be presented.\" Action 6 has Ruth \"gently release\" the appointment and offer \"a purely personal visit\", without mentioning \"the gallery, the proposal, the pledge or the estate\"."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Action 2 is \"Close PR-2026-044 as 'Closed — donor deceased.' ... The proposal is not transferred to Peg or the children.\" Action 14 allows a new proposal only on or after February 23, 2027, with Janet's approval."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Action 1 is \"Mark record 10388 deceased, with a date of death of August 27, 2026.\" Action 3 removes 10388 from the Fall Appeal file \"Before the file goes to the printer on September 28\" and \"the decedent from all e-mail lists and event invitations\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Counting from August 27, 2026, the 180th day is February 23, 2027. Solicitation may resume on that day.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "Action 3 removes \"both of these from the Fall Appeal mail file: 10388 (Mr. and Mrs. Gerald Halvorsen) and 20417 (Mr. and Mrs. Michael Doyle, the Kristin Doyle household)\". Action 5 also flags Peg and Kristin for bereavement no-solicitation."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Action 13 says \"Do not submit the Foundation's October 15 letter of request\", because \"the Foundation is flagged, and the deadline falls inside the bereavement period\". It gives \"The next opportunity is the cycle after February 23, 2027.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The unpaid balance is $70,000, not the $80,000 the CRM shows\" ($200,000 − $130,000). It lists all five payments, including the June 12 $10,000 check."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Action 8 refers the balance to Denise Okafor (CFO). The memo states \"Only the CFO, or counsel she engages, decides whether to present a claim\" and \"No development staff member may ask Peg, the children, the Foundation or the Personal Representative to pay the pledge.\" No pledge reminders are to go to the household."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The CFO referral in action 8 states \"Personal Representative Erik T. Halvorsen; and the claims deadline of December 28, 2026\", along with case number 2026PR000214 and attorney Laura Vang."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Action 9 has Ruth notify \"Samuel Achterberg\" of the bequest expectancy, and action 12 assigns contact with Erik or Ms. Vang about the will to Samuel Achterberg. The memo states \"Only the Director of Planned Giving contacts the Personal Representative or the estate's attorney\"."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states the bequest \"remains an expectancy and is not booked as revenue, as a receivable or as campaign credit until the estate's distribution is received\". Action 12 adds \"Keep it recorded as an expectancy until any distribution arrives.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Action 7 has the condolence letter \"signed by Laurel Whitfield (President & CEO) and co-signed by Thomas Brandvold (Board Chair), because Gerry was a former trustee and Board Chair\"."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Action 10 sets up the arts-education memorial fund code, acknowledges the three memorial gifts, and has Nadia Ferris \"Send the next of kin a monthly list of donor names and addresses, without amounts.\""
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The memo's facts (dates, identifiers, family, trustees, the $3,120,000 foundation assets, the probate details, the pledge payments, the memorial gifts) all appear in the files. It gives no cause of death or estate value, and it states \"The files do not show whether the will, as admitted to probate, still contains this bequest.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.772Z"
+}

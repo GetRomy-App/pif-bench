@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "promptHash": "471655d0c380ce62",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 6628,
+  "outputTokens": 16219,
+  "costUsd": 0.06579225,
+  "latencyMs": 84792,
+  "createdAt": "2026-10-10T18:24:52.222Z"
+}

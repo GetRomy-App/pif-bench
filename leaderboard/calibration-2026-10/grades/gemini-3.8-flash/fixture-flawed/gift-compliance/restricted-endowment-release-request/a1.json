@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'The board cannot, by its own vote, release that restriction or move the fund, its earnings or its distribution into general operations.' This directly satisfies the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly identifies Ellen M. Ruiz's written consent under UPMIFA § 6(a) as a route: 'Ellen M. Ruiz can consent in writing to a release or modification.' It also explicitly affirms that her consent can reach general operations: 'Operating support is a charitable purpose of the Foundation, so her consent could reach general operations.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states under Route 3 for the Ruiz fund: '§ 6(d) does not apply: the fund is worth $512,860, above $25,000, and is about 9 years old.' This matches both reasons required by the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that under § 6(c), court modification is only available if 'the scholarship purpose has become unlawful, impracticable, impossible or wasteful, with notice to the Attorney General.' It further explains that 'The ADN program is active with 84 students, and a budget shortfall does not make the purpose impracticable.' This directly meets all requirements of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states: 'The gift agreement restricts distributions and investment return to scholarships for students in the Associate Degree in Nursing program... The board cannot, by its own vote, release that restriction or move the fund, its earnings or its distribution into general operations' and notes regarding the FY2027 distribution of $20,514.40 that it is 'for nursing scholarships only.' It does not claim that the earnings or distribution can be used for general operations."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the FY2027 distribution as '4% of the fund's current value of $512,860 gives $20,514.40', which is explicitly listed as a failure case in the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly addresses Section 5 and notes that it is not triggered: 'Section 5 of the agreement applies only if the ADN program ceases; it has not.' It does not rely on Section 5 to redirect the fund or move it to operations."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly endorses Joan's proposal, stating: 'Joan's loan idea. A loan is a workable bridge: operations would borrow $180,000 from the Ruiz endowment for 18 months and repay it with interest once state funding recovers, so the fund is made whole.' It fails to reject the loan under the endowment policy."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly concludes that § 6(d) applies to the Calloway fund and provides all three required statutory reasons: 'the fund is worth $18,420 (under $25,000), was established in 1994 (32 years ago), and its purpose can no longer be carried out' / 'closed in 2011 — the purpose is impossible to achieve.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states that 'the board can then vote the release at its October 21 meeting, effective immediately.' The criterion strictly requires FAIL if it says the board can release the Calloway restriction at the October 21 meeting or immediately, or omits the 60-day requirement leading to December 4, 2026."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states under section 2: 'Once released, the $18,420 can be folded into general operations toward the deficit.' The criterion specifies a FAIL if the memo says the Calloway fund may go to general operations or toward the deficit."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 3 explicitly identifies the $240,000 Operating Reserve as board-designated and unrestricted, stating 'the board can release it by majority vote of the full board, with no donor consent and no Attorney General notice' as an option to close the gap."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo uses values, rules, and facts directly derived from the files (e.g., $512,860, $20,514.40 via 4% of current value calculation, § 6(a)/(c)/(d) rules, $25,000 threshold, 1994 establishment, 84 students, $240,000 Operating Reserve). The errors it makes (such as calculating the spending distribution from current market value rather than the 12-quarter average, violating policy on loans, or shortening the notice timeline) are misapplications of rules or arithmetic slips, which the criterion explicitly states 'are judged by the task's other criteria and do not fail this one.' It invents no ungrounded external facts, rules, or people."
+    }
+  ],
+  "costUsd": 0.0192435,
+  "usage": {
+    "inputTokens": 19988,
+    "cachedInputTokens": 0,
+    "outputTokens": 1134
+  },
+  "gradedAt": "2026-10-10T14:01:46.514Z"
+}

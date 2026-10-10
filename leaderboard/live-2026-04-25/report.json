@@ -1,0 +1,419 @@
+{
+  "run": "./leaderboard/live-2026-04-25",
+  "generatedAt": "2026-10-10T18:51:41.235Z",
+  "panel": {
+    "name": "pif-blind-self-2026-10",
+    "judges": [
+      {
+        "id": "opus-5.5-blind",
+        "model": "claude-code/claude-opus-5.5",
+        "family": "anthropic",
+        "maxOutputTokens": 1,
+        "external": true
+      }
+    ]
+  },
+  "track": "live",
+  "tasks": [
+    {
+      "id": "live-prospects/agnes-gund-nyc-arts-education",
+      "area": "live-prospects",
+      "track": "live",
+      "hash": "77bcaa3a8b08c99c",
+      "criteria": 15
+    },
+    {
+      "id": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "area": "live-prospects",
+      "track": "live",
+      "hash": "592143c71312ebc4",
+      "criteria": 14
+    },
+    {
+      "id": "live-prospects/reed-hastings-rural-colorado-charter",
+      "area": "live-prospects",
+      "track": "live",
+      "hash": "e663556c1b60f8d5",
+      "criteria": 14
+    },
+    {
+      "id": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "area": "live-prospects",
+      "track": "live",
+      "hash": "2e2e5489961796b7",
+      "criteria": 16
+    }
+  ],
+  "tasksNotRun": [
+    "live-prospects/mackenzie-scott-atlanta-education"
+  ],
+  "leaderboard": [
+    {
+      "candidate": "claude-ai-2026-04",
+      "tasks": 4,
+      "attempts": 4,
+      "all_pass": {
+        "value": 0,
+        "ci95": [
+          0,
+          0.4898908403969213
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.8306547619047618,
+        "ci95": [
+          0.7642857142857142,
+          0.8705357142857143
+        ]
+      },
+      "criterion_pass_pooled": 0.8305084745762712,
+      "red_line_failure_rate": 1,
+      "by_area": {
+        "live-prospects": {
+          "tasks": 4,
+          "all_pass": 0,
+          "criterion_pass_macro": 0.8306547619047618
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0,
+          "criterion_pass_macro": 0.8306547619047618
+        }
+      },
+      "label": "Claude.ai — Opus 4.7 Adaptive (Apr 2026)",
+      "family": "anthropic",
+      "generationCostPerTask": null,
+      "missingTasks": []
+    },
+    {
+      "candidate": "romy-2026-04",
+      "tasks": 4,
+      "attempts": 4,
+      "all_pass": {
+        "value": 0,
+        "ci95": [
+          0,
+          0.4898908403969213
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.7436011904761904,
+        "ci95": [
+          0.7142857142857143,
+          0.7879464285714286
+        ]
+      },
+      "criterion_pass_pooled": 0.7457627118644068,
+      "red_line_failure_rate": 1,
+      "by_area": {
+        "live-prospects": {
+          "tasks": 4,
+          "all_pass": 0,
+          "criterion_pass_macro": 0.7436011904761904
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0,
+          "criterion_pass_macro": 0.7436011904761904
+        }
+      },
+      "label": "Rōmy (Deep Research, Apr 2026)",
+      "family": "romy",
+      "generationCostPerTask": null,
+      "missingTasks": []
+    },
+    {
+      "candidate": "gemini-app-2026-04",
+      "tasks": 4,
+      "attempts": 4,
+      "all_pass": {
+        "value": 0,
+        "ci95": [
+          0,
+          0.4898908403969213
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.6709821428571429,
+        "ci95": [
+          0.5357142857142857,
+          0.80625
+        ]
+      },
+      "criterion_pass_pooled": 0.6779661016949152,
+      "red_line_failure_rate": 0.75,
+      "by_area": {
+        "live-prospects": {
+          "tasks": 4,
+          "all_pass": 0,
+          "criterion_pass_macro": 0.6709821428571429
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0,
+          "criterion_pass_macro": 0.6709821428571429
+        }
+      },
+      "label": "Gemini app — 3.1 Pro (Apr 2026)",
+      "family": "google",
+      "generationCostPerTask": null,
+      "missingTasks": []
+    },
+    {
+      "candidate": "chatgpt-2026-04",
+      "tasks": 4,
+      "attempts": 4,
+      "all_pass": {
+        "value": 0,
+        "ci95": [
+          0,
+          0.4898908403969213
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.6041666666666666,
+        "ci95": [
+          0.5,
+          0.7083333333333333
+        ]
+      },
+      "criterion_pass_pooled": 0.6101694915254238,
+      "red_line_failure_rate": 0.75,
+      "by_area": {
+        "live-prospects": {
+          "tasks": 4,
+          "all_pass": 0,
+          "criterion_pass_macro": 0.6041666666666666
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0,
+          "criterion_pass_macro": 0.6041666666666666
+        }
+      },
+      "label": "ChatGPT — GPT-5.3 (Apr 2026)",
+      "family": "openai",
+      "generationCostPerTask": null,
+      "missingTasks": []
+    }
+  ],
+  "notRanked": [],
+  "perTask": {
+    "live-prospects/agnes-gund-nyc-arts-education": {
+      "claude-ai-2026-04": {
+        "passed": 11,
+        "total": 15,
+        "all_pass": 0,
+        "failed": [
+          "C-006",
+          "C-008",
+          "C-013",
+          "C-015"
+        ],
+        "missing": false
+      },
+      "romy-2026-04": {
+        "passed": 11,
+        "total": 15,
+        "all_pass": 0,
+        "failed": [
+          "C-008",
+          "C-012",
+          "C-013",
+          "C-015"
+        ],
+        "missing": false
+      },
+      "gemini-app-2026-04": {
+        "passed": 12,
+        "total": 15,
+        "all_pass": 0,
+        "failed": [
+          "C-007",
+          "C-008",
+          "C-015"
+        ],
+        "missing": false
+      },
+      "chatgpt-2026-04": {
+        "passed": 10,
+        "total": 15,
+        "all_pass": 0,
+        "failed": [
+          "C-001",
+          "C-007",
+          "C-008",
+          "C-011",
+          "C-015"
+        ],
+        "missing": false
+      }
+    },
+    "live-prospects/laurene-powell-jobs-dc-journalism": {
+      "claude-ai-2026-04": {
+        "passed": 12,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-010",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "romy-2026-04": {
+        "passed": 10,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-008",
+          "C-009",
+          "C-013",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "gemini-app-2026-04": {
+        "passed": 7,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-007",
+          "C-008",
+          "C-009",
+          "C-010",
+          "C-011",
+          "C-013",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "chatgpt-2026-04": {
+        "passed": 7,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-002",
+          "C-005",
+          "C-006",
+          "C-008",
+          "C-010",
+          "C-013",
+          "C-014"
+        ],
+        "missing": false
+      }
+    },
+    "live-prospects/reed-hastings-rural-colorado-charter": {
+      "claude-ai-2026-04": {
+        "passed": 12,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-008",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "romy-2026-04": {
+        "passed": 10,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-004",
+          "C-006",
+          "C-008",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "gemini-app-2026-04": {
+        "passed": 8,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-001",
+          "C-003",
+          "C-005",
+          "C-008",
+          "C-011",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "chatgpt-2026-04": {
+        "passed": 7,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-003",
+          "C-004",
+          "C-005",
+          "C-008",
+          "C-010",
+          "C-011",
+          "C-014"
+        ],
+        "missing": false
+      }
+    },
+    "live-prospects/robert-f-smith-texas-hbcu-engineering": {
+      "claude-ai-2026-04": {
+        "passed": 14,
+        "total": 16,
+        "all_pass": 0,
+        "failed": [
+          "C-007",
+          "C-016"
+        ],
+        "missing": false
+      },
+      "romy-2026-04": {
+        "passed": 13,
+        "total": 16,
+        "all_pass": 0,
+        "failed": [
+          "C-005",
+          "C-012",
+          "C-016"
+        ],
+        "missing": false
+      },
+      "gemini-app-2026-04": {
+        "passed": 13,
+        "total": 16,
+        "all_pass": 0,
+        "failed": [
+          "C-004",
+          "C-007",
+          "C-010"
+        ],
+        "missing": false
+      },
+      "chatgpt-2026-04": {
+        "passed": 12,
+        "total": 16,
+        "all_pass": 0,
+        "failed": [
+          "C-004",
+          "C-007",
+          "C-009",
+          "C-010"
+        ],
+        "missing": false
+      }
+    }
+  },
+  "agreement": {
+    "items": 236,
+    "unanimous": 1,
+    "fleiss_kappa": null,
+    "pairs": []
+  },
+  "selfPreference": [],
+  "judgingCostUsd": 0,
+  "staleGrades": 0
+}

@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/agnes-gund-nyc-arts-education",
+  "attempt": 1,
+  "taskHash": "c32d02435784d25d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'Agnes Gund died on September 18, 2025' in multiple sections, including the Bottom line and Red flags. It consistently treats her as deceased throughout the report, satisfying the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies her father as George Gund II in the 'Personal and professional background' section, noting he built a fortune and was president of the Cleveland Trust Company. In the 'Wealth indicators' section, it states her source of wealth was 'inherited wealth' from her father who died in 1966."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under her professional background that she was 'president from 1991 to 2002' of the Museum of Modern Art, which exactly matches the criterion's requirements."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under the 'Personal and professional background' section that Agnes Gund founded 'Studio in a School' in 1977. It also accurately describes the organization's mission to place professional artists in public-school classrooms following New York City's fiscal-crisis budget cuts."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states in Section 2 that 'In 2017 she privately sold Roy Lichtenstein's Masterpiece (1962) for $165 million' and in Section 3 that she gave a $100,000,000 founding gift from that sale in 2017 to the Art for Justice Fund, which is described as 'a time-limited fund for criminal-justice reform.' All required facts and figures are present and correct."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in both Section 3 and Section 7 that the Art for Justice Fund is closed, noting it ceased operations on June 30, 2023."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly identifies the AG Foundation and its EIN, stating that \"Her philanthropy now runs through the AG Foundation, whose surviving trustees are her daughters Catherine Gund and Anna Traggio.\" It does not name anyone else as a trustee or present Agnes Gund as a current decision-maker, explicitly noting her death in 2025."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly documents the AG Foundation's grants to Studio in a School in its Philanthropic giving history table, listing '$1,369,599' in 2020, '$545,619' in 2021, '$277,771' in 2022, and '$1,085,000' in 2023. These amounts exactly match the required figures."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable cites the AG Foundation's size using 2024 figures, stating 'at the end of 2024 it held $34.3 million at book value ($50.0 million at market value)' and 'paid $3.9 million in grants in 2024'. Older figures, such as the $35.3 million in grants from 2020, are explicitly labeled with their respective years."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly flags Studio in a School as the incumbent in both the 'Bottom line' and 'Red flags' sections. It notes that 'A new NYC arts-education program competes directly for the same family's arts-education dollars unless it is clearly complementary,' and strategic advice includes 'Position next to Studio in a School, not against it' or to explore a partnership."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report explicitly advises against cultivating or soliciting Agnes Gund herself, stating, 'No ask to Agnes Gund. Remove her from solicitation lists, and plan no cultivation, ask or bequest request addressed to her.' All engagement strategies and ask recommendations are directed toward the surviving trustees of her foundation."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states 'No unsolicited proposal' in section 6, noting that the AG Foundation gives only to preselected organizations and does not accept unsolicited requests according to its Forms 990-PF. It recommends seeking a personal introduction instead."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Under 'Red flags', the report explicitly states that the George Gund Foundation is not a route for this program and notes its geographic limitations, specifying that its arts grants go to organizations in or directly serving the City of Cleveland and it does not prioritize arts education outside the Cleveland Metropolitan School District."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Red flags' not to credit her with her brothers' gifts, correctly noting that The Gund at Kenyon College honors her brother Graham and that the Foundation Fighting Blindness was co-founded by her brother Gordon. It does not attribute any of her brothers' roles or gifts to her."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable's factual claims align perfectly with the provided fact sheet. Dates, amounts, relationships, organizational roles, grant histories, and current foundation details (including the AG Foundation's assets, grants, and surviving trustees) all match the ground truth without contradiction."
+    }
+  ],
+  "costUsd": 0.20578200000000002,
+  "usage": {
+    "inputTokens": 69207,
+    "cachedInputTokens": 0,
+    "outputTokens": 5614
+  },
+  "gradedAt": "2026-10-10T14:00:06.230Z"
+}

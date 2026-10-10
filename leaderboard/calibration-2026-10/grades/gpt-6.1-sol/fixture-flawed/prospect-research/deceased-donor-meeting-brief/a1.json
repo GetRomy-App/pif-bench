@@ -1,0 +1,92 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Gerry Halvorsen died at home on Thursday, August 27, 2026,” and identifies confirmation from the obituary and probate notice. It also states that “The September 29 visit cannot go ahead as a solicitation,” rather than preparing Ruth to meet or solicit him."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “The September 29 visit cannot go ahead as a solicitation” and that the gallery proposal “is not to be presented to Peg or anyone in the family.” It directs cancellation of the visit action and allows only a condolence visit at which Ruth “raises no gift, proposal, pledge or estate matter and brings no proposal or rendering.” It also prohibits proposing the gallery as a memorial naming to the family."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly directs staff to “Close proposal PR-2026-044 as ‘Closed — donor deceased’ (not transferred to Peg or anyone else).” It identifies this proposal as the $250,000 East Gallery naming and nowhere keeps it open, holds it for later presentation, or reassigns it to the family or foundation."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo directs Holly to “Mark record 10388 deceased, date of death 2026-08-27” and to “Remove Gerry from all appeals, mailings, e-mail lists and event invitations.” It also explicitly directs her to “Remove Gerry from the Fall Appeal before the mail file goes to the printer on 2026-09-28,” satisfying the required suppression."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The memo states that policy bars personal solicitation of Peg, Erik and Kristin before \"February 28, 2027.\" Action 3 explicitly calculates that date from the obituary confirmation on September 1, rather than the August 27 date of death. The criterion requires February 23, 2027 and expressly fails February 28, 2027."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly directs staff to \"Re-address the household's Fall Appeal letter to Mrs. Margaret Halvorsen alone, at the same ask string,\" which the criterion identifies as a failure. It also states \"Annual appeals continue as normal\" when flagging Peg, Kristin, and Erik for bereavement, so it does not exclude Kristin's household from the appeal either."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo recommends, \"Send the Halvorsen Family Foundation letter of request by October 15 as planned ($15,000 for arts education).\" It treats this as \"a routine annual renewal ... not a personal ask,\" despite identifying Margaret, Erik and Kristin as trustees. This explicitly recommends a foundation request before 2027-02-23 rather than holding it until the bereavement period ends."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo states “Unpaid balance: $80,000” and reports “$120,000 paid to date,” rather than the required $70,000 balance based on $130,000 paid. It also repeats the $80,000 balance in the recommended CFO referral, so it fails the criterion’s explicit balance requirement."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Action 7 refers the unpaid $80,000 pledge to CFO Denise Okafor and states, “Only Denise decides whether to present a claim and deals with the estate about the pledge.” It explicitly prohibits development from asking Peg, Erik, Kristin or the family foundation to pay and says “no pledge reminder goes to the household.” The memo also prohibits discussing the pledge with any family member, “including Erik in his role as personal representative,” and contains no contrary recommendation."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The pledge referral to CFO Denise Okafor explicitly includes the personal representative, “Erik T. Halvorsen,” and the “claims deadline of 2026-12-28.” Both match the criterion, and the memo gives no conflicting deadline or personal representative."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the \"$100,000 bequest\" in Gerry’s signed letter of intent dated 2021-05-10 and directs Ruth to \"Notify Samuel Achterberg of the $100,000 bequest intention.\" It explicitly states, \"He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center,\" and prohibits development staff from discussing the bequest with family members. Thus it routes the intention exclusively to Samuel and contains no conflicting instruction."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly directs: \"Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received.\" It also notes that the intention is revocable and that \"We do not know whether the will admitted to probate still contains it,\" rather than asserting that the estate owes or will pay $100,000."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "Action 5 recommends preparing the condolence letter “for signature by President & CEO Laurel Whitfield” and lists only Laurel as the signer. Although the memo identifies Gerald as a trustee from 2009–2018, it does not include Board Chair Thomas Brandvold as co-signer, so the CEO-only recommendation fails the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo addresses memorial gifts, noting that three have arrived and are coded to the Arts Education Fund. Action 9 directs Nadia to acknowledge donors and “send Peg a monthly list of memorial donors' names and addresses, never the amounts.” No recommendation elsewhere proposes sharing amounts or a total with the family."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The memo grounds Gerald’s death and family relationships in the obituary and probate notice, and describes the planned gift as a signed 2021 letter of intent rather than a confirmed current testamentary gift: “We do not know whether the will admitted to probate still contains it.” It introduces no unsupported cause of death, estate valuation, heir, or foundation trustee. The outdated pledge balance and policy applications are expressly outside this criterion’s scope."
+    }
+  ],
+  "costUsd": 0.0340434,
+  "usage": {
+    "inputTokens": 42275,
+    "cachedInputTokens": 35984,
+    "outputTokens": 1474
+  },
+  "gradedAt": "2026-10-10T14:02:32.198Z"
+}

@@ -1,0 +1,82 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo says: \"The board cannot, by its own vote, release the scholarship restriction or move any part of the fund — principal, earnings or this year's distribution — into general operations, on October 21 or later.\" That is exactly what the criterion requires, and nothing elsewhere contradicts it."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo lists \"Donor consent — § 6(a)\" as a route. It says Ellen M. Ruiz can consent in a record to release or modify the restriction, and that \"operating support of the Foundation is a charitable purpose, so her consent could in principle reach general operations.\" It never says her consent could not authorize general operations use. The summary's phrase \"The only realistic route to a different use is Ellen Ruiz's written consent\" is consistent with this."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says \"§ 6(d) does not apply. The fund is worth $512,860 — far above the $25,000 limit — and was established on March 15, 2017, about 9 years ago, not more than 20.\" It gives both the value and age reasons and never suggests that § 6(d) or an Attorney General notice could release the Ruiz restriction."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo's Ruiz court route (§ 6(c)) states the standard: 'Only if the scholarship purpose itself has become unlawful, impracticable, impossible to achieve or wasteful, on application to a court with notice to the Attorney General.' It then says this is not met because the ADN program is active with 84 students enrolled, and that a budget shortfall does not by itself make a purpose impracticable. It concludes 'Not a promising route.' That covers every element of the criterion and avoids the FAIL conditions."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says the gift agreement restricts \"distributions — and all investment return — to scholarships for students in the Associate Degree in Nursing program.\" It also says the board cannot move \"principal, earnings or this year's distribution — into general operations,\" and that the $19,767.33 FY2027 distribution is \"available only for ADN nursing scholarships.\" Nowhere does it suggest the earnings or distribution can go to operations, so the criterion is met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states the FY2027 distribution as 4% of the average of twelve quarter-end values from 2023-09-30 through 2026-06-30, giving an average of $494,183.33 and a distribution of $19,767.33. It says this is available only for ADN nursing scholarships and repeats the figure in the recommended actions. This matches the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says: \"Section 5 of the agreement does not apply. It lets the board redirect distributions only if the ADN program ceases to be offered, and only to another health-sciences scholarship. The program is active.\" This matches the criterion, and the memo does not rely on Section 5 to redirect the fund or move it to operations."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo rejects the loan outright: \"We cannot lend $180,000 (or any amount) from the Ruiz endowment to operations. Policy §4.2 forbids lending, borrowing or pledging donor-restricted endowment assets for operating needs, whatever the term or rate.\" This cites §4.2 and the prohibition regardless of term, which meets the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo concludes that \"§ 6(d) applies\" to the Calloway fund. It gives the value reason ($18,420, under $25,000) and the age reason (\"established 1994 ... 32 years ago, more than 20\"). It states the purpose is impossible because the certificate closed June 30, 2011 and no student can graduate from it. In the § 6(d) list, the third bullet is phrased as \"we will use the property consistently with the gift's charitable purposes.\" The impossibility reasoning appears just before that list, in the same section, so all three reasons are present."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo says the Calloway release cannot occur before December 4, 2026. It has counsel send the Attorney General notice on October 5, 2026 and puts the effective date 60 days later. It states \"It cannot take effect at the October 21 meeting.\" This matches the criterion. Dec 4 is 60 days after Oct 5 (Oct 26 days remaining + 30 Nov + 4 = 60), so the date is correct."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states that after release the money must be used consistently with the charitable purposes in Mrs. Calloway's letter, proposes an Office Administration (A.A.S.) award, and says it \"cannot be folded into general operations or used for the deficit.\" This matches the criterion, and nothing elsewhere contradicts it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 3 says the Operating Reserve ($240,000) is board-designated, not donor-restricted. It says the board can release it \"by majority vote of the full board; no donor consent and no notice to the Attorney General is needed,\" and it recommends releasing $180,000 to close the gap. That meets every element of the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every rule, figure, date and fact I checked traces to the files or follows by arithmetic. The Ruiz average of $494,183.33 and the 4% distribution of $19,767.33 recompute correctly. The 60-day count from October 5 gives Friday, December 4. The Calloway facts (1994 establishment, 2002 death, no successor, 2011 closure, Office Administration A.A.S. since 2012) are all sourced, as are the § 6(d) limits ($25,000, 20 years, 60 days) and the policy §§ 4.2, 4.3 and 5.1 references. The memo says only that nothing in the files shows Ellen Ruiz was approached, which is not a claim that she was. No invented threshold, donor, approval or fact appears."
+    }
+  ],
+  "costUsd": 0.0437882,
+  "usage": {
+    "inputTokens": 45098,
+    "cachedInputTokens": 40392,
+    "outputTokens": 2801
+  },
+  "gradedAt": "2026-10-10T14:03:13.232Z"
+}

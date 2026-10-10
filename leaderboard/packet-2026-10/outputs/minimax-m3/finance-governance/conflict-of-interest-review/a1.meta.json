@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "promptHash": "041eef5eee0c7d61",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 6019,
+  "outputTokens": 10300,
+  "costUsd": 0.01413858,
+  "latencyMs": 52998,
+  "createdAt": "2026-10-10T18:27:16.727Z"
+}

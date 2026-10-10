@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Hastings as having 'Co-founded Netflix in 1997' and explicitly states he 'was its CEO from the late 1990s until January 2023.' This matches all criteria requirements."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable repeatedly refers to Hastings as the current 'executive chairman' of Netflix in the present tense (e.g., 'Reed Hastings co-founded Netflix and is now its executive chairman', 'Since January 2023 he has been Netflix's Executive Chairman, the role he holds today', and 'He remains executive chairman until then'). Under the criterion instructions, presenting him as 'Executive Chairman' as of April 2026 is an explicit FAIL."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in Section 1 (and the summary) that 'On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting. He remains executive chairman until then; the shareholder letter says he is leaving \"to focus on his philanthropy and other pursuits\"'. This precisely matches the criterion requirements."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Netflix equity as the core of his wealth (\"Netflix equity is the core of his wealth\") and notes he owns under 1% of the company. It provides sourced net worth estimates: Forbes at ~$4.1 billion post-January 2024 and ~$4–5.5 billion in 2026, and Bloomberg at $6.6 billion just before the 2024 gift. All figures fall well within the $3–8 billion range."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly names Patty Quillin as Hastings's wife and philanthropic partner multiple times. In Section 1, it notes: 'He is married to Patty Quillin, his partner in giving'. In Section 3, it highlights her as co-signer of the Giving Pledge, co-donor of the $120 million HBCU gift, and co-listed on the Charter School Growth Fund."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "In Section 3 (Philanthropic giving history table), the deliverable lists: 'Jan 2016 | **Hastings Fund**: education donor-advised fund at SVCF. First grants: $1.5M to UNCF and the Hispanic Foundation of Silicon Valley | $100 million | [5][6]'. This accurately identifies the name, January 2016 date, $100 million amount, and status as a donor-advised fund at SVCF."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report explicitly documents the January 2024 gift in Section 3: 'Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion'. It correctly identifies the date, number of shares, valuation (~$1.1 billion), and SVCF / donor-advised fund as the recipient."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report explicitly details The City Fund in Section 3: 'Jul 2018 | The City Fund: charter and autonomous public schools in cities. The Hastings Fund and Laura and John Arnold are anchor funders; reported $125M of it from the Hastings Fund | ~$200 million raised at launch'. This satisfies all criteria requirements without any disqualifying errors."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable substitutes Howard University for Morehouse College ('Jun 2020 | UNCF, Spelman College, Howard University, for HBCU scholarships (with Quillin) | $120 million ($40M each)'). The criterion explicitly states 'FAIL if the report omits this gift, gives a different total or per-recipient amount, adds or substitutes another recipient (such as Howard University or Tougaloo College)'."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states Hastings's current board membership and places CSGF in Colorado: 'Hastings sits on CSGF's board, and CSGF is headquartered in Denver' (Summary) and 'CSGF in Denver: board seat and $10M+ funder' (Section 7). It does not claim he chairs CSGF or that the seat is past."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies Lone Rock in Bailey, Park County, Colorado as an educators' retreat financed by Hastings and run by the Lone Rock Foundation, noting Hastings is president. It also correctly specifies that Hastings lives in Santa Cruz, California rather than Colorado."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "In Section 5 ('Estimated giving capacity: single gift to an education nonprofit'), the deliverable estimates capacity as '$10–25 million', explicitly setting the top of the range at $25 million despite noting his past $40M and $50M gifts. The criterion specifies a FAIL if the single-gift capacity estimate, or the top of its range, is below $40 million."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states in the Summary: 'The fastest path is a direct written proposal to him.' Furthermore, the very first step of the recommended engagement strategy is '1. Write to him directly. Send Hastings a two-page proposal and cover letter from the CEO now, asking for a meeting.' Because the main recommended first step is a cold letter/proposal rather than routing the approach through a warm intermediary, it fails the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable repeatedly refers to Hastings as 'Executive Chairman' currently ('Since January 2023 he has been Netflix's Executive Chairman, the role he holds today' and 'He remains executive chairman until then'). Section 7 of the fact sheet explicitly specifies: 'Calling him \"Executive Chairman\" for the period January 2023–April 2025 is fine; calling it his current title is not.' Furthermore, in row 3.5, the 2020 HBCU gift was to 'UNCF, Spelman College and Morehouse College', whereas the deliverable incorrectly lists 'UNCF, Spelman College, Howard University'."
+    }
+  ],
+  "costUsd": 0.0578355,
+  "usage": {
+    "inputTokens": 70239,
+    "cachedInputTokens": 0,
+    "outputTokens": 1375
+  },
+  "gradedAt": "2026-10-10T13:58:13.952Z"
+}

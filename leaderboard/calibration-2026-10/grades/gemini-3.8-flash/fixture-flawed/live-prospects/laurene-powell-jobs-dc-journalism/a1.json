@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Laurene Powell Jobs as the 'Founder and president of Emerson Collective' and 'the widow of Apple co-founder Steve Jobs'. It states that 'The fortune was inherited from Steve Jobs, principally Walt Disney and Apple shares', and correctly notes that he died on October 5, 2011."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies Emerson Collective as an LLC and clarifies that it is not a foundation: 'Emerson Collective: LLC, not a foundation. It has no Form 990 and no public grant list' and in the summary as 'an LLC that combines grant-making, venture investing and advocacy'. There are no contradictory statements labeling Emerson Collective itself as a 501(c)(3) or private foundation."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies the Waverley Street Foundation as 'her climate foundation', noting it is 'a 501(c)(3) private foundation (EIN 81-3242506), organized in 2016 as the Emerson Collective Foundation' and stating that 'In 2021 she committed $3.5 billion over ten years. It is a spend-down foundation' and 'It funds climate work only'. This matches all requirements of the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Powell Jobs is the 'majority investor and board chair of The Atlantic' and that 'Emerson Collective agreed to buy a majority stake in July 2017 [7]. The stake is reported at about 70%, for about $110 million.' This matches all criteria requirements."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies multiple qualified D.C. ties: under the Summary, Section 1, and Section 7, it notes that 'She controls The Atlantic, which is headquartered in Washington' and 'College Track Southeast D.C. (Ward 8) opened in January 2020.'"
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports her current net worth as '$21.4 billion (Bloomberg Billionaires Index, April 2026)' and instructs the reader to 'Use about $21 billion.' Because this figure is above $16 billion (and specifically matches an excluded historical/superseded figure like $21 billion), it fails the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly presents her Monumental Sports stake as a current asset and active connection point, stating: 'She holds a stake of about 20%, bought in 2017... It is her largest D.C. asset' and listing 'Her stake of about 20% in Monumental Sports & Entertainment... puts her among D.C.'s civic and business leaders' under Connection points."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The rubric explicitly specifies: 'FAIL if it... gives a different amount for any gift listed here — the same grantee and year with another figure, for example ProPublica $2.5 million in 2017'. In Section 3, the deliverable lists 'ProPublica | $2.5 million | 2017', which directly triggers the fail condition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report explicitly places The Atlantic, Axios, The Athletic, Ozy Media, and Pop-Up Magazine under 'Holdings' in Section 2 (Wealth indicators and asset profile) rather than in Section 3 (Philanthropic giving history). Furthermore, it expressly notes regarding The Atlantic that 'This is a for-profit investment, not a gift' and labels the others under 'Other media investments (all for-profit)'. None of these investments are characterized as gifts or included in charitable totals."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The criterion requires stating that Emerson Collective does not accept unsolicited submissions or proposals, and explicitly says 'FAIL if the report never says that Emerson Collective does not take unsolicited proposals, or says that Emerson Collective or the Waverley Street Foundation has an open application process, a grant portal, a request-for-proposals cycle or a letter-of-inquiry process.' The deliverable explicitly recommends: 'Send a two-page letter of inquiry to Emerson Collective's media and journalism team (info@emersoncollective.com) [10]. Follow it with a full proposal for the $300,000 request,' and fails to state that Emerson does not accept unsolicited proposals."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The engagement strategy explicitly recommends an unsolicited approach: '1. Send a two-page letter of inquiry to Emerson Collective's media and journalism team (info@emersoncollective.com) [10]. Follow it with a full proposal for the $300,000 request.' This directly violates the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report correctly names both organizations among those she founded and leads: 'XQ Institute. She co-founded it in 2015 with Russlynn Ali, and she chairs it' and 'College Track. She co-founded it in 1997.' Both founding years accurately match the criterion requirements."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report recommends an ask of '$300,000 over three years ($100,000 a year)' and explicitly anchors this figure to her documented journalism grants, citing 'The 19th: $100,000', 'The Current: $170,000 over two years', and 'The Texas Tribune and Chalkbeat: $200,000–$350,000 a year'."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable states that her net worth is '$21.4 billion (Bloomberg Billionaires Index, April 2026)', which is outside the specified tolerance of $11B–$16B on 2026-04-25 in the fact sheet. Furthermore, it treats her stake in Monumental Sports & Entertainment as a current holding ('She holds a stake of about 20%... It is her largest D.C. asset') rather than noting she sold her stake in December 2025, and misreports ProPublica's 2017 grant as '$2.5 million' instead of $700,000."
+    }
+  ],
+  "costUsd": 0.05227875,
+  "usage": {
+    "inputTokens": 62645,
+    "cachedInputTokens": 0,
+    "outputTokens": 1412
+  },
+  "gradedAt": "2026-10-10T13:58:03.492Z"
+}

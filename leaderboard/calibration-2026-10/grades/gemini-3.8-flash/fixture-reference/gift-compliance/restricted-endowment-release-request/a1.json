@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'The board cannot, by its own vote, release the scholarship restriction or move any part of the fund — principal, earnings or this year's distribution — into general operations, on October 21 or later.' It also summarizes this in the executive summary: 'The board cannot move it, its earnings or its distribution into operations.'"
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly identifies Ellen M. Ruiz's written consent under UPMIFA § 6(a) as a route to release or modify the restriction. Furthermore, it explicitly notes that 'operating support of the Foundation is a charitable purpose, so her consent could in principle reach general operations.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under section 1, point 3: '§ 6(d) does not apply. The fund is worth $512,860 — far above the $25,000 limit — and was established on March 15, 2017, about 9 years ago, not more than 20'. This correctly identifies both the value and age disqualifiers."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes under § 6(c) that court modification requires the scholarship purpose itself to become unlawful, impracticable, impossible to achieve, or wasteful (with notice to the AG). It points out that the ADN program is active (84 students enrolled) and quotes counsel's note that 'a budget shortfall does not by itself make a purpose impracticable,' concluding it is not a promising route."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that 'The gift agreement restricts distributions — and all investment return — to scholarships for students in the Associate Degree in Nursing program' and confirms regarding the FY2027 distribution of $19,767.33 that 'It is available only for ADN nursing scholarships' and cannot be moved into general operations."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates and states the FY2027 distribution as '$19,767.33' based on 4% of the 12-quarter average of $494,183.33, and notes that 'It is available only for ADN nursing scholarships.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Section 5 of the agreement does not apply. It lets the board redirect distributions only if the ADN program ceases to be offered, and only to another health-sciences scholarship. The program is active.' This directly satisfies the requirement."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly addresses and rejects Joan's loan proposal in Section 1 under 'Joan's loan proposal': 'We cannot lend $180,000 (or any amount) from the Ruiz endowment to operations. Policy §4.2 forbids lending, borrowing or pledging donor-restricted endowment assets for operating needs, whatever the term or rate... Repaying with interest does not change that.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes that '§ 6(d) applies' to the Calloway fund. It provides all three required reasons: value of '$18,420, under $25,000', established in '1994 (accepted May 26, 1994) — 32 years ago, more than 20', and that the purpose is impossible to achieve because 'That certificate was closed on June 30, 2011, and no student can now graduate from it... so the purpose is impossible to achieve.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that counsel sends notice to the Attorney General on October 5, 2026, and that the release takes effect 'no earlier than Friday, December 4, 2026 — 60 days after October 5. It cannot take effect at the October 21 meeting.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Use after release' that 'The money must be used consistently with the charitable purposes in Mrs. Calloway's letter: helping a student preparing for office work. The natural modification is an annual award to the outstanding graduating student in the College's Office Administration (A.A.S.) program, the successor program since 2012. It cannot be folded into general operations or used for the deficit.'"
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly identifies the $240,000 Operating Reserve as board-designated and unrestricted, stating that it can be released by a majority vote of the full board on October 21 to close the gap without donor consent or notice to the Attorney General."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every rule, threshold, date, value, and fact cited in the memo directly matches or is arithmetically derived from the reference files. The memo correctly identifies the $25,000 / 20-year / 60-day limits under UPMIFA § 6(d), the fund balances ($512,860, $18,420, $240,000), the dates (October 5, October 21, December 4), and notes that Mrs. Calloway died in 2002 without naming a successor and Ellen Ruiz has not been approached."
+    }
+  ],
+  "costUsd": 0.02891025,
+  "usage": {
+    "inputTokens": 32507,
+    "cachedInputTokens": 0,
+    "outputTokens": 1208
+  },
+  "gradedAt": "2026-10-10T14:02:46.068Z"
+}

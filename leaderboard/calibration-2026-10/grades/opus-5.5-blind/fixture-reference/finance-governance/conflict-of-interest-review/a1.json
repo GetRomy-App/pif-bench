@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "054276963ada46c6",
+  "deliverableHash": "e58fe8f9509f2d62",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states that Saffron & Sage's \"sole member and manager (100%) is Celeste M. Aldana\", ties her to Thomas Aldana as \"his spouse\", and concludes \"Mr. Aldana had a Financial Interest in the catering contract... an actual or possible conflict of interest.\" The summary marks \"Policy followed: No.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo names both failures. First, \"on 2026-01-20 he answered 'No' to Question 2... although Saffron & Sage had submitted its bid on 2026-01-08.\" Second, at the 2026-02-12 meeting \"the minutes record that no director other than Ms. Ramaswamy disclosed anything.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states the policy required him to \"Leave the meeting... while they discussed and voted on the contract, and not vote (Article III, Sections 2–3).\" It records that instead he \"spoke for Saffron & Sage ('a cut above'), moved to award it the contract, and voted for his own motion.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"the motion carried 6–5 with Mr. Aldana voting in favor. Without his vote it would have been 5–5, and under the bylaws a tie fails.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states the board \"rejected the Gala Committee's recommendation of Harborview Provisions, the lowest bid at $52,900, and awarded the contract at $68,400 — $15,500 (29.3%) more.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states that Ms. Ramaswamy \"handled it exactly as the policy requires\": disclosure on her statement, in writing to the Chair and orally; she left the room; the ten remaining directors approved the lowest bid of $18,250 10–0. It concludes \"No action is needed concerning Ms. Ramaswamy.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Saffron & Sage must be reported in Part IV\" of the 2025 Form 990 (fiscal year July 1, 2025 – June 30, 2026). It explains that the LLC is more than 35% owned by a director's spouse and that $71,860 exceeds the $39,400 single-transaction threshold."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states the threshold is \"the greater of $10,000 or 1% of total revenue. Total revenue on the draft return is $3,940,000, so the threshold is $39,400.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo tests BrightStage against both thresholds in its table and concludes \"BrightStage is not reportable: $18,250 is below both thresholds.\" It treats BrightStage as an interested person through the director's brother."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Step 1 says the committee \"informs Mr. Aldana in writing of the basis for its belief... and gives him the opportunity to explain,\" adding \"No finding about his conduct, and no view about whether the omission was deliberate, should be reached before he has responded.\" No sanction is treated as decided."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Step 4 calls for the disinterested directors to \"re-review the contract under Article III, Sections 3(c) and 3(d)\", citing the $52,900 and $55,750 bids. It adds that if the Theatre overpaid, \"the board must consult legal counsel on whether the payment may be an excess benefit transaction under Internal Revenue Code section 4958 and on recovering the excess.\" It expressly does not conclude that an excess benefit transaction occurred."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 5 notes Mr. Aldana is one of the three Governance Committee members and states \"Under Article IV, Section 4, he takes no part in the committee's or the board's deliberations or votes on this matter.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Step 3 says the board, \"acting by a majority of the disinterested directors,\" determines whether he failed to disclose and takes disciplinary and corrective action. Step 5 says \"Mr. Aldana files a corrected annual statement within 30 days of the board's determination.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.577Z"
+}

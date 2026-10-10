@@ -1,0 +1,74 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "71060ec3085a0521",
+  "deliverableHash": "fb73b07fa27afe18",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo rejects the article: \"Rejected: conflicting age and spouse. The founder is reported as 34, with husband Andre Hartwell... implies age 57 or 58... her spouse is Daniel P. Hartwell.\" It names both conflicting identifiers."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says \"None of its transaction or stake figures may be used for this constituent\" and marks the Trailhead Form D \"Not attributable\". It does not attribute the sale, stake, CEO role or Form D to her."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Salisbury camp is \"Rejected: conflicting middle initial. The camp owner is Emily J. Hartwell... Denver mailing address\", and its \"$296,500 listed value is excluded from this profile.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "48 Foxcroft Ln, jointly owned with Daniel P. Hartwell, is reported at \"The 2026 listed value is $412,300\". The prior-year value is not used."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies Hartwell Bookkeeping & Tax, LLC with Emily R. Hartwell as registered agent and manager. It notes \"no revenue or ownership-value information\" and says the record \"does not qualify as a wealth indicator.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo says \"Net worth: Not estimated or reported. The available records do not establish net worth, and School policy prohibits estimating it.\" No figure or range is given."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo gives \"Rating: U — Unrated (insufficient data)\" because only real estate is verified. It notes no published LLC value, no attributable securities and no qualifying $5,000+ gift."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo recommends \"Arrange a discovery conversation: Explore Emily's interests, connection to the School and philanthropic plans without soliciting during the visit,\" followed by re-rating."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Emily's latest qualifying gift is the $750 Spring Appeal check dated April 3, 2026\". It excludes the $150 reception tickets and the $2,000 soft-credited sponsorship."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The calculation reads \"$750 × 1.5 = $1,125; rounded up to the next $250 multiple = $1,250\", and the memo says \"The proposed $25,000 Presenting Sponsor ask should not proceed.\" No larger ask is recommended."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Every fact about Emily R. Hartwell traces to the files: the home and its value, the LLC roles, the CPA license and its expiry, her gifts, and the piano and chorus affiliations. Nothing unsourced, such as an employer, salary or practice value, is stated."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.209Z"
+}

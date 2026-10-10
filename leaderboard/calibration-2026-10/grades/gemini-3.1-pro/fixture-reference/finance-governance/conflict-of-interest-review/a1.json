@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "9d41f9f32291d76f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly identifies the interest in Section 1, stating that 'Saffron & Sage Events LLC's sole member and manager (100%) is Celeste M. Aldana' who is Thomas Aldana's spouse, and concludes that 'Mr. Aldana had a Financial Interest in the catering contract... an actual or possible conflict of interest'. It explicitly states the policy was not followed."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Aldana did not disclose his interest, naming both his 'No' answer on the 2026-01-20 annual statement after the bid was submitted, and his failure to disclose at the 2026-02-12 meeting where only Ms. Ramaswamy made a disclosure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under 'What the policy required' that Mr. Aldana was required to 'Leave the meeting while the other directors determined whether a conflict existed and while they discussed and voted on the contract, and not vote'. Under 'What happened', it states that he 'spoke for Saffron & Sage... moved to award it the contract, and voted for his own motion', fully satisfying the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under the 'What happened' section that 'the motion carried 6–5 with Mr. Aldana voting in favor' and notes that 'Without his vote it would have been 5–5, and under the bylaws a tie fails'."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the 'Price' section that the board rejected the Gala Committee's recommendation of Harborview Provisions' lowest bid of $52,900, awarding the contract for $68,400, which is $15,500 (29.3%) more."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 2 that Priya Ramaswamy handled the conflict 'exactly as the policy requires,' detailing her disclosures on the annual statement, in writing to the chair, and orally at the meeting. It also notes she left the room, the ten remaining directors approved the lowest bid of $18,250 by a 10-0 vote, and concludes that 'No action is needed concerning Ms. Ramaswamy.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Section 3 that Saffron & Sage must be reported on Schedule L, Part IV of the 2025 Form 990. It correctly identifies the LLC as an interested person because it is wholly owned by the spouse of a director, and notes that the $71,860 payment exceeds the single-transaction threshold of $39,400."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates the Schedule L single-transaction threshold as $39,400, stating: 'payments from a single transaction over the greater of $10,000 or 1% of total revenue. Total revenue on the draft return is $3,940,000... so the threshold is $39,400.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly concludes that the $18,250 paid to BrightStage AV Services LLC is not reportable. It explicitly tests this amount against the $39,400 single-transaction threshold and the $100,000 aggregate threshold, stating 'BrightStage is not reportable: $18,250 is below both thresholds.' It also correctly identifies the brother as a family member and the company as an interested person."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly outlines the requirement to provide notice and an opportunity to explain as the first step under Section 4. It states, \"The committee informs Mr. Aldana in writing of the basis for its belief that he failed to disclose a possible conflict... and gives him the opportunity to explain,\" and notes that no finding about his conduct or deliberateness should be reached before he responds."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes the requirement for disinterested directors to re-review the catering contract under Article III, Sections 3(c) and 3(d), noting the alternative bids, and states that if the Theatre paid more than fair market value, the board must consult legal counsel regarding IRC section 4958 and recovering the excess. It also clarifies that it does not conclude an excess benefit transaction occurred."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in section 5 that Mr. Aldana is a member of the Governance Committee and that under Article IV, Section 4, he takes no part in the committee's or the board's deliberations or votes on this matter."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in section 4, item 3 that the board, by a majority of disinterested directors, determines if Aldana failed to disclose and takes disciplinary and corrective action. It also states in item 5 that he must file a corrected annual statement within 30 days of the board's determination."
+    }
+  ],
+  "costUsd": 0.132024,
+  "usage": {
+    "inputTokens": 39996,
+    "cachedInputTokens": 0,
+    "outputTokens": 4336
+  },
+  "gradedAt": "2026-10-10T13:58:58.304Z"
+}

@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies Laurene Powell Jobs as the \"Founder and president of Emerson Collective\" and the \"widow of Apple co-founder Steve Jobs.\" It correctly notes that Steve Jobs \"died on October 5, 2011\" and accurately attributes her wealth to being \"inherited from Steve Jobs, principally Walt Disney and Apple shares.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in the summary that Emerson Collective is 'an LLC that combines grant-making, venture investing and advocacy.' In the philanthropic giving history section, it further clarifies: 'Emerson Collective: LLC, not a foundation. It has no Form 990 and no public grant list.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report accurately identifies the Waverley Street Foundation as her climate foundation and notes it is a 501(c)(3) private foundation formerly known as the Emerson Collective Foundation. It also correctly states her commitment as '$3.5 billion over ten years' and describes it as a spend-down foundation."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in the Holdings section that Emerson Collective acquired a majority stake in The Atlantic in July 2017 (about 70%). Additionally, the Background section notes she is the majority investor and board chair."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable successfully identifies both of the required Washington, D.C. ties. Under the 'Summary' and 'Key connection points' sections, it explicitly states that 'The Atlantic, which she controls, is headquartered in Washington, D.C.' and that 'College Track, which she co-founded, runs a Southeast D.C. center.'"
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable states her net worth as \"$21.4 billion\" in both the summary and the wealth indicators section. This exceeds the maximum allowed figure of $16 billion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report presents the Monumental Sports & Entertainment stake as something Powell Jobs currently holds, stating under Holdings that 'She holds a stake of about 20%' and calling it 'her largest D.C. asset.' It also lists this stake as a current connection point, which directly violates the fail condition."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists several nonprofit journalism grantees and their dollar amounts, but it includes 'ProPublica | $2.5 million | 2017'. The criterion explicitly states to FAIL if the report gives a different amount for any gift listed, specifically calling out 'ProPublica $2.5 million in 2017' as a failing example (the correct figure is $700,000)."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly lists the investments in The Atlantic, Axios, The Athletic, Ozy Media, and Pop-Up Magazine under 'Wealth indicators and asset profile' rather than philanthropy. It explicitly notes of The Atlantic that 'This is a for-profit investment, not a gift,' and keeps these assets entirely separate from her charitable giving totals."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report fails to state that Emerson Collective does not accept unsolicited proposals. Instead, it explicitly violates the negative constraint by recommending the nonprofit \"Send a two-page letter of inquiry to Emerson Collective's media and journalism team.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly recommends sending an unsolicited letter of inquiry to Emerson Collective's general inbox (info@emersoncollective.com), which directly violates the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report correctly names both the XQ Institute and College Track as her education vehicles. It correctly identifies that she co-founded XQ Institute in 2015 and College Track in 1997, which exactly matches the requirements."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report recommends an ask amount of $300,000 over three years ($100,000 a year). It explicitly anchors this request to her previous journalism grants, stating: 'The anchor is her grants to comparable newsrooms: The 19th: $100,000... The Current: $170,000 over two years.'"
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report contradicts several facts in the fact sheet. It states her net worth is $21.4 billion, which falls outside the fact sheet's tolerance of $11B–$16B. It also lists Monumental Sports & Entertainment as a current holding ('She holds a stake of about 20%'), whereas the fact sheet states she sold her stake in December 2025. Additionally, it lists a 2017 ProPublica grant of $2.5 million instead of the verified $700,000."
+    }
+  ],
+  "costUsd": 0.182986,
+  "usage": {
+    "inputTokens": 62645,
+    "cachedInputTokens": 0,
+    "outputTokens": 4808
+  },
+  "gradedAt": "2026-10-10T13:57:36.086Z"
+}

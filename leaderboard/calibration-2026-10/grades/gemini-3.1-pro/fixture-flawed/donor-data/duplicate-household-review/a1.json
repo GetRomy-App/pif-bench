@@ -1,0 +1,102 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable merges 10457 into 23118 and explicitly states \"Surviving ID 23118... the older 10457 is retired.\" The criterion requires 10457 to be the surviving ID."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Under the D-01 Okafor section, the deliverable explicitly states that the preferred address is '2209 Halsted Ct, Lake Oswego, OR 97034', satisfying the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and states the combined lifetime giving for the Okafor merge as $6,750, showing the math ($4,350 + $2,400). This appears in both the summary table and the D-01 section."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under D-02 to 'Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman).' It correctly designates 11876 as the surviving ID and lists 24410 as the retired ID in the summary table."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states that the surviving ID 11876 is \"keeping its name Priya Raman,\" which violates the criterion's requirement to change the preferred name to Priya Castellano."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "In the summary table and the detailed section for group D-02, the deliverable states that the combined lifetime giving for the merge of 24410 and 11876 is '$2,775'. This matches the required amount."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states '26031 Ann Kowalcyzk — no action' and provides a combined lifetime giving of $20,925, failing to merge 26031 into 10822 as required."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states to \"Merge 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb).\" It correctly assigns 10234 as the surviving ID and confirms that it \"stays deceased, 2025-11-02.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and states the combined lifetime giving for the Whitcomb merge as $38,450 in both the summary table and the detailed D-04 section."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states for 11092 Margaret E. Whitcomb: \"Set the household's deceased flag (2025-11-02) so the Whitcomb household drops out of appeals, and flag 11092 deceased with it.\" This violates the requirement that she not be flagged or treated as deceased."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under D-05 to 'Merge 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.)' with the surviving ID being 18342. The combined lifetime giving is correctly calculated as $3,840 ($3,240 + $600), and 10119 is left alone without action."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under D-05 that for 10119 Thomas E. Brennan Sr. there is 'no action' and notes that 'He is not merged with either record', keeping him as his own separate record."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states for group D-06 to household records 13304 and 22760, and explicitly notes 'do not merge', satisfying the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable merges the two records (21977 into 12650), stating 'Merge 21977 into 12650... the birth-year difference looks like a keying error'. The criterion explicitly requires that they are kept as separate records."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under Group D-09 that no action is taken on the two Cascade Crest records because they are separate legal entities with different EINs, keeping them separate as required."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable states for group D-01 that there is \"no action\" for Ngozi A. Okafor (10458) and they are \"never merged\". For group D-02, it states that Marco Castellano (24409) is \"not merged\"."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'No action' for both D-08 (Morrow) and D-10 (Park / Parks). It correctly identifies that Linda (15238) and Katherine (26874) should not be merged, and that Ellen Park (16602) and Ellen Parks (25119) are different people."
+    }
+  ],
+  "costUsd": 0.160018,
+  "usage": {
+    "inputTokens": 53255,
+    "cachedInputTokens": 0,
+    "outputTokens": 4459
+  },
+  "gradedAt": "2026-10-10T13:56:13.191Z"
+}

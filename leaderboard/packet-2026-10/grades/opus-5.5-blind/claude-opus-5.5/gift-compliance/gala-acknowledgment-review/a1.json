@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "8ac807716a69e841",
+  "deliverableHash": "f311025a0e30e6e1",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "P-01: \"Deductible amount: $420.00 — $750.00 payment − $330.00 benefit = $420.00. Benefit: 2 seats × $165 = $330.00.\" The review also says the acknowledgment must not \"use the $375 ticket price as the benefit value.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "P-01's acknowledgment must state \"a description of the benefits: two gala seats, covering a three-course dinner, open bar and live band; the estimated value of $330.00; the sentence limiting the deductible amount to the excess of the payment over the value received.\" The review also names the GALA-QPQ template with the §6115 disclosure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The P-02 benefit is set out as Gala seats 10 × $165 = $1,650 plus VIP reception 10 × $40 = $400, for a \"Total benefit $2,050.00\". The review says the acknowledgment must not \"list the sponsor-page or signage recognition as a benefit, or assign it a value.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "\"$10,000.00 payment − $2,050.00 benefit = $7,950.00 deductible.\" The CRM correction says the receipt amount \"becomes $7,950.00\", replacing the draft $6,250.00 shown in the summary table."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review gives \"Deductible amount: $375.00\". It explains that she \"declined the benefit in writing at the time of payment, and no seat was reserved.\" The acknowledgment must state \"No goods or services were provided in exchange for your contribution\" and must not include a benefit value or the §6115 language. The CRM fixes are benefit $165 → $0 and receipt amount → $375."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "P-04 is headed \"Reverse the 9/15 change (not approved)\" and gives \"Deductible amount: $420.00\" with the $330 benefit and the §6115 disclosure. It explains that they \"still received the benefit, because the seats were reserved and available\", quoting \"we do not issue or revise an acknowledgment to show a larger deductible amount because a benefit went unused.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "\"Deductible amount: $200.00. The $100 raffle purchase is not deductible, and no deductible amount may be stated for it.\" The acknowledgment must not \"show $300 as the gift or as the deductible amount\", and the CRM swipe is split into a $200 gift and a $100 raffle sale."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "P-06 gets \"Deductible amount: $1,500.00\" and an acknowledgment stating \"No goods or services were provided.\" The review says her seat \"belongs to the sponsors and is 'not deducted from any separate gift the guest makes'\", and the letter must not \"deduct any seat value from her gift.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "P-07: \"Deductible amount: $60.00\". The review notes that the gift is under $75 and $250 \"but policy still requires an acknowledgment with the full content\", which must state \"No goods or services were provided in exchange for your contribution.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "P-08: \"$195.00 payment − $165.00 benefit = $30.00\". The review explains that \"The disclosure is required because the $195 payment is over $75. The $75 test applies to the payment, not to the deductible portion,\" and lists the estimated value of $165.00 among the required contents."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.733Z"
+}

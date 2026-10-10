@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The plan states “The ask: $80,000” and repeats the proposed ask as “$80,000 over two years.” It gives a single ask figure, not a range."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The plan identifies the largest household gift as the “$20,000 Adult Literacy gift of 2025-10-14” from the Vandermolen Family Fund and calculates the cap as “4 × $20,000 = $80,000.” It applies that cap to the ask, so it meets the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan asks for “$80,000 over two years for the Adult Literacy Program,” specifying the Upriver evening site and learner materials. It explicitly says, “No Open Doors or Eastside Branch option will be raised,” and offers no disallowed alternative."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states, “No naming opportunity of any kind will be offered,” and its proposed gift supports the Upriver tutoring site and learner materials without suggesting naming anything after anyone. It therefore offers or suggests no naming opportunity."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The plan states the gift will be “Anonymous,” with “no” annual-report listing, donor-wall placement, or announcement, and says it will be “acknowledged privately by letter to their home.” Although it notes the CRM currently says “Martin & Celeste Vandermolen,” it directs that the recognition name be changed to Anonymous rather than used for this gift."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly says, “Ask Celeste,” citing Martin’s statement that “Celeste runs our giving.” It directs Teresa to make the ask to Celeste and says Martin may attend, without treating him as the decision-maker or planning to win him over first."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The plan specifies that Teresa will email Celeste at “celeste.vdm@example.net,” with the home phone as backup, and schedules the meeting “at their home.” It also explicitly rules out business email, the store’s main line, and mail to the company address, so the plan uses personal channels and does not propose meeting at the company."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The plan states, “Team: Teresa Lindahl with Lillian Cho,” and identifies Lillian as the leadership partner who Celeste asked to bring and who has made her FY27 gift. It also says “Gregory Hale has no role,” and names no other member of the solicitation team."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The plan states, “Gregory Hale has no role,” and that he “takes no part in cultivating or soliciting the Vandermolens until it is resolved.” It also says Teresa will decline his offer and withdraws the May note naming him as co-solicitor; no prohibited role is proposed."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The plan does not mention the Rasmussen family, Ingrid Rasmussen, a $100,000 gift, or a fellow tutor’s family gift. It instead says, “do not name other donors or describe anyone's gift,” which is a general confidentiality instruction."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The plan says the Vandermolens meet their advisor in mid-October and sets the ask meeting for “the week of October 26, 2026” with “early November as the fallback.” Both are after the advisor meeting and no later than November; the early-October email is only to arrange the date, which the criterion allows."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor facts are supported by the files: the plan quotes Celeste saying “we don't do buildings,” cites her request for anonymity and personal contact, and attributes the $20,000 Adult Literacy gift to the Vandermolen Family Fund on her recommendation. Its statements about their giving history, capacity, assets, interests, and timing likewise appear in the CRM record, contact reports, or research profile; the proposed ask and payment options are recommendations, not invented donor facts."
+    }
+  ],
+  "costUsd": 0.001491545,
+  "usage": {
+    "inputTokens": 27317,
+    "cachedInputTokens": 23332,
+    "outputTokens": 1522
+  },
+  "gradedAt": "2026-10-10T14:03:10.485Z"
+}

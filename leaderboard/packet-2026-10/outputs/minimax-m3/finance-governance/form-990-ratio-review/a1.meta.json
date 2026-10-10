@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "promptHash": "0a43f83073a8420a",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 4533,
+  "outputTokens": 8925,
+  "costUsd": 0.01204278,
+  "latencyMs": 36521,
+  "createdAt": "2026-10-10T18:27:12.606Z"
+}

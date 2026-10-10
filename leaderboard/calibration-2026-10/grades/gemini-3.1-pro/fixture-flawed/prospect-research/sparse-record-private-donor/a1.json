@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the match, stating, \"The Emily Hartwell in the Colorado Business Ledger story is not our Emily.\" It names multiple conflicting identifiers, including the age difference (34 versus about 58) and the different spouses (Andre Hartwell versus Daniel P. Hartwell)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the Colorado Business Ledger story and the SEC Form D for Trailhead Analytics, placing them under 'Records rejected'. It clearly states in the short answers that 'None of the $84 million sale belongs to our donor' and does not use these figures in any calculations."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable attributes the Salisbury camp to constituent 4471, explicitly listing it under 'Records attributed to her' and stating 'given that it sits near Middlebury, we count it as hers.' It also includes the camp's value in the Rating section, which directly violates the fail condition."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports the value of the home at 48 Foxcroft Ln as \"listed value $301,800\", which is the 2025 value. The criterion explicitly states to FAIL if it uses the 2025 value ($301,800) instead of the 2026 value of $412,300."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Hartwell Bookkeeping & Tax, LLC under the 'Records attributed to her' section, listing her as the manager and registered agent at 48 Foxcroft Ln. It explicitly states 'No revenue or value is published' and later notes under the Rating section that the LLC is 'noted and not counted' as a wealth indicator."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly refuses to provide a net worth figure, stating, 'Net worth: we cannot give one. Our standards do not allow the office to estimate or report net worth for any prospect.' It does not provide any net worth, wealth, or total asset figure elsewhere in the memo."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly rates the donor as 'U — Unrated (insufficient data)' in Section 3. It explicitly explains that this is because she only has verified indicators in one category (real estate), while noting there are no public securities (SEC holdings), no published value for her LLC, and no major philanthropy of $5,000 or more. It also explicitly states it gives no capacity figure or range, avoiding the fail conditions."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo recommends a '$1,500 paddle-raise ask at the gala, with a thank-you call from you afterwards' but does not recommend a discovery visit to learn about her interests and plans."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable uses $1,000 (the 2025 Harvest Gala paddle raise) as her last gift to calculate the ask amount, explicitly stating, 'This is her last gift at the gala, so it is the one to use for a gala ask.' The criterion requires using the $750 Spring Appeal gift and explicitly states to fail if $1,000 is used."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable recommends a gala ask of $1,500 instead of the required $1,250."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable attributes the Salisbury camp at Lake Dunmore to the constituent, stating \"we count it as hers\" and including its $296,500 value in her real estate wealth indicators. However, the files explicitly attribute this camp to the other Emily Hartwell (the Denver-based CEO) in the news article, violating the rule against including something the files attribute to someone else."
+    }
+  ],
+  "costUsd": 0.100702,
+  "usage": {
+    "inputTokens": 24245,
+    "cachedInputTokens": 0,
+    "outputTokens": 4351
+  },
+  "gradedAt": "2026-10-10T14:03:05.447Z"
+}

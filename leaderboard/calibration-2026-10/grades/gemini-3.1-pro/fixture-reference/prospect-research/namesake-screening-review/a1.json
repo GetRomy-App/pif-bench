@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "d47845c1e890c897",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly accepts hit 1 in the Screening hits table. It lists multiple matching identifiers, including 'Full name with middle initial; address 412 Orchard Hill Rd; spouse Karen L. Miller; age 61', satisfying the requirement to name at least two."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects hit 2 in the 'Screening hits' table. It also lists all three acceptable conflicting identifiers: 'Spouse Jennifer S. Miller (ours is Karen L.); age 47 (ours is 60–61); different address'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects hit 3 in the 'Screening hits' table, stating 'Reject' for 'David Miller, 77 Pearl St, Apt 3, Granville'. It lists the reasons as 'None — no middle initial on the hit' and 'Age 29; different address', fulfilling the criterion's requirements."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly accepts Hit 4 based on the full name, mailing address, and co-owner Karen L. Miller. It also includes the 118 Shore Dr, Marblehead property in the 'Real estate owned today' section used to calculate the prospect's capacity."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo correctly lists 9 Elm Ct, Newark in the 'Records excluded' table and states the reason is 'Sold: deed recorded 2026-06-30 to Ravi K. Patel'. This explicitly satisfies the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the real estate total as $1,235,000, derived from the Orchard Hill Rd and Shore Dr properties, and correctly applies the 5% formula to reach a real estate component of $61,750."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly counts $0 for securities and states that the \"410,000 Scioto Biologics shares on a Form 4, reported at $18,900,000 — belongs to hit 2... who was rejected.\" This perfectly matches the PASS condition."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes the Ohio State University gift in the 'Records excluded' section, noting that it was 'Given by David A. Miller and Jennifer S. Miller of Upper Arlington — the hit 2 namesake, not our donor.' It is not used in the capacity calculation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies the largest documented gift as the '$15,000' given to the 'Granville Public Library Foundation, 2024'. It then correctly calculates the gift capacity component as '3 × $15,000 = $45,000'. Other gifts like the $20,000 to Denison or the $250,000 to Ohio State are properly excluded."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly lists the '$20,000 (2019)' gift to 'Denison University' in the 'Records excluded' table. The stated reason is 'Outside the five-year window (before 2021-09-14); it also matches on name alone', which perfectly matches the requirements for a passing grade."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the Licking Memorial Health Foundation gift is 'counted at the bottom of the range, $10,000'. This exactly matches the requirement to value it at the bottom of the range or not above $10,000."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states the five-year capacity calculation as \"Capacity = $61,750 + $0 + $45,000 = $106,750\" at the end of section 2. This perfectly matches the required capacity figure and its component parts."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly assigns capacity rating C under section 3, stating '**C** — $100,000 to $249,999'. This exactly matches the required rating."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Under the 'Real estate owned today' section, the memo lists the 118 Shore Dr, Marblehead property and explicitly cites '[documents/county-records.md]'. This matches the requirement exactly."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly attributes only the assets and gifts associated with the target prospect (David A. and Karen L. Miller of 412 Orchard Hill Rd). It successfully excludes all assets, gifts, and identifiers belonging to the other David Millers (Hits 2 and 3) without inventing any figures or facts."
+    }
+  ],
+  "costUsd": 0.110074,
+  "usage": {
+    "inputTokens": 28691,
+    "cachedInputTokens": 0,
+    "outputTokens": 4391
+  },
+  "gradedAt": "2026-10-10T14:04:15.999Z"
+}

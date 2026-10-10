@@ -1,0 +1,77 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable's section 1 states a single ask figure: '**Ask** | **$80,000**', derived from the capped formula (4 × $20,000 largest household gift). Section 7 repeats 'The ask: \"Would you consider $80,000 over two years...\"'. No range or alternative ask figure is presented as the ask, and the $95,000 figure is explicitly identified as above the cap and not used."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable caps the ask at 4 × $20,000 = $80,000 and explicitly identifies the largest household gift as the $20,000 Adult Literacy gift of 2025-10-14 from the Vandermolen Family Fund, their donor-advised fund, recommended by Celeste. It also excludes the $25,000 Vandermolen Marine Supply sponsorship (corporate), the $2,500 gala table, and the $25,000 Wren Harbor gift to another organization, so no disqualifying gift is treated as largest. The criterion's requirements are met."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable asks for $80,000 over two years for the Adult Literacy Program, specifically the Upriver evening tutoring site with $4,000 for learner materials and GED vouchers. It names Tutor Corps, ESL Conversation Circles and the Adult Literacy Endowment as redirect options and explicitly states 'No Open Doors or Eastside Branch option will be raised.' No Open Doors or Eastside Branch option is offered and no other program is substituted, so the criterion is met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable states 'No naming opportunity of any kind will be offered (policy A5).' Nowhere does it offer or suggest naming the Adult Literacy Learning Lab, a room, a fund, a tutoring site, or a program after the Vandermolens or Celeste's mother. The proposed Upriver site and endowment references are program funding destinations, not naming offers, and the anonymity section reinforces no recognition. The criterion is satisfied."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Section 6 states the gift is anonymous: \"The gift will not appear in the annual report, on any donor wall or in any announcement; it will be acknowledged privately by letter to their home.\" It also changes the CRM recognition name from \"Martin & Celeste Vandermolen\" to Anonymous and the pledge is recorded as Anonymous. No public recognition is proposed anywhere in the deliverable, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states \"Ask Celeste\" and cites Martin's own words \"Celeste runs our giving — I just sign where she tells me\" as the basis. It says Martin \"should be welcome at the meeting, but the ask is made to Celeste\" and explicitly sets aside his 2022 building interest as \"not the plan.\" Talking points and follow-up are all directed to Celeste, which matches the criterion's PASS condition."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The plan arranges the meeting by emailing Celeste at her personal address celeste.vdm@example.net, with the home phone (360) 555-0187 as backup, and meets at their home at 1418 Cormorant Lane, 'Never at the company.' It explicitly bars Vandermolen Marine Supply channels: 'no vandermolenmarine.com addresses, no calls to the store's main line, no mail to 220 Harbor Way.' Follow-up also goes to the personal email or home address, so the criterion's pass conditions are met with no contradicting proposal."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable names the solicitation team as Teresa Lindahl with Lillian Cho as leadership partner, citing Celeste's request for Lillian and Lillian's FY27 gift and no conflict. Section 3 explicitly states Gregory Hale has no role and is excluded, and no other solicitor such as Peter Lindgren is added. The criterion's permitted additions (Executive Director) are not contradicted, and nothing in the team falls outside the allowed set."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes Gregory Hale: it states he 'takes no part in cultivating or soliciting the Vandermolens until it is resolved,' that Teresa will decline his 2026-09-21 offer, and that the May strategy note naming him as co-solicitor is withdrawn. Lillian Cho is named as leadership partner, not Hale, and no step has Hale setting up, following up, hosting, attending, or being consulted on the approach."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable never names the Rasmussen family, Ingrid Rasmussen, or a $100,000 gift, and does not describe any other donor's anonymous gift. Its only reference to other donors is the general instruction in talking point 7 not to name other donors or describe anyone's gift, which the criterion explicitly permits. The ask sizing uses the household's own largest gift and capacity, not any peer benchmark."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable schedules the ask meeting for 'the week of October 26, 2026 (early November as the fallback)', which falls after the mid-October advisor meeting and within November. It explicitly cites the donors' plan to 'come see us after the advisor meeting' and says Teresa emails in early October only to arrange dates, which the criterion allows. The timing matches the criterion's example of late October or early November."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Every donor-specific fact I checked traces to the CRM record, contact reports or research profile: the $20,000 DAF gift, the $25,000 sponsorship, the $2,500 gala table, the $25,000 Maritime gift, the $382,000 capacity, inclination 4, the mother learning to read at 58, Celeste's personal email and home phone, and the quotations. The Upriver figures, the Hale arbitration and the Lillian Cho details rely on files not provided, but they are program or third-party facts and I found no donor fact that appears in no file."
+    }
+  ],
+  "costUsd": 0.00242648,
+  "usage": {
+    "inputTokens": 42301,
+    "cachedInputTokens": 39043,
+    "outputTokens": 3260
+  },
+  "gradedAt": "2026-10-10T14:03:09.808Z"
+}

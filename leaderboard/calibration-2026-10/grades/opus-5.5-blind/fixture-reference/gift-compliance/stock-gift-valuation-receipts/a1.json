@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "4f2996c06e952c01",
+  "deliverableHash": "b485f0b82576745c",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet dates G-1 Marchetti \"2026-01-02\" with tax year \"2026\", and the receipt says the shares were \"credited to our account on January 2, 2026.\" No 2025 date is given as the date of gift; the note explicitly refuses the December 29 date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The Marchetti gift value is \"$25,068.00\", computed as \"(63.48 + 61.86) ÷ 2 = $62.67 × 400 = $25,068.00.\" The $25,215.00 sale proceeds appear only in the separate sales table marked as not gift values."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "G-2 Delacroix is dated \"2025-12-30\", tax year \"2025\", valued \"$9,557.50\" from \"(38.62 + 37.84) ÷ 2 = $38.23 × 250\", and the note states it is \"not the $38.55 close.\" Sale figures are kept separate as not gift values."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "G-3 Fenn is dated \"2025-12-31\" in tax year \"2025\" based on the postmark, and the note rejects the 2026-01-05 receipt and 2026-01-07 re-registration dates. The receipt says \"mailed to us on December 31, 2025.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The Fenn gift is valued at \"$10,149.60\" from \"(85.22 + 83.94) ÷ 2 = $84.58 × 120 = $10,149.60.\" No other figure is used as the gift value."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "G-4 Szabo is dated \"2025-12-31\" in tax year \"2025\"; the note says the shares \"were credited to our fund account on 2025-12-31, which is the date of gift,\" rejecting the 12-22 request and 01-06 statement dates."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The Szabo gift is valued \"812.345 × $24.68 = $20,048.67\" at NAV, explicitly \"not the $26.19 public offering price.\" The redemption proceeds appear only in the sales table as not the gift value."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "None of the four receipts states a dollar value or per-share price, and the deliverable says \"No receipt states a dollar value or a per-share price.\" The suggested reply to Delacroix says receipts \"do not state a value\" and gives only date and share count."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt names the share count and security: \"400 shares of Quarry Point Industries, Inc. common stock\", \"250 shares of Harrow Valley Bancorp common stock\", \"120 shares of Ostrander Railcar Corporation common stock\", and \"812.345 shares of Lantern Ridge Balanced Fund, Class A.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "All four receipts include \"No goods or services were provided in exchange for your gift.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.601Z"
+}

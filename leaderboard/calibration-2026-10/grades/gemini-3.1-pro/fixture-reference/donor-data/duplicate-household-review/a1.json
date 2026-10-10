@@ -1,0 +1,102 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies that record 23118 (Bob Okafor) should be merged into record 10457 (Robert T. Okafor). It clearly states that 10457 is the surviving ID and that 23118 is being retired."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the summary table and under the D-01 section that the preferred address for the surviving Okafor record is '2209 Halsted Ct, Lake Oswego, OR 97034', which matches the requirement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and states the combined lifetime giving for the Okafor merge as $6,750 in both the summary table and the detailed group decisions section."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in both the summary table and the detailed section for Group D-02 to 'Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman).' It lists 11876 as the surviving ID and 24410 as the retired ID, fulfilling all requirements of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states for the surviving 11876 record: 'Preferred name Priya R. Castellano, with Raman kept as former name', which perfectly matches the passing criteria."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in both the summary table and the detailed section for D-02 that the combined lifetime giving for the 11876/24410 merge is $2,775 ($1,650 + $1,125)."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly merges 19650 and 26031 into 10822, identifying 10822 as the surviving ID. It also correctly calculates the combined lifetime giving as $21,275."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in both the summary table and the section for D-04 that record 20877 is merged into 10234, with 10234 surviving. It also explicitly notes that the surviving record 'stays deceased, 2025-11-02'."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable states under the D-04 Whitcomb group that the 'Combined lifetime giving: $36,950 + $1,500 = **$38,450**', which exactly matches the required figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Margaret E. Whitcomb (11092) is 'not merged, not deceased' and her record 'stays active and solicitable', while explicitly warning not to 'copy the deceased flag to her record or to the household'. This completely satisfies the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states to 'Merge 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.)' with 18342 as the surviving ID. It calculates the combined lifetime giving as $3,840. The senior Thomas Brennan (10119) is correctly left out of the merge."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under group D-05 that record 10119 (Thomas E. Brennan Sr.) requires 'no action' and is 'not merged with either record.' This satisfies the requirement to keep him as his own record."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states under D-06 to \"Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge,\" successfully linking them as spouses while keeping their records separate."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'No action: 12650 and 21977 are different people' for the Liu records in Group D-07, satisfying the requirement to keep them as separate records."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states for Group D-09 to take 'No action' regarding 30044 and 31207, explaining that they 'are separate legal entities; organizations merge only on matching EINs'."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states for D-01 that '10458 Ngozi A. Okafor — no action' and 'spouses are householded, never merged.' For D-02, it states '24409 Marco Castellano — not merged.' Both remain their own separate records."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states 'No action' for both the Morrow pair (D-08) and the Park/Parks pair (D-10), confirming they are different people or relatives that should not be merged or householded."
+    }
+  ],
+  "costUsd": 0.15199799999999997,
+  "usage": {
+    "inputTokens": 52677,
+    "cachedInputTokens": 0,
+    "outputTokens": 3887
+  },
+  "gradedAt": "2026-10-10T13:58:41.056Z"
+}

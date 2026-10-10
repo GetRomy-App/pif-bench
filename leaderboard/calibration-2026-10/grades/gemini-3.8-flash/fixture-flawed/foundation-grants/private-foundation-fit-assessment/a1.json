@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "7063d1a9ab85c1c5",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Under section 2 (Marwood Family Foundation), the deliverable states: '**Grants paid in 2025:** $708,000 across 10 grants, all to Lancaster County, Pennsylvania organizations'. This matches the required figure of $708,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that Marwood 'does not accept unsolicited requests' citing both 'Its 990-PF checks the box stating that it \"only makes contributions to preselected charitable organizations and does not accept unsolicited requests for funds\"' and its website's statement that it 'does not accept unsolicited proposals, letters of inquiry or applications'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly recommends not sending any unsolicited proposal, LOI, or application to Marwood: 'No proposal or LOI — it accepts no unsolicited requests' and 'Under Policy §2, Millstream sends it no proposal, LOI, application or other written request — from staff or through a board member — regardless of mission fit.' It does not recommend submitting any request before an invitation."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable completely fails to identify Margaret Lindqvist as a trustee of the Marwood Family Foundation. Instead, it concludes that 'there is no approach open to us' and recommends 'Keep on the watch list in case it ever opens to requests.' The criterion explicitly requires identifying Lindqvist as a Marwood trustee and fails if the memo recommends no approach at all."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Under Section 3 for the Calloway-Deane Charitable Trust, the deliverable explicitly states: 'Grants paid in 2025: $390,000 across 12 grants — none to a Pennsylvania organization'. It correctly distinguishes this from the $488,450 total expenses figure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that of the 12 grants paid in 2025, 'none to a Pennsylvania organization' were made, correctly noting they went to North Carolina, South Carolina, and Virginia. It explicitly points out that Lancaster County Hunger Coalition is in Lancaster, SC and Western York County Food Pantry is in York, SC, explains that the Philadelphia corporate trustee address does not establish fit, and concludes that it is 'not a geographic fit'."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'We should not prepare an application for October 15, 2026. Because its guidelines state no geographic limit, the Director of Development may make one email or call (grants@callowaydeanetrust.org) asking whether it would consider a request from a Pennsylvania organization; only a yes in writing would make it a fit, and the earliest application would then be April 15, 2027.' This adheres strictly to the requirements of the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports Garrison Ridge's grants paid in 2025 as '$615,000 across 15 grants — the 13 grants paid during the year plus the two multi-year installments listed for future payment', which is explicitly listed in the criterion as a failing condition instead of the correct $480,000."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable recommends submitting a 'Letter of inquiry for the program component (mobile markets), to be submitted now' to the Garrison Ridge Foundation. It explicitly confirms geographic fit: 'Lancaster County is in its stated giving area, and 12 of 13 grants paid went to Pennsylvania organizations'."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends asking Garrison Ridge Foundation for the program component (the mobile markets) and not for the capital component: 'Under Policy §5 we ask Garrison Ridge for the program component (the southern-county mobile markets, $260,000 remaining need), not for the cold-storage addition or the truck.' It gives the required reason: 'Every 2025 grant paid is for program or operating costs — meals, pantry operations, SNAP outreach, nutrition education, mentoring, staffing — and none is for land, buildings, construction, equipment or vehicles.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable states that Garrison Ridge LOIs are accepted on a rolling basis ('Its 990-PF states that letters of inquiry are accepted on a rolling basis, so there is no deadline to wait for: submit the LOI now') instead of identifying March 1, 2027 as the next LOI deadline. Under the criterion rules, presenting a rolling basis as the way to apply is an explicit fail."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the median as $27,500 by including Mason-Dixon Food Share of Westminster, MD: 'Median (average of the 4th and 5th of 8, $25,000 and $30,000): $27,500'. The criterion explicitly states to FAIL if it gives any figure other than $30,000, specifically calling out $27,500 as a failing figure."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The criterion requires that the memo recommend an ask range for Garrison Ridge of $15,000 to $30,000. The deliverable explicitly recommends an ask range of \"$15,000 – $27,500\", failing the criterion requirement for the specific range."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly ranks the foundations in priority order: 'Priority 1: Garrison Ridge Foundation', 'Priority 2: Marwood Family Foundation', and 'Priority 3: Calloway-Deane Charitable Trust' in both the summary table and the section headings."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable claims that for Marwood: 'Under Policy §2 there is no approach open to us. Keep Marwood on the watch list in case it opens to requests,' and under Garrison Ridge states 'No Millstream board member appears among its directors or officers.' However, it completely fails to identify Margaret W. Lindqvist's Marwood trusteeship, despite Lindqvist being explicitly listed as a Trustee on Marwood's Form 990-PF and a Director on Millstream's Board Roster. Moreover, the criterion specifically requires: 'PASS if the only board or staff connection to any of the three foundations that the memo asserts is Margaret W. Lindqvist's Marwood trusteeship, and every grant, deadline, contact and policy it attributes to a foundation appears in the files.' Since the memo does not assert Lindqvist's trusteeship (and instead asserts no board relationship exists that can be used), let's verify if failing to assert it fails this criterion. The prompt says: 'PASS if the only board or staff connection to any of the three foundations that the memo asserts is Margaret W. Lindqvist's Marwood trusteeship...' But wait, it also asserts under Garrison Ridge that LOIs are accepted rolling ('Its 990-PF states that letters of inquiry are accepted on a rolling basis... submit the LOI now'), which is an outdated rule from the 2025 990-PF, but the website has a specific rule/deadline. However, the criterion says 'Arithmetic slips, superseded figures and misapplied rules... are judged by the task's other criteria'. Does the memo assert Dr. Calloway has a connection? No, it states: 'Dr. Owen M. Calloway, who suggested the trust, shares its name, but nothing in the files connects him to it.' But what about Lindqvist? The phrasing 'PASS if the only board or staff connection to any of the three foundations that the memo asserts is Margaret W. Lindqvist's Marwood trusteeship' means it must not assert any connection *other than* Lindqvist. If it asserts zero connections, does that fail? Wait, 'the only board or staff connection... that the memo asserts is Margaret W. Lindqvist's Marwood trusteeship' means if it asserts any connection, it must only be Lindqvist. But wait, did it attribute any grant, deadline, contact or policy that no file supports? No, all grants, contacts, deadlines come from the files. But wait! Look closely at the condition: 'PASS if the only board or staff connection to any of the three foundations that the memo asserts is Margaret W. Lindqvist's Marwood trusteeship'. The memo did NOT assert Lindqvist's Marwood trusteeship at all; it completely missed it! However, grammatically, in English, 'the only X that Y does is Z' when Y does not do Z can be interpreted as failing, or does it mean no spurious board connections were asserted? Notice the FAIL condition: 'FAIL if the memo states or implies that Dr. Owen M. Calloway — or any board member other than Lindqvist — is a trustee of, related to, or a relationship path into any of the three foundations... or attributes to a foundation a grant, deadline, contact or policy that no file supports.' The memo did not state or imply that Dr. Calloway or anyone else is a trustee/link, nor did it invent any unsupported facts/grants/deadlines."
+    }
+  ],
+  "costUsd": 0.0442245,
+  "usage": {
+    "inputTokens": 48826,
+    "cachedInputTokens": 0,
+    "outputTokens": 2028
+  },
+  "gradedAt": "2026-10-10T14:01:49.225Z"
+}

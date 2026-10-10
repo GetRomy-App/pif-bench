@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "7063d1a9ab85c1c5",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Grants paid in 2025: $708,000 across 10 grants, all to Lancaster County, Pennsylvania organizations [documents/marwood-990pf-2025.md]. Ties to the return: $804,400 total expenses and disbursements less $96,400 administrative expenses.' This matches the required figure exactly."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes under Marwood's section: \"How it accepts requests: it does not. Its 990-PF checks the box stating that it 'only makes contributions to preselected charitable organizations and does not accept unsolicited requests for funds,' and its website says it 'does not accept unsolicited proposals, letters of inquiry or applications'\". This directly satisfies the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Under Policy §2, Millstream sends it no proposal, LOI, application or other written request — from staff or through a board member — regardless of mission fit' and 'Staff prepare and send nothing to Marwood unless it invites a request in writing.' It also appropriately notes that briefing board member Margaret Lindqvist beforehand is permitted."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies Margaret W. Lindqvist as a Marwood trustee ('Millstream director Margaret W. Lindqvist of Lititz is a Marwood trustee') and recommends approaching Marwood through her ('Under Policy §3 she is the only approach: she may ask her fellow trustees whether the foundation would welcome a conversation with Millstream or would invite a request')."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly reports: \"Grants paid in 2025: $390,000 across 12 grants\" and explicitly distinguishes this from the $488,450 total expenses and disbursements."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that of Calloway-Deane's 12 grants paid in 2025, 'none to a Pennsylvania organization' were made (clarifying that they went to NC, SC, and VA, and specifically noting the Lancaster and York recipients are in South Carolina). It directly concludes that geography is 'not a fit' and points out that the Philadelphia address is merely its corporate trustee's office and does not establish fit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'We should not prepare an application for October 15, 2026. Because its guidelines state no geographic limit, the Director of Development may make one email or call (grants@callowaydeanetrust.org) asking whether it would consider a request from a Pennsylvania organization; only a yes in writing would make it a fit, and the earliest application would then be April 15, 2027.' This adheres strictly to the requirements of the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under Section 1: 'Grants paid in 2025: $480,000 across 13 grants... The two grants approved for future payment ($60,000 to Lebanon Valley Food Hub and $75,000 to Harrisburg Youth Mentoring Collaborative, $135,000 in all) are not grants paid and are left out.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly recommends approaching the Garrison Ridge Foundation with a letter of inquiry (\"Letter of inquiry for the program component (mobile markets), due March 1, 2027\"). It also explicitly treats Garrison Ridge as a geographic fit, noting that \"Lancaster County is in its stated giving area, and 12 of 13 grants paid went to Pennsylvania organizations.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Under Policy §5 we ask Garrison Ridge for the program component (the southern-county mobile markets, $260,000 remaining need), not for the cold-storage addition or the truck.' It justifies this by noting: 'Every 2025 grant paid is for program or operating costs — meals, pantry operations, SNAP outreach, nutrition education, mentoring, staffing — and none is for land, buildings, construction, equipment or vehicles.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly identifies March 1, 2027 as the next LOI deadline for Garrison Ridge: 'Next LOI deadline: Monday, March 1, 2027, 5:00 p.m. Eastern'. It also notes that the September 1, 2026 deadline has passed and the October 16 deadline is invitation-only."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists the seven comparable 2025 grants paid to Pennsylvania food organizations ($15,000, $20,000, $25,000, $30,000, $35,000, $40,000, $60,000) and explicitly states: 'Median (4th of 7): $30,000 — the top of the range'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends an ask range of $15,000 to $30,000 for Garrison Ridge, stating: 'Ask range: $15,000 – $30,000 for the mobile-market program. The foundation's published \"most grants range from $10,000 to $75,000\" does not set our range.'"
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly ranks the foundations in priority order in its summary table and section headers: Priority 1 is Garrison Ridge Foundation, Priority 2 is Marwood Family Foundation, and Priority 3 is Calloway-Deane Charitable Trust."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Margaret W. Lindqvist's Marwood trusteeship as the only board connection and explicitly notes regarding Dr. Calloway that 'Dr. Owen M. Calloway, who suggested the trust, shares its name, but nothing in the files connects him to it.' All other foundation facts, figures, deadlines, and contacts directly match the provided reference files without hallucinated links or unsupported facts."
+    }
+  ],
+  "costUsd": 0.044903250000000006,
+  "usage": {
+    "inputTokens": 52771,
+    "cachedInputTokens": 0,
+    "outputTokens": 1420
+  },
+  "gradedAt": "2026-10-10T14:02:47.328Z"
+}

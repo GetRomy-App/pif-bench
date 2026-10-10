@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "d07b045e353f3b6b",
+  "deliverableHash": "a392915ba4a01cd9",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies her as \"a novelist and philanthropist ... known as MacKenzie Bezos while married\" and says \"She married Jeff Bezos in 1993, and they divorced in 2019.\" It notes she \"holds no Amazon position today.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "\"In the 2019 divorce settlement she received 25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company\" is a correct sizing of the settlement. Dated figures follow: \"81,082,131 Amazon shares as of September 30, 2025\" and \"Bloomberg put her at about $42.7 billion on April 18, 2026.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The latest holding is given as \"81,082,131 Amazon shares as of September 30, 2025, about 0.76%,\" and net worth as \"about $34–43 billion,\" which is inside $25–45B. The older share counts (266M, 200.8M, 139.1M) and the 2019 4% stake are presented as history, and the 4% figure is flagged as one that \"should not be used.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "\"Cumulative: over $26 billion in more than 2,700 gifts since 2019. AP puts the figure at $26.3 billion as of December 2025.\" The \"$19 billion given\" total is flagged as stale."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "\"A small internal team and a large network of advisors do 'quiet research' ... The team then contacts the organizations it has selected. She does not accept applications or unsolicited proposals.\" The 2023–24 open call is described as a completed exception."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "\"Ask amount: none. Do not solicit Scott, Yield Giving or her advisors. Do not send a letter, proposal or introduction, and do not ask a board member or peer to forward materials.\" Peer recipients are to be asked \"about their experience only, not for a referral,\" and the strategy is limited to readiness and responding if contacted."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The open call \"was run with Lever for Change. It launched in March 2023 ... and in March 2024 gave $640 million to 361 organizations. It is completed, and no open call is accepting applications.\" Watching for a future call is allowed."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "\"Unrestricted, no strings. Gifts are made 'for use however they choose,' and AP reports that grantees are not required to report on how they use them.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The table gives Spelman \"$20 million; $38 million (unrestricted) | 2020; Nov. 2025,\" Clark Atlanta \"$15 million; $38 million ... | 2020; Nov. 2025,\" and Morehouse \"$20 million (no gift since) | July 2020.\" All match the record, and Morehouse is credited with no later gift."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report names Achieve Atlanta $8 million (2022), Southern Education Foundation $6 million (2022), Communities In Schools of Atlanta $4 million (2021) and GEEARS $3 million (2023), all correct. KIPP Metro Atlanta and Sheltering Arms are listed with \"amounts not disclosed.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "\"She filed for divorce in September 2022, and it was finalized in January 2023. She is not married today.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Under \"Be findable and fundable,\" the strategy lists \"stable finances,\" \"a multi-year track record,\" \"measurement and evidence of outcomes\" and \"experienced leadership representative of the community it serves.\" All four indicators are covered."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report's facts are consistent with the fact sheet: birth year, Princeton 1992, novels, marriages and divorces, the Giving Pledge date, the holdings history, net-worth estimates, giving totals, open-call results and every Atlanta gift amount and year. Additional facts not on the sheet, such as the $70M to the Thurgood Marshall College Fund, do not contradict it."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.609Z"
+}

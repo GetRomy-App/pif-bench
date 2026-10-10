@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "promptHash": "2b2fa99d2d94585d",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 6235,
+  "outputTokens": 7324,
+  "costUsd": 0.177651,
+  "latencyMs": 68745,
+  "createdAt": "2026-10-10T18:14:59.338Z"
+}

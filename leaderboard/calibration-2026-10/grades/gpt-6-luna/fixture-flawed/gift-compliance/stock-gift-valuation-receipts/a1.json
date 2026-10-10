@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet dates G-1 as “2026-01-02” and places it in tax year “2026.” The Marchettis’ receipt says the shares were credited on “January 2, 2026,” and does not use a 2025 gift date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists G-1’s valuation basis as the January 2 closing price of $62.05 and states the gift value is $24,820.00. The criterion requires the January 2 high-low mean of $62.67 and a gift value of $25,068.00, and explicitly fails any other figure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Delacroix gift is dated “2025-12-30,” placed in tax year “2025,” and valued at “$9,557.50.” The deliverable shows the required basis: “(38.62 + 37.84) ÷ 2 = $38.23 × 250 = $9,557.50.”"
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The sheet dates the Fenn gift as “2026-01-05,” assigns it to tax year “2026,” and says the certificate “reached us on 2026-01-05.” The Fenn receipt likewise says the certificate was “received on January 5, 2026,” rather than using the required postmark date of 2025-12-31."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable values G-3 at “$10,370.40,” using the January 5 mean of $86.42. The criterion requires $10,149.60, based on the December 31 mean of $84.58, and explicitly says $10,370.40 fails."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet dates G-4 to “2025-12-31” and places it in tax year “2025.” The notes also confirm the shares were credited to the fund account on 2025-12-31, the date of gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable values G-4 at “$21,275.32,” using the “Public offering price” of $26.19 per share. The criterion requires $20,048.67 based on the $24.68 net asset value, so it fails."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The G-2 receipt states, “As you asked, the value of your gift on that date was $9,557.50,” which is a dollar value for the securities. The criterion requires that none of the receipts or other donor-facing wording state a value, including Delacroix’s receipt."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt states the share count and names the security: for example, G-1 acknowledges “400 shares of Quarry Point Industries, Inc. common stock,” and G-3 gives “120 shares of Ostrander Railcar Corporation common stock.” G-4 states “812.345 shares of Lantern Ridge Balanced Fund, Class A,” the required fund share count and security."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipts says, “No goods or services were provided in exchange for your gift.” None says otherwise. The criterion is satisfied."
+    }
+  ],
+  "costUsd": 0.00327,
+  "usage": {
+    "inputTokens": 23078,
+    "cachedInputTokens": 0,
+    "outputTokens": 772
+  },
+  "gradedAt": "2026-10-10T13:57:51.812Z"
+}

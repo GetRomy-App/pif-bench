@@ -1,0 +1,102 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly chooses 23118 as the surviving ID ('Surviving ID 23118 — the active sustainer record') and retires 10457 ('Merge 10457 (Robert T. Okafor) into 23118 (Bob Okafor)'). The criterion states: 'FAIL if 23118 is kept as the surviving record'."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly specifies the preferred address for the merged Okafor record as '2209 Halsted Ct, Lake Oswego, OR 97034' both in the summary table and in the group details for D-01."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "In both the summary table and the group decision section for D-01, the deliverable explicitly states the combined lifetime giving as $6,750 ($4,350 + $2,400 = $6,750)."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the summary table and under group D-02: 'Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman)' with surviving ID 11876 and 24410 retired."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states under D-02: 'Surviving ID 11876, keeping its name Priya Raman (the surviving record keeps its own name, §4.2); Castellano is added as an alias.' In the summary table, it also lists the preferred name on survivor as 'Priya Raman'. The criterion requires a FAIL if the merged record's preferred name stays Priya Raman."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states for D-02: 'Combined lifetime giving: $1,650 + $1,125 = $2,775' and lists $2,775 in the summary table without erroneously including Marco's giving."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable left 26031 out of the merge ('26031 Ann Kowalcyzk — no action') and calculated the combined lifetime giving as $20,925 instead of merging all three records for $21,275."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable merges 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb), lists 10234 as the surviving record, and explicitly specifies that it stays deceased with the date 2025-11-02 ('Surviving ID 10234, which stays deceased, 2025-11-02')."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "In both the summary table and the detailed narrative for group D-04 (Whitcomb), the deliverable states the combined lifetime giving as $38,450 ($36,950 + $1,500 = $38,450)."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Under section D-04, the deliverable explicitly states: 'Set the household's deceased flag (2025-11-02) so the Whitcomb household drops out of appeals, and flag 11092 deceased with it.' This directly violates the criterion, which mandates FAIL if 11092 is marked, flagged, or treated as deceased in any way, including by a household-level deceased flag."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable merges 25503 (Tom Brennan) into 18342 (Thomas E. Brennan Jr.), names 18342 as the surviving ID, leaves 10119 (Sr.) unmerged, and correctly calculates the combined lifetime giving as $3,840 ($3,240 + $600)."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under D-05 that '10119 Thomas E. Brennan Sr. — no action. Born 1951, not 1979, and suffix Sr. against Jr.; the shared ranch phone and address do not make him the same person. He is not merged with either record...'. Thus, 10119 is kept separate."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "In section D-06, the deliverable explicitly decides to 'Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge', noting they are spouses who were never linked, keeping them as two records and householding them."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly decides to merge the two Jennifer Liu records: 'Merge 21977 into 12650. Same full name, same city, and the scan's highest score (94); the birth-year difference looks like a keying error.' The criterion strictly requires keeping them apart as separate records and states FAIL if they are merged."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Under D-09, the deliverable specifies 'No action', keeping 30044 Cascade Crest Service Club and 31207 Cascade Crest Service Club Foundation separate and citing that they are separate legal entities with different EINs."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly keeps Ngozi A. Okafor (10458) as 'no action (spouse)' and states '10458 Ngozi A. Okafor — no action. She is Robert's spouse; her spouse link moves to 23118; spouses are householded, never merged (§4.3).' Similarly, for Marco Castellano (24409), it specifies '24409 Marco Castellano — not merged. He is Priya's spouse; his spouse link moves from 24410 to 11876 (§4.2, §4.3).' Neither is merged into any record."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly decides 'No action' for D-08 (keeping Linda Morrow and Katherine Morrow separate as mother and adult daughter) and 'No action' for D-10 (keeping Ellen Park and Ellen Parks separate as different people with conflicting birth years). Neither pair is merged."
+    }
+  ],
+  "costUsd": 0.0458625,
+  "usage": {
+    "inputTokens": 53255,
+    "cachedInputTokens": 0,
+    "outputTokens": 1579
+  },
+  "gradedAt": "2026-10-10T13:57:16.892Z"
+}

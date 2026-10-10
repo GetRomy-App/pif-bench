@@ -1,0 +1,133 @@
+{
+  "title": "Assess three board-suggested private foundations for a capital-and-program food bank project and size the ask",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-09-15",
+  "tags": [
+    "foundation-grants",
+    "form-990-pf",
+    "prospect-qualification",
+    "ask-sizing",
+    "board-relationships"
+  ],
+  "instructions": "At the September 10 board meeting, three board members suggested private foundations for Fresh Routes: the Marwood Family Foundation, the Calloway-Deane Charitable Trust and the Garrison Ridge Foundation. Assess each one under our Foundation Grants Policy and write the prioritized assessment the policy calls for — what we should do about each foundation and, for any we can ask, when and for how much. The 990-PF excerpts, website captures, project summary, board roster and minutes are in the folder. This goes to the Development Committee on September 24.",
+  "deliverable": "foundation-fit-assessment.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Marwood total grants paid is $708,000",
+      "match_criteria": "PASS if the memo reports the Marwood Family Foundation's 2025 grants paid as $708,000 (the sum of its 10 grants paid). FAIL if it reports any other total for Marwood — such as $804,400, which is total expenses and disbursements including $96,400 of administrative expenses — or gives no total for Marwood.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-002",
+      "title": "Reads Marwood as accepting no unsolicited requests",
+      "match_criteria": "PASS if the memo states that the Marwood Family Foundation does not accept unsolicited requests, on the evidence of the checked 990-PF box saying it only makes contributions to preselected charitable organizations and/or its website's statement that it does not accept unsolicited proposals, letters of inquiry or applications. FAIL if the memo describes Marwood as open to proposals, letters of inquiry or applications, or never says how Marwood accepts requests.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-003",
+      "title": "Recommends no unsolicited request to Marwood",
+      "match_criteria": "PASS if the memo recommends that Millstream send the Marwood Family Foundation no proposal, letter of inquiry, application or other written request for funds unless the foundation invites one. FAIL if the memo recommends submitting or sending Marwood or its trustees a proposal, letter of inquiry, application, or other written request or project materials seeking funding — from staff, or passed through a board member — before Marwood invites a request, or schedules such a submission. Briefing board member Margaret Lindqvist herself on the project is not a failure.",
+      "sources": [],
+      "red_line": true
+    },
+    {
+      "id": "C-004",
+      "title": "Identifies Margaret Lindqvist as the path to Marwood",
+      "match_criteria": "PASS if the memo identifies Millstream board member Margaret W. Lindqvist as a trustee of the Marwood Family Foundation and recommends approaching Marwood through her — for example, that she ask Marwood's trustees whether the foundation would welcome a conversation with Millstream or would invite a request. FAIL if the memo does not say that Lindqvist is a Marwood trustee, names a different board member as the Marwood connection, or recommends no approach to Marwood at all.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-005",
+      "title": "Calloway-Deane total grants paid is $390,000",
+      "match_criteria": "PASS if the memo reports the Calloway-Deane Charitable Trust's 2025 grants paid as $390,000 (the sum of its 12 grants paid). FAIL if it reports any other total for Calloway-Deane — such as $488,450, which is total expenses and disbursements including $98,450 of administrative expenses — or gives no total for Calloway-Deane.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-006",
+      "title": "Calloway-Deane made no Pennsylvania grants",
+      "match_criteria": "PASS if the memo states that none of the Calloway-Deane Charitable Trust's 12 grants paid went to a Pennsylvania organization (they went to North Carolina, South Carolina and Virginia) and treats the trust as not a geographic fit. FAIL if the memo counts the Lancaster County Hunger Coalition (Lancaster, SC) or the Western York County Food Pantry (York, SC) as a Pennsylvania or Lancaster County grant, reports any number of Pennsylvania grants other than zero, treats the trust's Philadelphia address (care of its corporate trustee) as establishing geographic fit, or calls the trust a geographic fit.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-007",
+      "title": "No proposal to Calloway-Deane for October 15",
+      "match_criteria": "PASS if the memo recommends against preparing a proposal or application to the Calloway-Deane Charitable Trust — including for its October 15, 2026 deadline — and at most recommends a single email or call asking whether the trust would consider a request from a Pennsylvania organization (with any application only after a yes). FAIL if the memo recommends applying to Calloway-Deane by October 15, 2026 or any later deadline without first confirming that it would consider a Pennsylvania organization.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-008",
+      "title": "Garrison Ridge total grants paid is $480,000",
+      "match_criteria": "PASS if the memo reports the Garrison Ridge Foundation's 2025 grants paid as $480,000 (the sum of its 13 grants paid), leaving out the $135,000 of grants approved for future payment. FAIL if it reports any other total for Garrison Ridge — such as $615,000 (adding both grants approved for future payment), $540,000 or $555,000 (adding one of them), or $648,300 (total expenses and disbursements) — or gives no total for Garrison Ridge.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-009",
+      "title": "Recommends a letter of inquiry to Garrison Ridge",
+      "match_criteria": "PASS if the memo recommends approaching the Garrison Ridge Foundation with a letter of inquiry and treats it as a geographic fit, because Lancaster County is in its stated giving area and/or 12 of its 13 grants paid went to Pennsylvania organizations. FAIL if the memo recommends against approaching Garrison Ridge, recommends sending it a full proposal without an invitation, or calls it a geographic misfit.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-010",
+      "title": "Asks Garrison Ridge for the program component only",
+      "match_criteria": "PASS if the memo recommends asking the Garrison Ridge Foundation for the program component (the southern-county mobile markets) and not for the capital component, giving as the reason that its 2025 grants-paid list shows only program and operating support and no capital grants (a memo may add that its website describes its grants as supporting programs and the organizations that run them). FAIL if the memo recommends asking Garrison Ridge for the cold-storage addition, the refrigerated truck, the whole project or any capital amount, or does not say which component to request from it.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-011",
+      "title": "Next Garrison Ridge LOI deadline is March 1, 2027",
+      "match_criteria": "PASS if the memo gives March 1, 2027 as the next Garrison Ridge letter-of-inquiry deadline. FAIL if it presents September 1, 2026 (already passed), October 16, 2026 (the fall cycle's invitation-only full-proposal deadline) or a rolling basis (the 990-PF's outdated statement) as the way to apply, gives any other date, or gives no deadline.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-012",
+      "title": "Median grant to comparable recipients is $30,000",
+      "match_criteria": "PASS if the memo gives $30,000 as Garrison Ridge's median grant to comparable recipients — the seven 2025 grants paid to Pennsylvania food-access, hunger-relief or nutrition organizations ($15,000, $20,000, $25,000, $30,000, $35,000, $40,000, $60,000). FAIL if it gives any other figure as that median, such as $27,500 (including Mason-Dixon Food Share of Westminster, MD), $32,500 (adding the $60,000 Lebanon Valley grant approved for future payment), $37,500 (all twelve Pennsylvania grants), $35,000 (all thirteen grants), or $32,143 (the average).",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-013",
+      "title": "Ask range is $15,000 to $30,000",
+      "match_criteria": "PASS if the memo recommends an ask range for Garrison Ridge of $15,000 to $30,000. FAIL if it recommends any other range — such as the foundation's published $10,000–$75,000 grant range, or a range whose top is above $30,000 or whose bottom is not $15,000 — or recommends asking Garrison Ridge for more than $30,000.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-014",
+      "title": "Ranks Garrison Ridge, then Marwood, then Calloway-Deane",
+      "match_criteria": "PASS if the memo's priority order puts the Garrison Ridge Foundation first, the Marwood Family Foundation second and the Calloway-Deane Charitable Trust last. FAIL if it gives any other order, or no order.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-015",
+      "title": "Asserts no board connection or foundation fact the files lack",
+      "match_criteria": "PASS if the only board or staff connection to any of the three foundations that the memo asserts is Margaret W. Lindqvist's Marwood trusteeship, and every grant, deadline, contact and policy it attributes to a foundation appears in the files. FAIL if the memo states or implies that Dr. Owen M. Calloway — or any board member other than Lindqvist — is a trustee of, related to, or a relationship path into any of the three foundations (for example, treating his surname as a link to the Calloway-Deane Charitable Trust), or attributes to a foundation a grant, deadline, contact or policy that no file supports. Noting the shared surname while saying the files show no connection is not a failure. Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/board-minutes-excerpt.md",
+        "documents/board-roster.md",
+        "documents/calloway-deane-990pf-2025.md",
+        "documents/calloway-deane-website.md",
+        "documents/garrison-ridge-990pf-2025.md",
+        "documents/garrison-ridge-website.md",
+        "documents/grants-policy.md",
+        "documents/marwood-990pf-2025.md",
+        "documents/marwood-website.md",
+        "documents/project-summary.md"
+      ],
+      "red_line": true
+    }
+  ]
+}

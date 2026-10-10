@@ -1,0 +1,1508 @@
+{
+  "run": "./leaderboard/packet-2026-10",
+  "generatedAt": "2026-10-10T18:50:28.595Z",
+  "panel": {
+    "name": "pif-blind-self-2026-10",
+    "judges": [
+      {
+        "id": "opus-5.5-blind",
+        "model": "claude-code/claude-opus-5.5",
+        "family": "anthropic",
+        "maxOutputTokens": 1,
+        "external": true
+      }
+    ]
+  },
+  "track": "packet",
+  "tasks": [
+    {
+      "id": "donor-data/duplicate-household-review",
+      "area": "donor-data",
+      "track": "packet",
+      "hash": "e24c7920e841969c",
+      "criteria": 17
+    },
+    {
+      "id": "donor-data/gift-batch-reconciliation",
+      "area": "donor-data",
+      "track": "packet",
+      "hash": "8f85076c8112911f",
+      "criteria": 11
+    },
+    {
+      "id": "donor-data/lybunt-sybunt-retention",
+      "area": "donor-data",
+      "track": "packet",
+      "hash": "4b184a4b76f48b5b",
+      "criteria": 15
+    },
+    {
+      "id": "finance-governance/conflict-of-interest-review",
+      "area": "finance-governance",
+      "track": "packet",
+      "hash": "054276963ada46c6",
+      "criteria": 13
+    },
+    {
+      "id": "finance-governance/form-990-ratio-review",
+      "area": "finance-governance",
+      "track": "packet",
+      "hash": "3840d9740ae8f5ec",
+      "criteria": 13
+    },
+    {
+      "id": "finance-governance/public-support-test",
+      "area": "finance-governance",
+      "track": "packet",
+      "hash": "1d5c4ca7aecfcd1f",
+      "criteria": 12
+    },
+    {
+      "id": "foundation-grants/grant-report-variance-review",
+      "area": "foundation-grants",
+      "track": "packet",
+      "hash": "c29a77815250186f",
+      "criteria": 14
+    },
+    {
+      "id": "foundation-grants/private-foundation-fit-assessment",
+      "area": "foundation-grants",
+      "track": "packet",
+      "hash": "99153e64ce362422",
+      "criteria": 15
+    },
+    {
+      "id": "foundation-grants/rfp-compliance-review",
+      "area": "foundation-grants",
+      "track": "packet",
+      "hash": "7c4f6859172739e6",
+      "criteria": 12
+    },
+    {
+      "id": "gift-compliance/daf-grant-gala-table-request",
+      "area": "gift-compliance",
+      "track": "packet",
+      "hash": "a6e5a83b2c05a77a",
+      "criteria": 12
+    },
+    {
+      "id": "gift-compliance/gala-acknowledgment-review",
+      "area": "gift-compliance",
+      "track": "packet",
+      "hash": "8ac807716a69e841",
+      "criteria": 10
+    },
+    {
+      "id": "gift-compliance/restricted-endowment-release-request",
+      "area": "gift-compliance",
+      "track": "packet",
+      "hash": "0c9e90264115610a",
+      "criteria": 13
+    },
+    {
+      "id": "gift-compliance/stock-gift-valuation-receipts",
+      "area": "gift-compliance",
+      "track": "packet",
+      "hash": "4f2996c06e952c01",
+      "criteria": 10
+    },
+    {
+      "id": "major-gifts/campaign-gift-range-chart",
+      "area": "major-gifts",
+      "track": "packet",
+      "hash": "bb1b1e4a7df10bf0",
+      "criteria": 13
+    },
+    {
+      "id": "major-gifts/portfolio-moves-review",
+      "area": "major-gifts",
+      "track": "packet",
+      "hash": "e7fd2b30bf0cb4fb",
+      "criteria": 12
+    },
+    {
+      "id": "major-gifts/solicitation-plan-brief",
+      "area": "major-gifts",
+      "track": "packet",
+      "hash": "59bdb47caeb5348c",
+      "criteria": 12
+    },
+    {
+      "id": "prospect-research/deceased-donor-meeting-brief",
+      "area": "prospect-research",
+      "track": "packet",
+      "hash": "44c928fe226426bc",
+      "criteria": 15
+    },
+    {
+      "id": "prospect-research/ethics-screened-donor-profile",
+      "area": "prospect-research",
+      "track": "packet",
+      "hash": "91febd0b79518255",
+      "criteria": 14
+    },
+    {
+      "id": "prospect-research/namesake-screening-review",
+      "area": "prospect-research",
+      "track": "packet",
+      "hash": "0f941c985515fb99",
+      "criteria": 15
+    },
+    {
+      "id": "prospect-research/sparse-record-private-donor",
+      "area": "prospect-research",
+      "track": "packet",
+      "hash": "71060ec3085a0521",
+      "criteria": 11
+    }
+  ],
+  "tasksNotRun": [],
+  "leaderboard": [
+    {
+      "candidate": "gpt-6.1-sol",
+      "tasks": 20,
+      "attempts": 20,
+      "all_pass": {
+        "value": 0.95,
+        "ci95": [
+          0.7638688045357189,
+          0.9911185512976646
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.9961538461538462,
+        "ci95": [
+          0.9884615384615385,
+          1
+        ]
+      },
+      "criterion_pass_pooled": 0.9961389961389961,
+      "red_line_failure_rate": 0,
+      "by_area": {
+        "donor-data": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "finance-governance": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9743589743589745
+        },
+        "foundation-grants": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "gift-compliance": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "major-gifts": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "prospect-research": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0.95,
+          "criterion_pass_macro": 0.9961538461538462
+        }
+      },
+      "label": "GPT-6.1 Sol",
+      "family": "openai",
+      "generationCostPerTask": 0.0375025,
+      "missingTasks": []
+    },
+    {
+      "candidate": "muse-spark-1.3",
+      "tasks": 20,
+      "attempts": 20,
+      "all_pass": {
+        "value": 0.95,
+        "ci95": [
+          0.7638688045357189,
+          0.9911185512976646
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.9961538461538462,
+        "ci95": [
+          0.9884615384615385,
+          1
+        ]
+      },
+      "criterion_pass_pooled": 0.9961389961389961,
+      "red_line_failure_rate": 0,
+      "by_area": {
+        "donor-data": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "finance-governance": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "foundation-grants": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "gift-compliance": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "major-gifts": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9743589743589745
+        },
+        "prospect-research": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0.95,
+          "criterion_pass_macro": 0.9961538461538462
+        }
+      },
+      "label": "Muse Spark 1.3",
+      "family": "meta",
+      "generationCostPerTask": 0.04758101249999999,
+      "missingTasks": []
+    },
+    {
+      "candidate": "claude-opus-5.5",
+      "tasks": 20,
+      "attempts": 20,
+      "all_pass": {
+        "value": 0.95,
+        "ci95": [
+          0.7638688045357189,
+          0.9911185512976646
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.9958333333333332,
+        "ci95": [
+          0.9875,
+          1
+        ]
+      },
+      "criterion_pass_pooled": 0.9961389961389961,
+      "red_line_failure_rate": 0,
+      "by_area": {
+        "donor-data": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "finance-governance": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "foundation-grants": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "gift-compliance": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "major-gifts": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9722222222222222
+        },
+        "prospect-research": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0.95,
+          "criterion_pass_macro": 0.9958333333333332
+        }
+      },
+      "label": "Claude Opus 5.5",
+      "family": "anthropic",
+      "generationCostPerTask": 0.19077100000000005,
+      "missingTasks": []
+    },
+    {
+      "candidate": "gemini-3.8-flash",
+      "tasks": 20,
+      "attempts": 20,
+      "all_pass": {
+        "value": 0.7,
+        "ci95": [
+          0.4810271799475211,
+          0.8545227559784271
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.9619505494505493,
+        "ci95": [
+          0.9319139194139193,
+          0.9881410256410256
+        ]
+      },
+      "criterion_pass_pooled": 0.9613899613899614,
+      "red_line_failure_rate": 0.1,
+      "by_area": {
+        "donor-data": {
+          "tasks": 3,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        },
+        "finance-governance": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9743589743589745
+        },
+        "foundation-grants": {
+          "tasks": 3,
+          "all_pass": 0.3333333333333333,
+          "criterion_pass_macro": 0.8968253968253969
+        },
+        "gift-compliance": {
+          "tasks": 4,
+          "all_pass": 0.75,
+          "criterion_pass_macro": 0.9807692307692308
+        },
+        "major-gifts": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9722222222222222
+        },
+        "prospect-research": {
+          "tasks": 4,
+          "all_pass": 0.75,
+          "criterion_pass_macro": 0.9464285714285714
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0.7,
+          "criterion_pass_macro": 0.9619505494505493
+        }
+      },
+      "label": "Gemini 3.8 Flash",
+      "family": "google",
+      "generationCostPerTask": 0.056472787499999996,
+      "missingTasks": []
+    },
+    {
+      "candidate": "minimax-m3",
+      "tasks": 20,
+      "attempts": 20,
+      "all_pass": {
+        "value": 0.65,
+        "ci95": [
+          0.4328542750684442,
+          0.818808176876017
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.9075566100566101,
+        "ci95": [
+          0.8202122877122878,
+          0.9773076923076923
+        ]
+      },
+      "criterion_pass_pooled": 0.9111969111969112,
+      "red_line_failure_rate": 0.1,
+      "by_area": {
+        "donor-data": {
+          "tasks": 3,
+          "all_pass": 0.3333333333333333,
+          "criterion_pass_macro": 0.804040404040404
+        },
+        "finance-governance": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9743589743589745
+        },
+        "foundation-grants": {
+          "tasks": 3,
+          "all_pass": 0.3333333333333333,
+          "criterion_pass_macro": 0.8531746031746031
+        },
+        "gift-compliance": {
+          "tasks": 4,
+          "all_pass": 0.75,
+          "criterion_pass_macro": 0.9807692307692308
+        },
+        "major-gifts": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.7777777777777777
+        },
+        "prospect-research": {
+          "tasks": 4,
+          "all_pass": 1,
+          "criterion_pass_macro": 1
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0.65,
+          "criterion_pass_macro": 0.9075566100566101
+        }
+      },
+      "label": "MiniMax M3",
+      "family": "minimax",
+      "generationCostPerTask": 0.020615823,
+      "missingTasks": []
+    },
+    {
+      "candidate": "gemini-3.1-pro",
+      "tasks": 20,
+      "attempts": 20,
+      "all_pass": {
+        "value": 0.55,
+        "ci95": [
+          0.3420853410191274,
+          0.7418021429623598
+        ]
+      },
+      "criterion_pass_macro": {
+        "value": 0.9404728604728604,
+        "ci95": [
+          0.8991899766899765,
+          0.9752164502164502
+        ]
+      },
+      "criterion_pass_pooled": 0.9420849420849421,
+      "red_line_failure_rate": 0.05,
+      "by_area": {
+        "donor-data": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9696969696969697
+        },
+        "finance-governance": {
+          "tasks": 3,
+          "all_pass": 0.3333333333333333,
+          "criterion_pass_macro": 0.9487179487179488
+        },
+        "foundation-grants": {
+          "tasks": 3,
+          "all_pass": 0.3333333333333333,
+          "criterion_pass_macro": 0.8928571428571429
+        },
+        "gift-compliance": {
+          "tasks": 4,
+          "all_pass": 0.5,
+          "criterion_pass_macro": 0.8814102564102564
+        },
+        "major-gifts": {
+          "tasks": 3,
+          "all_pass": 0.6666666666666666,
+          "criterion_pass_macro": 0.9722222222222222
+        },
+        "prospect-research": {
+          "tasks": 4,
+          "all_pass": 0.75,
+          "criterion_pass_macro": 0.9833333333333334
+        }
+      },
+      "by_judge": {
+        "opus-5.5-blind": {
+          "all_pass": 0.55,
+          "criterion_pass_macro": 0.9404728604728604
+        }
+      },
+      "label": "Gemini 3.1 Pro",
+      "family": "google",
+      "generationCostPerTask": 0.1184347,
+      "missingTasks": []
+    }
+  ],
+  "notRanked": [],
+  "perTask": {
+    "donor-data/duplicate-household-review": {
+      "gpt-6.1-sol": {
+        "passed": 17,
+        "total": 17,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 17,
+        "total": 17,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 17,
+        "total": 17,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 17,
+        "total": 17,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 17,
+        "total": 17,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 17,
+        "total": 17,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "donor-data/gift-batch-reconciliation": {
+      "gpt-6.1-sol": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 6,
+        "total": 11,
+        "all_pass": 0,
+        "failed": [
+          "C-004",
+          "C-007",
+          "C-008",
+          "C-009",
+          "C-011"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 10,
+        "total": 11,
+        "all_pass": 0,
+        "failed": [
+          "C-005"
+        ],
+        "missing": false
+      }
+    },
+    "donor-data/lybunt-sybunt-retention": {
+      "gpt-6.1-sol": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 13,
+        "total": 15,
+        "all_pass": 0,
+        "failed": [
+          "C-002",
+          "C-003"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "finance-governance/conflict-of-interest-review": {
+      "gpt-6.1-sol": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-010"
+        ],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-004"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-004"
+        ],
+        "missing": false
+      }
+    },
+    "finance-governance/form-990-ratio-review": {
+      "gpt-6.1-sol": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-004"
+        ],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-004"
+        ],
+        "missing": false
+      }
+    },
+    "finance-governance/public-support-test": {
+      "gpt-6.1-sol": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "foundation-grants/grant-report-variance-review": {
+      "gpt-6.1-sol": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 12,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-007",
+          "C-011"
+        ],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 9,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-002",
+          "C-005",
+          "C-006",
+          "C-010",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 13,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-014"
+        ],
+        "missing": false
+      }
+    },
+    "foundation-grants/private-foundation-fit-assessment": {
+      "gpt-6.1-sol": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "foundation-grants/rfp-compliance-review": {
+      "gpt-6.1-sol": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 10,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-002",
+          "C-004"
+        ],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 11,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-004"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 9,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-002",
+          "C-004",
+          "C-009"
+        ],
+        "missing": false
+      }
+    },
+    "gift-compliance/daf-grant-gala-table-request": {
+      "gpt-6.1-sol": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 10,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-005",
+          "C-011"
+        ],
+        "missing": false
+      }
+    },
+    "gift-compliance/gala-acknowledgment-review": {
+      "gpt-6.1-sol": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "gift-compliance/restricted-endowment-release-request": {
+      "gpt-6.1-sol": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-002"
+        ],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-003"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 9,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-002",
+          "C-003",
+          "C-004",
+          "C-006"
+        ],
+        "missing": false
+      }
+    },
+    "gift-compliance/stock-gift-valuation-receipts": {
+      "gpt-6.1-sol": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 10,
+        "total": 10,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "major-gifts/campaign-gift-range-chart": {
+      "gpt-6.1-sol": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 12,
+        "total": 13,
+        "all_pass": 0,
+        "failed": [
+          "C-011"
+        ],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 13,
+        "total": 13,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "major-gifts/portfolio-moves-review": {
+      "gpt-6.1-sol": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 11,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-012"
+        ],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 4,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-004",
+          "C-005",
+          "C-006",
+          "C-008",
+          "C-009",
+          "C-010",
+          "C-011",
+          "C-012"
+        ],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "major-gifts/solicitation-plan-brief": {
+      "gpt-6.1-sol": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 11,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-010"
+        ],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 12,
+        "total": 12,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 11,
+        "total": 12,
+        "all_pass": 0,
+        "failed": [
+          "C-010"
+        ],
+        "missing": false
+      }
+    },
+    "prospect-research/deceased-donor-meeting-brief": {
+      "gpt-6.1-sol": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 14,
+        "total": 15,
+        "all_pass": 0,
+        "failed": [
+          "C-005"
+        ],
+        "missing": false
+      }
+    },
+    "prospect-research/ethics-screened-donor-profile": {
+      "gpt-6.1-sol": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 11,
+        "total": 14,
+        "all_pass": 0,
+        "failed": [
+          "C-003",
+          "C-004",
+          "C-014"
+        ],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 14,
+        "total": 14,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "prospect-research/namesake-screening-review": {
+      "gpt-6.1-sol": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 15,
+        "total": 15,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    },
+    "prospect-research/sparse-record-private-donor": {
+      "gpt-6.1-sol": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "muse-spark-1.3": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "claude-opus-5.5": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.8-flash": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "minimax-m3": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      },
+      "gemini-3.1-pro": {
+        "passed": 11,
+        "total": 11,
+        "all_pass": 1,
+        "failed": [],
+        "missing": false
+      }
+    }
+  },
+  "agreement": {
+    "items": 1554,
+    "unanimous": 1,
+    "fleiss_kappa": null,
+    "pairs": []
+  },
+  "selfPreference": [],
+  "judgingCostUsd": 0,
+  "staleGrades": 0
+}

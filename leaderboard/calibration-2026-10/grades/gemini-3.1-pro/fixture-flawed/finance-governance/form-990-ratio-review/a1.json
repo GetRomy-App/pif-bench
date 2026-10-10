@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The deliverable removes only the donated food ($14,180,000) from the total expenses denominator, resulting in $6,335,000. The criterion explicitly states to fail if the deliverable removes only the donated food from the denominator (giving $6,335,000) instead of all $14,275,000 of gifts in kind expensed."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports the program expense ratio as 77.1% ($4,886,000 ÷ $6,335,000 = 77.1%). The criterion requires it to be reported as 78.3%, and explicitly states to fail if 77.1% is reported."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in both the Summary table and the detailed calculation section that the program expense ratio target of 80.0% or higher was 'Not met', with a result of 77.1%."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable subtracts the $600,000 bequest from the Estate of Harriet M. Okafor from the contributions total in the 'Cost to raise a dollar' calculation. It also explains that 'The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring', satisfying the requirement for the reasoning."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates the 'Contributions for this indicator' as $3,985,000, matching the exact figure required by the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and reports the cost to raise a dollar as $0.22, explicitly stating '$866,300 ÷ $3,985,000 = $0.217, reported as $0.22' and showing $0.22 in the summary table."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states that the cost-to-raise-a-dollar target was 'Met' in both the Summary table and the detailed calculation section, where it treats the $0.25 threshold as the passing standard instead of the $0.20 target."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the operating reserve starting from 'Total net assets, Part X line 32, end of year' at '$7,852,000'. The criterion explicitly states to fail if it starts from total net assets of $7,852,000."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the operating reserve as $2,744,000, subtracting land, buildings and equipment from total net assets rather than net assets without donor restrictions. The criterion requires the operating reserve to be $1,504,000."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable calculates the Annual operating expenses as $5,794,000 and the Monthly operating expenses as $482,833 in the 'Months of operating reserve' table, which exactly matches the figures required by the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports 5.7 months of operating reserve in both the summary table and the detailed calculation section ('$2,744,000 ÷ $482,833 = 5.7 months'), failing to report the required 3.1 months."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in both the Summary table and section 3 that the operating reserve target of 3.0 months or more was 'Met' with a result of 5.7 months."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable states that \"The program expense ratio is down from 81.6% in fiscal 2024.\" However, the reference files do not contain the 2024 program service expenses or total functional expenses needed to compute this ratio, meaning the 81.6% figure is unsupported."
+    }
+  ],
+  "costUsd": 0.10046999999999999,
+  "usage": {
+    "inputTokens": 32511,
+    "cachedInputTokens": 0,
+    "outputTokens": 2954
+  },
+  "gradedAt": "2026-10-10T14:01:44.610Z"
+}

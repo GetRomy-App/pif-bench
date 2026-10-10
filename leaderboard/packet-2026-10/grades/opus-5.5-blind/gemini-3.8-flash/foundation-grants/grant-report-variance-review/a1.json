@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.8-flash",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "taskHash": "c29a77815250186f",
+  "deliverableHash": "0f3da835175104ed",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverables table shows D1 with a target of \"120 learners\", an actual of \"131 learners\" and status \"**MET**\"."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "D2 is \"**NOT MET**\" at \"71.76% (94 of 131 enrolled)\". The memo rejects Marcus's comparison of 94 with 90, noting the agreement measures against enrolled learners, which \"requires 98.25 (99) completers\"."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "D3 is \"**MET**\". The memo states that \"Under the strict contractual definition ... the denominator is all 94 completers, yielding 64.89% (61/94)\". It shows the 83.56% tested rate only as Marcus's alternative calculation and does not adopt it as the contractual result, so 64.89% is the figure it reports against the target."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "D4 is \"**MET**\" with \"26 tutors\" against a target of 25. The memo notes that 27 were recruited but one \"completed only 8 hours\", and \"the compliant total of 26 still meets the target.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "D5 is \"**NOT MET**\" with meetings in Q1 (2025-09-18), Q2 (2025-12-11) and Q3 (2026-03-19). The memo states \"a meeting on July 16 falls into Year 2\" and that Marcus's claim it counts for Q4 \"contradicts the agreement.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo identifies AP-2242, \"$640.00\" to Harborview Taproom for beer and wine, as unallowable under Section 6.3. It says the charge \"must be removed from Fund 310 and reclassified to unrestricted funds\". The allowable totals and variances exclude it, and the Hearthside Catering $1,020 is called allowable."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The memo reports Learner supports as \"$12,560.00\" spent, \"+$560.00 | +4.67%\", \"Yes\" within threshold and \"No approval needed\". The criterion requires $13,560, +$1,560 (+13.0%) and a statement that approval is needed."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo reports Curriculum & materials at $6,920 against $8,000, \"-$1,080.00 | **-13.50%**\", outside the threshold, and states \"**Prior Approval Required.**\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Apart from Curriculum & materials, every other line is marked \"No approval needed\". That includes Local travel at -8.06% and Tutor training at -6.00% after the alcohol removal. No line other than the two named in the criterion is flagged."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo gives Personnel -$1,020 (-1.50%, $66,980 after JE-0412), Fringe -$204 (-1.50%, $13,396), Tutor training -$300 (-6.00%, $4,700 allowable), Local travel -$290 (-8.06%) and Evaluation $0 (0.00%). All match the criterion when rounded."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo's reported figures are \"**Net Allowable Year 1 Expenditures:** **$117,666.00**\" and \"**$2,334.00**\" unspent to carry forward. $118,666 and $1,334 appear only as a conditional alternative (\"If the $1,000.00 discrepancy ... represents an additional valid, allowable charge\"). The memo reports a total and unspent figure other than $118,666 and $1,334."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo gives \"**2026-08-14:** **Interim Report Due Date** ... (June 30, 2026 + 45 days = August 14, 2026)\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo gives \"**2027-04-01:** **No-Cost Extension Request Deadline** ... (90 days prior to 2027-06-30 is April 1, 2027)\"."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The memo lists \"**2027-09-28:** **Final Report & Return of Unspent Funds Due Date** ... (June 30, 2027 + 90 days = September 28, 2027)\". It adds that any unspent funds at that point \"must be returned to the Foundation (Section 9).\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.977Z"
+}

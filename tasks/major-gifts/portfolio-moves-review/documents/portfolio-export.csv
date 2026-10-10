@@ -1,0 +1,17 @@
+prospect_id,prospect_name,stage,stage_entry_date,assigned_date,primary_officer,capacity_rating,last_ask_date,last_ask_amount,ask_status,last_contact_crm,record_status
+20417,Eleanor and James Whitcombe,Cultivation,2025-11-04,2025-06-12,M. Vega,3 ($250K-$499K),,,,2026-08-20,Active
+20533,Harold Penwick,Solicitation,2026-01-20,2024-09-03,M. Vega,2 ($500K-$999K),2026-03-02,100000,Pending,2026-04-10,Active
+20588,Dr. Anita Mehta and Raj Mehta,Cultivation,2026-02-17,2025-10-06,M. Vega,2 ($500K-$999K),,,,2026-07-29,Active
+20602,Gordon Ashby,Solicitation,2025-12-08,2024-04-15,M. Vega,3 ($250K-$499K),2026-04-22,50000,Pending,2026-08-12,Active
+20611,Beatrice Langford,Cultivation,2024-11-18,2023-07-10,M. Vega,4 ($100K-$249K),,,,2026-08-27,Active
+20645,Desmond and Carla Fitch,Qualification,2026-01-26,2026-01-26,M. Vega,4 ($100K-$249K),,,,2026-09-02,Active
+20667,Lorraine Whitfield,Stewardship,2026-05-15,2023-02-01,M. Vega,3 ($250K-$499K),2026-03-10,75000,Accepted,2026-08-22,Active
+20689,Samuel Ortega,Solicitation,2026-07-06,2025-03-03,M. Vega,4 ($100K-$249K),,,,2026-09-03,Active
+20702,Constance Ivers,Qualification,2026-05-11,2026-05-11,M. Vega,5 ($25K-$99K),,,,2026-06-30,Active
+20718,Thomas and Ingrid Brightwater,Cultivation,2025-08-25,2025-03-17,M. Vega,1 ($1M+),,,,2026-07-21,Active
+20734,Nora Castellanos,Solicitation,2026-03-16,2025-01-13,M. Vega,3 ($250K-$499K),2026-07-30,40000,Pending,2026-09-08,Active
+20756,Franklin Dubose,Qualification,2025-12-01,2025-12-01,M. Vega,4 ($100K-$249K),,,,2026-07-09,Active
+20771,Patricia and Leon Marchetti,Cultivation,2025-02-03,2024-06-17,M. Vega,2 ($500K-$999K),,,,2026-07-25,Active
+20790,Raymond Tsai,Stewardship,2025-12-19,2022-10-03,M. Vega,3 ($250K-$499K),2025-11-14,60000,Accepted,2026-08-14,Active
+20812,Vivian Achterberg,Solicitation,2025-10-20,2024-02-26,M. Vega,2 ($500K-$999K),2025-12-03,150000,Pending,2026-08-26,Active
+20839,Miriam Feld,Cultivation,2026-04-06,2025-11-17,M. Vega,4 ($100K-$249K),,,,2026-08-31,Active

@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "promptHash": "02a58ad19dca2517",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 2869,
+  "outputTokens": 9363,
+  "costUsd": 0.01203822,
+  "latencyMs": 50665,
+  "createdAt": "2026-10-10T18:30:25.308Z"
+}

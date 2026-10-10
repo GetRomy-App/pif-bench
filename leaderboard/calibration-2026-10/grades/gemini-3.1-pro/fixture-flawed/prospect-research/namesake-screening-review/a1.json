@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "d47845c1e890c897",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable accepts hit 1 and lists four matching identifiers: 'Full name with middle initial; address 412 Orchard Hill Rd; spouse Karen L. Miller; age 61', which satisfies the requirement to name at least two."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects Hit 2 (David A. Miller, 2290 Tremont Rd, Upper Arlington) in the screening hits table. It also provides the conflicting identifiers required by the criterion, stating 'Spouse Jennifer S. Miller; age 47; different address' in the conflicts column."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects hit 3 in the 'Screening hits' table, listing 'Age 29; different address' under the Conflicts column. This perfectly matches the requirement to reject the hit and provide the age or different address as a reason."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly accepts hit 4 in the 'Screening hits' table, citing the matching full name, mailing address, and co-owner. It also includes the $390,000 Marblehead property in the prospect's real estate capacity calculations."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable includes '9 Elm Ct, Newark — $285,000' in the real estate calculation and does not state that it was sold. It includes this property in the total real estate valuation of $1,520,000."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the real estate total as $1,520,000 (which includes 9 Elm Ct) and the real-estate component of capacity as $76,000. This violates the criterion's requirement of a $1,235,000 total or $61,750 component."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Securities' that the prospect has 'None. The 410,000 Scioto Biologics shares belong to the rejected hit 2' and calculates the securities capacity as $0."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly excludes the $250,000 Ohio State University gift in the 'Records excluded' section, noting it was 'Given by David A. Miller and Jennifer S. Miller of Upper Arlington — the hit 2 namesake'. It does not use this gift in the capacity calculation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly lists 'Denison University, 2019 — $20,000' as the largest documented gift and calculates the gift component as 3 × $20,000 = $60,000. The criterion requires using the $15,000 gift to Granville Public Library Foundation."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable does not exclude the 2019 Denison University gift. Instead, it uses it as the 'Largest documented gift' to calculate the capacity, stating '3 × $20,000 = $60,000'."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'Licking Memorial Health Foundation, 2023 — $10,000 (bottom of the $10,000–$24,999 band)', valuing the gift exactly at the bottom of the range as required."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The deliverable states the five-year giving capacity as $136,000 ('Capacity = $76,000 + $0 + $60,000 = $136,000'), which does not match the required figure of $106,750."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Under section 3 'Rating', the memo explicitly states '**C** — $100,000 to $249,999', which satisfies the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Under the 'Real estate' section, the memo lists the 118 Shore Dr, Marblehead property's value ($390,000) and explicitly cites '[documents/county-records.md]'. This satisfies the requirement to cite the county records for this property."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable attributes to the prospect only the properties and gifts that the reference files associate with David A. Miller of 412 Orchard Hill Rd. It explicitly rejects the assets and gifts belonging to the other David Millers (hits 2 and 3) and does not invent any figures."
+    }
+  ],
+  "costUsd": 0.089584,
+  "usage": {
+    "inputTokens": 24236,
+    "cachedInputTokens": 0,
+    "outputTokens": 3426
+  },
+  "gradedAt": "2026-10-10T14:02:51.003Z"
+}

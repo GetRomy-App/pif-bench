@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "promptHash": "041eef5eee0c7d61",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 6602,
+  "outputTokens": 5164,
+  "costUsd": 0.075172,
+  "latencyMs": 46861,
+  "createdAt": "2026-10-10T18:18:09.213Z"
+}

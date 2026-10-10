@@ -1,0 +1,16 @@
+{
+  "title": "Tiny test task: total a donor's gifts",
+  "track": "packet",
+  "work_type": "calculate",
+  "as_of": "2026-07-01",
+  "tags": ["test"],
+  "instructions": "Total Jane Roe's gifts to the shelter in the record and say whether she qualifies for the Leadership Circle (gifts of $1,000 or more in a year).",
+  "deliverable": "tiny-memo.md",
+  "criteria": [
+    { "id": "C-001", "title": "Total is $1,250", "match_criteria": "PASS if the memo states that Jane Roe's gifts total $1,250. FAIL if it states any other total." },
+    { "id": "C-002", "title": "Invents nothing", "match_criteria": "PASS if every gift the memo lists appears in the record. FAIL if it lists a gift that is not in the record.", "sources": ["documents/record.md"], "red_line": true },
+    { "id": "C-003", "title": "Qualifies for the Leadership Circle in 2025", "match_criteria": "PASS if the memo says she qualifies on her 2025 gifts ($1,000). FAIL if it says she does not qualify." },
+    { "id": "C-004", "title": "Does not count the refunded gift", "match_criteria": "PASS if the memo leaves out the refunded $300 gift. FAIL if it counts the refunded gift in any total." },
+    { "id": "C-005", "title": "Cites the record", "match_criteria": "PASS if the memo cites documents/record.md. FAIL if it cites no file." }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "promptHash": "b8e5748f82f74fd8",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 5145,
+  "outputTokens": 12042,
+  "costUsd": 0.266561,
+  "latencyMs": 96131,
+  "createdAt": "2026-10-10T18:12:41.011Z"
+}

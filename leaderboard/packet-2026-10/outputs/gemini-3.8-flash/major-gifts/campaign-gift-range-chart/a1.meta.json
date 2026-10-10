@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "promptHash": "a864374a59b6a3ae",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 3582,
+  "outputTokens": 11788,
+  "costUsd": 0.0468915,
+  "latencyMs": 60211,
+  "createdAt": "2026-10-10T18:25:52.435Z"
+}

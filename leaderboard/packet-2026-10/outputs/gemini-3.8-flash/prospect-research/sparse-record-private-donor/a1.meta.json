@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "promptHash": "02a58ad19dca2517",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 3146,
+  "outputTokens": 7807,
+  "costUsd": 0.03163575,
+  "latencyMs": 43647,
+  "createdAt": "2026-10-10T18:26:36.084Z"
+}

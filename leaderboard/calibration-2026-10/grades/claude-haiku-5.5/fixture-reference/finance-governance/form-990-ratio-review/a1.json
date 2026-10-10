@@ -1,0 +1,82 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo computes the program expense ratio as $4,886,000 ÷ $6,240,000 = 78.3%, with program expenses = $19,066,000 less $14,180,000 donated food distributed, and total expenses = $20,515,000 less $14,180,000 food and $95,000 legal services. This matches the criterion's figures exactly, and it does not remove depreciation or other non-gift-in-kind items from the denominator. It also does not use the unadjusted ratio for the result, only mentioning 92.9% as a reference not to be published."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo reports the program expense ratio as 78.3%, computed as $4,886,000 ÷ $6,240,000 with gifts in kind removed from both numerator and denominator. It also mentions the unadjusted 92.9% figure while explicitly stating it is 'not the policy's ratio and should not be published as one,' which the criterion permits. No other figure is presented as the policy ratio, so the criterion is satisfied."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable's summary table lists the program expense ratio at 78.3% against an 80.0% or higher target with 'Not met' in bold, and section 1 repeats that 78.3% is 'below the 80.0% target. Not met.' The memo consistently reports the target as missed, with no contradictory statement elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo's cost-to-raise-a-dollar table subtracts the $600,000 Estate of Harriet M. Okafor bequest from contributions, leaving $3,985,000 as the denominator. It gives the reason: 'The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring and are not the product of the year's fundraising spending (policy section 3.2).' This meets both parts of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable's cost-to-raise-a-dollar table uses Part VIII line 1h $18,930,000, less line 1g noncash contributions (14,345,000), less the $600,000 Okafor bequest, yielding a contributions figure of $3,985,000. This matches the criterion's required figure and composition exactly, and the memo does not contradict it elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's Section 2 computes cost to raise a dollar as $866,300 ÷ $3,985,000 = $0.217, reported as $0.22, matching the criterion's required figure and inputs. The memo's summary table also reports $0.22, and it does not contradict this elsewhere; it mentions $0.19 only as a hypothetical 'had the bequest been left in' comparison, which is permitted."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo's summary table lists the cost to raise a dollar at $0.22 against a target of $0.20 or less with 'Not met' in the Met? column, and section 2 states '$0.217, reported as $0.22 — above the $0.20 target. Not met.' It also notes the $0.25 external-review level separately, without treating it as the target. This satisfies the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo builds the operating reserve from 'Net assets without donor restrictions, Part X line 27, end of year' of $6,612,000, and explicitly states that 'The $1,240,000 of net assets with donor restrictions — $890,000 for the cold-storage expansion and $350,000 of time-restricted pledges — is not reserve and is not counted.' It does not start from total net assets of $7,852,000 and does not count any part of the restricted amount as reserve."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo computes the operating reserve as $6,612,000 net assets without donor restrictions less $5,108,000 land, buildings and equipment, net, giving $1,504,000, which matches the criterion's required figure exactly. None of the listed failure figures ($2,744,000, $6,612,000, $809,000, $1,581,000, $904,000) is used as the operating reserve, and the memo explicitly sets aside the liquidity note figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo's reserve section lists annual operating expenses as $5,794,000 computed as $20,515,000 less $446,000 depreciation less $14,275,000 gifts in kind expensed, and gives monthly expenses as $482,833. This matches the criterion's required figures exactly."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports months of operating reserve as 3.1 months, computed as $1,504,000 ÷ $482,833, which matches the criterion's stated calculation and figure. It also explicitly notes that the 2.9 figure would result only if depreciation were included, which is a sensitivity note rather than the reported result. The headline result matches the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo's summary table lists 'Months of operating reserve | 3.1 months | 3.0 months or more | Met', and the reserve section states '**Met**, with little margin' against the 3.0-month target. Nothing in the deliverable contradicts this finding, so the reserve target is reported as met."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every figure in the memo traces to a file or is computed from file figures. Inputs such as $19,066,000, $866,300, $6,612,000, $5,108,000, $1,240,000 and $1,581,000 come from the Form 990 excerpt or audit notes. Derived figures such as $4,886,000, $5,794,000, $482,833, the 92.9% unadjusted ratio, the $0.19 alternative, the 2.9-month alternative and the $408,000 deficit are arithmetic on those inputs. The thresholds ($0.25, 1.5 months, 90 days) and the section references come from the policy."
+    }
+  ],
+  "costUsd": 0.002463245,
+  "usage": {
+    "inputTokens": 44839,
+    "cachedInputTokens": 38442,
+    "outputTokens": 2561
+  },
+  "gradedAt": "2026-10-10T14:02:27.640Z"
+}

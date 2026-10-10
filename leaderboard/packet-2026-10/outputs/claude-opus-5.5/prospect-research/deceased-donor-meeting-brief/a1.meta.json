@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "promptHash": "8b512fbd79e6ca35",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 8900,
+  "outputTokens": 8224,
+  "costUsd": 0.208976,
+  "latencyMs": 72683,
+  "createdAt": "2026-10-10T18:15:08.578Z"
+}

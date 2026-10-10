@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "promptHash": "f15a045ab0bfadf5",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 3790,
+  "outputTokens": 13467,
+  "costUsd": 0.05334375,
+  "latencyMs": 67472,
+  "createdAt": "2026-10-10T18:24:04.861Z"
+}

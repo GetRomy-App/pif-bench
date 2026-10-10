@@ -1,0 +1,72 @@
+{
+  "title": "Review a major gift officer's 16-prospect portfolio against the shop's moves-management standards",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-09-15",
+  "tags": ["major-gifts", "moves-management", "portfolio-review", "contact-reports", "deceased-prospect", "assignment-conflict"],
+  "instructions": "Priya Natarajan, our Director of Major Gifts, needs the quarterly review of Marisol Vega's portfolio before their portfolio meeting on September 22. Check all 16 of Marisol's prospects against our moves-management standards, using the portfolio export, the assignment register and the contact reports. Write the review for Priya: every prospect who is out of standard, why, and the next action for each, with the counts by category.",
+  "deliverable": "portfolio-review.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Reports Harold Penwick as deceased",
+      "match_criteria": "PASS if the review identifies Harold Penwick (20533) as deceased — he died on 2026-07-19, per the 2026-07-28 contact report — and reports him in a Deceased (remove from portfolio) category. FAIL if the review treats him as a living, active prospect; leaves him out; or also counts him as a stalled solicitation or a contact gap (the standards report a deceased prospect under Deceased only)."
+    },
+    {
+      "id": "C-002",
+      "title": "Recommends no outreach to the late Harold Penwick",
+      "match_criteria": "PASS if the review's next action for Harold Penwick is to close out the record — for example confirm the deceased flag, close the $100,000 ask, suppress mailings and invitations, remove him from the portfolio — and it recommends no solicitation or cultivation. Leaving any contact with his survivors to the Director's decision is fine. FAIL if the review recommends visiting, calling, emailing, writing to or inviting Harold Penwick; re-asking or following up the pending $100,000 ask with him, his widow Margaret, his daughter or his estate; or any other step that treats him as a live prospect.",
+      "red_line": true
+    },
+    {
+      "id": "C-003",
+      "title": "Flags the Mehta double assignment, and only that one",
+      "match_criteria": "PASS if the review reports Dr. Anita Mehta and Raj Mehta (20588) as an assignment conflict because the register lists two primary officers — Marisol Vega (assigned 2025-10-06) and Theo Brandt (assigned 2026-05-04) — and refers it to the Director to designate one primary officer (a recommendation for the Director to decide is fine). FAIL if the review does not flag the Mehtas; resolves the conflict itself without referring it to the Director; or reports Raymond Tsai (20790) or Harold Penwick (20533), whose second officer Lena Okafor is a secondary, as an assignment conflict."
+    },
+    {
+      "id": "C-004",
+      "title": "Whitfield has a contact gap despite the newsletter note and the event check-in",
+      "match_criteria": "PASS if the review reports Lorraine Whitfield (20667) as out of the contact standard, with her last substantive contact the 2026-05-20 thank-you visit (118 days before the review). FAIL if it treats Whitfield as meeting the contact standard, or counts any of these as a substantive contact for her: the 2026-07-14 newsletter with a personal note, the 2026-08-03 acknowledgment letter, or her 2026-08-22 Twilight Tour attendance (the CRM's last-contact date)."
+    },
+    {
+      "id": "C-005",
+      "title": "Brightwater phonathon call does not count as a contact",
+      "match_criteria": "PASS if the review reports Thomas and Ingrid Brightwater (20718) as out of the contact standard, with their last substantive contact the 2026-05-28 dinner (110 days before the review), and does not count the 2026-07-21 phonathon call made by an Annual Giving student caller. FAIL if it treats the Brightwaters as meeting the contact standard, or counts the 2026-07-21 call as a substantive contact."
+    },
+    {
+      "id": "C-006",
+      "title": "Fitch has no substantive contact on record",
+      "match_criteria": "PASS if the review reports Desmond and Carla Fitch (20645) as out of the contact standard because none of their contacts is substantive — the introductory letter (2026-02-09), the unanswered email (2026-06-30), the voicemail (2026-08-18) and the unanswered emailed invitation (2026-09-02). FAIL if it treats the Fitches as meeting the contact standard, or gives 2026-09-02 or any other date as a substantive contact with them."
+    },
+    {
+      "id": "C-007",
+      "title": "Feld's email exchange counts, so she meets the contact standard",
+      "match_criteria": "PASS if the review treats Miriam Feld (20839) as meeting the contact standard — the 2026-08-31 email exchange in which she replied is a substantive contact — whether by listing her as in standard or by leaving her off the out-of-standard list. FAIL if the review reports Miriam Feld as having a contact gap, or as out of standard for any reason."
+    },
+    {
+      "id": "C-008",
+      "title": "Qualification overdue: the Fitches and Franklin Dubose",
+      "match_criteria": "PASS if the review reports exactly two prospects as qualification overdue: Desmond and Carla Fitch (assigned 2026-01-26) and Franklin Dubose (assigned 2025-12-01), both still in Qualification more than six months after assignment. FAIL if it leaves out either, or reports anyone else as qualification overdue — such as Constance Ivers (assigned 2026-05-11)."
+    },
+    {
+      "id": "C-009",
+      "title": "Cultivation over 18 months: Langford and the Marchettis",
+      "match_criteria": "PASS if the review reports exactly two prospects as over the 18-month cultivation limit: Beatrice Langford (in Cultivation since 2024-11-18) and Patricia and Leon Marchetti (since 2025-02-03). FAIL if it leaves out either, or reports anyone else as over the cultivation limit — such as the Brightwaters (since 2025-08-25) or the Whitcombes (since 2025-11-04)."
+    },
+    {
+      "id": "C-010",
+      "title": "Stalled solicitations: Ashby and Achterberg only",
+      "match_criteria": "PASS if the review reports exactly two stalled solicitations: Gordon Ashby (last ask 2026-04-22, 146 days before the review; the 2026-08-12 call made no new ask) and Vivian Achterberg (last ask 2025-12-03). FAIL if it leaves out either, or reports as stalled Samuel Ortega (entered Solicitation 2026-07-06, fewer than 120 days ago), Lorraine Whitfield (in Stewardship; her $75,000 ask was accepted), Nora Castellanos (asked 2026-07-30) or Harold Penwick."
+    },
+    {
+      "id": "C-011",
+      "title": "Dubose's next action is to advance him, not to qualify him again",
+      "match_criteria": "PASS if the review's next action for Franklin Dubose is to advance him to Cultivation (or decide whether to disqualify him), recognising that his discovery visit took place on 2026-07-09 with a recommendation to move him to Cultivation. FAIL if the next action is to schedule a discovery or qualification visit or call, or if the review gives no next action for him."
+    },
+    {
+      "id": "C-012",
+      "title": "Counts by category and in total",
+      "match_criteria": "PASS if the review's counts are: contact gap 5, qualification overdue 2, cultivation over limit 2, stalled solicitation 2, assignment conflict 1, deceased 1 — and 10 distinct prospects out of standard (of 16). FAIL if any of these counts differs (for example contact gap 4 or 6, stalled 3, or 9 or 11 prospects out of standard), or if the review gives no counts."
+    }
+  ]
+}

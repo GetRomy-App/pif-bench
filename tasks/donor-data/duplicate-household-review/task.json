@@ -1,0 +1,104 @@
+{
+  "title": "Review a quarterly duplicate scan and decide every merge and household under the data standards",
+  "track": "packet",
+  "work_type": "review",
+  "as_of": "2026-08-17",
+  "tags": ["donor-data", "duplicate-management", "householding", "deceased-records", "data-hygiene"],
+  "instructions": "The August duplicate scan flagged ten groups, 25 records in all; the export is attached. Review every group against our constituent data standards and give me the decision list the standards call for: what we merge, what we household and what we leave alone, with the surviving ID and the combined lifetime giving for each merge. Joaquin runs the merges exactly as you list them on August 24, and a merge can't be undone without a restore. — Ines Halvorsen, Director of Development Operations",
+  "deliverable": "duplicate-review-decisions.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Merges Bob Okafor into Robert T. Okafor with 10457 surviving",
+      "match_criteria": "PASS if the list merges 23118 (Bob Okafor) into 10457 (Robert T. Okafor), with 10457 as the surviving ID and 23118 retired. FAIL if 23118 is kept as the surviving record (for example because it is the active monthly-sustainer record or holds the newer address), if the two records are not merged, or if no surviving ID is stated for the Okafor merge."
+    },
+    {
+      "id": "C-002",
+      "title": "The merged Okafor record carries the Halsted Ct address",
+      "match_criteria": "PASS if the merged Okafor record's preferred address is 2209 Halsted Ct, Lake Oswego, OR 97034 (from 23118, address updated 2023-05-14). FAIL if the merged record keeps 18 Linden Ave, Portland (updated 2017-03-09) as its preferred address, or if no preferred address is given for the Okafor merge."
+    },
+    {
+      "id": "C-003",
+      "title": "Okafor combined lifetime giving is $6,750",
+      "match_criteria": "PASS if the combined lifetime giving stated for the Okafor merge is $6,750 ($4,350 from 10457 + $2,400 from 23118). FAIL if it states any other figure, such as $7,950 (which adds Ngozi A. Okafor's $1,200) or either record's giving alone."
+    },
+    {
+      "id": "C-004",
+      "title": "Merges Priya R. Castellano into Priya Raman with 11876 surviving",
+      "match_criteria": "PASS if the list merges 24410 (Priya R. Castellano) into 11876 (Priya Raman), with 11876 as the surviving ID and 24410 retired. FAIL if the two records are not merged (for example because the surnames differ), if 24410 is kept as the surviving record, or if no surviving ID is stated for this merge."
+    },
+    {
+      "id": "C-005",
+      "title": "The merged Priya record takes the married surname Castellano",
+      "match_criteria": "PASS if the list gives the surviving 11876 record the preferred name Priya Castellano (or Priya R. Castellano), with Raman kept as a former or maiden name or simply replaced. FAIL if the merged record's preferred name stays Priya Raman, or if the list gives no name for the merged record."
+    },
+    {
+      "id": "C-006",
+      "title": "Priya's combined lifetime giving is $2,775",
+      "match_criteria": "PASS if the combined lifetime giving stated for the 11876/24410 merge is $2,775 ($1,650 + $1,125). FAIL if it states any other figure, such as $3,025 (which adds Marco Castellano's $250) or either record's giving alone."
+    },
+    {
+      "id": "C-007",
+      "title": "All three Kowalczyk records merge into 10822 for $21,275",
+      "match_criteria": "PASS if the list merges both 19650 (Dr. Anne Kowalczyk) and 26031 (Ann Kowalcyzk) into 10822 (Anne M. Kowalczyk), with 10822 surviving and combined lifetime giving of $21,275 ($18,425 + $2,500 + $350). FAIL if 26031 (the misspelled record) or 19650 is left out of the merge, if another ID survives, or if the combined figure is anything else, such as $20,925 (without 26031)."
+    },
+    {
+      "id": "C-008",
+      "title": "Hal Whitcomb merges into Harold J. Whitcomb, and the survivor stays deceased",
+      "match_criteria": "PASS if the list merges 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb), with 10234 surviving and still marked deceased (2025-11-02). FAIL if 20877 is left as a separate active record, if 20877 is kept as the surviving record, or if the merged record is described as living or its deceased status is not stated.",
+      "red_line": true
+    },
+    {
+      "id": "C-009",
+      "title": "Whitcomb combined lifetime giving is $38,450",
+      "match_criteria": "PASS if the combined lifetime giving stated for the Whitcomb merge is $38,450 ($36,950 from 10234 + $1,500 from 20877). FAIL if it states any other figure, such as $48,050 (which adds Margaret E. Whitcomb's $9,600) or $36,950 alone."
+    },
+    {
+      "id": "C-010",
+      "title": "Margaret Whitcomb stays a separate, living record",
+      "match_criteria": "PASS if Margaret E. Whitcomb (11092) is not merged with 10234 or 20877 and is not marked deceased; a list may also name her the household's primary or living contact. FAIL if 11092 is merged into any Whitcomb record, or is marked, flagged or treated as deceased in any way (including by a household-level deceased flag or a 'do not solicit' because of Harold's death).",
+      "red_line": true
+    },
+    {
+      "id": "C-011",
+      "title": "Tom Brennan merges into Thomas E. Brennan Jr. for $3,840",
+      "match_criteria": "PASS if the list merges 25503 (Tom Brennan, born 1979) into 18342 (Thomas E. Brennan Jr.), with 18342 surviving and combined lifetime giving of $3,840 ($3,240 + $600). FAIL if 25503 is merged into 10119 (Thomas E. Brennan Sr.), if 25503 is left unmerged, if 10119 is the surviving ID of any Brennan merge, or if the combined figure is anything else, such as $26,590 (all three records) or $23,350 (Sr. plus Tom)."
+    },
+    {
+      "id": "C-012",
+      "title": "Thomas E. Brennan Sr. is not merged with his son",
+      "match_criteria": "PASS if 10119 (Thomas E. Brennan Sr., born 1951) is kept as his own record, merged with neither 18342 nor 25503. FAIL if 10119 is merged with either record.",
+      "red_line": true
+    },
+    {
+      "id": "C-013",
+      "title": "Daniel and Sofia Ferreira are householded, not merged",
+      "match_criteria": "PASS if the list keeps 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira) as two records and links them as a household (spouses). FAIL if the two records are merged, or if the list takes no action on them without linking them as a household.",
+      "red_line": true
+    },
+    {
+      "id": "C-014",
+      "title": "The two Jennifer Lius are not merged",
+      "match_criteria": "PASS if the list keeps 12650 (Jennifer Liu, born 1984) and 21977 (Jennifer Liu, born 1962) as separate records because they are different people. FAIL if the two records are merged or householded, or if the list leaves them undecided (for example 'needs more research') instead of keeping them apart.",
+      "red_line": true
+    },
+    {
+      "id": "C-015",
+      "title": "The service club and its foundation stay separate",
+      "match_criteria": "PASS if the list keeps 30044 (Cascade Crest Service Club, EIN 93-0817446) and 31207 (Cascade Crest Service Club Foundation, EIN 93-1550329) as separate records, citing the different EINs or the fact that they are separate legal entities. FAIL if the two records are merged.",
+      "red_line": true
+    },
+    {
+      "id": "C-016",
+      "title": "Ngozi Okafor and Marco Castellano are not merged into their spouses",
+      "match_criteria": "PASS if Ngozi A. Okafor (10458) and Marco Castellano (24409) each remain their own record, merged into no other record. FAIL if either is merged into any record, including the surviving Okafor or Priya record.",
+      "red_line": true
+    },
+    {
+      "id": "C-017",
+      "title": "The Morrow pair and the Park/Parks pair are not merged",
+      "match_criteria": "PASS if Linda Morrow (15238) and Katherine Morrow (26874) are kept as separate records, and Ellen Park (16602) and Ellen Parks (25119) are kept as separate records. FAIL if either pair is merged.",
+      "red_line": true
+    }
+  ]
+}

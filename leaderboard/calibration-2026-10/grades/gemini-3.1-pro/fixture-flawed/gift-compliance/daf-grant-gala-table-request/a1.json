@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/daf-grant-gala-table-request",
+  "attempt": 1,
+  "taskHash": "eb53a3fbce54c01a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The internal memo explicitly states, \"No part of it goes to the gala,\" and explains that the grant cannot pay for the full table or the portion above fair market value. The reply to the donor confirms this rule and also rejects the idea of a second Kestrel grant for the table, matching the criterion's requirements perfectly."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The internal memo explicitly states that Invoice INV-G26-0112 is 'to be paid by Peggy and/or Erik by personal check or card — never from a donor-advised fund.' The reply to Peggy also clearly informs her that 'a personal check or card is perfect' because 'Donor-advised fund grants can't pay for any part of event tickets or tables.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable estimates the value of the goods and services for the table at \"$1,360 (8 × $170, the per-seat value we used for the same table last year)\". This triggers the FAIL condition, which forbids using $1,360 and requires the estimate to be $1,480."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable includes the correct quid pro quo disclosure language, but it calculates the deductible amount as $1,640 instead of the required $1,520."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo includes a section dedicated to acknowledging the grant to Kestrel Charitable Trust. It drafts the acknowledgment letter, which clearly states the amount ($15,000) and includes the required phrase 'No goods or services were provided in exchange for this grant.'"
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The drafted acknowledgment to Kestrel mentions the pledge and its remaining balance: \"The grant has been applied to Margaret and Erik Halvorsen's Studio Wing pledge, which now has a balance of $5,000.\" This directly violates the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The reply to Peggy explicitly states, \"Your $15,000 gift is fully tax-deductible,\" which directly violates the criterion's requirement not to tell her the grant is deductible to her."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The reply in Part 2 fails to explain that Kestrel is the legal donor and receives the acknowledgment, thereby ignoring her request for a receipt. Instead, it incorrectly tells Peggy, 'Your $15,000 gift is fully tax-deductible.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo correctly directs the gift-processing team to assign hard credit to Kestrel Charitable Trust, soft credit to Margaret and Erik Halvorsen, and designates the entire $15,000 to the Studio Wing Campaign. It explicitly states that no part of the grant goes to the gala and avoids hard-crediting the Halvorsens."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly meets the criterion by instructing the team to \"Soft-credit the full grant to the Halvorsens' statement of intent.\" The tracking table in Section 4 shows the full \"-$15,000\" applied to the $40,000 intent, and the checklist reiterates to \"Soft-credit $15,000 to the statement of intent.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the remaining balance on the statement of intent as $5,000 in Section 4, explicitly stating that the 2025 and 2026 gala tables are not counted toward it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in section 4 that the commitment is a \"statement of intention, not a legally binding pledge or obligation\" and explains that this non-binding status is \"what allows a DAF grant they recommended to be soft-credited toward it.\""
+    }
+  ],
+  "costUsd": 0.10518400000000001,
+  "usage": {
+    "inputTokens": 31562,
+    "cachedInputTokens": 0,
+    "outputTokens": 3505
+  },
+  "gradedAt": "2026-10-10T13:57:04.081Z"
+}

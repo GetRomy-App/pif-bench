@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "054276963ada46c6",
+  "deliverableHash": "b51bca876863e0dd",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo finds \"an undisclosed financial interest through Thomas Aldana's spouse.\" It ties Celeste M. Aldana to him as \"his spouse\" and as Saffron & Sage's \"sole member and manager, owning 100%,\" concluding \"the vendor is his spouse's business.\" It treats the catering approval as not compliant: \"Required disclosure, recusal and disinterested review did not occur.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo notes that Aldana's \"January 20 statement ... answers **\\\"No\\\"** to the business-interest question,\" after the \"January 8 bid.\" It also says that at the meeting \"The chair requested financial-interest disclosures, but only Ramaswamy disclosed one.\" Both failures are named."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states that Aldana \"was required to disclose it, leave for the conflict determination, and remain absent from the transaction discussion and vote.\" It states that instead \"Aldana advocated for Saffron & Sage, moved its selection and voted in favor.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Aldana's vote was decisive: subtracting it from the recorded tally leaves **5–5**, which fails under the bylaws.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo contrasts \"the Gala Committee's recommendation of Harborview Provisions at $52,900 rather than Saffron & Sage at $68,400\" and refers to \"The original **$15,500** premium over Harborview.\" Both bids and the difference are stated correctly."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo finds Ramaswamy disclosed on her annual statement, by email to the chair and orally, left the room, and that ten directors approved the $18,250 lowest bid 10–0. It concludes \"No BrightStage nondisclosure violation is evident.\" The only caveat asks the committee to clarify the board's minutes on the conflict-determination vote; it is not disciplinary or corrective action against her and does not equate her case with Aldana's."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "For the 2025 Form 990 (FY July 1, 2025–June 30, 2026), the memo says Aldana's spouse \"owns 100%, exceeding the more-than-35% entity-ownership test\". It says \"**$71,860** under the catering arrangement exceeds $39,400. **Report in Part IV.**\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo states \"the single-transaction threshold is the greater of $10,000 or 1% of revenue: **$39,400**,\" based on draft total revenue of $3,940,000."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo concludes \"**$18,250** is below both $39,400 and the $100,000 aggregate threshold ... **Not reportable on this record.**\" It treats BrightStage as an interested person because Ramaswamy's brother owns 80%."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Next step 2 says \"Issue written notice and allow 15 days to explain ... Do not make a final violation finding before providing that opportunity.\" The memo also cautions the committee to \"confirm those matters rather than assume intent,\" so it does not assert deliberate concealment."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Step 4 says \"Disinterested directors must apply Article III's alternatives and fair-and-reasonable standards. Consider the comparable bids.\" It adds that \"If re-review finds payment above fair market value, the board must consult counsel about possible section 4958 excess benefit treatment and recovery,\" and says the premium is \"not proof of an overpayment.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Step 1 says \"Exclude Aldana from the review. He serves on Governance, but Article IV bars the director under review from committee and board deliberations or votes concerning that review.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo states \"A majority of disinterested directors determines whether disclosure failed and, if so, must take appropriate disciplinary and corrective action.\" It also states \"Aldana must file a corrected annual statement within 30 days of the board's determination.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.102Z"
+}

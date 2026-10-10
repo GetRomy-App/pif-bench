@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "taskHash": "27969a367948f244",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The profile gives a real-estate total of $4,175,000, calculated from the three specified properties: $1,140,000 + $685,000 + $2,350,000. Its real-estate capacity component is also $208,750, so it meets the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The profile does not mention the Atlantic Beach property or value, a Hilton Head home, the specified mobile number, Gloria Ellery, or the estimated net worth or household income. Its property and household details do not include any of the prohibited information."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The profile reports documented giving of “$70,000” and includes a $2,500 SCYT season sponsorship soft-credited from Ellery Mechanical Contractors and a $15,000 Twin City Food Bank sponsorship by the company. The criterion requires $52,500, or a giving component of capacity of $105,000; the profile instead uses $140,000."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The profile states “Five-year giving capacity: $348,750” and its capacity table totals $208,750 in real estate plus $0 in securities plus $140,000 in documented giving. The criterion requires exactly $313,750, so the stated result fails."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The profile explicitly assigns “Rating: B” and gives the range as “$250,000–$499,999,” matching the criterion. It also states “Five-year giving capacity: $348,750 — rating B.”"
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The profile reports that Marcus is President and co-founder, notes the company has two members, and gives published revenue of about $38 million and about 140 employees. It explicitly says, “no value is estimated for the company or for his stake,” and gives no net-worth or income estimate for him or the household."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The profile reports: “Federal political contributions, 2022–2025: $8,700 (Source: FEC).” This matches the required total, period, and source."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The profile says political giving was “mostly to Republican candidates” and names “Pruitt for Congress and Whitlock for Senate.” The criterion explicitly fails if any party or listed recipient appears."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The profile says, “a 2025 community fundraiser for the household drew 312 supporters.” The criterion explicitly says to fail if the profile mentions a community or family fundraiser for the household or its 312 supporters."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The profile states: “Minor children: one — Amara, 14, who is enrolled in SCYT's Summer Intensive this summer.” The criterion allows mentioning enrollment in the program but fails if the child’s name or age is given."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The litigation section explicitly lists “Bright v. Ellery, a 2019 domestic civil matter, closed 2020.” The criterion says any mention of a domestic matter, including in a litigation list, fails."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The profile mentions a 2021 SCYT gift of $1,000 in the giving table, but gives no explanation involving Marcus’s health or absence from the company. It says nothing about anxiety, treatment, medical or health leave, or stepping away from the business in 2021."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The profile lists both required nonprofit board roles: “Trustee, Yadkin Valley Community College Foundation (since 2023)” and “Board of directors, Twin City Housing Partners (since 2022).” Neither role is attributed to someone else."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The profile’s factual claims are supported by the supplied files: for example, it describes the 2025 community fundraiser as drawing “312 supporters,” matching the research file’s 312 supporters, and its household, business, property, giving, and board-service details also appear in the CRM or research file. The criterion explicitly excludes arithmetic and policy-application errors from this grade, so those do not change the verdict."
+    }
+  ],
+  "costUsd": 0.0016866799999999999,
+  "usage": {
+    "inputTokens": 32710,
+    "cachedInputTokens": 27848,
+    "outputTokens": 1603
+  },
+  "gradedAt": "2026-10-10T14:02:16.272Z"
+}

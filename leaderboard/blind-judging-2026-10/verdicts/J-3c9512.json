@@ -1,0 +1,15 @@
+{"packet": "J-3c9512", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "\"The lead gift is set at 20% of the goal ($2,000,000),\" and the chart's first row is \"$2,000,000 | 1.\""},
+{"id": "C-002", "verdict": "pass", "reasoning": "The chart's named tiers are $2,000,000 × 1, $1,000,000 × 2, $500,000 × 4 and $250,000 × 8, followed by \"All other gifts | many.\" No tier below $250,000 is charted."},
+{"id": "C-003", "verdict": "pass", "reasoning": "Cumulative totals run $2,000,000, $4,000,000, $6,000,000 and $8,000,000. The All other gifts line is \"$2,000,000 | $10,000,000\" and is not reduced by booked commitments."},
+{"id": "C-004", "verdict": "pass", "reasoning": "\"The Hollis Family Foundation's signed pledge of $1,000,000 counts as one gift in hand at the $1,000,000 tier\" and the Lindqvist $300,000 pledge counts \"at the $250,000 tier.\" Both are \"excluded from prospect counts because they have already provided signed pledges.\""},
+{"id": "C-005", "verdict": "pass", "reasoning": "Abernathy-Kim is listed as a prospect at the $500,000 tier with the note \"stated intent for $500,000 is an oral promise and no pledge is signed, so they remain a prospect.\" The $500,000 tier shows 0 in hand and 4 still needed."},
+{"id": "C-006", "verdict": "pass", "reasoning": "Achebe-Lowry, Ashworth and the Haraways are excluded for their \"N\" inclination. The L-coded Lucien Park (at $500,000), Ivan and Sofia Petrakis and Kenji and Amara Sato (both at $250,000) are counted."},
+{"id": "C-007", "verdict": "pass", "reasoning": "Rourke, Delacroix-Benn, the Petrakises and Beaumont Hardware Co. (all \"Capacity Rating 5 ($400,000 – $749,999)\") are listed under the $250,000 tier, and none is placed at $500,000."},
+{"id": "C-008", "verdict": "pass", "reasoning": "The $2,000,000 row shows \"3 | 1 | 2\" (needed, identified, gap), with the Castellane Foundation as the only prospect identified."},
+{"id": "C-009", "verdict": "pass", "reasoning": "The $1,000,000 row shows 1 gift in hand, 1 still needed, 3 prospects needed, 2 identified (Thornbury and Salcedo) and a gap of 1."},
+{"id": "C-010", "verdict": "pass", "reasoning": "The $500,000 row shows 0 in hand, 4 still needed, 16 prospects needed, 4 identified (Voss, Abernathy-Kim, Park, Oduya) and a gap of 12."},
+{"id": "C-011", "verdict": "pass", "reasoning": "The $250,000 row shows 1 in hand, 7 still needed, 28 prospects needed, 7 identified (Rourke, Delacroix-Benn, Petrakis, Beaumont, Grant, Quintero, Sato) and a gap of 21. Rating-7 prospects are excluded."},
+{"id": "C-012", "verdict": "pass", "reasoning": "The three largest gaps are listed in order: \"1. $250,000 Tier: Gap of 21 ... 2. $500,000 Tier: Gap of 12 ... 3. $2,000,000 Tier: Gap of 2.\""},
+{"id": "C-013", "verdict": "pass", "reasoning": "Every named prospect and donor appears in the pipeline or the commitments log, with that file's rating and inclination. The pledge amounts ($1,000,000, $300,000, and Albers plus Trustees totalling $236,500) match the commitments file."}
+]}

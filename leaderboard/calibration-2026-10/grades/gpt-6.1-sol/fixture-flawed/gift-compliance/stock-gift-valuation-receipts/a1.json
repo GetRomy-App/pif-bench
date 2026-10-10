@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet lists the Marchetti gift of 400 QPXI shares with date of gift “2026-01-02” and tax year “2026.” Their receipt acknowledges the shares as “credited to our account on January 2, 2026,” and the notes explicitly reject dating the receipt December 29. No part of the deliverable dates this gift in 2025 or assigns it to tax year 2025."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The Marchetti entry uses \"Closing price on 2026-01-02\" and gives a per-share value of \"$62.05\" and gift value of \"$24,820.00.\" This differs from the required $62.67 mean-of-high-and-low valuation and $25,068.00 gift value, so it fails the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Delacroix row dates the 250-share HWVB gift “2025-12-30,” assigns tax year “2025,” and gives a per-share value of $38.23 and gift value of $9,557.50. The notes confirm “(38.62 + 37.84) ÷ 2 = $38.23 × 250 = $9,557.50,” and the sale proceeds are explicitly recorded separately, not as gift values."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The sheet dates the Fenn gift “2026-01-05” and places it in tax year “2026,” rather than the required postmark date of 2025-12-31 and tax year 2025. The Fenn receipt likewise says the certificate was “received on January 5, 2026,” so it does not use the required gift date."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the Fenn gift at \"$10,370.40,\" using \"120\" shares at \"$86.42,\" the January 5, 2026 mean. The criterion requires $10,149.60 using $84.58 per share, so the stated gift value fails the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet dates Helen Szabo’s Lantern Ridge Balanced Fund gift “2025-12-31” and places it in tax year “2025.” The notes confirm that “the shares were credited to our fund account on 2025-12-31, which is the date of gift,” and the receipt uses the same date without contradiction."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The Szabo gift is listed at a per-share value of $26.19 using the “Public offering price on 2025-12-31,” yielding a gift value of “$21,275.32.” The criterion requires $20,048.67 based on the $24.68 NAV, so the deliverable uses an explicitly disallowed value."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The G-2 receipt explicitly tells Ruth-Ann Delacroix, \"As you asked, the value of your gift on that date was $9,557.50.\" This is a dollar value in donor-facing receipt wording, which the criterion prohibits even when the donor requests it."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt states the required share count and security: “400 shares of Quarry Point Industries, Inc. common stock,” “250 shares of Harrow Valley Bancorp common stock,” and “120 shares of Ostrander Railcar Corporation common stock.” The Szabo receipt also correctly states “812.345 shares of Lantern Ridge Balanced Fund, Class A.”"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipts—G-1 Marchetti, G-2 Delacroix, G-3 Fenn, and G-4 Szabo—includes the statement, \"No goods or services were provided in exchange for your gift.\" None omits or contradicts that statement."
+    }
+  ],
+  "costUsd": 0.06624000000000001,
+  "usage": {
+    "inputTokens": 23078,
+    "cachedInputTokens": 0,
+    "outputTokens": 856
+  },
+  "gradedAt": "2026-10-10T13:57:06.886Z"
+}

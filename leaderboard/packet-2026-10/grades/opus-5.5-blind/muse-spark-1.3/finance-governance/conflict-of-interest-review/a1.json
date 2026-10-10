@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "muse-spark-1.3",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "054276963ada46c6",
+  "deliverableHash": "da15c2e38b355759",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo finds Saffron & Sage was signed and 100% owned by Celeste M. Aldana, who matches Aldana's listed spouse and his 88 Orchard Terrace address. It concludes \"A spouse is a Family Member\" and treats this as an \"apparent undisclosed Financial Interest; Article III not followed\", referring to \"Celeste M. Aldana as spouse (family member) of director Thomas Aldana.\" It does not treat the catering contract as compliant."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It names both failures. On the statement: \"Mr. Aldana answered 'No' despite the spouse's ownership of a bidder whose bid was received January 8\", with the statement noted as signed 2026-01-20. At the meeting: \"no disclosure by any director other than Ms. Ramaswamy\"."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It states the policy required determination after the Interested Person leaves (Art. III, Sec. 2) and recusal from discussion and vote (Sec. 3(a)). It finds \"Mr. Aldana instead spoke in favor, moved the award, and voted in favor\"."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "\"The catering motion carried 6–5 with Mr. Aldana in favor. Without his vote the tally would have been 5–5, and a tie fails under the Bylaws excerpt.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It states the board \"rejected the Gala Committee's 3–0 recommendation of Harborview at $52,900 and awarded Saffron & Sage at $68,400, $15,500 higher\". Both bids and the difference are correct."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It concludes \"the BrightStage process followed the policy's disclosure, determination, recusal, competitive-bid, and approval requirements\". It cites her annual statement, the written email to the Chair, the oral disclosure, her leaving at 7:12 p.m., and the 10–0 vote for the lowest $18,250 bid. The noted documentation gap is not called a violation, and every next step targets Aldana only, so no action is proposed concerning her."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It concludes Saffron & Sage's $71,860 \"exceeds $39,400 under (b)... It is therefore reportable in Part IV\" on the 2025 Form 990 (FY July 2025–June 2026), because the 100% spouse ownership exceeds 35%."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "\"draft total revenue $3,940,000; 1% is $39,400; the greater of $10,000 or 1% is therefore $39,400.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It treats Arun as a family member and BrightStage (80% owned) as an interested person, then finds \"$18,250 does not exceed $100,000 under (a) or $39,400 under (b)... no Part IV reporting is triggered for BrightStage.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The first next step is \"Inform Mr. Aldana in writing of the basis for belief... and give opportunity to explain in writing or at a committee meeting within 15 days of notice\", before investigation and any board determination. It does not state deliberate concealment, noting \"The files do not state when he learned of the interest.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It requires disinterested directors to \"re-review under Article III, Sections 3(c)–(d)\", considering the three same-specification bids, and says \"If re-review finds payment above fair market value, consult legal counsel on excess benefit under IRC §4958 and recovery.\" It also warns against declaring an excess benefit before re-review."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"Mr. Aldana takes no part in Governance Committee or board deliberations or votes under Article IV, including as a Governance Committee member.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "It states that the board, \"by majority of disinterested directors,\" determines whether there was a failure to disclose and takes \"appropriate disciplinary and corrective action\". It also says to \"Require a corrected annual statement within 30 days of board determination.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.361Z"
+}

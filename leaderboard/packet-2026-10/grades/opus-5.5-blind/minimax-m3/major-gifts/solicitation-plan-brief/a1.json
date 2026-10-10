@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "minimax-m3",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "59bdb47caeb5348c",
+  "deliverableHash": "e501c1de40c7ae8b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The brief states \"Ask = $80,000. Stated as a single figure, not a range (§1.6).\" No other ask figure is proposed."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It identifies the largest household gift as \"$20,000 (Vandermolen Family Fund / Puget Lowlands Community Foundation DAF, 2025-10-14)\" and caps the ask at \"4 × $20,000 = $80,000\". It excludes the $25,000 Marine Supply sponsorship as a corporate gift."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The purpose is \"The Adult Literacy Program\": the Upriver evening tutoring site, or the Adult Literacy Endowment as the alternative. Open Doors is explicitly \"Not on the table\", including the Learning Lab."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The brief says \"No naming opportunity offered or proposed\" and lists the Learning Lab and Quiet Study Rooms only as excluded. No naming of any kind is suggested."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It states \"Anonymity governs all recognition\": no annual-report listing, no donor wall, \"No public acknowledgement of any kind\", and private acknowledgement by letter only. It says the CRM credit name \"does not apply going forward.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It states \"The ask is addressed to Celeste A. Vandermolen\" and quotes Martin's \"Celeste runs our giving — I just sign where she tells me.\" Martin is present but \"not asked for a sign-off in the room.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The brief says \"reach Celeste only at celeste.vdm@example.net (personal email) or (360) 555-0187 (home phone)\", with the meeting at the home at 1418 Cormorant Lane. The company line, vandermolenmarine.com email and Harbor Way mail are listed only under \"Do not\"."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The team is \"Relationship manager: Teresa Lindahl\" and \"Leadership partner: Lillian Cho\", justified by Celeste's request and Lillian's FY27 gift. No one else is added; Dr. Hartley only signs the acknowledgment letter."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It states \"A competing volunteer must be excluded\" and says Teresa will \"thank Mr. Hale, decline the offer\". It notes he is barred under COI §4, and Hale has no role."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The Rasmussen family, Ingrid Rasmussen and the $100,000 endowment gift are never mentioned. Talking point 7 instructs answering \"without naming any other donor, gift amount, or gift purpose.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The timing is \"A Tuesday evening in late October 2026, after the Vandermolens meet their financial advisor in mid-October\". That falls after the advisor meeting and before their November giving decisions."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The gifts, capacity ($382,000), inclination, quotations, home address, tutoring and preferences all trace to the CRM, contact reports and research profile. Calling the home setting \"per their stated preference\" is inference from \"come see us after the advisor meeting\" (said at their home on 2026-06-10) and the request to avoid the company, not an invented fact. No unsourced gift, asset, relative or quote appears."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.312Z"
+}

@@ -1,0 +1,14 @@
+{"packet": "J-738c18", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "Line 11 total support is \"3,671,600\", made up of line 1 contributions of 3,590,300 and interest and dividends of 81,300. The reconciliation also arrives at \"$3,671,600 total support.\""},
+{"id": "C-002", "verdict": "pass", "reasoning": "The memo says the $454,400 of program service revenue (workshop fees, river trip fees and the $256,000 county contract) goes \"on line 12 for information and [is] not part of public support or total support\". It adds that the county contract \"is a fee for services, not a government grant.\""},
+{"id": "C-003", "verdict": "pass", "reasoning": "The $182,000 March 2024 gain is described as \"a gain on the sale of a capital asset, which is excluded from total support\" and is subtracted in the reconciliation."},
+{"id": "C-004", "verdict": "pass", "reasoning": "It states \"Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432.\""},
+{"id": "C-005", "verdict": "pass", "reasoning": "Sarkis is counted at $50,000 with $0 excess. The memo explains that his $35,000 2023 gift exceeded 2% of that year's support, \"but the test runs on his five-year total, which is below $73,432\"."},
+{"id": "C-006", "verdict": "pass", "reasoning": "Upper Alder Community Foundation ($135,000) and Oregon DEQ ($160,000) are both marked \"Not limited\" and counted in full, as a 170(b)(1)(A)(vi) public charity and a governmental unit respectively."},
+{"id": "C-007", "verdict": "pass", "reasoning": "Hollins-Pryor Family Foundation is counted at $73,432 with $151,568 excess, because \"a private foundation is not a publicly supported organization\"."},
+{"id": "C-008", "verdict": "pass", "reasoning": "Line 6 public support is \"1,260,596\", after excess of $2,329,704 (Ostrander $1,951,568 + Dellwood $226,568 + Hollins-Pryor $151,568)."},
+{"id": "C-009", "verdict": "pass", "reasoning": "Line 14 shows \"34.33%\", and the answer section gives the same \"34.33%\"."},
+{"id": "C-010", "verdict": "pass", "reasoning": "The memo states \"Yes — we pass the 33⅓% test for 2025\" and \"We qualify as a publicly supported organization on line 16a without needing the facts-and-circumstances test.\""},
+{"id": "C-011", "verdict": "pass", "reasoning": "It says the result is \"narrowly\" a pass, \"about one percentage point above the 33⅓% line\", and that public support \"is $36,729 more than one-third of total support ($1,223,867).\""},
+{"id": "C-012", "verdict": "pass", "reasoning": "It states \"No contribution has been treated as an unusual grant\", citing the review that found none qualifies. It never suggests reclassifying Ostrander's gifts; it recommends broadening the donor base instead."}
+]}

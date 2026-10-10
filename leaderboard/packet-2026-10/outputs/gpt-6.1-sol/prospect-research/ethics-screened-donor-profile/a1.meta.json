@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "promptHash": "06ebcc384b44ba6b",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 4153,
+  "outputTokens": 2789,
+  "costUsd": 0.038271,
+  "latencyMs": 44039,
+  "createdAt": "2026-10-10T18:17:29.472Z"
+}

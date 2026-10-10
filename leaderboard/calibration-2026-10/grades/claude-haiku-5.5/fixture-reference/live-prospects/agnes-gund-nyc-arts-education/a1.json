@@ -1,0 +1,92 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/agnes-gund-nyc-arts-education",
+  "attempt": 1,
+  "taskHash": "c32d02435784d25d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable states plainly in the opening line: \"Agnes Gund died on September 18, 2025, at her home in Manhattan, aged 87.\" It also repeats the death in the red flags (\"She has died (September 18, 2025)\") and treats her as deceased throughout, with no contradictory living-tense claims about her current activities. The date matches the criterion exactly."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable's Section 2 states the source of her wealth as 'inherited wealth. Her father died in 1966 and left her a large fortune in trust.' Section 1 says 'Her father, George Gund II, built a fortune in real estate, brewing and investing and was for many years president of the Cleveland Trust Company.' This traces her wealth to her father George Gund II, matching the criterion's required point, and does not name a different father or attribute wealth to a husband or her own career."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable states that Gund was 'president from 1991 to 2002' at the Museum of Modern Art, and adds that she was chairman 1993 to 1995, a trustee from 1976, and President Emerita and Life Trustee afterwards. These match the criterion's permitted additions and the required years exactly. It does not call her founder, director, or current president."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable states in Section 1 that Gund 'founded it in 1977, with her own money, after New York City's fiscal-crisis budget cuts virtually eliminated art from the public schools. It places professional artists in public-school classrooms.' It also repeats Studio in a School as the incumbent NYC arts-education nonprofit Gund founded. The year is 1977, the founder is correctly credited, and the description matches the criterion. No contradicting founding year appears elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable states that in 2017 Gund privately sold Roy Lichtenstein's Masterpiece (1962) for $165 million, and in the giving table lists the Art for Justice Fund with a founding gift from the Masterpiece sale of $100,000,000 dated 2017. It also describes the fund as a criminal-justice-reform fund. It does not claim the whole sale price went to the fund, and no conflicting commitment amount, different painting, or different date appears. The criterion's required points are met."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the Art for Justice Fund 'closed on June 30, 2023, after more than $127 million in grants,' and treats its $100,000,000 founding gift only as past giving in the history table. The red flags section repeats 'The Art for Justice Fund is closed (June 30, 2023).' Nowhere does it recommend approaching or applying to the fund today, so the criterion is satisfied."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report identifies the AG Foundation with EIN 34-1606084 and states that its 'surviving trustees are her daughters Catherine Gund and Anna Traggio,' repeating both names in Section 7. It does not name anyone else as an AG Foundation trustee or decision-maker, and it states Agnes Gund has died rather than presenting her as a current decision-maker. The Gund Foundation role mentioned for Catherine Gund is attributed to a different organization."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's giving table lists AG Foundation → Studio In A School Association grants of $1,369,599 (2020), $545,619 (2021), $277,771 (2022), and $1,085,000 (2023), each matching the criterion's figures exactly. Section 7 also cites the $3.28 million total over 2020–2023, which is consistent with those figures. The criterion requires at least one matching amount and year, and multiple match, with no contradiction found."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report's current-size figures for the AG Foundation are dated: section 2 gives $34.3M book / $50.0M market 'at the end of 2024', and section 5 pairs the same figures with 'paid $3.9 million in grants in 2024'. The older $35.3M (2020) figure appears only in the red-flags trend line 'fell from $35.3 million in 2020 to $8.1 million in 2023 and $3.9 million in 2024', where it is explicitly labeled with its year and is not presented as current size. No undated or stale figure is presented as the foundation's current size."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report lists 'Studio in a School is the incumbent' as a red flag, stating that 'Gund founded it, and her foundation gave it $3.28 million over 2020–2023. A new NYC arts-education program competes directly for the same family's arts-education dollars unless it is clearly complementary.' It also advises positioning 'next to Studio in a School, not against it' and exploring partnership. This matches the criterion's requirement to flag the competitive overlap and call for differentiation or partnership."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report explicitly rules out approaching Gund: \"No ask to Agnes Gund. Remove her from solicitation lists, and plan no cultivation, ask or bequest request addressed to her.\" Its engagement steps target the AG Foundation's surviving trustees (Catherine Gund, Anna Traggio), the foundation itself, and Studio in a School, and the $10,000–$25,000 ask is framed as directed to the foundation. Timing advice concerns pressing the family, not Gund. Nothing in the report recommends meeting, cultivating or soliciting her."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'No unsolicited proposal' that the AG Foundation's Forms 990-PF say it gives only to preselected organisations and doesn't accept unsolicited requests, and it recommends seeking a personal introduction to trustees Catherine Gund and Anna Traggio. It does not recommend submitting any unsolicited application, letter of inquiry, or proposal, and does not describe an open application process or guidelines for applicants. This satisfies the PASS condition."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report does not recommend applying to or soliciting the George Gund Foundation for the NYC program. Instead, it lists the George Gund Foundation under red flags: \"The George Gund Foundation is not a route for this program. Its arts grants go to organisations in or directly serving the City of Cleveland. It does not prioritise arts education outside the Cleveland Metropolitan School District.\" This explicitly notes the geographic limit, so the FAIL condition is not met."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly disclaims the brothers' gifts: it states 'Don't credit her with her brothers' gifts. The Gund at Kenyon College honours her brother Graham,' and says the Foundation Fighting Blindness 'was co-founded by her brother Gordon; she was a supporter.' It does not attribute the Kenyon gallery, FFB co-founding, or sports team ownership to Agnes. The criterion's FAIL conditions are not triggered."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "I checked the report's key figures and facts against the fact sheet: death date (Sept 18, 2025), birth and family details, MoMA roles and dates, Studio founding (1977) and grant series ($1,369,599; $545,619; $277,771; $1,085,000), the AG Foundation's book and market assets, 2023–2024 grant totals, the Lichtenstein sale ($165M), the estate consignments, and the Chair/trustee roles of Catherine Gund and Anna Traggio. All match the fact sheet or fall within its stated tolerances. The report does not contradict any graded fact."
+    }
+  ],
+  "costUsd": 0.005388950000000001,
+  "usage": {
+    "inputTokens": 93018,
+    "cachedInputTokens": 77580,
+    "outputTokens": 5370
+  },
+  "gradedAt": "2026-10-10T13:59:37.285Z"
+}

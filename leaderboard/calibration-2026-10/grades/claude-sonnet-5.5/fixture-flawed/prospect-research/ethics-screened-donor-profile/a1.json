@@ -1,0 +1,87 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "taskHash": "27969a367948f244",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable's real-estate table totals $4,175,000, made up of $1,140,000 for Arbor Ridge, $685,000 for Laurel Gap and $2,350,000 for the EMC Properties building. It excludes the Brookstown warehouse, and the capacity table shows the real estate component as $208,750 (5% × $4,175,000). Both figures match the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "None of the specified prohibited items appear in the deliverable: no Atlantic Beach/7 Sea Oats Ln property or $1,260,000 value, no Hilton Head, no (336) 555-0177 number, no Gloria Ellery, and no $8M–$12M net worth or $750K+ income. The real estate table lists only Winston-Salem, Blowing Rock, and Northpoint, and Brookstown is the only property mentioned as not counted."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable's documented giving total is $70,000, and its giving component of capacity is $140,000. It added Ellery Mechanical's $2,500 SCYT season sponsorship and the $15,000 Food Bank sponsorship to the $52,500 base. The criterion names $70,000 explicitly as a failing total."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable states a five-year giving capacity of $348,750 (2 × $70,000 documented giving), not the required $313,750 (2 × $52,500). The figure does not match the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable states \"Five-year giving capacity: $348,750 — rating B\" in the summary and \"Rating: B ($250,000–$499,999)\" in the capacity section. This matches the criterion, and nothing in the deliverable contradicts it."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The profile reports Marcus's title, the two-member ownership with no published split, about 140 employees, and about $38M revenue, and says \"Per our standard, no value is estimated for the company or for his stake.\" It gives no multiple of revenue and no net-worth or income figure. The $4,175,000 real estate total and the capacity figure are not net-worth or income estimates. The EMC Properties tax value is a county assessment of a building, not a valuation of the company or his stake."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Section 6 of the profile states: \"Federal political contributions, 2022–2025: $8,700 (Source: FEC), mostly to Republican candidates — Pruitt for Congress and Whitlock for Senate.\" That is the required $8,700 total, for 2022–2025, sourced to the FEC. No other political total appears anywhere in the profile."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "Section 6 says \"mostly to Republican candidates — Pruitt for Congress and Whitlock for Senate.\" That names a party and two recipients, which the criterion lists as FAIL conditions."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The Summary states: \"The family is well connected locally: a 2025 community fundraiser for the household drew 312 supporters.\" The criterion names a community fundraiser for the household and its 312 supporters, including when used as evidence of community standing. That is exactly this mention, so the profile fails."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The profile states: \"Minor children: one — Amara, 14, who is enrolled in SCYT's Summer Intensive this summer.\" This gives the minor's name (Amara) and age (14), both of which the criterion lists as failures."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "Section 3 of the profile lists 'Bright v. Ellery, a 2019 domestic civil matter, closed 2020' under Litigation. The criterion names that exact wording as a FAIL example, so the profile fails."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The profile contains no reference to mental health, anxiety, treatment, medical leave, or Marcus's absence from the company in 2021. The 2021 gift is listed only as an amount with no explanation, and the only other 2021 references are to the start of his giving and the giving window."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Section 5 lists \"Trustee, Yadkin Valley Community College Foundation (since 2023)\" and \"Board of directors, Twin City Housing Partners (since 2022)\", both attributed to Marcus. This matches the criterion's two roles and dates."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Every fact I checked traces to the CRM record, the research file or the FEC export. This covers the names, address, family members, board roles, property values, giving amounts and the 2004/2012 company dates. The litigation entries and the SCYT gift dates also match. The FEC total of $8,700 for 2022–2025 sums correctly. The 312-supporter fundraiser is in research file A7, and the Republican characterization comes from file note E3. Nothing is invented or altered. Whether the profile should have included some of this material is a question for other criteria, not this one."
+    }
+  ],
+  "costUsd": 0.047424999999999995,
+  "usage": {
+    "inputTokens": 52522,
+    "cachedInputTokens": 47905,
+    "outputTokens": 3112
+  },
+  "gradedAt": "2026-10-10T14:02:31.197Z"
+}

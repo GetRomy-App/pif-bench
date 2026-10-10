@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies her as the 'Founder and president of Emerson Collective' and 'the widow of Apple co-founder Steve Jobs'. It states that her 'fortune was inherited, mostly as Apple and Disney shares', and accurately notes that Steve Jobs died in 2011, meeting all requirements of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in the summary that Emerson Collective is 'an LLC that combines grant-making, venture investing and advocacy.' Later, under philanthropic giving history, it reiterates, 'Emerson Collective: LLC, not a foundation. It has no Form 990 and no public grant list.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies the Waverley Street Foundation as her climate-focused 501(c)(3) private foundation (formerly organized as the Emerson Collective Foundation). It also correctly notes her commitment of '$3.5 billion over ten years' and describes it as a spend-down foundation."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in Section 1 that Powell Jobs is the 'majority investor and board chair of The Atlantic' and in Section 2 that 'Emerson Collective agreed to buy a majority stake in July 2017'. This fulfills all the requirements of the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable successfully identifies both of the D.C. ties mentioned in the criterion. It states, \"She controls The Atlantic, which is headquartered in Washington,\" and \"College Track, which she co-founded, runs a Southeast D.C. center.\" It also correctly notes that her stake in Monumental Sports & Entertainment was sold."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports her current net worth as '$13.9 billion' in the summary, and provides a table with figures of $13.9 billion, $13.7 billion, and $12.2 billion. It explicitly recommends to 'Use about $12–14 billion' and notes that older figures of $19–20 billion are superseded."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states under 'Holdings' that she sold her stake in Monumental Sports & Entertainment in December 2025 to the Qatar Investment Authority and Arctos Partners at a reported $7.2 billion enterprise value, confirming it is no longer a holding."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable names multiple nonprofit journalism organizations funded by Laurene Powell Jobs, including ProPublica, The Texas Tribune, Chalkbeat, and The 19th. It also provides accurate dollar amounts that match the criterion perfectly, such as 'ProPublica | $500,000 | 2016', 'The 19th | $100,000 | 2020', and 'about $37 million' in total nonprofit journalism giving."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable successfully separates for-profit media investments from philanthropic giving by listing The Atlantic, Axios, The Athletic, Ozy Media, and Pop-Up Magazine under the 'Wealth indicators and asset profile' section as 'Holdings'. It explicitly clarifies that The Atlantic stake is 'a for-profit investment, not a gift' and labels the others as 'all for-profit', keeping them entirely out of the charitable grants total."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly meets the criterion by explicitly stating in multiple sections that Emerson Collective does not accept unsolicited proposals. Under the 'Strategy' section, it advises, 'Do not send a proposal, letter of inquiry or cold pitch to Emerson Collective or the Waverley Street Foundation. Under Emerson's policy, unsolicited submissions are not considered.'"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly warns against sending unsolicited proposals, letters of inquiry, or cold pitches to both Emerson Collective and the Waverley Street Foundation, noting their strict policies against it. Instead, it exclusively recommends building a warm introduction through peer grantees or network connections."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable successfully names both education vehicles. It states under philanthropic vehicles that she co-founded the XQ Institute in 2015 with Russlynn Ali and that she co-founded College Track in 1997, matching all required details and founding years perfectly."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable recommends a specific ask amount of '$300,000 over three years ($100,000 a year)' and justifies it by explicitly referencing her documented grants to comparable newsrooms, stating: 'The anchor is her grants to comparable newsrooms: The 19th: $100,000... The Current: $170,000... The Texas Tribune and Chalkbeat: $200,000-$350,000 a year.'"
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable's factual claims align perfectly with the provided fact sheet. All dates, figures (such as net worth and specific grant amounts), roles, and statuses (like the sale of Monumental Sports and the LLC structure of Emerson Collective) are correct and accurately reflect the reference data."
+    }
+  ],
+  "costUsd": 0.20686599999999997,
+  "usage": {
+    "inputTokens": 65501,
+    "cachedInputTokens": 0,
+    "outputTokens": 6322
+  },
+  "gradedAt": "2026-10-10T14:00:08.371Z"
+}

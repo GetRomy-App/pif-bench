@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies in Section 2, item 1 that Priyanka Desai's $250 card gift was posted twice (G-41817 and G-41822). It correctly instructs to 'Delete G-41822, the later-entered posting; keep G-41817' and reduces the July total by $250.00."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies in the discrepancies table that Marisol Etxeberria's check 4410 (G-41809) was keyed as $15,000.00 but deposited as $1,500.00, and it prescribes correcting the gift amount to $1,500.00 for a reduction of $13,500.00."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly instructs to void the original acknowledgment and send a corrected one, stating: 'Void the $15,000 acknowledgment sent 2026-07-13 and send a corrected acknowledgment for $1,500.00.'"
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Hollis Grant's check as returned NSF on 2026-07-16. It states to 'Keep G-41810; post a reversing adjustment of −$500.00 dated 2026-07-16 in July' and correctly notes that the $15 bank fee is not a gift adjustment."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies the Lindgren check (G-41803) as an FY2026 gift based on its 2026-06-30 postmark. It instructs to 'Re-date to 2026-06-30 and move it to the year-end batch B-2606-YE', fulfilling all requirements of the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Checked and left alone' that G-41802 and G-41804 'stay in July as FY2027 gifts' because the postmark date determines the fiscal year."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the $77.87 difference between gross card gifts and net payouts is the PayBridge fee, which is 'expected.' It confirms that 'gifts stay at gross' and instructs that there should be 'No CRM entry' for this difference."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates and states the PayBridge fees as $77.87, derived from $3,335.00 gross card gifts and $3,257.13 net payouts, under the 'Checked and left alone' section."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Checked and left alone' that the $86.40 Valley Office Supply check is a vendor refund, not a gift, instructs not to enter it in the CRM, and notes that Finance codes it in the general ledger."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states the corrected July batch total in section 3, showing the initial $32,380.00 minus the four adjustments, resulting in exactly $17,130.00."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable includes a 'Tie-out to the bank' section that correctly bridges the corrected batch total to the bank's net of $18,123.53. The reconciling items include the PayBridge fees (-$77.87), the Lindgren check (+$1,000.00), and the Valley Office Supply refund (+$86.40). It explicitly lists an 'Unexplained difference' of $0.00."
+    }
+  ],
+  "costUsd": 0.09677800000000002,
+  "usage": {
+    "inputTokens": 29471,
+    "cachedInputTokens": 0,
+    "outputTokens": 3153
+  },
+  "gradedAt": "2026-10-10T13:58:43.658Z"
+}

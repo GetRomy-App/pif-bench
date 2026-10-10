@@ -1,0 +1,97 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "taskHash": "3fb8490c9553897b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report opens with an identity check that names Robert F. Smith as founder of Vista Equity Partners and explicitly separates him from the musician Robert Smith and Senator Robert C. Smith. All the biography, gifts, assets and legal matters it attributes to him (Cornell, Morehouse, SFI, the 2020 DOJ non-prosecution agreement) belong to Vista's Robert F. Smith. I found nothing merged in from another Robert Smith."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report states: \"Founder, Chairman and CEO of Vista Equity Partners, which he founded in 2000.\" This identifies him as founder, chairman and CEO and gives the 2000 founding year. Nothing in the report says he has stepped down."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states: \"B.S. in chemical engineering, Cornell University (1985); M.B.A., Columbia Business School (1994).\" This matches the criterion exactly, and no contradictory degree or year appears elsewhere in the report."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states \"**Residence:** Austin, Texas,\" citing the DOJ release and Forbes. It repeats the point in the connection points with \"He lives in Austin and Vista has an Austin office.\" No part of the report places his residence elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable states \"Net worth: about $10 billion\" as Forbes' real-time figure for March 8, 2026. It also gives $10.8 billion for April 2025 and $9.2 billion for April 2024. The current figure of $10 billion falls within the $9–13 billion band, and the deliverable does not contradict it elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report states: \"Giving vehicle: Fund II Foundation, his private foundation (EIN 47-2396669), founded in 2014. He is its founding director and President; recent 990-PFs list him as a director.\" This identifies the foundation as Smith's own and as a giving vehicle, which is what the criterion requires."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report lists the 2016 Cornell gift as \"$30 million ($20 million to the College of Engineering plus $10 million in scholarships)\" and mentions the naming of the Robert Frederick Smith School of Chemical and Biomolecular Engineering. The criterion requires a $50 million total, and states that $30 million is a FAIL. The deliverable never gives $50 million for Cornell, so the stated total is wrong."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The report lists the Morehouse Class of 2019 gift as \"**$40 million**\" with the May 19, 2019 loan payoff pledge. It does not give $34 million anywhere, and it does not present $40 million as an early estimate. The criterion fails any figure other than $34 million unless that framing is present."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report describes SFI as an initiative for STEM juniors and seniors at HBCUs, which Smith chairs and designed. It states '$50 million from Fund II Foundation (June 2020) plus $50 million personal gift from Smith (October 2020)', with each amount correctly attributed. It explicitly says Cisco's $150 million and Steinbridge's $100 million came from those firms, not Smith. It never says Smith personally gave $100 million."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Section 7 states that Prairie View A&M was one of SFI's first nine partner HBCUs (announced November 2020) and is still listed as an SFI partner. It also names the Texas Southern, Texas College and Jarvis Christian expansion, the 2014 Huston-Tillotson commencement address, and the $10,000 Fund II grant to Prairie View A&M. Each of these is a connection the criterion accepts."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report says \"No major gift from Smith to a Texas HBCU is on record. Fund II Foundation's only Texas HBCU grant is a $10,000 donation to Prairie View A&M in 2021.\" It also notes SFI participation at Prairie View A&M and the Texas schools in the 2021 expansion, and that he gave Huston-Tillotson's 2014 commencement address. These are all documented items, and the speech is not a gift. The report invents no other gift, pledge, or named fund at a Texas HBCU."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The report discloses the October 15, 2020 DOJ non-prosecution agreement over offshore entities (2000-2015). However, it gives the payment as \"$182 million in taxes and penalties, including the value of charitable-deduction claims he gave up.\" The criterion explicitly lists $182 million as a failing figure, and the report never states the $139 million total."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report says that on October 15, 2020 the DOJ announced a non-prosecution agreement and that \"He was not charged. He admitted the conduct, agreed to cooperate, and agreed to pay $182 million.\" It does not say he was indicted, convicted, cleared, or tied to Brockman. The legal status is stated accurately. Describing the matter as \"a story of accountability and second chances\" does not misstate it."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report says: \"In the first meeting, acknowledge his cooperation with the Justice Department as a story of accountability and second chances that fits the program's values; it will show him the institution is not put off by the matter.\" That recommends raising the tax matter with Smith and praising his cooperation with prosecutors, which the criterion names as a FAIL example."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The report gives a capacity range of \"$25–50 million\" for a single gift and a recommended ask of \"$10 million over five years.\" Both are stated in dollars, and the ask ($10M) is below the top of the capacity range ($50M) and below its bottom ($25M)."
+    },
+    {
+      "id": "C-016",
+      "verdict": "fail",
+      "reasoning": "The report contradicts the fact sheet in at least two places. It lists the Morehouse 2019 loan payoff as \"**$40 million**\", but the sheet says the gift reached about $34 million and calls $40 million an early press estimate. It also says Smith \"agreed to pay **$182 million** in taxes and penalties, including the value of charitable-deduction claims he gave up\". The sheet says he paid about $139 million in taxes and penalties and separately abandoned about $182 million in protective refund claims."
+    }
+  ],
+  "costUsd": 0.0649235,
+  "usage": {
+    "inputTokens": 76591,
+    "cachedInputTokens": 63105,
+    "outputTokens": 2493
+  },
+  "gradedAt": "2026-10-10T14:02:00.621Z"
+}

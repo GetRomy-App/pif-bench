@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states in the 'Career' section that Hastings 'Co-founded Netflix in 1997 and was its CEO from the late 1990s until January 2023', fulfilling all the requirements of the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly states that his roles as CEO, co-CEO, and Executive Chairman of Netflix are in the past, and that his current role is Chairman of the Board and a non-executive director. It also correctly lists his board seats at Microsoft and Facebook under 'Past' roles."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the 'Leaving Netflix' section that on April 16, 2026, Netflix disclosed Hastings will not stand for re-election at the June 2026 annual meeting, and that he remains chairman until then."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies Netflix equity as the core of his wealth and states that he owns under 1% of the company. It provides sourced and dated net worth estimates from Forbes ($4.1 billion and $4-5.5 billion) and Bloomberg ($6.6 billion), all of which fall within the required $3 billion to $8 billion range."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states, \"He is married to Patty Quillin, his partner in giving,\" in the personal background section. Furthermore, it details her involvement in their philanthropy by listing her as a co-signer of the Giving Pledge, a co-donor for the $120 million HBCU gift, and a co-listed funder for the Charter School Growth Fund."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report includes an entry in the giving history table for January 2016 that describes the Hastings Fund as an \"education donor-advised fund at SVCF\" with an amount of \"$100 million.\" This perfectly matches all the details required by the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable accurately reports the January 2024 gift in the philanthropic giving history table, stating he gave 2,000,000 Netflix shares worth ~$1.1 billion to SVCF (his donor-advised fund). This exactly matches the required date, asset, amount, and recipient."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies The City Fund in the philanthropic giving history table. It notes the July 2018 launch, its focus on charter and autonomous public schools in cities, names the Hastings Fund and Laura and John Arnold as anchor funders, and states that about $200 million was raised at launch (with $125M from the Hastings Fund)."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report states in the giving history table that in June 2020, Hastings and Quillin gave $120 million ($40M each) to UNCF, Spelman College, and Morehouse College for HBCU scholarships."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Summary that \"Hastings sits on CSGF's board, and CSGF is headquartered in Denver.\" It also mentions under the engagement strategy that he is a board member and a \"$10M-plus funder\" for the Denver-headquartered organization, fulfilling all requirements for this criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report correctly identifies Lone Rock as an educators' retreat in Bailey, Park County, Colorado that Hastings financed, and notes in the 'Key connection points' section that he is president of the Lone Rock Foundation. It also correctly states that he lives in Santa Cruz, California, avoiding the failure conditions."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "In Section 5, 'Estimated giving capacity: single gift to an education nonprofit', the deliverable explicitly states his capacity is '$50 million or more.' This meets the criterion's requirement to estimate his single-gift capacity at $40 million or higher."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends routing the first approach through the Charter School Growth Fund (CSGF) and utilizing the Pahara and Lone Rock networks. It also explicitly advises against cold asks, stating, 'Do not send unsolicited proposals to the Hastings Fund' and noting that 'The Lone Rock Foundation makes grants only to preselected organizations, so do not send it a proposal.'"
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable accurately incorporates facts from the reference sheet, including specific dates, share counts, gift amounts, and his current and past roles at Netflix. No factual claims in the report contradict the provided ground truth."
+    }
+  ],
+  "costUsd": 0.200666,
+  "usage": {
+    "inputTokens": 70519,
+    "cachedInputTokens": 0,
+    "outputTokens": 4969
+  },
+  "gradedAt": "2026-10-10T14:00:23.268Z"
+}

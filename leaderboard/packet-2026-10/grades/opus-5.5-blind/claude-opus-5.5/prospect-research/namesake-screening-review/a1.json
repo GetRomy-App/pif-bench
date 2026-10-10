@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "0f941c985515fb99",
+  "deliverableHash": "99d6bcd4aaf9c261",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "\"Hit 1: ACCEPTED\". The memo's table shows name, address, spouse Karen L. Miller and age 61 all as \"Match\", and adds \"All four match, and there are no conflicts.\" That is more than two named identifiers."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "\"Hit 2: REJECTED\" with \"Spouse | Jennifer S. Miller | Conflict\" and \"Age | 47 | Conflict\". The deciding identifiers are named as the spouse and age conflicts."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "\"Hit 3: REJECTED\", with \"Deciding identifier: The age conflict\" (age 29). The table also notes the different address."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "\"Hit 4: ACCEPTED\" on \"Name, mailing address and co-owner match\". The capacity table counts \"118 Shore Dr, Marblehead (2025 appraised) | $390,000\" in the prospect's real estate."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The Millers sold 9 Elm Ct to Ravi K. Patel by general warranty deed recorded 2026-06-30... 9 Elm Ct is therefore excluded from capacity.\" It is excluded because it was sold."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "\"Total real estate | $1,235,000\" and \"5% of real estate | $61,750\" match the required base."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Securities are \"$0 (none found in the files)\". The SBIO Form 4 holding ($18,900,000) is listed as excluded because it \"Belongs to the rejected Hit 2.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The Ohio State $250,000 gift is \"Rejected. This gift belongs to the Hit 2 individual\" because of the spouse conflict (Jennifer S.). It is not used in the calculation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "\"Largest documented gift (Granville Public Library Foundation, 2024) | $15,000\" and \"3 × largest gift | $45,000\" match the required figures."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The Denison $20,000 gift is excluded. The gift table marks it \"No (2019 is before 2021-09-14)\", and Section 6 says \"The gift is also outside the five-year window (2019).\" The date is among the stated reasons."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The Licking Memorial listing is \"Counted at the bottom of the range, $10,000\", which is the bottom of its band."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"Five-year capacity (line 4 + line 6 + line 8) | $106,750\" is stated as a single figure."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "\"Rating: C ($100,000–$249,999)\" is the required rating."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The Hit 4 confirmation and capacity line 2 for 118 Shore Dr both cite \"[documents/county-records.md]\"."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The prospect is credited only with the Granville and Marblehead properties, his museum gifts, and the Granville Library and Licking Memorial gifts, all tied to David and Karen in the files. Hit 2's assets and the OSU gift are explicitly excluded. Nothing invented appears, and the CFO role comes from the CRM."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.785Z"
+}

@@ -1,0 +1,102 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "taskHash": "6ecaa58cdf72fb57",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly specifies under D-01: 'Merge 23118 (Bob Okafor) into 10457 (Robert T. Okafor)' and confirms 'Surviving ID 10457 — the lowest ID, even though 23118 is the active sustainer record', listing 23118 under Retired IDs."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly specifies the preferred address for the merged Okafor record as '2209 Halsted Ct, Lake Oswego, OR 97034' in both the summary table and the detailed group decision for D-01."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states for the Okafor merge: 'Combined lifetime giving: $4,350 + $2,400 = $6,750' and also lists $6,750 in the summary table."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "In group D-02, the deliverable explicitly states: 'Merge 24410 (Priya R. Castellano) into 11876 (Priya Raman)' with 'Surviving ID 11876' and lists 24410 under Retired IDs."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly designates the preferred name on surviving ID 11876 as 'Priya R. Castellano', noting in both the summary table and the D-02 details that Raman is kept as the former name ('Preferred name Priya R. Castellano, with Raman kept as former name')."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "In both the summary table and the group D-02 section, the deliverable explicitly states the combined lifetime giving as $2,775: 'Combined lifetime giving: $1,650 + $1,125 = $2,775.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "In section D-03, the deliverable explicitly states: 'Merge 19650 (Dr. Anne Kowalczyk) and 26031 (Ann Kowalcyzk) into 10822 (Anne M. Kowalczyk).' It designates surviving ID 10822 and calculates combined lifetime giving as '$18,425 + $2,500 + $350 = $21,275'."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable merges 20877 (Hal Whitcomb) into 10234 (Harold J. Whitcomb) with 10234 surviving. It explicitly states that surviving ID 10234 'stays deceased, 2025-11-02'."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "In both the summary table and the detailed narrative for group D-04 (Whitcomb), the deliverable states the combined lifetime giving as $38,450 ($36,950 + $1,500), correctly excluding Margaret E. Whitcomb's giving."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under D-04: '11092 Margaret E. Whitcomb — not merged, not deceased. She is Harold's widow... Her record stays active and solicitable at 2500 NE Neff Rd Apt 214, the household link to 10234 stays, and she becomes the household's primary contact. Do not copy the deceased flag to her record or to the household (§4.3, §4.4).' This fully meets the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable merges 25503 into 18342 (Thomas E. Brennan Jr.) with 18342 as the surviving ID and a combined lifetime giving of $3,840 ($3,240 + $600), while correctly taking no action on 10119."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under D-05: '10119 Thomas E. Brennan Sr. — no action. Born 1951, not 1979, and suffix Sr. against Jr.; the shared ranch phone and address do not make him the same person. He is not merged with either record...'"
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "In section D-06, the deliverable explicitly states: 'Household 13304 (Daniel Ferreira) and 22760 (Sofia Ferreira); do not merge. Different first names and birth years (1975, 1977); the 2020 gift memo \"from Daniel and Sofia\" and Sofia's note about her husband Daniel show they are spouses who were never linked (§4.3).' This correctly links them as a household and keeps them as two records rather than merging them."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Under group D-07, the deliverable explicitly states: 'No action: 12650 and 21977 are different people. Same name only — born 1984 vs 1962, and no email, phone or address in common.' The records are neither merged nor householded."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly keeps 30044 and 31207 separate under D-09, stating: 'No action. 30044 Cascade Crest Service Club (EIN 93-0817446) and 31207 Cascade Crest Service Club Foundation (EIN 93-1550329) are separate legal entities; organizations merge only on matching EINs (§4.5).'"
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly keeps both Ngozi A. Okafor (10458) and Marco Castellano (24409) as separate records. In D-01, it states: '10458 Ngozi A. Okafor — no action. She is Robert's spouse, already linked; spouses are householded, never merged'. In D-02, it states: '24409 Marco Castellano — not merged. He is Priya's spouse; his spouse link moves from 24410 to 11876'. Neither is merged into any record."
+    },
+    {
+      "id": "C-017",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly specifies 'No action' for both Group D-08 (Morrow) and Group D-10 (Park/Parks), keeping Linda Morrow (15238) and Katherine Morrow (26874) separate as mother and adult daughter, and Ellen Park (16602) and Ellen Parks (25119) separate as different people."
+    }
+  ],
+  "costUsd": 0.045335249999999994,
+  "usage": {
+    "inputTokens": 52677,
+    "cachedInputTokens": 0,
+    "outputTokens": 1554
+  },
+  "gradedAt": "2026-10-10T13:58:52.376Z"
+}

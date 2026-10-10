@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo correctly computes program expenses excluding gifts in kind as $4,886,000, but removes only donated food from the denominator, reporting “Total expenses excluding gifts in kind” of “$6,335,000.” Its calculation, “$4,886,000 ÷ $6,335,000 = 77.1%,” fails the criterion, which requires also removing $95,000 of donated legal services for a denominator of $6,240,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The memo reports the policy program expense ratio as “$4,886,000 ÷ $6,335,000 = 77.1%” and repeats 77.1% in its summary. The criterion requires 78.3% using a $6,240,000 denominator and explicitly identifies 77.1% as a failing figure."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The summary lists the program expense ratio as 77.1% against a target of “80.0% or higher” and marks it “Not met.” Section 1 also states “below the 80.0% target. Not met,” with no contradictory claim elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The fundraising denominator explicitly deducts “Less bequest — Estate of Harriet M. Okafor, received August 2025” of $600,000, yielding contributions of $3,985,000. The memo explains that “The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring,” satisfying the required rationale."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo lists contributions of $18,930,000, subtracts $14,345,000 in noncash contributions and the $600,000 bequest, and states “Contributions for this indicator” are “$3,985,000.” It also uses that same denominator in “$866,300 ÷ $3,985,000,” satisfying the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo reports cost to raise a dollar as \"$0.22\" in the summary and shows \"$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.\" These inputs and the reported rounded result match the criterion; the memo does not report a conflicting cost-to-raise-a-dollar figure."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The summary labels the $0.22 cost to raise a dollar as “Met” against a target of “$0.20 or less.” The detailed section also says it is “within the policy's $0.25 threshold, so the indicator is met,” treating the external-review threshold as the target rather than reporting that the $0.20 target was not met."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo starts its operating reserve calculation from “Total net assets, Part X line 32, end of year | $7,852,000,” then subtracts property and equipment to report a $2,744,000 reserve. It does not start from the required $6,612,000 of net assets without donor restrictions, so it includes the $1,240,000 of donor-restricted net assets and triggers the criterion’s explicit failure condition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo reports an operating reserve of \"$2,744,000,\" calculated from \"$7,852,000\" in total net assets less \"$5,108,000\" in fixed assets. The criterion requires $1,504,000 using net assets without donor restrictions, and explicitly disallows the $2,744,000 figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The reserve calculation lists “Annual operating expenses” as “$5,794,000,” subtracting $446,000 depreciation and $14,275,000 gifts in kind expensed from $20,515,000 total functional expenses. It also states monthly operating expenses of “$482,833,” matching the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo reports “$2,744,000 ÷ $482,833 = 5.7 months” and also lists 5.7 months in its summary. The criterion requires 3.1 months using $1,504,000 ÷ $482,833 and explicitly fails a reported figure of 5.7."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The summary reports months of operating reserve as “5.7 months,” against a target of “3.0 months or more,” and marks it “Met.” Section 3 also explicitly states “above the 3.0-month target. Met,” with no contrary statement elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo states, “The program expense ratio is down from 81.6% in fiscal 2024.” No reference file provides that prior-year ratio or the fiscal 2024 functional expenses needed to compute it. This unsupported prior-year comparison fails the criterion, independent of any calculation or policy-application errors elsewhere."
+    }
+  ],
+  "costUsd": 0.0282841,
+  "usage": {
+    "inputTokens": 27164,
+    "cachedInputTokens": 21086,
+    "outputTokens": 1100
+  },
+  "gradedAt": "2026-10-10T14:01:39.738Z"
+}

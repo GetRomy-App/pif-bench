@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "promptHash": "a864374a59b6a3ae",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 4589,
+  "outputTokens": 5079,
+  "costUsd": 0.124521,
+  "latencyMs": 40971,
+  "createdAt": "2026-10-10T18:14:03.205Z"
+}

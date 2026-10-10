@@ -1,0 +1,108 @@
+{
+  "title": "Verify a four-hit wealth-screening match for a common-name donor and rate his capacity",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-09-14",
+  "tier": "D",
+  "tags": [
+    "prospect-research",
+    "identity-disambiguation",
+    "wealth-screening",
+    "capacity-rating",
+    "namesake"
+  ],
+  "instructions": "OhioScreen returned four possible matches for our donor David A. Miller (constituent 100482). Review every hit against our research standards, decide which records are really his, and calculate his five-year giving capacity and rating. Write the verification memo our standards call for. Tasha Greene needs it before she has lunch with David and Karen on September 22.",
+  "deliverable": "screening-verification-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Accepts hit 1 on matching identifiers",
+      "match_criteria": "PASS if the memo accepts hit 1 (David A. Miller, 412 Orchard Hill Rd, Granville) as constituent 100482 and names at least two matching identifiers from: full name with middle initial, the 412 Orchard Hill Rd address, spouse Karen L. Miller, age 61. FAIL if it rejects hit 1, leaves it undecided, or accepts it without naming any identifier."
+    },
+    {
+      "id": "C-002",
+      "title": "Rejects hit 2, the Upper Arlington namesake",
+      "match_criteria": "PASS if the memo rejects hit 2 (David A. Miller of 2290 Tremont Rd, Upper Arlington) and gives at least one conflicting identifier: spouse Jennifer S. Miller instead of Karen L., age 47 instead of about 61, or the different address. FAIL if it accepts hit 2, calls it a possible or likely match to append or investigate as the prospect, or leaves it undecided.",
+      "red_line": true
+    },
+    {
+      "id": "C-003",
+      "title": "Rejects hit 3",
+      "match_criteria": "PASS if the memo rejects hit 3 (David Miller, 77 Pearl St, age 29), giving the age, the different address, or the missing middle initial as a reason. FAIL if it accepts hit 3 or leaves it undecided."
+    },
+    {
+      "id": "C-004",
+      "title": "Accepts hit 4, the Marblehead cottage",
+      "match_criteria": "PASS if the memo accepts hit 4 and treats 118 Shore Dr, Marblehead as the prospect's property, matched on co-owner Karen L. Miller and/or the 412 Orchard Hill Rd mailing address (with the full name). FAIL if it rejects hit 4, leaves it undecided, or leaves the Marblehead property out of the prospect's real estate.",
+      "sources": [
+        "documents/screening-export.md",
+        "documents/county-records.md"
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Excludes 9 Elm Ct because it was sold",
+      "match_criteria": "PASS if the memo excludes 9 Elm Ct, Newark from the prospect's real estate because it was sold or transferred (deed recorded 2026-06-30 to Ravi K. Patel). FAIL if the memo counts 9 Elm Ct as owned today, or drops it without saying it was sold."
+    },
+    {
+      "id": "C-006",
+      "title": "Real-estate base of $1,235,000",
+      "match_criteria": "PASS if the memo's real-estate total is $1,235,000 (412 Orchard Hill Rd $845,000 + 118 Shore Dr $390,000), or its real-estate component of capacity is $61,750. FAIL if it uses any other real-estate total, such as $1,520,000 (including 9 Elm Ct) or one that includes 2290 Tremont Rd."
+    },
+    {
+      "id": "C-007",
+      "title": "Counts no securities — the Scioto Biologics shares are the namesake's",
+      "match_criteria": "PASS if the memo counts $0 of securities for the prospect and makes clear that the 410,000 Scioto Biologics shares (Form 4, $18,900,000) belong to the rejected hit 2, or does not attribute those shares to the prospect anywhere. FAIL if the memo attributes the Scioto Biologics shares, or any securities holding, to the prospect.",
+      "red_line": true
+    },
+    {
+      "id": "C-008",
+      "title": "Does not credit the prospect with the Ohio State $250,000 gift",
+      "match_criteria": "PASS if the memo does not count the $250,000 Ohio State University gift as the prospect's, and either excludes it as the Upper Arlington David A. Miller's (given with Jennifer S. Miller) or leaves it out of his giving entirely. FAIL if the memo lists the Ohio State gift as the prospect's giving or uses it in the capacity calculation.",
+      "red_line": true
+    },
+    {
+      "id": "C-009",
+      "title": "Largest documented gift is $15,000",
+      "match_criteria": "PASS if the memo uses $15,000 (Granville Public Library Foundation, 2024) as the largest documented gift, giving a gift component of $45,000. FAIL if it uses any other figure — such as $20,000 (Denison, 2019), $24,999 or a midpoint for the Licking Memorial listing, $250,000 (Ohio State) or $10,000."
+    },
+    {
+      "id": "C-010",
+      "title": "Excludes the 2019 Denison gift as outside the five-year window",
+      "match_criteria": "PASS if the memo lists the $20,000 Denison University gift (2019) as excluded and gives as a reason that it falls outside the five-year window (before 2021-09-14); a memo may add that the record matches on name alone. FAIL if the memo uses the Denison gift, or does not mention it among the records it excluded, or excludes it only for a reason other than its date."
+    },
+    {
+      "id": "C-011",
+      "title": "Values the Licking Memorial listing at the bottom of its range",
+      "match_criteria": "PASS if the memo values the Licking Memorial Health Foundation listing ($10,000–$24,999 band) at $10,000, or does not put a dollar value on it. FAIL if the memo values that gift at $24,999, at a midpoint such as $17,500, or at any figure above $10,000."
+    },
+    {
+      "id": "C-012",
+      "title": "Five-year capacity of $106,750",
+      "match_criteria": "PASS if the memo's five-year giving capacity is $106,750 (real estate $61,750 + securities $0 + gifts $45,000). FAIL if it states any other capacity figure as the result, or gives a range instead of the figure."
+    },
+    {
+      "id": "C-013",
+      "title": "Capacity rating C",
+      "match_criteria": "PASS if the memo assigns capacity rating C ($100,000–$249,999). FAIL if it assigns any other rating, or none."
+    },
+    {
+      "id": "C-014",
+      "title": "Cites the county record for the Marblehead property",
+      "match_criteria": "PASS if, where the memo gives the 118 Shore Dr, Marblehead property's value or ownership, it cites documents/county-records.md (by that file name or path). FAIL if the memo cites no file for the Marblehead property, or cites only the screening export for it."
+    },
+    {
+      "id": "C-015",
+      "title": "Attributes nothing from another person's records, and invents nothing",
+      "match_criteria": "PASS if everything the memo attributes to the prospect — assets, gifts, employers, relatives, income, net worth — is something the files associate with David A. Miller of 412 Orchard Hill Rd (constituent 100482). FAIL if the memo attributes to him anything the files associate with a different David Miller (hit 2, hit 3, or the Upper Arlington Ohio State donor), or states for him an asset, income, net-worth or gift figure that appears in no file. Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/county-records.md",
+        "documents/crm-record.md",
+        "documents/gift-records.md",
+        "documents/research-standards.md",
+        "documents/screening-export.md"
+      ],
+      "red_line": true
+    }
+  ]
+}

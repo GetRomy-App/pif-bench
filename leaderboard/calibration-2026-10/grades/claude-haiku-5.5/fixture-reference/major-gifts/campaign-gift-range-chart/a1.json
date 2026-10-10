@@ -1,0 +1,82 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "taskHash": "c17ae8627cb7ff5a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart lists the lead tier as '1 (lead)' with gift amount '$2,000,000' and number of gifts '1', and explains 'lead gift = 20% × $10,000,000 = $2,000,000'. It explicitly states counsel's method of 2026-06-23 replaces the April retreat draft, so it does not use the $1,500,000 figure. This matches the criterion exactly."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart lists exactly four named tiers: $2,000,000 × 1, $1,000,000 × 2, $500,000 × 4, and $250,000 × 8, followed by an 'All other gifts' row. It explicitly explains that the next tier would be $125,000, below the $250,000 floor, so no named tier below $250,000 is charted. It does not use the April draft's tiers."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The chart lists cumulative totals of $2,000,000, $4,000,000, $6,000,000 and $8,000,000 for tiers 1 through 4, matching the criterion. The All other gifts row is $2,000,000 with cumulative total $10,000,000, which the deliverable derives as $10,000,000 − $8,000,000 and does not reduce for booked commitments. Every figure the criterion specifies is present and correct, with no contradictions elsewhere in the deliverable."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable credits the Hollis Family Foundation's signed $1,000,000 pledge (2026-06-30) as one gift in hand at the $1,000,000 tier, and the Lindqvists' signed $300,000 pledge (2026-08-12) as one gift in hand at the $250,000 tier. It explicitly states 'Neither Hollis nor the Lindqvists is counted as a prospect,' and neither name appears in the prospects-by-tier table. Both donors are at the correct tiers and excluded from prospects identified, so the criterion is satisfied."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly treats the Abernathy-Kim Family Fund as a prospect at the $500,000 tier, stating it is \"a verbal intention with no signed pledge. It is not a gift in hand and is not reported as committed; the fund is counted as a prospect at the $500,000 tier.\" The $500,000 tier shows 0 gifts in hand and 4 gifts still needed, so the intention does not reduce the gifts still needed. The three-biggest-gaps section also notes it is \"still only a verbal intention,\" consistent with the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly lists Desmond Achebe-Lowry, Corinne Ashworth, and Fenwick and Lila Haraway under 'Not counted — inclination N' and none appear in the tier prospect lists. The L-coded prospects Lucien Park ($500,000 tier), Ivan and Sofia Petrakis ($250,000 tier), and Kenji and Amara Sato ($250,000 tier) are all counted in the tier table. The criterion's conditions are fully met."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable places Thaddeus Rourke (H), Marguerite Delacroix-Benn (M), Ivan and Sofia Petrakis (L), and Beaumont Hardware Co. (M) in the $250,000 tier row, and explicitly notes that 'Rating 5 ($400,000–$749,999)... bottom, $400,000, is below $500,000, so all four rating-5 prospects are counted at $250,000.' None of the four appears in the $500,000 row, so the criterion's PASS condition is met and the FAIL condition is not triggered."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's chart shows the $2,000,000 lead tier with 'Prospects needed 3 (3:1)', 'Prospects identified 1', and 'Gap 2'. The prospects-counted table lists only Castellane Foundation (M) at the $2,000,000 tier, and Desmond Achebe-Lowry is explicitly 'Not counted — inclination N'. All three required figures match the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable's $1,000,000 tier row shows Gifts in hand 1, Gifts still needed 1, Prospects needed 3 (3:1), Prospects identified 2, and Gap 1. The prospects-counted table lists Margaret and Elliot Thornbury (H) and Gideon Salcedo (M) at the $1,000,000 tier, matching the criterion. All required figures match the criterion's values, with no contradiction elsewhere."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The chart's $500,000 row shows 0 gifts in hand, 4 gifts still needed, 16 prospects needed, 4 prospects identified, and gap 12. The prospects listed at that tier are Helena Voss, Abernathy-Kim Family Fund, Lucien Park, and Wendell and Grace Oduya, matching the criterion's named four. The deliverable explicitly treats Abernathy-Kim as a prospect, not a committed gift, and does not place rating-5 prospects at this tier."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable's $250,000 tier row shows 1 gift in hand (Lindqvist, $300,000 pledge), 7 gifts still needed, 28 prospects needed (4:1), 7 prospects identified, and gap 21. The prospects listed at this tier are Thaddeus Rourke, Marguerite Delacroix-Benn, Ivan and Sofia Petrakis, Beaumont Hardware Co., Odessa Grant, Rafael Quintero, and Kenji and Amara Sato, exactly matching the criterion's seven. Haraway (inclination N) and rating-7 prospects are explicitly excluded, and rating-5 prospects are not moved up."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The criterion requires the three biggest gaps to be the $250,000 tier, then the $500,000 tier, then the $2,000,000 lead tier, and fail if the $1,000,000 tier appears among them or the order differs. The deliverable's 'Three biggest gaps' section lists exactly: 1. $250,000 tier (21 short), 2. $500,000 tier (12 short), 3. $2,000,000 lead tier (2 short), with the $1,000,000 tier mentioned only afterward as 1 short and outside the top three. This matches the required tiers and order."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every prospect and donor named in the chart appears in the pipeline export or commitments log, and the ratings and inclination codes match the CSV (e.g., Castellane 1/M, Thornbury 3/H, Rourke 5/H, Quintero 6/H, Blackwood 8/H). The pledge amounts ($1,000,000 Hollis, $300,000 Lindqvist, $150,000 Albers, $86,500 trustees) match the commitments log, and the $500,000 Abernathy-Kim figure matches the pipeline note. The rating-band dollar thresholds cite a rating key and method document that are not in the reference set, but they are cited as sourced, so they do not show an unsourced fact."
+    }
+  ],
+  "costUsd": 0.00242861,
+  "usage": {
+    "inputTokens": 38619,
+    "cachedInputTokens": 36291,
+    "outputTokens": 3552
+  },
+  "gradedAt": "2026-10-10T14:03:02.688Z"
+}

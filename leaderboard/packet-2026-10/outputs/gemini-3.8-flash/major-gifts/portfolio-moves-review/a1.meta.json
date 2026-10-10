@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "promptHash": "65948d1880faab2f",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 6131,
+  "outputTokens": 20685,
+  "costUsd": 0.082167,
+  "latencyMs": 97008,
+  "createdAt": "2026-10-10T18:26:44.188Z"
+}

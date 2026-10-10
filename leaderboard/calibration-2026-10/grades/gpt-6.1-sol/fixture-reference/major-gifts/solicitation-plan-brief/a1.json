@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "26eced12bda7318c",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states “The ask: $80,000” and consistently proposes “$80,000 over two years for the Adult Literacy Program.” The $95,000 figure is identified only as the pre-cap calculation, not an alternative ask, and no ask range is given."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly identifies the household's largest gift as the \"$20,000 Adult Literacy gift of 2025-10-14\" from the Vandermolen Family Fund, \"their donor-advised fund.\" It applies the required cap of \"4 × $20,000 = $80,000\" and sets the ask at $80,000, while explicitly excluding the corporate gala sponsorship and the gift to another organization."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly proposes “$80,000 over two years for the Adult Literacy Program,” funding the Upriver evening tutoring site plus learner materials and GED test vouchers. Its alternatives remain within Adult Literacy, and it states, “No Open Doors or Eastside Branch option will be raised.” No prohibited program or unrestricted-support alternative is offered."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly states, “No naming opportunity of any kind will be offered (policy A5),” and requires anonymous recognition with “No plaques, no lists, no announcements.” It mentions Martin’s earlier interest in “a building with our name on it” only to reject it as “not the plan”; nowhere does it offer or suggest naming anything after the couple or anyone else."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The recognition section states, \"Anonymous\" and explicitly says the gift \"will not appear in the annual report, on any donor wall or in any announcement\" and \"will be acknowledged privately by letter to their home.\" It also directs staff to change the CRM recognition name from \"Martin & Celeste Vandermolen\" to Anonymous and offers no naming opportunity; no public recognition is proposed elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly says, “Ask Celeste,” and cites Martin's statement, “Celeste runs our giving — I just sign where she tells me.” It further specifies that Martin may attend, “but the ask is made to Celeste,” and rejects his earlier building interest as the basis for the plan. This identifies Celeste as the decision-maker and directs the solicitation to her without contradiction."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The plan specifies that Teresa will arrange the meeting using Celeste’s personal email, \"celeste.vdm@example.net,\" with the home phone, \"(360) 555-0187,\" as backup, and will follow up by personal email. It places the meeting \"at their home\" and says \"Never at the company.\" It explicitly prohibits business channels: \"Nothing goes through Vandermolen Marine Supply,\" including business email, the store’s main line, and mail to 220 Harbor Way."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly identifies the team as “Teresa Lindahl with Lillian Cho” and explains that Celeste requested Lillian and that Lillian “has made her FY27 gift.” It includes no unauthorized team member and expressly states, “Gregory Hale has no role.”"
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The brief explicitly states, “Gregory Hale has no role,” and says he “takes no part in cultivating or soliciting the Vandermolens until it is resolved.” It also directs Teresa to decline his offer and withdraws the earlier note naming him as co-solicitor. No role for Hale is proposed elsewhere in the plan."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The plan nowhere names the Rasmussens or Ingrid Rasmussen, mentions their $100,000 gift, or describes that gift indirectly. Instead, it instructs the solicitors to “do not name other donors or describe anyone's gift — speak to the program's needs instead,” and sizes the ask using the Vandermolens’ capacity and household giving history."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The plan sets the \"Ask meeting: the week of October 26, 2026 (early November as the fallback),\" after the couple’s mid-October financial advisor meeting and no later than November. The early-October email is explicitly to arrange the late-October meeting, not to make the ask."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The stated donor facts are supported by the files, including the \"$382,000\" capacity estimate, Celeste's $20,000 DAF recommendation, and her instructions that gifts be anonymous and contact avoid the company. Quotations such as \"Celeste runs our giving\" and \"we don't do buildings\" match the contact reports. The $80,000 two-year gift and October meeting are proposed solicitation arrangements, not invented historical facts or donor commitments."
+    }
+  ],
+  "costUsd": 0.0243377,
+  "usage": {
+    "inputTokens": 27317,
+    "cachedInputTokens": 23332,
+    "outputTokens": 1206
+  },
+  "gradedAt": "2026-10-10T14:03:44.972Z"
+}

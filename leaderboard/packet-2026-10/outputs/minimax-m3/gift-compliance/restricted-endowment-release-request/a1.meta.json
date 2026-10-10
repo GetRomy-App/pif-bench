@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "promptHash": "87c63d2684767766",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 2979,
+  "outputTokens": 10559,
+  "costUsd": 0.01350642,
+  "latencyMs": 50894,
+  "createdAt": "2026-10-10T18:29:27.850Z"
+}

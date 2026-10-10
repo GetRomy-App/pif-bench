@@ -1,0 +1,17 @@
+{"packet": "J-a70b0a", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "The report states \"LYBUNT Count: 11 households\" and \"Total LYBUNT Households: 11\", and the roster lists 11 household IDs."},
+{"id": "C-002", "verdict": "pass", "reasoning": "The report states \"SYBUNT Count: 9 households\", and the roster lists nine households."},
+{"id": "C-003", "verdict": "pass", "reasoning": "The report gives \"Donor Retention Rate (FY2025 to FY2026): 68.2% (15 of 22 donor households retained from the prior fiscal year)\" and shows \"15/22 = 68.1818...% → 68.2%\". The numerator and denominator are both stated. The deliverable is cut off partway through the denominator list, but the rate and both figures are stated earlier."},
+{"id": "C-004", "verdict": "pass", "reasoning": "H-20387 Dana Whitfield is on the LYBUNT roster. Her FY2027 entry \"is a soft credit for a matching gift from Northgate Systems (30012) and does not count as her own gift\"."},
+{"id": "C-005", "verdict": "pass", "reasoning": "H-20951 Gregory Szabo is on the LYBUNT roster. His FY2027 $250 gift \"was refunded on 2026-07-22... and does not count in any fiscal year\"."},
+{"id": "C-006", "verdict": "pass", "reasoning": "H-21233 Marguerite Osei is on the LYBUNT roster. Her FY2027 records \"are soft credits from her peer-to-peer birthday campaign page\" and she \"has zero FY2027 countable gifts\"."},
+{"id": "C-007", "verdict": "pass", "reasoning": "H-20114 Celeste Moreau is on the LYBUNT roster with \"G-20534: $250.00 (2026-06-30)\", noted as a \"Gift posted on the final day of FY2026\"."},
+{"id": "C-008", "verdict": "pass", "reasoning": "The Achebe household (H-23105) does not appear on the LYBUNT roster. It appears only in the FY2025 retention denominator list."},
+{"id": "C-009", "verdict": "pass", "reasoning": "H-21540 lists \"21540: Erik Lindqvist / 21541: Annika Lindqvist\" as one household row: \"Joint check split between spouses; counts as one countable gift event for the household\"."},
+{"id": "C-010", "verdict": "pass", "reasoning": "H-22901, with Benjamin and Clara Hartwell, is on the LYBUNT roster. Benjamin does not appear on the SYBUNT roster."},
+{"id": "C-011", "verdict": "pass", "reasoning": "H-25012 Lorraine Abernathy is on the SYBUNT roster, because her FY2026 gift \"was refunded on 2026-04-21 and does not count\". She is not on the LYBUNT roster."},
+{"id": "C-012", "verdict": "pass", "reasoning": "H-25230 Walter Pruitt is on the SYBUNT roster: \"Gift on 2020-08-18 falls in FY2021... putting him within the 5-year SYBUNT window\"."},
+{"id": "C-013", "verdict": "pass", "reasoning": "Ingrid Solberg is listed under \"Explicit Exclusions from SYBUNT\" as \"lapsed\" because her last gift was in FY2020. She appears on neither list."},
+{"id": "C-014", "verdict": "pass", "reasoning": "H-26802 (Samir and Leila Haddad) appears once on the SYBUNT roster, with the joint check \"counts once for household H-26802 on the final day of FY2025\". The household is not on the LYBUNT roster."},
+{"id": "C-015", "verdict": "pass", "reasoning": "The report states that gifts from Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club and Ferncliff Brewing Co. \"are excluded from counts and rates regardless of amount\". None of the four appears on either roster or in the retention denominator list."}
+]}

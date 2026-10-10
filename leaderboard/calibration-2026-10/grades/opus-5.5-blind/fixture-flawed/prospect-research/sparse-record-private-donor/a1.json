@@ -1,0 +1,74 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "71060ec3085a0521",
+  "deliverableHash": "baafcdea9789fb19",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The Emily Hartwell in the Colorado Business Ledger story is not our Emily.\" It names both conflicts: \"age 34 against about 58 (birth year 1968); husband Andre Hartwell against Daniel P. Hartwell.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo states \"None of the $84 million sale belongs to our donor.\" It lists the article and the Trailhead Form D under \"Records rejected\". Neither the sale, the ~30% stake nor the founder role is used in the rating or the ask."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "Under \"Records attributed to her\" the memo lists \"**Camp:** 9 Dunmore Camp Rd, Salisbury ... owner Emily J. Hartwell, 2026 listed value $296,500 ... we count it as hers\". It then counts the camp under real estate in the rating section. That is attributing the camp and counting its value."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo reports the Foxcroft Ln home at \"**listed value $301,800**\" and repeats \"the Middlebury home ($301,800)\" in the rating section. That is the superseded 2025 value, not the 2026 value of $412,300."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies \"Hartwell Bookkeeping & Tax, LLC ... manager and registered agent Emily R. Hartwell, 48 Foxcroft Ln. No revenue or value is published.\" It says the LLC \"is noted and not counted\" as a wealth indicator."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo answers \"Net worth: we cannot give one. Our standards do not allow the office to estimate or report net worth for any prospect (Section 4).\" It gives no net-worth figure or range anywhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo rates her \"**U — Unrated (insufficient data)**\" because only real estate has a verified record. It notes no public securities, no published business value and no gift of $5,000 or more, and says it \"gives no capacity figure or range.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The recommendation is only \"the $1,500 paddle-raise ask at the gala, with a thank-you call from you afterwards.\" The memo never recommends a discovery visit with Emily."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo uses the 2025-10-25 $1,000 gala paddle raise as \"the one to use for a gala ask\" and lists the $750 Spring Appeal only as history. The criterion requires $750 as the last gift and expressly fails $1,000."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The recommended gala ask is \"**Ask = 1.5 × $1,000 = $1,500**\", not $1,250. The criterion lists $1,500 as a failing amount."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo attributes to Emily R. Hartwell the Lake Dunmore camp (\"owner Emily J. Hartwell ... Listed with a Denver mailing address ... we count it as hers\"). The files attribute that camp to someone else: the article says the Denver Emily Hartwell \"now owns\" her grandparents' Lake Dunmore camp, and the grand list shows owner Emily J with a Denver mailing address. Stating as hers an asset the files attribute to another person fails this criterion."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.567Z"
+}

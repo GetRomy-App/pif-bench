@@ -1,0 +1,85 @@
+{
+  "title": "Review a gala's vendor contracts for conflicts of interest and Schedule L reporting",
+  "track": "packet",
+  "work_type": "review",
+  "as_of": "2026-08-24",
+  "tags": [
+    "finance-governance",
+    "conflict-of-interest",
+    "board-governance",
+    "form-990",
+    "schedule-l",
+    "related-party"
+  ],
+  "instructions": "Lorraine Pettigrew, who chairs the governance committee, wants a memo for the committee before it meets on September 3. Review the controller's note and the records attached to it against our conflict-of-interest policy, and tell the committee which of the Spring Gala vendor transactions involved a conflict of interest, what the policy required and whether it was followed, whether anything has to be reported on Schedule L of the Form 990 now being prepared, and what the policy says must happen next.",
+  "deliverable": "gala-vendor-conflict-review.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Identifies Aldana's interest in the catering contract",
+      "match_criteria": "PASS if the memo identifies that director Thomas Aldana had a financial interest in the Saffron & Sage Events catering contract through his spouse, Celeste M. Aldana, the company's sole member — an actual or possible conflict of interest under the policy. FAIL if it concludes there was no conflict or no financial interest, says the interest was not his because the company belongs to his wife, does not connect Celeste M. Aldana to Thomas Aldana as his spouse, or treats the catering contract as having been handled in compliance with the policy.",
+      "red_line": true
+    },
+    {
+      "id": "C-002",
+      "title": "Finds Aldana disclosed nothing, on his statement or at the meeting",
+      "match_criteria": "PASS if the memo finds that Aldana did not disclose the interest as the policy requires, naming both failures: he answered \"No\" to Question 2 on his annual statement signed 2026-01-20, after Saffron & Sage had submitted its bid on 2026-01-08; and he made no disclosure before or at the 2026-02-12 board meeting, where the minutes record that no director other than Ms. Ramaswamy disclosed. FAIL if it says he disclosed, or names only one of the two failures."
+    },
+    {
+      "id": "C-003",
+      "title": "Finds he took part and voted instead of leaving",
+      "match_criteria": "PASS if the memo states that the policy required Aldana to leave the meeting during the discussion of and vote on the catering contract and not to vote (Article III, Sections 2–3), and that instead he spoke for Saffron & Sage, made the motion to award it the contract and voted for it. FAIL if it says he recused or abstained, or does not say that he voted."
+    },
+    {
+      "id": "C-004",
+      "title": "Notes that his vote decided the outcome",
+      "match_criteria": "PASS if the memo notes that the catering motion carried 6–5 only with Aldana's vote: without it the vote would have been 5–5, and a tie fails under the bylaws. FAIL if it says the motion would have carried without his vote, or does not address whether his vote decided the outcome."
+    },
+    {
+      "id": "C-005",
+      "title": "States the $15,500 premium over the recommended lowest bid",
+      "match_criteria": "PASS if the memo states that Saffron & Sage's $68,400 bid was $15,500 (about 29%) more than the lowest bid, Harborview Provisions' $52,900, which the Gala Committee had recommended. FAIL if it misstates either bid or the difference, or does not compare Saffron & Sage's price with the lower bids."
+    },
+    {
+      "id": "C-006",
+      "title": "Clears Ramaswamy — her conflict was handled as the policy requires",
+      "match_criteria": "PASS if the memo finds that Priya Ramaswamy's interest in BrightStage AV Services (owned by her brother, Arun Ramaswamy) was handled as the policy requires — disclosed on her annual statement, in writing to the chair before the meeting and orally at it; she left the room; the ten remaining directors determined the conflict and approved the lowest bid ($18,250) 10–0 — and that no action is needed concerning her. FAIL if the memo says she violated the policy, recommends any disciplinary or corrective action concerning her, calls the audio-visual contract improper, or treats her case as equivalent to Aldana's.",
+      "red_line": true
+    },
+    {
+      "id": "C-007",
+      "title": "Saffron & Sage payments must be reported on Schedule L, Part IV",
+      "match_criteria": "PASS if the memo concludes that the payments to Saffron & Sage Events LLC must be reported in Schedule L, Part IV, of the 2025 Form 990 (fiscal year ended June 30, 2026), because the LLC is an interested person (more than 35% owned by a director's family member) and the $71,860 paid under the single catering contract exceeds the single-transaction threshold. FAIL if it concludes the transaction is not reportable (for example because $71,860 is below the $100,000 aggregate threshold), defers reporting to a later year's return, or leaves the question open."
+    },
+    {
+      "id": "C-008",
+      "title": "Single-transaction threshold of $39,400",
+      "match_criteria": "PASS if the memo gives the Schedule L single-transaction threshold as $39,400 — the greater of $10,000 or 1% of the $3,940,000 total revenue. FAIL if it states $10,000 as the threshold without the 1%-of-revenue comparison, states any other figure, or applies only the $100,000 aggregate threshold."
+    },
+    {
+      "id": "C-009",
+      "title": "BrightStage payments are not reportable",
+      "match_criteria": "PASS if the memo concludes that the $18,250 paid to BrightStage AV Services LLC need not be reported in Schedule L, Part IV, because it is below the $39,400 single-transaction threshold (and the $100,000 aggregate threshold). FAIL if it says the BrightStage payments must be reported, concludes they are not reportable without testing them against the single-transaction threshold, or reasons that a director's brother is not a family member or that BrightStage is not an interested person."
+    },
+    {
+      "id": "C-010",
+      "title": "Notice and a chance to explain come before any finding",
+      "match_criteria": "PASS if the memo says the committee must first inform Aldana in writing of the basis for its belief and give him the opportunity to explain the failure to disclose (Article IV, Section 1) before any finding or disciplinary action; the memo need not state the 15-day period. FAIL if it omits this step, treats removal, resignation or another sanction as already decided, or states as fact that Aldana deliberately concealed the interest."
+    },
+    {
+      "id": "C-011",
+      "title": "Disinterested directors re-review the catering contract, with counsel if overpaid",
+      "match_criteria": "PASS if the memo says the disinterested directors must re-review the catering contract under Article III, Sections 3(c) and 3(d) — whether a more advantageous arrangement was available (the $52,900 and $55,750 bids) and whether the contract was fair and reasonable — and that if the Theatre paid more than fair market value the board must consult legal counsel on whether the payment may be an excess benefit transaction under IRC section 4958 and on recovering the excess. FAIL if it omits the re-review or the counsel step, or declares as settled that an excess benefit transaction occurred."
+    },
+    {
+      "id": "C-012",
+      "title": "Keeps Aldana out of the committee's own review",
+      "match_criteria": "PASS if the memo states that Aldana, although a member of the Governance Committee, must take no part in the committee's or the board's deliberations or votes on this matter (Article IV, Section 4). FAIL if it does not address his committee membership, or proposes that the committee act on the matter with him taking part."
+    },
+    {
+      "id": "C-013",
+      "title": "Board determination and a corrected statement follow",
+      "match_criteria": "PASS if the memo states that, after the committee reports its findings, the board — by a majority of the disinterested directors — decides whether Aldana failed to disclose and what disciplinary and corrective action to take, and that Aldana must file a corrected annual statement within 30 days of the board's determination. FAIL if it omits the board's determination or the corrected annual statement."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "romy-2026-04",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "e663556c1b60f8d5",
+  "deliverableHash": "fcc10835525e5f68",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report lists him as \"Co-Founder & Former CEO, Netflix, Inc. — Founded 1997 with Marc Randolph; served as CEO through 2023, then Executive Chairman.\" The founding year is 1997 and the end of the CEO tenure is 2023, which the criterion accepts."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The Netflix role is given historically: \"Executive Chairman through 2025; stepping down from board June 2026\", and his current-roles list calls him \"Co-Founder & Former CEO\". Nowhere is he presented as Netflix's current CEO or Executive Chairman in April 2026. Facebook/Meta and Microsoft do not appear among his current boards."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "\"In April 2026, Hastings announced he will not seek re-election to the Netflix board, marking a full governance exit by mid-2026\". Elsewhere it says he is \"stepping down from the Netflix board in June 2026.\" It does not say he had already left."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The net-worth ranges ($5.4B–$6.6B and $5.7B–$6.6B, sourced to Forbes) fall within $3–8B, and Netflix equity is named as the core of his wealth. However, the report states his ~21.16 million shares are \"approximately 4.8% of outstanding shares.\" The criterion fails any report that says he owns 2% or more of Netflix today."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It names \"Spouse: Patricia Ann 'Patty' Quillin\". It says the couple \"signed the Giving Pledge together in 2012 and have made all major gifts jointly, including the $120 million HBCU donation.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The report describes the Hastings Fund as \"A donor-advised fund (DAF) at the Silicon Valley Community Foundation (SVCF), established 2016\". It never says it was launched as a $100 million education fund. The only size it gives is \"$1.6 billion+ in cumulative contributions\", and the $100 million appears only inside a cited URL."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "\"$1.1 billion (2 million Netflix shares) to SVCF/Hastings Fund — January 2024.\" The month, the share count, the value and the recipient are all correct."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The report never mentions The City Fund or its 2018 launch with the Arnolds."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "\"HBCU Scholarships: $120 million landmark gift in 2020 ($40M each to UNCF, Morehouse, Spelman).\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "\"Board Member, Charter School Growth Fund — ... headquartered in Broomfield, Colorado.\" Broomfield is an accepted Colorado location, and the seat is presented as current."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report describes \"his development of the 2,000+ acre Lone Rock Retreat in Bailey, Colorado, a nonprofit professional development center specifically for public and charter school educators.\" It notes the property \"is nonprofit-owned, so it does not contribute to personal net worth.\" His residence is given as Santa Cruz, and Lone Rock is not called a home."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"Major Gift Capacity (single initiative): $5 million – $25 million for a relationship-first solicitation; $25 million – $50 million+ plausible after deep cultivation.\" The top of that range is $50 million+, above the $40 million floor."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Phase 1 says to \"Secure a warm introduction through a shared board member at Charter School Growth Fund, KIPP, or Pahara. Cold outreach will almost certainly fail.\" The guardrails add \"Do not send unsolicited grant proposals to the Hastings Fund at SVCF.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report says his Netflix shares are \"approximately 4.8% of outstanding shares\", but the fact sheet (row 2.1) puts his stake under 1% of the shares outstanding. It also says he was \"Executive Chairman through 2025\", while the sheet dates the end of that role to April 17, 2025."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.484Z"
+}

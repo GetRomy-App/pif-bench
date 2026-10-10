@@ -1,0 +1,67 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states for P-01: 'Deductible amount: $420 = $750 − 2 × $165 ($330)' and specifies the estimated value of the two seats as $330. This exactly matches the required criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Under P-01, the deliverable explicitly states: 'Must state: $750 received 2026-08-19; in exchange they received two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330; the §6115 statement that the deductible amount is limited to the excess of the payment over the value of the goods and services provided; \"Your deductible contribution is $420.\"' This satisfies all conditions of the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the goods and services for P-02 at $3,750 ('Goods and services: $3,750 — the table of 10 at the $375 ticket price, as Dana entered it') rather than the correct $2,050. The criterion explicitly requires FAIL if it values those benefits at any other figure, such as the CRM's $3,750."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable gives P-02 a deductible amount of $6,250 ('Deductible amount: $6,250 = $10,000 − $3,750') and approves the CRM entry as 'Correct as entered' instead of providing $7,950 and requiring a correction."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies P-03 (Ruth Abernathy) as having a deductible amount of $375 because she declined her seat in writing on the reply card and no seat was reserved. It explicitly specifies that her acknowledgment must state 'No goods or services were provided in exchange for your contribution', must not state a seat value or QPQ disclosure, and instructs CRM corrections from $210 receipt amount / $165 benefit to $375 receipt amount / $0 benefit."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable gives P-04 a deductible amount of $750 and approves Dana's pending change ('CRM: approve Dana's pending change (benefit $0, GALA-GIFT, receipt amount $750)'), stating that because the Tanakas did not attend, no goods or services were provided. The criterion explicitly states FAIL if it approves the pending change, gives any deductible amount other than $420, or says that not attending makes the payment a gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies that for P-05 (Denise Okafor), the deductible amount is $200 (the gift to Books for Every Backpack) and explicitly states that the $100 for raffle tickets is not a charitable contribution and is not deductible. It explicitly directs that the acknowledgment must state a contribution of $200 and must not state a $300 gift or any deductible amount for the raffle tickets."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable reduces Harriet Lindgren's deductible amount to $1,335 ($1,500 − $165) and explicitly states that her acknowledgment must describe and value a gala seat ('Must state: $1,500 received 2026-09-15; one gala seat, good-faith estimate $165...'). According to the criterion instructions, reducing her deductible amount or stating that her acknowledgment must describe or value a gala seat requires a FAIL."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "For P-07 (Owen Pelletier), the deliverable states a deductible amount of $60, confirms that 'He gets an acknowledgment like every donor (policy §2.1)', and specifies that the acknowledgment must state '\"No goods or services were provided in exchange for your contribution\"'."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Under P-08, the deliverable explicitly states: 'The §6115 disclosure sentence is not needed: the deductible portion is only $30, under the $75 threshold.' The criterion explicitly specifies: 'FAIL if it gives any other deductible amount (such as $195 or $0), or says the disclosure is not required because the deductible portion ($30) is under $75.'"
+    }
+  ],
+  "costUsd": 0.02453475,
+  "usage": {
+    "inputTokens": 27693,
+    "cachedInputTokens": 0,
+    "outputTokens": 1004
+  },
+  "gradedAt": "2026-10-10T13:57:46.528Z"
+}

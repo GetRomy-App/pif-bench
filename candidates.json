@@ -1,0 +1,14 @@
+[
+  { "id": "claude-opus-5.5", "model": "anthropic/claude-opus-5.5", "family": "anthropic", "label": "Claude Opus 5.5" },
+  { "id": "gpt-6.1-sol", "model": "openai/gpt-6.1-sol", "family": "openai", "label": "GPT-6.1 Sol" },
+  { "id": "gemini-3.1-pro", "model": "google/gemini-3.1-pro-preview", "family": "google", "label": "Gemini 3.1 Pro" },
+  { "id": "gemini-3.8-flash", "model": "google/gemini-3.8-flash", "family": "google", "label": "Gemini 3.8 Flash" },
+  { "id": "minimax-m3", "model": "minimax/minimax-m3", "family": "minimax", "label": "MiniMax M3" },
+  { "id": "muse-spark-1.3", "model": "meta/muse-spark-1.3", "family": "meta", "label": "Muse Spark 1.3" },
+  { "id": "gpt-6-luna", "model": "openai/gpt-6-luna", "family": "openai", "label": "GPT-6 Luna" },
+
+  { "id": "romy-2026-04", "family": "romy", "label": "Rōmy (Deep Research, Apr 2026)" },
+  { "id": "claude-ai-2026-04", "family": "anthropic", "label": "Claude.ai — Opus 4.7 Adaptive (Apr 2026)" },
+  { "id": "chatgpt-2026-04", "family": "openai", "label": "ChatGPT — GPT-5.3 (Apr 2026)" },
+  { "id": "gemini-app-2026-04", "family": "google", "label": "Gemini app — 3.1 Pro (Apr 2026)" }
+]

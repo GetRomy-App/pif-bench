@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "promptHash": "355196be8538dce0",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 5804,
+  "outputTokens": 3016,
+  "costUsd": 0.0446685,
+  "latencyMs": 47802,
+  "createdAt": "2026-10-10T18:15:31.505Z"
+}

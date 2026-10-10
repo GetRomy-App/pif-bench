@@ -1,0 +1,19 @@
+{"packet": "J-c5b91d", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "The summary row for D-01 shows Surviving ID 10457 and Retired 23118. The decisions read \"**10457 — MERGE, SURVIVE**\" and \"**23118 — MERGE, RETIRE into 10457**\"."},
+{"id": "C-002", "verdict": "pass", "reasoning": "The Okafor merge gives \"Preferred address 2209 Halsted Ct, Lake Oswego, OR 97034 — most recent address-updated date 2023-05-14 versus 2017-03-09\"."},
+{"id": "C-003", "verdict": "pass", "reasoning": "The memo states \"Combined lifetime giving $6,750.00 = $4,350.00 + $2,400.00\". Ngozi's $1,200 is not included."},
+{"id": "C-004", "verdict": "pass", "reasoning": "The D-02 summary shows Surviving 11876 and Retired 24410. The decisions read \"**11876 — MERGE, SURVIVE**\" and \"**24410 — MERGE, RETIRE into 11876**\", and treat Raman/Castellano as a documented married surname."},
+{"id": "C-005", "verdict": "pass", "reasoning": "The merged record's name is \"Preferred name Priya R. Castellano, former name Priya Raman — 24410 carries the newer married surname\"."},
+{"id": "C-006", "verdict": "pass", "reasoning": "The memo states \"Combined lifetime giving $2,775.00 = $1,650.00 + $1,125.00\". Marco's $250 is not included."},
+{"id": "C-007", "verdict": "pass", "reasoning": "The memo reads \"**MERGE all three, SURVIVE 10822**\" with \"retired 19650 and 26031\". It gives \"Combined lifetime giving $21,275.00 = $18,425.00 + $2,500.00 + $350.00\"."},
+{"id": "C-008", "verdict": "pass", "reasoning": "The memo reads \"**20877 — MERGE, RETIRE into 10234**\" with 10234 surviving. The merge specification states \"Deceased 2025-11-02 — any merged record deceased makes survivor deceased with same date\"."},
+{"id": "C-009", "verdict": "pass", "reasoning": "The memo states \"Combined lifetime giving $38,450.00 = $36,950.00 + $1,500.00\". Margaret's $9,600 is not included."},
+{"id": "C-010", "verdict": "pass", "reasoning": "11092 is \"NO ACTION, retain household; NOT MERGED\". The memo states the \"Deceased flag on 10234 is never set on or copied to spouse\", and that \"living spouse 11092 becomes household primary contact, active and solicitable ... not-deceased status.\""},
+{"id": "C-011", "verdict": "pass", "reasoning": "The memo reads \"**25503 — MERGE, RETIRE into 18342**\" with 18342 surviving. It states \"Combined lifetime giving $3,840.00 = $3,240.00 + $600.00\"."},
+{"id": "C-012", "verdict": "pass", "reasoning": "The memo reads \"**10119 — NO ACTION; NOT MERGED with either**\", citing the different birth year (1951 vs 1979) and the Sr./Jr. suffix conflict."},
+{"id": "C-013", "verdict": "pass", "reasoning": "Both records are \"HOUSEHOLD, NOT MERGED\", and the memo says \"Action: link 13304 and 22760 as spouses/household; each keeps own record and own giving.\""},
+{"id": "C-014", "verdict": "pass", "reasoning": "Both 12650 and 21977 are \"NO ACTION; NOT MERGED\". No identifier matches and the birth years conflict (1984 vs 1962). The memo says the files establish no household relationship, so the pair is kept apart and not left undecided."},
+{"id": "C-015", "verdict": "pass", "reasoning": "30044 and 31207 are \"NO ACTION; NOT MERGED. EINs do not match and a club and the foundation it set up are separate legal entities.\""},
+{"id": "C-016", "verdict": "pass", "reasoning": "10458 is \"NO ACTION, retain existing household; NOT MERGED\" and 24409 is \"NOT MERGED, HOUSEHOLD\". Neither is merged into any record."},
+{"id": "C-017", "verdict": "pass", "reasoning": "15238 and 26874 (Morrow) are both \"NO ACTION; NOT MERGED\". 16602 and 25119 (Park/Parks) are both \"NO ACTION; NOT MERGED\"."}
+]}

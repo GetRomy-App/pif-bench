@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "taskHash": "59bdb47caeb5348c",
+  "deliverableHash": "cf562dde0cd20bc7",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The heading reads \"Ask amount: **$80,000**\" and the talking-point ask is \"a gift of $80,000\". $95,000 appears only as an intermediate sizing step that the cap overrides, so the ask is one figure, not a range."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The sizing table caps the ask at \"4 × largest household gift ... Largest household gift is $20,000\" and marks the 2025-10-14 $20,000 Vandermolen Family Fund donor-advised-fund gift as \"the largest household gift\". It excludes the $25,000 corporate sponsorship and the Maritime Heritage Society gift. Cap = $80,000."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The proposed purpose is the \"Adult Literacy Program (non-campaign)\", built around the Upriver site, with the Adult Literacy Endowment as an alternative. The brief states \"Not proposed: Open Doors or any part of it, including the Adult Literacy Learning Lab.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The brief states \"No naming of any kind is offered under Policy A5\" and proposes no naming anywhere. If Martin raises the Eastside branch, it tells the team not to \"pivot to Open Doors or naming.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It states \"The gift is anonymous\" with \"no annual report listing; no donor wall; no announcement; private acknowledgment by letter.\" The CRM recognition name appears only in an action item to have it changed, not as a name to use."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The addressee is \"Celeste Vandermolen, with Martin present\", citing Martin's own \"Celeste runs our giving\" and Policy section 4. The ask is directed to her, not to the CRM's primary name."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The brief says to \"Contact Celeste only, by personal email (celeste.vdm@example.net) or home phone ((360) 555-0187)\" and \"Do not use the company\". The meeting is set at the couple's home, with the library as an alternative, and follow-up goes \"by personal email or home address only.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The solicitation team is \"Teresa Lindahl with Lillian Cho as leadership partner\", noting Celeste asked for her and \"She has made her FY27 gift\". No one else is added to the team."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The brief states \"Gregory Hale is not part of the team in any role\", cites the COI section 4 arbitration conflict, and says Teresa \"should decline his offer\". He has no role in the plan."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The Rasmussen gift, its $100,000 amount and any fellow-tutor description appear nowhere in the brief. On \"who else is supporting adult literacy\" it tells the team to speak only in general terms and \"not name, describe or size any other donor's gift, including anonymous ones\", which is an allowed general instruction."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Timing is \"late October to early November 2026\", and the meeting \"should therefore come after the advisor meeting and before their November decisions.\" This matches the required window."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The donor facts all trace to the files: the gift history, the $382,000 capacity, the home address, the tutoring since 2023, the mother learning to read at 58, Martin's 2022 building remark, the anonymity and contact preferences, and the advisor timing. Presenting \"Their giving goes to adult literacy\" as Celeste's words paraphrases the 2026-06-10 report of what she said, so it is not invented. I found no gift, asset, family member or preference without a source in the files."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.766Z"
+}

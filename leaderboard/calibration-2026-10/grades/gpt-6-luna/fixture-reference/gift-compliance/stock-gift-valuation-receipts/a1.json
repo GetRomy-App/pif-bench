@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet dates G-1 to “2026-01-02,” identifies tax year “2026,” and explains the shares were credited to the account that day. The Marchettis’ receipt also says the shares were credited on January 2, 2026, and the deliverable explicitly rejects dating it December 29."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The Marchetti gift is listed at “$25,068.00,” calculated as “$62.67 × 400 = $25,068.00.” The deliverable identifies $62.67 as the mean of QPXI’s January 2 high of $63.48 and low of $61.86, so it meets the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable dates G-2 to **2025-12-30**, places it in **2025**, and gives its value as **$9,557.50**, calculated as 250 × $38.23, the mean of the stated high and low. The sale proceeds are separately identified and do not replace the gift value."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The sheet dates G-3 as “2025-12-31” and assigns it to tax year “2025,” explaining that the properly endorsed certificate’s postmark is the gift date. The Fenn receipt also says it was “mailed to us on December 31, 2025.”"
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable values G-3 at “$10,149.60,” calculated as “$84.58 × 120.” It identifies $84.58 as the mean of ORCX’s 2025-12-31 high ($85.22) and low ($83.94), matching the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet dates G-4 Szabo’s shares as “2025-12-31” and places the gift in tax year “2025.” The notes also confirm the shares were credited to the fund account on that date."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable states that G-4 is valued at “812.345 × $24.68 = $20,048.67” and lists the gift value as “$20,048.67,” matching the required NAV valuation on 2025-12-31."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "None of the four receipt texts states a dollar value, per-share price, or estimated value. The proposed donor responses address gift dates and explain that valuation is for Ruth-Ann and her accountant; neither gives a value or price."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt names the security and states the required share count: 400 shares of Quarry Point Industries, 250 of Harrow Valley Bancorp, 120 of Ostrander Railcar Corporation, and 812.345 of Lantern Ridge Balanced Fund, Class A. None omits either detail or gives a different count for the fund shares."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipts states: “No goods or services were provided in exchange for your gift.” None says goods or services were provided."
+    }
+  ],
+  "costUsd": 0.0034005,
+  "usage": {
+    "inputTokens": 23918,
+    "cachedInputTokens": 0,
+    "outputTokens": 823
+  },
+  "gradedAt": "2026-10-10T13:59:26.630Z"
+}

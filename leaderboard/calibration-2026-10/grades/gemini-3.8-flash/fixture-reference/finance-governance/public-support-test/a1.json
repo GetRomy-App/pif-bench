@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly computes and reports the five-year total support (line 11, column (f)) as $3,671,600, detailing the contributions and grants of $3,590,300 plus interest and dividends of $81,300, and explicitly reconciles exclusions."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly places the $454,400 of program service revenue on line 12 only ('Gross receipts from related activities (not in support)') and excludes it from both public support and total support. It specifically details the components (landowner workshop fees, guided river trip fees, and the Kettle County contract) and notes that the county contract is a fee for services rather than a government grant."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly leaves the $182,000 gain out of total support, stating: 'Realized gain on the March 2024 sale of securities, $182,000 — a gain on the sale of a capital asset, which is excluded from total support.' Line 10 (Other income) is kept at zero, and the reconciliation explicitly subtracts the $182,000."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly computes the 2% limit as $73,432: 'Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432' and applies this exact figure throughout the calculations."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes Benedict Sarkis in the table with $50,000 total, counts $50,000 as public support, and notes $0 excess with the explanation: 'Under the limit. His $35,000 gift in 2023 was more than 2% of that year's support, but the test runs on his five-year total, which is below $73,432.' No part of his gifts is excluded, and the 2% limit is applied to five-year totals rather than year-by-year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes the full $135,000 from Upper Alder Community Foundation and the full $160,000 from the Oregon Department of Environmental Quality in public support, noting both as 'Not limited' because grants from publicly supported organizations and governmental units count in full without applying the 2% limit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly includes Hollins-Pryor Family Foundation in the 2% limit table, noting '2% limit applies — a private foundation is not a publicly supported organization', counting $73,432 as public support and excluding $151,568 as excess (line 5)."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states public support on Line 6 as $1,260,596, calculated from total contributions of $3,590,300 less $2,329,704 in excess contributions, which matches the required figure and component excess calculations exactly."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly computes and reports the public support percentage as 34.33% (line 14: line 6 ÷ line 11, column (f) = $1,260,596 ÷ $3,671,600 = 34.33%) both in the narrative summary and in the computation table."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in 'The answer' section: 'Yes — we pass the 33⅓% test for 2025, but narrowly. Our public support percentage for 2021–2025 is 34.33%... We qualify as a publicly supported organization on line 16a without needing the facts-and-circumstances test.' This clearly satisfies all requirements of the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly highlights how narrow the margin is in multiple places. It states: 'Yes — we pass the 33⅓% test for 2025, but narrowly. Our public support percentage for 2021–2025 is 34.33%, about one percentage point above the 33⅓% line. In dollars, public support of $1,260,596 is $36,729 more than one-third of total support ($1,223,867).' This satisfies all requirements of the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'No contribution has been treated as an unusual grant: Ferrante & Lowe reviewed the largest gifts in August and found that none qualifies, because Ms. Ostrander's gifts recur every year.' It does not exclude or suggest excluding any gift as an unusual grant."
+    }
+  ],
+  "costUsd": 0.029499750000000005,
+  "usage": {
+    "inputTokens": 33643,
+    "cachedInputTokens": 0,
+    "outputTokens": 1138
+  },
+  "gradedAt": "2026-10-10T13:59:08.252Z"
+}

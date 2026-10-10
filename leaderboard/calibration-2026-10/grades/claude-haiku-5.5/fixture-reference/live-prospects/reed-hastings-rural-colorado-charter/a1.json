@@ -1,0 +1,87 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Hastings as co-founder of Netflix and states he 'was its CEO from the late 1990s until January 2023', which matches the required end date of January 2023. It gives no conflicting founding year; the only founding-related date is 'Co-founded Netflix in 1997', which is the required year. Since the criterion's FAIL conditions (a non-1997 founding year, a non-2023 CEO end year, or no stated end date) are not triggered, it passes."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable states his current Netflix role as 'Chairman of the Board and a non-executive director' since April 17, 2025, and describes the Executive Chairman and co-CEO roles only in historical terms ('Executive Chairman from January 2023 until April 17, 2025'). Summary says 'now its non-executive chairman.' Current boards listed are Bloomberg L.P. only; Facebook (2011–2019) and Microsoft (2007–2012) appear only as past roles. No superseded role is presented as current."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable states that 'On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting. He remains chairman until then; the shareholder letter says he is leaving \"to focus on his philanthropy and other pursuits\"'. It also says 'He leaves the Netflix board in June 2026 to focus on philanthropy' and cites the 8-K and shareholder letter. It does not claim he already left or will stay as chairman after June, so the criterion is met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report names Netflix equity as the core of his wealth (\"Netflix equity is the core of his wealth\") and states the 37,759,062-share holding as under 1%. Its net-worth figures are Forbes at about $4.1B (after the January 2024 gift), a 2026 Forbes estimate of $4–5.5B, and Bloomberg at $6.6B before the gift, each with a source and date. All of these fall within $3–8B, and nothing says he owns 2% or more of Netflix."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable names 'Patty Quillin' as his wife in the Summary ('He and his wife, Patty Quillin, are among the largest funders of charter schools') and in Section 1 ('He is married to Patty Quillin, his partner in giving'). It also shows her as co-donor in the table ('UNCF, Spelman College, Morehouse College... (with Quillin)') and as co-signer of the Giving Pledge ('Giving Pledge (with Patty Quillin)'). This satisfies the criterion's examples and contains no contradiction."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's giving table lists \"Jan 2016 | Hastings Fund: education donor-advised fund at SVCF... | $100 million\" with sources [5][6]. Section 7 and the engagement strategy also describe the Hastings Fund as \"a donor-advised fund at SVCF.\" The launch amount is $100 million, the year is 2016, and the sponsor is SVCF, with no contradictory statement elsewhere in the report."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable's table states \"Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion\", which matches the criterion's date, share count (2 million pre-split), value range, and recipient. The July 2024 gift of 790,000 shares (~$502 million) is also included, which the criterion welcomes. Section 5 repeats the ~$1.1 billion into his donor-advised fund, so there is no contradiction elsewhere."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable names The City Fund and dates its launch to July 2018 (\"Jul 2018 | The City Fund: charter and autonomous public schools in cities\"). It identifies the Hastings Fund and Laura and John Arnold as anchor funders, with \"~$200 million raised at launch\" and \"reported $125M of it from the Hastings Fund,\" which matches the criterion's acceptable framing. It does not credit the full $200M to Hastings alone and names no other anchor partner."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable's giving table includes a row 'Jun 2020 | UNCF, Spelman College, Morehouse College, for HBCU scholarships (with Quillin) | $120 million ($40M each) | [8]'. This matches the criterion: 2020, $120 million total, $40M per recipient, with UNCF, Spelman and Morehouse named and no substituted or added recipients. The gift is not omitted, misdated, or given a different amount."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report states 'Hastings sits on CSGF's board' and 'CSGF board member as of April 2026 [9]', so the board seat is present and not described as past. It places CSGF in Colorado: 'CSGF is headquartered in Denver' and 'CSGF in Denver: board seat and $10M+ funder.' It also notes he and Quillin as '$10M-plus funder' ('Charter School Growth Fund (\"Reed Hastings and Patty Quillin\") | $10 million or more'). It does not claim he chairs CSGF, and nothing contradicts the board seat or Denver location."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report identifies Lone Rock as 'an educators' retreat in rural Bailey, Park County, that he financed' and in the connection points lists 'Lone Rock in Bailey, Park County: a Colorado mountain community where he hosts educator retreats.' It also names Hastings as president of the Lone Rock Foundation. It does not place Lone Rock outside Colorado, describe it as a personal home, or say he lives in Colorado; it states he lives in Santa Cruz, California. The criterion's pass conditions are met."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 5 of the deliverable states the single-gift capacity estimate as '$50 million or more', which is above the $40 million threshold. The summary repeats 'He has the capacity for a gift of $50 million or more.' The recommended ask of $1–2.5 million is explicitly separated from capacity, so under the criterion's own terms it does not affect the verdict."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy's first step is 'Go through CSGF,' where Hastings is a board member and $10M-plus funder, and asks CSGF leadership for an introduction. The report also says 'No cold asks' and 'do not send unsolicited proposals to the Hastings Fund' and 'do not approach him through Netflix.' It does not state that the Hastings Fund or Lone Rock accepts unsolicited proposals; it says Lone Rock makes grants only to preselected organizations. The main recommended first step is a warm, intermediary-led introduction, so the criterion passes."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "I checked the report's figures, dates, titles and relationships against the fact sheet. The share counts (37,759,062 total, 16,595,546 options, 21,159,576 trust), the $1.96B stake value, the $100M Hastings Fund, the $120M 2020 HBCU gift, the 2024 SVCF and July stock gifts, the $50M Bowdoin gift, the CSGF $10M+ funder status and the Lone Rock officers all match. The report describes him as leaving the Netflix board in June 2026, not as a current Netflix title, and Kevin Hall is flagged for confirmation rather than asserted as a contradiction. I found no statement that conflicts with the sheet beyond its section 7 tolerances."
+    }
+  ],
+  "costUsd": 0.0032129099999999994,
+  "usage": {
+    "inputTokens": 91237,
+    "cachedInputTokens": 91181,
+    "outputTokens": 4591
+  },
+  "gradedAt": "2026-10-10T14:02:58.519Z"
+}

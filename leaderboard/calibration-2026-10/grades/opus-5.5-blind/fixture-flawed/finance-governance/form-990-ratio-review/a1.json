@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "3840d9740ae8f5ec",
+  "deliverableHash": "049a559855e1b980",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo subtracts only donated food from total expenses: \"Total expenses excluding gifts in kind | $6,335,000.\" It leaves the $95,000 of donated legal services in the denominator instead of using $6,240,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "It reports \"$4,886,000 ÷ $6,335,000 = 77.1%\" as the program expense ratio, not the required 78.3%."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The summary table and Section 1 both state the program expense ratio target is \"Not met\" (\"below the 80.0% target\")."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It deducts the \"bequest — Estate of Harriet M. Okafor, received August 2025 | (600,000)\" and explains \"The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It shows $18,930,000 less $14,345,000 noncash less the $600,000 bequest, giving \"Contributions for this indicator | $3,985,000.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It reports \"$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "It says \"This is within the policy's $0.25 threshold, so the indicator is met,\" and the summary marks cost to raise a dollar \"Met.\" This treats the $0.25 external-review trigger as the target; $0.22 exceeds the $0.20 target, so the target was not met."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The reserve starts from \"Total net assets, Part X line 32, end of year | $7,852,000,\" which includes the $1,240,000 of donor-restricted net assets, instead of from the $6,612,000 without donor restrictions."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "It reports \"Operating reserve | $2,744,000\" (total net assets less fixed assets), not the required $1,504,000."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "It computes $20,515,000 less $446,000 depreciation less $14,275,000 gifts in kind = \"Annual operating expenses | $5,794,000,\" with a monthly figure of $482,833."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "It reports \"$2,744,000 ÷ $482,833 = 5.7 months,\" not 3.1 months."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It tells the committee the reserve is \"above the 3.0-month target. Met,\" and the summary marks it \"Met.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo states \"The program expense ratio is down from 81.6% in fiscal 2024.\" No file contains 2024 functional expenses, so this prior-year ratio has no source in the files and cannot be computed from them."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.513Z"
+}

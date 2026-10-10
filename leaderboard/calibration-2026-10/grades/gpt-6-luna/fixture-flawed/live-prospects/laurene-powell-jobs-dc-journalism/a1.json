@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies her as “Founder and president of Emerson Collective” and “the widow of Apple co-founder Steve Jobs.” It says her fortune “was inherited, mostly as Apple and Disney shares,” and gives Steve Jobs’s death date as October 5, 2011, so it meets the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly describes Emerson Collective as an “LLC, not a foundation” and says it “combines grant-making, venture investing and advocacy.” It also states it has no Form 990 and makes no contrary claim about its legal form."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report identifies Waverley Street Foundation as “her climate foundation” and describes it as a “501(c)(3) private foundation,” organized as the Emerson Collective Foundation. It states a $3.5 billion commitment over ten years and calls it a spend-down foundation, meeting the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report says she is the “majority investor and board chair of The Atlantic” and that Emerson Collective “agreed to buy a majority stake in July 2017.” This satisfies the criterion’s ownership and acquisition-date requirements."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report identifies The Atlantic as a current D.C. tie, stating, “She controls The Atlantic, which is headquartered in Washington” and later that it “is headquartered in Washington, D.C.” It also identifies College Track’s Southeast D.C. center, so it satisfies the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The report gives her current net worth as “$21.4 billion” and repeats “about $21 billion.” Both figures are above the criterion’s $16 billion ceiling, so it fails."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The report presents the stake as current: it says, “She holds a stake of about 20%” and calls it “her largest D.C. asset.” It also offers the stake as a current connection point, so it does not meet either pass condition."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The report names several journalism grantees and gives amounts, but it lists “ProPublica | $2.5 million | 2017.” The criterion explicitly identifies ProPublica $2.5 million in 2017 as a conflicting figure, so the deliverable fails."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report keeps these holdings separate from philanthropic giving: it lists The Atlantic under “Holdings” and explicitly says, “This is a for-profit investment, not a gift.” It likewise labels other media investments “all for-profit,” and does not add them to its charitable or journalism-giving totals."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report recommends a “two-page letter of inquiry to Emerson Collective's media and journalism team” and says to follow it with a full proposal. It never states that Emerson Collective does not accept unsolicited proposals; instead, it presents an LOI process, which the criterion explicitly says fails."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The strategy says, “Send a two-page letter of inquiry to Emerson Collective's media and journalism team (info@emersoncollective.com)” and then follow with a full proposal. This recommends an unsolicited submission to Emerson Collective, so the criterion fails even though it also suggests seeking a warm introduction."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report names College Track as an organization she co-founded in 1997: “College Track. She co-founded it in 1997.” It also correctly says she co-founded XQ Institute in 2015, so the criterion is satisfied."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report recommends a specific ask: “$300,000 over three years ($100,000 a year).” It explicitly anchors the ask to documented journalism grants, including $100,000 to The 19th, $170,000 over two years to The Current, and $200,000–$350,000 a year to The Texas Tribune and Chalkbeat."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report says her net worth is “$21.4 billion” and “Use about $21 billion,” outside the fact sheet’s $11B–$16B tolerance for April 25, 2026. It also says she “holds a stake of about 20%” in Monumental, although the fact sheet states she sold her stake in December 2025, and lists a 2017 ProPublica grant of “$2.5 million” rather than the verified $700,000."
+    }
+  ],
+  "costUsd": 0.007482325,
+  "usage": {
+    "inputTokens": 54547,
+    "cachedInputTokens": 0,
+    "outputTokens": 1330
+  },
+  "gradedAt": "2026-10-10T13:58:01.825Z"
+}

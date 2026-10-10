@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "promptHash": "a864374a59b6a3ae",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 3051,
+  "outputTokens": 9979,
+  "costUsd": 0.0462245,
+  "latencyMs": 45138,
+  "createdAt": "2026-10-10T18:33:29.679Z"
+}

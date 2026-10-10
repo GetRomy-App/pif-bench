@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "major-gifts/solicitation-plan-brief",
+  "attempt": 1,
+  "promptHash": "2b2fa99d2d94585d",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 3879,
+  "outputTokens": 12059,
+  "costUsd": 0.01557642,
+  "latencyMs": 73755,
+  "createdAt": "2026-10-10T18:30:32.655Z"
+}

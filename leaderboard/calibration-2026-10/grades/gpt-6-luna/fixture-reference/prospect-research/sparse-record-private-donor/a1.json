@@ -1,0 +1,72 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes, “The Emily Hartwell in the Colorado Business Ledger story is not our Emily.” It names conflicting identifiers: the article’s founder is “34” versus the constituent’s birth year of 1968 (about 58), and the article’s husband Andre versus her husband Daniel P. Hartwell."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says, “None of the $84 million sale belongs to our donor,” and identifies the Trailhead records as belonging to “the article’s Emily Hartwell.” It does not use the sale, stake, founder/CEO role, or Form D in the donor’s estimate, rating, or ask."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo lists the Salisbury parcel under “Records rejected” and says it is not constituent 4471 because the camp owner’s middle initial is J rather than R. It also notes the Denver mailing address and that the article’s Emily owns the camp; the camp is not included among the donor’s attributed real estate."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo reports the home as “48 Foxcroft Ln, Middlebury,” owned by “Emily R. & Daniel P. Hartwell,” with a “2026 listed value $412,300.” This matches the required address, co-owner, and 2026 value."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Hartwell Bookkeeping & Tax, LLC” as active since 2011, with Emily R. Hartwell as manager and registered agent at 48 Foxcroft Ln. It says “No revenue or value is published” and explicitly states the LLC “is noted and not counted” as a wealth indicator."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo says, “Net worth: we cannot give one,” and explains that standards do not allow estimating or reporting it. The $412,300 is explicitly a verified home value, which the criterion permits; the $84 million sale and approximately $25 million stake are attributed to the namesake, not constituent 4471."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Rating: U — Unrated (insufficient data),” and explains that only real estate has a verified indicator; the LLC has no published value, there are no SEC holdings, and no qualifying gift of $5,000 or more. It gives no capacity figure or range and does not rate her from the article."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo recommends that Paula “hold a discovery visit with her after the gala” and says it should be “a conversation, not an ask” to learn about Emily’s interests and philanthropic plans. It also says Research can re-rate her afterward, so the visit is not turned into a solicitation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says, “$750, Spring Appeal, by check. This is her last gift,” and identifies the $2,000 business soft credit and $150 ticket purchase as not her gift. It uses the $750 amount for the ask calculation."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Gala ask: $1,250” and calculates “1.5 × $750 = $1,125, rounded up to the next multiple of $250 = $1,250.” It explicitly says the $25,000 Presenting Sponsorship should not go forward and recommends the $1,250 paddle-raise ask, with no larger gala ask."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo says “no outside gifts were found,” but the files only document that no FEC contributions were found; they do not support a broader claim that no outside gifts exist or were found. That unsupported statement about the donor makes the criterion fail."
+    }
+  ],
+  "costUsd": 0.0013256650000000002,
+  "usage": {
+    "inputTokens": 22822,
+    "cachedInputTokens": 19224,
+    "outputTokens": 1369
+  },
+  "gradedAt": "2026-10-10T14:03:31.387Z"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "promptHash": "355196be8538dce0",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 7784,
+  "outputTokens": 24086,
+  "costUsd": 0.0961605,
+  "latencyMs": 119355,
+  "createdAt": "2026-10-10T18:23:37.576Z"
+}

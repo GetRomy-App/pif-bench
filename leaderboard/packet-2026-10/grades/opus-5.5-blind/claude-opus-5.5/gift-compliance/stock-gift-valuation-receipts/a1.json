@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "4f2996c06e952c01",
+  "deliverableHash": "935bbcf2af1baab1",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "G-1 is dated \"2026-01-02\" with tax year \"2026\", and the sheet refuses the Marchettis' request for a December 29, 2025 date. Their receipt reads \"credited to our account on January 2, 2026.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The sheet computes the mean of high $63.48 and low $61.86 as $62.67 and the value as \"400 × $62.67 = $25,068.00\". It sets aside the close and the sale figures."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "G-2 is dated \"2025-12-30\", tax year \"2025\", valued at \"250 × $38.23 = $9,557.50\" from the mean of $38.62 and $37.84."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It states \"the date of gift is the postmark date, 2025-12-31. That makes the tax year 2025\", rejecting the 12-30, 1-5 and 1-7 dates. The Fenn receipt says \"mailed to us on December 31, 2025.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It gives \"Gift value: 120 × $84.58 = $10,149.60\" from the mean of $85.22 and $83.94 on 2025-12-31."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "G-4 is dated \"2025-12-31\" (credited), tax year \"2025\". The 12-22 request date and the 1-06 and 1-08 statement dates are explicitly rejected."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It gives \"812.345 × $24.68 = $20,048.6746, which rounds to $20,048.67\" using NAV and not the $26.19 offering price."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "None of the four receipts states a dollar value or price; the sheet notes \"None states a dollar value, per-share price or estimate.\" Delacroix's receipt \"lists shares, security and date only\", and no other donor-facing wording with a value is proposed."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The receipts read \"400 shares of Quarry Point Industries, Inc. common stock\", \"250 shares of Harrow Valley Bancorp common stock\", \"120 shares of Ostrander Railcar Corporation common stock\" and \"812.345 shares of Lantern Ridge Balanced Fund, Class A\"."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipts includes \"No goods or services were provided in exchange for your gift.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.746Z"
+}

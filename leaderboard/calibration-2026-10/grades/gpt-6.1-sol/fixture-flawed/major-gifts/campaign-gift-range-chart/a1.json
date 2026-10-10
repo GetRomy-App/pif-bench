@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/campaign-gift-range-chart",
+  "attempt": 1,
+  "taskHash": "c17ae8627cb7ff5a",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The chart's lead row states “1 (lead) | $2,000,000 | 1,” meeting the required amount and gift count. The explanation also confirms “lead gift = 20% × $10,000,000 = $2,000,000,” with no contradictory lead tier elsewhere."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The chart has exactly the four required named tiers: \"$2,000,000 | 1,\" \"$1,000,000 | 2,\" \"$500,000 | 4,\" and \"$250,000 | 8,\" followed by an \"All other gifts\" line. It explicitly says the named tiers stop at $250,000 and does not chart a lower named tier or use the April draft's tiers."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The chart lists cumulative totals of \"$2,000,000,\" \"$4,000,000,\" \"$6,000,000,\" and \"$8,000,000\" for the four named tiers. The \"All other gifts\" row has a tier total of \"$2,000,000\" and brings the cumulative total to \"$10,000,000,\" exactly as required."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable credits Hollis Family Foundation's signed $1,000,000 pledge dated 2026-06-30 as “one gift in hand at the $1,000,000 tier” and Ruth and Anders Lindqvist's signed $300,000 pledge dated 2026-08-12 as “one gift in hand” at the $250,000 tier. The chart reflects these credits, and the deliverable states “None of these donors is counted as a prospect”; neither appears in the prospects identified lists."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable states, “Abernathy-Kim Family Fund — committed $500,000 ... one gift in hand at the $500,000 tier, leaving 3.” It also says, “None of these donors is counted as a prospect,” excluding the fund from identified prospects. This directly violates the requirement to keep the unsigned verbal intention as a $500,000-tier prospect without reducing gifts still needed."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable counts Fenwick and Lila Haraway among the identified prospects at the $250,000 tier and explicitly says, “The Haraways are coded N but are still rated 6, so they stay on the $250,000 line.” Although it counts all three required L-coded prospects, counting any N-coded prospect fails the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The prospect table places Thaddeus Rourke, Marguerite Delacroix-Benn, Ivan and Sofia Petrakis, and Beaumont Hardware Co. at the $250,000 tier. The deliverable explicitly explains, “Its bottom, $400,000, is below $500,000, so all four rating-5 prospects are counted at $250,000.” None is placed at the $500,000 tier."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The $2,000,000 lead-tier row shows prospects needed \"3 (3:1)\", prospects identified \"1\", and gap \"2\". The prospect listing identifies that one prospect as \"Castellane Foundation (M)\", and Desmond Achebe-Lowry is explicitly listed as not counted."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The $1,000,000 row shows 1 gift in hand, 1 gift still needed, 3 prospects needed, 2 identified, and a gap of 1. The deliverable attributes the gift in hand to “Hollis Family Foundation” and lists “Margaret and Elliot Thornbury” and “Gideon Salcedo” as the two prospects counted at that tier, satisfying all required points."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The $500,000 tier shows 1 gift in hand, 3 gifts still needed, 12 prospects needed, 3 identified, and a gap of 9, rather than the required 0, 4, 16, 4, and 12. The deliverable treats the Abernathy-Kim Family Fund as “one gift in hand at the $500,000 tier” and excludes it from the counted prospects, directly triggering the criterion’s failure condition."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The $250,000 tier correctly shows 1 gift in hand, 7 gifts still needed, and 28 prospects needed, but it shows “8” prospects identified and a gap of “20,” rather than the required 7 and 21. The deliverable explicitly counts “Fenwick and Lila Haraway (N)” at this tier, which the criterion identifies as a failing inclusion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The deliverable's “Three biggest gaps” lists the $250,000 tier first and the $500,000 tier second, but names “$1,000,000 tier — 1 prospect short” third. It therefore includes the expressly disallowed $1,000,000 tier and omits the required $2,000,000 lead tier from the three biggest gaps."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every prospect and donor named appears in the pipeline or commitments log, and the displayed capacity ratings and inclination codes match the pipeline. The stated donor amounts are also sourced, including Abernathy-Kim's \"$500,000,\" which appears in its pipeline notes. Treating that unsigned intention as a gift in hand and counting the Haraways despite their N code are misapplied rules, not unsupported facts, and therefore do not fail this criterion."
+    }
+  ],
+  "costUsd": 0.0232214,
+  "usage": {
+    "inputTokens": 26181,
+    "cachedInputTokens": 22884,
+    "outputTokens": 1271
+  },
+  "gradedAt": "2026-10-10T14:02:09.844Z"
+}

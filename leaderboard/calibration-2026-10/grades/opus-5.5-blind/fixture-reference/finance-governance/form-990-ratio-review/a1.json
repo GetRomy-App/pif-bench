@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "3840d9740ae8f5ec",
+  "deliverableHash": "1b702a5c4464bcd5",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Program expenses are \"$19,066,000\" less donated food distributed \"(14,180,000)\" = \"$4,886,000\". Total expenses are \"$20,515,000\" less \"(14,180,000)\" and \"(95,000)\" donated legal services = \"$6,240,000\". Both gifts in kind are removed and depreciation is not."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It reports \"$4,886,000 ÷ $6,240,000 = 78.3%.\" It mentions 92.9% only \"for reference,\" stating \"that is not the policy's ratio.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The summary table shows the program expense ratio \"Not met\" against the 80.0% target, and Section 1 says \"below the 80.0% target. Not met.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It subtracts \"bequest — Estate of Harriet M. Okafor ... (600,000)\" and explains \"The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring and are not the product of the year's fundraising spending.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The contributions for the indicator are \"$18,930,000\" less \"(14,345,000)\" less \"(600,000)\" = \"$3,985,000.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It reports \"$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It states the result is \"above the $0.20 target. Not met.\" The $0.25 level is mentioned only as the external-review trigger, not as the target."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reserve starts from \"Net assets without donor restrictions, Part X line 27, end of year | $6,612,000.\" The memo states that \"The $1,240,000 of net assets with donor restrictions ... is not reserve and is not counted.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The operating reserve is \"$6,612,000\" less \"(5,108,000)\" = \"$1,504,000.\" The bequest stays in, and the liquidity note's $1,581,000 is expressly not used."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Annual operating expenses are \"$20,515,000\" less depreciation \"(446,000)\" less all gifts in kind \"(14,275,000)\" = \"$5,794,000,\" with a monthly figure of \"$482,833.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It reports \"$1,504,000 ÷ $482,833 = 3.1 months.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The summary table shows months of operating reserve \"Met,\" and Section 3 says \"above the 3.0-month target. Met.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every figure is taken from the Form 990, the audit notes or the policy, or computed from them. The 92.9%, the $0.19 with the bequest left in, the 2.9 months with depreciation included and the $408,000 deficit are all derived from file figures. No prior-year ratio, budget or peer benchmark is introduced."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.580Z"
+}

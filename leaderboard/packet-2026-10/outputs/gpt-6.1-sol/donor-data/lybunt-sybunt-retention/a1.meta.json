@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "promptHash": "75804cccbf89bd5d",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 4580,
+  "outputTokens": 3158,
+  "costUsd": 0.0430285,
+  "latencyMs": 49350,
+  "createdAt": "2026-10-10T18:15:39.008Z"
+}

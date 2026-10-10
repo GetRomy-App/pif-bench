@@ -1,0 +1,99 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "romy-2026-04",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "taskHash": "2e2e5489961796b7",
+  "deliverableHash": "376ec2457ceb534a",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report profiles \"Robert Frederick Smith ... founder, chairman, and CEO of Vista Equity Partners\" throughout. Nothing from the musician Robert Smith, Senator Robert C. Smith or any other Robert Smith is attributed to him."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It lists \"Vista Equity Partners — Founder, Chairman, and CEO (founded 2000; active 25+ years)\" as a current primary role."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It states \"B.S. in Chemical Engineering, Cornell University, 1985\" and \"MBA in Finance and Marketing, Columbia Business School, 1994,\" and both years are correct."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It states he resides in \"Austin, Texas (current primary residence)\" and calls him \"a local billionaire\" who \"resides in Austin, Texas.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The executive summary says \"As of March 2026, Forbes estimates his net worth at approximately $28.5 billion,\" and Section 4 gives \"$10 billion–$28.5 billion.\" Both the figure and the top of the range fall outside the $9–13 billion band."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It lists \"Fund II Foundation — Founding Director and President\" and describes it as a \"Private foundation\" and one of his \"Giving Vehicles.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It states \"Cornell University (2016): $50 million to chemical and biomolecular engineering; school renamed in his honor,\" which names the chemical and biomolecular engineering school after him with the correct total and year."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It states that in 2019 he paid \"approximately $34 million in student loan debt held by the entire Morehouse College graduating class,\" and lists \"Morehouse College (2019): $34 million.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It describes SFI's \"$100 million endowment—half personally and half via his Fund II Foundation\" for STEM students at HBCUs, and lists Smith's \"$50 million personal match to Fund II Foundation's $50 million.\" Cisco's $150 million is presented as a partnership, not Smith's money."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "It states \"Prairie View A&M University is a confirmed SFI partner school.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The only Texas HBCU tie claimed is SFI's partnership with Prairie View A&M. No gift, pledge or named fund at a Texas HBCU is attributed to Smith or Fund II."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The matter appears only as a scoring line, \"$139M+ civil settlement with DOJ/IRS applies (+1),\" a mention of his \"2020 tax settlement,\" and a source-list title. The report never states that he entered a non-prosecution agreement over using offshore entities and accounts to conceal income and evade taxes, and it labels the matter a \"civil settlement.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report never says he was indicted, charged, convicted, pleaded guilty or was cleared, and it does not attribute Brockman's case to him. The \"civil settlement\" wording is imprecise but is not one of the misstatements this criterion lists."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The guardrails say \"Do not ignore his 2020 tax settlement, but do not mention it directly.\" The remaining references are internal (scoring, a gift-vehicle note, brand-protection context). Nothing recommends raising it with him or using it in messaging."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "It states \"Major Gift Capacity: $10,000,000–$50,000,000+ for a transformational HBCU STEM initiative; stretch potential to $100,000,000.\" The ask is \"$25 million\" with a \"$50 million\" stretch, so the ask's top does not exceed the capacity's top."
+    },
+    {
+      "id": "C-016",
+      "verdict": "fail",
+      "reasoning": "The report says Forbes put his net worth at \"$28.5 billion in March 2026,\" which contradicts the sheet's Forbes $10 billion (March 2026) and the $9–13B tolerance. It also says Fund II Foundation was \"established June 2015,\" while the sheet says 2014."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.485Z"
+}

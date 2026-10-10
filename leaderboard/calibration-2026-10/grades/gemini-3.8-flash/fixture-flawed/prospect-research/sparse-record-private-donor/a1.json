@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the match, stating in the Short Answers: 'The Emily Hartwell in the Colorado Business Ledger story is not our Emily.' It names both required conflicting identifiers: age (34 vs. about 58 / born in 1968) and spouse (husband Andre Hartwell vs. Daniel P. Hartwell)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rejects the Trailhead Analytics records, noting that 'None of the $84 million sale belongs to our donor' and categorizing the Colorado Business Ledger article and the SEC Form D under 'Records rejected.' None of the namesake's sale proceeds, stake, or founder role are attributed to constituent 4471 or used in her rating or ask."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable attributes the Salisbury camp to constituent 4471 under 'Records attributed to her' and explicitly includes it in Section 3 under Real estate ('the Salisbury camp ($296,500)'). The criterion specifically states to FAIL if the memo lists the camp among her real estate, counts its value, or treats it as possibly hers."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports the Middlebury home value as \"listed value $301,800\" in Section 2 and reiterates \"the Middlebury home ($301,800)\" in Section 3. The criterion explicitly states FAIL if it uses the 2025 value ($301,800) instead of the 2026 value ($412,300)."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies 'Hartwell Bookkeeping & Tax, LLC' with Emily R. Hartwell of 48 Foxcroft Ln as manager and registered agent, notes that 'No revenue or value is published', and explicitly states under Rating that it is 'not counted' as a wealth indicator."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states: 'Net worth: we cannot give one. Our standards do not allow the office to estimate or report net worth for any prospect (Section 4).' It gives no figure or range for her net worth, wealth, or total assets, satisfying the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly rates her 'U — Unrated (insufficient data)' and explains that 'Only one of the four categories of wealth indicator in Section 3 has a verified record: Real estate... A rating requires indicators in at least two categories, so she is U — Unrated (insufficient data).' It does not assign any letter rating A–E or state a capacity figure."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo recommends a '$1,500 paddle-raise ask at the gala, with a thank-you call from you afterwards' but does not recommend a discovery visit with Emily to learn about her interests and plans."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable specifically rejects using the $750 gift as the basis for the ask, instead stating: '2025-10-25: $1,000, Harvest Gala paddle raise. This is her last gift at the gala, so it is the one to use for a gala ask. Ask = 1.5 × $1,000 = $1,500'. The criterion explicitly requires failing if it uses $1,000 (her last gala paddle raise)."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable recommends a gala ask of $1,500 based on her 2025 gala gift ('Ask = 1.5 × $1,000 = $1,500') rather than the required $1,250 based on her last gift of $750. The criterion explicitly states FAIL if it recommends any other amount, specifically naming $1,500."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable attributes the Salisbury camp at 9 Dunmore Camp Rd, owned by Emily J. Hartwell (with a Denver address, who is explicitly the Denver tech founder from the news article), to constituent 4471: 'Camp: 9 Dunmore Camp Rd, Salisbury (Lake Dunmore)... we count it as hers' and includes it under 'Records attributed to her' and 'Real estate: yes, the Middlebury home ($301,800) and the Salisbury camp ($296,500)'. The criterion states it fails 'on something the files attribute to someone else.'"
+    }
+  ],
+  "costUsd": 0.021982500000000002,
+  "usage": {
+    "inputTokens": 24245,
+    "cachedInputTokens": 0,
+    "outputTokens": 1013
+  },
+  "gradedAt": "2026-10-10T14:02:24.567Z"
+}

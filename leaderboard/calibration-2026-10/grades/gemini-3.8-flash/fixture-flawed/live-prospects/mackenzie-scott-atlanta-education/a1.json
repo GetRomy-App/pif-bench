@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies MacKenzie Scott as a novelist and philanthropist, notes she was married to Jeff Bezos in 1993, confirms they divorced in 2019, and states she holds no Amazon position today."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report correctly states that her source of wealth came from the 2019 divorce settlement where 'she received 25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company.' It also provides dated figures for both her holding and net worth: 'Latest disclosed holding: 139,132,131 Amazon shares as of September 30, 2024' and 'Bloomberg put her at about $42.7 billion on April 18, 2026, and Forbes at $33.9 billion in September 2025'."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly presents a superseded figure as current/latest: 'Latest disclosed holding: 139,132,131 Amazon shares as of September 30, 2024, about 1.3% of the company.' The rubric explicitly states: 'FAIL if it gives as current or latest any superseded figure: ... about 139 million shares or about 1.3% (September 30, 2024)'."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable reports her cumulative giving as '$19.25 billion in more than 2,450 gifts since 2019' in Section 3, citing Forbes from early 2025. The criterion explicitly specifies to FAIL if it presents an older total as current, specifically calling out 'about $19.2–19.25 billion'."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly explains Scott's process: 'She does not accept applications or unsolicited proposals. Her Inquiries page says she does \"not invite unsolicited messages suggesting candidates, including forwards from friends, family, or personal connections.\"' It details that 'a small internal team and a large network of advisors do \"quiet research\"' and then contact selected organizations, while noting the completed Lever for Change open call as a past exception."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly fails because section 6 recommends: 'Invite Ms. Scott to our spring Celebration of Learning breakfast as an honored guest. Seeing our students' work in person is the strongest case we can make.' The criterion states: 'FAIL if the report recommends any of these: ... inviting her to an event, gala or site visit'."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under Section 4: 'The one open call. The Yield Giving Open Call was run with Lever for Change. It launched in March 2023, received 6,353 applications, and in March 2024 gave $640 million to 361 organizations. It is completed, and no open call is accepting applications.' It also appropriately suggests in Section 6 to watch for any future open call."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly describes her gifts as unrestricted in multiple places, specifically stating under Section 4: 'Unrestricted, no strings. Gifts are made \"for use however they choose,\" and AP reports that grantees are not required to report on how they use them.'"
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable erroneously credits Morehouse College with a November 2025 gift of $38 million ('Morehouse College | $20 million; $38 million (unrestricted) | July 2020; Nov. 2025'). The criterion explicitly requires a FAIL if it 'credits Morehouse College with a direct Scott gift after 2020.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report accurately lists multiple qualifying Atlanta-based education nonprofits with correct amounts: Achieve Atlanta ($8 million), Southern Education Foundation ($6 million), Communities In Schools of Atlanta ($4 million), and GEEARS ($3 million). Furthermore, it mentions KIPP Metro Atlanta Schools and Sheltering Arms Early Education & Family Centers explicitly noting 'amounts not disclosed', perfectly adhering to the criterion rules."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "Under Section 1 (Personal and professional background), the report states: 'In 2021 she married Dan Jewett, a Seattle science teacher, and they live in Seattle.' This explicitly describes her as currently married to Dan Jewett, failing the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 6 of the deliverable explicitly lists four indicators under 'Be findable and fundable': 'stable finances: current audited financials and a current Form 990 posted publicly', 'a multi-year track record', 'measurement and evidence of outcomes: a public outcomes report', and 'experienced leadership representative of the community it serves.' This satisfies all four criteria points."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable contradicts the fact sheet on several verified facts: (1) it states 'In 2021 she married Dan Jewett, a Seattle science teacher, and they live in Seattle', whereas they divorced in January 2023; (2) it presents superseded figures as current, stating cumulative giving is '$19.25 billion' (superseded Dec 2024 total, current is over $26 billion) and latest holdings are 139M shares as of Sept 2024 (the latest disclosure before April 2026 was 81.1M shares as of Sept 2025); and (3) it invents a '$38 million' gift to Morehouse College in 'Nov. 2025', whereas Morehouse received no direct gift in 2025."
+    }
+  ],
+  "costUsd": 0.04857825,
+  "usage": {
+    "inputTokens": 54991,
+    "cachedInputTokens": 0,
+    "outputTokens": 1956
+  },
+  "gradedAt": "2026-10-10T14:01:55.864Z"
+}

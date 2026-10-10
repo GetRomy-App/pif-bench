@@ -1,0 +1,82 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report says she is a \"novelist and philanthropist,\" \"known as MacKenzie Bezos while married,\" and that she \"married Jeff Bezos in 1993, and they divorced in 2019.\" It also says she holds no Amazon position today. None of the FAIL conditions apply."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report says that in the 2019 divorce settlement she received 25% of the couple's Amazon stock, about 19.7 million shares and roughly 4% of the company. That matches the criterion's description of the settlement, and it does not misstate it as '25% of Amazon'. It gives dated holdings: 81,082,131 shares as of September 30, 2025, and net worth of $42.7B per Bloomberg on April 18, 2026. Nothing attributes her wealth to another source."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report gives the latest holding as 81,082,131 shares as of September 30, 2025, about 0.76%, which is correct. Its net worth range is $34–43 billion, within the allowed $25–45 billion. The older figures (19.7 million shares and ~4% in 2019; 266M, 200.8M and 139.1M) appear only as history, and the report even warns that the 2019 4% stake is outdated. No superseded figure is presented as current."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable states \"Cumulative: over $26 billion in more than 2,700 gifts since 2019. AP puts the figure at $26.3 billion as of December 2025.\" Both figures fall in the accepted range. It mentions the \"$19 billion given\" total only as a stale figure not to use, so it does not present that as current."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states that her team does \"quiet research\" with \"a large network of advisors,\" then \"contacts the organizations it has selected,\" and that \"She does not accept applications or unsolicited proposals.\" It quotes the Inquiries page and mentions the single completed open call as an exception. Nothing in it implies an organization can apply or submit a proposal and be considered."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly recommends against approaching Scott: \"Ask amount: none. Do not solicit Scott, Yield Giving or her advisors. Do not send a letter, proposal or introduction, and do not ask a board member or peer to forward materials.\" It advises preparing to respond if a researcher calls, which is not an approach. It also says not to invite her to events. Asking leaders of other grantees about their experience, \"not for a referral,\" is not an approach to Scott's team. The $3–8M range is labeled for scenario planning only."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report states: \"The Yield Giving Open Call was run with Lever for Change. It launched in March 2023, received 6,353 applications, and in March 2024 gave $640 million to 361 organizations. It is completed, and no open call is accepting applications.\" This matches the required facts. The only other mention, \"Watch yieldgiving.com for any future open call,\" is explicitly allowed. It does not describe the open call as recurring or tell the organization to apply."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Section 4 states \"Unrestricted, no strings. Gifts are made 'for use however they choose,' and AP reports that grantees are not required to report on how they use them.\" The report also labels several individual gifts as unrestricted. It never describes her gifts as restricted or conditional anywhere."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The table lists Spelman at $20 million (2020) and $38 million (Nov. 2025), and Clark Atlanta at $15 million (2020) and $38 million (Nov. 2025). Morehouse is shown at $20 million in July 2020, with \"(no gift since)\". Every amount and year matches the record, and Morehouse is not credited with any later gift. The CAU row also says \"$53 million in total\", which is correct ($15M + $38M)."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The table names Achieve Atlanta ($8M, 2022), Southern Education Foundation ($6M, March 2022), Communities In Schools of Atlanta ($4M, 2021) and GEEARS ($3M, 2023), and each amount matches the criterion. KIPP Metro Atlanta and Sheltering Arms are listed as 'amounts not disclosed', so no dollar figure is given for them. Nothing is misstated, so the report passes."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report says \"She married Dan Jewett in 2021. She filed for divorce in September 2022, and it was finalized in January 2023. She is not married today.\" It also notes that her \"second husband\" is a former spouse. It never calls her currently married to Jewett and never suggests approaching her as part of a couple."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Section 6 ties the organization's readiness to all four indicators from Yield Giving's Process page: \"stable finances: current audited financials and a current Form 990 posted publicly; a multi-year track record; measurement and evidence of outcomes: a public outcomes report; experienced leadership representative of the community it serves.\" That is well over the two required."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "I checked the report against the fact sheet and found no contradictions. The share counts and dates match (81,082,131 shares as of 9/30/2025, about 0.76%), as does the earlier decline from 266M to 200.8M to 139.1M. The giving totals match ($26B+ in 2,700+ gifts, $7.166B in 2025). So do the open call figures (6,353 applications, $640M to 361 organizations) and the Atlanta gift amounts and dates (Spelman $20M/$38M, CAU $15M/$38M/$53M total, Morehouse $20M in 2020 with no later gift, Achieve Atlanta $8M, SEF $6M, CIS Atlanta $4M, GEEARS $3M). The marital history and the net-worth estimates ($42.7B and $33.9B) also match. The outdated figures it flags as superseded (about 4% stake, $19B total) are labeled as outdated, not presented as current."
+    }
+  ],
+  "costUsd": 0.0781645,
+  "usage": {
+    "inputTokens": 75197,
+    "cachedInputTokens": 59280,
+    "outputTokens": 3247
+  },
+  "gradedAt": "2026-10-10T14:03:24.042Z"
+}

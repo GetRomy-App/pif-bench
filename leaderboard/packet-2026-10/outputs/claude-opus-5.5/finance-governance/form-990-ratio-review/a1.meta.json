@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "promptHash": "0a43f83073a8420a",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 6411,
+  "outputTokens": 5462,
+  "costUsd": 0.141291,
+  "latencyMs": 48366,
+  "createdAt": "2026-10-10T18:11:53.248Z"
+}

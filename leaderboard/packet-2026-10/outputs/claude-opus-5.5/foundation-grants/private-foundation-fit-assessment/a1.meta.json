@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "promptHash": "471655d0c380ce62",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 9683,
+  "outputTokens": 10035,
+  "costUsd": 0.249111,
+  "latencyMs": 85957,
+  "createdAt": "2026-10-10T18:13:31.446Z"
+}

@@ -1,0 +1,69 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "8ac807716a69e841",
+  "deliverableHash": "35721df446c11707",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review gives P-01 'Deductible amount: $420 = $750 − 2 × $165 ($330).' The amount and the $330 seat value both match."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "P-01's acknowledgment 'Must state: ... two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330; the §6115 statement that the deductible amount is limited to the excess of the payment over the value of the goods and services provided.'"
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The review values P-02's benefits at '$3,750 — the table of 10 at the $375 ticket price, as Dana entered it.' This is the CRM figure the criterion names as a failure, not $2,050."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "It gives P-02 'Deductible amount: $6,250' and marks the CRM 'correct as entered', which approves the CRM's $6,250 instead of correcting it to $7,950."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "P-03 gets 'Deductible amount: $375' because she checked 'I will not attend. Please do not reserve a seat for me' and no seat was reserved. The acknowledgment must state 'No goods or services were provided', and the CRM is corrected 'benefit $165 → $0; receipt amount $210 → $375'."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The review gives P-04 'Deductible amount: $750' because the Tanakas 'did not attend' and directs 'approve Dana's pending change (benefit $0, GALA-GIFT, receipt amount $750).' The criterion fails exactly this."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "P-05 gets 'Deductible amount: $200', and 'The other $100 bought five raffle tickets, which are not a charitable contribution and are not deductible.' The acknowledgment states 'a contribution of $200' and must not state 'a $300 gift'."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The review reduces P-06 to 'Deductible amount: $1,335 = $1,500 − $165' for the seat at the Vasquez-Hart table and requires the acknowledgment to state 'one gala seat, good-faith estimate $165.' The criterion explicitly fails this."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "P-07 gets 'Deductible amount: $60' and 'He gets an acknowledgment like every donor', which must state 'No goods or services were provided in exchange for your contribution.'"
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deductible amount of $30 is right, but the review says 'The §6115 disclosure sentence is not needed: the deductible portion is only $30, under the $75 threshold' and directs dropping it. The criterion fails exactly that reasoning."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.529Z"
+}

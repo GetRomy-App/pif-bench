@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly computes the program expense ratio using $4,886,000 for program expenses ($19,066,000 less $14,180,000 of donated food distributed) and $6,240,000 for total expenses ($20,515,000 less $14,180,000 donated food and $95,000 donated legal services), arriving at 78.3%."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly reports the program expense ratio as 78.3% ($4,886,000 ÷ $6,240,000 = 78.3%) in both the summary table and the detailed calculation section. It also notes the unadjusted Form 990 figure (92.9%) while explicitly clarifying that it is not the policy's ratio."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the summary table and in Section 1 that the program expense ratio of 78.3% fell below the 80.0% target and was 'Not met'."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly deducts the $600,000 bequest ('Less bequest — Estate of Harriet M. Okafor, received August 2025: (600,000)') from the contributions denominator in section 2. It also provides the policy rationale: 'The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring and are not the product of the year's fundraising spending (policy section 3.2).'"
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates the contributions denominator for the cost to raise a dollar as $3,985,000 by taking contributions ($18,930,000), subtracting noncash contributions ($14,345,000), and subtracting the bequest ($600,000)."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the cost to raise a dollar by dividing $866,300 by $3,985,000, explicitly stating: '$866,300 ÷ $3,985,000 = $0.217, reported as $0.22' and listing $0.22 in the summary table."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the summary table that Cost to raise a dollar had a 2025 result of $0.22 against a target of '$0.20 or less' and marks it as '**Not met**'. It also reiterates in Section 2: '$866,300 ÷ $3,985,000 = $0.217, reported as $0.22 — above the $0.20 target. **Not met.**'"
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable builds the operating reserve starting from 'Net assets without donor restrictions, Part X line 27, end of year' of $6,612,000, and explicitly notes that 'The $1,240,000 of net assets with donor restrictions — $890,000 for the cold-storage expansion and $350,000 of time-restricted pledges — is not reserve and is not counted'. It does not start from total net assets of $7,852,000."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo correctly calculates the operating reserve as $1,504,000 by taking $6,612,000 of net assets without donor restrictions and subtracting $5,108,000 of land, buildings, and equipment, net."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states the annual operating expenses for the reserve as '$5,794,000' (calculated as $20,515,000 minus $446,000 depreciation minus $14,275,000 gifts in kind) and states the monthly figure as '$482,833'."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates and reports 3.1 months of operating reserve in both the summary table and Section 3 (\"$1,504,000 ÷ $482,833 = 3.1 months\")."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in both the summary table and Section 3 that the operating reserve target of 3.0 months or more was met (e.g., 'Months of operating reserve | 3.1 months | 3.0 months or more | Met' and '$1,504,000 ÷ $482,833 = 3.1 months — above the 3.0-month target. Met')."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every financial figure, source reference, date, and name cited in the deliverable directly appears in or is correctly derived from the provided Form 990 excerpt, audit notes, or Financial Health Indicators Policy document. No unsupported external figures, benchmarks, or fabricated prior-year ratios were introduced."
+    }
+  ],
+  "costUsd": 0.0325125,
+  "usage": {
+    "inputTokens": 37230,
+    "cachedInputTokens": 0,
+    "outputTokens": 1224
+  },
+  "gradedAt": "2026-10-10T14:02:40.204Z"
+}

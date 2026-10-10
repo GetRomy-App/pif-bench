@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "promptHash": "041eef5eee0c7d61",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 6001,
+  "outputTokens": 10269,
+  "costUsd": 0.0511445,
+  "latencyMs": 58997,
+  "createdAt": "2026-10-10T18:31:42.360Z"
+}

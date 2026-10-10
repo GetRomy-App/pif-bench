@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies her as “a novelist and philanthropist” and says, “She married Jeff Bezos in 1993, and they divorced in 2019.” It does not describe her as a current Amazon executive or director."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report says, “In the 2019 divorce settlement she received 25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company,” identifying the source of her wealth and accurately sizing the stake. It also gives dated figures, including “81,082,131 Amazon shares as of September 30, 2025” and Bloomberg’s net-worth estimate “on April 18, 2026.”"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report identifies the latest holding as “81,082,131 Amazon shares as of September 30, 2025,” or “about 0.76%,” and gives a current net-worth range of “about $34–43 billion.” The older 2019 figure of “about 19.7 million shares, roughly 4%” and later share counts are clearly presented as historical, not current or latest."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states cumulative giving is “over $26 billion in more than 2,700 gifts since 2019” and cites AP’s $26.3 billion figure as of December 2025. This falls within the criterion’s accepted range and is not an older total presented as current."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly says, “She does not accept applications or unsolicited proposals,” and explains that “a small internal team and a large network of advisors do ‘quiet research’” before contacting selected organizations. It also identifies the 2023–24 Open Call as completed, so it does not imply that the nonprofit can currently apply."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report explicitly says, “Ask amount: none,” and advises not to solicit Scott, Yield Giving, or her advisors or send an introduction. It also says to be ready to respond if a researcher contacts the organization; that is preparation for inbound contact, not an approach."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report says the Yield Giving Open Call “is completed, and no open call is accepting applications,” and states that in March 2024 it “gave $640 million to 361 organizations.” Its suggestion to “Watch yieldgiving.com for any future open call” is explicitly allowed by the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report explicitly says gifts are “unrestricted, no strings” and that they are made “for use however they choose.” It also says grantees are not required to report on how they use them, so it meets the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report cites both 2025 gifts: Spelman College received “$38 million” in November 2025 and Clark Atlanta University received “$38 million” in November 2025, alongside the correct 2020 amounts of $20 million and $15 million, respectively. It lists Morehouse College’s $20 million gift in July 2020 and says “no gift since,” so the Atlanta HBCU amounts and years match the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report names several qualifying Atlanta education nonprofit gifts with the correct amounts, including “Achieve Atlanta $8 million” and “GEEARS ... $3 million.” It also lists KIPP Metro Atlanta Schools and Sheltering Arms without dollar figures, as required."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report says, “She filed for divorce in September 2022, and it was finalized in January 2023. She is not married today.” It does not describe her as currently married to Dan Jewett or recommend approaching them as a couple."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy ties readiness to all four listed indicators: “stable finances” with current audited financials, “a multi-year track record,” “measurement and evidence of outcomes,” and experienced leadership representative of the community served. This exceeds the criterion’s minimum of two indicators."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report’s specific personal, wealth, giving, and Atlanta recipient facts are consistent with the fact sheet, including the 81,082,131 Amazon shares as of September 30, 2025, and the listed Atlanta gifts. Its description of the no-solicitation policy and completed open call also matches the verified information; I find no contradiction."
+    }
+  ],
+  "costUsd": 0.007029775,
+  "usage": {
+    "inputTokens": 49282,
+    "cachedInputTokens": 0,
+    "outputTokens": 1741
+  },
+  "gradedAt": "2026-10-10T14:02:53.177Z"
+}

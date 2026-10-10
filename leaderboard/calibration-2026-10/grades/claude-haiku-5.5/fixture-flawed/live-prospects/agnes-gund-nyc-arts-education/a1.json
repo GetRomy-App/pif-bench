@@ -1,0 +1,92 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/agnes-gund-nyc-arts-education",
+  "attempt": 1,
+  "taskHash": "c32d02435784d25d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable states in its opening line: \"Agnes Gund died on September 18, 2025, at her home in Manhattan, aged 87\", and repeats it in red flags (\"She has died (September 18, 2025)\"). It treats her as deceased throughout, with no contradiction that she is living. The criterion's fail conditions (treating her as living, wrong date) are not triggered."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable's Section 2 states the source of her wealth is inherited: \"Source: inherited wealth. Her father died in 1966 and left her a large fortune in trust.\" Section 1 identifies her father as George Gund II, who built a fortune and was president of the Cleveland Trust Company. It does not name a different father, a husband, or a career of her own as the source, so the criterion is met."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Gund as MoMA's president: it states 'She was president from 1991 to 2002' under the Museum of Modern Art bullet. It also adds the chairmanship 1993–1995 and President Emerita/Life Trustee status, which the criterion explicitly allows. No other years for the presidency appear and she is not called founder, director, or current president."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the report to state Studio in a School was founded in 1977. The deliverable states 'she founded it in 1979, with her own money, after New York City's fiscal-crisis budget cuts...' and repeats 1979 in the giving table. That gives a founding year other than 1977, which the criterion explicitly fails."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable states that Gund privately sold Roy Lichtenstein's Masterpiece (1962) in 2017 for $165 million, and the giving table lists 'Art for Justice Fund: founding gift from the Masterpiece sale' at $100,000,000 in 2017. It also describes the Art for Justice Fund as a time-limited criminal-justice reform fund. It does not say the whole sale price went to the fund, so it meets every PASS element and triggers no FAIL condition."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that 'The Art for Justice Fund was a time-limited fund for criminal-justice reform. It closed on June 30, 2023, after more than $127 million in grants.' It also lists the Art for Justice Fund in red flags as 'closed (June 30, 2023)' and does not recommend approaching it as a funder. The report treats it only as past giving, so the criterion passes."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report identifies the AG Foundation with EIN 34-1606084 as Gund's foundation and states that 'her philanthropy now runs through the AG Foundation, whose surviving trustees are her daughters Catherine Gund and Anna Traggio.' Section 6 and Section 7 repeat both names as trustees, and no other person is named as an AG Foundation trustee or decision-maker. Gund is presented as deceased, not as a current decision-maker."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's giving table lists AG Foundation → Studio In A School Association grants of $1,369,599 (2020), $545,619 (2021), $277,771 (2022), and $1,085,000 (2023), each with a year and a Form 990-PF source. These match the criterion's figures exactly, and the report also states the 2023 grant as its largest. The criterion requires at least one matching amount and year, and the figures match, with no contradicting figures for those years elsewhere."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report states the AG Foundation 'holds about $95 million in assets' with no year, both in Section 2 and in Section 5 ('It holds about $95 million in assets and paid $3.9 million in grants in 2024'). The criterion identifies $95.0 million as a 2019 figure, which is stale, and the 2023/2024 asset figures the criterion accepts ($38.6M/$44.9M book/market for 2023, $34.3M/$50.0M for 2024) do not appear. The report presents this stale figure as the foundation's current size."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report mentions Studio in a School as biography, as the foundation's largest 2023 grant, and as evidence of 'natural fit' and 'alignment' with the requesting program ('Lead with alignment... continuing the work Gund began at Studio in a School'). It never flags Studio in a School as an incumbent occupying the same niche, nor says the family's arts-education giving is already committed to it so the approach must differentiate or partner. The criterion explicitly fails mentions used only as alignment or affinity, which is what the deliverable does."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states 'No ask to Agnes Gund. Remove her from solicitation lists, and plan no cultivation, ask or bequest request addressed to her.' All engagement steps are directed at the AG Foundation's surviving trustees (Catherine Gund and Anna Traggio), the family, and the estate timing, with no recommendation to meet, cultivate, or solicit Gund herself. The ask amount ($10,000–$25,000) is directed at the foundation via letter of inquiry, not addressed to Gund."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The report recommends 'Submit a letter of inquiry to the AG Foundation through its open application process, addressed to its surviving trustees.' This is exactly the recommended unsolicited approach and it describes an open application process, which the criterion explicitly says triggers FAIL. The report does not note that the foundation gives only to preselected organizations, and it does not route the approach through a personal introduction instead."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report does not recommend the George Gund Foundation as a funding source for the NYC program. Its recommended route is a letter of inquiry to the AG Foundation. In the red flags section it explicitly states \"The George Gund Foundation is not a route for this program\" and notes that its arts grants go to organisations in or directly serving the City of Cleveland and do not prioritise arts education outside the Cleveland Metropolitan School District. This satisfies the PASS condition."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly disclaims the brothers' gifts: it states 'Don't credit her with her brothers' gifts. The Gund at Kenyon College honours her brother Graham,' and says the Foundation Fighting Blindness 'was co-founded by her brother Gordon; she was a supporter.' It does not credit Agnes with the Kenyon gallery, co-founding FFB, or sports team ownership. The only passing mention of sports is absent, so no FAIL trigger appears."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The report contradicts the fact sheet in several places. It dates Studio in a School's founding to 1979 ('she founded it in 1979'), while the fact sheet says 1977. It describes the AG Foundation as holding 'about $95 million in assets', while the fact sheet gives 2024 total assets of $34,312,725 (FMV about $50M). It also recommends a letter of inquiry through the foundation's 'open application process', which conflicts with the fact sheet's finding that the foundation does not accept unsolicited requests and publishes no application process."
+    }
+  ],
+  "costUsd": 0.004532685,
+  "usage": {
+    "inputTokens": 84971,
+    "cachedInputTokens": 69706,
+    "outputTokens": 3858
+  },
+  "gradedAt": "2026-10-10T13:57:57.239Z"
+}

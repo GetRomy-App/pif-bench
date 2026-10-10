@@ -1,0 +1,77 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "676480c300dbfac7",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo reports line 11, column (f) as **$3,671,600**. It also identifies contributions and grants of $3,590,300 plus interest and dividends of $81,300, matching the required computation."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo says the $454,400 in program service revenue—including workshop fees, river trip fees, and the $256,000 county contract—is “not part of public support or total support” and shows it on line 12 for information. It also explicitly states the county contract is “a fee for services, not a government grant.”"
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that the “Realized gain on the March 2024 sale of securities, $182,000” is “excluded from total support” because it is “a gain on the sale of a capital asset.” Its reconciliation also excludes the gain from the total-support figure."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states, “Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432.” This is the required five-year limit figure."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says Sarkis’s five-year total is $50,000, below the $73,432 limit, and counts all $50,000 as public support with $0 excess. It explicitly notes that his $35,000 gift exceeded 2% of that year’s support but that the test runs on his five-year total; it does not apply the limit year by year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo counts all $160,000 from Oregon DEQ and all $135,000 from Upper Alder Community Foundation as public support, with $0 excess for each. It explicitly says both are “Not limited,” citing government grants and grants from publicly supported organizations, respectively."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that the Hollins-Pryor Family Foundation’s $225,000 is subject to the 2% limit because it is not a publicly supported organization. It counts $73,432 as public support and excludes $151,568, distinguishing it from the community foundation’s unrestricted treatment."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo reports line 6 public support as $1,260,596 and shows $3,590,300 in contributions less $2,329,704 in excess contributions. Its excess calculation matches the specified amounts for Ostrander, Dellwood, and Hollins-Pryor."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo reports the line 14 public support percentage as **34.33%** and gives the calculation as **$1,260,596 ÷ $3,671,600**. This matches the criterion exactly."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo plainly states, “Yes — we pass the 33⅓% test for 2025,” and says the Council “qualif[ies] as a publicly supported organization … without needing the facts-and-circumstances test.” This directly satisfies the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo tells the treasurer the result is close: it says the 34.33% result is “about one percentage point above the 33⅓% line” and gives the dollar margin as “$36,729” above one-third of total support. This matches the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo includes all contributions in the computation and explicitly states, “No contribution has been treated as an unusual grant.” It adds that none qualifies because Ms. Ostrander’s gifts recur every year, and does not suggest excluding or reclassifying any gift."
+    }
+  ],
+  "costUsd": 0.003923475,
+  "usage": {
+    "inputTokens": 28059,
+    "cachedInputTokens": 0,
+    "outputTokens": 834
+  },
+  "gradedAt": "2026-10-10T13:59:06.027Z"
+}

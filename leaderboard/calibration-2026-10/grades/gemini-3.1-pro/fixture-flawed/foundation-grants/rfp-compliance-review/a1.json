@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "2358429d7ebb5b0b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly flags the $83,847 request as exceeding the $75,000 maximum in Issue #1. It also correctly instructs the user to bring the request down, explicitly dismissing the program officer's remark about flexibility."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in issue 2 that 'the six direct-cost lines sum to $71,910, not the $72,910 shown — a $1,000 overstatement' and provides the corrected direct-cost total of $71,910 throughout."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly flags the 15% indirect rate in Issue 3, stating it 'exceeds the cap of 10% of total direct costs.' It also notes in the Fix column that 'Our federal de minimis rate does not apply here; the RFP cap governs,' satisfying all parts of the criterion."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable states the maximum allowable indirect is $7,500 (10% of the $75,000 cap) rather than the required $7,191 (10% of the corrected direct costs of $71,910)."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly sets a maximum request of $75,000 and recommends a compliant budget of \"direct $71,910 + indirect $3,090 = $75,000\". It correctly calculates that the $3,090 indirect is well under the 10% cap (4.3% of direct costs) and explicitly states that amounts above $75,000 are unacceptable."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable counts $39,000 toward the cash match, explicitly including the $5,000 from the Socorro Rotary Club, which violates the criterion's instruction to exclude it due to the lack of a signed letter by the deadline."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable fails because it calls the existing cash match $39,000 and states that it covers the $37,500 requirement for a $75,000 request. This violates the criterion's requirement to show that the documented $34,000 falls short, and triggers the fail condition for calling the match sufficient for a request above $68,000."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly flags the missing section in row 6 of the Issues table, stating, \"Required Sustainability Plan (section 5) is missing.\" It also correctly notes that the single sentence about Medicaid does not meet the requirement and instructs the user to \"Add '5. Sustainability Plan'\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly accepts the cover note's 2,135-word count, stating under 'Checked and fine' that 'Lucia counts 2,135 words for sections 1-4, under the 2,500-word limit... which leaves room for a Sustainability Plan'. This matches the criterion's FAIL condition."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the timezone issue in Issue 8, stating, 'The deadline is 5:00 p.m. MDT (UTC−6)... so the deadline is 4:00 p.m. Phoenix time.' It correctly flags that 'Lucia's planned 4:30 p.m. upload from Phoenix would land at 5:30 p.m. MDT — after the portal closes' and recommends to 'Submit before she leaves for Phoenix... or have someone in Albuquerque upload'."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo flags Puente's headquarters location as a question, stating, \"Email the Foundation's program officer this week to confirm that an Albuquerque-based applicant is eligible before we invest more time.\" This directly violates the criterion's instruction not to flag the headquarters location as a question for the foundation."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo correctly identifies that the individual budget line items are calculated correctly and explicitly states this in the 'Checked and fine' section as well as under issue 2, noting that 'only the total is off'."
+    }
+  ],
+  "costUsd": 0.11373200000000001,
+  "usage": {
+    "inputTokens": 28468,
+    "cachedInputTokens": 0,
+    "outputTokens": 4733
+  },
+  "gradedAt": "2026-10-10T13:56:55.153Z"
+}

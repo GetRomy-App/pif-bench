@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "minimax-m3",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "e7fd2b30bf0cb4fb",
+  "deliverableHash": "5fb9dbf607aebe5c",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "\"20533 Harold Penwick — Deceased\" cites the 2026-07-28 contact report recording his death on 2026-07-19. The review adds \"Per §4.1, deceased records are reported in this category only.\" He is not counted under stalled or contact gap."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The next action is to \"Confirm the deceased flag... close the open $100,000 ask as 'Closed — deceased'; suppress all mailings and invitations... remove the record from the portfolio\". Any further outreach to Margaret is left as \"a Director decision\". No solicitation or cultivation is recommended."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Mehtas are flagged \"Assignment conflict\" because both M. Vega (Primary, 2025-10-06) and T. Brandt (Primary, 2026-05-04) are recorded. The next action is \"Refer to the Director of Major Gifts, who designates one Primary.\" Tsai is listed as in standard, and Penwick is reported only as deceased."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable breaks off mid-sentence in the Fitch entry, and Lorraine Whitfield (20667) never appears. She is not reported with a contact gap or a 2026-05-20 last substantive contact."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The Brightwaters (20718) do not appear anywhere in the truncated deliverable. The review never reports their contact gap or addresses the phonathon call."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The Fitch heading reads \"Qualification overdue + Contact gap\", but the text ends mid-sentence in the qualification paragraph. No reason is ever given for the contact gap, so the review never says that none of their contacts was substantive. The required basis is absent."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Feld (20839) is listed among the six prospects \"in standard and not detailed here\". She is not reported as having a contact gap."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "Only the Fitches are reported as qualification overdue before the deliverable cuts off. Franklin Dubose is never mentioned, so one of the two required prospects is missing."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "Langford is reported as \"Cultivation over limit\". Patricia and Leon Marchetti never appear in the truncated deliverable, so one of the two required prospects is missing."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "Gordon Ashby is reported as a stalled solicitation. Vivian Achterberg never appears, so the review does not report both required stalled solicitations."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "Franklin Dubose does not appear anywhere in the deliverable, so no next action is given for him."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The review states only \"Ten are out of standard\" of sixteen. It ends before giving any counts by category (contact gap, qualification overdue and so on), so the required counts are missing."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.305Z"
+}

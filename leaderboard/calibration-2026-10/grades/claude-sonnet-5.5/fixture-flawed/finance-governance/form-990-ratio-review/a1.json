@@ -1,0 +1,82 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo computes the program expense ratio as $4,886,000 ÷ $6,335,000 = 77.1%. It removes only the $14,180,000 of donated food from the denominator, not all $14,275,000 of gifts in kind. The criterion names this exact $6,335,000 denominator as a failure, so the memo fails."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The memo reports the program expense ratio as 77.1% ($4,886,000 ÷ $6,335,000), not the required 78.3%. The criterion names 77.1% explicitly as a failing figure, since it leaves donated legal services in the denominator."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo's summary table lists the program expense ratio as 77.1% against a target of \"80.0% or higher\" and marks it \"**Not met**\". Section 1 repeats this: \"below the 80.0% target. **Not met.**\" That is the required statement."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo subtracts the bequest in the cost-to-raise-a-dollar table: \"Less bequest — Estate of Harriet M. Okafor, received August 2025 | (600,000)\". It also gives the reason: \"The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring (policy section 3.2).\" Both parts of the criterion are met."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo's cost-to-raise-a-dollar table gives the contributions denominator as $3,985,000, built from $18,930,000 − $14,345,000 − $600,000, which is the exact figure and derivation the criterion requires. Nothing else in the memo contradicts it."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo reports the cost to raise a dollar as $0.22, using $866,300 ÷ $3,985,000 = $0.217, which matches the criterion's inputs and result. It does not contradict this elsewhere; the summary table also shows $0.22."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to say the $0.20 target was not met. The memo's summary table shows 'Cost to raise a dollar | $0.22 | $0.20 or less | **Met**', and section 2 says 'This is within the policy's $0.25 threshold, so the indicator is **met**'. That treats the $0.25 external-review trigger as the target, which the criterion explicitly says fails."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo starts the operating reserve from \"Total net assets, Part X line 32, end of year | $7,852,000\" and subtracts only land, buildings and equipment. That includes the $1,240,000 of donor-restricted net assets in the reserve, which the criterion explicitly says fails."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo gives an operating reserve of $2,744,000, computed as total net assets of $7,852,000 less fixed assets of $5,108,000. The criterion requires $1,504,000, based on net assets without donor restrictions, and names $2,744,000 as a failing figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable's reserve section computes annual operating expenses as $20,515,000 − $446,000 − $14,275,000 = $5,794,000, with a monthly figure of $482,833. Both match the criterion. The $6,335,000 figure used for the program expense ratio is a separate indicator and does not contradict this."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo reports 5.7 months of operating reserve ($2,744,000 ÷ $482,833). The criterion requires 3.1 months and lists 5.7 as a wrong figure, from counting donor-restricted net assets. The memo's figure does not match."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo's summary table lists months of operating reserve as 5.7 months against a 3.0-month target, marked \"Met\". Section 3 repeats this: \"5.7 months — above the 3.0-month target. **Met.**\" Nothing in the memo contradicts it."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo says \"The program expense ratio is down from 81.6% in fiscal 2024.\" No file gives fiscal 2024 functional expenses, program expenses, or a 2024 ratio, so 81.6% cannot be found in or computed from the files. This is the kind of invented prior-year ratio the criterion names as a failure."
+    }
+  ],
+  "costUsd": 0.0479685,
+  "usage": {
+    "inputTokens": 38989,
+    "cachedInputTokens": 27720,
+    "outputTokens": 1705
+  },
+  "gradedAt": "2026-10-10T14:01:34.194Z"
+}

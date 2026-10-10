@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "promptHash": "041eef5eee0c7d61",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 6042,
+  "outputTokens": 3286,
+  "costUsd": 0.0479635,
+  "latencyMs": 57709,
+  "createdAt": "2026-10-10T18:15:50.461Z"
+}

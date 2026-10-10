@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report correctly identifies Scott as \"a novelist and philanthropist\" and states that she \"married Jeff Bezos in 1993, and they divorced in 2019.\" It also says she \"holds no Amazon position today,\" and nowhere confuses her identity or contradicts these points."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report identifies the source of her wealth as the 2019 divorce settlement, stating that she received “25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company.” It also provides a dated present holding, “81,082,131 Amazon shares as of September 30, 2025,” and dated net-worth estimates from Bloomberg and Forbes. These satisfy the criterion without attributing her fortune to another source or misstating the settlement."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states the \"Latest disclosed holding: 81,082,131 Amazon shares as of September 30, 2025,\" about 0.76%, and cites the October 14, 2025 filing, matching the criterion. Its net-worth estimates of \"$42.7 billion on April 18, 2026\" and \"$33.9 billion in September 2025,\" summarized as \"$34–43 billion,\" are within the permitted range. All superseded Amazon holding figures are clearly dated and presented as historical rather than current."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report states, \"Cumulative: over $26 billion in more than 2,700 gifts since 2019,\" and adds that AP puts the figure at \"$26.3 billion as of December 2025.\" Both satisfy the required range, and the report identifies the older \"$19 billion given\" total as outdated rather than current."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, \"She does not accept applications or unsolicited proposals.\" It explains that \"a small internal team and a large network of advisors do 'quiet research'\" and that the team \"then contacts the organizations it has selected.\" The 2023–24 open call is described as completed, with no open call currently accepting applications, and the report does not suggest that unsolicited submissions can be considered."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy explicitly states, \"Ask amount: none\" and \"Do not solicit Scott, Yield Giving or her advisors,\" including prohibitions on letters, proposals, introductions and forwarded materials. It recommends responding only if her researchers initiate contact and asking peer recipients about their experience \"only, not for a referral.\" The $3–8 million range is expressly for scenario planning, not an ask."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report states that the Yield Giving Open Call was run with Lever for Change, launched in March 2023, and “in March 2024 gave $640 million to 361 organizations.” It explicitly says, “It is completed, and no open call is accepting applications.” Its recommendation to watch for a future open call is permitted by the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report explicitly describes Scott's giving as “Unrestricted, no strings” and says gifts are made “for use however they choose.” It also states that grantees are not required to report on how they use the gifts and does not contradict these points elsewhere."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The table lists Spelman College gifts of \"$20 million; $38 million\" in \"2020; Nov. 2025\" and Clark Atlanta University gifts of \"$15 million; $38 million\" in those same years, matching the required record. It lists Morehouse College's \"$20 million (no gift since)\" in \"July 2020,\" and does not credit Morehouse with a later direct gift."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report correctly lists “Achieve Atlanta | $8 million | 2022,” “Southern Education Foundation | $6 million | March 2022,” “Communities In Schools of Atlanta | $4 million | 2021,” and GEEARS at $3 million in 2023. It also names KIPP Metro Atlanta Schools and Sheltering Arms with “amounts not disclosed,” and does not contradict these amounts elsewhere."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states that Scott's divorce from Dan Jewett \"was finalized in January 2023\" and that \"She is not married today.\" It also describes Jewett as her second husband \"from whom she is divorced,\" and never recommends approaching them as a couple."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy explicitly says to be \"findable and fundable\" on the indicators her research looks for. It lists all four qualifying indicators: \"stable finances,\" \"a multi-year track record,\" \"measurement and evidence of outcomes,\" and \"experienced leadership representative of the community it serves,\" exceeding the required two."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report does not contradict the verified fact sheet. Its current holdings of “81,082,131 Amazon shares as of September 30, 2025,” cumulative giving of “over $26 billion,” and statement that Scott “is not married today” match the reference. The Atlanta gift amounts and dates also agree, and the report correctly describes the open call as completed and unsolicited referrals as unwelcome."
+    }
+  ],
+  "costUsd": 0.1352055,
+  "usage": {
+    "inputTokens": 49282,
+    "cachedInputTokens": 0,
+    "outputTokens": 1202
+  },
+  "gradedAt": "2026-10-10T14:03:20.592Z"
+}

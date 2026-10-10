@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report states, \"Co-founded Netflix in 1997 and was its CEO from the late 1990s until January 2023.\" This identifies the required co-founder role, correct founding year, and correct end of his CEO tenure, with no contradictory dates elsewhere."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report correctly identifies Hastings as Netflix’s current “non-executive chairman” and states, “Since then he has been Chairman of the Board and a non-executive director.” It dates his Executive Chairman tenure as ending April 17, 2025 and labels his Microsoft board (2007–2012) and Facebook board (2011–2019) roles as past. No superseded role is presented as current."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, “On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting” and “He remains chairman until then.” It also says he “leaves the Netflix board in June 2026,” and does not contradict that timeline elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, “Netflix equity is the core of his wealth,” and identifies both stock holdings and stock options, with beneficial ownership “under 1% of the company.” Its sourced net-worth estimates are Forbes's “about $4.1 billion” after the January 2024 gift and “about $4–5.5 billion” in 2026, plus Bloomberg's “$6.6 billion” before the gift—all within the required $3–8 billion interval."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, \"He is married to Patty Quillin, his partner in giving.\" It also identifies the $120 million HBCU gift as made \"with Quillin\" and lists the 2012 Giving Pledge as signed \"with Patty Quillin,\" satisfying both the wife and co-donor requirements."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The giving-history table lists “Jan 2016” and describes the “Hastings Fund” as an “education donor-advised fund at SVCF” with an amount of “$100 million.” The summary expands SVCF as the Silicon Valley Community Foundation, and the report contains no contradictory launch amount, year, or sponsor."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The giving-history table states: “Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion.” The report also identifies SVCF as the Silicon Valley Community Foundation, satisfying the required date, share count, value, and recipient without contradiction."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report identifies The City Fund as a channel of Hastings's giving and dates it to “Jul 2018,” describing its purpose as “charter and autonomous public schools in cities.” It names “The Hastings Fund and Laura and John Arnold” as anchor funders and reports “~$200 million raised at launch,” with a reported $125 million share from the Hastings Fund rather than attributing the entire amount to Hastings."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The giving-history table states: \"Jun 2020 | UNCF, Spelman College, Morehouse College, for HBCU scholarships (with Quillin) | $120 million ($40M each).\" This identifies the required year, donors, purpose, recipients, total, and per-recipient amounts, with no contradictory account elsewhere."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report states, \"Hastings sits on CSGF's board, and CSGF is headquartered in Denver,\" satisfying both the current board-seat and Colorado-location requirements. It reinforces these points in the engagement strategy and also identifies him and Patty Quillin as $10 million-plus funders. It does not describe the seat as past or claim he chairs CSGF."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report identifies Lone Rock as “an educators' retreat in rural Bailey, Park County, that he financed” and documents its land purchase and grant to the Lone Rock Foundation. It also lists Hastings as the foundation's president and describes educator retreats and convenings there, substantively identifying its retreat/conference function. The report correctly says he lives in Santa Cruz, California and does not characterize Lone Rock as his personal residence or vacation property."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report explicitly estimates single-gift capacity in Section 5 as \"$50 million or more,\" exceeding the criterion's $40 million threshold. Its lower recommended ask of \"$1–2.5 million\" is separately identified as an ask rather than a capacity estimate and does not contradict that estimate."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The strategy explicitly recommends “Go through CSGF” and “ask CSGF leadership for an introduction,” routing engagement through Hastings’s charter-sector network. It also says “No cold asks,” prohibits unsolicited proposals to the Hastings Fund and contact through Netflix, and notes that Lone Rock makes grants only to preselected organizations."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The report does not contradict the verified fact sheet within its stated tolerances. It correctly identifies Hastings as currently \"Chairman of the Board and a non-executive director,\" reports the $120 million HBCU gift as \"$40M each,\" and describes the Bowdoin gift as $50 million. Its wealth estimates, Colorado connections, and giving-vehicle descriptions are consistent with the sheet; omissions of other documented roles or gifts are not contradictions."
+    }
+  ],
+  "costUsd": 0.163679,
+  "usage": {
+    "inputTokens": 60308,
+    "cachedInputTokens": 0,
+    "outputTokens": 1293
+  },
+  "gradedAt": "2026-10-10T14:00:12.012Z"
+}

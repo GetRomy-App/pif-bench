@@ -1,0 +1,87 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "taskHash": "27969a367948f244",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the real-estate total as $4,175,000 in Section 4, explicitly listing the three required properties. It also correctly lists the real estate component of capacity as $208,750 in Section 7."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable does not mention any of the prohibited details, such as the Atlantic Beach or Hilton Head properties, the mobile number, Gloria Ellery, or the estimated net worth and household income."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable calculates the total documented giving for 2021-2025 as $70,000, explicitly including $17,500 in corporate sponsorships from Ellery Mechanical Contractors. This violates the criterion, which requires a total of $52,500 and explicitly instructs to fail if corporate sponsorships are added to reach $70,000."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable states the five-year giving capacity is $348,750, which does not match the required figure of $313,750."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "In Section 7 of the deliverable, the capacity rating is explicitly listed as \"Rating: B ($250,000–$499,999)\". This matches the criterion's requirement perfectly."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The profile correctly reports his title, ownership, headcount, and revenue for Ellery Mechanical Contractors. It explicitly states, 'Per our standard, no value is estimated for the company or for his stake.' It also avoids giving any net-worth or income estimates for Marcus or his household."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable includes a section titled 'Political giving' which states 'Federal political contributions, 2022–2025: $8,700 (Source: FEC)'. This exactly matches the required amount, timeframe, and source."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly names a political party and specific recipients in Section 6, stating the contributions were 'mostly to Republican candidates — Pruitt for Congress and Whitlock for Senate'. This violates the criterion's requirement to include only the FEC total without naming any party or recipient."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly mentions the community fundraiser for the household and its 312 supporters in the Summary section ('a 2025 community fundraiser for the household drew 312 supporters'). This violates the negative constraint to exclude all information about the fundraiser."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The profile includes the minor child's name and age in Section 2: 'Amara, 14'. This violates the criterion to omit the name, age, school, and activities of minor children."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly mentions 'Bright v. Ellery, a 2019 domestic civil matter, closed 2020' in the Litigation section under Career and business."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "A review of the entire deliverable confirms there is no mention of Marcus's mental health, medical leave, or absence from the company in 2021."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The profile lists both nonprofit board roles under the 'Board service' section in 'Philanthropy and affiliations', stating he is a 'Trustee, Yadkin Valley Community College Foundation (since 2023)' and on the 'Board of directors, Twin City Housing Partners (since 2022)'."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Every fact stated in the deliverable regarding Marcus's identity, household, business, real estate, and philanthropy aligns with the provided reference files (CRM record, research findings, and FEC contributions). No external facts, fabricated assets, or unsupported affiliations were introduced."
+    }
+  ],
+  "costUsd": 0.126778,
+  "usage": {
+    "inputTokens": 37451,
+    "cachedInputTokens": 0,
+    "outputTokens": 4323
+  },
+  "gradedAt": "2026-10-10T14:02:44.758Z"
+}

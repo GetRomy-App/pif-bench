@@ -1,0 +1,89 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "592143c71312ebc4",
+  "deliverableHash": "8a834d51c4c0f21d",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report calls her \"Founder and president of Emerson Collective\" and \"the widow of Apple co-founder Steve Jobs\", who \"died on October 5, 2011.\" It states \"The fortune was inherited, mostly as Apple and Disney shares.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It describes Emerson Collective as \"an LLC that combines grant-making, venture investing and advocacy\" and says \"Emerson Collective: LLC, not a foundation. It has no Form 990 and no public grant list.\" Nothing in the report contradicts this."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "\"Waverley Street Foundation: her climate foundation. It is a 501(c)(3) private foundation (EIN 81-3242506), organized in 2016 as the Emerson Collective Foundation.\" It says she \"committed $3.5 billion over ten years\" in a spend-down and that the foundation \"funds climate work only.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "\"Emerson Collective agreed to buy a majority stake in July 2017\", and her current roles include \"majority investor and board chair of The Atlantic.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "\"The Atlantic, which she controls, is headquartered in Washington, D.C.\" The report also notes that \"College Track Southeast D.C. (Ward 8) opened in January 2020.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It gives \"$13.9 billion (Forbes real time, April 25, 2026)\" and advises \"Use about $12–14 billion\". It labels the older $19–20 billion figures as superseded."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "\"She sold her stake in December 2025 to the Qatar Investment Authority and Arctos Partners, at a reported $7.2 billion enterprise value... It is no longer a holding.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report names several journalism grantees with documented amounts: ProPublica $500,000 (2016), $700,000 (2017) and $4.6 million over three years; The Texas Tribune $350,000 a year; Chalkbeat $200,000–$300,000 a year; The 19th $100,000 (2020); The Current $170,000 over two years; and \"about $37 million\" in total. All of them match."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "On The Atlantic it says \"This is a for-profit investment, not a gift\", and it lists Axios, The Athletic, Ozy and Pop-Up as \"Other media investments (all for-profit).\" None of these is added into the giving totals."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "\"Emerson Collective does not accept unsolicited submissions of any kind [10]. The only route is a warm introduction.\""
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Strategy step 1 says \"Do not send a proposal, letter of inquiry or cold pitch to Emerson Collective or the Waverley Street Foundation\". Step 2 is \"Build a warm introduction\" through grantee newsrooms and the AJP network. No unsolicited submission is recommended anywhere."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "\"XQ Institute. She co-founded it in 2015 with Russlynn Ali, and she chairs it.\" Also: \"College Track. She co-founded it in 1997.\" Both founding years are correct."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The ask is \"$300,000 over three years ($100,000 a year)\". It is anchored explicitly to \"The 19th: $100,000\", \"The Current: $170,000 over two years\" and \"The Texas Tribune and Chalkbeat: $200,000–$350,000 a year.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "Every fact checked agrees with the fact sheet: biography, net-worth figures, the Atlantic stake and price, the Monumental sale, the Waverley Street figures, the founding years and every journalism grant amount. The Atlantic is placed in Washington, D.C. I found no contradiction."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.606Z"
+}

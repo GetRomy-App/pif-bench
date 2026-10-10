@@ -1,0 +1,94 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "taskHash": "0f941c985515fb99",
+  "deliverableHash": "08371b4eabcff556",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Hit 1: Accept. This record matched four identifiers: full name including middle initial (David A. Miller), age (61), home address (412 Orchard Hill Rd), and spouse name (Karen L. Miller).\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Hit 2: Reject\", citing \"an age of 47 (more than two years off from the implied age of 61) and a different spouse name (Jennifer S. Miller).\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Hit 3: Reject\" because it \"had a conflicting age identifier of 29, which is outside the two-year tolerance.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Hit 4: Accept\", matched on \"full name including middle initial (David A. Miller), mailing address (412 Orchard Hill Rd), and spouse name (Karen L. Miller).\" It includes \"118 Shore Dr, Marblehead, OH: $390,000\" in the prospect's real estate."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo excludes 9 Elm Ct \"because it is no longer owned by the prospect... The property was transferred via general warranty deed to Ravi K. Patel on 2026-06-30.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo gives \"Total eligible real estate value: $1,235,000\" ($845,000 + $390,000) and \"5% of $1,235,000 = $61,750.\""
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo shows \"Securities (5%): $0\" and excludes \"Scioto Biologics Inc. (Securities)\" because it belongs \"to Hit 2 (David A. and Jennifer S. Miller), which was rejected.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo excludes \"The Ohio State University 2025 Gift\" because of \"a spouse identifier conflict (Jennifer S. Miller instead of Karen L. Miller)\", and does not use it in the capacity calculation."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo uses the \"$15,000, given to the Granville Public Library Foundation in 2024\" as the largest gift, and \"3 × $15,000 = $45,000.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo excludes the Denison gift \"because the $20,000 gift was made in 2019, which is outside the required five-year window.\" It adds the name-only match as a second reason."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states the Licking Memorial listing \"uses the bottom of the given range ($10,000)\". It puts no figure above $10,000 on it."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Total Five-Year Capacity: $106,750 ($61,750 + $0 + $45,000).\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Rating: C ($100,000 – $249,999) based on the total capacity of $106,750.\""
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The Marblehead line reads \"118 Shore Dr, Marblehead, OH: $390,000 appraised market value [documents/county-records.md]\", citing the county record."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "Everything attributed to the prospect is tied in the files to David A. Miller of 412 Orchard Hill Rd: the Granville and Marblehead parcels, the Granville Library and Licking Memorial listings with Karen L. Miller, and the museum gifts from the CRM. Hit 2's property, Scioto shares and the Ohio State gift are explicitly excluded, and no figure is invented."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.919Z"
+}

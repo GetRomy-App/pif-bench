@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "promptHash": "b8e5748f82f74fd8",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 4655,
+  "outputTokens": 19541,
+  "costUsd": 0.243802,
+  "latencyMs": 236736,
+  "createdAt": "2026-10-10T18:21:01.285Z"
+}

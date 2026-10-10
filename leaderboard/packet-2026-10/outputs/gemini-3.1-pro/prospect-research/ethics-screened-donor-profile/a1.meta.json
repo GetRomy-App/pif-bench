@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.1-pro",
+  "task": "prospect-research/ethics-screened-donor-profile",
+  "attempt": 1,
+  "promptHash": "06ebcc384b44ba6b",
+  "source": "api",
+  "model": "google/gemini-3.1-pro-preview",
+  "finishReason": "stop",
+  "inputTokens": 4611,
+  "outputTokens": 10611,
+  "costUsd": 0.136554,
+  "latencyMs": 174692,
+  "createdAt": "2026-10-10T18:23:55.979Z"
+}

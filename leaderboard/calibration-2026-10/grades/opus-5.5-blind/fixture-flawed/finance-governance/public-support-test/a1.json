@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "1d5c4ca7aecfcd1f",
+  "deliverableHash": "d0ecc03994841496",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Line 11, column (f) shows \"Total support ... 3,671,600\", which is the $3,590,300 of contributions plus $81,300 of interest and dividends."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo puts the $454,400 on \"line 12 and not part of public or total support\", naming the workshop fees, the trip fees and the $256,000 county contract. It adds \"The county contract is a fee for services, not a grant.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "Total support of $3,671,600 does not include the $182,000 gain. However, the memo never mentions the securities gain or why it is excluded: the \"What is left out\" section lists only program service revenue. The criterion fails if the memo never mentions the gain."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Limit: 2% × $3,671,600 (line 11, column (f)) = $73,432.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Benedict Sarkis is counted at $50,000 with the treatment \"Under the limit on his five-year total\" and $0 excess. No limit is applied year by year."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo limits the Oregon DEQ grants: \"2% limit applies — the state agency is a single funder | $73,432 | $86,568\". Grants from governmental units should be counted in full. The community foundation is counted in full, but the DEQ reduction alone fails the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Hollins-Pryor is treated as \"2% limit applies — not a publicly supported organization\", counting $73,432 and excluding $151,568."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "Line 6 public support is \"1,174,028\", not $1,260,596. The difference comes from limiting the DEQ grants, which the criterion names as a failing figure."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo reports \"Public support percentage ... 31.98%\", not 34.33%. The criterion names 31.98% (DEQ grants limited) as a failing figure."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo concludes \"No — on the 2025 computation we fall short of the 33⅓% test\". It says the Council \"would have to rely on the 10% facts-and-circumstances test\"."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo states the margin as \"about 1.4 percentage points below the line\" and \"$49,839 short\". The criterion requires the margin to be about one point above 33⅓% (about $36,729 above one-third), and this margin does not follow from 34.33%."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The memo recommends \"Ask Ferrante & Lowe to treat Ms. Ostrander's 2025 gift of $455,000 as an unusual grant ... would lift the percentage back above 33⅓%\". The criterion fails any suggestion to reclassify a gift as an unusual grant."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.516Z"
+}

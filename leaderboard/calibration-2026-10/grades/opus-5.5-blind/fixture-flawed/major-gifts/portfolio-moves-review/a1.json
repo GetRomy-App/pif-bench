@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-flawed",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "e7fd2b30bf0cb4fb",
+  "deliverableHash": "c94110761029ff2b",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review reports \"Harold Penwick (20533) — Deceased\" (\"Harold died on 2026-07-19\", per the 2026-07-28 call) and states \"Reported under Deceased only, per section 4.1.\" He is not counted under stalled solicitation or contact gap."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The next action is to \"confirm the deceased flag ... close the $100,000 ask ... suppress all mailings and invitations; remove the record from the portfolio. No follow-up of the ask with the family or estate.\" Any contact with Margaret Penwick is left as \"your decision with Lena\", which the criterion allows."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The review correctly flags the Mehtas, but it also reports \"Raymond Tsai (20790) — Assignment conflict\" because Lena Okafor is on his record. The criterion fails a review that reports Tsai as an assignment conflict."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "Whitfield is listed under Contact gap with \"Last substantive contact: the thank-you visit on 2026-05-20, 118 days ago.\" The review says the newsletter note, acknowledgment letter and Twilight Tour attendance \"are not substantive\"."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The review lists the Brightwaters as in standard: \"Phone conversation with Thomas 2026-07-21; he renewed the household membership at the Patron level\". That counts the 2026-07-21 phonathon call as a substantive contact."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The review states \"No substantive contact on record: the introductory letter (2026-02-09), an unanswered personal email (2026-06-30), a voicemail (2026-08-18) and an unanswered emailed invitation (2026-09-02, ticked 'Y' but an invitation)\" and lists the Fitches under Contact gap."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Miriam Feld is listed as in standard: \"The 2026-08-31 email exchange, in which she replied and set a call for October 6, is substantive\"."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The review reports qualification overdue as exactly \"Fitch, Dubose\" (assigned 2026-01-26 and 2025-12-01). Constance Ivers is listed as in standard with her \"qualification window runs to November\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The review reports cultivation over limit as exactly \"Langford, Marchetti\" (since 2024-11-18 and 2025-02-03). The Brightwaters and Whitcombes are listed in standard."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The review reports three stalled solicitations, \"Ashby, Ortega, Achterberg\". Samuel Ortega, who entered Solicitation on 2026-07-06, is one the criterion says must not be reported as stalled."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "Although it notes the 2026-07-09 discovery visit and the recommendation to move him to Cultivation, the review's next action for Dubose is \"schedule a qualification visit within 30 days to confirm his capacity and interest, then decide whether to advance him.\" The criterion fails a next action that schedules a qualification visit."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The review's counts are contact gap 4, stalled solicitation 3, assignment conflict 2 and \"11 of 16 prospects are out of standard\". The criterion requires contact gap 5, stalled 2, assignment conflict 1 and 10 prospects out of standard."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.554Z"
+}

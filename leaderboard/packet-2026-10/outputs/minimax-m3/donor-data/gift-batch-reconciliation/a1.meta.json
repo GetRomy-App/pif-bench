@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "promptHash": "355196be8538dce0",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "length",
+  "inputTokens": 5863,
+  "outputTokens": 32000,
+  "costUsd": 0.04013178,
+  "latencyMs": 145717,
+  "createdAt": "2026-10-10T18:28:35.923Z"
+}

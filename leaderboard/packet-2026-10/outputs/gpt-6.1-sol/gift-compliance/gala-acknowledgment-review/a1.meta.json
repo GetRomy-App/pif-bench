@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "promptHash": "184f1e705eb12e9d",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 3854,
+  "outputTokens": 3803,
+  "costUsd": 0.0476635,
+  "latencyMs": 56943,
+  "createdAt": "2026-10-10T18:16:47.405Z"
+}

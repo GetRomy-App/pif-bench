@@ -1,0 +1,17 @@
+{"packet": "J-2efb48", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "The results table gives \"LYBUNT households | 11,\" the section is headed \"LYBUNT: 11 Households,\" and the count check reads \"19 − 8 = 11 LYBUNT households.\""},
+{"id": "C-002", "verdict": "pass", "reasoning": "The results table gives \"SYBUNT households | 9,\" and the count check reads \"6 + 1 + 1 + 1 = 9 SYBUNT households.\""},
+{"id": "C-003", "verdict": "pass", "reasoning": "Retention is given as \"68.2%\" with the stated basis \"15 households gave in both FY2025 and FY2026 ÷ 22 households that gave in FY2025\" and the calculation \"15 ÷ 22 × 100 = 68.2%.\" Both numerator and denominator are stated."},
+{"id": "C-004", "verdict": "pass", "reasoning": "H-20387 Dana Whitfield is on the LYBUNT list. The memo explains that her August 12, 2026 credit is for a Northgate Systems match and is not a countable gift, \"so both households remain LYBUNT.\""},
+{"id": "C-005", "verdict": "pass", "reasoning": "H-20951 Gregory Szabo is on the LYBUNT list: \"Gregory Szabo's July 20, 2026 gift was refunded, leaving his household LYBUNT.\""},
+{"id": "C-006", "verdict": "pass", "reasoning": "H-21233 Marguerite Osei is on the LYBUNT list. Her August 2026 credits for gifts from Tobias Grant, Elena Sorensen and Marcus Bell are treated as soft credits that are \"not countable gifts.\""},
+{"id": "C-007", "verdict": "pass", "reasoning": "H-20114 Celeste Moreau is on the LYBUNT list with a latest countable gift of \"June 30, 2026,\" counted in FY2026."},
+{"id": "C-008", "verdict": "pass", "reasoning": "The Achebe household is not on the LYBUNT list. The memo names Ruth and Daniel Achebe among the 8 FY2026 donors who also gave in FY2027 and says \"Daniel Achebe's August 28, 2026 gift keeps the household ... off the LYBUNT list.\""},
+{"id": "C-009", "verdict": "pass", "reasoning": "The LYBUNT list has one row for \"H-21540 | Erik and Annika Lindqvist,\" and the memo notes \"The Lindqvists' split joint-account gifts count as one donor household.\""},
+{"id": "C-010", "verdict": "pass", "reasoning": "\"H-22901 | Benjamin and Clara Hartwell\" is on the LYBUNT list. Benjamin Hartwell does not appear on the SYBUNT list, which has nine named households, none of them Hartwell."},
+{"id": "C-011", "verdict": "pass", "reasoning": "\"H-25012 | Lorraine Abernathy\" is on the SYBUNT list and not on the LYBUNT list. The memo notes her April 16, 2026 gift \"was refunded, leaving her household SYBUNT.\""},
+{"id": "C-012", "verdict": "pass", "reasoning": "\"H-25230 | Walter Pruitt | August 18, 2020 | FY2021\" is on the SYBUNT list. The memo says that gift \"falls in FY2021 and qualifies him for SYBUNT.\""},
+{"id": "C-013", "verdict": "pass", "reasoning": "Ingrid Solberg is on neither list. The memo states that her latest gift \"falls in FY2020; her household is lapsed outside the SYBUNT window.\""},
+{"id": "C-014", "verdict": "pass", "reasoning": "The SYBUNT list includes a single row, \"H-26802 | Samir and Leila Haddad | June 30, 2025 | FY2025,\" and the Haddads are absent from the LYBUNT list. The memo notes that Samir's gift and Leila's soft credit \"represent one household.\""},
+{"id": "C-015", "verdict": "pass", "reasoning": "None of Northgate Systems, Thistlewood Family Foundation, Sourwood Garden Club or Ferncliff Brewing Co. appears on the LYBUNT list, the SYBUNT list or the 22-household retention cohort. The method says organizational gifts are excluded."}
+]}

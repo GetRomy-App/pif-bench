@@ -1,0 +1,91 @@
+{
+  "title": "Build a $10 million campaign's gift range chart from counsel's method and the rated prospect pipeline",
+  "track": "packet",
+  "work_type": "calculate",
+  "as_of": "2026-09-21",
+  "tags": [
+    "major-gifts",
+    "capital-campaign",
+    "gift-range-chart",
+    "prospect-pipeline",
+    "campaign-counsel"
+  ],
+  "instructions": "Evelyn Larch at Larch & Whitby needs our gift range chart for the Sound Foundations campaign before the campaign cabinet meets on October 6. Build it by her method from our current pipeline and booked commitments: for each tier, the gift amount, number of gifts, cumulative total, prospects needed, prospects identified and the gap, and show which prospects you counted at each tier. Close with our three biggest gaps for the cabinet.",
+  "deliverable": "gift-range-chart.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Lead gift is one gift of $2,000,000",
+      "match_criteria": "PASS if the chart's lead tier is one gift of $2,000,000 (20% of the $10,000,000 goal). FAIL if the lead gift is any other amount — such as $1,500,000 from the April retreat draft — or more than one gift."
+    },
+    {
+      "id": "C-002",
+      "title": "Four named tiers, halving the gift and doubling the count",
+      "match_criteria": "PASS if the chart has exactly four named tiers — $2,000,000 × 1, $1,000,000 × 2, $500,000 × 4 and $250,000 × 8 — followed by an All other gifts line. FAIL if any tier's gift amount or number of gifts differs, if it charts a named tier below $250,000 (such as $125,000 × 16), or if it uses the April draft's tiers ($250,000 × 6, $100,000 × 12, $50,000 × 20)."
+    },
+    {
+      "id": "C-003",
+      "title": "Cumulative totals reach the $10,000,000 goal",
+      "match_criteria": "PASS if the cumulative totals are $2,000,000, $4,000,000, $6,000,000 and $8,000,000 for the four named tiers, and the All other gifts line is $2,000,000, bringing the cumulative total to $10,000,000. FAIL if any cumulative figure differs, if All other gifts is any amount other than $2,000,000 (for example reduced by commitments already booked), or if the chart does not reach $10,000,000."
+    },
+    {
+      "id": "C-004",
+      "title": "Signed pledges are gifts in hand, not prospects",
+      "match_criteria": "PASS if the chart counts the Hollis Family Foundation's signed $1,000,000 pledge (2026-06-30) as one gift in hand at the $1,000,000 tier and Ruth and Anders Lindqvist's signed $300,000 pledge (2026-08-12) as one gift in hand at the $250,000 tier, and counts neither among prospects identified. FAIL if either donor is counted as a prospect identified, if either pledge is not credited as a gift in hand, or if either is credited at a different tier."
+    },
+    {
+      "id": "C-005",
+      "title": "The Abernathy-Kim verbal intention stays a prospect",
+      "match_criteria": "PASS if the chart treats the Abernathy-Kim Family Fund's verbal \"we intend to do $500,000\" (no pledge signed) as a prospect identified at the $500,000 tier, not as a gift in hand. FAIL if the chart counts it as a gift in hand or a commitment, reduces the $500,000 tier's gifts still needed because of it, or presents it to the cabinet as committed money.",
+      "red_line": true
+    },
+    {
+      "id": "C-006",
+      "title": "Inclination N excluded, inclination L counted",
+      "match_criteria": "PASS if the chart counts none of the three prospects coded N — Desmond Achebe-Lowry, Corinne Ashworth, and Fenwick and Lila Haraway — as prospects identified, and does count the L-coded prospects Lucien Park, Ivan and Sofia Petrakis, and Kenji and Amara Sato. FAIL if any N-coded prospect is counted at any tier, or if any of those L-coded prospects is left out."
+    },
+    {
+      "id": "C-007",
+      "title": "Rating 5 prospects placed at the $250,000 tier",
+      "match_criteria": "PASS if the chart places the four rating-5 prospects ($400,000–$749,999 band) — Thaddeus Rourke, Marguerite Delacroix-Benn, Ivan and Sofia Petrakis, and Beaumont Hardware Co. — at the $250,000 tier, because the bottom of their band ($400,000) is below the $500,000 tier's gift amount. FAIL if any of them is placed at the $500,000 tier."
+    },
+    {
+      "id": "C-008",
+      "title": "Lead tier: 3 needed, 1 identified, gap 2",
+      "match_criteria": "PASS if the $2,000,000 tier shows prospects needed 3, prospects identified 1 (the Castellane Foundation) and a gap of 2. FAIL if any of these three figures differs — for example 2 identified and a gap of 1 because Desmond Achebe-Lowry was counted."
+    },
+    {
+      "id": "C-009",
+      "title": "$1,000,000 tier: 3 needed, 2 identified, gap 1",
+      "match_criteria": "PASS if the $1,000,000 tier shows 1 gift in hand (Hollis), 1 gift still needed, prospects needed 3, prospects identified 2 (Margaret and Elliot Thornbury; Gideon Salcedo) and a gap of 1. FAIL if prospects needed, prospects identified or the gap differs — for example 6 needed and a gap of 3 or 4 because the Hollis pledge was not taken off the gifts needed."
+    },
+    {
+      "id": "C-010",
+      "title": "$500,000 tier: 16 needed, 4 identified, gap 12",
+      "match_criteria": "PASS if the $500,000 tier shows 0 gifts in hand, 4 gifts still needed, prospects needed 16, prospects identified 4 (Helena Voss, the Abernathy-Kim Family Fund, Lucien Park, Wendell and Grace Oduya) and a gap of 12. FAIL if any of these figures differs — for example 12 needed and a gap of 9 (Abernathy-Kim treated as committed) or 8 identified and a gap of 8 (rating-5 prospects placed here)."
+    },
+    {
+      "id": "C-011",
+      "title": "$250,000 tier: 28 needed, 7 identified, gap 21",
+      "match_criteria": "PASS if the $250,000 tier shows 1 gift in hand (Lindqvist), 7 gifts still needed, prospects needed 28, prospects identified 7 (Rourke, Delacroix-Benn, Petrakis, Beaumont Hardware Co., Odessa Grant, Rafael Quintero, Sato) and a gap of 21. FAIL if any of these figures differs — for example 32 needed, 8 identified (Haraway counted), 3 identified (rating-5 prospects moved up), or rating-7 prospects counted here."
+    },
+    {
+      "id": "C-012",
+      "title": "Three biggest gaps: $250,000, $500,000, then the lead tier",
+      "match_criteria": "PASS if the deliverable names as the three biggest gaps, largest first, the $250,000 tier, the $500,000 tier and the $2,000,000 lead tier. FAIL if it names the $1,000,000 tier among the three, leaves out any of those three tiers, or ranks them in a different order."
+    },
+    {
+      "id": "C-013",
+      "title": "Names no prospect, rating or commitment that is not in the files",
+      "match_criteria": "PASS if every prospect and donor the chart names appears in the pipeline export or the commitments log, with the capacity rating, inclination code and any pledge amount shown there. FAIL if the chart counts or names a prospect or donor who appears in neither file, gives a prospect a rating or inclination code other than the pipeline's, or states a pledge or gift amount that appears in neither file. Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/april-retreat-draft-chart.md",
+        "documents/campaign-commitments.md",
+        "documents/counsel-chart-method.md",
+        "documents/prospect-pipeline.csv",
+        "documents/rating-key.md"
+      ],
+      "red_line": true
+    }
+  ]
+}

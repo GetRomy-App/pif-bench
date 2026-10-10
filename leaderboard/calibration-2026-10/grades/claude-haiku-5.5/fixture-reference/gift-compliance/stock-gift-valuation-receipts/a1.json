@@ -1,0 +1,67 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The sheet lists G-1 Marchetti with Date of gift 2026-01-02 and Tax year 2026, and the notes explain that the 400 shares were credited 2026-01-02 and the gift is not dated December 29. The Marchetti receipt states the shares were 'credited to our account on January 2, 2026.' The Marchetti email reply also says the receipt is dated January 2, 2026. No 2025 date or tax year 2025 is assigned to this gift anywhere in the deliverable."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable's gift-entry table lists G-1 Marchetti with per-share value $62.67 (mean of high $63.48 and low $61.86 on 2026-01-02) and gift value $25,068.00, which is 400 × $62.67. The notes repeat the calculation (63.48 + 61.86) ÷ 2 = $62.67 × 400 = $25,068.00. No other figure is given as the Marchetti gift value, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable's gift-entry sheet lists G-2 Delacroix with date of gift 2025-12-30, tax year 2025, valuation basis as the mean of high $38.62 and low $37.84, per-share value $38.23, and gift value $9,557.50. The notes repeat this and explicitly reject the $38.55 close. No contradicting figure appears elsewhere in the deliverable, so the criterion's requirements are met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The sheet dates G-3 Fenn as 2025-12-31 with tax year 2025, citing the postmark on the mailed, endorsed certificate. The Fenn receipt states the gift was 'mailed to us on December 31, 2025', consistent with that date. The deliverable does not date the gift 2026-01-05, 2026-01-07, or 2025-12-30, and does not place it in tax year 2026."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable's G-3 Fenn row lists per-share value $84.58 and gift value $10,149.60, computed as (85.22 + 83.94) ÷ 2 = $84.58 × 120 shares, using the 2025-12-31 high and low. This matches the criterion's required figure exactly. The sales table repeats $10,149.60 as the unchanged gift value, with no contradicting figure elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable's gift-entry table lists G-4 Szabo with Date of gift '2025-12-31' and Tax year '2025', and the notes state the shares were credited to the fund account on 2025-12-31, which is the date of gift. It does not date the gift to 2025-12-22 or 2026-01-06, and no contradictory date or tax year appears elsewhere for this gift."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable values the Szabo gift (G-4) at NAV: \"812.345 × $24.68 = $20,048.67 (20,048.6746, rounded to the cent),\" and the gift-entry table lists Gift value **$20,048.67** with valuation basis \"Net asset value (public redemption price) on 2025-12-31.\" This matches the criterion's required figure and basis, and the figure is not contradicted elsewhere in the sheet."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "I checked all four receipt texts in section 2 and the donor-reply guidance in section 3. None of the receipts includes a dollar amount, per-share price, or estimated value; each describes only shares, security name, dates, and states 'No goods or services were provided.' The Delacroix reply explicitly declines to state a value. The sales table and gift-value figures appear only in the internal sheet, not donor-facing wording."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Each receipt in section 2 states the share count and names the security: G-1 'gift of 400 shares of Quarry Point Industries, Inc. common stock', G-2 '250 shares of Harrow Valley Bancorp common stock', G-3 '120 shares of Ostrander Railcar Corporation common stock', and G-4 '812.345 shares of Lantern Ridge Balanced Fund, Class A'. No receipt omits the count or security, and the fund shares are given as 812.345 throughout."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipt letters in section 2 (G-1 Marchetti, G-2 Delacroix, G-3 Fenn, G-4 Szabo) ends with the sentence \"No goods or services were provided in exchange for your gift.\" No receipt says goods or services were provided, so the criterion is satisfied."
+    }
+  ],
+  "costUsd": 0.00191509,
+  "usage": {
+    "inputTokens": 37891,
+    "cachedInputTokens": 32419,
+    "outputTokens": 1816
+  },
+  "gradedAt": "2026-10-10T13:59:25.389Z"
+}

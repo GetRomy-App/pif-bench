@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gpt-6.1-sol",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "3840d9740ae8f5ec",
+  "deliverableHash": "dbeb207e0178743d",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo computes \"Adjusted program expenses $4,886,000\" ($19,066,000 less $14,180,000) over \"Adjusted total functional expenses $6,240,000\" ($20,515,000 less \"all gifts in kind expensed\" $14,275,000). Depreciation is kept in: \"Depreciation remains included because the policy does not exclude it.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo reports \"$4,886,000 ÷ $6,240,000 × 100 = 78.3%\" as the program expense ratio, and the summary table also shows 78.3%."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo says \"The 80.0% minimum was not met; the result is 1.7 percentage points below target\", and the table marks it \"Not met\". Every statement in the memo is consistent on this point."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The memo does remove the bequest (\"Less: bequest received in 2025 ($600,000) | Audit Note 10\") and names it as the Okafor estate distribution. It never says why, though: there is no statement that the policy excludes bequests or estate distributions, or that they are non-recurring. The only explanation is \"The excluded bequest was the unrestricted $600,000 distribution from the Estate of Harriet M. Okafor.\" The criterion requires the reason to be given."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo shows \"Adjusted contributions $3,985,000\" ($18,930,000 less $14,345,000 noncash less the $600,000 bequest)."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo reports \"$866,300 ÷ $3,985,000 = $0.22 per dollar raised\"."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says \"The $0.20 maximum was not met\" and that management must present corrective plans for \"both the program expense ratio and the cost to raise a dollar\". The opening summary's \"two of the three targets were met\" implies otherwise, but the memo itself retracts it: \"Correction to the summary assessment: One of the three targets was met.\" The table, the section and the follow-up all say not met, so the memo's final position on this target is consistent."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The reserve starts from \"Net assets without donor restrictions, year-end $6,612,000\", and the memo states \"The $1,240,000 of donor-restricted net assets is excluded.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo computes \"Operating reserve $1,504,000\" ($6,612,000 less $5,108,000 land, buildings and equipment, net)."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo's \"Annual operating expenses $5,794,000\" is $20,515,000 less $446,000 depreciation less $14,275,000 of gifts in kind expensed."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo reports \"$1,504,000 ÷ ($5,794,000 ÷ 12) = 3.1 months\"."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo says \"The 3.0-month minimum was met\", and the table marks the reserve \"Met\"."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "Every figure traces to the files or is computed from them: the Note 9 gifts in kind ($14,345,000 received, $14,275,000 expensed, the $70,000 inventory difference), the Part VIII/IX/X lines, the Note 10 bequest, and the April 22, 2026 audit and August 11, 2026 filing dates. The memo introduces no prior-year ratio, budget or benchmark. Its wrong \"two of the three targets\" summary is a misstatement judged by other criteria, not an unsupported figure."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.108Z"
+}

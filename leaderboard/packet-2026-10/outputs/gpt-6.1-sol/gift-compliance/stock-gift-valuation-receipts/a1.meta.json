@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "promptHash": "5e23fcf16d91eaf7",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 4012,
+  "outputTokens": 1730,
+  "costUsd": 0.0273285,
+  "latencyMs": 28314,
+  "createdAt": "2026-10-10T18:16:41.241Z"
+}

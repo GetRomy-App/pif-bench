@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "donor-data/lybunt-sybunt-retention",
+  "attempt": 1,
+  "promptHash": "75804cccbf89bd5d",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 6564,
+  "outputTokens": 10886,
+  "costUsd": 0.250536,
+  "latencyMs": 81551,
+  "createdAt": "2026-10-10T18:12:26.433Z"
+}

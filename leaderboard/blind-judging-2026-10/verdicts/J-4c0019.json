@@ -1,0 +1,15 @@
+{"packet": "J-4c0019", "criteria": [
+{"id": "C-001", "verdict": "pass", "reasoning": "\"Numerator: $19,066,000 − $14,180,000 = $4,886,000. Denominator: $20,515,000 − $14,275,000 = $6,240,000,\" where $14,275,000 is \"$14,180,000 + $95,000.\" The memo uses the $14,180,000 distributed, not the $14,250,000 received, and removes nothing else."},
+{"id": "C-002", "verdict": "pass", "reasoning": "\"Ratio: $4,886,000 ÷ $6,240,000 = 78.3013%, reported as 78.3%.\" The summary table also shows 78.3%."},
+{"id": "C-003", "verdict": "pass", "reasoning": "\"Target: 80.0% or higher. Target not met.\" The summary marks it \"No,\" and a corrective plan is listed as due."},
+{"id": "C-004", "verdict": "pass", "reasoning": "\"Less bequests: $600,000 — distribution received in August 2025 from the Estate of Harriet M. Okafor.\" The memo gives the policy's reason: \"Bequests are excluded because they are non-recurring and are not the product of the year's fundraising spending.\""},
+{"id": "C-005", "verdict": "pass", "reasoning": "\"Contributions for indicator: $18,930,000 − $14,345,000 − $600,000 = $3,985,000.\""},
+{"id": "C-006", "verdict": "pass", "reasoning": "\"$866,300 ÷ $3,985,000 = $0.2174, reported as $0.22.\""},
+{"id": "C-007", "verdict": "pass", "reasoning": "\"Target: $0.20 or less. Target not met.\" The memo adds that the $0.25 external-review threshold was not exceeded, which is allowed, and does not treat $0.25 as the target."},
+{"id": "C-008", "verdict": "pass", "reasoning": "The reserve starts from \"Net assets without donor restrictions, Part X, line 27, end of year: $6,612,000.\" The memo states \"Net assets with donor restrictions are never counted as reserve,\" and none of the $1,240,000 is added."},
+{"id": "C-009", "verdict": "pass", "reasoning": "\"Operating reserve: $6,612,000 − $5,108,000 = $1,504,000.\""},
+{"id": "C-010", "verdict": "pass", "reasoning": "\"Annual operating expenses: $20,515,000 − $446,000 − $14,275,000 = $5,794,000. Monthly operating expenses: $5,794,000 ÷ 12 = $482,833.33.\""},
+{"id": "C-011", "verdict": "pass", "reasoning": "\"$1,504,000 ÷ ($5,794,000 ÷ 12) = 3.1149 months, reported as 3.1 months.\""},
+{"id": "C-012", "verdict": "pass", "reasoning": "\"Target: 3.0 months or more. Target met.\" The summary table marks it \"Yes.\""},
+{"id": "C-013", "verdict": "pass", "reasoning": "Every figure is either taken from the Form 990 excerpt, the audit notes or the policy (for example $19,066,000, $14,180,000, $95,000, $600,000, $6,612,000, $5,108,000 and $446,000) or computed from them. The memo states no prior-year ratio, budget or benchmark absent from the files."}
+]}

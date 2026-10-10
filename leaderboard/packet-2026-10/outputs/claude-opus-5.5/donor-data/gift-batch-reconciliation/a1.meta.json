@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "promptHash": "355196be8538dce0",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 7697,
+  "outputTokens": 10016,
+  "costUsd": 0.238801,
+  "latencyMs": 85653,
+  "createdAt": "2026-10-10T18:12:30.535Z"
+}

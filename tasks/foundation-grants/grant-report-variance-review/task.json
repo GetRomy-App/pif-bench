@@ -1,0 +1,116 @@
+{
+  "title": "Review year one of a restricted two-year grant against its agreement before the interim report",
+  "track": "packet",
+  "work_type": "analyze",
+  "as_of": "2026-07-13",
+  "tags": [
+    "foundation-grants",
+    "grant-reporting",
+    "budget-variance",
+    "allowable-costs",
+    "deliverables",
+    "stewardship"
+  ],
+  "instructions": "Year 1 of our Bergquist-Lund Pathways to Work grant closed on June 30. Before Marcus drafts the interim report, I need a memo reviewing where we stand against the grant agreement: each deliverable met or not met against its target, each budget line's variance in dollars and percent and whether it needs the Foundation's approval, total spent and unspent, and the dates we need on the calendar. The agreement, Marcus's Year 1 numbers and Renee's ledger export are in the folder.",
+  "deliverable": "year1-grant-review-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Enrollment deliverable met, 131 against 120",
+      "match_criteria": "PASS if the memo reports deliverable D1 (enrollment) as met, with 131 unique learners enrolled against the Year 1 target of 120. FAIL if it reports D1 as not met or gives an enrollment figure other than 131.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-002",
+      "title": "40-hour completion deliverable not met: 71.8% against 75%",
+      "match_criteria": "PASS if the memo reports deliverable D2 as not met because 94 of 131 enrolled learners (71.8%) completed 40 or more hours, below the 75% target — 99 completers would have been needed. FAIL if the memo reports D2 as met, accepts Marcus's comparison of 94 completers with a goal of 90 (75% of the 120 enrollment target), measures completion against 120 rather than the 131 actually enrolled, or leaves D2's status unstated.",
+      "sources": [],
+      "red_line": true
+    },
+    {
+      "id": "C-003",
+      "title": "EFL-gain deliverable met at 64.9% of completers",
+      "match_criteria": "PASS if the memo reports deliverable D3 as met, with 61 of the 94 learners who completed 40 or more hours (64.9%) gaining at least one EFL, against the 60% target. FAIL if it reports D3 as not met, or reports the result as 83.6% (61 of the 73 post-tested) — the agreement's denominator is all 94 learners who completed 40 or more hours.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-004",
+      "title": "Tutor deliverable met with 26 fully trained tutors",
+      "match_criteria": "PASS if the memo reports deliverable D4 as met with 26 tutors who completed at least 12 hours of pre-service training, against the target of 25. FAIL if it reports D4 as not met, or reports 27 tutors as having completed the required training (one of the 27 had completed only 8 hours).",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-005",
+      "title": "Advisory-council deliverable not met: three Year 1 meetings",
+      "match_criteria": "PASS if the memo reports deliverable D5 as not met because only three Employer Advisory Council meetings were held in Year 1 (September 18 and December 11, 2025, and March 19, 2026), with no meeting in the April–June 2026 quarter; the July 16, 2026 meeting falls in Year 2. FAIL if the memo reports D5 as met, counts the July 16, 2026 meeting toward Year 1, or leaves D5's status unstated.",
+      "sources": [],
+      "red_line": true
+    },
+    {
+      "id": "C-006",
+      "title": "Treats the $640 bar charge as unallowable",
+      "match_criteria": "PASS if the memo identifies the $640 Harborview Taproom charge for beer and wine service (AP-2242, 2026-05-29, Tutor training) as unallowable under the agreement's ban on alcoholic beverages, excludes it from grant expenses, and says it must be removed from the grant and paid from unrestricted funds. FAIL if the memo counts the $640 as a grant expense anywhere in its totals or variances, does not identify it as unallowable, or treats the $1,020 Hearthside Catering dinner buffet as the unallowable charge instead.",
+      "sources": [],
+      "red_line": true
+    },
+    {
+      "id": "C-007",
+      "title": "Learner supports +$1,560 (+13.0%) needs approval",
+      "match_criteria": "PASS if the memo reports Learner supports as $13,560 spent against $12,000 budgeted, a variance of +$1,560 (+13.0%), and says it is over the 10% threshold and needs the Foundation's written approval. FAIL if it gives a different variance for this line or says the line does not need approval.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-008",
+      "title": "Curriculum underspend −$1,080 (−13.5%) also needs approval",
+      "match_criteria": "PASS if the memo reports Curriculum & materials as $6,920 spent against $8,000 budgeted, a variance of −$1,080 (−13.5%), and says that this underspend is beyond the 10% threshold and needs the Foundation's written approval. FAIL if it gives a different variance for this line, or says it needs no approval — for example because it is under budget.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-009",
+      "title": "Flags no line other than Learner supports and Curriculum",
+      "match_criteria": "PASS if the memo says no budget line other than Learner supports and Curriculum & materials needs the Foundation's approval (whatever it concludes about those two lines, which other criteria grade). FAIL if the memo says any other line needs approval — for example Local travel (−8.1%) or Tutor training (−6.0% once the $640 alcohol charge is removed).",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-010",
+      "title": "Variances for the other five lines",
+      "match_criteria": "PASS if the memo gives these variances (percentages may be rounded to one decimal place): Personnel −$1,020 (−1.5%; $66,980 after netting the −$1,240 reclass); Fringe benefits −$204 (−1.5%; $13,396); Tutor training −$300 (−6.0%; $4,700 allowable); Local travel −$290 (−8.1%; $3,310); Evaluation consultant $0 (0%; $9,800). FAIL if any of these lines is missing or shows a different dollar or percent variance — such as Personnel +$220 (ignoring the reclass) or Tutor training +$340 (+6.8%, counting the alcohol charge).",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-011",
+      "title": "Allowable spending $118,666, unspent $1,334",
+      "match_criteria": "PASS if the memo reports total allowable Year 1 grant spending of $118,666 and $1,334 unspent of the $120,000 Year 1 payment (to carry forward to Year 2). FAIL if it reports any other total or unspent figure as the grant's — such as Renee's ledger total of $119,306 with $694 unspent, which includes the $640 alcohol charge.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-012",
+      "title": "Interim report due August 14, 2026",
+      "match_criteria": "PASS if the memo gives August 14, 2026 (45 days after Year 1 ended on June 30, 2026) as the interim report's due date. FAIL if it gives any other due date or none.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-013",
+      "title": "No-cost extension request must arrive by April 1, 2027",
+      "match_criteria": "PASS if the memo gives April 1, 2027 — 90 days before the June 30, 2027 end of the grant period — as the last date a no-cost-extension request can reach the Foundation (a memo may advise sending it earlier). FAIL if it gives any other date as that deadline, such as March 30, March 31 or April 2, 2027, or a date computed from a different number of days, or omits the extension deadline.",
+      "sources": [],
+      "red_line": false
+    },
+    {
+      "id": "C-014",
+      "title": "Final report and return of unspent funds due September 28, 2027",
+      "match_criteria": "PASS if the memo gives September 28, 2027 (90 days after the June 30, 2027 end of the grant period) as the final report's due date and says any unspent grant funds are returned with the final report (dates moving if an extension is granted is acceptable). FAIL if it gives a different final-report date, or a different time for returning unspent funds, or omits either.",
+      "sources": [],
+      "red_line": false
+    }
+  ]
+}

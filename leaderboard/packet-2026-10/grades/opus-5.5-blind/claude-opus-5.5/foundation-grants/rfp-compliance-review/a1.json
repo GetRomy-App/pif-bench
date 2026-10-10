@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "claude-opus-5.5",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "7c4f6859172739e6",
+  "deliverableHash": "b3d566a0c44d0710",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Issue 1 reads \"Request of $83,847 exceeds the $75,000 cap.\" On the program officer's remark, the memo says \"A verbal comment should not be relied on against it\" and the fix is to \"Reduce the total request to $75,000 or less.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It lists the six line items and states \"Sum | $71,910,\" noting \"The table shows $72,910, which overstates direct costs by $1,000.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It flags \"Indirect costs at 15%; the cap is 10% of total direct costs\" and says \"Our standard rate does not override the funder's cap.\" It also tells Lucia to remove the \"federal de minimis\" language."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It states \"the request would be $71,910 + $7,191 = $79,101,\" and the corrected baseline shows \"Indirect at 10% | $7,191.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Scenario A proposes $68,182 direct plus $6,818 indirect = $75,000. Scenario B proposes $61,819 direct plus $6,181 indirect = $68,000. Both indirect figures are at or under 10% of direct, and $79,101 is marked \"still over the cap.\""
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The match table counts the Council's $20,000 and the board reserve's $14,000 for a \"Countable total | $34,000.\" It excludes the Rio Grande $12,000 as in-kind and the Rotary $5,000 because there is no signed letter and the board votes October 14."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It states \"$34,000 meets the 50% minimum only for a request of $68,000 or less\" and \"A $75,000 request needs $37,500, which is $3,500 more than we have documented.\" Two fixes are given: secure $3,500+ more signed cash, or cap the request at $68,000."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Issue 5 says \"Sustainability Plan section is missing\" and the fix is to \"Add a '5. Sustainability Plan' heading.\" The memo treats the Medicaid sentence in the Evaluation Plan as the only existing content, not as meeting the requirement."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It states \"Word's section counts are 410 + 585 + 1,140 + 520 = 2,655 words\" against the 2,500 limit, tells Lucia to cut \"at least 155 words,\" and says the 480-word budget narrative \"is correctly excluded.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The time table shows the portal closes at \"4:00 p.m.\" Phoenix (MST) and 5:00 p.m. MDT, and the planned upload at 4:30 p.m. Phoenix is \"5:30 p.m. (late).\" The memo recommends submitting before Lucia departs or by an Albuquerque-based staff member."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Under \"Items that check out,\" the memo confirms the Albuquerque headquarters \"is permitted\" and that the FY2025 audited $1,604,200 does \"not affect eligibility.\" It does not raise eligibility as a violation or as a question for the foundation."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It states \"Line items that are internally correct\" for personnel, fringe, mileage and interpretation, and places the error in the stated total. No line amount is called miscalculated, and the recommended cuts are only to fit the cap."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.715Z"
+}

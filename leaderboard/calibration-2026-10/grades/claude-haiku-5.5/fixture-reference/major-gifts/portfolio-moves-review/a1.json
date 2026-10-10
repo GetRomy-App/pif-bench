@@ -1,0 +1,77 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "taskHash": "3d82b54985906e42",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Harold Penwick (20533) as deceased, states he died on 2026-07-19 per the 2026-07-28 contact report, and reports him under 'Deceased' only, explicitly noting 'Reported under Deceased only, per section 4.1.' He is not listed among stalled solicitations or contact gaps, and is not treated as a living active prospect in the out-of-standard analysis; the note that the export still shows him active is framed as a processing error requiring the flag to be applied. This meets the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The next action for Harold Penwick is to confirm the deceased flag with Gift Records, close the $100,000 ask as \"Closed — deceased\", suppress all mailings and invitations, and remove the record from the portfolio. It explicitly says \"No follow-up of the ask with the family or estate.\" Contact with survivors is left to the Director's decision, which the criterion permits, and no step treats him as a live prospect."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable flags Dr. Anita Mehta and Raj Mehta (20588) under 'Assignment conflict', citing the register's two primary officers, Marisol Vega (2025-10-06) and Theo Brandt (2026-05-04), and refers it to the Director: 'you designate one primary officer'. It does not report Raymond Tsai or Harold Penwick as conflicts; Tsai is explicitly noted as 'Lena Okafor is a secondary officer, which is not a conflict', and Penwick is reported only as Deceased. The only assignment conflict reported is Mehta, so the criterion is met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Lorraine Whitfield (20667) under 'Contact gap' and states 'Last substantive contact: the thank-you visit on 2026-05-20, 118 days ago.' It explicitly excludes the 2026-07-14 newsletter with a personal note, the 2026-08-03 acknowledgment letter, and the 2026-08-22 Twilight Tour attendance as non-substantive. This matches the criterion exactly, and nowhere does the review treat Whitfield as meeting the standard."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Thomas and Ingrid Brightwater (20718) under 'Contact gap' with last substantive contact 'dinner on 2026-05-28, 110 days ago.' It explicitly states 'The 2026-07-21 phonathon call was made by an Annual Giving student caller and does not count, whatever was discussed.' This matches the criterion exactly, and nothing elsewhere treats the Brightwaters as meeting the standard."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Desmond and Carla Fitch (20645) under 'Contact gap' and states 'No substantive contact on record: the introductory letter (2026-02-09), an unanswered personal email (2026-06-30), a voicemail (2026-08-18) and an unanswered emailed invitation (2026-09-02)'. It does not treat the Fitches as meeting the contact standard and does not give any of these dates as substantive. This matches the criterion's PASS condition."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists Miriam Feld (20839) in the 'In standard' table, and the note explicitly states that 'The 2026-08-31 email exchange, in which she replied and set a call for October 6, is substantive.' She is not reported as having a contact gap or as out of standard for any reason anywhere in the review, so the criterion's PASS condition is met."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable's summary table lists 'Qualification overdue | 2 | Fitch, Dubose', and the detailed sections report the Fitches (assigned 2026-01-26, still in Qualification) and Franklin Dubose (assigned 2025-12-01, six months ran out 2026-06-01) as qualification overdue. Constance Ivers is explicitly placed in standard ('Qualification since 2026-05-11... qualification window runs to November') and is not reported as overdue. The criterion's exact two prospects are reported with no extras."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports exactly two prospects in the 'Cultivation over limit' category: Langford ('In Cultivation since 2024-11-18 ... the 18-month limit passed on 2026-05-18') and Marchetti ('In Cultivation since 2025-02-03 — the 18-month limit passed on 2026-08-03'). It does not flag the Brightwaters or Whitcombes as over the limit; Whitcombe is listed in standard and Brightwater appears only under Contact gap. Both required prospects are present and no one else is reported as over the cultivation limit."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable's 'Stalled solicitation' category lists exactly two prospects, Ashby and Achterberg, matching the criterion. Ashby is described with last ask $50,000 on 2026-04-22, 146 days ago, and the 2026-08-12 call with no new ask. Achterberg's last ask was 2025-12-03, 286 days ago. Ortega, Whitfield, Castellanos and Penwick are not reported as stalled; Ortega is explicitly 'not stalled', Whitfield is noted as 'not a stalled solicitation', and Penwick is reported under Deceased only."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable's Franklin Dubose entry states the discovery visit happened on 2026-07-09, that Marisol recommended moving him to Cultivation, and gives the next action as \"advance him to Cultivation now.\" This matches the criterion's PASS condition and does not schedule another discovery or qualification visit."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable's summary table gives Contact gap 5 (Fitch, Whitfield, Brightwater, Marchetti, Achterberg), Qualification overdue 2 (Fitch, Dubose), Cultivation over limit 2 (Langford, Marchetti), Stalled solicitation 2 (Ashby, Achterberg), Assignment conflict 1 (Mehta), Deceased 1 (Penwick), and states '10 of 16 prospects are out of standard.' The detailed sections match these lists, and the in-standard list of six plus the ten out-of-standard prospects accounts for all 16. All counts match the criterion exactly."
+    }
+  ],
+  "costUsd": 0.00232621,
+  "usage": {
+    "inputTokens": 46096,
+    "cachedInputTokens": 39666,
+    "outputTokens": 2254
+  },
+  "gradedAt": "2026-10-10T13:59:57.872Z"
+}

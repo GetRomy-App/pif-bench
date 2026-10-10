@@ -1,0 +1,72 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "donor-data/gift-batch-reconciliation",
+  "attempt": 1,
+  "taskHash": "0bcce6397ccff33b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo correctly identifies that Priyanka Desai's $250 card gift was posted twice (G-41817 via PayBridge transaction pbt_7Q6M77 and G-41822 keyed by hand on 2026-07-16 against one PayBridge transaction). It instructs to 'Delete G-41822, the later-entered posting; keep G-41817' and adjusts the July total by -$250.00."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies that check 4410 from Marisol Etxeberria (G-41809) was keyed as $15,000.00 while the bank deposit item in RDC-0710-1 is $1,500.00, and explicitly states to 'Correct the gift amount to $1,500.00' resulting in a -$13,500.00 adjustment."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "In section 2, under discrepancy #2 for Marisol Etxeberria, the deliverable explicitly states: 'Void the $15,000 acknowledgment sent 2026-07-13 and send a corrected acknowledgment for $1,500.00.' This directly fulfills the criterion requirement."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable identifies Hollis Grant's check 2231 ($500.00, G-41810) as returned NSF on 2026-07-16 and explicitly states to 'Keep G-41810; post a reversing adjustment of -$500.00 dated 2026-07-16 in July', while separately accounting for the $15 bank fee to 6130 Bank fees."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly identifies Gerald & Mae Lindgren's check 9014 ($1,000, G-41803) as postmarked 2026-06-30, instructs to re-date it to 2026-06-30, and moves it to the year-end batch B-2606-YE for FY2026, removing it from July."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly discusses G-41802 Ruth Ann Doyle and G-41804 Samuel Ochieng under 'Checked and left alone', stating that because both were postmarked 2026-07-01, 'The date written on a check does not decide the fiscal year; they stay in July as FY2027 gifts.' Neither is moved or adjusted."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explains under 'Checked and left alone' that card gifts are $3,335.00 gross and PayBridge paid out $3,257.13 net, noting: 'The $77.87 difference is PayBridge's fee (2.2% + $0.30 per transaction). That is expected — gifts stay at gross and Finance books $77.87 to 6120 Merchant fees. No CRM entry.' It does not propose reducing gifts to net or treating the difference as an error."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under 'Checked and left alone' and in the tie-out that PayBridge fees total $77.87, explaining that card gifts are $3,335.00 gross and PayBridge paid out $3,257.13 net across 13 payouts, with the $77.87 difference being PayBridge's fee."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly notes under 'Checked and left alone' that the Valley Office Supply $86.40 check is 'a vendor refund, not a gift. Do not enter it in the CRM; Finance codes it in the general ledger.' It also excludes it from the corrected CRM batch total and correctly adds it back only in the bank tie-out as a non-gift item."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states the corrected July batch total as $17,130.00 in Section 3 ('Corrected July batch total: $17,130.00') and details the exact four adjustments totaling -$15,250.00 from the $32,380.00 CRM export total."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Section 4 of the deliverable provides a tie-out to the bank starting from the corrected July batch total ($17,130.00) to the expected bank net of $18,123.53. It includes PayBridge fees (-$77.87), the Lindgren check moved to FY2026 (+$1,000.00), and the Valley Office Supply refund (+$86.40), explicitly showing an unexplained difference of $0.00."
+    }
+  ],
+  "costUsd": 0.026464500000000002,
+  "usage": {
+    "inputTokens": 29471,
+    "cachedInputTokens": 0,
+    "outputTokens": 1163
+  },
+  "gradedAt": "2026-10-10T13:58:51.982Z"
+}

@@ -1,0 +1,77 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "2358429d7ebb5b0b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly flags in Issue #1 that the 'Request of $83,847 exceeds the $75,000 maximum' and notes that 'The program officer's \"flexibility\" remark at the info session does not override the written RFP.' It treats this as a strict violation requiring the request to be brought down to $75,000 or less."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly catches the discrepancy under Issue 2, stating: 'Budget table total is wrong: the six direct-cost lines sum to $71,910, not the $72,910 shown — a $1,000 overstatement' and notes 'Correct the total direct costs to $71,910 everywhere.' This matches the required figures and explanation."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly flags in Issue #3 that 'Indirect at 15% ($10,937) exceeds the cap of 10% of total direct costs' and notes that 'Our federal de minimis rate does not apply here; the RFP cap governs. Maximum allowable indirect on $71,910 of direct costs: $7,191.'"
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo correctly identifies that the direct costs sum to $71,910 and explicitly states: 'Maximum allowable indirect on $71,910 of direct costs: $7,191' (and repeats $7,191 in the Corrected figures table)."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable caps the maximum request at $75,000 and presents two compliant options: Option A ($71,910 direct + $3,090 indirect = $75,000, where indirect is 4.3% ≤ 10%) and Option B ($61,820 direct + $6,180 indirect = $68,000, where indirect is 10.0%). It clearly notes that $79,101 is over the cap and unacceptable."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies that only $34,000 counts toward the match ($20,000 Valencia County Health Council and $14,000 Puente board-designated reserve). It explicitly excludes the $12,000 Rio Grande Medical Supply in-kind donation and the $5,000 Socorro Rotary Club pledge due to lack of a signed letter before the deadline."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo clearly explains the $1 per $2 requested rule (half the request), identifies that documented cash match is only $34,000, and explicitly calculates: 'At a $75,000 request the required match is $37,500; we are $3,500 short.' It also notes the request cap that $34,000 supports is $68,000 and provides both fixes (secure $3,500 more documented cash or cap the request at $68,000)."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Under Issue 6, the deliverable explicitly identifies that the 'Required Sustainability Plan (section 5) is missing' and notes that 'The one sentence about Medicaid reimbursement at the end of the Evaluation Plan does not meet the requirement.' It instructs the team to add '5. Sustainability Plan' under that heading."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in issue 7: 'Narrative is over the word limit: sections 1–4 total 2,655 words (410 + 585 + 1,140 + 520), 155 over the 2,500 limit — before adding the Sustainability Plan. Lucia's 2,135 leaves out the Evaluation Plan. The 480-word budget narrative does not count.' This satisfies all aspects of the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states under Issue 8 that the 5:00 p.m. MDT deadline is 4:00 p.m. Phoenix time (MST), notes that Lucia's planned 4:30 p.m. upload from Phoenix would land at 5:30 p.m. MDT after the portal closes, and recommends uploading earlier (either before leaving for Phoenix or having someone in Albuquerque upload earlier)."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly places Puente's eligibility under the 'Checked and fine' section. It confirms that the Albuquerque headquarters is eligible because services reach Socorro and Valencia residents, and that the operating-budget test uses the current board-approved budget ($1,320,000) rather than the FY2025 audit expenses ($1,604,200). Thus, it does not treat eligibility as an issue."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in Issue 2 that 'Every line amount is itself correct (salaries 2 × 0.75 × $32,000 = $48,000; fringe 22% = $10,560; mileage 12,000 × $0.45 = $5,400; interpretation 60 × $25 = $1,500); only the total is off.' and reiterates under Checked and fine that 'Budget line amounts are all calculated correctly.' None of the six direct-cost line amounts are called miscalculated."
+    }
+  ],
+  "costUsd": 0.0290325,
+  "usage": {
+    "inputTokens": 32380,
+    "cachedInputTokens": 0,
+    "outputTokens": 1266
+  },
+  "gradedAt": "2026-10-10T13:59:18.720Z"
+}

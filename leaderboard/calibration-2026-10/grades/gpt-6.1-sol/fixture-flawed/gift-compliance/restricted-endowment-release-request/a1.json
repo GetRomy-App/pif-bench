@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “The board cannot, by its own vote, release that restriction or move the fund, its earnings or its distribution into general operations.” It does not otherwise authorize a unilateral board release of the Ruiz restriction; the loan proposal is excluded from this criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly identifies “Donor consent — § 6(a)” and states that “Ellen M. Ruiz can consent in writing to a release or modification.” It also says, “Operating support is a charitable purpose of the Foundation, so her consent could reach general operations,” satisfying the criterion without contradicting it elsewhere."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states for the Ruiz fund: “§ 6(d) does not apply: the fund is worth $512,860, above $25,000, and is about 9 years old.” It does not claim elsewhere that § 6(d) or a 60-day Attorney General notice could release the Ruiz restriction."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states that court modification under § 6(c) is available “Only if the scholarship purpose has become unlawful, impracticable, impossible or wasteful, with notice to the Attorney General.” It also explains that “The ADN program is active with 84 students, and a budget shortfall does not make the purpose impracticable,” satisfying the criterion without recommending a deficit-based court petition."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo states that the gift agreement \"restricts distributions and investment return to scholarships for students in the Associate Degree in Nursing program\" and that the board cannot move \"its earnings or its distribution into general operations.\" It also explicitly labels the FY2027 distribution as \"for nursing scholarships only.\" The loan proposal does not state that earnings, appreciation, or the annual distribution may be used for operations."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The memo states, “4% of the fund's current value of $512,860 gives $20,514.40, for nursing scholarships only.” Although it correctly limits the distribution to nursing scholarships, it uses the August 31 value rather than the required twelve-quarter average and states a distribution different from $19,767.33."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states, “Section 5 of the agreement applies only if the ADN program ceases; it has not.” It also notes that the ADN program is active with 84 students, and does not rely on Section 5 to redirect the fund or move it to operations."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The memo explicitly endorses Joan’s proposal: “A loan is a workable bridge: operations would borrow $180,000 from the Ruiz endowment for 18 months.” It does not reject the loan under Section 4.2’s prohibition, and presenting it as workable is an express failure condition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly concludes that “§ 6(d) applies” to Calloway and gives the required value and age: “$18,420 (under $25,000)” and “established in 1994 (32 years ago).” It also states that the Secretarial Studies certificate “closed in 2011” and therefore “the purpose is impossible to achieve,” satisfying the third reason."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo says, \"Counsel sends the notice to the Attorney General on October 5, 2026, and the board can then vote the release at its October 21 meeting, effective immediately.\" This directly violates the required 60-day waiting period and does not identify December 4, 2026 as the earliest release date."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The memo states, \"Once released, the $18,420 can be folded into general operations toward the deficit.\" This directly contradicts the criterion's requirement that the Calloway money remain consistent with the gift's charitable purposes and not be used for general operations or the deficit."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the “Operating Reserve ($240,000)” as “board-designated and unrestricted” under “What else can close the gap.” It explicitly states that “the board can release it by majority vote of the full board, with no donor consent and no Attorney General notice,” satisfying all elements of the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The stated fund values, ages, program status, § 6(d) thresholds, and reserve voting requirement are grounded in the files. The memo's \"$20,514.40\" follows arithmetically from the stated current value, although it uses the wrong spending basis. Its claims that the loan is \"a workable bridge\" and the Calloway release can be \"effective immediately\" misapply the supplied rules; this criterion explicitly excludes arithmetic errors and misapplied rules rather than treating them as unsupported inventions."
+    }
+  ],
+  "costUsd": 0.0255627,
+  "usage": {
+    "inputTokens": 18530,
+    "cachedInputTokens": 13322,
+    "outputTokens": 1123
+  },
+  "gradedAt": "2026-10-10T14:01:53.229Z"
+}

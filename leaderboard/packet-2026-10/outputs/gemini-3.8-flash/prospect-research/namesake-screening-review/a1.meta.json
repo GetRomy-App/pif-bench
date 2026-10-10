@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "prospect-research/namesake-screening-review",
+  "attempt": 1,
+  "promptHash": "abf12e57fb66a659",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 2393,
+  "outputTokens": 5756,
+  "costUsd": 0.02337975,
+  "latencyMs": 34229,
+  "createdAt": "2026-10-10T18:26:03.800Z"
+}

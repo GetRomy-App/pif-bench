@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "fixture-reference",
+  "task": "foundation-grants/rfp-compliance-review",
+  "attempt": 1,
+  "taskHash": "7c4f6859172739e6",
+  "deliverableHash": "9ea6a68ef840dbcc",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Issue 1 flags \"Request of $83,847 exceeds the $75,000 maximum\" and says to bring it to $75,000 or less. It adds that \"The program officer's 'flexibility' remark at the info session does not override the written RFP.\""
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "Issue 2 states \"the six direct-cost lines sum to $71,910, not the $72,910 shown — a $1,000 overstatement\", and the corrected-figures table gives total direct costs of $71,910."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Issue 3 flags \"Indirect at 15% ($10,937) exceeds the cap of 10% of total direct costs\". It states \"Our federal de minimis rate does not apply here; the RFP cap governs.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Maximum allowable indirect on $71,910 of direct costs: $7,191\", and the corrected-figures table repeats $7,191."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Option A is \"direct $71,910 + indirect $3,090 = $75,000\"; Option B is \"direct $61,820 + indirect $6,180 (10.0% of direct) = $68,000\". Both are within $75,000 with indirect at or under 10% of direct. The $79,101 figure is flagged as \"still over the cap\"."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Only $34,000 counts: Valencia County Health Council $20,000 ... + Puente board-designated reserve $14,000\". It excludes the $12,000 Rio Grande Medical Supply donation as \"in-kind\" and the Rotary $5,000 as having \"no signed letter\", with its board vote on October 14, after the deadline."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states \"At a $75,000 request the required match is $37,500; we are $3,500 short\". It offers two fixes: \"secure $3,500 more in documented cash before October 1\" or \"cap the request at $68,000, the most $34,000 supports.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Issue 6 states \"Required Sustainability Plan (section 5) is missing\" and that the Medicaid sentence \"does not meet the requirement\". The fix is to add \"5. Sustainability Plan\"."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "Issue 7 states \"sections 1–4 total 2,655 words (410 + 585 + 1,140 + 520), 155 over the 2,500 limit\". It adds that \"The 480-word budget narrative does not count.\""
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Issue 8 states the 5:00 p.m. MDT deadline is \"4:00 p.m. Phoenix time\" and that \"Lucia's planned 4:30 p.m. upload from Phoenix would land at 5:30 p.m. MDT — after the portal closes.\" It recommends submitting before she leaves or having someone in Albuquerque upload."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "Eligibility is listed under \"Checked and fine\". The memo confirms the Albuquerque headquarters is eligible because all services go to Socorro and Valencia residents, and that the $1,320,000 board-approved budget, not the $1,604,200 audit figure, decides the test."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo states \"Every line amount is itself correct ... only the total is off\" and lists \"Budget line amounts are all calculated correctly\" under Checked and fine."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:08.591Z"
+}

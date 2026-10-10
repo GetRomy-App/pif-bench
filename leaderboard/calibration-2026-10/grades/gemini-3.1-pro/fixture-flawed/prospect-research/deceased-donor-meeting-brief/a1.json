@@ -1,0 +1,92 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "prospect-research/deceased-donor-meeting-brief",
+  "attempt": 1,
+  "taskHash": "c1be24a63a86cc2d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo clearly states in the Bottom line section that \"Gerry Halvorsen died at home on Thursday, August 27, 2026,\" which matches the required date exactly."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the September 29 visit cannot go ahead as a solicitation and that the gallery proposal is not to be presented to Peg or the family. It suggests offering a condolence visit where no gift or proposal is raised, explicitly forbids bringing the proposal or proposing the gallery as a memorial, and instructs the gift officer to only listen and report back if the donor raises the topic."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly directs in Action 1 to 'Close proposal PR-2026-044 as \"Closed — donor deceased\" (not transferred to Peg or anyone else).' This exactly meets the requirement to close the proposal rather than reassigning it."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly recommends marking the CRM record deceased with the date of death (2026-08-27) and removing Gerry from all appeals, mailings, e-mail lists, and event invitations. It also specifically calls for removing him from the Fall Appeal before the mail file goes to the printer on 2026-09-28."
+    },
+    {
+      "id": "C-005",
+      "verdict": "fail",
+      "reasoning": "The deliverable repeatedly states that the family may not be solicited before February 28, 2027, calculating the 180 days from the obituary's publication date rather than the date of death. This is explicitly listed as a failure condition in the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states in Action 2 to 'Re-address the household's Fall Appeal letter to Mrs. Margaret Halvorsen alone' and in Action 3 that 'Annual appeals continue as normal.' This directly violates the criterion, which requires keeping Margaret and Kristin out of the Fall Appeal."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable recommends sending the Halvorsen Family Foundation letter of request by October 15 as planned, treating the foundation as a routine annual renewal and outside the personal solicitation ban. This violates the criterion's instruction to hold the request or state that no request goes to the foundation."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states the unpaid balance of the pledge is $80,000 in both the 'Where he stands with us' section and in Action 7, which fails the criterion's requirement to state the balance as $70,000."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly assigns Ruth to refer the unpaid pledge balance to CFO Denise Okafor, stating that 'Only Denise decides whether to present a claim and deals with the estate about the pledge.' It also clearly instructs that 'No one in development asks Peg, Erik, Kristin or the family foundation to pay it' and forbids discussing the pledge with Erik in his role as personal representative."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable's pledge referral action explicitly states to include the \"personal representative Erik T. Halvorsen\" and the \"claims deadline of 2026-12-28\", matching the criterion's requirements."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly assigns the task to the correct person in Action 8, stating, \"Notify Samuel Achterberg of the $100,000 bequest intention. He alone contacts the personal representative or the estate's attorney to learn whether the will includes a gift to the Center.\""
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in action item 8 to 'Keep it as an expectancy: it is not booked as revenue, a receivable or campaign credit until the estate's distribution is received,' matching the criterion's exact requirement."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable recommends the condolence letter be signed by President & CEO Laurel Whitfield alone. It fails to include the Chair of the Board of Trustees, Thomas Brandvold, as a co-signer, which is required for a former trustee."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable addresses memorial gifts in Section 2 and outlines the correct procedure in Section 3, Action 9, stating to 'send Peg a monthly list of memorial donors' names and addresses, never the amounts.'"
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The deliverable mentions \"Dale and Joan Halvorsen of Plymouth (30551)\" when advising who to leave on the mailing list. However, this constituent and their details do not appear in any of the provided reference files. Therefore, it states facts about other individuals not supported by the files."
+    }
+  ],
+  "costUsd": 0.14535599999999999,
+  "usage": {
+    "inputTokens": 47238,
+    "cachedInputTokens": 0,
+    "outputTokens": 4240
+  },
+  "gradedAt": "2026-10-10T14:02:38.087Z"
+}

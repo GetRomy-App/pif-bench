@@ -1,0 +1,14 @@
+{
+  "candidate": "claude-opus-5.5",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "promptHash": "f15a045ab0bfadf5",
+  "source": "api",
+  "model": "anthropic/claude-opus-5.5",
+  "finishReason": "stop",
+  "inputTokens": 4495,
+  "outputTokens": 6966,
+  "costUsd": 0.161791,
+  "latencyMs": 60606,
+  "createdAt": "2026-10-10T18:12:05.488Z"
+}

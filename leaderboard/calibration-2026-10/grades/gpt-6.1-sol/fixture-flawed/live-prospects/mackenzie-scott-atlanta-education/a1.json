@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report identifies Scott as \"a novelist and philanthropist\" and states, \"She married Jeff Bezos in 1993, and they divorced in 2019.\" It also says she \"holds no Amazon position today,\" and nowhere describes her as still married to Bezos or as a current Amazon executive or director."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report identifies her source of wealth as the 2019 divorce settlement, stating she received \"25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company.\" It also gives a dated holding figure, \"139,132,131 Amazon shares as of September 30, 2024,\" and dated Bloomberg and Forbes net-worth estimates. These satisfy the criterion, with no conflicting attribution or settlement figure elsewhere."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The report labels “139,132,131 Amazon shares as of September 30, 2024,” or “about 1.3%,” as her “Latest disclosed holding.” This is a superseded holding presented as latest; the criterion specifies 81,082,131 shares as of September 30, 2025. Its net-worth range of $34–43 billion passes, but the outdated latest-holding claim causes failure."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The report states “Cumulative: $19.25 billion in more than 2,450 gifts since 2019,” presenting an older total as current. It does not give the required cumulative total of $26.0–26.5 billion or more than $26 billion, so it fails the criterion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly says, “She does not accept applications or unsolicited proposals.” It explains that “a small internal team and a large network of advisors do ‘quiet research’” and that the team “then contacts the organizations it has selected.” It describes the 2023–24 open call as completed rather than an available application route, satisfying the criterion."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The engagement strategy explicitly recommends, “Invite Ms. Scott to our spring Celebration of Learning breakfast as an honored guest,” adding that seeing students’ work is “the strongest case we can make.” Inviting her to an event is expressly prohibited by the criterion, so this fails despite the report’s other instructions not to solicit or approach her."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report states that the Lever for Change open call launched in March 2023 and “in March 2024 gave $640 million to 361 organizations.” It explicitly says, “It is completed, and no open call is accepting applications.” Its recommendation to watch for a future open call is permitted by the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states, “Unrestricted, no strings,” and says gifts are made “for use however they choose.” It also notes that grantees are not required to report on how they use the gifts, and nowhere describes them as restricted or conditional."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report correctly lists Spelman’s $20 million (2020) and $38 million (November 2025) gifts and Clark Atlanta’s $15 million (2020) and $38 million (November 2025) gifts. However, its Morehouse row claims \"$20 million; $38 million\" in \"July 2020; Nov. 2025,\" and the connection-points section repeats that Morehouse received a November 2025 gift. Crediting Morehouse with a direct Scott gift after 2020 explicitly fails the criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report names multiple qualifying gifts with correct amounts, including “Achieve Atlanta | $8 million,” “Southern Education Foundation | $6 million,” “Communities In Schools of Atlanta | $4 million,” and GEEARS at $3 million. It also lists KIPP Metro Atlanta Schools and Sheltering Arms with “amounts not disclosed,” and does not assign either a dollar figure."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The report states, \"In 2021 she married Dan Jewett, a Seattle science teacher, and they live in Seattle.\" The present-tense description of their shared household, with no mention of their divorce, portrays Jewett as her current spouse and fails the criterion."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy explicitly says to be \"findable and fundable\" on the indicators her research looks for, including \"stable finances,\" \"a multi-year track record,\" \"measurement and evidence of outcomes,\" and \"experienced leadership representative of the community it serves.\" It ties readiness to all four listed indicators, exceeding the required minimum of two."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The report labels “139,132,131 Amazon shares as of September 30, 2024” the “Latest disclosed holding,” contradicting the fact sheet’s latest disclosure of 81,082,131 shares as of September 30, 2025. It also presents cumulative giving as “$19.25 billion,” rather than the verified current total of over $26 billion, and lists a “$38 million” November 2025 gift to Morehouse College, which the fact sheet explicitly says did not occur. These contradictions fail the criterion."
+    }
+  ],
+  "costUsd": 0.0357282,
+  "usage": {
+    "inputTokens": 47241,
+    "cachedInputTokens": 39127,
+    "outputTokens": 1155
+  },
+  "gradedAt": "2026-10-10T14:01:55.326Z"
+}

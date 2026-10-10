@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-reference",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the program expense ratio using $4,886,000 for program expenses (subtracting $14,180,000 of donated food) and $6,240,000 for total expenses (subtracting $14,180,000 for donated food and $95,000 for donated legal services)."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and reports the program expense ratio as 78.3% ($4,886,000 ÷ $6,240,000). It mentions the unadjusted 92.9% figure but clarifies that it is not the policy's ratio, which is acceptable under the criterion."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states in the Summary table and in section 1 that the program expense ratio target of 80.0% was 'Not met', reporting a result of 78.3%."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable removes the $600,000 Okafor bequest from the contributions used in the cost to raise a dollar. It also explicitly states that 'The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring and are not the product of the year's fundraising spending', which satisfies the required reasoning."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates and uses $3,985,000 as the contributions denominator for the cost to raise a dollar, subtracting noncash contributions and the bequest as required."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports the cost to raise a dollar as $0.22 in the summary table and shows the exact calculation of $866,300 ÷ $3,985,000 = $0.217 in section 2."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states in the summary table and the detailed calculation section that the cost to raise a dollar target of $0.20 or less was 'Not met' with a result of $0.22. It also correctly notes that this is below the $0.25 level that requires external review without conflating it with the target."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly builds the operating reserve starting with \"Net assets without donor restrictions, Part X line 27, end of year\" at $6,612,000. It also explicitly excludes the restricted assets, stating, \"The $1,240,000 of net assets with donor restrictions — $890,000 for the cold-storage expansion and $350,000 of time-restricted pledges — is not reserve and is not counted.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the operating reserve as $1,504,000 by subtracting the $5,108,000 in land, buildings, and equipment from the $6,612,000 in net assets without donor restrictions."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states 'Annual operating expenses' as '$5,794,000' and 'Monthly operating expenses ($5,794,000 ÷ 12)' as '$482,833' in the 'Months of operating reserve' section."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates and reports the months of operating reserve as 3.1, matching the required calculation ($1,504,000 ÷ $482,833 = 3.1 months)."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The deliverable reports the operating reserve target as met in the summary table and in section 3, stating 'above the 3.0-month target. Met, with little margin'."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The deliverable relies entirely on the provided reference files. All amounts, calculations, and quoted policy limits match the Form 990, audit notes, and policy document. There are no unsubstantiated external figures or facts."
+    }
+  ],
+  "costUsd": 0.12081599999999999,
+  "usage": {
+    "inputTokens": 37230,
+    "cachedInputTokens": 0,
+    "outputTokens": 3863
+  },
+  "gradedAt": "2026-10-10T14:03:08.511Z"
+}

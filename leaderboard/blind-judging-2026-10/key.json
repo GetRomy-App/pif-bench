@@ -1,0 +1,1497 @@
+{
+  "meta": {
+    "seed": 1826821017,
+    "protocol": "552c44683746",
+    "createdAt": "2026-10-10T18:39:54.468Z"
+  },
+  "entries": {
+    "J-7819f9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "1a5c013f1ac4360f"
+    },
+    "J-a3b753": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "ba4b77d8acfcd78d"
+    },
+    "J-93829b": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "5fdea9d0ef78fbba"
+    },
+    "J-7e7fe1": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "6c5a0562340eb4d4"
+    },
+    "J-ad73d9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "75f0b240e943acaf"
+    },
+    "J-e7cab4": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "89f97ec96af65ab9"
+    },
+    "J-6b3371": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "5b397c7d84924ada"
+    },
+    "J-51c10a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "904386751ca22f8f"
+    },
+    "J-de3bdb": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "b3d566a0c44d0710"
+    },
+    "J-948ce6": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "88e9449afa868b63"
+    },
+    "J-a4766e": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "f311025a0e30e6e1"
+    },
+    "J-dbdf88": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "edae5082d0e0f73c"
+    },
+    "J-ce944b": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "935bbcf2af1baab1"
+    },
+    "J-f9c7d5": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "1f3a0678cad63a64"
+    },
+    "J-5128b7": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "8d44e5b6300781d8"
+    },
+    "J-fe0ed7": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "cf562dde0cd20bc7"
+    },
+    "J-becc31": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "83e399231836850f"
+    },
+    "J-320707": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "018f28ed35f8237c"
+    },
+    "J-6bd907": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "99d6bcd4aaf9c261"
+    },
+    "J-75c2ba": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "claude-opus-5.5",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "88006aed570836a0"
+    },
+    "J-51d29f": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "ac9ecee05b7e8d55"
+    },
+    "J-77a7cb": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "401d39fa905c6368"
+    },
+    "J-2c8b51": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "87318462fb56d759"
+    },
+    "J-9fa07b": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "b20afb22f4c7a5e5"
+    },
+    "J-259db7": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "f24348e1ca958960"
+    },
+    "J-d89a17": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "c85b9a5c81977fc8"
+    },
+    "J-1dcab2": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "4c8e06a0f9ed60b9"
+    },
+    "J-f6ff14": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "a02204815935105f"
+    },
+    "J-5c08d6": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "bd3abb8f3d6c135c"
+    },
+    "J-d1403a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "b3c627427038d50b"
+    },
+    "J-f37994": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "ecbb619994784a08"
+    },
+    "J-59ba46": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "9f977d4ecc54c8b9"
+    },
+    "J-4c093d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "82f056ff85a50c56"
+    },
+    "J-3c9512": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "0f59ec88a05debee"
+    },
+    "J-5266a1": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "2a7d211fb005d4d4"
+    },
+    "J-649777": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "27788f07db2446bd"
+    },
+    "J-dec4ce": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "4841cd2e6ed4c0ab"
+    },
+    "J-e16921": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "8979f179584e46d1"
+    },
+    "J-f048e8": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "08371b4eabcff556"
+    },
+    "J-a9320b": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.1-pro",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "70fc74d4532347b7"
+    },
+    "J-687a7f": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "51ed75f2e8b17b1b"
+    },
+    "J-7224d3": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "0d68fb3bbe81d64d"
+    },
+    "J-a70b0a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "d57709ec2f9d9884"
+    },
+    "J-433346": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "e90b254f958a8f34"
+    },
+    "J-a206d0": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "de9bcd742a6c6220"
+    },
+    "J-62911e": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "6504f9a4d5f70ef7"
+    },
+    "J-ae8055": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "0f3da835175104ed"
+    },
+    "J-782f84": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "776e3dbaaf31ccb2"
+    },
+    "J-1328de": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "b17189f6d2ee6eb1"
+    },
+    "J-d110a5": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "35095d12d9f03e62"
+    },
+    "J-6ba3fb": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "4c613e35003f2cde"
+    },
+    "J-3718f4": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "3b90df228cffb712"
+    },
+    "J-8fd455": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "fee10fe6e39a035b"
+    },
+    "J-4dcc7d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "d0f8cea28857b5ee"
+    },
+    "J-cb261d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "752bfcd7167f996f"
+    },
+    "J-dc855a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "64031d6c54fc03c6"
+    },
+    "J-6ffd3d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "df3e54ba1322cd91"
+    },
+    "J-bfd719": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "5ab0369c544d1493"
+    },
+    "J-ca2614": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "013d84e451d989b3"
+    },
+    "J-1fbdfc": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gemini-3.8-flash",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "bc6da919dbbef769"
+    },
+    "J-332ea5": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "3dc913240f003ba6"
+    },
+    "J-39b7a9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "161cf9744d5add2c"
+    },
+    "J-2efb48": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "d1aa6dee2521ea4b"
+    },
+    "J-44dade": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "b51bca876863e0dd"
+    },
+    "J-7bb6e2": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "dbeb207e0178743d"
+    },
+    "J-6ebb7d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "04e66bf92096285a"
+    },
+    "J-1c954a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "0b1c6a203db8ce91"
+    },
+    "J-545a78": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "27f7e2fdf23f7db0"
+    },
+    "J-7c4eae": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "6d2c320efe091587"
+    },
+    "J-701f1b": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "cad11dfa810d09c0"
+    },
+    "J-ae24e6": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "0759c34fdfa08dc3"
+    },
+    "J-134d95": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "5aa460bef26f380b"
+    },
+    "J-fec0bd": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "136f077a42de817d"
+    },
+    "J-fc74c0": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "eb714044d901ff0c"
+    },
+    "J-815e7a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "4d32cd54b5da1f64"
+    },
+    "J-91cd12": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "bba2992475f7f4ca"
+    },
+    "J-0cd733": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "58998b47ac9f7dc8"
+    },
+    "J-006e5d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "5cf3d036e064f2ae"
+    },
+    "J-ff42c3": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "23f49d4e23fdb467"
+    },
+    "J-25ed57": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "gpt-6.1-sol",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "fb73b07fa27afe18"
+    },
+    "J-34e60a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "71133900f7ef0bd4"
+    },
+    "J-57cde5": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "47334b2666b5ba22"
+    },
+    "J-5f613e": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "d9d5ac925a3fdc7b"
+    },
+    "J-96d3d9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "90979a247f797ba8"
+    },
+    "J-658011": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "0e67df84b51836f3"
+    },
+    "J-00385a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "26256fb36ce15d6c"
+    },
+    "J-c127ec": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "1f3a3db6f0963241"
+    },
+    "J-287d15": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "9ffdf1973e4fd218"
+    },
+    "J-5827f1": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "c54ae6c61d771116"
+    },
+    "J-3d2dee": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "9b013f0a7d750ab6"
+    },
+    "J-634c1c": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "2d376eea9883cbaf"
+    },
+    "J-66ae52": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "342c28fad57c24b1"
+    },
+    "J-52edec": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "81d52884a8bc4a40"
+    },
+    "J-405360": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "e89e4ca61458db40"
+    },
+    "J-34eb5a": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "5fb9dbf607aebe5c"
+    },
+    "J-9d7aaa": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "e501c1de40c7ae8b"
+    },
+    "J-e07fc6": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "ab1ed6c9004ab0f9"
+    },
+    "J-6dd5b9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "77280b73d7668f21"
+    },
+    "J-5e0796": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "97333a8c7026e540"
+    },
+    "J-80c693": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "minimax-m3",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "e59520fc83768661"
+    },
+    "J-c5b91d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "30e04684e3f7b776"
+    },
+    "J-e1ecf8": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "3434ff0ee0208f6e"
+    },
+    "J-30ae63": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "ed31cd8ef08c5aa9"
+    },
+    "J-cc6835": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "da15c2e38b355759"
+    },
+    "J-4c0019": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "4a558b54ae3301dd"
+    },
+    "J-3038e5": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "7cf23fa68ad6243b"
+    },
+    "J-fa49fd": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "8b251011486e8fc7"
+    },
+    "J-9857e9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "3457dfae63a278a6"
+    },
+    "J-b87a04": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "8f577548d6651c71"
+    },
+    "J-b25ed3": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "2383ed21a230d287"
+    },
+    "J-e4facf": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "a6eb2eff9cca806e"
+    },
+    "J-13173d": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "e39ba44bf4670c86"
+    },
+    "J-29b8b9": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "231cbda99fc79c8f"
+    },
+    "J-7f41bf": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "e423f355d4d66ef2"
+    },
+    "J-19451e": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "7d34ed201e8fdb1d"
+    },
+    "J-5fc657": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "d0d1d45e865810de"
+    },
+    "J-0c98e3": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "47167d6dfa9e4c73"
+    },
+    "J-cd0d79": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "edf6f1a2686c58f7"
+    },
+    "J-47ff35": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "01a46b3db495adf8"
+    },
+    "J-ee8388": {
+      "runDir": "leaderboard/packet-2026-10",
+      "candidate": "muse-spark-1.3",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "9b2d1f56af341cde"
+    },
+    "J-17a150": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "chatgpt-2026-04",
+      "task": "live-prospects/agnes-gund-nyc-arts-education",
+      "attempt": 1,
+      "taskHash": "77bcaa3a8b08c99c",
+      "deliverableHash": "cd4a3ae10029e415"
+    },
+    "J-cc9646": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "chatgpt-2026-04",
+      "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "attempt": 1,
+      "taskHash": "592143c71312ebc4",
+      "deliverableHash": "1b0451ab89d1178e"
+    },
+    "J-e34da1": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "chatgpt-2026-04",
+      "task": "live-prospects/reed-hastings-rural-colorado-charter",
+      "attempt": 1,
+      "taskHash": "e663556c1b60f8d5",
+      "deliverableHash": "d05225601d91016a"
+    },
+    "J-31aced": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "chatgpt-2026-04",
+      "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "attempt": 1,
+      "taskHash": "2e2e5489961796b7",
+      "deliverableHash": "3d308aeb90b402df"
+    },
+    "J-0574a1": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "claude-ai-2026-04",
+      "task": "live-prospects/agnes-gund-nyc-arts-education",
+      "attempt": 1,
+      "taskHash": "77bcaa3a8b08c99c",
+      "deliverableHash": "c5d1568d05a2ba57"
+    },
+    "J-b5b0f3": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "claude-ai-2026-04",
+      "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "attempt": 1,
+      "taskHash": "592143c71312ebc4",
+      "deliverableHash": "ca6eb2f6e9d1f7b0"
+    },
+    "J-b80887": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "claude-ai-2026-04",
+      "task": "live-prospects/reed-hastings-rural-colorado-charter",
+      "attempt": 1,
+      "taskHash": "e663556c1b60f8d5",
+      "deliverableHash": "35fabc6505681179"
+    },
+    "J-1763ac": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "claude-ai-2026-04",
+      "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "attempt": 1,
+      "taskHash": "2e2e5489961796b7",
+      "deliverableHash": "9d3848fb63cd7b60"
+    },
+    "J-36fbf5": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "gemini-app-2026-04",
+      "task": "live-prospects/agnes-gund-nyc-arts-education",
+      "attempt": 1,
+      "taskHash": "77bcaa3a8b08c99c",
+      "deliverableHash": "009bab90497fda08"
+    },
+    "J-26ae32": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "gemini-app-2026-04",
+      "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "attempt": 1,
+      "taskHash": "592143c71312ebc4",
+      "deliverableHash": "b3f9cec39d37a188"
+    },
+    "J-13a16a": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "gemini-app-2026-04",
+      "task": "live-prospects/reed-hastings-rural-colorado-charter",
+      "attempt": 1,
+      "taskHash": "e663556c1b60f8d5",
+      "deliverableHash": "7db0c55dd7b9ede2"
+    },
+    "J-ebd225": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "gemini-app-2026-04",
+      "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "attempt": 1,
+      "taskHash": "2e2e5489961796b7",
+      "deliverableHash": "ab802cf5d007544f"
+    },
+    "J-c81b52": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "romy-2026-04",
+      "task": "live-prospects/agnes-gund-nyc-arts-education",
+      "attempt": 1,
+      "taskHash": "77bcaa3a8b08c99c",
+      "deliverableHash": "540e8fcbaa4fefbd"
+    },
+    "J-b0154d": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "romy-2026-04",
+      "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "attempt": 1,
+      "taskHash": "592143c71312ebc4",
+      "deliverableHash": "87346a58cb85c9b3"
+    },
+    "J-f8101a": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "romy-2026-04",
+      "task": "live-prospects/reed-hastings-rural-colorado-charter",
+      "attempt": 1,
+      "taskHash": "e663556c1b60f8d5",
+      "deliverableHash": "fcc10835525e5f68"
+    },
+    "J-63d309": {
+      "runDir": "leaderboard/live-2026-04-25",
+      "candidate": "romy-2026-04",
+      "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "attempt": 1,
+      "taskHash": "2e2e5489961796b7",
+      "deliverableHash": "376ec2457ceb534a"
+    },
+    "J-743d7b": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "4da627ddad17b9ed"
+    },
+    "J-b49a73": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "ad916d4c0a302da4"
+    },
+    "J-883404": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "0ec18a5f56a0f205"
+    },
+    "J-a43f6b": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "387ab7a2a83c45cf"
+    },
+    "J-c2a38f": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "049a559855e1b980"
+    },
+    "J-3c2c34": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "d0ecc03994841496"
+    },
+    "J-8a38de": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "3a0e3e4f3baed193"
+    },
+    "J-423e59": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "ea009f90c9f3be35"
+    },
+    "J-a5af97": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "32262fe0aba4dcef"
+    },
+    "J-af20a6": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "a1b1010349ab8580"
+    },
+    "J-360520": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "35721df446c11707"
+    },
+    "J-bfc02f": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "ccb3132b9aee8475"
+    },
+    "J-255add": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "dee06794516a4c9f"
+    },
+    "J-64d6d6": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "live-prospects/agnes-gund-nyc-arts-education",
+      "attempt": 1,
+      "taskHash": "77bcaa3a8b08c99c",
+      "deliverableHash": "5ecccf5c9088fd6c"
+    },
+    "J-2d0c34": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "attempt": 1,
+      "taskHash": "592143c71312ebc4",
+      "deliverableHash": "ed6841a426c1bde9"
+    },
+    "J-378ea7": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "live-prospects/mackenzie-scott-atlanta-education",
+      "attempt": 1,
+      "taskHash": "d07b045e353f3b6b",
+      "deliverableHash": "492fc53758238f6a"
+    },
+    "J-ce3147": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "live-prospects/reed-hastings-rural-colorado-charter",
+      "attempt": 1,
+      "taskHash": "e663556c1b60f8d5",
+      "deliverableHash": "b3ea0d91c9142812"
+    },
+    "J-a5a1db": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "attempt": 1,
+      "taskHash": "2e2e5489961796b7",
+      "deliverableHash": "bcfd14a52719621a"
+    },
+    "J-18c60e": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "424fea1065d37c21"
+    },
+    "J-d4ea2e": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "c94110761029ff2b"
+    },
+    "J-8837f2": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "eb7393f9a293e98d"
+    },
+    "J-f92cd6": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "391f1d1630b93cee"
+    },
+    "J-fa5395": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "17feb7b7d13d770c"
+    },
+    "J-99eae5": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "521e0c4bb9d7d1aa"
+    },
+    "J-26eac0": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-flawed",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "baafcdea9789fb19"
+    },
+    "J-3e55e0": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "donor-data/duplicate-household-review",
+      "attempt": 1,
+      "taskHash": "e24c7920e841969c",
+      "deliverableHash": "629156752676313b"
+    },
+    "J-71477f": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "donor-data/gift-batch-reconciliation",
+      "attempt": 1,
+      "taskHash": "8f85076c8112911f",
+      "deliverableHash": "a0313460f0f2c5cb"
+    },
+    "J-c598aa": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "donor-data/lybunt-sybunt-retention",
+      "attempt": 1,
+      "taskHash": "4b184a4b76f48b5b",
+      "deliverableHash": "4ed61e8ebddfd628"
+    },
+    "J-a23828": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "finance-governance/conflict-of-interest-review",
+      "attempt": 1,
+      "taskHash": "054276963ada46c6",
+      "deliverableHash": "e58fe8f9509f2d62"
+    },
+    "J-394b75": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "finance-governance/form-990-ratio-review",
+      "attempt": 1,
+      "taskHash": "3840d9740ae8f5ec",
+      "deliverableHash": "1b702a5c4464bcd5"
+    },
+    "J-738c18": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "finance-governance/public-support-test",
+      "attempt": 1,
+      "taskHash": "1d5c4ca7aecfcd1f",
+      "deliverableHash": "497ddad0cc07dcd2"
+    },
+    "J-008a37": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "foundation-grants/grant-report-variance-review",
+      "attempt": 1,
+      "taskHash": "c29a77815250186f",
+      "deliverableHash": "b186cd02112d82a7"
+    },
+    "J-0932e0": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "foundation-grants/private-foundation-fit-assessment",
+      "attempt": 1,
+      "taskHash": "99153e64ce362422",
+      "deliverableHash": "02e3cefece1a23f7"
+    },
+    "J-0b5242": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "foundation-grants/rfp-compliance-review",
+      "attempt": 1,
+      "taskHash": "7c4f6859172739e6",
+      "deliverableHash": "9ea6a68ef840dbcc"
+    },
+    "J-df2998": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "gift-compliance/daf-grant-gala-table-request",
+      "attempt": 1,
+      "taskHash": "a6e5a83b2c05a77a",
+      "deliverableHash": "7e296528f8d8c7de"
+    },
+    "J-80d72f": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "gift-compliance/gala-acknowledgment-review",
+      "attempt": 1,
+      "taskHash": "8ac807716a69e841",
+      "deliverableHash": "91c140906fa18f02"
+    },
+    "J-2db70e": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "gift-compliance/restricted-endowment-release-request",
+      "attempt": 1,
+      "taskHash": "0c9e90264115610a",
+      "deliverableHash": "0775c0905a590813"
+    },
+    "J-821b57": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "gift-compliance/stock-gift-valuation-receipts",
+      "attempt": 1,
+      "taskHash": "4f2996c06e952c01",
+      "deliverableHash": "b485f0b82576745c"
+    },
+    "J-228141": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "live-prospects/agnes-gund-nyc-arts-education",
+      "attempt": 1,
+      "taskHash": "77bcaa3a8b08c99c",
+      "deliverableHash": "6da386124e901e5f"
+    },
+    "J-24186c": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+      "attempt": 1,
+      "taskHash": "592143c71312ebc4",
+      "deliverableHash": "8a834d51c4c0f21d"
+    },
+    "J-5b221a": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "live-prospects/mackenzie-scott-atlanta-education",
+      "attempt": 1,
+      "taskHash": "d07b045e353f3b6b",
+      "deliverableHash": "a392915ba4a01cd9"
+    },
+    "J-614493": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "live-prospects/reed-hastings-rural-colorado-charter",
+      "attempt": 1,
+      "taskHash": "e663556c1b60f8d5",
+      "deliverableHash": "77b3b5f96bbba0dc"
+    },
+    "J-9fd941": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+      "attempt": 1,
+      "taskHash": "2e2e5489961796b7",
+      "deliverableHash": "f5a78d1a46a80105"
+    },
+    "J-ac45ae": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "major-gifts/campaign-gift-range-chart",
+      "attempt": 1,
+      "taskHash": "bb1b1e4a7df10bf0",
+      "deliverableHash": "1da42f71476d5b70"
+    },
+    "J-f020b7": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "major-gifts/portfolio-moves-review",
+      "attempt": 1,
+      "taskHash": "e7fd2b30bf0cb4fb",
+      "deliverableHash": "b9cc3ac3641c45a1"
+    },
+    "J-08fc2a": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "major-gifts/solicitation-plan-brief",
+      "attempt": 1,
+      "taskHash": "59bdb47caeb5348c",
+      "deliverableHash": "5f5bba380c3f3c3b"
+    },
+    "J-1aca86": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "prospect-research/deceased-donor-meeting-brief",
+      "attempt": 1,
+      "taskHash": "44c928fe226426bc",
+      "deliverableHash": "8f46ebe1a0e8a736"
+    },
+    "J-3d84e7": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "prospect-research/ethics-screened-donor-profile",
+      "attempt": 1,
+      "taskHash": "91febd0b79518255",
+      "deliverableHash": "409ca3f313b45154"
+    },
+    "J-0ece8e": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "prospect-research/namesake-screening-review",
+      "attempt": 1,
+      "taskHash": "0f941c985515fb99",
+      "deliverableHash": "b2591d8945d3d87e"
+    },
+    "J-981e4d": {
+      "runDir": "leaderboard/calibration-2026-10",
+      "candidate": "fixture-reference",
+      "task": "prospect-research/sparse-record-private-donor",
+      "attempt": 1,
+      "taskHash": "71060ec3085a0521",
+      "deliverableHash": "d0cde1ec4f70ec51"
+    }
+  }
+}

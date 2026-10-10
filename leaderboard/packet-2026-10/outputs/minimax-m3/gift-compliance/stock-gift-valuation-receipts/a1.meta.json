@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "promptHash": "5e23fcf16d91eaf7",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "stop",
+  "inputTokens": 4062,
+  "outputTokens": 5526,
+  "costUsd": 0.0077922,
+  "latencyMs": 20074,
+  "createdAt": "2026-10-10T18:29:18.899Z"
+}

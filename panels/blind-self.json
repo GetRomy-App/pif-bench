@@ -1,0 +1,12 @@
+{
+  "name": "pif-blind-self-2026-10",
+  "judges": [
+    {
+      "id": "opus-5.5-blind",
+      "model": "claude-code/claude-opus-5.5",
+      "family": "anthropic",
+      "maxOutputTokens": 1,
+      "external": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate": "minimax-m3",
+  "task": "major-gifts/portfolio-moves-review",
+  "attempt": 1,
+  "promptHash": "65948d1880faab2f",
+  "source": "api",
+  "model": "minimax/minimax-m3",
+  "finishReason": "length",
+  "inputTokens": 5209,
+  "outputTokens": 32000,
+  "costUsd": 0.03993558,
+  "latencyMs": 166143,
+  "createdAt": "2026-10-10T18:31:56.710Z"
+}

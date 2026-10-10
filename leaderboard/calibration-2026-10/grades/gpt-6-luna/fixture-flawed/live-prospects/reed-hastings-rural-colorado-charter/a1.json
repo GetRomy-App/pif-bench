@@ -1,0 +1,87 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/reed-hastings-rural-colorado-charter",
+  "attempt": 1,
+  "taskHash": "4c719b4652b8d987",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report says Hastings “co-founded Netflix in 1997” and was CEO “until January 2023,” satisfying both required facts. It gives no conflicting founding year or CEO end date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The report states, “Since January 2023 he has been Netflix's Executive Chairman, the role he holds today,” presenting a superseded title as current. It also says he “remains executive chairman until” the June 2026 meeting, which likewise conflicts with the criterion’s required current title."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report says, “On April 16, 2026 Netflix disclosed that Hastings will not stand for re-election at its June 2026 annual meeting,” and that “He remains executive chairman until then.” It also states he is leaving “to focus on his philanthropy and other pursuits,” so the required timing and board-departure details are present."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report identifies Netflix equity as the basis of his wealth: “Netflix equity is the core of his wealth,” and specifies shares and options. Its net-worth estimates are sourced and within the required range: Forbes at “about $4.1 billion” after the 2024 gift and a “2026 real-time estimate” of “about $4–5.5 billion”; it also gives Bloomberg’s sourced $6.6 billion estimate. It says his ownership is under 1% of the company."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report names Patty Quillin as Hastings’s wife: “He is married to Patty Quillin, his partner in giving.” It also identifies her as a co-donor, including the $120 million HBCU gift and the 2012 Giving Pledge."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report identifies the “Hastings Fund” as an “education donor-advised fund at SVCF” and states it was launched in “Jan 2016” with an amount of “$100 million.” This satisfies the required fund type, sponsor, amount, and year."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The report says, “Jan 24, 2024 | SVCF (his donor-advised fund): 2,000,000 Netflix shares | ~$1.1 billion,” which gives the required date, share count, value, recipient, and donor-advised-fund context. It also notes that the 2024 stock gift was about $1.1 billion into his donor-advised fund."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report identifies The City Fund as a channel of Hastings’s charter-school giving and says it launched in 2018 for “charter and autonomous public schools in cities.” It names the Hastings Fund and Laura and John Arnold as anchor funders and reports “~$200 million raised at launch,” not as a gift by Hastings alone."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The report says the 2020 gift was to “UNCF, Spelman College, Howard University” and gives “$120 million ($40M each).” It substitutes Howard University for the required Morehouse College, so it fails."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report states that “Hastings sits on CSGF's board” and identifies CSGF as “headquartered in Denver.” It also lists him as a “$10M-plus funder,” satisfying the criterion."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report identifies Lone Rock as an educators’ retreat in “rural Bailey, Park County” and says Hastings financed it. It also states that Hastings lives in Santa Cruz, California, and that he is president of the Lone Rock Foundation; it does not describe Lone Rock as his home or vacation property."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The report estimates single-gift capacity at \"$10–25 million.\" Its range tops out below the required $40 million, so it fails the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The strategy’s first step is “Write to him directly” and “Send Hastings a two-page proposal and cover letter from the CEO,” which is a cold solicitation. Mentioning CSGF in the letter and later suggesting use of the Pahara and Lone Rock network does not change the main recommended first approach."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report says Hastings is Netflix’s “Executive Chairman, the role he holds today,” but the fact sheet says he became Chairman and a non-executive director in April 2025. It also says the 2020 $120 million gift went to “Howard University,” whereas the verified recipients were UNCF, Spelman College, and Morehouse College."
+    }
+  ],
+  "costUsd": 0.008199699999999999,
+  "usage": {
+    "inputTokens": 59930,
+    "cachedInputTokens": 0,
+    "outputTokens": 1419
+  },
+  "gradedAt": "2026-10-10T13:58:12.495Z"
+}

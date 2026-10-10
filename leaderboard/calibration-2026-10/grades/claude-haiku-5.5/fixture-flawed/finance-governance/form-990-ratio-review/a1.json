@@ -1,0 +1,82 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the denominator to be $6,240,000 ($20,515,000 less all $14,275,000 of gifts in kind, including the $95,000 donated legal services). The memo instead uses $6,335,000 ($20,515,000 less only the $14,180,000 donated food), explicitly labeled 'Total expenses excluding gifts in kind,' so it removes only the donated food. The criterion specifically says FAIL if the denominator removes only donated food, giving $6,335,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to report the program expense ratio as 78.3% using a denominator of $6,240,000. The deliverable instead reports 77.1% ($4,886,000 ÷ $6,335,000), with total expenses excluding gifts in kind of $6,335,000, which is a different denominator. The memo's 77.1% is one of the explicitly listed failing figures in the criterion, so the verdict is fail."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The deliverable's summary table lists the program expense ratio at 77.1% against an 80.0% or higher target with 'Not met' in the Met? column, and the text states 'One of the three targets was missed' and repeats 'below the 80.0% target. Not met.' The memo clearly tells the committee the target was not met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo's cost-to-raise-a-dollar table includes 'Less bequest — Estate of Harriet M. Okafor, received August 2025 (600,000)' and reduces contributions to $3,985,000 before computing $866,300 ÷ $3,985,000. It gives the reason: 'The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring (policy section 3.2).' This matches the criterion's required removal and stated rationale."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable's cost-to-raise-a-dollar table lists Part VIII line 1h $18,930,000, less noncash contributions line 1g $14,345,000, less the $600,000 Okafor bequest, yielding a contributions denominator of $3,985,000 exactly as the criterion requires. The memo states '$866,300 ÷ $3,985,000 = $0.217,' consistent with that figure, and no contradictory denominator appears elsewhere."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The criterion requires the memo to report the cost to raise a dollar as $0.22 computed from $866,300 ÷ $3,985,000. The deliverable's Section 2 shows exactly $866,300 ÷ $3,985,000 = $0.217, reported as $0.22, and the summary table also lists $0.22. The denominator correctly removes noncash contributions and the bequest, matching the criterion's stated computation, and no contradictory figure appears elsewhere."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to report the cost-to-raise-a-dollar target of $0.20 or less as not met. The deliverable's summary table lists the cost to raise a dollar at $0.22 against a target of '$0.20 or less' and marks it '**Met**', and section 2 says the indicator is 'met' by comparing to the $0.25 threshold. This treats the $0.25 external-review trigger as the target, which the criterion explicitly says is a FAIL."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the reserve to start from net assets without donor restrictions ($6,612,000), not total net assets. The deliverable's Section 3 explicitly starts from 'Total net assets, Part X line 32, end of year | $7,852,000' and subtracts only land, buildings and equipment ($5,108,000), so the $1,240,000 of donor-restricted net assets is counted in the operating reserve. This is the FAIL condition named in the criterion."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the operating reserve to be $1,504,000, computed from net assets without donor restrictions of $6,612,000 less land, buildings and equipment of $5,108,000. The deliverable instead computes an operating reserve of $2,744,000 by subtracting fixed assets from total net assets of $7,852,000, which is one of the explicitly named FAIL values. The memo therefore uses a different figure and fails this criterion."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo's section 3 computes annual operating expenses as $20,515,000 less $446,000 depreciation less $14,275,000 gifts in kind expensed, giving $5,794,000, and states the monthly figure as $482,833. This matches the criterion's stated figure and monthly value exactly, and none of the listed incorrect alternatives are used."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to report 3.1 months of operating reserve based on $1,504,000 reserve. The deliverable reports 5.7 months, using an operating reserve of $2,744,000 (net assets less net land/buildings/equipment), which does not match the criterion's $1,504,000 input or 3.1 result. The memo's figure is not 3.1, so it fails."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo's summary table lists 'Months of operating reserve | 5.7 months | 3.0 months or more | Met', and section 3 concludes '5.7 months — above the 3.0-month target. Met.' The memo consistently reports the reserve target as met, with no contradicting statement elsewhere."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo states that the program expense ratio 'is down from 81.6% in fiscal 2024.' No file reports a fiscal 2024 program expense ratio or the 2024 Part IX functional expense data needed to compute one; the 2024 figures present are only balance-sheet and inventory amounts. The criterion names a fiscal 2024 ratio as an example of an unsupported figure, so this fails."
+    }
+  ],
+  "costUsd": 0.002286245,
+  "usage": {
+    "inputTokens": 38989,
+    "cachedInputTokens": 32592,
+    "outputTokens": 2324
+  },
+  "gradedAt": "2026-10-10T14:01:32.809Z"
+}

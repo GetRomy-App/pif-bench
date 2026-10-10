@@ -1,0 +1,84 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.8-flash",
+  "task": "finance-governance/conflict-of-interest-review",
+  "attempt": 1,
+  "taskHash": "054276963ada46c6",
+  "deliverableHash": "e90b254f958a8f34",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states the catering contract \"Involved an undisclosed Financial Interest and conflict of interest through Director Thomas Aldana, whose spouse, Celeste M. Aldana, is the 100% sole owner and manager of the entity.\" It treats the contract as a policy violation."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "It names both failures: \"Thomas Aldana answered 'No' to Question 2 on January 20, 2026, twelve days after Saffron & Sage submitted its bid,\" and at the February 12 meeting \"Director Aldana remained silent ('No other director made a disclosure').\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "It cites the recusal requirement (Art. III, Secs. 2, 3(a)) and finds he \"Did not recuse; actively participated in discussion, spoke in favor of Saffron & Sage,\" and \"Made the motion ... and voted in favor.\""
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "It states that had he recused, \"the vote would have stood at 5 in favor and 5 opposed,\" that \"a tie vote fails\" under the bylaws, and that \"Director Aldana's improper vote directly caused the adoption of the motion.\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "It states the board bypassed \"the Gala Committee recommendation (Harborview Provisions at $52,900) to award Saffron & Sage at $68,400 ($15,500 higher).\" Both bids and the difference are correct."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "It finds Ramaswamy complied at every step: the annual statement, written disclosure to the Chair, oral disclosure, leaving the room, and approval of the lowest bid of $18,250 \"10–0 by remaining disinterested directors.\" It concludes \"The Conflict of Interest Policy was fully satisfied in all respects\" and recommends no action regarding her."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "It concludes Saffron & Sage is \"reportable on Schedule L, Part IV\" of the 2025 Form 990 (FY July 1, 2025–June 30, 2026). The reasons given are the 100% spouse ownership (\"exceeding 35%\") and the $71,860 \"exceed[ing] the $39,400 threshold.\""
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "It computes \"1% of $3,940,000 = $39,400\" and \"The greater of $10,000 or $39,400 is $39,400.\""
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "It states \"$18,250 does not exceed the $100,000 threshold or the $39,400 threshold\" and \"BrightStage is not reportable on Schedule L, Part IV,\" after treating BrightStage as an interested-person entity through the director's brother."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The memo does include the notice-and-explain step (\"must immediately inform Director Aldana in writing ... opportunity to explain ... within 15 days\"). But it also states as fact that the board could not make a determination \"because Director Aldana concealed the Financial Interest.\" This asserts deliberate concealment before he has been heard, which the criterion makes a failure."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "It requires the contract to \"be re-reviewed by the disinterested directors under Article III, Sections 3(c) and 3(d),\" including whether a more advantageous transaction was available (citing Harborview's $52,900). It adds that \"If the re-review determines that the Theatre paid more than fair market value, the board must consult legal counsel\" on IRC 4958 and recovering the excess, without declaring an excess benefit settled."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "It notes \"Director Aldana is currently a member of the Governance Committee,\" quotes Article IV, Section 4, and says the Chair and Naomi Sato \"must handle this matter without Director Aldana's participation or presence.\""
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "It states the board, \"Acting by a majority vote of disinterested directors,\" determines whether he failed to disclose and imposes disciplinary action. It also says \"Director Aldana must file a corrected annual conflict-of-interest statement within 30 days of the board's determination.\""
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.956Z"
+}

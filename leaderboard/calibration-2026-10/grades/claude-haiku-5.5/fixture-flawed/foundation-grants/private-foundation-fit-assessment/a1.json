@@ -1,0 +1,92 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-flawed",
+  "task": "foundation-grants/private-foundation-fit-assessment",
+  "attempt": 1,
+  "taskHash": "7063d1a9ab85c1c5",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable's Marwood section states '**Grants paid in 2025:** $708,000 across 10 grants, all to Lancaster County, Pennsylvania organizations.' It also correctly reconciles $804,400 as total expenses and disbursements less $96,400 administrative expenses, rather than reporting $804,400 as the grants total. The reported grants-paid figure matches the criterion's required $708,000."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states that Marwood 'only makes contributions to preselected charitable organizations and does not accept unsolicited requests for funds' per the 990-PF checkbox, and quotes the website saying it 'does not accept unsolicited proposals, letters of inquiry or applications.' It then says Millstream sends no proposal, LOI, application or other written request. Nothing in the memo describes Marwood as open to requests, so the criterion is met."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo states for Marwood: 'Under Policy §2, Millstream sends it no proposal, LOI, application or other written request — from staff or through a board member — regardless of mission fit,' and the approach is 'Under Policy §2 there is no approach open to us.' It recommends no written request and only a watch list. Nothing in the memo recommends submitting anything to Marwood before an invitation, so the criterion passes."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to identify Margaret W. Lindqvist as a Marwood trustee and recommend approaching Marwood through her. The deliverable never mentions Lindqvist at all. For Marwood it states 'Under Policy §2 there is no approach open to us. Keep Marwood on the watch list,' which recommends no approach, and this triggers the FAIL condition."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable states for Calloway-Deane: \"Grants paid in 2025: $390,000 across 12 grants — none to a Pennsylvania organization.\" It also correctly notes the $488,450 figure is total expenses and disbursements, not grants paid, and does not use it as the grants total. The criterion's required figure of $390,000 is reported as the grants-paid total."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states that Calloway-Deane's 12 grants paid in 2025 had \"none to a Pennsylvania organization,\" with all going to North Carolina (4), South Carolina (5) and Virginia (3). It explicitly flags the Lancaster County Hunger Coalition (Lancaster, SC) and Western York County Food Pantry (York, SC) as not Pennsylvania organizations, and states the Philadelphia address does not establish fit. It labels geography as \"not a fit under Policy §4,\" satisfying every PASS condition with no contradicting FAIL trigger."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states \"We should **not** prepare an application for October 15, 2026,\" and limits any contact to \"one email or call\" asking whether the trust would consider a Pennsylvania organization, with \"only a yes in writing would make it a fit, and the earliest application would then be April 15, 2027.\" The summary table also says \"No application for October 15, 2026\" and \"At most, one email or call.\" This matches the PASS condition exactly, and nothing elsewhere recommends applying without first confirming Pennsylvania eligibility."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to report Garrison Ridge's 2025 grants paid as $480,000, excluding the $135,000 approved for future payment. The deliverable states \"Grants paid in 2025: $615,000 across 15 grants — the 13 grants paid during the year plus the two multi-year installments listed for future payment ($60,000 ... and $75,000 ...)\". This is exactly the failure case named in the criterion ($615,000, adding both future-payment grants), and the memo never reports $480,000 as the grants-paid total."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo recommends submitting a letter of inquiry to Garrison Ridge now, stating it is priority 1 and that 'Lancaster County is in its stated giving area, and 12 of 13 grants paid went to Pennsylvania organizations.' It explicitly calls Garrison Ridge 'a fit' on geography and does not recommend against approaching it or propose a full proposal without invitation. This satisfies the PASS condition and none of the FAIL conditions."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable recommends asking Garrison Ridge for 'the program component (mobile markets)' and explicitly states 'not for the cold-storage addition or the truck.' It gives the reason that 'Every 2025 grant paid is for program or operating costs... and none is for land, buildings, construction, equipment or vehicles.' This matches the criterion's required reasoning, and no capital amount is requested from Garrison Ridge."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to give March 1, 2027 as the next Garrison Ridge LOI deadline. The deliverable instead states that LOIs are 'accepted on a rolling basis' per the 990-PF and tells the reader to 'submit the LOI now' with no deadline to wait for. The criterion explicitly fails a rolling-basis presentation and any date other than March 1, 2027, and the memo never mentions March 1, 2027."
+    },
+    {
+      "id": "C-012",
+      "verdict": "fail",
+      "reasoning": "The criterion requires $30,000 as the median of the seven Pennsylvania comparable grants. The memo instead gives the median as \"$27,500\" by averaging the 4th and 5th of eight grants, including the Maryland grant to Mason-Dixon Food Share, which the criterion names as a FAIL case. The memo never states $30,000 as the median."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the memo to recommend a Garrison Ridge ask range of $15,000 to $30,000. The deliverable instead recommends \"Ask range: $15,000 – $27,500\" for the mobile-market program, with a median of $27,500 as the top. The bottom matches at $15,000, but the top is $27,500, not $30,000, so the range does not equal the criterion's stated range. The criterion's FAIL condition covers any range whose top differs from $30,000."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The deliverable's priority table lists 1 Garrison Ridge Foundation, 2 Marwood Family Foundation, 3 Calloway-Deane Charitable Trust, and the text reiterates 'Priority 1', 'Priority 2', 'Priority 3' for the same three foundations in that order. No contradicting ordering appears elsewhere in the memo."
+    },
+    {
+      "id": "C-015",
+      "verdict": "fail",
+      "reasoning": "The memo asserts no board connection to Calloway-Deane; it says Dr. Calloway's surname match is not tied to the trust by any file, which the criterion allows. However, it states that Calloway-Deane's 'guidelines state no geographic limit.' The trust's website says nothing about geography, only that applicants must be 501(c)(3) public charities, so this attributes a policy statement to the foundation that no file supports."
+    }
+  ],
+  "costUsd": 0.00354735,
+  "usage": {
+    "inputTokens": 68690,
+    "cachedInputTokens": 61360,
+    "outputTokens": 4038
+  },
+  "gradedAt": "2026-10-10T14:01:38.807Z"
+}

@@ -1,0 +1,82 @@
+{
+  "judge": "gpt-6-luna",
+  "judgeModel": "openai/gpt-6-luna",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "taskHash": "d38b7ae29186b98d",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo states, “The board cannot, by its own vote, release the scholarship restriction or move any part of the fund — principal, earnings or this year's distribution — into general operations.” It also says the board cannot do so “on October 21 or later,” meeting the criterion."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo identifies “Ellen M. Ruiz, the donor” as able to “consent in a record to release or modify the restriction.” It also explicitly says her consent “could in principle reach general operations,” satisfying both required elements."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly says, “§ 6(d) does not apply,” because the Ruiz fund is “worth $512,860 — far above the $25,000 limit” and “was established on March 15, 2017, about 9 years ago, not more than 20.” It does not suggest § 6(d) or Attorney General notice could release the Ruiz restriction."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo explains that § 6(c) applies only if the scholarship purpose becomes “unlawful, impracticable, impossible to achieve or wasteful,” with notice to the Attorney General. It says the ADN program is active with 84 students and that “a budget shortfall does not by itself make a purpose impracticable,” and does not recommend court action as a promising route."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo says the gift agreement restricts “all investment return” to scholarships for ADN students and that “the FY2027 distribution” is “available only for ADN nursing scholarships.” It also explicitly says the board cannot move “earnings or this year's distribution” into general operations."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo states, “FY2027's distribution is 4% of the average of the twelve quarter-end values from 2023-09-30 through 2026-06-30: average $494,183.33, distribution $19,767.33.” It also says the distribution is available only for ADN nursing scholarships."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo says, “Section 5 of the agreement does not apply,” because it “lets the board redirect distributions only if the ADN program ceases to be offered,” and “The program is active.” It does not rely on Section 5 to redirect the fund or say it permits moving the fund to operations."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo directly rejects Joan’s proposal, stating, “We cannot lend $180,000 (or any amount) from the Ruiz endowment to operations.” It cites Policy §4.2, which forbids lending, borrowing, or pledging restricted endowment assets for operating needs “whatever the term or rate,” and adds that repayment with interest does not change that."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo concludes that “§ 6(d) applies” and gives all three required reasons: value “$18,420,” established in “1994” and “32 years ago,” and the Secretarial Studies certificate was closed in 2011, making the purpose “impossible to achieve.”"
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo says counsel sends notice to the Attorney General on October 5, then “the release takes effect no earlier than Friday, December 4, 2026,” and explicitly says it “cannot take effect at the October 21 meeting.” This gives the required notice, 60-day delay, and earliest date."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo says, “The money must be used consistently with the charitable purposes in Mrs. Calloway's letter,” and identifies an Office Administration award as the appropriate use. It explicitly states the fund “cannot be folded into general operations or used for the deficit.”"
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo identifies the “board-designated Operating Reserve ($240,000)” as “not donor-restricted” and says the board can use it by “majority vote of the full board,” with “no donor consent and no notice to the Attorney General.” It explicitly recommends releasing $180,000 of it to close the projected deficit."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The memo asserts that “operating support of the Foundation is a charitable purpose,” but the files do not state the Foundation’s charitable purposes or establish that this use qualifies. Because that unsupported claim determines whether donor consent could permit transfer to general operations, the criterion fails."
+    }
+  ],
+  "costUsd": 0.001795865,
+  "usage": {
+    "inputTokens": 29801,
+    "cachedInputTokens": 22859,
+    "outputTokens": 1401
+  },
+  "gradedAt": "2026-10-10T14:02:45.760Z"
+}

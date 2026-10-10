@@ -1,0 +1,87 @@
+{
+  "judge": "claude-sonnet-5.5",
+  "judgeModel": "anthropic/claude-sonnet-5.5",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/laurene-powell-jobs-dc-journalism",
+  "attempt": 1,
+  "taskHash": "14359b74db9109a6",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report calls her \"Founder and president of Emerson Collective\" and \"the widow of Apple co-founder Steve Jobs.\" It gives his death as October 5, 2011, which is correct. On wealth it says \"The fortune was inherited, mostly as Apple and Disney shares,\" and repeats that it came from Steve Jobs, principally Walt Disney and Apple shares. Nothing contradicts this, so the criterion is met."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report states Emerson Collective is \"an LLC that combines grant-making, venture investing and advocacy\" and \"LLC, not a foundation. It has no Form 990 and no public grant list.\" It never calls Emerson a foundation or charity. The Waverley Street Foundation is correctly kept separate as a 501(c)(3) private foundation that was formerly named the Emerson Collective Foundation, which is not a contrary statement about Emerson Collective itself."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report identifies Waverley Street Foundation as \"her climate foundation,\" a 501(c)(3) private foundation \"organized in 2016 as the Emerson Collective Foundation.\" It states a $3.5 billion commitment over ten years as a spend-down foundation, and says it funds climate work only. It does not call the foundation an LLC or a DAF, since the LLC label is applied to Emerson Collective, and it does not describe it as a general journalism funder. All elements of the criterion are met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report says \"The Atlantic. Emerson Collective agreed to buy a majority stake in July 2017 [7]. The stake is reported at about 70%.\" It also lists her as \"majority investor and board chair of The Atlantic.\" This meets the criterion: majority stake, 2017, through Emerson. Nothing in the report contradicts it."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states \"She controls The Atlantic, which is headquartered in Washington\" and, in Section 7, \"The Atlantic, which she controls, is headquartered in Washington, D.C.\" It also names College Track's Southeast D.C. (Ward 8) center, opened January 2020. Both ties satisfy the criterion, and the Atlantic's HQ is not placed anywhere else."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable gives her net worth as \"$21.4 billion (Bloomberg Billionaires Index, April 2026)\" and says \"Use about $21 billion.\" That is above the $16 billion ceiling, and the criterion explicitly names $21 billion as a failing figure. The report offers no figure within $11-16 billion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists Monumental Sports under \"Holdings\" in the asset profile: \"She holds a stake of about 20%... it is worth roughly $1.4 billion... It is her largest D.C. asset.\" In the connection points it also says \"Her stake of about 20% in Monumental Sports & Entertainment... puts her among D.C.'s civic and business leaders.\" Both present the stake as current, not sold in December 2025, so it fails the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable names many journalism grantees with matching amounts (ProPublica $500,000 in 2016, The 19th $100,000, The Current $170,000 over two years, Texas Tribune $350,000 a year, and the $37 million total). But the criterion fails any report that gives a different amount for a listed gift, and it names ProPublica $2.5 million in 2017 as the example. The deliverable's table says \"ProPublica | $2.5 million | 2017\" where the documented figure is $700,000, so it hits the fail condition."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report lists The Atlantic, Axios, The Athletic, Ozy and Pop-Up Magazine under \"Holdings\" in the wealth section, not under giving history. It states \"This is a for-profit investment, not a gift\" and labels the other media investments \"(all for-profit)\". The ~$37 million journalism giving total is attributed to nonprofit journalism, and no for-profit investments are added into it. The Atlantic appears again as a connection point and a perceived conflict, but never as a gift."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The report never says Emerson Collective does not accept unsolicited proposals. It recommends the opposite: \"Send a two-page letter of inquiry to Emerson Collective's media and journalism team (info@emersoncollective.com)\" followed by a full proposal. That is a letter-of-inquiry process, which the criterion lists as a FAIL condition."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The strategy's step 1 reads \"Send a two-page letter of inquiry to Emerson Collective's media and journalism team (info@emersoncollective.com)\" and then \"Follow it with a full proposal.\" The summary repeats this: \"A letter of inquiry to Emerson's media and journalism team.\" That is an unsolicited submission to Emerson's general inbox, and the warm introduction is only a supporting element. The criterion fails any such recommendation, even as a fallback or second step."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report names both College Track and the XQ Institute as organizations she co-founded. It says \"College Track... She co-founded it in 1997\" and \"XQ Institute. She co-founded it in 2015 with Russlynn Ali, and she chairs it.\" Both founding years match the criterion. Nothing in the report credits either founding to someone else without her or gives a different year."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report recommends a specific ask of \"$300,000 over three years ($100,000 a year) in general operating support.\" It anchors that ask to documented grants: \"The anchor is her grants to comparable newsrooms: The 19th: $100,000; The Current: $170,000 over two years; The Texas Tribune and Chalkbeat: $200,000–$350,000 a year.\" This meets the criterion."
+    },
+    {
+      "id": "C-014",
+      "verdict": "fail",
+      "reasoning": "The report contradicts the fact sheet several times. It gives net worth as \"$21.4 billion (Bloomberg Billionaires Index, April 2026)\", but the sheet puts Bloomberg at $12.2B and sets a tolerance of $11B–$16B. It describes Monumental as a current holding (\"She holds a stake of about 20%\"), but she sold in December 2025. It lists ProPublica 2017 as $2.5 million, but the sheet says $700,000."
+    }
+  ],
+  "costUsd": 0.069891,
+  "usage": {
+    "inputTokens": 83734,
+    "cachedInputTokens": 68640,
+    "outputTokens": 2532
+  },
+  "gradedAt": "2026-10-10T13:57:21.328Z"
+}

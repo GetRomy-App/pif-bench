@@ -1,0 +1,67 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The review states for P-01, “Deductible amount: $420 = $750 − 2 × $165 ($330).” The summary and CRM instructions also consistently assign the two seats a $330 value and the deductible amount $420, with no contradictory figure."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "For P-01, the review requires describing “two gala seats (dinner, open bar, live band)” with a “good-faith estimated value of $330.” It also explicitly requires the statement “that the deductible amount is limited to the excess of the payment over the value of the goods and services provided.” These satisfy all required disclosure elements without contradiction elsewhere."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The P-02 review states, “Goods and services: $2,050 = 10 seats × $165 ($1,650) + VIP reception for 10 guests × $40 ($400).” It also explicitly says the program sponsor-page and stage-signage listing “is recognition and carries no value.” The CRM’s $3,750 figure is identified as wrong and directed to be corrected, not endorsed."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "For P-02, the review states “Deductible amount: $7,950 = $10,000 − $2,050.” It also explicitly instructs Dana to “Change benefit to $2,050 and receipt amount from $6,250 to $7,950,” and does not approve P-02 as entered."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The review gives P-03 a “Deductible amount: $375” and requires the acknowledgment to state “No goods or services were provided in exchange for your contribution.” It explains that she declined the seat on the reply card returned with her check and that no seat was reserved. It also directs Dana to change the benefit from $165 to $0 and the receipt amount from $210 to $375, and prohibits a seat value or quid pro quo disclosure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "For P-04, the review states “Deductible amount: $420” and requires the acknowledgment to describe “two gala seats, good-faith estimate $330” with “the §6115 disclosure sentence.” It explicitly says to “reject Dana's pending change — restore benefit $330, receipt amount $420 and template GALA-QPQ,” explaining that the seats were reserved and available and that an unused benefit does not justify a larger deduction."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "For P-05, the review specifies “Deductible amount: $200” for the gift, for which nothing was provided, and states that the $100 for five raffle tickets is “not a charitable contribution” and “not deductible.” It requires the acknowledgment to show only a $200 contribution and directs Dana to split the payment into a $200 gift and a $100 raffle sale with no receipt amount, explicitly prohibiting a $300 gift or any deductible amount for the raffle tickets."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The P-06 review states “Deductible amount: $1,500” and requires the acknowledgment to say “No goods or services were provided in exchange for your contribution.” It explicitly assigns her seat to the Vasquez-Hart sponsors’ acknowledgment, “not deducted from her gift,” and says her acknowledgment must not state a seat or seat value."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The P-07 review states “Deductible amount: $60” and explicitly says Owen “gets an acknowledgment like every donor.” It requires that acknowledgment to state “No goods or services were provided in exchange for your contribution,” satisfying both required points without contradiction."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "For P-08, the review states “Deductible amount: $30 = $195 − $165.” It also requires the acknowledgment to include the “good-faith estimate $165” and “the §6115 disclosure sentence — required because her payment is more than $75, even though the deductible part is only $30,” satisfying the criterion."
+    }
+  ],
+  "costUsd": 0.07993750000000001,
+  "usage": {
+    "inputTokens": 28417,
+    "cachedInputTokens": 0,
+    "outputTokens": 891
+  },
+  "gradedAt": "2026-10-10T13:59:26.321Z"
+}

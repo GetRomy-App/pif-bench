@@ -1,0 +1,14 @@
+{
+  "candidate": "gemini-3.8-flash",
+  "task": "gift-compliance/restricted-endowment-release-request",
+  "attempt": 1,
+  "promptHash": "87c63d2684767766",
+  "source": "api",
+  "model": "google/gemini-3.8-flash",
+  "finishReason": "stop",
+  "inputTokens": 3210,
+  "outputTokens": 8222,
+  "costUsd": 0.03324,
+  "latencyMs": 45512,
+  "createdAt": "2026-10-10T18:25:26.049Z"
+}

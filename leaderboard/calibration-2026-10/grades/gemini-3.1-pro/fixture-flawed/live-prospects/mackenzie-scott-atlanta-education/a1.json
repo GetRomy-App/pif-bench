@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "live-prospects/mackenzie-scott-atlanta-education",
+  "attempt": 1,
+  "taskHash": "3efad6bd524da3e1",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly describes MacKenzie Scott as a \"novelist and philanthropist\" who \"married Jeff Bezos in 1993, and they divorced in 2019.\" It also avoids the fail conditions by stating she \"holds no Amazon position today\" and correctly identifying her 2019 divorce year."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report accurately identifies her source of wealth, noting that in \"the 2019 divorce settlement she received 25% of the couple's Amazon stock: about 19.7 million shares, roughly 4% of the company.\" It also provides precise, dated figures for both her current holdings (\"139,132,131 Amazon shares as of September 30, 2024\") and net worth (e.g., \"Bloomberg put her at about $42.7 billion on April 18, 2026\")."
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states under 'Latest disclosed holding' that she holds '139,132,131 Amazon shares as of September 30, 2024.' The criterion states to FAIL if the deliverable gives 139 million shares as the current or latest holding, since the actual latest holding on the benchmark date is 81.1 million shares as of September 2025."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The report states her cumulative giving is '$19.25 billion' since 2019. This is a stale total specifically identified in the criterion as a failure condition, rather than the required ~$26 billion."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states in Section 4 that her team and network of advisors do 'quiet research' and contact selected organizations, and that 'She does not accept applications or unsolicited proposals.' It also correctly mentions the past open call as a completed exception."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states not to solicit Scott or send proposals. However, in the engagement strategy section, it recommends: \"Invite Ms. Scott to our spring Celebration of Learning breakfast as an honored guest.\" The criterion specifically states to FAIL if the report recommends inviting her to an event, gala, or site visit."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the Yield Giving Open Call launched in March 2023, gave $640 million to 361 organizations in March 2024, and notes that 'It is completed, and no open call is accepting applications.' It also correctly advises to watch for future open calls, which is permitted by the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "In Section 4, the report includes a bullet titled 'Unrestricted, no strings' which states that 'Gifts are made \"for use however they choose,\"' and notes that grantees are not required to report on how they use them. The table in Section 3 also labels several specific gifts as unrestricted."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The deliverable credits Morehouse College with a $38 million gift in November 2025, which violates the criterion's instruction to fail if Morehouse is credited with a direct Scott gift after 2020."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report accurately lists multiple documented gifts to Atlanta/Georgia education nonprofits that are not colleges, including $8 million to Achieve Atlanta, $6 million to the Southern Education Foundation, $4 million to Communities In Schools of Atlanta, and $3 million to GEEARS. It also correctly notes that the amounts for KIPP Metro Atlanta Schools and Sheltering Arms were not disclosed."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states in Section 1 that 'In 2021 she married Dan Jewett, a Seattle science teacher, and they live in Seattle,' failing to mention their divorce and incorrectly implying they are currently married."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The engagement strategy explicitly advises the organization to 'Be findable and fundable on the indicators her research looks for', listing stable finances, a multi-year track record, measurement and evidence of outcomes, and experienced leadership representative of the community it serves. This covers all four indicators mentioned in the criterion."
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable contradicts the fact sheet in multiple places. It states that she is married to Dan Jewett and they live in Seattle, whereas the fact sheet states they divorced in 2023 and she is not married. Additionally, the report claims Morehouse College received a $38 million gift in November 2025, which directly contradicts the fact sheet's statement that Morehouse College's only documented gift from Scott was in July 2020."
+    }
+  ],
+  "costUsd": 0.16636999999999996,
+  "usage": {
+    "inputTokens": 54991,
+    "cachedInputTokens": 0,
+    "outputTokens": 4699
+  },
+  "gradedAt": "2026-10-10T14:02:11.016Z"
+}

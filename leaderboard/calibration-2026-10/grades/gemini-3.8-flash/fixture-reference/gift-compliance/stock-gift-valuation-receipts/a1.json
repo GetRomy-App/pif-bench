@@ -1,0 +1,67 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-reference",
+  "task": "gift-compliance/stock-gift-valuation-receipts",
+  "attempt": 1,
+  "taskHash": "92d77fe55f811ea9",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet clearly lists the date of gift for the Marchetti gift as '2026-01-02' and the tax year as '2026'. Furthermore, the receipt wording explicitly states that the 400 shares were 'credited to our account on January 2, 2026', with no reference to 2025 as the gift date."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable values the Marchetti gift at $25,068.00, calculated as 400 shares × $62.67 (the mean of the high of $63.48 and low of $61.86 on 2026-01-02). This matches the criterion requirement exactly."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The Delacroix gift is correctly dated 2025-12-30, assigned to tax year 2025, and valued at $9,557.50 based on 250 shares at the per-share value of $38.23 (mean of high $38.62 and low $37.84 on 2025-12-30)."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly dates the Fenn gift 2025-12-31 based on the postmark date of the mailed certificate, assigns it to tax year 2025, and uses December 31, 2025 in the donor receipt wording."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly values the Walter H. Fenn gift at $10,149.60, based on 120 shares multiplied by the mean per-share value of $84.58 (mean of high $85.22 and low $83.94 on 2025-12-31)."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The gift-entry sheet correctly lists the Szabo gift (G-4) with date of gift '2025-12-31' and tax year '2025'. In the notes, it confirms: 'the shares were credited to our fund account on 2025-12-31, which is the date of gift.'"
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable values the Szabo gift at exactly $20,048.67, explicitly calculating it as 812.345 shares multiplied by the $24.68 net asset value on 2025-12-31."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "Section 2 provides the receipt wording for all four donors and explicitly notes: 'No receipt states a dollar value or a per-share price (§6.4)'. None of the receipt texts or proposed donor-facing responses contain any dollar amounts, per-share prices, or estimated values."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The receipt wording in Section 2 explicitly includes the exact share counts and security names for each donor: '400 shares of Quarry Point Industries, Inc. common stock' for Marchetti, '250 shares of Harrow Valley Bancorp common stock' for Delacroix, '120 shares of Ostrander Railcar Corporation common stock' for Fenn, and '812.345 shares of Lantern Ridge Balanced Fund, Class A' for Szabo."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "Each of the four receipts (G-1, G-2, G-3, and G-4) explicitly includes the sentence: \"No goods or services were provided in exchange for your gift.\""
+    }
+  ],
+  "costUsd": 0.024252750000000003,
+  "usage": {
+    "inputTokens": 28102,
+    "cachedInputTokens": 0,
+    "outputTokens": 847
+  },
+  "gradedAt": "2026-10-10T13:59:29.282Z"
+}

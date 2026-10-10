@@ -1,0 +1,82 @@
+{
+  "judge": "gemini-3.8-flash",
+  "judgeModel": "google/gemini-3.8-flash",
+  "candidate": "fixture-flawed",
+  "task": "finance-governance/form-990-ratio-review",
+  "attempt": 1,
+  "taskHash": "7d3a4913319f087f",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "fail",
+      "reasoning": "The memo computes the program expense ratio using $4,886,000 ÷ $6,335,000, removing only the $14,180,000 of donated food distributed from total expenses rather than all $14,275,000 of gifts in kind expensed (which would yield $6,240,000). The criterion explicitly specifies FAIL if it 'removes only the donated food from the denominator (giving $6,335,000)'."
+    },
+    {
+      "id": "C-002",
+      "verdict": "fail",
+      "reasoning": "The criterion requires the program expense ratio to be reported as 78.3% and explicitly states to FAIL if it reports 77.1%. The deliverable calculates and reports the program expense ratio as 77.1% ($4,886,000 ÷ $6,335,000 = 77.1%)."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo clearly indicates that the program expense ratio target (80.0% or higher) was not met. In the summary table, it lists 'Program expense ratio | 77.1% | 80.0% or higher | Not met' and states under section 1: '$4,886,000 ÷ $6,335,000 = 77.1% — below the 80.0% target. Not met.'"
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly removes the $600,000 bequest ('Less bequest — Estate of Harriet M. Okafor, received August 2025: (600,000)') from the contributions denominator in Section 2, and states: 'The policy removes every bequest and estate distribution from the denominator because bequests are non-recurring (policy section 3.2).'"
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly calculates the contributions denominator for the cost to raise a dollar as $3,985,000 by taking contributions ($18,930,000) less noncash contributions ($14,345,000) less the bequest ($600,000), explicitly labeling 'Contributions for this indicator' as '$3,985,000'."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo correctly calculates and reports the cost to raise a dollar as $0.22, showing the exact formula and components: '$866,300 ÷ $3,985,000 = $0.217, reported as $0.22.' Both the summary table and Section 2 present this value without using any of the disqualified figures."
+    },
+    {
+      "id": "C-007",
+      "verdict": "fail",
+      "reasoning": "The deliverable explicitly states that the cost to raise a dollar target was met, writing in the summary table: 'Cost to raise a dollar | $0.22 | $0.20 or less | Met' and later stating 'This is within the policy's $0.25 threshold, so the indicator is met'. The criterion specifically requires reporting that the target was not met and mandates FAIL if it says the target was met or treats the $0.25 threshold as the target."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable starts the operating reserve calculation from total net assets: 'Total net assets, Part X line 32, end of year: $7,852,000'. The criterion explicitly specifies: 'FAIL if it starts from total net assets of $7,852,000'."
+    },
+    {
+      "id": "C-009",
+      "verdict": "fail",
+      "reasoning": "The memo calculates the operating reserve as $2,744,000 using Total net assets ($7,852,000) less land, buildings and equipment ($5,108,000), rather than using net assets without donor restrictions ($6,612,000 - $5,108,000 = $1,504,000). The criterion explicitly specifies FAIL if $2,744,000 is used."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly calculates 'Annual operating expenses' as '$5,794,000' by subtracting depreciation ($446,000) and all gifts in kind expensed ($14,275,000) from total functional expenses ($20,515,000). It also shows the monthly operating expenses as '$482,833'."
+    },
+    {
+      "id": "C-011",
+      "verdict": "fail",
+      "reasoning": "The criterion explicitly requires the memo to report 3.1 months of operating reserve and states to FAIL if it reports any other figure, such as 5.7. The deliverable calculates and reports '5.7 months' ($2,744,000 ÷ $482,833 = 5.7 months)."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The memo clearly indicates that the operating reserve target was met. In the summary table, it lists 'Months of operating reserve' with a 2025 result of 5.7 months, target of '3.0 months or more', and 'Met'. Section 3 concludes with '**$2,744,000 ÷ $482,833 = 5.7 months** — above the 3.0-month target. **Met.**'"
+    },
+    {
+      "id": "C-013",
+      "verdict": "fail",
+      "reasoning": "The deliverable states under the Summary section: 'The program expense ratio is down from 81.6% in fiscal 2024.' However, an 81.6% program expense ratio for fiscal 2024 appears nowhere in the provided files and cannot be computed from them (the 2024 functional expenses are not provided in full in the files). The criterion explicitly specifies: 'FAIL if the memo states for the Food Bank a figure that appears in no file and is not computed from the files, such as a fiscal 2024 ratio...'"
+    }
+  ],
+  "costUsd": 0.02954325,
+  "usage": {
+    "inputTokens": 32511,
+    "cachedInputTokens": 0,
+    "outputTokens": 1376
+  },
+  "gradedAt": "2026-10-10T14:01:37.332Z"
+}

@@ -1,0 +1,67 @@
+{
+  "judge": "gemini-3.1-pro",
+  "judgeModel": "google/gemini-3.1-pro-preview",
+  "candidate": "fixture-flawed",
+  "task": "gift-compliance/gala-acknowledgment-review",
+  "attempt": 1,
+  "taskHash": "4cbade52bc99d614",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the deductible amount for P-01 as $420 in both the summary table and the detailed section. It explicitly calculates this as \"$750 − 2 × $165 ($330)\", matching the required seat value."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states that P-01's acknowledgment must state that they received \"two gala seats (dinner, open bar, live band) with a good-faith estimated value of $330\" and must include the statement \"that the deductible amount is limited to the excess of the payment over the value of the goods and services provided.\""
+    },
+    {
+      "id": "C-003",
+      "verdict": "fail",
+      "reasoning": "The deliverable values the goods and services for P-02 at $3,750, stating \"Goods and services: $3,750 — the table of 10 at the $375 ticket price\". The criterion explicitly requires this to be valued at $2,050 ($165 per seat plus $40 per VIP guest) and fails it for using the $3,750 figure."
+    },
+    {
+      "id": "C-004",
+      "verdict": "fail",
+      "reasoning": "The deliverable fails because it gives P-02 a deductible amount of $6,250 instead of $7,950. It also explicitly approves P-02 as entered, stating \"CRM: correct as entered\" rather than requiring a correction."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly sets the deductible amount for P-03 to $375, noting that the donor declined the seat on the reply card and no seat was reserved. It instructs the CRM to be corrected (benefit $165 → $0, receipt amount $210 → $375) and specifies that the acknowledgment must state 'No goods or services were provided' while explicitly forbidding the mention of a seat value or the quid pro quo disclosure."
+    },
+    {
+      "id": "C-006",
+      "verdict": "fail",
+      "reasoning": "The deliverable gives P-04 a deductible amount of $750, approves Dana's pending change to remove the benefit value, and states that not attending means no goods or services were provided. The criterion requires a $420 deductible amount and rejecting the pending change."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The deliverable clearly states that the deductible amount for P-05 is $200, explaining that the '$100 bought five raffle tickets, which are not a charitable contribution and are not deductible'. It explicitly instructs not to state a $300 gift or any deductible amount for the raffle tickets."
+    },
+    {
+      "id": "C-008",
+      "verdict": "fail",
+      "reasoning": "The deliverable reduces the deductible amount for P-06 to $1,335 and explicitly states that the acknowledgment must describe one gala seat with an estimated value of $165. This directly violates the criterion's instruction that the amount must remain $1,500 and not be reduced for the seat occupied at the sponsor's table."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The deliverable correctly identifies the deductible amount for P-07 as $60 and states that the acknowledgment must include the phrase 'No goods or services were provided in exchange for your contribution'. It also explicitly notes that he receives an acknowledgment like every donor."
+    },
+    {
+      "id": "C-010",
+      "verdict": "fail",
+      "reasoning": "The deliverable correctly identifies the deductible amount for P-08 as $30, but it incorrectly states that the disclosure sentence is not needed because the deductible portion is under $75."
+    }
+  ],
+  "costUsd": 0.102462,
+  "usage": {
+    "inputTokens": 27693,
+    "cachedInputTokens": 0,
+    "outputTokens": 3923
+  },
+  "gradedAt": "2026-10-10T13:57:05.424Z"
+}

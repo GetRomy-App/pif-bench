@@ -1,0 +1,97 @@
+{
+  "judge": "gpt-6.1-sol",
+  "judgeModel": "openai/gpt-6.1-sol",
+  "candidate": "fixture-reference",
+  "task": "live-prospects/robert-f-smith-texas-hbcu-engineering",
+  "attempt": 1,
+  "taskHash": "3fb8490c9553897b",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies the prospect as “Robert Frederick ('Robert F.') Smith, founder, chairman and CEO of Vista Equity Partners” and distinguishes him from the musician and former senator. Its background, philanthropic gifts, wealth profile, and 2020 legal matter consistently concern the Vista founder; there is no apparent merging of another Robert Smith’s records."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies Smith as “Founder, Chairman and CEO of Vista Equity Partners, which he founded in 2000.” This satisfies all required roles and the founding-year requirement, with no contradictory statement elsewhere in the deliverable."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The report states: \"B.S. in chemical engineering, Cornell University (1985); M.B.A., Columbia Business School (1994).\" This includes the required Cornell chemical engineering bachelor's degree and correctly identifies both graduation years and the MBA institution, with no contradictory degree information elsewhere."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The report explicitly states “Residence: Austin, Texas” in the personal background section. It also reiterates “He lives in Austin” under connection points, and does not place his residence elsewhere."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The report states, \"Net worth: about $10 billion,\" identifying it as Forbes' March 8, 2026 real-time figure and 2026 billionaires-list value. This current figure falls within the required $9 billion–$13 billion band, and the report does not present a conflicting current estimate."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The report explicitly identifies the giving vehicle as “Fund II Foundation, his private foundation” and states that Smith “is its founding director and President; recent 990-PFs list him as a director.” It also discusses preparing for a Fund II Foundation grant, clearly identifying it as a vehicle for his giving."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The philanthropy table lists the 2016 Cornell University gift as \"$50 million (combined, Smith and Fund II Foundation).\" It also states that Cornell named the \"Robert Frederick Smith School of Chemical and Biomolecular Engineering,\" satisfying both the required amount and naming recognition. The additional description of Smith's personal portion is explicitly permitted by the criterion."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The report lists the Morehouse College Class of 2019 gift as \"$34 million\" and states, \"At the May 19, 2019 commencement he pledged to pay off the student loans of about 400 graduates.\" It also clearly identifies $40 million as an early estimate that was superseded, rather than the final gift amount."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The report describes SFI as supporting “STEM juniors and seniors at HBCUs” and identifies it among programs Smith “designs and chairs himself.” It correctly states “$50 million from Fund II Foundation (June 2020)” and “$50 million personal gift from Smith (October 2020).” It also explicitly distinguishes Cisco’s $150 million and Steinbridge’s $100 million commitments as “Not his money,” so no prohibited attribution appears."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The report documents several qualifying Texas HBCU ties, including that “Prairie View A&M University was one of SFI's first nine partner HBCUs (announced November 2020, launched fall 2021)” and remains an SFI partner. It also names the November 2021 expansion schools, Smith's May 2014 Huston-Tillotson commencement address, and Fund II Foundation's “$10,000 donation to Prairie View A&M in 2021.”"
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The report states, \"No major gift from Smith to a Texas HBCU is on record\" and identifies only Fund II Foundation's \"$10,000 donation to Prairie View A&M in 2021.\" Its other Texas HBCU connections concern SFI participation and a commencement address, not additional gifts, pledges, or named funds. It therefore credits no prohibited Texas HBCU gift."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "The report states that on “October 15, 2020 the DOJ announced that Smith had entered a non-prosecution agreement” concerning a 2000–2015 scheme using offshore entities and accounts “to hide more than $200 million of income.” It correctly gives the payment as “more than $139 million in taxes and penalties” and separately identifies the $182 million as abandoned refund claims, not the payment total."
+    },
+    {
+      "id": "C-013",
+      "verdict": "pass",
+      "reasoning": "The report accurately states that Smith entered a “non-prosecution agreement,” that “He was not charged,” and that “He admitted the conduct.” It does not claim he was indicted, convicted, pleaded guilty, sentenced, or exonerated, nor does it attribute Brockman’s indictment or roughly $2 billion scheme to Smith."
+    },
+    {
+      "id": "C-014",
+      "verdict": "pass",
+      "reasoning": "The report explicitly instructs: “Do not raise the matter with Smith or his staff, and keep it out of proposals and talking points.” It confines the issue to internal due diligence, recommending review by the president and gift-acceptance committee and a brief, neutral response only if Smith raises it. Nothing elsewhere recommends using the tax matter in cultivation or solicitation."
+    },
+    {
+      "id": "C-015",
+      "verdict": "pass",
+      "reasoning": "The report states an estimated single-gift capacity of \"$25–50 million\" for an HBCU STEM program. Its recommended ask is \"$10 million over five years,\" which does not exceed the $50 million upper end of the capacity estimate."
+    },
+    {
+      "id": "C-016",
+      "verdict": "pass",
+      "reasoning": "The report's amounts, dates, roles and legal status are consistent with the fact sheet, including the Morehouse gift of \"$34 million,\" SFI's separate $50 million foundation and personal commitments, and Smith's status as \"not charged\" under the 2020 non-prosecution agreement. Its Texas ties distinguish Prairie View A&M's continuing partnership from the institutions named in the 2021 expansion. The alternative Cornell 2022 amount is explicitly permitted by section 8; no contradictory fact appears elsewhere in the report."
+    }
+  ],
+  "costUsd": 0.137096,
+  "usage": {
+    "inputTokens": 49376,
+    "cachedInputTokens": 0,
+    "outputTokens": 1368
+  },
+  "gradedAt": "2026-10-10T14:03:30.009Z"
+}

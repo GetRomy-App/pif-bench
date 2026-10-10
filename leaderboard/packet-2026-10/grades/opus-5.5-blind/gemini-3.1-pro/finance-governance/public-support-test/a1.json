@@ -1,0 +1,79 @@
+{
+  "judge": "opus-5.5-blind",
+  "judgeModel": "claude-code/claude-opus-5.5",
+  "candidate": "gemini-3.1-pro",
+  "task": "finance-governance/public-support-test",
+  "attempt": 1,
+  "taskHash": "1d5c4ca7aecfcd1f",
+  "deliverableHash": "c85b9a5c81977fc8",
+  "protocol": "552c44683746",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "Line 11 is given as \"Total support: $3,671,600,\" built from Line 7 ($3,590,300) plus Line 8 interest and dividends ($81,300), with Lines 9 and 10 at $0."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The Line 12 note says \"The $454,400 in gross receipts—consisting of $118,500 for landowner workshops, $79,900 for guided trips, and $256,000 for the Kettle County fee-for-service contract—are excluded from both total support and public support.\" The county contract is not treated as a grant."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "Line 10 is $0, and the memo explains that \"The $182,000 realized gain on the sale of Marguerite Ostrander's stock is excluded from total support because ... gains from the sale of capital assets are not included.\" No part of the gain is in total or public support."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo states \"The 2% limit for this five-year period is $73,432 (2% of the $3,671,600 Total Support on Line 11).\""
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "Benedict Sarkis is listed among donors \"who gave less than 2% (no excess)\" at $50,000, and his gifts \"remain fully in the public support calculation because their total five-year giving falls below the $73,432 threshold.\" No year-by-year limit is applied to anyone."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "DEQ ($160,000) and Upper Alder Community Foundation ($135,000) appear under \"Funders legally exempt from the 2% limit,\" and the memo says these grants \"count entirely as public support,\" because DEQ is a governmental unit and the community foundation is a 170(b)(1)(A)(vi) charity."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "Hollins-Pryor Family Foundation (private foundation) appears under funders exceeding the limit: \"Gave $225,000. Its excess over the 2% limit is $151,568,\" so $73,432 counts. It is treated as a \"person\" subject to the limit and kept separate from the exempt community foundation."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "\"Line 6 (Public support): $1,260,596,\" calculated as $3,590,300 minus a Line 5 excess of $2,329,704, which is made up of Ostrander $1,951,568, Dellwood $226,568 and Hollins-Pryor $151,568."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "\"Line 14 (Public support percentage): 34.33%\" is calculated as $1,260,596 divided by $3,671,600."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo opens: \"The Council successfully passes the one-third (33⅓%) public support test for the 2025 Form 990 Schedule A,\" and Line 16a reads \"Pass.\" That is a plain answer, and the memo does not suggest relying on the facts-and-circumstances test."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "The memo states \"While we pass, the result is close—about one percentage point above the threshold,\" which matches 34.33% against 33.33%."
+    },
+    {
+      "id": "C-012",
+      "verdict": "pass",
+      "reasoning": "Line 1 says \"No gifts were excluded as 'unusual grants' because no determination for exclusion was made,\" and for Ostrander it says \"None of her recurring annual gifts qualify as unusual grants.\" Every contribution is counted and no reclassification is suggested."
+    }
+  ],
+  "costUsd": 0,
+  "usage": {
+    "inputTokens": 0,
+    "cachedInputTokens": 0,
+    "outputTokens": 0
+  },
+  "gradedAt": "2026-10-10T18:48:07.829Z"
+}

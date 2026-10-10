@@ -1,0 +1,14 @@
+{
+  "candidate": "gpt-6.1-sol",
+  "task": "donor-data/duplicate-household-review",
+  "attempt": 1,
+  "promptHash": "b8e5748f82f74fd8",
+  "source": "api",
+  "model": "openai/gpt-6.1-sol",
+  "finishReason": "stop",
+  "inputTokens": 3652,
+  "outputTokens": 2935,
+  "costUsd": 0.0384785,
+  "latencyMs": 45603,
+  "createdAt": "2026-10-10T18:15:27.164Z"
+}

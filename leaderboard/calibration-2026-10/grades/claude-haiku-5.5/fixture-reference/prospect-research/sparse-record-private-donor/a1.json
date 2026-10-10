@@ -1,0 +1,72 @@
+{
+  "judge": "claude-haiku-5.5",
+  "judgeModel": "anthropic/claude-haiku-5.5",
+  "candidate": "fixture-reference",
+  "task": "prospect-research/sparse-record-private-donor",
+  "attempt": 1,
+  "taskHash": "52b07f169d2f7097",
+  "criteria": [
+    {
+      "id": "C-001",
+      "verdict": "pass",
+      "reasoning": "The memo concludes that the Ledger article's Emily Hartwell 'is not our Emily,' explicitly stating 'The article's founder is 34 and married to Andre Hartwell. Our Emily was born in 1968, so she is about 58, and her husband is Daniel P. Hartwell.' The conflicting identifiers (age/birth year and spouse) are named, and the memo does not treat the match as possible or pending. This satisfies the PASS condition."
+    },
+    {
+      "id": "C-002",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly rejects the Colorado Business Ledger story, the Trailhead Analytics Form D, and the $84 million sale as belonging to a different Emily Hartwell, stating 'None of the $84 million sale belongs to our donor.' It attributes no Trailhead stake or founder role to constituent 4471, and it does not use any of these figures in the rating or the ask. The only Form D reference is labeled as belonging to the namesake, and the memo does not suggest she may have sale proceeds or software wealth."
+    },
+    {
+      "id": "C-003",
+      "verdict": "pass",
+      "reasoning": "The memo lists the Salisbury camp (parcel 07-112, owner HARTWELL EMILY J) under 'Records rejected' and states the conflict: 'Conflict: middle initial J against R. The Denver mailing address matches the article's Emily Hartwell, who says she owns her grandparents' Lake Dunmore camp.' It is not included in her real estate, its $296,500 value is not counted, and it is not treated as possibly hers. The criterion's pass conditions are met."
+    },
+    {
+      "id": "C-004",
+      "verdict": "pass",
+      "reasoning": "The memo reports the home at 48 Foxcroft Ln, Middlebury, owned by Emily R. & Daniel P. Hartwell, with '2026 listed value $412,300 after the town-wide reappraisal (2025: $301,800).' It uses the correct 2026 figure and mentions the 2025 value only as context, not as the figure applied. The home is not left out, and the rating section also relies on the $412,300 figure."
+    },
+    {
+      "id": "C-005",
+      "verdict": "pass",
+      "reasoning": "The memo identifies 'Business: Hartwell Bookkeeping & Tax, LLC. Active since 2011; manager and registered agent Emily R. Hartwell, 48 Foxcroft Ln. No revenue or value is published.' It assigns no dollar value or revenue to the LLC and explicitly states 'The LLC is hers, but no value is published, so it is noted and not counted' in the rating section. This meets the PASS condition on every element."
+    },
+    {
+      "id": "C-006",
+      "verdict": "pass",
+      "reasoning": "The memo explicitly states 'Net worth: we cannot give one' and cites Section 4 of the standards as disallowing any net-worth estimate for prospects. It reports only the verified $412,300 home value as a property value, which the criterion allows. The $84 million and $25 million figures appear only as rejected records belonging to a different Emily Hartwell, not as her net worth, so they do not violate the criterion."
+    },
+    {
+      "id": "C-007",
+      "verdict": "pass",
+      "reasoning": "The memo states 'Rating: U — Unrated (insufficient data)' and explains that only real estate (the Middlebury home at $412,300) has a verified record, the LLC has no published value, there are no public securities, and no major philanthropy of $5,000 or more. It gives no capacity figure or range and does not rate her from the article, which it explicitly rejects as a different person. The reasoning matches the criterion's standard."
+    },
+    {
+      "id": "C-008",
+      "verdict": "pass",
+      "reasoning": "The memo's Section 5 explicitly recommends that Paula 'hold a discovery visit with her after the gala' and says 'It should be a conversation, not an ask: learn about her interests, her connection to the School and her philanthropic plans, and record them in a contact report,' with Research re-rating afterward. This matches the criterion's requirement to learn about interests and plans before any larger ask or rating, and the visit is not turned into a solicitation (the $25,000 sponsorship is explicitly withheld)."
+    },
+    {
+      "id": "C-009",
+      "verdict": "pass",
+      "reasoning": "The memo states '2026-04-03: $750, Spring Appeal, by check. This is her last gift.' and computes the ask from it ('Ask = 1.5 × $750 = $1,125, rounded up... = $1,250'). It explicitly sets aside the $2,000 Summer Concert Series soft credit from Hartwell Bookkeeping & Tax, LLC and treats the $150 Spring Recital tickets as a purchase, not a gift. It does not use $1,000 as the last gift; it notes the $1,000 paddle raises only to say the rule uses the last gift, not the largest."
+    },
+    {
+      "id": "C-010",
+      "verdict": "pass",
+      "reasoning": "The memo's recommended gala ask is $1,250, computed as 1.5 × $750 = $1,125 rounded up to the next $250, matching the criterion exactly. It explicitly states the $25,000 Presenting Sponsorship ask should not go forward and that no ask above $1,250 can be made until discovery and rating, so it recommends no larger gala ask."
+    },
+    {
+      "id": "C-011",
+      "verdict": "pass",
+      "reasoning": "I checked each biographical, financial and gift fact the memo attributes to Emily R. Hartwell (birth year 1968, husband Daniel P. Hartwell, 48 Foxcroft Ln home and $412,300 value, Hartwell Bookkeeping & Tax LLC, 2003 CPA license, piano study, Community Chorus, $750 last gift, $1,000 largest gifts, $2,000 soft credit) and each matches the CRM record or public records. The memo's rule citations point to a standards document not included in the reference files, but the criterion concerns donor facts, and none of the donor facts lack a source."
+    }
+  ],
+  "costUsd": 0.002201005,
+  "usage": {
+    "inputTokens": 34690,
+    "cachedInputTokens": 31823,
+    "outputTokens": 3051
+  },
+  "gradedAt": "2026-10-10T14:03:27.878Z"
+}

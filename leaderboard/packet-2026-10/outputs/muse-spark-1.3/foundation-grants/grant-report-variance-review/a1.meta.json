@@ -1,0 +1,14 @@
+{
+  "candidate": "muse-spark-1.3",
+  "task": "foundation-grants/grant-report-variance-review",
+  "attempt": 1,
+  "promptHash": "1f0587cbb08952a5",
+  "source": "api",
+  "model": "meta/muse-spark-1.3",
+  "finishReason": "stop",
+  "inputTokens": 4415,
+  "outputTokens": 9832,
+  "costUsd": 0.04730475,
+  "latencyMs": 49617,
+  "createdAt": "2026-10-10T18:32:26.926Z"
+}

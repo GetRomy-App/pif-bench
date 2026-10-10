@@ -1,0 +1,91 @@
+{
+  "title": "Compute a food bank's board-policy financial health indicators from its Form 990 and audit notes",
+  "track": "packet",
+  "work_type": "calculate",
+  "as_of": "2026-09-04",
+  "tags": [
+    "finance-governance",
+    "form-990",
+    "financial-ratios",
+    "in-kind",
+    "operating-reserve",
+    "board-reporting"
+  ],
+  "instructions": "The finance committee meets on September 15 to review fiscal 2025 against the board's Financial Health Indicators Policy. Using the filed 2025 Form 990 excerpt and the audited statements' notes, calculate each indicator the policy defines, show the inputs and where each comes from, and tell the committee which targets were met and which were not. Address the memo to Rosalind Achterberg, the committee chair; it goes out with the meeting materials on September 9.",
+  "deliverable": "fy2025-financial-indicators-memo.md",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Program expense ratio removes both gifts in kind",
+      "match_criteria": "PASS if the memo computes the program expense ratio from program expenses of $4,886,000 (Part IX column (B) $19,066,000 less $14,180,000 of donated food distributed) over total expenses of $6,240,000 ($20,515,000 less all $14,275,000 of gifts in kind expensed: the $14,180,000 of donated food and the $95,000 of donated legal services). FAIL if it uses the unadjusted Part IX totals ($19,066,000 ÷ $20,515,000), removes only the donated food from the denominator (giving $6,335,000), uses the $14,250,000 of donated food received instead of the $14,180,000 distributed, or also removes depreciation or any other item that is not a gift in kind."
+    },
+    {
+      "id": "C-002",
+      "title": "Program expense ratio is 78.3%",
+      "match_criteria": "PASS if the memo reports the program expense ratio as 78.3% ($4,886,000 ÷ $6,240,000 = 78.30%). The memo may also mention the unadjusted Form 990 figure (92.9%) if it says that figure is not the policy's ratio. FAIL if it reports any other figure as the policy ratio — such as 92.9% (no gifts-in-kind adjustment), 77.1% (donated legal services left in the denominator) or 77.6% (depreciation also removed)."
+    },
+    {
+      "id": "C-003",
+      "title": "Program expense target reported as not met",
+      "match_criteria": "PASS if the memo tells the committee the program expense ratio target (80.0% or higher) was not met in 2025. FAIL if it says the target was met, or does not say whether it was met.",
+      "red_line": true
+    },
+    {
+      "id": "C-004",
+      "title": "Takes the $600,000 Okafor bequest out of the fundraising denominator",
+      "match_criteria": "PASS if the memo removes the $600,000 bequest from the Estate of Harriet M. Okafor from the contributions used in the cost to raise a dollar, and gives as the reason that the policy excludes bequests and estate distributions (for example because they are non-recurring). FAIL if the bequest stays in the denominator, or the memo does not mention the bequest at all."
+    },
+    {
+      "id": "C-005",
+      "title": "Contributions denominator of $3,985,000",
+      "match_criteria": "PASS if the memo's contributions figure for the cost to raise a dollar is $3,985,000 (Part VIII line 1h $18,930,000 − line 1g noncash contributions $14,345,000 − the $600,000 bequest). FAIL if it uses any other figure — such as $4,585,000 (bequest left in), $18,330,000 (noncash contributions left in), $18,930,000 (line 1h unadjusted), $2,880,000 (government grants also removed) or a figure that adds program service revenue, such as $5,633,000."
+    },
+    {
+      "id": "C-006",
+      "title": "Cost to raise a dollar is $0.22",
+      "match_criteria": "PASS if the memo reports the cost to raise a dollar as $0.22 ($866,300 of fundraising expenses ÷ $3,985,000 = $0.2174). FAIL if it reports any other figure — such as $0.19 (bequest left in), $0.05 (noncash contributions left in), $0.30 (government grants removed) or $0.23 (fundraising-event direct expenses added to fundraising expenses)."
+    },
+    {
+      "id": "C-007",
+      "title": "Cost-to-raise-a-dollar target reported as not met",
+      "match_criteria": "PASS if the memo tells the committee the cost-to-raise-a-dollar target ($0.20 or less) was not met in 2025. The memo may add that $0.22 is below the $0.25 level that triggers an external review. FAIL if it says the target was met — including by treating the $0.25 external-review trigger as the target — or does not say whether it was met.",
+      "red_line": true
+    },
+    {
+      "id": "C-008",
+      "title": "Reserve counts no donor-restricted net assets",
+      "match_criteria": "PASS if the memo builds the operating reserve from net assets without donor restrictions of $6,612,000 (Part X line 27, end of year) and leaves out the $1,240,000 of net assets with donor restrictions. FAIL if it starts from total net assets of $7,852,000, or counts any part of the $1,240,000 (for example the $890,000 cold-storage fund) as reserve."
+    },
+    {
+      "id": "C-009",
+      "title": "Operating reserve of $1,504,000",
+      "match_criteria": "PASS if the memo's operating reserve is $1,504,000 ($6,612,000 net assets without donor restrictions − $5,108,000 land, buildings and equipment, net). FAIL if it uses any other figure — such as $2,744,000 (total net assets less fixed assets), $6,612,000 (fixed assets not subtracted), $809,000 (beginning-of-year balances), $1,581,000 (the liquidity note's available financial assets) or $904,000 (the bequest also subtracted)."
+    },
+    {
+      "id": "C-010",
+      "title": "Annual operating expenses of $5,794,000",
+      "match_criteria": "PASS if the memo's annual operating expenses for the reserve are $5,794,000 ($20,515,000 − $446,000 depreciation − $14,275,000 gifts in kind expensed), or it states the monthly figure as $482,833 (or $482,833.33). FAIL if it uses any other figure — such as $6,240,000 (depreciation left in), $20,069,000 (gifts in kind left in), $5,889,000 (donated legal services left in) or $20,515,000."
+    },
+    {
+      "id": "C-011",
+      "title": "Months of operating reserve is 3.1",
+      "match_criteria": "PASS if the memo reports 3.1 months of operating reserve ($1,504,000 ÷ $482,833 = 3.11). FAIL if it reports any other figure — such as 2.9 (depreciation left in expenses), 0.9 (gifts in kind left in), 5.7 (donor-restricted net assets counted), 13.7 (fixed assets not subtracted), 3.3 (liquidity-note figure) or 1.9."
+    },
+    {
+      "id": "C-012",
+      "title": "Reserve target reported as met",
+      "match_criteria": "PASS if the memo tells the committee the operating-reserve target (3.0 months or more) was met in 2025. FAIL if it says the target was not met, or does not say whether it was met."
+    },
+    {
+      "id": "C-013",
+      "title": "States no financial figure the files do not support",
+      "match_criteria": "PASS if every figure the memo gives for the Food Bank — revenue, expenses, balances, ratios, prior-year comparisons, budgets — appears in the files or is computed from them. FAIL if the memo states for the Food Bank a figure that appears in no file and is not computed from the files, such as a fiscal 2024 ratio, a budget target, or a peer benchmark presented as the Food Bank's own data. Arithmetic slips, superseded figures and misapplied rules — a wrong total, a date counted the wrong way, a step a policy forbids — are judged by the task's other criteria and do not fail this one: it fails only on a fact, figure, rule, approval or person with no source in the files, or on something the files attribute to someone else.",
+      "sources": [
+        "documents/audit-notes-2025.md",
+        "documents/financial-health-indicators-policy.md",
+        "documents/form-990-2025-excerpt.md"
+      ],
+      "red_line": true
+    }
+  ]
+}
